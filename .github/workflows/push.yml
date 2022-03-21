@@ -1,0 +1,16 @@
+name: Prueba Lighthouse a push
+on: push
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Testear la página publicada
+      uses: jakejarvis/lighthouse-action@master
+      with:
+        url: 'https://caefis.netlify.app/'
+    - name: Subir resultados
+      uses: actions/upload-artifact@master
+      with:
+        name: Reporte
+        path: './report'

@@ -1,0 +1,15 @@
+name: Prueba Lighthouse a pull request
+on: pull_request
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Auditar Netlify deploy preview
+      uses: jakejarvis/lighthouse-action@master
+      with:
+        netlify_site: 'caefis.netlify.app'
+    - uses: actions/upload-artifact@master
+      with:
+        name: Reporte
+        path: './report'
