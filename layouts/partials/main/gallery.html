@@ -1,0 +1,71 @@
+<!-- SCSS-->
+{{ $sass := resources.Get "scss/components/_gallery.scss" }}
+{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"> 
+
+<!-- Swiper's CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+<!-- Content -->
+<div class="blog-slider">
+  <div class="blog-slider__wrp swiper-wrapper">
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        
+        <img src="https://www.lifeder.com/wp-content/uploads/2021/12/REDI-Boltzmann2.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">1844</span>
+        <div class="blog-slider__title">Ludwig Boltzmann</div>
+        <div class="blog-slider__text">"Soy consciente de ser sólo un individuo que lucha débilmente contra la corriente del tiempo. Pero todavía está en mi mano contribuir de tal manera que, cuando la teoría de los gases vuelva a resurgir, no haya que redescubrir demasiado".</div>
+        <a href="https://www.youtube.com/watch?v=Tr_gv5CKB1Y" class="blog-slider__button">Ecuación de entropía de Boltzmann</a>
+      </div>
+    </div>
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://static01.nyt.com/images/2019/05/24/obituaries/24Gall-Mann2/24Gall-Mann2-articleLarge.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">1929</span>
+        <div class="blog-slider__title">Murray Gell-Mann</div>
+        <div class="blog-slider__text">Premio Nobel de Física "por sus contribuciones y descubrimientos sobre la clasificación de las partículas elementales y sus interacciones".</div>
+        <a href="https://youtu.be/jVKyFoKoWS0" class="blog-slider__button">Entrevista</a>
+      </div>
+    </div>
+    
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Barton-zwiebach-crop.JPG" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">1954</span>
+        <div class="blog-slider__title">Barton Zwiebach</div>
+        <div class="blog-slider__text">"Uno no puede hacer investigación solo, uno no puede sentarse en su casa, aislado, y decir tengo una idea y luego desarrollarla, eso no funciona, uno tiene que contactarse".</div>
+        <a href="https://youtu.be/6oDhI_SW3oI" class="blog-slider__button">Sobre la geometría hiperbólica</a>
+      </div>
+    </div>
+    
+  </div>
+  <div class="blog-slider__pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.blog-slider', {
+      spaceBetween: 30,
+      effect: 'fade',
+      loop: true,
+      mousewheel: {
+      invert: false,
+    },
+    // autoHeight: true,
+    pagination: {
+      el: '.blog-slider__pagination',
+      clickable: true,
+    }
+  });
+</script>

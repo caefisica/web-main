@@ -1,0 +1,90 @@
+# Meta Data for SEO
+
+## Homepage
+title = "CAE"
+titleSeparator = "-"
+titleAddition = "Centro de Apoyo Estudiantil"
+description = "Facilitando recursos para el estudio de la física."
+
+## Open Graph
+images = ["doks.png"]
+ogLocale = "es_ES"
+domainTLD = "caefis.netlify.app"
+titleHome = "Centro de Apoyo Estudiantil"
+
+## Twitter Cards
+twitterSite = "@cae_fisica"
+twitterCreator = "@totallynotdavid"
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "CAE"
+schemaAuthor = "David"
+schemaAuthorTwitter = "https://twitter.com/totallynotdavid"
+schemaAuthorLinkedIn = ""
+schemaAuthorGitHub = "https://github.com/totallynotdavid"
+schemaLocale = "es-ES"
+schemaLogo = "logo-doks.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "doks.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = "https://twitter.com/cae_fisica"
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/caefis/cae"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "600"
+
+# Footer
+footer = "Un proyecto del Centro de Apoyo Estudiantil"
+
+# Feed
+copyRight = "Copyright (c) 2022 — CAE"
+
+# Alert
+alert = false
+alertDismissable = true
+# alertText = ""
+# alertText = ""
+alertText = "Las inscripciones para los minicursos se han abierto, haga clic en el libro para registrarse <a href=\"https://forms.gle/WscNmEsStJJuuXzS7\">📖</a>."
+
+# Edit Page
+repoHost = "GitHub"
+docsRepo = "https://github.com/caefis/cae"
+docsRepoBranch = "master"
+docsRepoSubPath = ""
+editPage = true
+lastMod = true
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = true
+  highLight = true
+  kaTex = true
+  multilingualMode = false #
+  docsVersioning = false #
+
+[menu]
+  [menu.section]
+    auto = true
+    collapsibleSidebar = true
+    mainSections = ["Pregrado", "Posgrado", "Biblioteca", "Experimental", "RSS", "Blog"]
