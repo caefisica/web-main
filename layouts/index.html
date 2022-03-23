@@ -1,12 +1,17 @@
 {{ define "main" }}
 <section class="section container mt-n3 pb-5">
   <div class="row justify-content-center">
+    <!--
+    <div class="col">
+      {{ partial "components/gallery.html" . -}}
+    </div>
+    -->
     <div class="col-lg-12 text-center">
       <h1 class="mt-0">{{ .Title }}</h1>
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.Lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "pregrado/" | relURL }}" role="button">Comenzar</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="pregrado/semestre/1/CBO104/" role="button">Malla curricular</a>
     </div>
   </div>
 </section>
@@ -23,7 +28,7 @@
       </div>
       <div class="col-lg-5">
         <h2 class="h4">Club de lectura</h2>
-        <p><a href="https://caefis.netlify.app/blog/club-de-lectura/">Únete al club</a> el cual tiene como objetivo potenciar y ampliar los conocimientos de sus integrantes en diversas áreas.</p>
+        <p><a href="/blog/Club-de-Lectura/">Únete al club</a> el cual tiene como objetivo potenciar y ampliar los conocimientos de sus integrantes en diversas áreas.</p>
       </div>
       <div class="col-lg-5">
         <h2 class="h4">Minicursos de verano</h2>
@@ -32,11 +37,11 @@
     </div>
   </div>
 </section>
-<!--
+
 <div class="row-auto text-center" id="powd">
   {{ partial "main/gallery.html" . -}}
 </div>
--->
+
 <div class="d-flex justify-content-start mb-3">
   <div class="bg-dots"></div>
 </div>
@@ -62,7 +67,8 @@
         </div>
       </div>
       <div class="col-md-12 col-lg-10 col-xl-8">
-        {{ partial "components/twitter.html" . -}}
+        <h2 class="h3 mt-3 text-center">Redes sociales</h2>
+        {{ partial "components/instagram2.html" . -}}
       </div>
     </div>
   </div>

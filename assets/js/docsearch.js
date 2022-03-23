@@ -1,3 +1,4 @@
+/*
 import docsearch from '@docsearch/js';
 
 var searchPlaceholder = document.getElementById('search-placeholder');
@@ -13,7 +14,6 @@ docsearch({
   apiKey: '0b06babcb9d1b0aaadaa9e9af5be7bfe',
   debug: false,
 });
-
 */
 
 var searchPlaceholder = document.getElementById('search-placeholder');
