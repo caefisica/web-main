@@ -1,0 +1,37 @@
+    @font-face {
+    font-family: 'cheltenham';
+    font-style: normal;
+    font-weight: normal;
+    src: local('cheltenham'), url('cheltenham.woff2') format('woff2');
+    }
+    
+
+    @font-face {
+    font-family: 'imperial';
+    font-style: normal;
+    font-weight: normal;
+    src: local('imperial'), url('imperial.woff2') format('woff2');
+    }
+    
+
+    @font-face {
+    font-family: 'franklin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('franklin'), url('franklin.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'franklin-normal';
+        font-style: normal;
+        font-weight: normal;
+        src: local('franklin-normal'), url('franklin-normal.woff2') format('woff2');
+        }
+
+/* fira-mono-regular - latin */
+    @font-face {
+        font-family: 'Fira Mono';
+        font-style: normal;
+        font-weight: 400;
+        src: local('code'), url('code.woff2') format('woff2');
+    }
