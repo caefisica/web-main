@@ -1,11 +1,17 @@
 .nami>* {
   width: 33%!important;
+  margin: 0em;
+}
+
+.instafeeds {
+  width: 92%;
+  padding-top: 1em;
 }
 
 #instafeed .card {
-  margin-top: 1em;
-  margin-bottom: 2em!important;
-  width: 140px!important;
+  margin-top: 0em;
+  margin-bottom: 1em!important;
+  width: 100%;
 }
 
 #instafeed {
