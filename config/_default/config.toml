@@ -8,7 +8,7 @@ enableRobotsTXT = true
 languageCode = "es-ES"
 paginate = 7
 rssLimit = 10
-disablePathToLower = true
+disablePathToLower = false
 disqusShortname = "caefis"
 
 # add redirects/headers
