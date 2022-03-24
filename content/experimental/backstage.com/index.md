@@ -13,8 +13,8 @@ menu:
 weight: 060
 toc: false
 pinned: false
-types: ["Efectos visuales"]
-functionalities: ["Artículo"]
+types: ["efectos visuales"]
+functionalities: ["artículo"]
 ---
 
 ```text

@@ -13,8 +13,8 @@ menu:
 weight: 060
 toc: false
 pinned: true
-types: ["Computacional"]
-functionalities: ["Artículo"]
+types: ["computacional"]
+functionalities: ["artículo"]
 ---
 
 ```text
