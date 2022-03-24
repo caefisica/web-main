@@ -1,9 +1,16 @@
+#instafeed .row>* {
+  width: 33%;
+}
+
+#instafeed .card {
+  margin-bottom: 0em;
+}
+
 #instafeed {
 
   .contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
     justify-content: center;
     align-items: center;
   }
