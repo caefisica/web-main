@@ -9,6 +9,7 @@ languageCode = "es-ES"
 paginate = 7
 rssLimit = 10
 disablePathToLower = true
+disqusShortname = "caefis"
 
 # add redirects/headers
 [outputs]

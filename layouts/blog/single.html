@@ -39,21 +39,7 @@
 				{{ partial "main/docs-navigation.html" . }}
 					</br>
 			<div>
-				<script src="https://giscus.app/client.js"
-					data-repo="caefis/discusion"
-					data-repo-id="R_kgDOHDJn8w"
-					data-category="General"
-					data-category-id="DIC_kwDOHDJn884COOkv"
-					data-mapping="title"
-					data-reactions-enabled="1"
-					data-emit-metadata="1"
-					data-input-position="top"
-					data-theme="preferred_color_scheme"
-					data-lang="es"
-					data-loading="lazy"
-					crossorigin="anonymous"
-					async>
-				</script>
+				{{ partial "components/comments.html" . }}
 			</div>
 			{{ else -}}
 				<div class="my-n3"></div>
