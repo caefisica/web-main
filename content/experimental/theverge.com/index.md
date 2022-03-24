@@ -13,8 +13,8 @@ menu:
 weight: 060
 toc: false
 pinned: false
-types: ["Programación"]
-functionalities: ["Artículo"]
+types: ["programación"]
+functionalities: ["artículo"]
 ---
 
 ```text
