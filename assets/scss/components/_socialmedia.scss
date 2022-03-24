@@ -6,6 +6,12 @@
 .instafeeds {
   width: 92%;
   padding-top: 1em;
+  padding-left: 1em;
+}
+
+.instafeeds > .row>* {
+  padding-right: 0em;
+  padding-left: 1em;
 }
 
 #instafeed .card {
