@@ -1,17 +1,12 @@
-<!-- SCSS-->
 {{ $sass := resources.Get "scss/components/_socialmedia.scss" }}
 {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"> 
-<!-- Gallery animation -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
 
-<!-- Inst -->
-<script>
-    var InstagramToken = 'IGQVJYRXZAQU2Q0VDdlV254c2twVUp6SFJKLUVXOGVtejJJbTNTUGJrZAm1WQ093bGRNNElaX2lHMlRVYWVlTktUT09weFZAxcVJJR2ZA1UjdfQ2F2SC1tb3hGVHllT1NaVHhtdVFlMTBB';
-</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+<script src="INSTA_FEED"></script>
 <script src="/js/instafeed.min.js"></script>
 <div class="contenedor">
-<div id="instafeed" class="row instafeed"></div>
+<div id="instafeed" class="row instafeeds"></div>
 </div>
 {{ partial "components/socialbuttons.html" . -}}
 <script type="text/javascript">
