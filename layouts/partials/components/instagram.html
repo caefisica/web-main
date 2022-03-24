@@ -1,4 +1,5 @@
-<link rel="stylesheet" href="css/fancybox.css"/>
+<link rel="preload" href="/css/fancybox.css" as="style">
+<link rel="stylesheet" href="/css/fancybox.css"/>
 {{ $sass := resources.Get "scss/components/_socialmedia.scss" }}
 {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"> 
