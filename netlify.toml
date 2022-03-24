@@ -5,6 +5,7 @@
 [build.environment]
   NODE_VERSION = "16.13.1"
   NPM_VERSION = "8.1.2"
+  GENERATE_SOURCEMAP = "true"
 
 [context.production]
   command = "npm run build"
