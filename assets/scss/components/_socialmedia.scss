@@ -13,8 +13,8 @@
 }
 
 .contenedor {
-  padding-top: 1em;
-  width: 5em;
+  padding-top: 0em;
+  max-width: 35em;
   width: 100%;
   margin: 0 auto;
 }
@@ -30,7 +30,7 @@
 
   .card {
     border-radius: 5px;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
 
     &-img {
       position: relative;
