@@ -5,3 +5,4 @@ Allow: /
 Disallow: /
 {{ end }}
 Sitemap: {{ "sitemap.xml" | absURL -}}
+# Algolia-Crawler-Verif: 4E7FBE0573964B3B
