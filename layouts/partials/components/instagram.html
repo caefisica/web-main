@@ -1,5 +1,24 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/brands.min.css" integrity="sha512-BglNUJaVmT9HacZ2AsbVQxjswBmIf3AJj9hhXr/Yre33qU+A1p8gXUcavzcHYkWf5bIvLMIiEbdMrEVqb5h2Rg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<h2 class="h3 mt-3 text-center">Instagram</h2>
-<div class="tweet-grid">                
-<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/6b097751fa6358249a2e4a5e649e976c.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+<!-- SCSS-->
+{{ $sass := resources.Get "scss/components/_socialmedia.scss" }}
+{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"> 
+<!-- Gallery animation -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+
+<!-- Inst -->
+<script>
+    var InstagramToken = 'IGQVJYRXZAQU2Q0VDdlV254c2twVUp6SFJKLUVXOGVtejJJbTNTUGJrZAm1WQ093bGRNNElaX2lHMlRVYWVlTktUT09weFZAxcVJJR2ZA1UjdfQ2F2SC1tb3hGVHllT1NaVHhtdVFlMTBB';
+</script>
+<script src="/js/instafeed.min.js"></script>
+<div class="contenedor">
+<div id="instafeed" class="row instafeed"></div>
 </div>
+{{ partial "components/socialbuttons.html" . -}}
+<script type="text/javascript">
+        var feed = new Instafeed({
+            accessToken: InstagramToken
+            , debug: true
+        });
+        feed.run();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
