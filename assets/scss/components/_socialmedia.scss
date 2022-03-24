@@ -14,7 +14,7 @@
 
 .contenedor {
   padding-top: 1em;
-  max-width: 80rem;
+  max-width: 60rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -28,11 +28,11 @@
     align-items: center;
   }
 
-  .carta {
+  .card {
     border-radius: 5px;
     padding-bottom: 1em;
 
-    &-imagen {
+    &-img {
       position: relative;
       display: block;
       width: 100%;
