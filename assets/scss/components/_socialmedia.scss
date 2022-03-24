@@ -1,22 +1,8 @@
-.contenedor {
-  padding-top: 0em;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.instafeeds {
-  max-width: 20vh;
-  display: grid;
-}
-
-#instafeed {
-  width: 20vh;
-  display: grid;
-}
-
 #instafeed {
 
   .contenedor {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
     justify-content: center;
     align-items: center;
