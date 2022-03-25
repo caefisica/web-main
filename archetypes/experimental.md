@@ -16,3 +16,7 @@ pinned: false
 types: []
 functionalities: []
 ---
+
+```text
+Extracto traducido automáticamente de ""
+```

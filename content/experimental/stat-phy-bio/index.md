@@ -13,12 +13,12 @@ menu:
 weight: 060
 toc: false
 pinned: false
-types: ["física", "biología"]
+types: ["academia", "biología"]
 functionalities: ["revisado por pares"]
 ---
 
 ```text
-Extracto traducido automáticamente
+Extracto traducido automáticamente de "IOPScience"
 ```
 
 La física comenzó con el estudio de modelos sencillos que se fueron complicando a medida que se hacían más realistas, mientras que la biología ha seguido el camino contrario.
