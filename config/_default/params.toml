@@ -7,7 +7,7 @@ titleAddition = "Centro de Apoyo Estudiantil"
 description = "Facilitando recursos para el estudio de la física."
 
 ## Open Graph
-images = ["doks.png"]
+images = ["cae.png"]
 ogLocale = "es_ES"
 domainTLD = "caefis.netlify.app"
 titleHome = "Centro de Apoyo Estudiantil"
@@ -25,10 +25,10 @@ schemaAuthorTwitter = "https://twitter.com/totallynotdavid"
 schemaAuthorLinkedIn = ""
 schemaAuthorGitHub = "https://github.com/totallynotdavid"
 schemaLocale = "es-ES"
-schemaLogo = "logo-doks.png"
+schemaLogo = "logo-cae.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "cae.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/cae_fisica"

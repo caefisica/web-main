@@ -21,3 +21,9 @@ contributors: ["David"]
 | CFO304 | Álgebra Lineal       | 4        | Matemática Básica |
 | CFO305 | Cálculo III          | 4        | Cálculo II        |
 | CFO306 | Física Computacional | 4        | Cálculo I         |
+
+#### Material relacionado
+
+|Nombre|Autor|Enlace|
+|------|-----|------|
+|Primeros ejemplos en el Cálculo de Variaciones|Omar Antolín (UNAM)|[spa](https://www.youtube.com/watch?v=VTL54y_2-BY)|
