@@ -13,7 +13,7 @@ menu:
 weight: 090
 toc: false
 pinned: false
-types: ["materia condensada"]
+types: ["investigación"]
 functionalities: ["artículo"]
 ---
 
