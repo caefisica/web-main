@@ -13,7 +13,7 @@ menu:
 weight: 120
 toc: false
 pinned: false
-types: ["algebra"]
+types: ["matemática"]
 functionalities: ["artículo"]
 ---
 
