@@ -14,7 +14,7 @@ weight: 320
 toc: false
 pinned: false
 types: ["academia", "investigación"]
-functionalities: ["journal"]
+functionalities: ["revisado por pares"]
 ---
 
 ```text
