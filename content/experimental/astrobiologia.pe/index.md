@@ -6,7 +6,7 @@ date: 2022-03-25T15:08:51-05:00
 lastmod: 2022-03-25T15:08:51-05:00
 draft: false
 images: ["astrobiologia.pe.png"]
-link: ""
+link: "https://astrobiologia.pe/"
 menu:
   experimental:
     parent: "general"
