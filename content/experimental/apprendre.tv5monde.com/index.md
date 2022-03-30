@@ -21,4 +21,4 @@ functionalities: ["web"]
 Extracto traducido automáticamente de "Apprendre Le Français"
 ```
 
-Tanto si quieres aprender un nuevo idioma, como si quieres profundizar en un idioma que ya has estudiado, entender su estructura a través de la lingüística o mejorar tu práctica para contextos específicos, especialmente los profesionales, estos MOOCs pueden serte de gran ayuda. 
+Tanto si quieres aprender un nuevo idioma, como si quieres profundizar en un idioma que ya has estudiado, entender su estructura a través de la lingüística o mejorar tu práctica para contextos específicos, especialmente los profesionales, estos MOOCs pueden serte de gran ayuda.

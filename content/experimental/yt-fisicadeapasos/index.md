@@ -23,6 +23,6 @@ DETALLES
 
 Autor: Joseph Luna
 
-Física de a Pasos es un proyecto destinado a la enseñanza de las ciencias físicas a niveles universitarios, aunque también busca acercar a más gente por medio de contenido divulgativo. 
+Física de a Pasos es un proyecto destinado a la enseñanza de las ciencias físicas a niveles universitarios, aunque también busca acercar a más gente por medio de contenido divulgativo.
 
-Todo sea por aprender Física de a Pasos
+Todo sea por aprender Física de a Pasos.

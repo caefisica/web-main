@@ -1,8 +1,4 @@
 <script src="/js/jquery.min.js"></script>
-<!-- SCSS-->
-{{ $sass := resources.Get "scss/components/_discussions.scss" }}
-{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"> 
 <!--
 <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
