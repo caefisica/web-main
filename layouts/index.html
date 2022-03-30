@@ -6,7 +6,7 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.Lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="pregrado/semestre/1/cbo104/" role="button">Malla curricular</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2 mt-2" href="pregrado/semestre/1/cbo104/" role="button">Malla curricular</a>
     </div>
   </div>
 </section>
@@ -36,6 +36,14 @@
 <div class="row-auto text-center" id="powd">
   {{ partial "main/gallery.html" . -}}
 </div>
+
+<section class="section apoyo mt-3 bg-light">
+  <div class="container">
+    <h2 class="h3 mt-0 text-center">¿Deseas participar?</h2>
+    <p class="text-center">¿Eres de base mayor y cuentas con experiencia sobre el ámbito académico? ¿Hay un buen libro que quieres recomendar? Puedes contactarnos sin compromiso.</p>
+    <p class="text-center mb-0 mt-4"><a class="btn btn-primary px-4 mb-2" href="https://github.com/caefis/discusion/labels/sugerencia" role="button">Quiero dar una recomendación</a><a class="btn btn-outline-primary px-4 ms-2 mb-2" href="{{ "contacto/" | relURL }}" role="button">Contáctanos</a></p>
+  </div>
+</section>
 
 <div class="d-flex justify-content-start mb-3">
   <div class="bg-dots"></div>
@@ -78,14 +86,6 @@
         {{ partial "sidebar/newsletter.html" . -}}
       </div>
     </div>
-  </div>
-</section>
-
-<section class="section apoyo mt-3 bg-light">
-  <div class="container">
-    <h2 class="h3 mt-0 text-center">¿Deseas participar?</h2>
-    <p class="text-center">¿Eres de base mayor y cuentas con experiencia sobre el ámbito académico? ¿Hay un buen libro que quieres recomendar? Puedes contactarnos sin compromiso.</p>
-    <p class="text-center mb-0 mt-4"><a class="btn btn-primary px-4 mb-2" href="https://github.com/caefis/discusion/labels/sugerencia" role="button">Quiero dar una recomendación</a><a class="btn btn-outline-primary px-4 ms-2 mb-2" href="{{ "contacto/" | relURL }}" role="button">Contáctanos</a></p>
   </div>
 </section>
 
