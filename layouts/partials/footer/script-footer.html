@@ -52,7 +52,7 @@
   {{ if .Site.Params.options.highLight -}}
     <script src="{{ $highlight.RelPermalink }}" defer></script>
   {{ end -}}
-  {{ if eq .Section "pregrado" -}}
+  {{ if eq .Section "pregrado" "posgrado" "blog" -}}
   <script src="{{ $docSearch.RelPermalink }}" defer></script>
   {{ end -}}
   <script src="{{ $js.RelPermalink }}" defer></script>

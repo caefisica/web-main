@@ -3,7 +3,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script type="text/javascript" src="/js/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+  <link rel="stylesheet" href="/css/algoliasearchNetlify.css" />
   <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>-->
   <script type="text/javascript" src="/js/algolia/algoliasearchNetlify.js"></script>
   {{ block "head/resource-hints" . }}{{ partial "head/resource-hints.html" . }}{{ end }}
@@ -12,9 +12,9 @@
   {{ block "head/seo" . }}{{ partial "head/seo.html" . }}{{ end }}
   {{ block "head/favicons" . }}{{ partial "head/favicons.html" . }}{{ end }}
   {{ if eq (hugo.Environment) "development" -}}
-  <script async defer data-website-id="d4d93ea8-cd41-4ecc-895b-5dfc8027d7cf" src="http://20.232.181.153/umami.js"></script>
+  <script async defer data-website-id="a7ca8ac1-f42d-4ccc-92da-1ef2d325d6a6" src="https://cae.eastus.cloudapp.azure.com/umami.js"></script>
   {{ end -}}
   {{ if eq (hugo.Environment) "production" -}}
-  <script async defer data-website-id="a7ca8ac1-f42d-4ccc-92da-1ef2d325d6a6" src="http://20.232.181.153/umami.js"></script>
+  <script async defer data-website-id="d4d93ea8-cd41-4ecc-895b-5dfc8027d7cf" src="https://cae.eastus.cloudapp.azure.com/umami.js"></script>
   {{ end -}}
 </head>
