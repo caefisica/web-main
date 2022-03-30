@@ -145,7 +145,13 @@
 {{ if eq .Section "posgrado" -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
   <div class="container-xxl d-flex align-items-md-center">
-
+    <div class="d-inline-flex me-auto placeholder-glow">
+      <div id="search-placeholder" aria-hidden="true">
+        <a href="#" tabindex="-1" class="btn btn-light disabled placeholder"></a>
+      </div>
+      <div id="docsearch"></div>
+    </div>
+    
     <nav class="nav">
       {{ range .Site.Menus.secondary -}}
         <a class="nav-link text-dark" href="{{ .URL | relURL }}">{{ .Name | safeHTML }}</a>
