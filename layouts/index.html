@@ -1,17 +1,12 @@
 {{ define "main" }}
 <section class="section container mt-n3 pb-3">
   <div class="row justify-content-center">
-    <!--
-    <div class="col">
-      {{ partial "components/gallery.html" . -}}
-    </div>
-    -->
     <div class="col-lg-12 text-center">
       <h1 class="mt-0">{{ .Title }}</h1>
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.Lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="pregrado/semestre/1/CBO104/" role="button">Malla curricular</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="pregrado/semestre/1/cbo104/" role="button">Malla curricular</a>
     </div>
   </div>
 </section>
@@ -76,7 +71,7 @@
 
 {{ partial "main/miembros.html" . -}}
 
-<section class="section section-sm mt-n3 mb-3">
+<section class="section section-sm mt-3 mb-3">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-12 col-lg-10 col-xl-8">

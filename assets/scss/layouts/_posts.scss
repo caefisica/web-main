@@ -1,6 +1,7 @@
 .home .card,
 .blog .card,
 .newsletter .card,
+.tags.list .card,
 .contributors.list .card {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -9,12 +10,14 @@
 
 .showcase.list .card,
 .types.list .card,
+.tags.list .card,
 .functionalities.list .card {
   transition: transform 0.3s;
 }
 
 .home .card:hover,
 .blog .card:hover,
+.tags .card:hover,
 .newsletter .card:hover,
 .contributors.list .card:hover,
 .showcase.list .card:hover,
@@ -25,6 +28,7 @@
 
 .home .card-body,
 .blog .card-body,
+.tags .card-body,
 .newsletter .card-body,
 .contributors.list .card-body {
   padding: 0 2rem 1rem;

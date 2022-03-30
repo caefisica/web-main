@@ -17,48 +17,41 @@
   url = "/posgrado/research"
 
 [[main]]
-  name = "San Marcos"
-  url = "/pregrado/"
+  name = "Biblioteca"
+  url = "/biblioteca/"
   weight = 10
 
 [[main]]
-  name = "Biblioteca"
-  url = "/biblioteca/"
+  name = "UNMSM"
+  url = "/pregrado/"
   weight = 20
 
 [[main]]
-  name = "Experimental"
+  name = "Artículos"
   url = "/experimental/"
   weight = 30
 
 [[main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "Noticias"
+  url = "/rss/"
   weight = 40
+
+[[main]]
+  name = "Blogs"
+  url = "/blog/"
+  weight = 50
 
 [[main]]
   name = "Pregrado"
   weight = 10
   url = "/pregrado/semestre/1/"
-  parent = "San Marcos"
+  parent = "UNMSM"
 
 [[main]]
   name = "Posgrado"
   weight = 20
   url = "/posgrado/research/maestria/"
-  parent = "San Marcos"
-
-[[main]]
-  name = "Noticias"
-  weight = 10
-  url = "/rss/"
-  parent = "Experimental"
-
-[[main]]
-  name = "Artículos"
-  weight = 20
-  url = "/experimental/"
-  parent = "Experimental"
+  parent = "UNMSM"
 
 [[social]]
   name = "Facebook"
