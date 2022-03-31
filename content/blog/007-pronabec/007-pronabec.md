@@ -2,7 +2,7 @@
 title: "\U0001F389 Becas"
 description: El PRONABEC y una guía a las becas que ofrece.
 lead: El PRONABEC y una guía a las becas que ofrece.
-date: 2022-03-29T05:15:00.000+01:00
+date: 2022-03-28T23:15:00-05:00
 lastmod: '2022-03-29T05:15:00.000+01:00'
 images:
 - https://i.imgur.com/GgoqSI0.png
@@ -80,3 +80,4 @@ Los requisitos que se tienen para poder postular a la beca son los siguientes (t
    * **Pobreza o pobreza extrema**, la cual es consultada en línea a través del Sistema de Focalización de Hogares (Sisfoh) del Midis; o
    * **Ser receptor del Bono Yanapay** o ser hijo de un receptor de dicho bono (mayor detalle leer Artículo 11 bases del concurso).
 3. Contar con matricula.
+4. owo
