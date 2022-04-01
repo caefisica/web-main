@@ -341,6 +341,14 @@
                 r.a.createElement(
                   M.a.Link,
                   {
+                    href: "/",
+                    style: { color: "white", textDecoration: "none" },
+                  },
+                  "Volver"
+                ),
+                r.a.createElement(
+                  M.a.Link,
+                  {
                     href: "/rss",
                     style: { color: "white", textDecoration: "none" },
                   },

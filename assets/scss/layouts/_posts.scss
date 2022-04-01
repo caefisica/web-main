@@ -1,11 +1,14 @@
 .home .card,
 .blog .card,
-.newsletter .card,
 .tags.list .card,
 .contributors.list .card {
   margin-top: 2rem;
   margin-bottom: 2rem;
   transition: transform 0.3s;
+}
+
+.newsletter .card {
+  margin-top: 1rem;
 }
 
 .showcase.list .card,
