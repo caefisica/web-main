@@ -1,9 +1,8 @@
 <!-- based on: https://github.com/anvithks/hugo-embed-pdf-shortcode -->
-
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.min.js" integrity="sha256-hEmjt7z3bB53X/awJyV81gmBLpVw2mj7EsvoJelZWow=" crossorigin="anonymous"></script>
 {{ $pdf_file := .Get "file" }}
 {{ $pdf_id := replaceRE "[.-]" "_" $pdf_file }}
-{{ $pdf_url :=  path.Join .Page.Dir $pdf_file }}
+{{ $pdf_url := path.Join .Page.Dir $pdf_file }}
 {{ $pdf_url := $pdf_url | absURL }}
 <div class="pdf">
 <div class="pdf-paginator d-flex justify-content-center align-items-center" id="paginator_{{- $pdf_id -}}">
@@ -15,11 +14,11 @@
     &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="{{ $pdf_url }}" target="_blank"><button class="btn btn-secondary" id="next_{{- $pdf_id -}}">Descargar</button></a>
 </div>
-<div style="line-height:100%;">
+<div style="line-height:auto;">
   <br>
 </div>
 <div id="embed-pdf-container_{{- $pdf_id -}}" style="text-align:center">
-    <canvas class="pdf-canvas" id="the-canvas_{{- $pdf_id -}}"></canvas>
+    <canvas class="pdf-canvas pdf-cae" id="the-canvas_{{- $pdf_id -}}"></canvas>
 </div>
 </div>
 
