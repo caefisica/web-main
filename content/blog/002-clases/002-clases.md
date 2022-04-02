@@ -7,6 +7,7 @@ lastmod: 2022-02-03T09:19:42+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 contributors: ["Renzo"]
 tags: ["lista"]
+toc: true
 ---
 
 ## Álgebra

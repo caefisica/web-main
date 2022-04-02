@@ -7,6 +7,7 @@ lastmod: 2022-02-25T00:09:00+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 contributors: ["David"]
 tags: ["otros"]
+toc: false
 ---
 
 El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de Sites de Google, sin embargo, este es un servicio muy limitado. Motivo por el cual optamos por diseñar una página propia.

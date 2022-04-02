@@ -95,7 +95,7 @@
   </nav>
 </header>
 
-{{ if eq .Section "pregrado" "blog" -}}
+{{ if eq .Section "pregrado" "blog" "posgrado" "tags" -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
   <div class="container-xxl d-flex align-items-md-center">
 
@@ -142,6 +142,7 @@
 </div>
 {{ end -}}
 
+<!--
 {{ if eq .Section "posgrado" -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
   <div class="container-xxl d-flex align-items-md-center">
@@ -173,7 +174,7 @@
     </nav>
   </aside>
 </div>
-{{ end -}}
+{{ end -}}-->
 
 {{ if or (eq .Section "experimental") (eq .Data.Singular .Kind "type") (eq .Data.Singular .Kind "functionality") -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">

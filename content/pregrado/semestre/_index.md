@@ -11,6 +11,7 @@ lastmod:
 draft: false
 weight: 10
 images: []
+pdf: true
 ---
 
 {{< alert icon="🔔" text="Este documento fue actualizado a finales del 2020." />}}

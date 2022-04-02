@@ -1,5 +1,20 @@
 <!-- based on: https://github.com/anvithks/hugo-embed-pdf-shortcode -->
-<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.min.js" integrity="sha256-hEmjt7z3bB53X/awJyV81gmBLpVw2mj7EsvoJelZWow=" crossorigin="anonymous"></script>
+<script src="/js/pdf.min.js"></script>
+<style>
+  .fix-pdf-height {
+    line-height: auto;
+  }
+  .fix-position-canva {
+    text-align: center
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .pdf-cae {
+      width: 42vh;
+      height: auto;
+    }
+  }
+</style>
 {{ $pdf_file := .Get "file" }}
 {{ $pdf_id := replaceRE "[.-]" "_" $pdf_file }}
 {{ $pdf_url := path.Join .Page.Dir $pdf_file }}
@@ -14,10 +29,10 @@
     &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="{{ $pdf_url }}" target="_blank"><button class="btn btn-secondary" id="next_{{- $pdf_id -}}">Descargar</button></a>
 </div>
-<div style="line-height:auto;">
+<div class="fix-pdf-height">
   <br>
 </div>
-<div id="embed-pdf-container_{{- $pdf_id -}}" style="text-align:center">
+<div id="embed-pdf-container_{{- $pdf_id -}}" class="fix-position-canva">
     <canvas class="pdf-canvas pdf-cae" id="the-canvas_{{- $pdf_id -}}"></canvas>
 </div>
 </div>

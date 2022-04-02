@@ -1,6 +1,6 @@
 .single .content {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 .single.home .content {
@@ -10,13 +10,14 @@
 
 .list.taxonomy.contributors .content,
 .list.term.contributors .content,
-.list.section.blog .content,
-.list.section.docs .content,
-.list.section.tutorial .content,
 .list.taxonomy.types .content,
 .list.taxonomy.functionalities .content {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.list.term.contributors .content {
+  min-height: 85vh;
 }
 
 .docs-content {
@@ -24,8 +25,10 @@
   order: 1;
 }
 
-.blog .docs-content {
+.blog .docs-content,
+.blog .content {
   padding-top: 0;
+  padding-bottom: 0;
 }
 
 .single.section.tutorial .content,

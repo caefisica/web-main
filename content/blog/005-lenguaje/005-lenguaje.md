@@ -7,6 +7,7 @@ lastmod: 2022-02-25T00:00:00+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 contributors: ["David"]
 tags: ["tips"]
+toc: false
 ---
 
 La física no es una carrera fácil. Si quieres evitar retrasos más adelante, debes de aprender inglés, llegado a cierto punto será un requisito ¿A qué me refiero con aprender inglés? Deberías de ser capaz de leer en inglés (por lo menos en un principio) y, más adelante, también deberías de saber expresarte en inglés (escribir, hablar y comprender).

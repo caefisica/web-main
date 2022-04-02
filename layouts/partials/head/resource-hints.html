@@ -1,7 +1,9 @@
 <link rel="preload" as="font" href="{{ "fonts/vendor/jost/jost-v4-latin-regular.woff2" | absURL }}" type="font/woff2" crossorigin>
 <link rel="preload" as="font" href="{{ "fonts/vendor/jost/jost-v4-latin-700.woff2" | absURL }}" type="font/woff2" crossorigin>
 <link rel="preconnect" href="https://plausible.io">
-{{ if eq .Section "pregrado" -}}
+{{ if eq .Section "pregrado" "posgrado" "blog" "tags" -}}
 <link rel="preconnect" href="https://JE37E4YOU3-dsn.algolia.net" crossorigin>
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.min.js" as="script">
 {{ end -}}
+{{ if .Params.pdf }}
+<link rel="preload" href="/js/pdf.min.js" as="script">
+{{ end }}
