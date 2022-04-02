@@ -1,6 +1,6 @@
-.nami>* {
-  width: 33%!important;
-  margin: 0em;
+.nami > * {
+  width: 33% !important;
+  margin: 0;
 }
 
 .instafeeds {
@@ -9,19 +9,18 @@
   padding-left: 1em;
 }
 
-.instafeeds > .row>* {
-  padding-right: 0em;
+.instafeeds > .row > * {
+  padding-right: 0;
   padding-left: 1em;
 }
 
 #instafeed > .card {
-  margin-top: 0em;
-  margin-bottom: 1em!important;
+  margin-top: 0;
+  margin-bottom: 1em !important;
   width: 100%;
 }
 
 #instafeed {
-
   .contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -31,14 +30,14 @@
 
   .card {
     border-radius: 5px;
-    padding-bottom: 0em;
+    padding-bottom: 0;
 
     &-img {
       position: relative;
       display: block;
       width: 100%;
       padding-top: 100%;
-      background: #ffffff;
+      background: #fff;
 
       img {
         display: block;

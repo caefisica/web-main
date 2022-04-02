@@ -78,18 +78,18 @@
   weight = 40
 
 [[footer]]
+  name = "Nosotros"
+  url = "/nosotros"
+  weight = 10
+
+[[footer]]
   name = "Boletín"
   url = "/newsletter"
-  weight = 10
+  weight = 20
 
 [[footer]]
   name = "Privacidad"
   url = "/privacidad"
-  weight = 20
-
-[[footer]]
-  name = "Nosotros"
-  url = "/nosotros"
   weight = 30
 
 [[experimental]]
