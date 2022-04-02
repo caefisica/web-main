@@ -1,5 +1,5 @@
 ---
-title: "\U0001F389 Becas"
+title: "Becas"
 description: "El PRONABEC y una guía a las becas que ofrece."
 lead: "El PRONABEC y una guía a las becas que ofrece."
 date: 2022-03-28T23:15:00-05:00
