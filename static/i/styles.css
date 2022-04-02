@@ -32,6 +32,10 @@ h1 > span {
   color: var(--primary);
 }
 
+p {
+  padding-top: 1vh;
+}
+
 main {
   margin-top: 4rem;
 

@@ -1,17 +1,15 @@
 ---
 title: "\U0001F389 Becas"
-description: El PRONABEC y una guía a las becas que ofrece.
-lead: El PRONABEC y una guía a las becas que ofrece.
+description: "El PRONABEC y una guía a las becas que ofrece."
+lead: "El PRONABEC y una guía a las becas que ofrece."
 date: 2022-03-28T23:15:00-05:00
-lastmod: '2022-03-29T05:15:00.000+01:00'
-images:
-- https://i.imgur.com/GgoqSI0.png
-contributors:
-- Richard
-tags:
-- tips
-
+lastmod: 2022-03-29T05:15:00.000+01:00
+images: ["https://i.imgur.com/GgoqSI0.png"]
+contributors: ["Richard"]
+tags: ["tips"]
+toc: true
 ---
+
 PRONABEC (Programa Nacional de Becas y Crédito Educativo) es un programa del Ministerio de Educación del Perú el cual te ofrece la oportunidad de optar por diferentes becas para que puedas culminar tus estudios universitarios, dependiendo del nivel en el que te encuentres, es decir, podrás realizar estudios de **pregrado**, **postgrado** o incluso en **carreras técnicas**.
 
 Entre las becas que ofrece el PRONABEC se encuentran:

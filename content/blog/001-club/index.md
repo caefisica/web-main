@@ -7,6 +7,7 @@ lastmod: 2022-02-10T09:19:42+01:00
 images: [""]
 contributors: ["David"]
 tags: ["evento"]
+toc: false
 ---
 
 {{< img src="feynmann.jpg" alt="Rectangle" caption="<em>Feynman en el CERN en 1965. / © CERN</em>" class="border-0" >}}
