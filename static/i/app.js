@@ -1,4 +1,4 @@
-var things = ['desconocido', 'desconocida'];
+var things = ['desconocido', 'desconocida', 'extraño', 'extraña', 'guapo', 'guapa', 'italian@', 'Fausto', 'Sergio', 'Andres', 'David', 'Richard', 'José', 'Nelson', 'Joseph', 'Alessandro', 'Andrea', 'Angelina', 'Liuba', 'Mauricio', 'Bruno', 'Ariel'];
 var thing = things[Math.floor(Math.random()*things.length)];
 
 const NAME = thing;

@@ -6,6 +6,7 @@
     "scss/comment-no-empty": null,
     "max-line-length": null,
     "scss/at-extend-no-missing-placeholder": null,
+    "no-missing-end-of-source-newline": null,
     "scss/dollar-variable-colon-space-after": null,
     "scss/dollar-variable-empty-line-before": null,
     "color-function-notation": null,
