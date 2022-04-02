@@ -1,5 +1,6 @@
 ---
 title: "¡Nueva versión!"
+emoji: ":tada:"
 description: "Se han añadido varias funciones desde el lanzamiento inicial de esta página, aquí una lista de ellos y los que tengo planeados añadir."
 lead: "Se han añadido varias funciones desde el lanzamiento inicial de esta página, aquí una lista de ellos y también de los que tengo planeados añadir."
 date: 2022-02-25T00:09:00+01:00
