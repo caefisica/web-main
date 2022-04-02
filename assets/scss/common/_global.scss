@@ -25,14 +25,9 @@
   order: 1;
 }
 
-.blog .docs-content,
-.blog .content {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
 .single.section.posgrado .content,
-.single.section.showcase .content,
+.single.section.blog .content,
+.single.section.blog .docs-content,
 .single.section.pregrado .content,
 .list.section.experimental .content,
 .list.term.types .content,
