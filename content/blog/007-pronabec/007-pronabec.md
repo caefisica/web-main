@@ -79,4 +79,4 @@ Los requisitos que se tienen para poder postular a la beca son los siguientes (t
 2. Acreditar condición de vulnerabilidad económica, de acuerdo al siguiente detalle:
    * **Pobreza o pobreza extrema**, la cual es consultada en línea a través del Sistema de Focalización de Hogares (Sisfoh) del Midis; o
    * **Ser receptor del Bono Yanapay** o ser hijo de un receptor de dicho bono (mayor detalle leer Artículo 11 bases del concurso).
-3. Contar con matricula. 
+3. Contar con matricula.
