@@ -22,6 +22,8 @@ if (searchPlaceholder !== null) {
   searchPlaceholder.className = 'd-none';
 }
 
+var algoliasearchNetlify;
+
 algoliasearchNetlify({
   appId: 'B36UGT1YWJ',
   apiKey: '8c770925ae0a24146f978f0495f51ec1',
@@ -30,9 +32,9 @@ algoliasearchNetlify({
   selector: '#docsearch',
 });
 
-var ALGOLIA_INSIGHTS_SRC = "https://cdn.jsdelivr.net/npm/search-insights@2.0.3";
+var ALGOLIA_INSIGHTS_SRC = 'https://cdn.jsdelivr.net/npm/search-insights@2.0.3';
   
 !function(e,a,t,n,s,i,c){e.AlgoliaAnalyticsObject=s,e[s]=e[s]||function(){
 (e[s].queue=e[s].queue||[]).push(arguments)},i=a.createElement(t),c=a.getElementsByTagName(t)[0],
 i.async=1,i.src=n,c.parentNode.insertBefore(i,c)
-}(window,document,"script",ALGOLIA_INSIGHTS_SRC,"aa");
+}(window,document,'script',ALGOLIA_INSIGHTS_SRC,'aa');
