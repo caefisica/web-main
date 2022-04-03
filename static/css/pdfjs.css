@@ -1,0 +1,13 @@
+.fix-pdf-height {
+    line-height: auto;
+  }
+  .fix-position-canva {
+    text-align: center
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .pdf-cae {
+      width: 42vh;
+      height: auto;
+    }
+  }

@@ -1,20 +1,6 @@
 <!-- based on: https://github.com/anvithks/hugo-embed-pdf-shortcode -->
 <script src="/js/pdf.min.js"></script>
-<style>
-  .fix-pdf-height {
-    line-height: auto;
-  }
-  .fix-position-canva {
-    text-align: center
-  }
-  
-  @media only screen and (max-width: 650px) {
-    .pdf-cae {
-      width: 42vh;
-      height: auto;
-    }
-  }
-</style>
+<link rel="stylesheet" href="{{ "css/pdfjs.css" | relURL }}"/>
 {{ $pdf_file := .Get "file" }}
 {{ $pdf_id := replaceRE "[.-]" "_" $pdf_file }}
 {{ $pdf_url := path.Join .Page.Dir $pdf_file }}
