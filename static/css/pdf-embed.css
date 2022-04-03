@@ -1,3 +1,7 @@
+.someline {
+  line-height:70%;
+}
+
 #the-canvas {
     direction: ltr;
     width: 100%;
