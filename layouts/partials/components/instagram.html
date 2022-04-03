@@ -1,22 +1,15 @@
-<link rel="preload" href="/css/fancybox.css" as="style">
-<link rel="stylesheet" href="/css/fancybox.css"/>
+<link rel="stylesheet" href="{{ "css/fancybox.css" | relURL }}"/>
 {{ $sass := resources.Get "scss/components/_socialmedia.scss" }}
 {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"> 
 
 <script src="https://ig.instant-tokens.com/users/eea7fca6-ab4f-4b0b-a090-56810225756c/instagram/17841452095786676/token.js?userSecret=7421hnakihqcklq4yn2j39"></script>
-<script src="/js/instafeed.min.js"></script>
+<script src="{{ "js/inst/instafeed.min.js" | relURL }}"></script>
 <div class="contenedor d-flex justify-content-center">
     <div class="instafeeds ">
         <div id="instafeed" class="row d-flex nami"></div>
     </div>
 </div>
 {{ partial "components/socialbuttons.html" . -}}
-<script type="text/javascript">
-        var feed = new Instafeed({
-            accessToken: InstagramToken
-            , debug: true
-        });
-        feed.run();
-</script>
-<script src="js/fancybox.umd.js"></script>
+<script src="{{ "js/inst/nekot.js" | relURL }}"></script>
+<script src="{{ "js/inst/fancybox.umd.js" | relURL }}"></script>
