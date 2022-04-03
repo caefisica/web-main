@@ -4,8 +4,7 @@
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"> 
 
 <!-- Swiper's CSS -->
-<link rel="preload" href="css/swiper-bundle.min.css" as="style">
-<link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="{{ "css/swiper-bundle.min.css" | relURL }}"/>
 
 <!-- Content -->
 <div class="blog-slider">
@@ -61,22 +60,7 @@
 </div>
 
 <!-- Swiper JS -->
-<script src="/js/jquery.min.js"></script>
-<script src="/js/swiper-bundle.min.js"></script>
+<script src="{{ "js/swiper/swiper-bundle.min.js" | relURL }}" type="text/javascript"></script>
 
 <!-- Initialize Swiper -->
-<script>
-  var swiper = new Swiper('.blog-slider', {
-      spaceBetween: 30,
-      effect: 'fade',
-      loop: true,
-      mousewheel: {
-      invert: false,
-    },
-    // autoHeight: true,
-    pagination: {
-      el: '.blog-slider__pagination',
-      clickable: true,
-    }
-  });
-</script>
+<script src="{{ "js/swiper/swiper-gal.js" | relURL }}" type="text/javascript"></script>
