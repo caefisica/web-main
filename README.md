@@ -152,3 +152,11 @@ Finalmente:
 2. En los tres puntos de la esquina derecha, haz clic en `Pull/Push`. 
 3. Selecciona `Insertar en...`
 4. Selecciona `cae`.
+
+## Ejemplos
+
+### Emoji
+
+```text
+{{ ":zap:" | emojify }}
+```

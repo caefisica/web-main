@@ -34,20 +34,17 @@
 			</nav>
 			{{ end -}}
 			{{ partial "main/headline-hash.html" .Content }}
-			{{ if .Site.Params.editPage -}}
-				{{ partial "main/edit-page.html" . }}
-			{{ end -}}
-			<div>
-				{{ partial "components/comments.html" . }}
-			</div>
-			{{ partial "main/docs-navigation.html" . }}
-			<!--
-			{{ if not .Site.Params.options.collapsibleSidebar -}}
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between"></div>
+				{{ if .Site.Params.lastMod -}}
+					{{ partial "main/last-modified.html" . }}
+				{{ end -}}
+				{{ if .Site.Params.editPage -}}
+					{{ partial "main/edit-page.html" . }}
+				{{ end -}}
+					{{ partial "components/comments.html" . }}
 				{{ partial "main/docs-navigation.html" . }}
-			{{ else -}}
-				<div class="my-n3"></div>
-			{{ end -}}
-			-->
+			</div>
+		</main>
 		</main>
 	</div>
 {{ end }}
