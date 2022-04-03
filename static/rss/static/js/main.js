@@ -50,7 +50,7 @@
           { name: "Editorial | Quanta Magazine", url: "http://www.quantamagazine.org/feed/"},
           { name: "Editorial | The Markup", url: "https://themarkup.org/feeds/rss.xml"},
           { name: "Editorial | simmetry magazine", url: "https://www.symmetrymagazine.org/feed"},
-          { name: "Editorial | Towards Data Science", url: "https://towardsdatascience.com/feed/tagged/python?gi=98fd8ae60593"},
+          { name: "Editorial | Towards Data Science", url: "https://towardsdatascience.com/feed/tagged/python"},
           { name: "Noticias | Sinc", url: "http://www.agenciasinc.es/layout/set/rss/content/view/rss/227/(categoria)/3"},
           { name: "Noticias | El País", url: "https://feeds.elpais.com/mrss-s/list/ep/site/elpais.com/section/ciencia"},
           { name: "Noticias | Fermilab", url: "https://news.fnal.gov/tag/physics/feed/"},
