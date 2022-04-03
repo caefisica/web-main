@@ -1,5 +1,6 @@
 import hljs from 'highlight.js/lib/core';
 
+import plaintext from 'highlight.js/lib/languages/plaintext';
 import javascript from 'highlight.js/lib/languages/javascript';
 import json from 'highlight.js/lib/languages/json';
 import bash from 'highlight.js/lib/languages/bash';
@@ -16,6 +17,7 @@ hljs.registerLanguage('ini', ini);
 hljs.registerLanguage('toml', ini);
 hljs.registerLanguage('yaml', yaml);
 hljs.registerLanguage('md', markdown);
+hljs.registerLanguage('plaintext', plaintext);
 
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('pre code').forEach((block) => {
