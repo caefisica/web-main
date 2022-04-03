@@ -1,5 +1,8 @@
+.bibl {
+    background-color: #212529;
+}
+
 .biblio {
-    background: #212529;
     width: 90vw;
     min-height: 85vh;
     margin: 0 auto;
