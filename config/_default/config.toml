@@ -66,5 +66,13 @@ rel  = "sitemap"
   types = "/experimental/types/:title/"
   functionalities = "/experimental/functionalities/:title/"
 
-[minify.tdewolff.html]
-  keepWhitespace = false
+[minify]
+  disableJs = false
+  [minify.tdewolff]
+  [minify.tdewolff.html]
+    keepWhitespace = false
+  [minify.tdewolff.js]
+    # https://github.com/tdewolff/minify/issues/472
+    keepVarNames = true
+    noNullishOperator = false
+    precision = 0
