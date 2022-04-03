@@ -1,17 +1,7 @@
-.bib {
-    min-height: 85vh;
-}
-
 .biblio {
     background: #212529;
-    width: 98vw;
+    width: 90vw;
     min-height: 85vh;
     margin: 0 auto;
     display: block;
 }
-
-@media (max-width: 1100px) {
-    .biblio {
-        width: 90vw;
-    }
-  }
