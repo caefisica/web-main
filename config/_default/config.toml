@@ -10,6 +10,7 @@ paginate = 7
 rssLimit = 10
 disablePathToLower = false
 disqusShortname = "caefis"
+DefaultContentLanguage = "es"
 
 # add redirects/headers
 [outputs]
