@@ -18,4 +18,4 @@ pdf: true
 
 <br>
 
-{{< pdfjs file="malla.pdf" >}}
+{{< embed-pdf url="/pdf/malla.pdf" >}}
