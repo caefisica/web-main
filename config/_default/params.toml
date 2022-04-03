@@ -65,7 +65,7 @@ alertText = "Las inscripciones para los minicursos se han abierto, haga clic en 
 
 # Edit Page
 repoHost = "GitHub"
-docsRepo = "https://github.com/caefis/cae"
+docsRepo = "https://github.com/caefis/0.8.1"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = true
