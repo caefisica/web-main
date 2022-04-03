@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "es" }}">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/caefis/assets@bfc0e7b389e0c5abe68c54338bb3d890d29029b0/iframe.css">
+  <link rel="preload" href="{{ "css/biblioteca.css" | relURL }}" as="style">
+  <link rel="stylesheet" href="{{ "css/biblioteca.css" | relURL }}"/>
   {{ partial "head/head.html" . }}
   {{ if eq .Kind "home" -}}
     {{ .Scratch.Set "class" "home" -}}
@@ -15,11 +16,8 @@
   {{ end -}}
   <body class="{{ .Scratch.Get "class" }}">
     {{ partial "header/header.html" . }}
-    <div class="row-container">
-        <div class="first-row">
-        </div>
-        <iframe title="Biblioteca del CAE" style="background: #212529"src="https://d.cae.workers.dev/0:/" class="second-row"></iframe>
-      </div>
+    <div class="row-container bib">
+        <div class="bibl"><iframe title="Biblioteca del CAE" class="biblio" src="https://d.cae.workers.dev/0:/" class="second-row"></iframe></div>
     </div>
     {{ block "sidebar-prefooter" . }}{{ end }}
     {{ block "sidebar-footer" . }}{{ end }}
