@@ -8,7 +8,6 @@ images: [""]
 contributors: ["David"]
 tags: ["evento"]
 toc: false
-math: true
 ---
 
 {{< img src="feynmann.jpg" alt="Rectangle" caption="<em>Feynman en el CERN en 1965. / © CERN</em>" class="border-0" >}}
@@ -28,38 +27,3 @@ El siete de febrero (este lunes) comienzan una serie de reuniones semanales para
 #### Semana 2
 
 16 de febrero
-
-{{< quizdown >}}
-
----
-primary_color: orange
-secondary_color: lightgray
-text_color: black
-shuffle_questions: false
----
-
-## The sound of dog
-
----
-shuffle_answers: false
----
-
-What do dogs sound like?
-
-> Some hint
-
-- [ ] yes
-- [ ] no
-- [ ] `self.sound = "meow"`
-- [x] wuff
-
-## Put the [days](https://en.wikipedia.org/wiki/Day) in order!
-
-> Monday is the *first* day of the week.
-
-1. Monday
-2. Tuesday
-3. Wednesday
-4. Friday
-5. Saturday  
-{{< /quizdown >}}
