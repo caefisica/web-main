@@ -8,4 +8,12 @@
   {{ $secureCSS := $css | resources.Fingerprint "sha512" -}}
   <link rel="stylesheet" href="{{ $secureCSS.Permalink | relURL }}" integrity="{{ $secureCSS.Data.Integrity }}" crossorigin="anonymous">
 {{ end -}}
-<noscript><style>img.lazyload { display: none; }</style></noscript>
+  <noscript><style>img.lazyload { display: none; }</style></noscript>
+  <link rel="stylesheet" href="{{ "css/algoliasearchNetlify.css" | relURL }}"/>
+{{ if eq .Kind "home" -}}
+  <link rel="preload" href="{{ "css/swiper-bundle.min.css" | relURL }}" as="style">
+  <link rel="preload" href="{{ "css/fancybox.css" | relURL }}" as="style">
+{{ end -}}
+{{ if or .Params.pdf .Site.Params.pdf }}
+  <link rel="preload" href="{{ "css/pdfjs.css" | relURL }}" as="style">
+{{ end }}
