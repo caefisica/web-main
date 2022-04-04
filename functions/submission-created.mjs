@@ -1,4 +1,4 @@
-import './loadenv.js';
+import './loadenv.mjs';
 
 import fetch from 'node-fetch'
 const { BUTTONDOWN_API_KEY } = process.env

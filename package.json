@@ -2,7 +2,6 @@
   "name": "cae",
   "version": "0.8.9",
   "private": true,
-  "type":"module",
   "browserslist": [
     "defaults"
   ],
