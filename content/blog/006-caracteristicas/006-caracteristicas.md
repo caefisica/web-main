@@ -40,6 +40,10 @@ El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de S
     - Menús desplegables
     - Boletín informativo
     - Comentarios en las páginas
+    - Descarga de archivos PDF
+
+    {{< pdfjs file="admision-2022.pdf" >}}
+
     - Quiz
 
     {{< quizdown >}}
