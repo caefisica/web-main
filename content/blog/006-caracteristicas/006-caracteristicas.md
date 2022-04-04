@@ -42,6 +42,8 @@ El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de S
     - Comentarios en las páginas
     - Descarga de archivos PDF
 
+    </p>
+
     {{< pdfjs file="admision-2022.pdf" >}}
 
     - Quiz
