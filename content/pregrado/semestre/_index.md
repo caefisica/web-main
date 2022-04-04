@@ -14,8 +14,8 @@ images: []
 pdf: true
 ---
 
-{{< alert icon="🔔" text="Este documento fue actualizado a finales del 2020." />}}
+{{< alert icon="🔔" text="Este documento fue actualizado en febrero del 2020." />}}
 
 <br>
 
-{{< embed-pdf url="/pdf/malla.pdf" >}}
+{{< embed-pdf url="/pdf/EAP_10-02-2020.pdf" >}}
