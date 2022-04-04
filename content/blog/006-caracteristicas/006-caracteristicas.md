@@ -10,6 +10,8 @@ contributors: ["David"]
 tags: ["otros"]
 toc: false
 math: true
+pdf: true
+quiz: true
 ---
 
 El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de Sites de Google, sin embargo, este es un servicio muy limitado. Motivo por el cual optamos por diseñar una página propia.
