@@ -65,11 +65,6 @@
       </div>
     </div>
 
-    {{ if or .Params.math .Site.Params.math }}
-      {{ partial "main/katex.html" . }}
-      {{ partial "header/quiz.html" . }}
-    {{ end }}
-
     {{ if .Site.Params.options.darkMode -}}
     <button id="mode" class="btn btn-link order-md-1" type="button" aria-label="Toggle user interface mode">
       <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>

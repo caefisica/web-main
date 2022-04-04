@@ -6,3 +6,24 @@
   {{ $alertInit := resources.Get "js/alert-init.js" | js.Build | minify -}}
   <script>{{ $alertInit.Content | safeJS }}</script>
 {{- end -}}
+{{ if eq (hugo.Environment) "production" -}}
+  <script async defer data-website-id="a7ca8ac1-f42d-4ccc-92da-1ef2d325d6a6" src="https://cae.eastus.cloudapp.azure.com/umami.js"></script>
+{{ end -}}
+  <script src="{{ "js/jquery.min.js" | relURL }}" type="text/javascript"></script>
+  <script src="{{ "js/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
+  {{ if eq .Kind "home" -}}
+  <link rel="preload" href="{{ "js/swiper/swiper-bundle.min.js" | relURL }}" as="script">
+  <link rel="preload" href="{{ "js/swiper/swiper-gal.js" | relURL }}" as="script">
+  <link rel="preload" href="{{ "js/inst/fancybox.umd.js" | relURL }}" as="script">
+  <link rel="preload" href="{{ "js/inst/instafeed.min.js" | relURL }}" as="script">
+  <link rel="preload" href="{{ "js/inst/nekot.js" | relURL }}" as="script">
+  {{ end -}}
+  {{ if or .Params.pdf .Site.Params.pdf }}
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.min.js" as="script">
+  {{ end }}
+  {{ if or .Params.math .Site.Params.math }}
+  {{ partial "head/katex.html" . }}
+  {{ end }}
+  {{ if or .Params.quiz .Site.Params.quiz }}
+  {{ partial "head/quiz.html" . }}
+  {{ end }}

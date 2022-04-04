@@ -1,7 +1,7 @@
-<meta property="og:locale" content="{{ .Site.Params.ogLocale }}">
-<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-<meta property="og:title" content="{{ .Title }}">
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+  <meta property="og:locale" content="{{ .Site.Params.ogLocale }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 {{ if $.Scratch.Get "paginator" -}}
   {{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Section" "blog" ) -}}
   <meta property="og:url" content="{{ .Paginator.URL | absURL }}">
@@ -15,16 +15,16 @@
 {{ $iso8601 := "2006-01-02T15:04:05-07:00" -}}
 {{ if .IsPage -}}
   {{ if not .PublishDate.IsZero -}}
-    <meta property="article:published_time" {{ .PublishDate.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
+  <meta property="article:published_time" {{ .PublishDate.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
   {{ else if not .Date.IsZero -}}
-    <meta property="article:published_time" {{ .Date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
+  <meta property="article:published_time" {{ .Date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
   {{ end -}}
   {{ if not .Lastmod.IsZero -}}
-    <meta property="article:modified_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
+  <meta property="article:modified_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
   {{ end -}}
 {{ else -}}
   {{ if not .Date.IsZero -}}
-    <meta property="og:updated_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
+  <meta property="og:updated_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
   {{ end -}}
 {{ end -}}
 
@@ -41,10 +41,10 @@
 {{ $imageURL := print "https://res.cloudinary.com/dubu/image/upload/w_1280,h_640,c_fill,q_auto,f_auto/w_860,c_fit,co_rgb:dee2e6,g_south_west,x_105,y_265,fl_text_no_trim,l_text:titulo.woff2_80:" $imageTitle "/w_860,c_fit,co_rgb:dee2e6,g_south_west,x_105,y_205,l_text:cuerpo.woff2_35:" $imageText "/v1645767878/cae.png" -}}
 {{ $.Scratch.Set "primaryImage" $imageURL -}}
 
-<meta property="og:image" content="{{ $imageURL }}">
-<meta property="og:image:width" content="1280">
-<meta property="og:image:height" content="640">
-<meta property="og:image:alt" content="{{ .Scratch.Get "title" }}">
+  <meta property="og:image" content="{{ $imageURL }}">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+  <meta property="og:image:alt" content="{{ .Scratch.Get "title" }}">
 {{ with $.Params.images -}}
   {{ range first 6 . -}}
   <meta property="og:image" content="{{ $.Permalink }}{{ . }}">
@@ -56,13 +56,13 @@
     {{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" -}}
   {{ end -}}
   {{ with $featured -}}
-    <meta property="og:image" content="{{ $featured.Permalink }}"/>
+  <meta property="og:image" content="{{ $featured.Permalink }}"/>
   {{ else -}}
     {{ with $.Site.Params.images -}}
-      <meta property="og:image" content="{{ index . 0 | absURL }}"/>
-      <meta property="og:image:width" content="1280">
-      <meta property="og:image:height" content="640">
-      <meta property="og:image:alt" content="{{ $.Site.Params.title }}">
+  <meta property="og:image" content="{{ index . 0 | absURL }}"/>
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+  <meta property="og:image:alt" content="{{ $.Site.Params.title }}">
     {{ end -}}
   {{ end -}}
 {{ end -}}
@@ -73,6 +73,6 @@
 
 {{ with .Params.videos -}}
   {{ range . -}}
-    <meta property="og:video" content="{{ . | absURL }}">
+  <meta property="og:video" content="{{ . | absURL }}">
   {{ end -}}
 {{ end -}}
