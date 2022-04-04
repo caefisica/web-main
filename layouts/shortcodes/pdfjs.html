@@ -5,15 +5,15 @@
 {{ $pdf_id := replaceRE "[.-]" "_" $pdf_file }}
 {{ $pdf_url :=  path.Join .Page.File.Dir $pdf_file }}
 {{ $pdf_url := $pdf_url | absURL }}
-<div class="pdf">
+<div class="mt-auto mb-4">
 <div class="pdf-paginator d-flex justify-content-center pdf-head" id="paginator_{{- $pdf_id -}}">
     <button class="btn btn-primary" id="prev_{{- $pdf_id -}}">Anterior</button>
     <div class="paginas"><span>Página: <span id="page_num_{{- $pdf_id -}}"></span> / <span id="page_count_{{- $pdf_id -}}"></span></span></div>
     <button class="btn btn-primary" id="next_{{- $pdf_id -}}">Siguiente</button>
     <a href="{{ $pdf_url }}" target="_blank"><button class="btn btn-secondary" id="next_{{- $pdf_id -}}">Descargar</button></a>
 </div>
-<div id="embed-pdf-container_{{- $pdf_id -}} container">
-    <canvas class="pdf-canvas pdf-cae" id="the-canvas_{{- $pdf_id -}}"></canvas>
+<div id="embed-pdf-container_{{- $pdf_id -}} container-fluid" class="mt-4">
+    <div class="row justify-content-md-center"><canvas class="pdf-canvas pdf-cae col-md-auto" id="the-canvas_{{- $pdf_id -}}"></canvas></div>
 </div>
 </div>
 
