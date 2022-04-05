@@ -1,19 +1,16 @@
-name: Prueba Lighthouse a push
+name: Lighthouse CI
 on: push
-
 jobs:
-  audit:
+  lighthouse:
     runs-on: ubuntu-latest
     steps:
-    - name: Testear la página publicada
-      uses: jakejarvis/lighthouse-action@master
-      with:
-        urls: |
-          https://caefis.netlify.app/
-          https://caefis.netlify.app/pregrado/semestre/
-          https://caefis.netlify.app/blog/
-    - name: Subir resultados
-      uses: actions/upload-artifact@master
-      with:
-        name: Reporte
-        path: './report'
+      - uses: actions/checkout@v2
+      - name: Audit URLs using Lighthouse
+        uses: treosh/lighthouse-ci-action@v9
+        with:
+          urls: |
+            https://caefis.netlify.app/
+            https://caefis.netlify.app/blog/
+          budgetPath: ./budget.json # test performance budgets
+          uploadArtifacts: true # save results as an action artifacts
+          temporaryPublicStorage: true # upload lighthouse report to the temporary storage
