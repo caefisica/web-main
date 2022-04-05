@@ -8,7 +8,10 @@ jobs:
     - name: Testear la página publicada
       uses: jakejarvis/lighthouse-action@master
       with:
-        url: 'https://caefis.netlify.app/'
+        urls: |
+          https://caefis.netlify.app/
+          https://caefis.netlify.app/pregrado/semestre/
+          https://caefis.netlify.app/blog/
     - name: Subir resultados
       uses: actions/upload-artifact@master
       with:
