@@ -6,6 +6,7 @@
 {{ $alertInit := resources.Get "js/alert-init.js" | js.Build | minify -}}
 <script>{{ $alertInit.Content | safeJS }}</script>
 {{- end -}}
+<script type="module">import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';const el = document.createElement('pwa-update');document.body.appendChild(el);</script>
 {{ if eq (hugo.Environment) "production" -}}
 <script async defer data-website-id="a7ca8ac1-f42d-4ccc-92da-1ef2d325d6a6" src="https://cae.eastus.cloudapp.azure.com/umami.js"></script>
 {{ end -}}
