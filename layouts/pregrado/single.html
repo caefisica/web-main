@@ -41,8 +41,11 @@
 				{{ if .Site.Params.editPage -}}
 					{{ partial "main/edit-page.html" . }}
 				{{ end -}}
-					{{ partial "components/comments.html" . }}
 				{{ partial "main/docs-navigation.html" . }}
+				</br>
+				<div>
+					{{ partial "components/comments.html" . }}
+				</div>
 			</div>
 		</main>
 		</main>
