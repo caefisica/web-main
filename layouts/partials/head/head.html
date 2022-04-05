@@ -7,4 +7,9 @@
 {{ block "head/stylesheet" . }}{{ partial "head/stylesheet.html" . }}{{ end }}
 {{ block "head/seo" . }}{{ partial "head/seo.html" . }}{{ end }}
 {{ block "head/favicons" . }}{{ partial "head/favicons.html" . }}{{ end }}
+<script type="module">
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+ </script>
 </head>
