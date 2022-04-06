@@ -6,10 +6,8 @@
 {{ $alertInit := resources.Get "js/alert-init.js" | js.Build | minify -}}
 <script>{{ $alertInit.Content | safeJS }}</script>
 {{- end -}}
-<script
-  type="module"
-  src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate"
-></script>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate" integrity="sha512-H/j7Bg2zUglCGtxknumiPxMigkDwz/NsgDZZoRy6qFMgMG3TiQDUyGfqqaSQY3hBtchtg751R21xjgL7sDZfCQ==" crossorigin="anonymous"></script>
 
 <pwa-update></pwa-update>
 {{ if eq (hugo.Environment) "production" -}}
