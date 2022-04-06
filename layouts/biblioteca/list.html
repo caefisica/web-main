@@ -16,8 +16,8 @@
   {{ end -}}
   <body class="{{ .Scratch.Get "class" }}">
     {{ partial "header/header.html" . }}
-    <div class="row-container bib">
-        <div class="bibl"><iframe title="Biblioteca del CAE" class="biblio" src="https://d.cae.workers.dev/0:/" class="second-row"></iframe></div>
+    <div id="container" class="biblio">
+      <iframe width="100%" height="100%" src="https://d.cae.workers.dev/0:/" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0"></iframe>
     </div>
     {{ block "sidebar-prefooter" . }}{{ end }}
     {{ block "sidebar-footer" . }}{{ end }}
