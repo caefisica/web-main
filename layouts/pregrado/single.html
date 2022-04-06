@@ -25,7 +25,7 @@
 				</ol>
 			</nav>
 			{{ end }}
-			<h1>{{ .Title }}</h1>
+			<h1>{{ .Title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</h1>
 			<p class="lead">{{ .Params.lead | safeHTML }}</p>
 			{{ partial "main/blog-meta.html" . }}
 			{{ if ne .Params.toc false -}}
