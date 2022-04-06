@@ -16,7 +16,6 @@
 {{ end -}}
 {{ if or .Params.pdf .Site.Params.pdf }}
 <link rel="preload" href="{{ "css/pdfjs.css" | relURL }}" as="style">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.min.js" as="script">
 {{ end }}
 {{ if or .Params.math .Site.Params.math }}
 <link rel="preload" href="{{ "css/katex.min.css" | relURL }}" as="style">
