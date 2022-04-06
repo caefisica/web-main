@@ -1,5 +1,5 @@
 ---
-title : "Documentación"
+title : "Malla"
 description: "Malla curricular y Plan de Estudios"
 lead: "Malla curricular y Plan de Estudio: 2018"
 date: 2020-10-06T00:00:45+00:00
