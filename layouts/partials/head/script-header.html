@@ -4,7 +4,7 @@
 {{ end -}}
 {{- if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
 {{ $alertInit := resources.Get "js/alert-init.js" | js.Build | minify -}}
-<script>{{ $alertInit.Content | safeJS }}</script>
+<script nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">{{ $alertInit.Content | safeJS }}</script>
 {{- end -}}
 {{ if eq (hugo.Environment) "production" -}}
 <script async defer data-website-id="a7ca8ac1-f42d-4ccc-92da-1ef2d325d6a6" src="https://cae.eastus.cloudapp.azure.com/umami.js"></script>
