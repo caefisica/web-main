@@ -1,10 +1,6 @@
-.bibl {
-    background-color: #212529;
-}
-
 .biblio {
-    width: 100vw;
-    min-height: 86vh;
-    margin: 0 auto;
-    display: block;
+    padding-bottom:86vh; 
+    position:relative; 
+    display:block; 
+    width: 100%
 }
