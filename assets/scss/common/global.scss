@@ -11,18 +11,18 @@
 .list.taxonomy.contributors .content,
 .list.term.contributors .content,
 .list.section.blog .content,
-.list.section.pregrado .content,
-.list.section.posgrado .content,
+.list.section.docs .content,
+.list.section.tutorial .content,
 .list.taxonomy.types .content,
 .list.taxonomy.functionalities .content {
   padding-top: 1rem;
   padding-bottom: 3rem;
 }
 
-.single.section.posgrado .content,
-.single.section.experimental .content,
-.single.section.pregrado .content,
-.list.section.experimental .content,
+.single.section.tutorial .content,
+.single.section.showcase .content,
+.single.section.docs .content,
+.list.section.showcase .content,
 .list.term.types .content,
 .list.term.functionalities .content {
   padding-top: 0;
@@ -265,7 +265,7 @@ body {
 
 .card-bar {
   border-top: 4px solid;
-  border-image-source: linear-gradient(90deg, $primary, #a9ead6 50%, #3ebdc6);
+  border-image-source: linear-gradient(90deg, $primary, #8ed6fb 50%, #d32e9d);
   border-image-slice: 1;
 }
 
