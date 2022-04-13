@@ -3,16 +3,8 @@
   <div class="col-md-12 col-lg-10 col-xl-8">
     <article>
       <div class="blog-header">
-		{{ if .Site.Params.options.breadCrumb -}}
-		<br>
-		<nav aria-label="breadcrumb">
-			<ol class="breadcrumb">
-				{{ partial "main/breadcrumb" . -}}
-				<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-			</ol>
-		</nav>
-		{{ end }}
         <h1>{{ .Title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</h1>
+        {{ partial "main/blog-meta.html" . }}
       </div>
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       {{ .Content }}
