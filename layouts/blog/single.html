@@ -13,23 +13,13 @@
 		</nav>
 		{{ end }}
         <h1>{{ .Title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</h1>
-        {{ partial "main/blog-meta.html" . }}
       </div>
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       {{ .Content }}
-	  {{ if .Site.Params.editPage -}}
-		  {{ partial "main/edit-page.html" . }}
-	  {{ end -}}
-	  {{ if not .Site.Params.options.collapsibleSidebar -}}
-		  {{ partial "main/docs-navigation.html" . }}
-	  {{ else -}}
-		  <div class="my-n3"></div>
-	  {{ end -}}
     </article>
   </div>
 </div>
 {{ end }}
-
 {{ define "sidebar-footer" }}
 <section class="section section-sm mt-n5 mb-3">
   <div class="container">
