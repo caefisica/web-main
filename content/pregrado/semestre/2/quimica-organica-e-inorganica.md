@@ -12,9 +12,9 @@ toc = true
 weight = 20
 
 +++
-{{< alert icon="📌" text="Los temas que se tocan en el curso Química Orgánica e Inorgánica son, inicialmente, los estudiados para ingresar, pero con más profundidad
+{{< alert icon="📌" text="Los temas que se tocan en el curso Química Orgánica e Inorgánica son, inicialmente, los estudiados para ingresar, pero con más profundidad.
 
-### ¿Qué temas se ven en Cálculo II?
+### ¿Qué temas se ven en Química Orgánica e Inorgánica?
 
 El curso de Cálculo II se puede dividir en los siguientes temas de forma general:
 
