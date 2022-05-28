@@ -110,3 +110,8 @@ Nombre|Idioma|Contenido|Hospedaje
  [forcoder](https://forcoder.su/)|Libros de programación (8590) y videos de cursos (4990)|Inglés|`.pdf` `.epub` `.mp4`|Rapidgator, Turbobit
  [All IT Books](https://www.allitebooks.org/)|Informática (desarrollo web, administración, seguridad, entre otros) (8500)|Inglés|`.pdf` `.epub`|Propio
  [OpenLibra](https://openlibra.com/en/collection) `Licencia libre`|Desarrollo web, ciencia y entretenimiento (+3000)|Inglés y español|`.pdf`|Propio
+
+<!---
+https://www.compadre.org/osp/document/ServeFile.cfm?ID=7375
+https://www.science.org/doi/10.1126/science.1196984
+-->
