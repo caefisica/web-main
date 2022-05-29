@@ -1,4 +1,31 @@
 {{ define "main" }}
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-6 ms-5 text-center text-lg-start">
+        <div class="social-link">
+          <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
+            {{ range .Site.Menus.social -}}
+              <li class="nav-item">
+                <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
+              </li>
+            {{ end -}}
+          </ul>
+        </div>
+        <h1 class="mb-4">Una guía para el estudio de las Ciencias Físicas</h1>
+        <p class="lead mb-4">{{ .Params.Lead | safeHTML }}</p>
+        <form class="search-wrapper home-search" action="{{ `search` | relLangURL }}">
+          <div id="docsearch"></div>
+        </form>
+        <p class="meta mt-3">Un proyecto del Centro de Apoyo Estudiantil - Física.</a></p>
+      </div>
+      <div class="col-lg-8 me-5 d-lg-block d-none banner-img">
+        <img loading="lazy" src="https://plustatic.com/6032/conversions/enrico-fermi-default.jpg" alt="illustration" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+<!--
 <section class="section container mt-n3 pb-3">
   <div class="row justify-content-center">
     <div class="col-lg-12 text-center">
@@ -10,11 +37,15 @@
     </div>
   </div>
 </section>
+-->
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
+<div class="d-flex justify-content-start mb-3">
+  <div class="bg-dots"></div>
+</div>
 
-<section class="section section-md mb-5">
+<section class="section section-md mb-5 arriba">
   <div class="container">
     <div class="row justify-content-center text-center mt-lg-3">
       <div class="col-lg-5">
@@ -22,7 +53,7 @@
         <p>¡Múltiples bibliotecas! Incluye sílabus, libros teórico-prácticos y grabaciones de clases anteriores.</p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Wiki</h2>
+        <h2 class="h4">Guía de estudio</h2>
         <p>Una guía para el estudio complementario de las ciencias físicas enfocado a estudiantes sanmarquinos.</p>
       </div>
       <div class="col-lg-5">
@@ -30,12 +61,8 @@
         <p>¿Andas aburrido y con ganas de leer? En esta sección encontrarás artículos sobre temas variados.</p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Noticias 🤖</h2>
+        <h2 class="h4">Noticias 📰</h2>
         <p>Es importante estar informado. En esta sección encontrarás información en tiempo real sobre becas, eventos próximos y mucho más.</p>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Club de lectura 📖</h2>
-        <p>Únete al club el cual tiene como objetivo potenciar y ampliar los conocimientos de sus integrantes en diversas áreas.</p>
       </div>
       <div class="col-lg-5">
         <h2 class="h4">Minicursos de verano 🧑‍🏫</h2>
@@ -44,11 +71,11 @@
     </div>
   </div>
 </section>
-
+<!--
 <div class="row-auto text-center" id="powd">
   {{ partial "main/gallery.html" . -}}
 </div>
-
+-->
 <section class="section apoyo mt-3 bg-light">
   <div class="container">
     <h2 class="h3 mt-0 text-center">¿Deseas participar?</h2>
@@ -56,10 +83,6 @@
     <p class="text-center mb-0 mt-4"><a class="btn btn-primary px-4 mb-2" href="https://github.com/caefis/discusion/labels/sugerencia" role="button">Quiero dar una recomendación</a><a class="btn btn-outline-primary px-4 ms-2 mb-2" href="{{ "contacto/" | relURL }}" role="button">Contáctanos</a></p>
   </div>
 </section>
-
-<div class="d-flex justify-content-start mb-3">
-  <div class="bg-dots"></div>
-</div>
 {{ end }}
 
 {{ define "sidebar-footer" }}
@@ -82,7 +105,7 @@
         </div>
       </div>
       <div class="col-md-12 col-lg-10 col-xl-8">
-        <h2 class="h3 mt-3 text-center">Redes sociales</h2>
+        <h2 class="h3 mt-3 text-center">Redes Sociales</h2>
         {{ partial "components/instagram.html" . -}}
       </div>
     </div>
