@@ -44,7 +44,7 @@
 [[main]]
   name = "Pregrado"
   weight = 10
-  url = "/pregrado/semestre/1/"
+  url = "/pregrado/semestre/"
   parent = "UNMSM"
 
 [[main]]
