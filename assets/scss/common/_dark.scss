@@ -106,6 +106,10 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $link-color-dark;
 }
 
+[data-dark-mode] .banner-img::after {
+  background: linear-gradient(#74d4ce, #74d4ce); 
+}
+
 [data-dark-mode] body .navbar-light .navbar-brand {
   color: $navbar-dark-color !important;
 }
