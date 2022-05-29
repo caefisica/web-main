@@ -4,7 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "17.8.0"
-  NPM_VERSION = "8.5.5"
+  NPM_VERSION = "8.11.0"
 
 [context.production]
   command = "npm run build"
