@@ -1,62 +1,18 @@
-{{ $sass := resources.Get "scss/components/_comments.scss" }}
-{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
-
-<div class="mt-4">
-  <!-- TAB CONTROLLERS -->
-  <input id="panel-1-ctrl" class="panel-radios" type="radio" name="tab-radios" checked>
-  <input id="panel-2-ctrl" class="panel-radios" type="radio" name="tab-radios">
-
-  <!-- TABS LIST -->
-  <ul id="tabs-list">
-  <!-- MENU TOGGLE -->
-  <label id="open-nav-label" for="nav-ctrl"></label>
-  <li id="li-for-panel-1">
-  <label class="panel-label"
-        for="panel-1-ctrl">Disqus</label>
-  </li><!--INLINE-BLOCK FIX
-  --><li id="li-for-panel-2">
-  <label class="panel-label"
-        for="panel-2-ctrl">Giscus</label>
-  </li><!--INLINE-BLOCK FIX
-  -->
-  </ul>
-
-  <!-- THE PANELS -->
-  <article id="panels">
-    <div class="container">
-      <section id="panel-1">
-        <main>
-          <div class="field">
-            <div id="disqus_thread"></div>
-            <script src="{{ "js/multi/disqus.js" | relURL }}" type="text/javascript"></script>
-            <noscript>Disqus dice que actives Javascript para ver los mensajes.</a></noscript>
-          </div>
-        </main>
-      </section>
-      <section id="panel-2">
-        <main>
-          <div>
-            <script src="https://giscus.app/client.js"
-                data-repo="caefis/discusion"
-                data-repo-id="R_kgDOHDJn8w"
-                data-category="General"
-                data-category-id="DIC_kwDOHDJn884COOkv"
-                data-mapping="title"
-                data-reactions-enabled="1"
-                data-emit-metadata="1"
-                data-input-position="top"
-                data-theme="preferred_color_scheme"
-                data-lang="es"
-                data-loading="lazy"
-                crossorigin="anonymous"
-                async
-                integrity="sha512-pKSEhFMUPgvd9f+JEvQsZ1SA2Ci4o+JHfh+sMIOWu/fXgsRa8b7mf4aDNeOutvby5IcBi6kGeE2vgVBUtxG2TQ==">
-            </script>
-          </div>
-        </main>
-      </section>
-    </div>
-  </article>
-
+<div class="giscus-comments">
+  <script src="https://giscus.app/client.js"
+    data-repo="caefis/discusion"
+    data-repo-id="R_kgDOHDJn8w"
+    data-category="General"
+    data-category-id="DIC_kwDOHDJn884COOkv"
+    data-mapping="title"
+    data-reactions-enabled="1"
+    data-emit-metadata="1"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="es"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async
+    integrity="sha512-pKSEhFMUPgvd9f+JEvQsZ1SA2Ci4o+JHfh+sMIOWu/fXgsRa8b7mf4aDNeOutvby5IcBi6kGeE2vgVBUtxG2TQ==">
+  </script>
 </div>
