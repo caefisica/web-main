@@ -14,7 +14,7 @@ __Resumen__: No utilizamos cookies y no recogemos Datos Personales de forma obli
 ---
 
 ```text
-Titular y Responsable del tratamiento de los Datos: Centro de Apoyo Estudiantil (CAE)
+Titular y Responsable del tratamiento de los Datos: Centro de Apoyo Estudiantil - Física (CAE)
 Correo electrónico de contacto del Titular: cae.fisica.unmsm [en] gmail [punto] com
 ```
 
