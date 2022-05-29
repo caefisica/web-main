@@ -3,11 +3,6 @@
   padding-bottom: 3rem;
 }
 
-.single.home .content {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
 .list.taxonomy.contributors .content,
 .list.term.contributors .content,
 .list.section.blog .content,
@@ -97,19 +92,19 @@ a.btn:focus {
   text-decoration: none;
 }
 
-.content .section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.content .section-md {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.content .section-sm {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.content {
+	.section {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+	.section-md {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+	.section-sm {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
 }
 
 /*
@@ -137,7 +132,30 @@ body {
 	}
 	.social-link {
 		padding-bottom: 1.2rem;
+    @media screen and (max-width: 991px) {
+      display: none;
+    }
+    li {
+      margin: 0;
+    }
+    .nav-link {
+      padding: 0.5rem 0.9rem;
+    }
 	}
+  .banner {
+    padding: 3rem;
+    @media screen and (max-width: 1980px) {
+      height: calc(65vh);
+      padding: 5rem;
+    }
+    @media screen and (max-width: 900px) {
+      padding: 1rem;
+    }
+  }
+  .content {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 .banner-img {
 	position: relative;
