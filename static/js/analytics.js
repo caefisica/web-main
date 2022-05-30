@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
-  swetrix.init('ghOccXhI6QmM')
-  swetrix.trackViews()
-})
+<script>
+insights.init('g6utRJAAI9ybNwTv');
+insights.trackPages();
+</script>
