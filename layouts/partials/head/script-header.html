@@ -7,7 +7,10 @@
 <script nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">{{ $alertInit.Content | safeJS }}</script>
 {{- end -}}
 {{ if eq (hugo.Environment) "production" -}}
+<script src="https://swetrix.org/swetrix.js" defer></script>
+<!--
 <script async defer data-website-id="13cf410d-eabe-451b-adaa-9708754767ed" src="https://umami-production-88cb.up.railway.app/umami.js" crossorigin="anonymous"></script>
+-->
 <script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate" crossorigin="anonymous"></script>
 
 <pwa-update></pwa-update>
