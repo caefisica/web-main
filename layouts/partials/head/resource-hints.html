@@ -2,11 +2,15 @@
 <link rel="preload" as="font" href="{{ "fonts/vendor/jost/jost-v4-latin-700.woff2" | absURL }}" type="font/woff2" crossorigin>
 <link rel="preconnect" href="https://plausible.io">
 {{ if eq .Kind "home" -}}
+<!--
 <link rel="preload" href="{{ "css/swiper-bundle.min.css" | relURL }}" as="style">
+-->
 <link rel="preload" href="{{ "css/fancybox.css" | relURL }}" as="style">
 <script src="{{ "js/jquery.min.js" | relURL }}" type="text/javascript"></script>
+<!--
 <link rel="preload" href="{{ "js/swiper/swiper-bundle.min.js" | relURL }}" as="script">
 <link rel="preload" href="{{ "js/swiper/swiper-gal.js" | relURL }}" as="script">
+-->
 <link rel="preload" href="{{ "js/inst/fancybox.umd.js" | relURL }}" as="script">
 <link rel="preload" href="{{ "js/inst/instafeed.min.js" | relURL }}" as="script">
 <link rel="preload" href="{{ "js/inst/nekot.js" | relURL }}" as="script">
