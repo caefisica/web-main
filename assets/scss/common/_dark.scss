@@ -107,11 +107,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] .banner-img::after {
-  background: linear-gradient($blue-300, $blue-300); 
-}
-
-[data-dark-mode] .single.home .banner .nav-link {
-  color: $blue-300;
+  background: linear-gradient($blue-300, $blue-300);
 }
 
 [data-dark-mode] body .navbar-light .navbar-brand {
@@ -120,6 +116,10 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .navbar-light .navbar-nav .nav-link {
   color: $navbar-dark-color;
+}
+
+[data-dark-mode] .single.home .banner .nav-link {
+  color: $blue-300;
 }
 
 [data-dark-mode] body .navbar-light .navbar-nav .nav-link:hover,
