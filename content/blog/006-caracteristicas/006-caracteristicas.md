@@ -47,7 +47,7 @@ El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de S
 
     {{< pdfjs file="admision-2022.pdf" >}}
 
-    - Quiz (pospuesto por motivos de seguridad)
+    - Quiz (pospuesto por motivos de seguridad) {{< sidenote >}}Este es un mensaje extraño, porque no sé muy bien lo que quiero decir. Definitivamente no sé lo que estoy escribiendo.{{< /sidenote >}}
 
 <p>   </p>
 
@@ -56,3 +56,11 @@ El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de S
     - Feed de canales de Youtube
     - Flashcards de estudio
     - Implementar totalmente la sección de RSS y "Biblioteca"
+
+<p>   </p>
+
+5. **Ideas**
+    - Esta es una <cite>cita[^1]</cite>
+    - A sentence deserving a sidenote.{{< sidenote >}}Este es un mensaje extraño, porque no sé muy bien lo que quiero decir. Definitivamente no sé lo que estoy escribiendo.{{< /sidenote >}}
+
+[^1]: Esta es una cita.
