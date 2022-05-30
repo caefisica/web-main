@@ -118,6 +118,14 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $navbar-dark-color;
 }
 
+[data-dark-mode] .hero_footer-svg {
+  filter: brightness(0) invert(1);
+}
+
+[data-dark-mode] .hero_figure .figure-svg {
+  filter: brightness(0) invert(1);
+}
+
 [data-dark-mode] .single.home .banner .nav-link {
   color: $blue-300;
 }

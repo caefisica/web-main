@@ -2,7 +2,7 @@
 <section class="section">
   <div class="container banner">
     <div class="row justify-content-between align-items-center">
-      <div class="col-lg-6 text-center text-lg-start">
+      <div class="col-lg-7 text-center text-lg-start">
         <div class="social-link">
           <ul class="nav flex-md-row ms-md-auto me-md-n5 pe-md-2">
             {{ range .Site.Menus.social -}}
@@ -12,6 +12,9 @@
             {{ end -}}
           </ul>
         </div>
+        <div class="hero_footer-svg">
+          <img src="images/testing/figure-svg.svg" alt="" />
+        </div>
         <h1 class="mb-4">Una guía para el estudio de las Ciencias Físicas</h1>
         <p class="lead mb-4">{{ .Params.Lead | safeHTML }}</p>
         <form class="search-wrapper home-search" action="{{ `search` | relLangURL }}">
@@ -19,26 +22,39 @@
         </form>
         <p class="meta mt-3">Un proyecto del Centro de Apoyo Estudiantil - Física</a></p>
       </div>
-      <div class="col-lg-8 me-5 d-lg-block d-none banner-img">
-        <img loading="lazy" src="https://plustatic.com/6032/conversions/enrico-fermi-default.jpg" alt="illustration" class="img-fluid">
-        <div class="littledots"></div>
+      <div class="col-lg-7 galnew">
+        {{ with .Site.Data.banner }}
+        <div class="hero_figure">
+          <div class="figure-svg">
+            <img src="images/testing/figure-svg.svg" alt="figure-svg" />
+          </div>
+          <img src="{{ .image | absURL }}" alt="hero-image" style='
+                  -webkit-mask: url({{"images/testing/hero-mask-svg.png" | absURL }});
+                  -webkit-mask-repeat: no-repeat;
+                  -webkit-mask-size: contain;
+                  -webkit-mask-position: center center;
+                ' />
+
+          {{ if .videoURL }}
+          <div class="hero_figure-popup">
+            <div class="thumb">
+              <img src="{{ .videoThumb }}" alt="popup" />
+            </div>
+
+            <a href="{{ .videoURL }}" type="button" class="popup-button text-center big">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24">
+                <path d="M17.961 10.264a2 2 0 010 3.473L2.992 22.29A2 2 0 010 20.554V3.446A2 2 0 012.992 1.71z"
+                  data-name="Polygon 4" />
+              </svg>
+            </a>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
       </div>
     </div>
   </div>
 </section>
-<!--
-<section class="section container mt-n3 pb-3">
-  <div class="row justify-content-center">
-    <div class="col-lg-12 text-center">
-      <h1 class="mt-0">{{ .Title }}</h1>
-    </div>
-    <div class="col-lg-9 col-xl-8 text-center">
-      <p class="lead">{{ .Params.Lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2 mt-2" href="{{ "pregrado/semestre/" | relURL }}" role="button">Malla curricular</a>
-    </div>
-  </div>
-</section>
--->
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
