@@ -1,18 +1,8 @@
 <p align="center">
         <a href="https://caefis.netlify.app">
-                <img src="https://i.imgur.com/KFhCdMt.png" alt="Encabezado con el logo del CAE">
+                <img src="https://i.imgur.com/T4FR9pc.png" alt="Encabezado con el logo del CAE">
         </a>
 </p>
-<p align="center">
-        <em>
-                Hugo
-                · Algolia
-                · npm
-                · Markdown
-                · SCSS
-                · JavaScript
-        </em>
-</p><br>
 <p align="center">
         <a href="https://app.netlify.com/sites/caefis/deploys">
                 <img height="20" src="https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status" alt="Netlify">
@@ -25,12 +15,6 @@
     <img height="23" alt="Logotipo de Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?colorA=2c2837&colorB=c9cbff&style=for-the-badge&logo=twitter&logoColor=white"></a>
   <a href="https://instagram.com/caefisica">
     <img height="23" alt="Logotipo de Instagram" src="https://img.shields.io/badge/Instagram-E4405F?colorA=2c2837&colorB=c9cbff&style=for-the-badge&logo=instagram&logoColor=white"></a>
-</p>
-<p align="center">
-  <img height="25" src="https://img.shields.io/badge/Author-CAE-blue.svg?colorA=2c2837&colorB=c9cbff&style=for-the-badge">
-  <img height="25" src="https://img.shields.io/badge/License-MIT-green.svg?colorA=2c2837&colorB=c9cbff&style=for-the-badge">
-  <img height="25" src="https://img.shields.io/github/repo-size/caefis/cae?colorA=2c2837&colorB=c9cbff&style=for-the-badge&label=Repo%20Size">
-  <img height="25" src="https://img.shields.io/github/last-commit/caefis/cae?colorA=2c2837&colorB=c9cbff&style=for-the-badge&label=Last%20Commit"/>
 </p><br>
 
 ---
