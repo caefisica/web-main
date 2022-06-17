@@ -3,14 +3,14 @@
 ## Homepage
 title = "CAE"
 titleSeparator = "-"
-titleAddition = "Centro de Apoyo Estudiantil"
+titleAddition = "Centro de Apoyo al Estudiante de Física"
 description = "Facilitando recursos para el estudio de la física."
 
 ## Open Graph
 images = ["cae.png"]
 ogLocale = "es_ES"
 domainTLD = "caefis.netlify.app"
-titleHome = "Centro de Apoyo Estudiantil"
+titleHome = "Centro de Apoyo al Estudiante de Física"
 
 ## Twitter Cards
 twitterSite = "@cae_fisica"
@@ -51,7 +51,7 @@ lqipWidth = "20x"
 smallLimit = "600"
 
 # Footer
-footer = "Un proyecto del Centro de Apoyo Estudiantil"
+footer = "Un proyecto del Centro de Apoyo al Estudiante de Física"
 
 # Feed
 copyRight = "Copyright (c) 2022 — CAE"
