@@ -12,9 +12,6 @@
 
 <pwa-update></pwa-update>
 {{ end -}}
-{{ if eq .Section "pregrado" "posgrado" "blog" "tags" -}}
-<script src="{{ "js/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
-{{ end -}}
 {{ if or .Params.math .Site.Params.math }}
 {{ partial "head/katex.html" . }}
 {{ end }}
