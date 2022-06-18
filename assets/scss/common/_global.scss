@@ -312,6 +312,10 @@ body {
   list-style: none;
 }
 
+li ul {
+  padding-bottom: 1rem;
+}
+
 ::selection {
   background: rgba(212, 53, 159, 0.2);
 }
