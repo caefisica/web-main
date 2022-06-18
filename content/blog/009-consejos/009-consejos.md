@@ -14,11 +14,11 @@ toc: true
 
    * Adicionalmente, seguro que recibirás comentarios útiles, tanto de la forma en la que ellos entienden el tema, como dudas de la persona a la que estás enseñando. Nuevamente, hará que aquello que aprendiste se afiance más en tu memoria.
 
-2. **Mantén un registro**: Sé que puedes tomar capturas de pantalla de lo que tu profesor(a) te está explicando y quizá seas de las personas que presta atención en clase. Sin embargo, sabrás que es muy difícil mantener la atención, especialmente en un principio. La mejor solución que encontré es escribir, especialmente las expresiones matemáticas más mi propia forma de entender el tópico. 
+2. **Mantén un registro**: Sé que puedes tomar capturas de pantalla de lo que tu profesor(a) te está explicando y quizá seas de las personas que presta atención en clase. Sin embargo, sabrás que es muy difícil mantener la atención, especialmente en un principio. La mejor solución que encontré es escribir, especialmente las expresiones matemáticas más mi propia forma de entender el tópico.
 
    * Este proceso implica que mantengas una _pseudoatención_ constante por un mayor periodo de tiempo y es útil, cuando más adelante, el/la profesor(a) hace referencia a una expresión que escribió unas diapositivas atrás.
 
-3. **Práctica, práctica y más práctica**: Simplemente leer un libro o estar en clase no hará que seas un buen estudiante (¡y me refiero a largo plazo!, los cursos se van complicando conforme avanzas, tópicos a los que no prestaste atención pueden volver a morderte el talón). 
+3. **Práctica, práctica y más práctica**: Simplemente leer un libro o estar en clase no hará que seas un buen estudiante (¡y me refiero a largo plazo!, los cursos se van complicando conforme avanzas, tópicos a los que no prestaste atención pueden volver a morderte el talón).
 
    Mi sugerencia es practicar lo más pronto posible (ojito, no sugiero hacer todo esto a la vez, escoge la estrategia que más te convenga) para consolidar lo que acabas de aprender:
 
@@ -30,7 +30,7 @@ toc: true
 5. Nuestra universidad (UNMSM) no nos enseña todo. ¡Tienes que aprender cosas por tu cuenta! Algunas de las cosas que deberías de ir dándole un ojo :eyes::
 
    * Inglés (y otros idiomas, si tienes interés en perseguir tus estudios ahí): Quiero hacer notar que la universidad ofrece cursos de idiomas, pero estos no están incluidos en la malla.
-   * LaTeX 
+   * LaTeX
    * Python
 
 6. Arma un horario de estudio.
