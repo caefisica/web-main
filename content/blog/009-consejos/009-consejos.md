@@ -29,6 +29,7 @@ toc: true
 4. Nadie lo sabe todo y tú tampoco tienes que saberlo todo.
 5. Nuestra universidad (UNMSM) no nos enseña todo. ¡Tienes que aprender cosas por tu cuenta! Algunas de las cosas que deberías de ir dándole un ojo :eyes::
 
+   * Inglés (y otros idiomas, si tienes interés en perseguir tus estudios ahí): Quiero hacer notar que la universidad ofrece cursos de idiomas, pero estos no están incluidos en la malla.
    * LaTeX 
    * Python
 
