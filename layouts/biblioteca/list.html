@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "es" }}">
-  <link rel="preload" href="{{ "css/biblioteca.css" | relURL }}" as="style">
-  <link rel="stylesheet" href="{{ "css/biblioteca.css" | relURL }}"/>
   {{ partial "head/head.html" . }}
+  {{ $sass := resources.Get "scss/components/_iframe.scss" }}
+  {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"> 
   {{ if eq .Kind "home" -}}
     {{ .Scratch.Set "class" "home" -}}
   {{ else if eq .Kind "404" -}}
@@ -17,7 +18,7 @@
   <body class="{{ .Scratch.Get "class" }}">
     {{ partial "header/header.html" . }}
     <div id="container" class="biblio">
-      <iframe width="100%" height="100%" src="https://d.cae.workers.dev/0:/" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0"></iframe>
+      <iframe class="worker-bib" width="100%" height="100%" src="https://d.cae.workers.dev/0:/" frameborder="0" allowfullscreen=""></iframe>
     </div>
     {{ block "sidebar-prefooter" . }}{{ end }}
     {{ block "sidebar-footer" . }}{{ end }}
