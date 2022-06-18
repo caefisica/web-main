@@ -8,9 +8,6 @@
 {{- end -}}
 {{ if eq (hugo.Environment) "production" -}}
 <script async src="https://cdn.splitbee.io/sb.js"></script>
-<!--
-<script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate" crossorigin="anonymous"></script>
-<pwa-update></pwa-update>-->
 {{ end -}}
 {{ if or .Params.math .Site.Params.math }}
 {{ partial "head/katex.html" . }}
