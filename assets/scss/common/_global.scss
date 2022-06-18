@@ -307,13 +307,13 @@ body {
   text-decoration: none;
 }
 
+li ul {
+  padding-bottom: 1rem;
+}
+
 #TableOfContents ul {
   padding-left: 0;
   list-style: none;
-}
-
-li ul {
-  padding-bottom: 1rem;
 }
 
 ::selection {
