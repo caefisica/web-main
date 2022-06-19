@@ -11,8 +11,8 @@ lastmod:
 draft: false
 images: []
 menu:
-  posgrado:
-      parent: "research"
+  guias:
+    parent: "posgrado"
 weight: 220
 toc: true
 contributors: ["David"]
