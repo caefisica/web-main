@@ -20,11 +20,6 @@
   }
 }
 
-.single .content {
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-}
-
 .bg-dots {
   background-image: radial-gradient($gray-300 15%, transparent 15%);
   background-position: 0 0;
@@ -49,7 +44,6 @@
 
   .social-link {
     padding-bottom: 1.2rem;
-    margin-left: -1rem;
 
     @media screen and (max-width: 991px) {
       display: none;
@@ -65,7 +59,7 @@
   }
 
   .banner {
-    padding: 5rem;
+    padding: 7rem 5rem 7rem 5rem;
 
     @media screen and (min-width: 1600px) {
       height: calc(65vh);
@@ -86,17 +80,17 @@
 .list.taxonomy.contributors .content,
 .list.term.contributors .content,
 .list.section.blog .content,
-.list.section.pregrado .content,
-.list.section.posgrado .content,
+.list.section.guias .content,
+.list.section.cursos .content,
 .list.taxonomy.types .content,
 .list.taxonomy.functionalities .content {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.single.section.posgrado .content,
+.single.section.cursos .content,
 .single.section.experimental .content,
-.single.section.pregrado .content,
+.single.section.guias .content,
 .list.section.experimental .content,
 .list.term.types .content,
 .list.term.functionalities .content {
