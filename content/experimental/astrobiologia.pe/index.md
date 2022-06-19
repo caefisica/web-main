@@ -4,7 +4,7 @@ description: "Investigación y divulgación sobre astrobiología"
 lead: "Investigación y divulgación sobre astrobiología"
 date: 2022-03-25T15:08:51-05:00
 lastmod: 2022-03-25T15:08:51-05:00
-draft: false
+draft: true
 images: ["astrobiologia.pe.png"]
 link: "https://astrobiologia.pe/"
 menu:

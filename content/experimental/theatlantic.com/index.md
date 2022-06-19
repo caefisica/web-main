@@ -4,7 +4,7 @@ description: "Tiene un coste real y desgarrador."
 lead: "Lo que no ayuda es la reticencia a indagar en nuestro pasado y preguntarse qué hay que revisar. Ha llegado el momento de hacer cuentas con nuestro pasado. Nuestro futuro podría depender de ello."
 date: 2021-03-04T08:02:23+01:00
 lastmod: 2021-03-04T08:02:23+01:00
-draft: false
+draft: true
 images: ["theatlantic.com.png"]
 link: "https://www.theatlantic.com/science/archive/2016/03/psychologys-replication-crisis-cant-be-wished-away/472272/"
 menu:

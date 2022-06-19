@@ -4,7 +4,7 @@ description: "En este artículo, Giorgio Parisi intenta unir la física y la bio
 lead: "En este artículo, Giorgio Parisi intenta unir la física y la biología. Quiere cambiar la perspectiva tanto del físico —que se preocupa más por los principios generales— como del biólogo —que sigue interesado en lo que realmente es—."
 date: 2021-03-04T08:02:23+01:00
 lastmod: 2021-03-04T08:02:23+01:00
-draft: false
+draft: true
 images: ["stat-phy-bio.png"]
 link: "https://doi.org/10.1088/2058-7058/6/9/35"
 menu:
