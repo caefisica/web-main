@@ -1,10 +1,9 @@
 {{ define "main" }}
-<link rel="stylesheet" href="{{ "css/fullpage.css" | relURL }}"/>
-<div class="content d-flex justify-content-center ">
+<div class="content fullpage2 d-flex justify-content-center ">
   <div class="row justify-content-center d-flex">
     <div class="col-md-12 col-lg-10 col-xl-8 align-items-center d-flex align-self-center">
       <article class="align-self-center">
-        <h1 class="text-center">Esta página no se pudo encontrar :(</h1>
+        <h1 class="text-center">Esta página no se pudo encontrar {{ ":pensive:" | emojify }}</h1>
         <br>
         {{ partial "ghost.html" . -}}
         <br>

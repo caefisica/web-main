@@ -1,10 +1,9 @@
 {{ define "main" }}
-<link rel="stylesheet" href="{{ "css/fullpage.css" | relURL }}"/>
-<div class="row justify-content-center fullpage">
+<div class="row fullpage2 align-items-center">
   <div class="col-md-12 col-lg-10 col-xl-8">
-    <article>
-      <h1>{{ .Title }}</h1>
-      <div>{{ .Content }}</div>
+    <article class="row d-flex justify-content-center">
+      <h1 class="col-12">{{ .Title }}</h1>
+      <div class="col-12">{{ .Content }}</div>
 			<div class="card-list">
 				{{ range .Data.Pages -}}
 					<div class="card">
