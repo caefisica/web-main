@@ -4,7 +4,7 @@ description: "La educación superior estuvo vedada durante mucho tiempo para las
 lead: "La educación superior estuvo vedada durante mucho tiempo para las mujeres peruanas."
 date: 2022-03-25T04:31:23-05:00
 lastmod: 2022-03-25T04:31:23-05:00
-draft: false
+draft: true
 images: ["rrpuni.blogspot.com.png"]
 link: "https://rrppuni.blogspot.com/2020/07/las-primeras-ingenieras-y-arquitectas.html"
 menu:

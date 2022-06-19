@@ -13,7 +13,7 @@ menu:
 weight: 280
 toc: false
 pinned: false
-types: ["beca", "universidad", "extranjero"]
+types: ["universidad", "extranjero"]
 functionalities: ["artículo"]
 ---
 

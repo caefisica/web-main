@@ -4,7 +4,7 @@ description: "Consejos para estudiantes de grado y posdoctorado en el área de i
 lead: "Consejos para estudiantes de grado y posdoctorado en el área de investigación"
 date: 2022-03-25T04:35:06-05:00
 lastmod: 2022-03-25T04:35:06-05:00
-draft: false
+draft: true
 images: ["math.ucr.edu.png"]
 link: "https://math.ucr.edu/home/baez/advice.html"
 menu:

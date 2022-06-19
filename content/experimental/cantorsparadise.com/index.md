@@ -4,7 +4,7 @@ description: "La mayoría de los matemáticos demuestran lo que pueden, von Neum
 lead: "La mayoría de los matemáticos demuestran lo que pueden, von Neumann demuestra lo que quiere."
 date: 2022-03-25T03:49:16-05:00
 lastmod: 2022-03-25T03:49:16-05:00
-draft: false
+draft: true
 images: ["cantorsparadise.com.png"]
 link: "https://www.cantorsparadise.com/the-unparalleled-genius-of-john-von-neumann-791bb9f42a2d"
 menu:

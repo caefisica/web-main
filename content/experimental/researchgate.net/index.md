@@ -4,7 +4,7 @@ description: "Análisis y efectos cualitativos de los senos grandes en el rendim
 lead: "Análisis y efectos cualitativos de los senos grandes en el rendimiento aerodinámico y la estela (rastro) de un personaje de la \"Kobayashi-san Chi no Maid Dragon\"."
 date: 2022-03-25T19:40:50-05:00
 lastmod: 2022-03-25T19:40:50-05:00
-draft: false
+draft: true
 images: ["researchgate.net.png"]
 link: "http://dx.doi.org/10.13140/RG.2.2.30181.50404/1"
 menu:

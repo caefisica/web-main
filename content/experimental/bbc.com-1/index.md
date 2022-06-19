@@ -4,7 +4,7 @@ description: "La aventura amorosa de la pionera de la física y química Marie C
 lead: "La aventura amorosa de la pionera de la física y química Marie Curie que escandalizó al comité del Nobel"
 date: 2022-03-25T04:27:56-05:00
 lastmod: 2022-03-25T04:27:56-05:00
-draft: false
+draft: true
 images: ["bbc.com-1.png"]
 link: "https://www.bbc.com/mundo/noticias-39281395"
 menu:

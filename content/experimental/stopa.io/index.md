@@ -4,7 +4,7 @@ description: "A los 25 escribió una demostración que puso las matemáticas de 
 lead: "A los 25 escribió una demostración que puso las matemáticas de cabeza."
 date: 2022-03-25T04:20:42-05:00
 lastmod: 2022-03-25T04:20:42-05:00
-draft: false
+draft: true
 images: ["stopa.io.png"]
 link: "https://stopa.io/post/269"
 menu:

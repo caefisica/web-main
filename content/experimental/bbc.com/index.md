@@ -4,7 +4,7 @@ description: "A los conocidos como \"guevedoces\" los educan como niñas porque 
 lead: "A los conocidos como \"guevedoces\" los educan como niñas porque no tienen testículos ni pene visibles."
 date: 2021-03-04T08:02:23+01:00
 lastmod: 2021-03-04T08:02:23+01:00
-draft: false
+draft: true
 images: ["bbc.com.png"]
 link: "https://www.bbc.com/mundo/noticias/2015/09/150921_republica_dominicana_guevedoces_genetica_ac_lav"
 menu:

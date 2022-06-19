@@ -4,7 +4,7 @@ description: "Es mucho más fácil convertirse en un mal físico teórico que en
 lead: "Es mucho más fácil convertirse en un mal físico teórico que en uno bueno."
 date: 2022-03-25T04:46:19-05:00
 lastmod: 2022-03-25T04:46:19-05:00
-draft: false
+draft: true
 images: ["webspace.science.uu.nl.png"]
 link: "https://webspace.science.uu.nl/~hooft101/theoristbad.html"
 menu:
