@@ -1,12 +1,3 @@
-html, body {
-    height: 100%;
-}
-.content {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto 10px; /* the bottom margin is the negative value of the footer's height */
-}
 .containerdubu {
     margin: 0 auto;
     position: relative;
