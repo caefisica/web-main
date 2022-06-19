@@ -1,20 +1,20 @@
-[[pregrado]]
-  name = "Malla curricular"
+[[guias]]
+  name = "Pregrado"
   weight = 10
-  identifier = "semestre"
-  url = "/pregrado/semestre/"
+  identifier = "guias"
+  url = "/guias/pregrado/"
 
-[[pregrado]]
-  name = "Adicional"
+[[guias]]
+  name = "Posgrado"
   weight = 20
-  identifier = "cursos"
-  url = "/pregrado/cursos/"
+  identifier = "posgrado"
+  url = "/guias/posgrado/"
 
-[[posgrado]]
-  name = "Research"
+[[cursos]]
+  name = "Cursos"
   weight = 10
-  identifier = "research"
-  url = "/posgrado/research"
+  identifier = "cursos"
+  url = "/cursos/matemática"
 
 [[main]]
   name = "Biblioteca"
@@ -22,7 +22,7 @@
   weight = 10
 
 [[main]]
-  name = "UNMSM"
+  name = "Académico"
   url = "/pregrado/"
   weight = 20
 
@@ -30,28 +30,31 @@
   name = "Artículos"
   url = "/experimental/"
   weight = 30
+  parent = "Recursos"
 
 [[main]]
   name = "Noticias"
   url = "/rss/"
   weight = 40
+  parent = "Recursos"
 
 [[main]]
   name = "Blogs"
   url = "/blog/"
   weight = 50
+  parent = "Recursos"
 
 [[main]]
-  name = "Pregrado"
+  name = "Guías"
   weight = 10
-  url = "/pregrado/semestre/"
-  parent = "UNMSM"
+  url = "/guias/pregrado/"
+  parent = "Académico"
 
 [[main]]
-  name = "Posgrado"
+  name = "Cursos"
   weight = 20
-  url = "/posgrado/research/maestria/"
-  parent = "UNMSM"
+  url = "/cursos/"
+  parent = "Académico"
 
 [[social]]
   name = "Facebook"

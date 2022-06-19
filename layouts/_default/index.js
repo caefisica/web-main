@@ -1,5 +1,5 @@
 var pregrado = [
-{{ range $index, $page := (where .Site.Pages "Section" "pregrado") -}}
+{{ range $index, $page := (where .Site.Pages "Section" "guias") -}}
   {
     id: {{ $index }},
     title: "{{ .Title }}",
