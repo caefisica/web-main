@@ -32,7 +32,7 @@
     position: absolute;
     bottom: 4vw;
     left: -7vw;
-    animation: move_top 5s infinite linear;
+    animation: move-top 5s infinite linear;
 
     @media screen and (max-width: 1475px) {
       display: none;
@@ -105,7 +105,7 @@
       transform: translateX(-50%);
       z-index: -1;
       height: 150px;
-      animation: move_left 5s infinite linear;
+      animation: move-left 5s infinite linear;
 
       img {
         height: 100%;
