@@ -18,7 +18,6 @@
 		{{ if .Site.Params.options.breadCrumb -}}
 			<!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->
 			<nav aria-label="breadcrumb">
-			</br>
 				<ol class="breadcrumb">
 					{{ partial "main/breadcrumb" . -}}
 					<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
@@ -35,12 +34,14 @@
 			{{ end -}}
 			{{ partial "main/headline-hash.html" .Content }}
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between"></div>
-				{{ if .Site.Params.lastMod -}}
-					{{ partial "main/last-modified.html" . }}
-				{{ end -}}
-				{{ if .Site.Params.editPage -}}
-					{{ partial "main/edit-page.html" . }}
-				{{ end -}}
+        <div class="metadata-article">
+  				{{ if .Site.Params.lastMod -}}
+  					{{ partial "main/last-modified.html" . }}
+  				{{ end -}}
+  				{{ if .Site.Params.editPage -}}
+  					{{ partial "main/edit-page.html" . }}
+  				{{ end -}}
+        </div>
 				{{ partial "main/docs-navigation.html" . }}
 				</br>
 				<div>
