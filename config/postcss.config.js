@@ -23,6 +23,7 @@ module.exports = {
         'alert-link',
         'container-xxl',
         'container-fluid',
+        'offcanvas-backdrop',
         ...whitelister([
           './layouts/index.html',
           './assets/scss/components/_alerts.scss',
