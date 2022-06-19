@@ -61,13 +61,13 @@
   .banner {
     padding: 7rem 5rem;
 
-    @media screen and (min-width: 1600px) {
-      height: calc(65vh);
-      margin: 3rem;
-    }
-
     @media screen and (max-width: 900px) {
-      padding: 1rem;
+      padding: 5rem 1rem;
+
+      h1,
+      .lead {
+        text-align: left;
+      }
     }
   }
 
