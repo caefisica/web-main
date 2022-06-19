@@ -22,7 +22,7 @@ El siete de febrero (este lunes) comienzan una serie de reuniones semanales para
 
 9 de febrero
 
-{{< embed-pdf url="/pdf/cergio.pdf" >}}
+{{< embed-pdf url="/cergio.pdf" >}}
 
 #### Semana 2
 
