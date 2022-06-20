@@ -1,13 +1,37 @@
-.cursos h4 {
+.cursos h4,
+.list.guias h4 {
   margin: 1rem 0;
+
   a {
     color: var(--bs-body-color);
   }
 }
 
 .cursos h1,
-.cursos p {
-  @media screen and (max-width:768px) {
+.cursos p,
+.list.guias h1,
+.list.guias p {
+  @media screen and (max-width: 768px) {
     text-align: left !important;
+  }
+}
+
+.list.guias {
+  p {
+    margin-bottom: 0;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  span {
+    margin-bottom: 1rem;
+  }
+
+  .card {
+    min-height: 280px;
+    display: flex;
+    justify-content: center;
   }
 }
