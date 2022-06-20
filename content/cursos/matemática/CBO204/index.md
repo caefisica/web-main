@@ -1,5 +1,5 @@
 ---
-title: "Cálculo II a detalles"
+title: "Cálculo II"
 description: "CBO204 — 4 créditos"
 lead: "CBO204 — 4 créditos"
 date: 2022-02-01T02:00:00
@@ -9,7 +9,6 @@ lastmod:
   - date
   - publishDate
 draft: false
-images: []
 menu:
   cursos:
     parent: "matemática"
@@ -17,6 +16,7 @@ weight: 24
 toc: true
 contributors: ["Richard"]
 math: true
+types: ["matemática"]
 ---
 
 {{< alert icon="📌" text="Los temas que se tocan en el curso Cálculo II está relacionado con el cálculo integral, donde se aprenderá distintas técnicas de integración." />}}
