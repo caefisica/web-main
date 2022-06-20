@@ -1,0 +1,13 @@
+.cursos h4 {
+  margin: 1rem 0;
+  a {
+    color: var(--bs-body-color);
+  }
+}
+
+.cursos h1,
+.cursos p {
+  @media screen and (max-width:768px) {
+    text-align: left !important;
+  }
+}
