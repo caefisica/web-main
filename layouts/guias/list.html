@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="fullpage3 pt-3 pb-4">
   <div class="container">
-     <h1 class="text-center pt-3">{{ .Title }}</h1>
+     <h1 class="text-center pt-3">{{ .Params.alternativeTitle | safeHTML }}</h1>
      <div class="text-center"><p class="lead">{{ .Params.lead | safeHTML }}</p></div>
      <div class="text-center">{{ .Content }}</div>
   </div>
@@ -12,13 +12,9 @@
     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1 g-4 g-lg-4 pt-4 pb-5">
       {{range .Pages}}
         <div class="col">
-          <div class="p-5 border card">
-            <h4><a href="{{ .RelPermalink }}" target="_blank">{{ .Params.title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</a></h4>
+          <div class="card">
+            <h4><a class="stretched-link text-body" href="{{ .RelPermalink }}" target="_blank">{{ .Params.title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</a></h4>
             <p>{{ .Params.lead | safeHTML }}</p>
-            <span class="cat">{{ range $index, $type := .Params.contributors }}{{ if gt $index 0 }}, {{ end }}<a class="stretched-link position-relative" href="{{ "contributors/" | relURL }}{{ . | urlize }}/">{{ . | humanize }}</a>{{ end -}}</span>
-            <div class="d-grid gap-2">
-              <button class="btn btn-primary" onclick="location.href='{{ .RelPermalink }}'" type="button">Leer</button>
-            </div>
           </div>
         </div>
       {{end}}

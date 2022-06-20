@@ -1,4 +1,4 @@
-.cursos h4,
+.list.cursos h4,
 .list.guias h4 {
   margin: 1rem 0;
 
@@ -7,8 +7,8 @@
   }
 }
 
-.cursos h1,
-.cursos p,
+.list.cursos h1,
+.list.cursos p,
 .list.guias h1,
 .list.guias p {
   @media screen and (max-width: 768px) {
@@ -16,7 +16,8 @@
   }
 }
 
-.list.guias {
+.list.guias,
+.list.cursos {
   p {
     margin-bottom: 0;
   }
@@ -25,13 +26,14 @@
     margin-top: 0;
   }
 
-  span {
+  .card span {
     margin-bottom: 1rem;
   }
 
   .card {
-    min-height: 280px;
+    min-height: 10.5rem;
     display: flex;
     justify-content: center;
+    padding: 2rem 3.3rem;
   }
 }
