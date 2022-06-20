@@ -1,6 +1,7 @@
-<link rel="stylesheet" href="{{ "css/ghost.css" | relURL }}"/>
-<div class="containerdubu">
-  <div class="ghost-copy">
+{{ $styles := resources.Get "scss/components/_mascot.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+<div class="mascot">
+  <div class="ghost-legs">
     <div class="one"></div>
     <div class="two"></div>
     <div class="three"></div>

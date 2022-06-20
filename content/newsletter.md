@@ -10,7 +10,7 @@ images: []
 
 <br>
 
-{{< robot >}}
+{{< mascot >}}
 
 Suscríbete a nuestro boletín y recibe actualizaciones ocasionales sobre nuevos cursos aperturados.
 

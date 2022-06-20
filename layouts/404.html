@@ -1,15 +1,19 @@
 {{ define "main" }}
-<div class="content fullpage2 d-flex justify-content-center ">
-  <div class="row justify-content-center d-flex">
-    <div class="col-md-12 col-lg-10 col-xl-8 align-items-center d-flex align-self-center">
-      <article class="align-self-center">
-        <h1 class="text-center">Esta página no se pudo encontrar {{ ":pensive:" | emojify }}</h1>
-        <br>
-        {{ partial "ghost.html" . -}}
-        <br>
-        <p class="text-center">¿Estás seguro de que estaba acá? Puedes preguntar a algún miembro si crees que se trata de un error.</p>
-      </article>
+{{ $styles := resources.Get "scss/components/_message.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+<section class="section fullpage2">
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-lg-5 me-5">
+        {{ partial "components/ghost.html" . -}}
+      </div>
+      <div class="col-12 col-lg-7">
+        <article>
+          <h1 class="text-left">Lo siento, no encontramos esta página {{ ":pensive:" | emojify }}</h1>
+          <div class="text-left">¿Estás seguro de que estaba acá? Puedes consultar con alguno de nuestros miembros si crees que se trata de un error.</div>
+        </article>
+      </div>
     </div>
   </div>
-</div>
+</section>
 {{ end }}

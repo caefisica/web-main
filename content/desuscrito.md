@@ -12,7 +12,3 @@ images: []
 ---
 
 Has cancelado tu suscripción al boletín del CAE. ¡Que tengas un buen día!
-
-<br>
-
-{{< robot >}}
