@@ -1,7 +1,7 @@
 ---
-title: "Cálculo III a detalles"
-description: "CBO204 — 4 créditos"
-lead: "CBO204 — 4 créditos"
+title: "Cálculo III"
+description: "CFO305 — 4 créditos"
+lead: "CFO305 — 4 créditos"
 date: 2022-02-01T02:00:00
 lastmod:
   - :git
@@ -9,7 +9,6 @@ lastmod:
   - date
   - publishDate
 draft: false
-images: []
 menu:
   cursos:
     parent: "matemática"
@@ -17,6 +16,7 @@ weight: 35
 toc: true
 contributors: ["Richard"]
 math: true
+types: ["matemática"]
 ---
 
 {{< alert icon="📌" text="Los temas que se tocan en el curso Cálculo III está relacionado con el Cálculo de varias variables, es decir en este curso se desarrollara lo visto en el Cálculo diferencial e integral pero aplicado a funciones reales y vectoriales con una o más variables." />}}
