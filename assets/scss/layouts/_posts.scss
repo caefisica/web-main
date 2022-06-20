@@ -2,7 +2,8 @@
   margin-top: 1rem;
 }
 
-.cursos .card {
+.cursos .card,
+.guias .card {
   transition: transform 0.3s;
 }
 
@@ -29,6 +30,8 @@
 
 .home .card:hover,
 .blog .card:hover,
+.list.guias .card:hover,
+.list.cursos .card:hover,
 .tags .card:hover,
 .newsletter .card:hover,
 .contributors.list .card:hover,

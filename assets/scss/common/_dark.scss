@@ -386,7 +386,8 @@ $navbar-dark-active-color:          $link-color-dark;
   border-top: 1px dashed $border-dark;
 }
 
-[data-dark-mode] body .card {
+[data-dark-mode] body .card,
+[data-dark-mode] .list .card {
   background: $body-bg-dark;
   border: 1px solid $border-dark;
 }
