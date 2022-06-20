@@ -2,6 +2,10 @@
   margin-top: 1rem;
 }
 
+.cursos .card {
+  transition: transform 0.3s;
+}
+
 .home .card,
 .blog .card,
 .newsletter .card,
@@ -9,10 +13,6 @@
 .contributors.list .card {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  transition: transform 0.3s;
-}
-
-.cursos .card {
   transition: transform 0.3s;
 }
 
