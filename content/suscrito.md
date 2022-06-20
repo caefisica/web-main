@@ -12,7 +12,3 @@ images: []
 ---
 
 ¡Estás suscrito(a) al boletín del CAE! La próxima edición llegará a tu bandeja de entrada.
-
-<br>
-
-{{< robot >}}
