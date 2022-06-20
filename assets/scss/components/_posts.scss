@@ -1,6 +1,6 @@
 .list.cursos h4,
 .list.guias h4 {
-  margin: 1rem 0;
+  margin: 0 0 1rem;
 
   a {
     color: var(--bs-body-color);
@@ -20,10 +20,6 @@
 .list.cursos {
   p {
     margin-bottom: 0;
-  }
-
-  h4 {
-    margin-top: 0;
   }
 
   .card span {
