@@ -36,6 +36,7 @@ module.exports = {
           './assets/scss/components/_gallery.scss',
           './assets/scss/components/_iframe.scss',
           './assets/scss/components/_images.scss',
+          './assets/scss/components/_posts.scss',
           './node_modules/@docsearch/css/dist/style.css',
           './assets/scss/components/_search.scss',
           './assets/scss/components/_socialmedia.scss',
