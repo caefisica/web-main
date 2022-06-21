@@ -5,9 +5,12 @@ lead: "Porque a veces uno no sabe en dónde buscar. Esta lista no es necesariame
 date: 2022-01-30T09:19:42+01:00
 lastmod: 2022-02-03T09:19:42+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
+thumbnail: "https://i.imgur.com/GgoqSI0.png"
 contributors: ["David"]
+author_id: "david"
 tags: ["lista"]
 toc: true
+weight: 40
 ---
 
 ## Universitario
