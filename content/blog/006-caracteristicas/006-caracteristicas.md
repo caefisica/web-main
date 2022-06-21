@@ -6,11 +6,14 @@ lead: "Se han añadido varias funciones desde el lanzamiento inicial de esta pá
 date: 2022-04-03T00:09:00+01:00
 lastmod: 2022-04-03T00:09:00+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
+thumbnail: "https://i.imgur.com/U99Hkjm.png"
 contributors: ["David"]
+author_id: "david"
 tags: ["otros"]
 toc: false
 math: true
 pdf: true
+weight: 60
 ---
 
 El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de Sites de Google, sin embargo, este es un servicio muy limitado. Motivo por el cual optamos por diseñar una página propia.

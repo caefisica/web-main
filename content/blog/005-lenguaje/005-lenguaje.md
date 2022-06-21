@@ -5,9 +5,12 @@ lead: "Quizás ya te lo han contado, pero a veces es bueno recordártelo..."
 date: 2022-02-25T00:00:00+01:00
 lastmod: 2022-02-25T00:00:00+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
+thumbnail: "https://i.imgur.com/0yarGgB.png"
 contributors: ["David"]
+author_id: "david"
 tags: ["tips"]
 toc: false
+weight: 50
 ---
 
 La física no es una carrera fácil. Si quieres evitar retrasos más adelante, debes de aprender inglés, llegado a cierto punto será un requisito ¿A qué me refiero con aprender inglés? Deberías de ser capaz de leer en inglés (por lo menos en un principio) y, más adelante, también deberías de saber expresarte en inglés (escribir, hablar y comprender).

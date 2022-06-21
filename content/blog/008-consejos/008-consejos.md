@@ -5,9 +5,13 @@ lead: "A continuación una lista de cosas que tuve que reaprender durante los pr
 date: 2022-06-16T23:15:00-05:00
 lastmod: 2022-06-16T23:15:00-05:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
+thumbnail: "https://c.tenor.com/f4LcLJumJuUAAAAC/sana-twice.gif"
 contributors: ["David"]
+author_id: "david"
 tags: ["tips"]
 toc: true
+weight: 80
+pinned: true
 ---
 
 1. **Solidifica lo que aprendiste**: Si quieres aprender algo y me refiero a _realmente aprender algo_, enséñate a ti mismo y después enséñaselo a alguien más. El proceso de enseñar hará que te sea más difícil olvidarte de lo que aprendiste al tener que presentar dicho tema de la forma en la tú lo entiendes.
