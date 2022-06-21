@@ -7,6 +7,6 @@ draft: false
 images: ["/images/members/david.webp"]
 ---
 
-Estudiante de ciencias físicas con interés en ciencias de la computación. Soy el encargado del departamento de Comunicaciones del CAE y como tal me encargo del desarrollo e implementación del sitio web del CAE Física. 
+Estudiante de ciencias físicas con interés en ciencias de la computación. Soy el encargado del departamento de Comunicaciones del CAE y como tal me encargo del desarrollo e implementación del sitio web del CAE Física.
 
 Puedes seguirme en Twitter si deseas, me encuentro como [@totallynotdavid](https://twitter.com/totallynotdavid).
