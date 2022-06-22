@@ -6,7 +6,7 @@ date: 2022-03-28T23:15:00-05:00
 lastmod: 2022-03-29T05:15:00.000+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 thumbnail: "https://i.imgur.com/JaR7dLm.png"
-contributors: ["Richard"]
+contributors: ["Richard", "Sergio"]
 author_id: "richard"
 tags: ["tips"]
 pinned: true
@@ -55,6 +55,20 @@ Los requisitos que se tienen para poder postular a la beca son los siguientes (t
 * Ser estudiante de universidad pública elegible.
 * Poseer un buen rendimiento académico.
 * Acreditar pobreza o pobreza extrema según el Sistema de Focalización de Hogares (Sisfoh) del Ministerio de Desarrollo e Inclusión Social.
+
+### Registro del proceso de postulación
+
+<details><summary>Postulación 2022</summary>
+<p>
+
+ 1. El [6 de junio](https://www.facebook.com/photo/?fbid=388337150000090&set=a.250435240456949) del año 2022 PRONABEC lanzó la Beca Permanencia: 
+    <img src="https://github.com/caefis/0.8.1/blob/master/content/blog/007-pronabec/Lanzamiento_Permanencia_2022.jpg" width="15">
+
+</p>
+</details>
+
+
+
 
 ## Beca Continuidad
 
