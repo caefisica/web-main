@@ -62,7 +62,8 @@ Los requisitos que se tienen para poder postular a la beca son los siguientes (t
 <p>
 
  1. El [6 de junio](https://www.facebook.com/photo/?fbid=388337150000090&set=a.250435240456949) del año 2022 PRONABEC lanzó la Beca Permanencia: 
-    <img src="https://github.com/caefis/0.8.1/blob/master/content/blog/007-pronabec/Lanzamiento_Permanencia_2022.jpg" width="15">
+  
+    <img src="https://github.com/caefis/0.8.1/blob/master/content/blog/007-pronabec/Lanzamiento_Permanencia_2022.jpg" width="300">
 
 </p>
 </details>
