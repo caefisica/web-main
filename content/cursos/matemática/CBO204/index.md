@@ -21,8 +21,6 @@ types: ["matemática"]
 
 {{< alert icon="📌" text="Los temas que se tocan en el curso Cálculo II está relacionado con el cálculo integral, donde se aprenderá distintas técnicas de integración." />}}
 
-<p>
-
 {{< alert icon="👉" text="REQUISITOS: Para un mejor entendimiento del Curso de Cálculo II se necesitan comprender los conceptos vistos en el curso de Cálculo I, mas que nada los conceptos de derivadas." />}}
 
 ## ¿Qué temas se ven en Cálculo II?
