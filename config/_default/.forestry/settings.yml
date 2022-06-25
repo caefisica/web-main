@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/pregrado/semestre
+  path: content/guias/pregrado
   label: Pregrado
   create: all
   match: "**/*"
@@ -26,7 +26,7 @@ build:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.81.0
   preview_output_directory: public
-  install_dependencies_command: npm install
+  install_dependencies_command: npm run start
   preview_docker_image: forestryio/hugo:node16
   mount_path: "/srv"
   working_dir: "/srv"
