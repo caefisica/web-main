@@ -8,18 +8,10 @@
                 <img height="20" src="https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status" alt="Netlify">
         </a>
 </p>
-<p align="center">
-  <a href="https://www.facebook.com/caefisica">
-    <img height="23" alt="Logotipo de Facebook" src="https://img.shields.io/badge/Facebook-1877F2?colorA=2c2837&colorB=c9cbff&style=for-the-badge&logo=facebook&logoColor=white"></a>
-  <a href="https://twitter.com/caefisica">
-    <img height="23" alt="Logotipo de Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?colorA=2c2837&colorB=c9cbff&style=for-the-badge&logo=twitter&logoColor=white"></a>
-  <a href="https://instagram.com/caefisica">
-    <img height="23" alt="Logotipo de Instagram" src="https://img.shields.io/badge/Instagram-E4405F?colorA=2c2837&colorB=c9cbff&style=for-the-badge&logo=instagram&logoColor=white"></a>
-</p><br>
 
 ---
 
-<h2 align="center"><em>Requisitos:</em></h3> 
+<h3 align="center"><em>Requisitos:</em></h3> 
 
 > El autor usa Windows 11 (64 bits). Los pasos pueden variar un poco si usas un SO basado en Linux por ejemplo. Adicionalmente, te recomendaría usar las variantes para x64 al escoger los instaladores.
 
@@ -42,7 +34,8 @@
   * Descarga e instala [VSCode](https://code.visualstudio.com/download).
 
 ---
-## Entorno local
+
+### Entorno local
 
 1. Crea la carpeta donde guardarás el repositorio localmente.
 2. Haz anticlic en la carpeta que acabas de crear, luego clic en "Abrir en VSCode".
@@ -126,7 +119,7 @@
     * Presiona `enter`.
 ---
 
-## Publicar tus cambios
+### Publicar tus cambios
 
 > **Importante**: antes de publicar tus cambios, haz pull para evitar historias conflictivas. Es decir, vuelve a realizar el paso 9.
 
@@ -137,9 +130,9 @@ Finalmente:
 3. Selecciona `Insertar en...`
 4. Selecciona `cae`.
 
-## Ejemplos
+### Ejemplos
 
-### Emoji
+#### Emoji
 
 ```text
 {{ ":zap:" | emojify }}
