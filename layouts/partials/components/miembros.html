@@ -2,126 +2,24 @@
   <div class="container">
     <h2 class="h3 mt-0 text-center">Nuestro equipo</h2>
     <div class="row justify-content-center g-4 mb-5">
+      {{ $json := getJSON "data/members.json" }}
+      {{ range sort $json "data" "asc" }}
       <div class="col-14 col-sm-10 col-md-8 col-lg-6 col-xl-4">
         <div class="card h-100 text-center border-0 py-2">
           <div class="card-body px-0 pb-1 d-flex justify-content-center align-items-center"> 
             <div class="container">
               <div class="row p-2 align-items-center justify-content-center">
-                <div id="image1" class="miembro-cae"></div>
+                <div id="image{{ .data }}" class="miembro-cae"></div>
               </div>
               <div class="row p-2 align-items-center justify-content-center">
-                <b>Coordinación</b>
-                <p>Francesco Antinori</p>
+                <b>{{ .role}}</b>
+                <p>{{ .name}}</p>
               </div>
             </div>
          </div>
         </div>
       </div>
-      <div class="col-14 col-sm-10 col-md-8 col-lg-6 col-xl-4">
-        <div class="card h-100 text-center border-0 py-2">
-          <div class="card-body px-0 pb-1 d-flex justify-content-center align-items-center">
-            <div class="container">
-              <div class="row p-2 align-items-center justify-content-center">
-                <div id="image2" class="miembro-cae"></div>
-              </div>
-              <div class="row p-2 align-items-center justify-content-center">
-                <b>Subcoordinación</b>
-                <p>Sergio Cordero</p>
-              </div>
-            </div>
-         </div>
-        </div>
-      </div>
-      <div class="col-14 col-sm-10 col-md-8 col-lg-6 col-xl-4">
-        <div class="card h-100 text-center border-0 py-2">
-          <div class="card-body px-0 pb-1 d-flex justify-content-center align-items-center">
-            <div class="container">
-              <div class="row p-2 align-items-center justify-content-center">
-                <div id="image3" class="miembro-cae"></div>
-              </div>
-              <div class="row p-2 align-items-center justify-content-center">
-                <b>Comunicaciones</b>
-                <p>David Durán</p>
-              </div>
-            </div>
-         </div>
-        </div>
-      </div>
-      <div class="col-14 col-sm-10 col-md-8 col-lg-6 col-xl-4">
-        <div class="card h-100 text-center border-0 py-2">
-          <div class="card-body px-0 pb-1 d-flex justify-content-center align-items-center">
-            <div class="container">
-              <div class="row p-2 align-items-center justify-content-center">
-                <div id="image4" class="miembro-cae"></div>
-              </div>
-              <div class="row p-2 align-items-center justify-content-center">
-                <b>Académicos</b>
-                <p>Alvaro Siesquen</p>
-              </div>
-            </div>
-         </div>
-        </div>
-      </div>
-      <div class="col-14 col-sm-10 col-md-8 col-lg-6 col-xl-4">
-        <div class="card h-100 text-center border-0 py-2">
-          <div class="card-body px-0 pb-1 d-flex justify-content-center align-items-center">
-            <div class="container">
-              <div class="row p-2 align-items-center justify-content-center">
-                <div id="image5" class="miembro-cae"></div>
-              </div>
-              <div class="row p-2 align-items-center justify-content-center">
-                <b>Edición</b>
-                <p>José Ávalos</p>
-              </div>
-            </div>
-         </div>
-        </div>
-      </div>
-      <div class="col-14 col-sm-10 col-md-8 col-lg-6 col-xl-4">
-        <div class="card h-100 text-center border-0 py-2">
-          <div class="card-body px-0 pb-1 d-flex justify-content-center align-items-center">
-            <div class="container">
-              <div class="row p-2 align-items-center justify-content-center">
-                <div id="image6" class="miembro-cae"></div>
-              </div>
-              <div class="row p-2 align-items-center justify-content-center">
-                <b>Edición</b>
-                <p>Andrea Palacios</p>
-              </div>
-            </div>
-         </div>
-        </div>
-      </div>
-      <div class="col-14 col-sm-10 col-md-8 col-lg-6 col-xl-4">
-        <div class="card h-100 text-center border-0 py-2">
-          <div class="card-body px-0 pb-1 d-flex justify-content-center align-items-center">
-            <div class="container">
-              <div class="row p-2 align-items-center justify-content-center">
-                <div id="image7" class="miembro-cae"></div>
-              </div>
-              <div class="row p-2 align-items-center justify-content-center">
-                <b>Edición</b>
-                <p>Liuba Ramos</p>
-              </div>
-            </div>
-         </div>
-        </div>
-      </div>
-      <div class="col-14 col-sm-10 col-md-8 col-lg-6 col-xl-4">
-        <div class="card h-100 text-center border-0 py-2">
-          <div class="card-body px-0 pb-1 d-flex justify-content-center align-items-center">
-            <div class="container">
-              <div class="row p-2 align-items-center justify-content-center">
-                <div id="image8" class="miembro-cae"></div>
-              </div>
-              <div class="row p-2 align-items-center justify-content-center">
-                <b>Colaboración</b>
-                <p>David Salles</p>
-              </div>
-            </div>
-         </div>
-        </div>
-      </div>
+      {{ end }}
     </div>
   </div>
 </section>

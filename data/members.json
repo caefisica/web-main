@@ -1,0 +1,50 @@
+{
+  "fausto": {
+    "name": "Fausto Antinori",
+    "image": "images/members/fausto.webp",
+    "role": "Coordinación",
+    "data": "1"
+  },
+  "sergio": {
+    "name": "Sergio Cordero",
+    "image": "images/members/sergio.webp",
+    "role": "Subcoordinación",
+    "data": "2"
+  },
+  "david": {
+    "name": "David Durán",
+    "image": "images/members/david.webp",
+    "role": "Comunicaciones",
+    "data": "3"
+  },
+  "alvaro": {
+    "name": "Alvaro Siesquen",
+    "image": "images/members/alvaro.webp",
+    "role": "Académicos",
+    "data": "4"
+  },
+  "richard": {
+    "name": "José Ávalos",
+    "image": "images/members/richard.webp",
+    "role": "Edición",
+    "data": "5"
+  },
+  "andrea": {
+    "name": "Andrea Palacios",
+    "image": "images/members/andrea.webp",
+    "role": "Edición",
+    "data": "6"
+  },
+  "liuba": {
+    "name": "Liuba Ramos",
+    "image": "images/members/liuba.webp",
+    "role": "Edición",
+    "data": "7"
+  },
+  "salles": {
+    "name": "David Salles",
+    "image": "images/members/salles.webp",
+    "role": "Colaboración",
+    "data": "8"
+  }
+}
