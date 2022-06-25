@@ -12,11 +12,11 @@
   padding-left: 0.5rem;
 }
 
-.showcase-meta {
+.experimental-meta {
   margin-top: 2rem;
 }
 
-.showcase-meta a {
+.experimental-meta a {
   color: $body-color;
 }
 
@@ -28,8 +28,8 @@ h4:hover a {
   text-decoration: none;
 }
 
-.showcase-meta a:hover,
-.showcase-meta a:focus {
+.experimental-meta a:hover,
+.experimental-meta a:focus {
   color: $primary;
 }
 
@@ -64,10 +64,6 @@ p.meta {
   font-size: $font-size-base;
 }
 
-.docs-toc-ad {
-  margin: 1.5rem 0;
-}
-
 /*
 .view-website {
   padding-left: 0.46875rem;
@@ -95,11 +91,11 @@ p.meta {
   margin-bottom: -0.75rem;
 }
 
-.showcase.list h2:not(.offcanvas-title) {
+.experimental.list h2:not(.offcanvas-title) {
   margin: 3rem 0 2rem;
 }
 
-.showcase.list h2.heading-pinned {
+.experimental.list h2.heading-pinned {
   margin: 2rem 0;
 }
 

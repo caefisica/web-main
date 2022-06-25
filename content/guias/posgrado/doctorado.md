@@ -13,7 +13,7 @@ images: []
 menu:
   guias:
     parent: "posgrado"
-weight: 220
+weight: 1020
 toc: true
 contributors: ["David"]
 ---

@@ -1,16 +1,8 @@
-.newsletter .card {
-  margin-top: 1rem;
-}
-
-.cursos .card,
-.guias .card {
-  transition: transform 0.3s;
-}
-
 .home .card,
 .blog .card,
 .newsletter .card,
-.tags.list .card,
+.list.guias .card,
+.list.cursos .card,
 .contributors.list .card {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -21,21 +13,19 @@
   margin: 0;
 }
 
-.showcase.list .card,
+.experimental.list .card,
 .types.list .card,
-.tags.list .card,
 .functionalities.list .card {
   transition: transform 0.3s;
 }
 
 .home .card:hover,
 .blog .card:hover,
-.tags .card:hover,
 .newsletter .card:hover,
 .list.guias .card:hover,
 .list.cursos .card:hover,
 .contributors.list .card:hover,
-.showcase.list .card:hover,
+.experimental.list .card:hover,
 .types.list .card:hover,
 .functionalities.list .card:hover {
   transform: scale(1.025);
@@ -43,7 +33,6 @@
 
 .home .card-body,
 .blog .card-body,
-.tags .card-body,
 .newsletter .card-body,
 .contributors.list .card-body {
   padding: 0 2rem 1rem;

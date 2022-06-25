@@ -12,7 +12,7 @@
 {{ if eq .Section "guias" "cursos" "blog" "tags" -}}
 <script src="{{ "js/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
 {{ end -}}
-{{ if or .Params.math .Site.Params.math }}
+{{ if .Params.math }}
 {{ partial "head/katex.html" . }}
 {{ end }}
 {{ if or .Params.quiz .Site.Params.quiz }}
