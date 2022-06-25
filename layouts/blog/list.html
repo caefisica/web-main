@@ -1,135 +1,21 @@
 {{ define "main" }}
-<link rel="stylesheet" href="/css/swiper-bundle.min.css"/>
-<script src="/js/swiper/swiper-bundle.min.js" defer></script>
-{{ $styles := resources.Get "scss/components/articles/_article-card.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-
-<div class="row justify-content-center mt-5">
-  <div class="col-lg-11 col-xl-9 mx-xl-auto">
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-10 col-xl-8">
     <article>
       <h1 class="text-center">{{ .Title }}</h1>
       <div class="text-center">{{ .Content }}</div>
+			<div class="card-list">
+				{{ range .Data.Pages.Reverse -}}
+					<div class="card">
+						<div class="card-body">
+							<h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</a></h2>
+							<p>{{ .Params.lead | safeHTML }}</p>
+							{{ partial "main/blog-meta.html" . -}}
+						</div>
+					</div>
+				{{ end -}}
+			</div>
     </article>
   </div>
 </div>
-<div class="l-content mt-5">
-  <div class="l-wrapper">
-    <div class="l-grid centered">
-      <div class="m-featured-slider swiper js-featured-slider swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-        <div class="m-featured-slider__list swiper-wrapper" id="swiper-wrapper-56fbc631a55ffc11" aria-live="polite">
-          {{ range where .Pages.ByWeight.Reverse "Params.pinned" true }}
-            <div class="m-featured-slider__list__item swiper-slide swiper-slide-active" role="group" aria-label="1 / 2">
-              <article class="m-featured-article ">
-                <div class="m-featured-article__picture">
-                    <style>
-                      #featured-bg-{{ .Params.Weight | urlize }} {
-                        background-image: url({{ .Params.thumbnail | safeHTML }});
-                      }
-                      @media(max-width: 768px) {
-                        #featured-bg-{{ .Params.Weight | urlize }} {
-                          background-image: url({{ .Params.thumbnail | safeHTML }});
-                        }
-                      }
-                    </style>
-                    <div id="featured-bg-{{ .Params.Weight | urlize }}"></div>
-                </div>
-                <div class="m-featured-article__meta">
-
-                  {{ if .Params.contributors -}}
-                  {{ range $index, $contributor := .Params.contributors }}
-                  <a href="{{ "/contributors/" | relURL }}{{ . | urlize }}/" class="m-featured-article__author js-tooltip" aria-label="{{ if gt $index 0 }} y {{ end }}{{ . }}">
-                  {{ end -}}
-                  {{ end -}}
-
-                  {{ with .Params.author_id }}
-                    {{ with index site.Data.authors . }}
-                      {{ with .image }}
-                        {{ with resources.Get . }}
-                          <div style="background-image: url({{ .RelPermalink }});"></div>
-                        {{ end }}
-                      {{ end }}
-                    {{ end }}
-                  {{ end }}
-                  </a>
-
-                  {{ range $i, $e := .Params.tags }}
-                  {{ if $i }}<span>,</span>{{ end }}
-                  <a href="/tags/{{ $e | urlize }}" class="m-featured-article__tag">{{ $e }}</a>
-                  {{ end }}
-
-                </div>
-                <div class="m-featured-article__ribbon">
-                  <span class="icon-star"></span>
-                  <span>Destacado</span>
-                </div>
-                <a href="{{ .RelPermalink }}" class="m-featured-article__content">
-                  <h2 class="m-featured-article__title js-featured-article-title" title="{{ .Title }}" style="">
-                    {{ .Title }}
-                  </h2>
-                  <div class="m-featured-article__timestamp">
-                    <span>{{ .PublishDate.Format "02/01/2006" }}</span>
-                    <span>•</span>
-                    <span>{{ .ReadingTime -}}&nbsp;min. de lectura</span>
-                  </div>
-                </a>
-              </article>
-            </div>
-          {{ end -}}
-        </div>
-        <button class="m-icon-button in-featured-articles swiper-button-prev js-featured-slider-button swiper-button-disabled" aria-label="Previous slide" disabled="" tabindex="-1" aria-controls="swiper-wrapper-56fbc631a55ffc11" aria-disabled="true">
-          <span class="icon-arrow-left" aria-hidden="true"></span>
-        </button>
-        <button class="m-icon-button in-featured-articles swiper-button-next js-featured-slider-button" aria-label="Next slide" tabindex="0" aria-controls="swiper-wrapper-56fbc631a55ffc11" aria-disabled="false">
-          <span class="icon-arrow-right" aria-hidden="true"></span>
-        </button>
-        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-      </div>
-      {{ range after 1 .Data.Pages.Reverse -}}
-      <article class="m-article-card  post tag-motivation">
-        <div class="m-article-card__picture">
-          <a href="{{ .RelPermalink }}" class="m-article-card__picture-link" aria-hidden="true" tabindex="-1"></a>
-          <img class="m-article-card__picture-background" src="{{ .Params.thumbnail | safeHTML }}" loading="lazy" alt="">
-
-          {{ if .Params.contributors -}}
-          {{ range $index, $contributor := .Params.contributors }}
-          <a href="{{ "/contributors/" | relURL }}{{ . | urlize }}/" class="m-article-card__author js-tooltip" aria-label="{{ if gt $index 0 }} y {{ end }}{{ . }}">
-          {{ end }}
-          {{ end }}
-
-          {{ with .Params.author_id }}
-          {{ with index site.Data.authors . }}
-            {{ with .image }}
-              {{ with resources.Get . }}
-                <div style="background-image: url({{ .RelPermalink }});"></div>
-              {{ end }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
-        </a>
-
-        </div>
-        <div class="m-article-card__info">
-
-          {{ range (.GetTerms "tags") }}<a href="{{ .Permalink }}" class="m-article-card__tag">{{ .Title }}</a>{{ end }}
-          
-          <a href="{{ .RelPermalink }}" class="m-article-card__info-link" aria-label="{{ .Params.title }}">
-            <div>
-              <h2 class="m-article-card__title js-article-card-title " title="{{ .Params.title }}" style="">
-              {{ .Params.title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}
-              </h2>
-            </div>
-            <div class="m-article-card__timestamp">
-              <span>{{ .PublishDate.Format "02/01/2006" }}</span>
-              <span>•</span>
-              <span>{{ .ReadingTime -}}&nbsp;min. de lectura</span>
-            </div>
-          </a>
-        </div>
-      </article>
-      {{ end -}}
-    </div>
-  </div>
-</div>
-
-<script src="/js/swiper/swiper-blog.js" defer></script>
 {{ end }}

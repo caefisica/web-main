@@ -9,10 +9,10 @@
 <link rel="preload" href="{{ "js/inst/nekot.js" | relURL }}" as="script">
 {{ end -}}
 <link rel="preconnect" href="https://B36UGT1YWJ-dsn.algolia.net" crossorigin>
-{{ if or .Params.pdf .Site.Params.pdf }}
+{{ if .Params.pdf }}
 <link rel="preload" href="{{ "css/pdfjs.css" | relURL }}" as="style">
 {{ end }}
-{{ if or .Params.math .Site.Params.math }}
+{{ if .Params.math }}
 <link rel="preload" href="{{ "css/katex.min.css" | relURL }}" as="style">
 <link rel="preload" href="{{ "js/math/katex.min.js" | relURL }}" as="script">
 <link rel="preload" href="{{ "js/math/auto-render.min.js" | relURL }}" as="script">
