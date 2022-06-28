@@ -33,7 +33,7 @@
     "serve": "netlify-lambda serve functions"
   },
   "devDependencies": {
-    "@babel/cli": "^7.17",
+    "@babel/cli": "^7.18",
     "@babel/core": "^7.18",
     "@babel/preset-env": "^7.18",
     "@docsearch/js": "^3.1",
