@@ -14,7 +14,7 @@ weight: 300
 toc: false
 pinned: false
 types: ["extranjero", "universidad"]
-functionalities: ["article"]
+functionalities: ["artículo"]
 ---
 
 ```text
