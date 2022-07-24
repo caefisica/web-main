@@ -1,13 +1,13 @@
 ---
-title : "Ciclo III"
-description: "Ciclo III"
+title : "Tercer semestre"
+description: "Tercer semestre"
 lead: ""
 layout: "single"
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
 draft: false
 images: []
-weight: 10
+weight: 3
 contributors: ["David"]
 ---
 

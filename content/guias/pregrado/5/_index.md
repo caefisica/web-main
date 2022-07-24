@@ -1,13 +1,13 @@
 ---
-title : "Ciclo V"
-description: "Ciclo V"
+title : "Quinto semestre"
+description: "Quinto semestre"
 lead: ""
 layout: "single"
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
 draft: false
 images: []
-weight: 10
+weight: 5
 ---
 
 ### Plan de Estudios de 2018

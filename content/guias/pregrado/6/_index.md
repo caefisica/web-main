@@ -1,13 +1,13 @@
 ---
-title : "Ciclo VI"
-description: "Ciclo VI"
+title : "Sexto semestre"
+description: "Sexto semestre"
 lead: ""
 layout: "single"
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
 draft: false
 images: []
-weight: 10
+weight: 6
 ---
 
 ### Plan de Estudios de 2018

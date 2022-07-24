@@ -1,13 +1,13 @@
 ---
-title : "Ciclo I"
-description: "Ciclo I"
+title : "Primer semestre"
+description: "Primer semestre"
 lead: ""
 layout: "single"
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
 draft: false
 images: []
-weight: 10
+weight: 1
 ---
 
 ### Plan de Estudios de 2018
