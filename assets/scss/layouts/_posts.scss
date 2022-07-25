@@ -1,14 +1,14 @@
 .home .card,
 .blog .card,
 .newsletter .card,
-.list.cursos .card,
 .contributors.list .card {
   margin-top: 2rem;
   margin-bottom: 2rem;
   transition: transform 0.3s;
 }
 
-.list.guias .card {
+.list.guias .card,
+.list.cursos .card {
   transition: transform 0.3s;
 }
 
@@ -43,12 +43,14 @@
 }
 
 .home .section-featured .card-body,
-.list.guias .section-featured .card-body {
+.list.guias .section-featured .card-body,
+.list.cursos .section-featured .card-body {
   padding: 1rem;
 }
 
 .home .section-featured .card-title,
-.list.guias .section-featured .card-title {
+.list.guias .section-featured .card-title,
+.list.cursos .section-featured .card-title {
   font-size: $font-size-base;
   font-weight: normal;
   text-align: center;
