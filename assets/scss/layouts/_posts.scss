@@ -12,7 +12,8 @@
   transition: transform 0.3s;
 }
 
-.home .section-featured .card {
+.home .section-featured .card,
+.list.guias .section-featured .card {
   margin: 0;
 }
 
@@ -41,11 +42,13 @@
   padding: 0 2rem 1rem;
 }
 
-.home .section-featured .card-body {
+.home .section-featured .card-body,
+.list.guias .section-featured .card-body {
   padding: 1rem;
 }
 
-.home .section-featured .card-title {
+.home .section-featured .card-title,
+.list.guias .section-featured .card-title {
   font-size: $font-size-base;
   font-weight: normal;
   text-align: center;
