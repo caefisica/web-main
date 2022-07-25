@@ -12,15 +12,14 @@
   transition: transform 0.3s;
 }
 
-.home .section-featured .card,
-.list.guias .section-featured .card {
-  margin: 0;
-}
-
 .experimental.list .card,
 .types.list .card,
 .functionalities.list .card {
   transition: transform 0.3s;
+}
+
+.home .section-featured .card {
+  margin: 0;
 }
 
 .home .card:hover,
@@ -33,6 +32,10 @@
 .types.list .card:hover,
 .functionalities.list .card:hover {
   transform: scale(1.025);
+}
+
+.list.guias .section-featured .card {
+  margin: 0;
 }
 
 .home .card-body,
