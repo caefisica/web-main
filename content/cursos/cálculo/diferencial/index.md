@@ -1,5 +1,5 @@
 ---
-title: "Cálculo II"
+title: "Diferencial"
 description: "CBO204 — 4 créditos"
 lead: "CBO204 — 4 créditos"
 date: 2022-02-01T02:00:00
@@ -11,8 +11,8 @@ lastmod:
 draft: false
 menu:
   cursos:
-    parent: "matemática"
-weight: 24
+    parent: "cálculo"
+weight: 10
 toc: true
 contributors: ["Richard"]
 math: true
