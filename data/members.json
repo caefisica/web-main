@@ -3,48 +3,56 @@
     "name": "Fausto Antinori",
     "image": "images/members/fausto.webp",
     "role": "Coordinación",
-    "data": "1"
+    "data": "1",
+    "description": "Estudiante de X año de la carrera de física. Se unió al CAE durante la etapa de selección XXX. Actualmente se desempeña como encargado del área de comunicaciones del CAE."
   },
   "sergio": {
     "name": "Sergio Cordero",
     "image": "images/members/sergio.webp",
     "role": "Subcoordinación",
-    "data": "2"
+    "data": "2",
+    "description": "Estudiante de tercer año de la carrera de física. Se unió al CAE durante la etapa de selección XXX. Actualmente se desempeña como subcoordinador del CAE. Ha dictado clases de Cálculo durante la etapa 2022-0."
   },
   "david": {
     "name": "David Durán",
     "image": "images/members/david.webp",
     "role": "Comunicaciones",
-    "data": "3"
+    "data": "3",
+    "description": "Estudiante de tercer año de la carrera de física. Se unió al CAE durante la etapa de selección XXX. Actualmente se desempeña como desarrollador principal y encargado del diseño del CAE."
   },
   "alvaro": {
     "name": "Alvaro Siesquen",
     "image": "images/members/alvaro.webp",
     "role": "Académicos",
-    "data": "4"
+    "data": "4",
+    "description": "Encargado del área académica."
   },
   "richard": {
     "name": "José Ávalos",
     "image": "images/members/richard.webp",
     "role": "Edición",
-    "data": "5"
+    "data": "5",
+    "description": "Miembro redactor."
   },
   "andrea": {
     "name": "Andrea Palacios",
     "image": "images/members/andrea.webp",
     "role": "Edición",
-    "data": "6"
+    "data": "6",
+    "description": "Miembro en el área de diseño."
   },
   "liuba": {
     "name": "Liuba Ramos",
     "image": "images/members/liuba.webp",
     "role": "Edición",
-    "data": "7"
+    "data": "7",
+    "description": "Miembro en el área de diseño."
   },
   "salles": {
     "name": "David Salles",
     "image": "images/members/salles.webp",
     "role": "Colaboración",
-    "data": "8"
+    "data": "8",
+    "description": "Miembro en el área de mantenimiento."
   }
 }
