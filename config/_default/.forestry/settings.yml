@@ -9,6 +9,8 @@ sections:
   label: Cursos
   create: all
   match: "**/*"
+  templates:
+  - curso
 - type: directory
   path: content/guias/pregrado
   label: Pregrado
