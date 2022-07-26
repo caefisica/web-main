@@ -5,18 +5,18 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/guias/pregrado
+  label: Pregrado
+  create: all
+  match: "**/*"
+  exclude: ".pdf"
+- type: directory
   path: content/cursos
   label: Cursos
   create: all
   match: "**/*"
   templates:
   - curso
-- type: directory
-  path: content/guias/pregrado
-  label: Pregrado
-  create: all
-  match: "**/*"
-  exclude: ".pdf"
 - type: directory
   path: content/blog
   label: Blog
