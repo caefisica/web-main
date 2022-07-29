@@ -4,9 +4,9 @@
 {{ if eq .Kind "home" -}}
 <link rel="preload" href="{{ "css/fancybox.css" | relURL }}" as="style">
 <script src="{{ "js/jquery.min.js" | relURL }}" type="text/javascript"></script>
-<link rel="preload" href="{{ "js/inst/fancybox.umd.js" | relURL }}" as="script">
-<link rel="preload" href="{{ "js/inst/instafeed.min.js" | relURL }}" as="script">
-<link rel="preload" href="{{ "js/inst/nekot.js" | relURL }}" as="script">
+<link rel="preload" href="{{ "js/pages/ig/fancybox.umd.js" | relURL }}" as="script">
+<link rel="preload" href="{{ "js/pages/ig/instafeed.min.js" | relURL }}" as="script">
+<link rel="preload" href="{{ "js/pages/ig/magic.js" | relURL }}" as="script">
 {{ end -}}
 <link rel="preconnect" href="https://B36UGT1YWJ-dsn.algolia.net" crossorigin>
 {{ if .Params.pdf }}
@@ -14,9 +14,9 @@
 {{ end }}
 {{ if .Params.math }}
 <link rel="preload" href="{{ "css/katex.min.css" | relURL }}" as="style">
-<link rel="preload" href="{{ "js/math/katex.min.js" | relURL }}" as="script">
-<link rel="preload" href="{{ "js/math/auto-render.min.js" | relURL }}" as="script">
-<link rel="preload" href="{{ "js/math/katex.js" | relURL }}" as="script">
+<link rel="preload" href="{{ "js/components/math/katex.min.js" | relURL }}" as="script">
+<link rel="preload" href="{{ "js/components/math/auto-render.min.js" | relURL }}" as="script">
+<link rel="preload" href="{{ "js/components/math/katex.js" | relURL }}" as="script">
 {{ end }}
 {{ if or .Params.quiz .Site.Params.quiz }}
 <link rel="preload" href="{{ "js/quiz/quizdown.js" | relURL }}" as="script">

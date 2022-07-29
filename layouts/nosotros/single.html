@@ -3,7 +3,8 @@
 {{ $sass := resources.Get "scss/components/pages/_nosotros.scss" }}
 {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"> 
-<main>
+<main class="mt-5 mb-5">
+
   <!--- #BARRA-->
 
   <aside class="sidebar" data-sidebar>
@@ -11,11 +12,11 @@
     <div class="sidebar-info">
 
       <figure class="avatar-box">
-        <img src="/nos/assets/images/logo-cae.png" alt="Logo del CAE" width="80">
+        <img src="/logo-cae.png" alt="Logo del CAE" width="80">
       </figure>
 
       <div class="info-content">
-        <h1 class="name text-wrap" title="CAE">{{ .Title }}</h1>
+        <h1 class="h1 name text-wrap" title="{{ .Title | safeHTML }}">{{ .Title }}</h1>
 
         <p class="title">CAE - Física</p>
       </div>
@@ -177,7 +178,7 @@
           <li class="service-item">
 
             <div class="service-icon-box">
-              <img src="/nos/assets/images/icon-design-2.svg
+              <img src="/images/icon/icon-design-2.svg
               " alt="design icon" width="40">
             </div>
 
@@ -194,7 +195,7 @@
           <li class="service-item">
 
             <div class="service-icon-box">
-              <img src="/nos/assets/images/icon-dev-2.svg" alt="Web development icon" width="40">
+              <img src="/images/icon/icon-dev-2.svg" alt="Web development icon" width="40">
             </div>
 
             <div class="service-content-box">
@@ -221,13 +222,13 @@
         <h3 class="h3 testimonials-title">Miembros actuales</h3>
 
         <ul class="testimonials-list has-scrollbar">
-          {{ $json := getJSON "data/members.json" }}
+          {{ $json := getJSON "data/authors/members.json" }}
           {{ range sort $json "data" "asc" }}
           <li class="testimonials-item">
             <div class="content-card" data-testimonials-item>
 
               <figure class="testimonials-avatar-box">
-                <img src="/nos/assets/images/my-avatar.png" alt="{{ .name }}" width="60" data-testimonials-avatar>
+                <img src="/images/avatar/main.png" alt="{{ .name }}" width="60" data-testimonials-avatar>
               </figure>
 
               <h4 class="h4 testimonials-item-title" data-testimonials-title>{{ .name }}</h4>
@@ -262,10 +263,10 @@
 
           <div class="modal-img-wrapper">
             <figure class="modal-avatar-box">
-              <img src="/nos/assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              <img src="/images/avatar/1.png" alt="Daniel lewis" width="80" data-modal-img>
             </figure>
 
-            <img src="/nos/assets/images/icon-quote.svg" alt="quote icon">
+            <img src="/images/icon/icon-quote.svg" alt="quote icon">
           </div>
 
           <div class="modal-content">
@@ -304,7 +305,7 @@
             <div class="content-card" data-testimonials-item>
 
               <figure class="testimonials-avatar-box">
-                <img src="/nos/assets/images/my-avatar.png" alt="Sergio" width="60" data-testimonials-avatar>
+                <img src="/images/avatar/main.png" alt="Sergio" width="60" data-testimonials-avatar>
               </figure>
 
               <h4 class="h4 testimonials-item-title" data-testimonials-title>Renzo Franco</h4>
@@ -322,7 +323,7 @@
             <div class="content-card" data-testimonials-item>
 
               <figure class="testimonials-avatar-box">
-                <img src="/nos/assets/images/my-avatar.png" alt="Renzo" width="60" data-testimonials-avatar>
+                <img src="/images/avatar/main.png" alt="Renzo" width="60" data-testimonials-avatar>
               </figure>
 
               <h4 class="h4 testimonials-item-title" data-testimonials-title>David Hinostroza</h4>
@@ -636,7 +637,7 @@
                   <ion-icon name="eye-outline"></ion-icon>
                 </div>
 
-                <img src="/nos/assets/images/blog-3.jpg" alt="arrival" loading="lazy">
+                <img src="/images/thumbnail/3.jpg" alt="arrival" loading="lazy">
               </figure>
 
               <h3 class="project-title">Facebook</h3>
@@ -654,7 +655,7 @@
                   <ion-icon name="eye-outline"></ion-icon>
                 </div>
 
-                <img src="/nos/assets/images/blog-3.jpg" alt="arrival" loading="lazy">
+                <img src="/images/thumbnail/3.jpg" alt="arrival" loading="lazy">
               </figure>
 
               <h3 class="project-title">Instagram</h3>
@@ -672,7 +673,7 @@
                   <ion-icon name="eye-outline"></ion-icon>
                 </div>
 
-                <img src="/nos/assets/images/blog-3.jpg" alt="arrival" loading="lazy">
+                <img src="/images/thumbnail/3.jpg" alt="arrival" loading="lazy">
               </figure>
 
               <h3 class="project-title">Twitter</h3>
@@ -690,7 +691,7 @@
                   <ion-icon name="eye-outline"></ion-icon>
                 </div>
 
-                <img src="/nos/assets/images/blog-5.jpg" alt="arrival" loading="lazy">
+                <img src="/images/thumbnail/5.jpg" alt="arrival" loading="lazy">
               </figure>
 
               <h3 class="project-title">Wikilinks</h3>
@@ -708,7 +709,7 @@
                   <ion-icon name="eye-outline"></ion-icon>
                 </div>
 
-                <img src="/nos/assets/images/blog-5.jpg" alt="arrival" loading="lazy">
+                <img src="/images/thumbnail/5.jpg" alt="arrival" loading="lazy">
               </figure>
 
               <h3 class="project-title">Noticias</h3>
@@ -726,7 +727,7 @@
                   <ion-icon name="eye-outline"></ion-icon>
                 </div>
 
-                <img src="/nos/assets/images/blog-5.jpg" alt="arrival" loading="lazy">
+                <img src="/images/thumbnail/5.jpg" alt="arrival" loading="lazy">
               </figure>
 
               <h3 class="project-title">Artículos</h3>
@@ -749,7 +750,7 @@
 <!--
   - custom js link
 -->
-<script src="/nos/assets/js/script.js"></script>
+<script src="/js/pages/_nosotros.js"></script>
 
 <!--
   - ionicon link

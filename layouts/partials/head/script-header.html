@@ -10,7 +10,7 @@
 <script async src="https://cdn.splitbee.io/sb.js"></script>
 {{ end -}}
 {{ if eq .Section "guias" "cursos" "blog" "tags" -}}
-<script src="{{ "js/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
+<script src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
 {{ end -}}
 {{ if .Params.math }}
 {{ partial "head/katex.html" . }}

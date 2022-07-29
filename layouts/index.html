@@ -4,7 +4,7 @@
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-7 text-center text-lg-start">
         <div class="hero_footer-svg">
-          <img src="images/testing/figure-svg.svg" alt="" />
+          <img src="images/shape/figure-svg.svg" alt="" />
         </div>
         <h1 class="mb-4">Una guía para el estudio de las Ciencias Físicas</h1>
         <p class="lead mb-4">{{ .Params.Lead | safeHTML }}</p>
@@ -14,13 +14,13 @@
         <p class="meta mt-3">Un proyecto del Centro de Apoyo al Estudiante de Física</a></p>
       </div>
       <div class="col-lg-7 galnew">
-        {{ with .Site.Data.banner }}
+        {{ with .Site.Data.fixes.frontpage }}
         <div class="hero_figure">
           <div class="figure-svg">
-            <img src="images/testing/figure-svg.svg" alt="figure-svg" />
+            <img src="images/shape/figure-svg.svg" alt="figure-svg" />
           </div>
           <img src="{{ .image | absURL }}" alt="hero-image" style='
-                  -webkit-mask: url({{"images/testing/hero-mask-svg.png" | absURL }});
+                  -webkit-mask: url({{"images/shape/hero-mask-svg.png" | absURL }});
                   -webkit-mask-repeat: no-repeat;
                   -webkit-mask-size: contain;
                   -webkit-mask-position: center center;
