@@ -1,0 +1,40 @@
+{
+  "projects": {
+    "1": {
+      "nombre": "Facebook",
+      "enlace":"https://www.facebook.com/caefisica",
+      "thumbnail": "3.jpg",
+      "tipo": "Redes sociales"
+    },
+    "2": {
+      "nombre": "Instagram",
+      "enlace": "https://www.instagram.com/caefisica",
+      "thumbnail": "3.jpg",
+      "tipo": "Redes sociales"
+    },
+    "3": {
+      "nombre": "Twitter",
+      "enlace": "https://www.twitter.com/caefisica",
+      "thumbnail": "3.jpg",
+      "tipo": "Redes sociales"
+    },
+    "4": {
+      "nombre": "Wikilinks",
+      "enlace": "https://caefis.netlify.app/guias/",
+      "thumbnail": "5.jpg",
+      "tipo": "Página web"
+    },
+    "5": {
+      "nombre": "Noticias",
+      "enlace": "https://caefis.netlify.app/rss/",
+      "thumbnail": "5.jpg",
+      "tipo": "Página web"
+    },
+    "6": {
+      "nombre": "Artículos",
+      "enlace": "https://caefis.netlify.app/experimental/",
+      "thumbnail": "5.jpg",
+      "tipo": "Página web"
+    }
+  }
+}
