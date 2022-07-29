@@ -44,7 +44,7 @@
                       {{ if ( gt ( len .Params.prerrequisites ) 0 ) }}
                         {{ if .Params.prerrequisites -}}
                           {{ $id := string .Params.id }}
-                          {{ $courses := .Site.Data.courses }}
+                          {{ $courses := .Site.Data.content.courses }}
                           {{ $coursesid := .Params.id }}
                           {{ $semester := string .Params.semester }}
                           {{ $prerrequisite := .Params.prerrequisites }}
@@ -70,7 +70,7 @@
         </div>
         {{end}}
         <small>
-          {{ $data := .Site.Data.courses }}
+          {{ $data := .Site.Data.content.courses }}
         {{ range $data.prerrequisitos }}
             {{ $item := . }}
             {{ $item.CBO204 }}

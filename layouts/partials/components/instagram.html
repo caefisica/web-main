@@ -1,15 +1,16 @@
 <link rel="stylesheet" href="{{ "css/fancybox.css" | relURL }}"/>
 {{ $sass := resources.Get "scss/components/_socialmedia.scss" }}
 {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"> 
 
-<script src="{{ "js/inst/var.js" | relURL }}"></script>
-<script src="{{ "js/inst/instafeed.min.js" | relURL }}"></script>
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+<script src="{{ "js/pages/ig/var.js" | relURL }}"></script>
+<script src="{{ "js/pages/ig/instafeed.min.js" | relURL }}"></script>
+
 <div class="contenedor d-flex justify-content-center">
-    <div class="instafeeds ">
-        <div id="instafeed" class="row d-flex nami"></div>
-    </div>
+  <div class="instafeeds ">
+    <div id="instafeed" class="row d-flex nami"></div>
+  </div>
 </div>
 <!--{{ partial "components/socialbuttons.html" . -}}-->
-<script src="{{ "js/inst/nekot.js" | relURL }}"></script>
-<script src="{{ "js/inst/fancybox.umd.js" | relURL }}"></script>
+<script src="{{ "js/pages/ig/magic.js" | relURL }}"></script>
+<script src="{{ "js/pages/ig/fancybox.umd.js" | relURL }}"></script>
