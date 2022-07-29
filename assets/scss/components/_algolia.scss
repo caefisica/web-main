@@ -84,11 +84,8 @@
 }
 
 /* Iconos de resultado */
-.aa-ItemIcon svg {
-  height: 20px;
-  height: var(--aa-icon-size);
-  width: 20px;
-  width: var(--aa-icon-size);
+.aa-ItemIcon {
+    display: none;
 }
 
 .aa-Autocomplete *,
@@ -110,36 +107,7 @@
 }
 
 .aa-ItemIcon {
-  stroke-width: 1.6;
-  stroke-width: var(--aa-icon-stroke-width);
-  align-items: center;
-  background: #fff;
-  background: rgba(var(--aa-background-color-rgb), var(--aa-background-color-alpha));
-  border-radius: 3px;
-  box-shadow: inset 0 0 0 1px rgba(128, 126, 163, 0.3);
-  box-shadow: inset 0 0 0 1px rgba(var(--aa-panel-border-color-rgb), var(--aa-panel-border-color-alpha));
-  color: #7777a3;
-  color: rgba(var(--aa-icon-color-rgb), var(--aa-icon-color-alpha));
-  display: flex;
-  flex-shrink: 0;
-  font-size: 0.7em;
-  height: 28px;
-  height: calc(var(--aa-icon-size) + var(--aa-spacing-half));
-  justify-content: center;
-  overflow: hidden;
-  text-align: center;
-  width: 28px;
-  width: calc(var(--aa-icon-size) + var(--aa-spacing-half));
-  margin-right: 16px;
-
-  img {
-    height: auto;
-    max-height: 20px;
-    max-height: calc(var(--aa-icon-size) + var(--aa-spacing-half) - 8px);
-    max-width: 20px;
-    max-width: calc(var(--aa-icon-size) + var(--aa-spacing-half) - 8px);
-    width: auto;
-  }
+  display: none;
 }
 
 :root {
@@ -201,10 +169,8 @@
 }
 
 .aa-Autocomplete,
-.aa-DetachedFormContainer,
 .aa-Panel {
   color: #262627;
-  color: rgba(var(--aa-text-color-rgb), var(--aa-text-color-alpha));
   font-family: inherit;
   font-family: var(--aa-font-family);
   font-size: 16px;
@@ -218,10 +184,6 @@
 
 .aa-Form {
   align-items: center;
-  background-color: #fff;
-  background-color: rgba(var(--aa-input-background-color-rgb), var(--aa-input-background-color-alpha));
-  border: 1px solid rgba(128, 126, 163, 0.8);
-  border: 1px solid rgba(var(--aa-input-border-color-rgb), var(--aa-input-border-color-alpha));
   border-radius: 3px;
   display: flex;
   line-height: 1em;
@@ -229,13 +191,38 @@
   position: relative;
   width: 100%;
 
+  padding-right: 4rem;
+  border: 1px solid transparent;
+  background: #f8f9fa;
+
   &[focus-within],
   &:focus-within {
-    border-color: #3e34d3;
-    border-color: rgba(var(--aa-primary-color-rgb), 1);
-    box-shadow: 0 0 0 2px rgba(62, 52, 211, 0.2), inset 0 0 0 2px rgba(62, 52, 211, 0.2);
-    box-shadow: rgba(var(--aa-primary-color-rgb), var(--aa-primary-color-alpha)) 0 0 0 2px, inset rgba(var(--aa-primary-color-rgb), var(--aa-primary-color-alpha)) 0 0 0 2px;
-    outline: medium none currentcolor;
+    border: 1px solid #5d2f86;
+  }
+}
+
+.aa-Form::after {
+  position: absolute;
+  top: 0.4625rem;
+  right: 0.5375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  padding-right: 0.3125rem;
+  padding-left: 0.3125rem;
+  font-size: $font-size-base * 0.75;
+  color: $gray-700;
+  content: "Ctrl + /";
+  border: 1px solid $gray-300;
+  border-radius: 0.25rem;
+
+  @include media-breakpoint-up(md) {
+    right: -1.4625rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    right: 0.3125rem;
   }
 }
 
@@ -288,6 +275,10 @@
 .aa-PanelLayout a {
   text-decoration: none;
   z-index: 1100;
+
+  @media (min-width: 992px){
+  display: flex;
+ }
 }
 
 .aa-InputWrapper {
@@ -347,21 +338,16 @@
 }
 
 .aa-Panel {
-  background-color: #fff;
-  background-color: rgba(var(--aa-background-color-rgb), var(--aa-background-color-alpha));
-  border-radius: 4px;
-  border-radius: calc(var(--aa-spacing) / 4);
-  box-shadow: 0 0 0 1px rgba(35, 38, 59, 0.1), 0 6px 16px -4px rgba(35, 38, 59, 0.15);
-  box-shadow: var(--aa-panel-shadow);
-  margin: 8px 0 0;
-  overflow: hidden;
   position: absolute;
-  transition: opacity 0.2s ease-in, filter 0.2s ease-in;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 10rem;
+  right: 0;
+  margin-top: 0.5rem;
+  width: calc(100vw - 3rem);
+  max-width: calc(400px - 3rem);
+  z-index: 1000;
+  border-radius: var(--bs-border-radius) !important;
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+  box-shadow: 0 0.5rem 1rem rgba(29, 45, 53, .15) !important;
 
   button {
     -webkit-appearance: none;
@@ -389,6 +375,20 @@
   padding: 0;
   position: relative;
   text-align: left;
+
+  span {
+    display: flex;
+    font-size: 1rem;
+  }
+
+  @media (min-width: 992px) {
+    width: 31.125rem;
+    max-width: 31.125rem;
+  }
+
+  @media (min-width: 992px) {
+    right: 0;
+  }
 }
 
 .aa-Source {
@@ -441,6 +441,11 @@
   margin: 0;
   padding: 0;
   position: relative;
+
+  li:not(:first-child) {
+    border-top: 1px dashed #e9ecef;
+}
+
 }
 
 .aa-Item {
@@ -468,6 +473,11 @@
   color: #212529;
   margin-top: 2px;
   text-decoration-line: none;
+
+  @media (min-width: 992px) {
+    width: 19rem;
+    padding-left: 1rem;
+  }
 }
 
 .aa-ItemContent {
@@ -487,39 +497,27 @@
   &:empty {
     display: none;
   }
+
+  > div:not(.aa-ItemIcon) {
+    display: flex;
+  }
 }
 
 .aa-ItemTitle {
-  margin-bottom: 2px;
+  font-weight: 700;
+  color: #1d2d35;
+  display: flex;
+  font-size: 1rem;
+
+  @media (min-width: 992px) {
+    width: 9rem;
+    padding-right: 1rem;
+    border-right: 1px solid #e9ecef;
+    display: inline-block;
+    text-align: right;
+  }
 }
 
 mark {
   padding: 0 !important;
-}
-
-.aa-ItemContent mark {
-  background: none;
-  color: #262627;
-  color: rgba(var(--aa-text-color-rgb), var(--aa-text-color-alpha));
-  font-style: normal;
-  font-weight: 700;
-  font-weight: var(--aa-font-weight-bold);
-}
-
-.aa-GradientBottom {
-  height: 8px;
-  height: var(--aa-spacing-half);
-  left: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  z-index: 9999;
-  z-index: var(--aa-base-z-index);
-  background-image: linear-gradient(hsla(0, 0%, 100%, 0), #fff);
-  background-image: linear-gradient(rgba(var(--aa-background-color-rgb), 0), rgba(var(--aa-background-color-rgb), 1));
-  border-bottom-left-radius: 4px;
-  border-bottom-left-radius: calc(var(--aa-spacing) / 4);
-  border-bottom-right-radius: 4px;
-  border-bottom-right-radius: calc(var(--aa-spacing) / 4);
-  bottom: 0;
 }
