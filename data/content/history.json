@@ -1,0 +1,75 @@
+{
+  "Etapas": {
+    "Primera": [
+      { 
+        "evento": "Fundación",
+        "fecha": "2016",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      { 
+        "evento": "Biblioteca",
+        "fecha": "2016",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      { 
+        "evento": "Creación de la página de Facebook",
+        "fecha": "2020",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      { 
+        "evento": "Podcast",
+        "fecha": "2020",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      { 
+        "evento": "Convocatoria 2020-I",
+        "fecha": "2020",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      }
+    ],
+    "Segunda": [
+      { 
+        "evento": "Cambios en la mesa directiva",
+        "fecha": "2022",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      { 
+        "evento": "Convocatoria 2021-I",
+        "fecha": "2022",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      { 
+        "evento": "Desarrollo de la página web",
+        "fecha": "2022",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      { 
+        "evento": "Cursos de verano",
+        "fecha": "2022",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      { 
+        "evento": "Creación de las cuentas de Instagram y Twitter",
+        "fecha": "2022",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      }
+    ],
+    "Tercera": [
+      { 
+        "evento": "Oficialización del CAE",
+        "fecha": "2023",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      { 
+        "evento": "Convocatoria 2022-II",
+        "fecha": "2022",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      { 
+        "evento": "Convocatoria 2023-II",
+        "fecha": "2023",
+        "descripción": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      }
+    ]
+  }
+}
