@@ -72,7 +72,7 @@
   #RESET
 \*-----------------------------------*/
 
-main * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -84,20 +84,25 @@ main * {
   }
 }
 
-main a {
-  text-decoration: none;
+.content {
+  a {
+    text-decoration: none;
+  }
+  
+  .navbar li,
+  .sidebar li,
+  .testimonials li,
+  .skill li,
+  .projects li {
+    list-style: none;
+  }
+  
+  img, ion-icon, a, time, span {
+    display: block;
+  }
 }
 
-main li {
-  list-style: none;
-}
-
-main {
-  img, ion-icon, a, button, time, span {
-  display: block; }
-}
-
-main button {
+button {
   font: inherit;
   background: none;
   border: none;
@@ -105,12 +110,12 @@ main button {
   cursor: pointer;
 }
 
-main { input, textarea {
+input, textarea {
   display: block;
   width: 100%;
   background: none;
   font: inherit;
-}}
+}
 
 ::selection {
   background: var(--orange-yellow-crayola);
@@ -121,9 +126,11 @@ main { input, textarea {
   outline-color: var(--orange-yellow-crayola);
 }
 
+/*
 body {
   background: var(--smoky-black);
 }
+*/
 
 /*-----------------------------------*\
   #REUSED STYLE
@@ -179,6 +186,7 @@ article {
   &.active {
     display: block;
     animation: fade 0.5s ease backwards;
+    transition: var(--transition-2);
   }
 }
 
@@ -192,6 +200,10 @@ article {
   }
 }
 
+.h1 {
+  margin: 0;
+}
+
 .h2, .h3, .h4, .h5 {
   color: var(--white-2);
   text-transform: capitalize;
@@ -199,6 +211,7 @@ article {
 
 .h2 {
   font-size: var(--fs-1);
+  margin-top: 0;
 }
 
 .h3 {
@@ -207,11 +220,13 @@ article {
 
 .h4 {
   font-size: var(--fs-4);
+  margin-top: 0;
 }
 
 .h5 {
   font-size: var(--fs-7);
   font-weight: var(--fw-500);
+  margin: 0;
 }
 
 .article-title {
@@ -457,6 +472,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 0 10px;
+  margin-bottom: 0;
 }
 
 .navbar-link {
@@ -1438,7 +1454,7 @@ textarea.form-input {
    * #NAVBAR
    */
 
-  .navbar.nosotros {
+  .content .navbar {
     border-radius: 20px 20px 0 0;
   }
 
@@ -1785,7 +1801,7 @@ textarea.form-input {
    * NAVBAR
    */
 
-  .navbar.nosotros {
+  .content .navbar {
     position: absolute;
     bottom: auto;
     top: 0;
@@ -1876,7 +1892,7 @@ textarea.form-input {
     }
 
     &::-webkit-scrollbar-button {
-      height: 60px;
+      height: 0;
     }
   }
 
@@ -1946,7 +1962,7 @@ textarea.form-input {
   }
 
   .info_more-btn {
-    display: none;
+    display: none !important;
   }
 
   .sidebar-info_more {
@@ -1987,8 +2003,4 @@ textarea.form-input {
   .timeline-text {
     max-width: 700px;
   }
-}
-
-.footer {
-  background-color: var(--bs-body-bg);
 }
