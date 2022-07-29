@@ -31,13 +31,13 @@
     "avatar": "main",
     "description": "Encargado del área académica."
   },
-  "richard": {
-    "name": "José Ávalos",
-    "image": "images/member/richard.webp",
+  "victor": {
+    "name": "Víctor Tello",
+    "image": "images/member/victor.webp",
     "role": "Edición",
     "data": "5",
     "avatar": "main",
-    "description": "Miembro redactor."
+    "description": "Miembro en el área de diseño."
   },
   "andrea": {
     "name": "Andrea Palacios",
@@ -55,12 +55,12 @@
     "avatar": "2",
     "description": "Miembro en el área de diseño."
   },
-  "salles": {
-    "name": "David Salles",
-    "image": "images/member/salles.webp",
-    "role": "Colaboración",
+  "richard": {
+    "name": "José Ávalos",
+    "image": "/images/member/richard.webp",
+    "role": "Edición",
     "data": "8",
     "avatar": "main",
-    "description": "Miembro en el área de mantenimiento."
+    "description": "Miembro en el área de redacción."
   }
 }
