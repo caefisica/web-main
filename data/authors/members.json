@@ -4,6 +4,7 @@
     "image": "images/member/fausto.webp",
     "role": "Coordinación",
     "data": "1",
+    "avatar": "main",
     "description": "Estudiante de X año de la carrera de física. Se unió al CAE durante la etapa de selección XXX. Actualmente se desempeña como encargado del área de comunicaciones del CAE."
   },
   "sergio": {
@@ -11,6 +12,7 @@
     "image": "images/member/sergio.webp",
     "role": "Subcoordinación",
     "data": "2",
+    "avatar": "main",
     "description": "Estudiante de tercer año de la carrera de física. Se unió al CAE durante la etapa de selección XXX. Actualmente se desempeña como subcoordinador del CAE. Ha dictado clases de Cálculo durante la etapa 2022-0."
   },
   "david": {
@@ -18,6 +20,7 @@
     "image": "images/member/david.webp",
     "role": "Comunicaciones",
     "data": "3",
+    "avatar": "main",
     "description": "Estudiante de tercer año de la carrera de física. Se unió al CAE durante la etapa de selección XXX. Actualmente se desempeña como desarrollador principal y encargado del diseño del CAE."
   },
   "alvaro": {
@@ -25,6 +28,7 @@
     "image": "images/member/alvaro.webp",
     "role": "Académicos",
     "data": "4",
+    "avatar": "main",
     "description": "Encargado del área académica."
   },
   "richard": {
@@ -32,6 +36,7 @@
     "image": "images/member/richard.webp",
     "role": "Edición",
     "data": "5",
+    "avatar": "main",
     "description": "Miembro redactor."
   },
   "andrea": {
@@ -39,6 +44,7 @@
     "image": "images/member/andrea.webp",
     "role": "Edición",
     "data": "6",
+    "avatar": "2",
     "description": "Miembro en el área de diseño."
   },
   "liuba": {
@@ -46,6 +52,7 @@
     "image": "images/member/liuba.webp",
     "role": "Edición",
     "data": "7",
+    "avatar": "2",
     "description": "Miembro en el área de diseño."
   },
   "salles": {
@@ -53,6 +60,7 @@
     "image": "images/member/salles.webp",
     "role": "Colaboración",
     "data": "8",
+    "avatar": "main",
     "description": "Miembro en el área de mantenimiento."
   }
 }

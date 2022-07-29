@@ -1,8 +1,8 @@
 ---
 title: "Centro de Apoyo al Estudiante de Física"
 description: "Página de prueba"
-date: 2020-08-27T19:23:18+02:00
-lastmod: 2020-08-27T19:23:18+02:00
+date: 2022-07-27T19:23:18+02:00
+lastmod: 2022-07-27T19:23:18+02:00
 draft: false
 images: []
 type: "nosotros"
@@ -17,3 +17,17 @@ Para alcanzar estos objetivos optamos por cinco estrategias:
 3. Indexar y mantener una biblioteca con libros categorizados por curso.
 4. Difundir información académica (tales como comunicados de la Facultad de Ciencias Físicas, becas, etc) que influya en un mejor desempeño de los estudiantes.
 5. Difundir contenido multimedia que incentive el interés en la física como ciencia y potencial carrera.
+
+{{< new-box-list title="¿Qué estamos haciendo?" >}}
+  {{< new-box
+    subtitle="Redes sociales"
+    img="/images/icon/icon-design-2.svg"
+    content="Difundimos información académica y contenido divulgativo en Facebook, Instagram y Twitter."
+  >}}
+
+  {{< new-box
+    subtitle="Página Web"
+    img="/images/icon/icon-dev-2.svg"
+    content="Repositorio de guías y documentos relacionados al estudio de las ciencias físicas."
+  >}}
+{{< /new-box-list >}}
