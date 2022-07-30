@@ -3,7 +3,7 @@ var feed = new Instafeed({
     debug: false,
 
     transform: function(item) {
-      item.caption = item.caption.replace(/\s+/g," ").split(/(?=\s)/gi).slice(0, 40).join('');
+      item.caption = item.caption.replace(/\s+/g," ").split(/(?=\s)/gi).slice(0, 50).join('');
       return item;
     },
 
