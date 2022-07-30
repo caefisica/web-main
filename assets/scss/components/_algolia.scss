@@ -85,7 +85,7 @@
 
 /* Iconos de resultado */
 .aa-ItemIcon {
-    display: none;
+  display: none;
 }
 
 .aa-Autocomplete *,
@@ -104,10 +104,6 @@
     padding: 8px;
     padding: var(--aa-spacing-half);
   }
-}
-
-.aa-ItemIcon {
-  display: none;
 }
 
 :root {
@@ -190,7 +186,6 @@
   margin: 0;
   position: relative;
   width: 100%;
-
   padding-right: 4rem;
   border: 1px solid transparent;
   background: #f8f9fa;
@@ -276,9 +271,9 @@
   text-decoration: none;
   z-index: 1100;
 
-  @media (min-width: 992px){
-  display: flex;
- }
+  @media (min-width: 992px) {
+    display: flex;
+  }
 }
 
 .aa-InputWrapper {
@@ -345,9 +340,11 @@
   max-width: calc(400px - 3rem);
   z-index: 1000;
   border-radius: var(--bs-border-radius) !important;
+
   --bs-bg-opacity: 1;
+
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
-  box-shadow: 0 0.5rem 1rem rgba(29, 45, 53, .15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(29, 45, 53, 0.15) !important;
 
   button {
     -webkit-appearance: none;
@@ -444,8 +441,7 @@
 
   li:not(:first-child) {
     border-top: 1px dashed #e9ecef;
-}
-
+  }
 }
 
 .aa-Item {
