@@ -21,6 +21,15 @@
 [context.next.environment]
   HUGO_ENV = "next"
 
+[[plugins]]
+  package = "netlify-plugin-cloudinary"
+
+  [plugins.inputs]
+  cloudName = "dubu"
+  deliveryType = "upload"
+  imagesPath = "/images"
+  folder = "caefisica"
+
 [dev]
   framework = "#custom"
   command = "npm run start"
