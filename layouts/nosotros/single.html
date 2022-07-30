@@ -12,13 +12,13 @@
     <div class="sidebar-info">
 
       <figure class="avatar-box">
-        <img src="/logo-cae.png" alt="Logo del CAE" width="80">
+        <img src="/logo-cae.png" alt="Logo del {{ .Site.Params.Title }}" width="80">
       </figure>
 
       <div class="info-content">
         <h1 class="h1 name text-wrap" title="{{ .Title | safeHTML }}">{{ .Title }}</h1>
 
-        <p class="title">CAE - Física</p>
+        <p class="title">{{ .Site.Params.Title }} - Física</p>
       </div>
 
       <button class="info_more-btn" data-sidebar-btn>
@@ -35,74 +35,41 @@
 
       <ul class="contacts-list">
 
+        {{ $group := .Site.Data.authors.group}}
+        {{ range $group }}
+        {{ range . }}
         <li class="contact-item">
 
           <div class="icon-box">
-            <ion-icon name="calendar-outline"></ion-icon>
+            <ion-icon name="{{ .tipo }}-outline"></ion-icon>
           </div>
 
           <div class="contact-info">
-            <p class="contact-title">Fundación</p>
-
-            <time datetime="2016-01-01">01 de enero del 2016</time>
+            <p class="contact-title">{{ .nombre }}</p>
+            
+            {{ if eq .tipo "calendar" }}
+            <time datetime="{{ .fecha }}">{{ .descripción }}</time>
+            {{ else }}
+            <a {{ if eq .tipo "mail" }}href="mailto:{{ .descripción }}"{{ end }} class="contact-link">{{ .descripción }}</a>
+            {{ end }}
           </div>
 
         </li>
-
-        <li class="contact-item">
-
-          <div class="icon-box">
-            <ion-icon name="mail-outline"></ion-icon>
-          </div>
-
-          <div class="contact-info">
-            <p class="contact-title">Mesa directiva</p>
-
-            <a href="mailto:cae@cae.anonaddy.com" class="contact-link">cae@cae.anonaddy.com</a>
-          </div>
-
-        </li>
-
-        <li class="contact-item">
-
-          <div class="icon-box">
-            <ion-icon name="mail-outline"></ion-icon>
-          </div>
-
-          <div class="contact-info">
-            <p class="contact-title">Desarrollador</p>
-
-            <a href="mailto:dev@cae.anonaddy.com" class="contact-link">dev@cae.anonaddy.com</a>
-          </div>
-
-        </li>
-
-        <li class="contact-item">
-
-          <div class="icon-box">
-            <ion-icon name="location-outline"></ion-icon>
-          </div>
-
-          <div class="contact-info">
-            <p class="contact-title">Ubicación</p>
-
-            <address>Cercado de Lima, 15088</address>
-          </div>
-
-        </li>
-
+        {{ end }}
+        {{ end }}
       </ul>
 
       <div class="separator"></div>
 
       <ul class="social-list">
 
+        {{ range .Site.Menus.social -}}
         <li class="social-item">
-          <a href="https://www.facebook.com/caefisica" class="social-link">
-            <ion-icon name="logo-facebook"></ion-icon>
-          </a>
+          <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
         </li>
+        {{ end }}
 
+        <!-- 
         <li class="social-item">
           <a href="https://www.twitter.com/caefisica" class="social-link">
             <ion-icon name="logo-twitter"></ion-icon>
@@ -114,7 +81,7 @@
             <ion-icon name="logo-instagram"></ion-icon>
           </a>
         </li>
-
+        -->
       </ul>
 
     </div>
@@ -389,7 +356,7 @@
             </div>
 
             <div class="skill-progress-bg">
-              <div class="skill-progress-fill" style="width: 35%;"></div>
+              <div class="skill-progress-fill project-1"></div>
             </div>
 
           </li>
@@ -402,7 +369,7 @@
             </div>
 
             <div class="skill-progress-bg">
-              <div class="skill-progress-fill" style="width: 80%;"></div>
+              <div class="skill-progress-fill project-2"></div>
             </div>
 
           </li>
@@ -415,7 +382,7 @@
             </div>
 
             <div class="skill-progress-bg">
-              <div class="skill-progress-fill" style="width: 50%;"></div>
+              <div class="skill-progress-fill project-3"></div>
             </div>
 
           </li>
