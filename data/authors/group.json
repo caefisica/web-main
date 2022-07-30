@@ -1,8 +1,25 @@
 {
-  "Centro de Apoyo al Estudiante de Física": {
-    "Fundación": "01 de enero del 2016",
-    "Mesa Directiva": "cae@cae.anonaddy.com",
-    "Desarrollador": "dev@cae.anonaddy.com",
-    "Ubicación": "Cercado de Lima, 15088"
-  }
+  "1": [
+    {
+      "nombre": "Fundación",
+      "descripción": "01 de enero del 2016",
+      "tipo": "calendar",
+      "fecha": "2016-01-01"
+    },
+    {
+      "nombre": "Mesa Directiva",
+      "descripción": "cae@cae.anonaddy.com",
+      "tipo": "mail"
+    },
+    {
+      "nombre": "Desarrollador",
+      "descripción": "dev@cae.anonaddy.com",
+      "tipo": "mail"
+    },
+    {
+      "nombre": "Ubicación",
+      "descripción": "Cercado de Lima, 15088",
+      "tipo": "location"
+    }
+  ]
 }
