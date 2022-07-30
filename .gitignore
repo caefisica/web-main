@@ -4,3 +4,4 @@ resources
 .netlify
 .hugo_build.lock
 .env
+static/js/pages/ig/var_secret.js
