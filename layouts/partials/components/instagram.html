@@ -1,14 +1,18 @@
-<link rel="stylesheet" href="{{ "css/fancybox.css" | relURL }}"/>
-{{ $sass := resources.Get "scss/components/_socialmedia.scss" }}
+{{ $sass := resources.Get "scss/components/pages/_instagram.scss" }}
 {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
-
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+
+{{ $package := resources.Get "scss/components/pages/_fancybox.scss" }}
+{{ $style2 := $package | resources.ToCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style2.Permalink }}" integrity="{{ $style2.Data.Integrity }}">
+
 <script src="{{ "js/pages/ig/var.js" | relURL }}"></script>
 <script src="{{ "js/pages/ig/instafeed.min.js" | relURL }}"></script>
 
 <div id="instafeed" class="instafeeds">
 </div>
 
-<!--{{ partial "components/socialbuttons.html" . -}}-->
+{{/* partial "components/socialbuttons.html" . -*/}}
 <script src="{{ "js/pages/ig/magic.js" | relURL }}"></script>
 <script src="{{ "js/pages/ig/fancybox.umd.js" | relURL }}"></script>
+<script src="{{ "js/pages/ig/fancy_conf.js" | relURL }}"></script>
