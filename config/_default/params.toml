@@ -13,7 +13,7 @@ domainTLD = "caefis.netlify.app"
 titleHome = "Centro de Apoyo al Estudiante de Física"
 
 ## Twitter Cards
-twitterSite = "@cae_fisica"
+twitterSite = "@caefisica"
 twitterCreator = "@totallynotdavid"
 
 ## JSON-LD
@@ -31,9 +31,9 @@ schemaLogoHeight = 512
 schemaImage = "cae.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/cae_fisica"
-schemaLinkedIn = ""
-schemaGitHub = "https://github.com/caefis/cae"
+schemaTwitter = "https://twitter.com/caefisica"
+schemaLinkedIn = "https://www.linkedin.com/company/caefisica/"
+schemaGitHub = "https://github.com/caefis/web"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -42,7 +42,7 @@ siteLinksSearchBox = false
 ## Chrome Browser
 themeColor = "#fff"
 
-# Images
+# Images - Temporarily left in place for backward compatibility
 quality = 85
 bgColor = "#fff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
@@ -50,11 +50,18 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 smallLimit = "600"
 
+# Images
+imageResponsive = true
+imageConvertTo = "webp"
+imageImageSizes = ["480","720","1080","1280","1600","2048"]
+singleSize = false
+imageAddClass = "img-fluid lazyload blur-up"
+
 # Footer
 footer = "Un proyecto del Centro de Apoyo al Estudiante de Física"
 
 # Feed
-copyRight = "Copyright (c) 2022 — CAE"
+copyRight = "Copyright (c) 2022 — CAE Física"
 
 # Alert
 alert = false
@@ -65,7 +72,7 @@ alertText = "Las inscripciones para los minicursos se han abierto, haga clic en 
 
 # Edit Page
 repoHost = "GitHub"
-docsRepo = "https://github.com/caefis/0.8.1"
+docsRepo = "https://github.com/caefis/web"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = true
