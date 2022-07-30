@@ -6,9 +6,6 @@
   NODE_VERSION = "18.6.0"
   NPM_VERSION = "8.15.0"
 
-[context.production]
-  command = "npm run build"
-
 [context.deploy-preview]
   command = "npm run build -- -b $DEPLOY_PRIME_URL"
 
