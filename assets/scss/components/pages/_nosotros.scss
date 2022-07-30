@@ -315,6 +315,11 @@ main {
   &.active {
     max-height: 405px;
   }
+
+  ol,
+  ul {
+    padding-left: 0;
+  }
 }
 
 .sidebar-info {
@@ -906,6 +911,18 @@ main {
   width: 100%;
   height: 8px;
   border-radius: 10px;
+
+  .project-1 {
+    width: 35%;
+  }
+
+  .project-2 {
+    width: 80%;
+  }
+
+  .project-3 {
+    width: 50%;
+  }
 }
 
 .skill-progress-fill {
