@@ -1,6 +1,6 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
-exports.handler = async (event, context) => {
+export async function handler(event, context) {
   try{
     const response = new response('${process.env.INSTAGRAM_KEY}');
     const data     = await response.json();
@@ -14,4 +14,4 @@ exports.handler = async (event, context) => {
       body: err.toString()
     };
   }
-};
+}
