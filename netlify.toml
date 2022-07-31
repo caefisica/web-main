@@ -4,7 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "17.8.0"
-  NPM_VERSION = "8.11.0"
+  NPM_VERSION = "8.14.0"
 
 [context.production]
   command = "npm run build"
@@ -29,6 +29,14 @@
   deliveryType = "upload"
   imagesPath = "/images"
   folder = "caefisica"
+
+[[plugins]]
+  package = "@algolia/netlify-plugin-crawler"
+
+  [plugins.inputs]
+  branches = ['master']
+  disabled = true
+  renderJavaScript = false
 
 [dev]
   framework = "#custom"
