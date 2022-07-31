@@ -15,6 +15,7 @@
 <script src="{{ "js/pages/ig/magic_secret.js" | relURL }}"></script>
 {{ end }}
 {{ if eq (hugo.Environment) "production" -}}
+<script src="{{ "js/pages/ig/var_secret.js" | relURL }}"></script>
 <script src="{{ "js/pages/ig/instafeed.min.js" | relURL }}"></script>
 <script src="{{ "js/pages/ig/magic_public.js" | relURL }}"></script>
 {{ end }}
