@@ -1,3 +1,7 @@
+a[data-fancybox] img {
+  cursor: zoom-in;
+}
+
 .instafeeds {
   margin-top: 2.25rem;
   display: grid;
@@ -14,10 +18,6 @@
       border-radius: var(--bs-card-border-radius);
     }
   }
-}
-
-a[data-fancybox] img {
-  cursor: zoom-in;
 }
 
 .fancybox__backdrop::after {
@@ -38,15 +38,11 @@ a[data-fancybox] img {
 
 .fancybox__container {
   --fancybox-bg: #000;
-
   --fancybox-thumbs-width: 48px;
   --fancybox-thumbs-ratio: 1;
-
   --carousel-button-bg: rgb(91 78 76 / 74%);
-
   --carousel-button-svg-width: 24px;
   --carousel-button-svg-height: 24px;
-
   --carousel-button-svg-stroke-width: 2.5;
 }
 
@@ -80,7 +76,7 @@ a[data-fancybox] img {
   }
 
   .carousel__slide {
-    padding: 8px 8px 16px 8px;
+    padding: 8px 8px 16px;
   }
 }
 
