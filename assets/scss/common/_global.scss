@@ -33,10 +33,6 @@
 }
 
 .single.home {
-  .arriba {
-    padding-top: 4em;
-    padding-bottom: 4em;
-  }
 
   .bg-dots {
     margin-top: -1rem;
@@ -55,19 +51,6 @@
 
     .nav-link {
       padding: 0.5rem 0.9rem;
-    }
-  }
-
-  .banner {
-    padding: 7rem 5rem;
-
-    @media screen and (max-width: 900px) {
-      padding: 5rem 1rem;
-
-      h1,
-      .lead {
-        text-align: left;
-      }
     }
   }
 
