@@ -13,33 +13,7 @@
 }
 
 .aa-LoadingIndicator {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-
-  &[hidden] {
-    display: none;
-  }
-
-  svg {
-    stroke-width: 1.6;
-    stroke-width: var(--aa-icon-stroke-width);
-    color: #3e34d3;
-    color: rgba(var(--aa-primary-color-rgb), 1);
-    height: auto;
-    max-height: 20px;
-    max-height: var(--aa-input-icon-size);
-    width: 20px;
-    width: var(--aa-input-icon-size);
-  }
-
-  height: 100%;
-  padding-left: 11px;
-  padding-left: calc(var(--aa-spacing) * 0.75 - 1px);
-  padding-right: 8px;
-  padding-right: var(--aa-spacing-half);
-  width: 47px;
-  width: calc(var(--aa-spacing) * 1.75 + var(--aa-icon-size) - 1px);
+  display: none;
 }
 
 /* Exit */
@@ -199,6 +173,7 @@
   padding-right: 4rem;
   border: 1px solid transparent;
   background: #f8f9fa;
+  max-height: 2.5rem;
 
   &[focus-within],
   &:focus-within {
@@ -331,6 +306,7 @@
   border: 0;
   padding: 0;
   width: 100%;
+  padding: .375rem .75rem;
 
   &::placeholder {
     color: rgba(128, 126, 163, 0.6);
