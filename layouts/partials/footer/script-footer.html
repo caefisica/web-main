@@ -1,4 +1,6 @@
 {{ $docSearch := resources.Get "js/docsearch.js" | js.Build -}}
+{{ $keyboard := resources.Get "js/search.js" | js.Build -}}
+<script src="{{ $keyboard.RelPermalink }}" defer></script>
 
 {{ $bs := resources.Get "js/bootstrap.js" -}}
 {{ $bs := $bs | js.Build -}}

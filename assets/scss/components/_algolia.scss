@@ -299,14 +299,23 @@
 }
 
 .aa-Input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: none;
-  border: 0;
-  padding: 0;
+  display: block;
   width: 100%;
   padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #1d2d35;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  --webkit-appearance:none;
+  --moz-appearance: none;
+  appearance: none;
+  border-radius: .375rem;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid transparent;
+  background: #f8f9fa;
 
   &::placeholder {
     color: rgba(128, 126, 163, 0.6);
