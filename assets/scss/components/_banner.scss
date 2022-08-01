@@ -4,6 +4,34 @@
   }
 }
 
+.single.home {
+  .arriba {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+
+  .content .section {
+    padding: 0;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 89vh;
+  
+    @media screen and (max-width: 900px) {
+  
+      h1,
+      .lead,
+      p.meta {
+        text-align: left;
+      }
+    }
+  }
+}
+
 .hero {
   padding: 200px 0;
   position: relative;
