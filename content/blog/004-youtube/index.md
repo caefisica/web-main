@@ -92,11 +92,6 @@ weight: "40"
 
 - [Antroporama](https://www.youtube.com/c/AntroporamaDivulgacion/)
 
-## Cine
-
-### Inglés
-
-- [StudioBinder](https://www.youtube.com/c/StudioBinder/)
 
 ## Biología
 
@@ -117,12 +112,6 @@ weight: "40"
 - [Python Club for Physicists](https://www.youtube.com/channel/UCze8vzQLcplutz0nWDNjFCA/): Python enfocado a física.
 - [Pelado Nerd](https://www.youtube.com/c/PeladoNerd/)
 
-## Religión
-
-### Inglés
-
-- [ReligionforBreakfast](https://www.youtube.com/c/ReligionForBreakfast/)
-- [Bart D. Ehrman](https://www.youtube.com/c/bartdehrman/): Cristianismo
 
 ## Filosofía
 
@@ -131,11 +120,6 @@ weight: "40"
 - [Darin McNabb](https://www.youtube.com/user/darinmex)
 - [Ernesto Castro](https://www.youtube.com/user/holamellamololillo)
 
-## Literatura
-
-### Español
-
-- [Jesús G. Maestro](https://www.youtube.com/c/Jes%C3%BAsGMaestro/)
 
 ## Entrevistas
 
