@@ -28,39 +28,39 @@ weight: "40"
 
 ## Matemática
 
-| Descripción | Autor | Enlace | Idioma |
-| --- | --- | --- | --- |
-| Cálculo I, II y quizá III. | Blackpenredpen | Enlace | Ingles |
-| Precálculo (álgebra, trigonometría), Cálculo I, II, III, ecuaciones diferenciales, estadística. | Professor Leonard | Enlace | Ingles |
-|  | Aleph 0 | Enlace | Ingles |
-|  | 3blue1brown | Enlace | Ingles |
-| Cálculo I, II, III. | Dr Peyam | Enlace | Ingles |
-| Álgebra, Álgebra Lineal, Precálculo, Cálculo I, II, III, Topología. | Linda Green | Enlace | Ingles |
-| Análisis real, álgebra abstracta, ecuaciones diferenciales, álgebra lineal, cálculo multivariable, uso de Mathematica. | Bill Kinney | Enlace | Ingles |
-| Teoría de grupos, transformada de Laplace, aritmética modula, relatividad especial, ecuaciones diferenciales, cálculo y álgebra lineal. | Mu Prime Math | Enlace | Ingles |
-|  | 1a con Berni | Enlace | Español |
-| Aritmética, Álgebra elemental, geometría analítica, Cálculo I. | El traductor de ingeniería | Enlace | Español |
-| Matemática Básica, Álgebra Lineal, Ecuaciones diferenciales parciales y ordinarias, análisis vectorial, teoría de grupos, espacios topológicos, cálculo tensorial. | DalpMaths | Enlace | Español |
-| Números imaginarios. | Welch Labs | Enlace | Español |
-| Problemas resueltos de álgebra y ecuaciones diferenciales. Tómalo a modo de introducción. | CalcuCM | Enlace | Español |
-| Álgebra I (vectorial, polinomios, complejos), Análisis Matemático (series ,cálculo integral, métodos de integración, polinomio de Taylor, derivada, límites y continuidad, funciones, sucesiones, números reales e intervalos). | Mate & CBC | Enlace | Español |
-| Álgebra Lineal, Cálculo tensorial, análisis real, fourier, variable compleja, cálculo vectorial y multivariado, ecuaciones diferenciales. | Math Rocks | Enlace | Español |
+| Descripción                                                                                                                                                                                                                     | Autor                      | Enlace                                                                       | Idioma  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|------------------------------------------------------------------------------|---------|
+| Cálculo I, II y quizá III.                                                                                                                                                                                                      | Blackpenredpen             | [Enlace](https://www.youtube.com/user/blackpenredpen)                        | Ingles  |
+| Precálculo (álgebra, trigonometría), Cálculo I, II, III, ecuaciones diferenciales, estadística.                                                                                                                                 | Professor Leonard          | [Enlace](https://www.youtube.com/user/professorleonard57)                    | Ingles  |
+|                                                                                                                                                                                                                                 | Aleph 0                    | [Enlace](https://www.youtube.com/c/Aleph0/)                                  | Ingles  |
+|                                                                                                                                                                                                                                 | 3blue1brown                | [Enlace](https://www.youtube.com/c/3blue1brown/)                             | Ingles  |
+| Cálculo I, II, III.                                                                                                                                                                                                             | Dr Peyam                   | [Enlace](https://www.youtube.com/c/DrPeyam)                                  | Ingles  |
+| Álgebra, Álgebra Lineal, Precálculo, Cálculo I, II, III, Topología.                                                                                                                                                             | Linda Green                | [Enlace](https://www.youtube.com/channel/UCkyLJh6hQS1TlhUZxOMjTFw/)          | Ingles  |
+| Análisis real, álgebra abstracta, ecuaciones diferenciales, álgebra lineal, cálculo multivariable, uso de Mathematica.                                                                                                          | Bill Kinney                | [Enlace](https://www.youtube.com/c/billkinneymath/)                          | Ingles  |
+| Teoría de grupos, transformada de Laplace, aritmética modula, relatividad especial, ecuaciones diferenciales, cálculo y álgebra lineal.                                                                                         | Mu Prime Math              | [Enlace](https://www.youtube.com/c/MuPrimeMath/)                             | Ingles  |
+|                                                                                                                                                                                                                                 | 1a con Berni               | [Enlace](https://www.youtube.com/c/1aconBerni)                               | Español |
+| Aritmética, Álgebra elemental, geometría analítica, Cálculo I.                                                                                                                                                                  | El traductor de ingeniería | [Enlace](https://www.youtube.com/c/ElTraductordeIngenier%C3%ADa/)            | Español |
+| Matemática Básica, Álgebra Lineal, Ecuaciones diferenciales parciales y ordinarias, análisis vectorial, teoría de grupos, espacios topológicos, cálculo tensorial.                                                              | DalpMaths                  | [Enlace](https://www.youtube.com/c/DalpMaths/playlists)                      | Español |
+| Números imaginarios.                                                                                                                                                                                                            | Welch Labs                 | [Enlace](https://www.youtube.com/c/WelchLabsVideo/)                          | Español |
+| Problemas resueltos de álgebra y ecuaciones diferenciales. Tómalo a modo de introducción.                                                                                                                                       | CalcuCM                    | [Enlace](https://www.youtube.com/channel/UCFTxCvN0ck8Yy-2X1ioRKzA/playlists) | Español |
+| Álgebra I (vectorial, polinomios, complejos), Análisis Matemático (series ,cálculo integral, métodos de integración, polinomio de Taylor, derivada, límites y continuidad, funciones, sucesiones, números reales e intervalos). | Mate & CBC                 | [Enlace](https://www.youtube.com/channel/UCwqteIzpGiy1dytN7NJzmUg/)          | Español |
+| Álgebra Lineal, Cálculo tensorial, análisis real, fourier, variable compleja, cálculo vectorial y multivariado, ecuaciones diferenciales.                                                                                       | Math Rocks                 | [Enlace](https://www.youtube.com/c/MathRocks/)                               | Español |
 
 ## Física
 
-| Descripción | Autor | Enlace | Idioma |
-| --- | --- | --- | --- |
-| Mecánica Clásica | Physics with Elliot | Enlace | Ingles |
-| Física General,Termodinámica, física moderna I y II, ciencia de materiales. | Tonya Coffey | Enlace | Ingles |
-|  | Adam Beatty | Enlace | Ingles |
-|  | Classical Mechanics Videos | Enlace | Ingles |
-| Electrodinámica, Termodinámica, Python. | Real Physics | Enlace | Ingles |
-|  | Física Exactas UBA | Enlace | Español |
-| Física General, Electricidad y Magnetismo. | Cesar Antonio Izquierdo Merlo | Enlace | Español |
-| Álgebra Lineal, Óptica, Mecánica Clásica I, Mecánica Cuántica, Física Matemática II y III, Física de Altas Energías, Métodos matemáticos para físicos II. | Rentov | Enlace | Español |
-| Mecánica teórica, teoría cuántica de campos, relatividad general, mecánica cuántica. | Javier García | Enlace | Español |
-| Métodos matemáticos, Relatividad general, física de partíclas y relatividad general. | Alex Flournoy | Enlace | Español |
-| Electromagnetismo, Relatividad especial, introducción al cálculo, a la mecánica clásica, cuántica. | MathArg | Enlace | Español |
+| Descripción                                                                                                                                               | Autor                         | Enlace                                                                    | Idioma  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|---------------------------------------------------------------------------|---------|
+| Mecánica Clásica                                                                                                                                          | Physics with Elliot           | [Enlace](https://www.youtube.com/c/PhysicswithElliot)                     | Ingles  |
+| Física General,Termodinámica, física moderna I y II, ciencia de materiales.                                                                               | Tonya Coffey                  | [Enlace](https://www.youtube.com/channel/UC8D8ZAJvULlIVI3kYowlfhw/)       | Ingles  |
+|                                                                                                                                                           | Adam Beatty                   | [Enlace](https://www.youtube.com/user/youspinmerightrounds)               | Ingles  |
+|                                                                                                                                                           | Classical Mechanics Videos    | [Enlace](https://www.youtube.com/channel/UC3WVcp5UG2YDybF6lKW9Yog/videos) | Ingles  |
+| Electrodinámica, Termodinámica, Python.                                                                                                                   | Real Physics                  | [Enlace](https://www.youtube.com/user/jg394)                              | Ingles  |
+|                                                                                                                                                           | Física Exactas UBA            | [Enlace](https://www.youtube.com/c/F%C3%ADsicaExactasUBA/)                | Español |
+| Física General, Electricidad y Magnetismo.                                                                                                                | Cesar Antonio Izquierdo Merlo | [Enlace](https://www.youtube.com/user/IzquierdoCesar/videos)              | Español |
+| Álgebra Lineal, Óptica, Mecánica Clásica I, Mecánica Cuántica, Física Matemática II y III, Física de Altas Energías, Métodos matemáticos para físicos II. | Rentov                        | [Enlace](https://www.youtube.com/c/rentov/)                               | Español |
+| Mecánica teórica, teoría cuántica de campos, relatividad general, mecánica cuántica.                                                                      | Javier García                 | [Enlace](https://www.youtube.com/c/JavierGarcia110/)                      | Español |
+| Métodos matemáticos, Relatividad general, física de partíclas y relatividad general.                                                                      | Alex Flournoy                 | [Enlace](https://www.youtube.com/c/AlexFlournoyTeacher/)                  | Español |
+| Electromagnetismo, Relatividad especial, introducción al cálculo, a la mecánica clásica, cuántica.                                                        | MathArg                       | [Enlace](https://www.youtube.com/c/MathArg/)                              | Español |
 
 ## Historia
 
