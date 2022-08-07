@@ -19,12 +19,12 @@ weight: "40"
 ---
 ## Universitario
 
-| Descripción | Autor | Enlace | Idioma |
-| --- | --- | --- | --- |
-| Cursos del MIT desde cursos introductorios hasta avanzados | MIT | Enlace | Ingles |
-| Física (desde Física General hasta relatividad y mecánica cuántica), Astronomía, química, matemática (desde álgebra hasta Cálculo III) e ingeniería. | Michael Van Biezen | Enlace | Ingles |
-|  | YALE | Enlace | Ingles |
-| Medio pesadito, pero tiene temas avanzados o específicos. | Nptel | Enlace | Ingles |
+| Descripción                                                                                                                                          | Autor              | Enlace                                               | Idioma |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------------------------------------------------|--------|
+| Cursos del MIT desde cursos introductorios hasta avanzados                                                                                           | MIT                | [Enlace](https://www.youtube.com/user/MIT)           | Ingles |
+| Física (desde Física General hasta relatividad y mecánica cuántica), Astronomía, química, matemática (desde álgebra hasta Cálculo III) e ingeniería. | Michael Van Biezen | [Enlace](https://www.youtube.com/c/MichelvanBiezen/) | Ingles |
+|                                                                                                                                                      | YALE               | [Enlace](https://www.youtube.com/user/YaleCourses/)  | Ingles |
+| Medio pesadito, pero tiene temas avanzados o específicos.                                                                                            | Nptel              | [Enlace](https://www.youtube.com/c/iit/playlists)    | Ingles |
 
 ## Matemática
 
