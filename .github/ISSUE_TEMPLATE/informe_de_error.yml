@@ -5,19 +5,15 @@ labels: ["bug"]
 assignees:
   - totallynotdavid
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Asegúrese de proporcionar la siguiente información:
   - type: textarea
-    id: what-happened
+    id: que-paso
     attributes:
-      label: ¿Qué pasó?
+      label: Cuéntenos lo que sucedió
       description: Adjunte la información solicitada.
       placeholder: |
-        * Especifique pasos claros que describan cómo reproducir el problema.
-        * Cuéntenos lo que ve. Adjunte capturas de pantalla de ser necesario.
-        * ¿Qué debería ocurrir?
+        1. Especifique pasos claros que describan cómo reproducir el problema.
+        2. Cuéntenos lo que ve. Adjunte capturas de pantalla de ser necesario.
+        3. ¿Qué debería ocurrir?
     validations:
       required: true
   - type: dropdown

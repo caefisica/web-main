@@ -8,18 +8,18 @@ body:
   - type: textarea
     attributes:
       label: Resumen
-      description: Breve explicación de la función.
+      description: Breve explicación de la funcionalidad.
     validations:
       required: false
   - type: textarea
     attributes:
       label: Ejemplo básico
-      description: Incluya aquí un ejemplo básico o enlaces.
+      description: Incluya aquí un ejemplo básico y/o enlaces referencia a sus ideas.
     validations:
       required: false
   - type: textarea
     attributes:
       label: Motivación
-      description: Incluya aquí un ejemplo básico o enlaces.
+      description: ¿Por qué estamos haciendo esto? ¿En qué casos espera que sea utilizado? ¿Cuál es el resultado esperado?
     validations:
       required: false
