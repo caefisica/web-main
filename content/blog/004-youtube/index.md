@@ -51,22 +51,20 @@ weight: "40"
 
 ## Física
 
-### Inglés
+| Descripción                                                                                                                                               | Autor                         | Enlace                                                                    | Idioma  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|---------------------------------------------------------------------------|---------|
+| Mecánica Clásica                                                                                                                                          | Physics with Elliot           | [Enlace](https://www.youtube.com/c/PhysicswithElliot)                     | Ingles  |
+| Física General,Termodinámica, física moderna I y II, ciencia de materiales.                                                                               | Tonya Coffey                  | [Enlace](https://www.youtube.com/channel/UC8D8ZAJvULlIVI3kYowlfhw/)       | Ingles  |
+|                                                                                                                                                           | Adam Beatty                   | [Enlace](https://www.youtube.com/user/youspinmerightrounds)               | Ingles  |
+|                                                                                                                                                           | Classical Mechanics Videos    | [Enlace](https://www.youtube.com/channel/UC3WVcp5UG2YDybF6lKW9Yog/videos) | Ingles  |
+| Electrodinámica, Termodinámica, Python.                                                                                                                   | Real Physics                  | [Enlace](https://www.youtube.com/user/jg394)                              | Ingles  |
+|                                                                                                                                                           | Física Exactas UBA            | [Enlace](https://www.youtube.com/c/F%C3%ADsicaExactasUBA/)                | Español |
+| Física General, Electricidad y Magnetismo.                                                                                                                | Cesar Antonio Izquierdo Merlo | [Enlace](https://www.youtube.com/user/IzquierdoCesar/videos)              | Español |
+| Álgebra Lineal, Óptica, Mecánica Clásica I, Mecánica Cuántica, Física Matemática II y III, Física de Altas Energías, Métodos matemáticos para físicos II. | Rentov                        | [Enlace](https://www.youtube.com/c/rentov/)                               | Español |
+| Mecánica teórica, teoría cuántica de campos, relatividad general, mecánica cuántica.                                                                      | Javier García                 | [Enlace](https://www.youtube.com/c/JavierGarcia110/)                      | Español |
+| Métodos matemáticos, Relatividad general, física de partíclas y relatividad general.                                                                      | Alex Flournoy                 | [Enlace](https://www.youtube.com/c/AlexFlournoyTeacher/)                  | Español |
+| Electromagnetismo, Relatividad especial, introducción al cálculo, a la mecánica clásica, cuántica.                                                        | MathArg                       | [Enlace](https://www.youtube.com/c/MathArg/)                              | Español |
 
-- [Physics with Elliot](https://www.youtube.com/c/PhysicswithElliot): Mecánica Clásica
-- [Tonya Coffey](https://www.youtube.com/channel/UC8D8ZAJvULlIVI3kYowlfhw/): Física General,Termodinámica, física moderna I y II,  ciencia de materiales.
-- [Adam Beatty](https://www.youtube.com/user/youspinmerightrounds)
-- [Classical Mechanics Videos](https://www.youtube.com/channel/UC3WVcp5UG2YDybF6lKW9Yog/videos)
-- [Real Physics](https://www.youtube.com/user/jg394): Electrodinámica, Termodinámica, Python.
-
-### Español
-
-- [Física Exactas UBA](https://www.youtube.com/c/F%C3%ADsicaExactasUBA/)
-- [Cesar Antonio Izquierdo Merlo](https://www.youtube.com/user/IzquierdoCesar/videos): Física General, Electricidad y Magnetismo.
-- [rentov](https://www.youtube.com/c/rentov/): Álgebra Lineal, Óptica, Mecánica Clásica I, Mecánica Cuántica, Física Matemática II y III, Física de Altas Energías, Métodos matemáticos para físicos II.
-- [Javier García](https://www.youtube.com/c/JavierGarcia110/): Mecánica teórica, teoría cuántica de campos, relatividad general, mecánica cuántica.
-- [Alex Flournoy](https://www.youtube.com/c/AlexFlournoyTeacher/): Métodos matemáticos, Relatividad general, física de partíclas y relatividad general.
-- [MathArg](https://www.youtube.com/c/MathArg/): Electromagnetismo, Relatividad especial, introducción al cálculo, a la mecánica clásica, cuántica.
 
 ## Historia
 
