@@ -1,26 +1,32 @@
 ---
-title: "Youtube"
-description: "Porque a veces uno no sabe en dónde buscar."
-lead: "Porque a veces uno no sabe en dónde buscar. Esta lista no es necesariamente académica, para ello véase la sección dentro de cada curso."
-date: 2022-01-30T09:19:42+01:00
-lastmod: 2022-02-03T09:19:42+01:00
-images: ["https://i.imgur.com/GgoqSI0.png"]
-thumbnail: "https://i.imgur.com/GgoqSI0.png"
-contributors: ["David"]
-author_id: "david"
-tags: ["lista"]
+title: Youtube
+description: Porque a veces uno no sabe en dónde buscar.
+lead: Porque a veces uno no sabe en dónde buscar. Esta lista no es necesariamente
+  académica, para ello véase la sección dentro de cada curso.
+date: 2022-01-30T09:19:42.000+01:00
+lastmod: '2022-02-03T09:19:42.000+01:00'
+images:
+- https://i.imgur.com/GgoqSI0.png
+thumbnail: https://i.imgur.com/GgoqSI0.png
+contributors:
+- David
+author_id: david
+tags:
+- lista
 toc: true
-weight: 40
----
+weight: "40"
 
+---
 ## Universitario
 
-### Inglés
+| Descripción                                                                                                                                          | Autor              | Enlace                                               | Idioma |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------------------------------------------------|--------|
+| Cursos del MIT desde cursos introductorios hasta avanzados                                                                                           | MIT                | [Enlace](https://www.youtube.com/user/MIT)           | Ingles |
+| Física (desde Física General hasta relatividad y mecánica cuántica), Astronomía, química, matemática (desde álgebra hasta Cálculo III) e ingeniería. | Michael Van Biezen | [Enlace](https://www.youtube.com/c/MichelvanBiezen/) | Ingles |
+|                                                                                                                                                      | YALE               | [Enlace](https://www.youtube.com/user/YaleCourses/)  | Ingles |
+| Medio pesadito, pero tiene temas avanzados o específicos.                                                                                            | Nptel              | [Enlace](https://www.youtube.com/c/iit/playlists)    | Ingles |
 
-- [MIT OpenCourseWare](https://www.youtube.com/user/MIT)
-- [Michel van Biezen](https://www.youtube.com/c/MichelvanBiezen/): Física (desde Física General hasta relatividad y mecánica cuántica), Astronomía, química, matemática (desde álgebra hasta Cálculo III) e ingeniería.
-- [YaleCourses](https://www.youtube.com/user/YaleCourses/)
-- [nptelhrd](https://www.youtube.com/c/iit/playlists): Medio pesadito, pero tiene temas avanzados o específicos.
+
 
 ## Matemática
 
