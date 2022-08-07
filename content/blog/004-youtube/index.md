@@ -30,26 +30,24 @@ weight: "40"
 
 ## Matemática
 
-### Inglés
+| Descripción                                                                                                                                                                                                                     | Autor                      | Enlace                                                                       | Idioma  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|------------------------------------------------------------------------------|---------|
+| Cálculo I, II y quizá III.                                                                                                                                                                                                      | Blackpenredpen             | [Enlace](https://www.youtube.com/user/blackpenredpen)                        | Ingles  |
+| Precálculo (álgebra, trigonometría), Cálculo I, II, III, ecuaciones diferenciales, estadística.                                                                                                                                 | Professor Leonard          | [Enlace](https://www.youtube.com/user/professorleonard57)                    | Ingles  |
+|                                                                                                                                                                                                                                 | Aleph 0                    | [Enlace](https://www.youtube.com/c/Aleph0/)                                  | Ingles  |
+|                                                                                                                                                                                                                                 | 3blue1brown                | [Enlace](https://www.youtube.com/c/3blue1brown/)                             | Ingles  |
+| Cálculo I, II, III.                                                                                                                                                                                                             | Dr Peyam                   | [Enlace](https://www.youtube.com/c/DrPeyam)                                  | Ingles  |
+| Álgebra, Álgebra Lineal, Precálculo, Cálculo I, II, III, Topología.                                                                                                                                                             | Linda Green                | [Enlace](https://www.youtube.com/channel/UCkyLJh6hQS1TlhUZxOMjTFw/)          | Ingles  |
+| Análisis real, álgebra abstracta, ecuaciones diferenciales, álgebra lineal, cálculo multivariable, uso de Mathematica.                                                                                                          | Bill Kinney                | [Enlace](https://www.youtube.com/c/billkinneymath/)                          | Ingles  |
+| Teoría de grupos, transformada de Laplace, aritmética modula, relatividad especial, ecuaciones diferenciales, cálculo y álgebra lineal.                                                                                         | Mu Prime Math              | [Enlace](https://www.youtube.com/c/MuPrimeMath/)                             | Ingles  |
+|                                                                                                                                                                                                                                 | 1a con Berni               | [Enlace](https://www.youtube.com/c/1aconBerni)                               | Español |
+| Aritmética, Álgebra elemental, geometría analítica, Cálculo I.                                                                                                                                                                  | El traductor de ingeniería | [Enlace](https://www.youtube.com/c/ElTraductordeIngenier%C3%ADa/)            | Español |
+| Matemática Básica, Álgebra Lineal, Ecuaciones diferenciales parciales y ordinarias, análisis vectorial, teoría de grupos, espacios topológicos, cálculo tensorial.                                                              | DalpMaths                  | [Enlace](https://www.youtube.com/c/DalpMaths/playlists)                      | Español |
+| Números imaginarios.                                                                                                                                                                                                            | Welch Labs                 | [Enlace](https://www.youtube.com/c/WelchLabsVideo/)                          | Español |
+| Problemas resueltos de álgebra y ecuaciones diferenciales. Tómalo a modo de introducción.                                                                                                                                       | CalcuCM                    | [Enlace](https://www.youtube.com/channel/UCFTxCvN0ck8Yy-2X1ioRKzA/playlists) | Español |
+| Álgebra I (vectorial, polinomios, complejos), Análisis Matemático (series ,cálculo integral, métodos de integración, polinomio de Taylor, derivada, límites y continuidad, funciones, sucesiones, números reales e intervalos). | Mate & CBC                 | [Enlace](https://www.youtube.com/channel/UCwqteIzpGiy1dytN7NJzmUg/)          | Español |
+| Álgebra Lineal, Cálculo tensorial, análisis real, fourier, variable compleja, cálculo vectorial y multivariado, ecuaciones diferenciales.                                                                                       | Math Rocks                 | [Enlace](https://www.youtube.com/c/MathRocks/)                               | Español |
 
-- [blackpenredpen](https://www.youtube.com/user/blackpenredpen): Cálculo I, II y quizá III.
-- [Professor Leonard](https://www.youtube.com/user/professorleonard57):  Precálculo (álgebra, trigonometría), Cálculo I, II, III, ecuaciones diferenciales, estadística.
-- [Aleph 0](https://www.youtube.com/c/Aleph0/)
-- [3b1b](https://www.youtube.com/c/3blue1brown/)
-- [Dr Peyam Show](https://www.youtube.com/c/DrPeyam/about): Cálculo I, II, III.
-- [Linda Green](https://www.youtube.com/channel/UCkyLJh6hQS1TlhUZxOMjTFw/): Álgebra, Álgebra Lineal, Precálculo, Cálculo I, II, III, Topología.
-- [Bill Kinney](https://www.youtube.com/c/billkinneymath/): Análisis real, álgebra abstracta, ecuaciones diferenciales, álgebra lineal, cálculo multivariable, uso de Mathematica.
-- [Mu Prime Math](https://www.youtube.com/c/MuPrimeMath/): Teoría de grupos, transformada de Laplace, aritmética modula, relatividad especial, ecuaciones diferenciales, cálculo y álgebra lineal.
-
-### Español
-
-- [1a con Berni](https://www.youtube.com/c/1aconBerni)
-- [El traductor de ingeniería](https://www.youtube.com/c/ElTraductordeIngenier%C3%ADa/): Aritmética, Álgebra elemental, geometría analítica, Cálculo I.
-- [DalpMaths](https://www.youtube.com/c/DalpMaths/playlists): Matemática Básica, Álgebra Lineal, Ecuaciones diferenciales parciales y ordinarias, análisis vectorial, teoría de grupos, espacios topológicos, cálculo tensorial.
-- [Welch Labs](https://www.youtube.com/c/WelchLabsVideo/): Números imaginarios.
-- [CalcuCM](https://www.youtube.com/channel/UCFTxCvN0ck8Yy-2X1ioRKzA/playlists): Problemas resueltos de álgebra y ecuaciones diferenciales. Tómalo a modo de introducción.
-- [Mate & CBC](https://www.youtube.com/channel/UCwqteIzpGiy1dytN7NJzmUg/): Álgebra I (vectorial, polinomios, complejos), Análisis Matemático (series ,cálculo integral, métodos de integración, polinomio de Taylor, derivada, límites y continuidad, funciones, sucesiones, números reales e intervalos).
-- [Math Rocks](https://www.youtube.com/c/MathRocks/): Álgebra Lineal, Cálculo tensorial, análisis real, fourier, variable compleja, cálculo vectorial y multivariado, ecuaciones diferenciales.
 
 ## Física
 
