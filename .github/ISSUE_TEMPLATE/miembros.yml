@@ -1,0 +1,33 @@
+name: Guías y Cursos
+description: Sugiera una idea para el proyecto
+title: "[📚]: "
+labels: ["content"]
+body:
+  - type: input
+    id: Curso
+    attributes:
+      label: Curso
+      description: Escriba el nombre del curso
+      placeholder: |
+        Ejemplo: "Álgebra Lineal"
+    validations:
+      required: true
+  - type: input
+    id: Código
+    attributes:
+      label: Código
+      description: Escriba el código del curso
+      placeholder: |
+        Ejemplo: "CFO304"
+    validations:
+      required: true
+  - type: checkboxes
+    id: Autor
+    attributes:
+      label: Autor
+      description: |
+        ¿Es usted miembro de CAE - Física? No es necesario marcar que sí para crear esta solicitud.
+      options:
+        - label: Sí
+        - label: No
+          required: true
