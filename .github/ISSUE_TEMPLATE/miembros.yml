@@ -30,4 +30,3 @@ body:
       options:
         - label: Confirmo
         - label: No soy miembro
-          required: true
