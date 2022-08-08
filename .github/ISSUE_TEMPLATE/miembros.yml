@@ -3,15 +3,12 @@ description: Sugiera una idea para el proyecto
 title: "[📚]: Semestre []"
 labels: ["content"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Recordar que para que esta guía sea marcada como completada tiene que tener la siguiente estructura:
   - type: checkboxes
     id: pasos
     attributes: 
       label: Pasos
       description: |
+        Recordar que para que esta guía sea marcada como completada tiene que tener la siguiente estructura:
       options:
         - label: Temas (detallar qué temas se desarrollan en el curso)
         - [ ] Libros (junto a comentarios de los motivos de la recomendación)
