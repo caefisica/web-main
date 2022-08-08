@@ -7,7 +7,13 @@ body:
     attributes:
       value: |
         Recordar que para que esta guía sea marcada como completada tiene que tener la siguiente estructura:
-        - [ ] Temas (detallar qué temas se desarrollan en el curso)
+  - type: checkboxes
+    id: pasos
+    attributes: 
+      label: Pasos
+      description: |
+      options:
+        - label: Temas (detallar qué temas se desarrollan en el curso)
         - [ ] Libros (junto a comentarios de los motivos de la recomendación)
           - Teóricos
           - Prácticos
@@ -31,12 +37,3 @@ body:
         Ejemplo: "CFO304"
     validations:
       required: true
-  - type: checkboxes
-    id: autor
-    attributes:
-      label: Autor
-      description: |
-        ¿Es usted miembro de CAE - Física? No es necesario marcar que sí para crear esta solicitud.
-      options:
-        - label: Confirmo
-        - label: No soy miembro
