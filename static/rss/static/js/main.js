@@ -45,10 +45,9 @@
           { name: "CONCYTEC", url: "https://www.gob.pe/busquedas.rss?contenido[]=noticias&institucion[]=concytec&sheet=1&sort_by=recent&term=Consejo%20Nacional%20de%20Ciencia%2C%20Tecnolog%C3%ADa%20e%20Innovaci%C3%B3n%20Tecnol%C3%B3gica"},
           { name: "Becas | OGCRI", url: "https://cooperacion-unmsm.blogspot.com/feeds/posts/default?alt=rss"},
           { name: "Becas | PRONABEC", url: "https://www.gob.pe/busquedas.rss?categoria[]=10-educacion&contenido[]=noticias&institucion[]=pronabec&sheet=1&sort_by=recent&term=continuidad&tipo_noticia[]=1-nota-de-prensa"},
-          { name: "Noticias | El País", url: "https://feeds.elpais.com/mrss-s/list/ep/site/elpais.com/section/ciencia"},
           { name: "Noticias | Fermilab", url: "https://news.fnal.gov/tag/physics/feed/"},
-          { name: "Organización | Clubes de Ciencia Perú", url: "https://bibliogram.pussthecat.org/u/clubesdecienciaperu/rss.xml"},
-          { name: "Revista | Physical Review Letters", url: "http://feeds.aps.org/rss/recent/prcprdselections.xml"},
+          // { name: "Organización | Clubes de Ciencia Perú", url: "https://bibliogram.pussthecat.org/u/clubesdecienciaperu/rss.xml"},
+          { name: "Revista | Physical Review Letters", url: "http://feeds.aps.org/rss/prcsuggestions.xml"},
         ],
         C = a(169),
         D = O.object({
