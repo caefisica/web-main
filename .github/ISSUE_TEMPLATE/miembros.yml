@@ -1,6 +1,6 @@
 name: Guias y cursos
 description: Sugiera una idea para el proyecto
-title: "[📚]: "
+title: "[📚]: Semestre []"
 labels: ["content"]
 body:
   - type: input
