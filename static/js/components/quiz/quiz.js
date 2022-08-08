@@ -1,1 +1,0 @@
-quizdown.register(quizdownHighlight).register(quizdownKatex).init()

@@ -15,6 +15,3 @@
 {{ if .Params.math }}
 {{ partial "head/katex.html" . }}
 {{ end }}
-{{ if or .Params.quiz .Site.Params.quiz }}
-{{ partial "head/quiz.html" . }}
-{{ end }}
