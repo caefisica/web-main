@@ -28,6 +28,7 @@ body:
       description: |
         ¿Es usted miembro de CAE - Física? No es necesario marcar que sí para crear esta solicitud.
       options:
-        - label: Sí
-        - label: No
-          required: true
+        - Sí
+        - No
+    validations:
+      required: true
