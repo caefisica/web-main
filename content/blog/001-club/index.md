@@ -9,6 +9,7 @@ thumbnail: "https://i.imgur.com/GNvaW6k.png"
 contributors: ["David"]
 author_id: "david"
 tags: ["evento"]
+draft: true
 toc: false
 weight: 10
 ---
@@ -24,8 +25,6 @@ El siete de febrero (este lunes) comienzan una serie de reuniones semanales para
 #### Semana 1
 
 9 de febrero
-
-{{< embed-pdf url="/cergio.pdf" >}}
 
 #### Semana 2
 
