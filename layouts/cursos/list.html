@@ -34,7 +34,7 @@
         <div class="col">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title mt-2"><a class="card-link stretched-link text-dark text-decoration-none" href="{{ .RelPermalink }}" target="_blank">{{ .Params.title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</a></h5>
+              <h5 class="card-title mt-2"><a class="card-link stretched-link text-dark text-decoration-none" href="{{ .RelPermalink }}">{{ .Params.title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</a></h5>
               <p class="card-text mb-2">{{ .Params.lead | safeHTML }}</p>
               <p class="card-text mt-2">
                 <small>
