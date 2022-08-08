@@ -10,12 +10,11 @@ body:
       description: |
         Recordar que para que esta guía sea marcada como completada tiene que tener la siguiente estructura:
       options:
-        - label: Temas (detallar qué temas se desarrollan en el curso)
-        - [ ] Libros (junto a comentarios de los motivos de la recomendación)
-          - Teóricos
-          - Prácticos
-        - [ ] Videos (por ejemplo, puede incluir canales de Youtube)
-        - [ ] Sílabo
+        - label: Temas, detallar qué temas se desarrollan en el curso
+        - label: Libros teóricos, junto a comentarios de los motivos de la recomendación
+        - label: Libros prácticos, junto a comentarios de los motivos de la recomendación
+        - label: Videos, por ejemplo, puede incluir canales de Youtube
+        - label: Sílabo
   - type: input
     id: curso
     attributes:
