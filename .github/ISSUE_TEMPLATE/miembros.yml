@@ -3,6 +3,16 @@ description: Sugiera una idea para el proyecto
 title: "[📚]: Semestre []"
 labels: ["content"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Recordar que para que esta guía sea marcada como completada tiene que tener la siguiente estructura:
+        - [ ] Temas (detallar qué temas se desarrollan en el curso)
+        - [ ] Libros (junto a comentarios de los motivos de la recomendación)
+          - Teóricos
+          - Prácticos
+        - [ ] Videos (por ejemplo, puede incluir canales de Youtube)
+        - [ ] Sílabo
   - type: input
     id: curso
     attributes:
