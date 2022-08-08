@@ -1,10 +1,10 @@
-name: Guías y Cursos
+name: Guias y cursos
 description: Sugiera una idea para el proyecto
 title: "[📚]: "
 labels: ["content"]
 body:
   - type: input
-    id: Curso
+    id: curso
     attributes:
       label: Curso
       description: Escriba el nombre del curso
@@ -13,7 +13,7 @@ body:
     validations:
       required: true
   - type: input
-    id: Código
+    id: codigo
     attributes:
       label: Código
       description: Escriba el código del curso
@@ -22,7 +22,7 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: Autor
+    id: autor
     attributes:
       label: Autor
       description: |
