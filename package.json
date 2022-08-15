@@ -50,7 +50,7 @@
     "hugo-installer": "^3.1",
     "instant.page": "^5.1",
     "lazysizes": "^5.3",
-    "markdownlint-cli2": "^0.5.0",
+    "markdownlint-cli2": "^0.5.1",
     "netlify-plugin-cloudinary": "^1.0.3",
     "node-fetch": "^3.2",
     "plausible-tracker": "^0.3",
