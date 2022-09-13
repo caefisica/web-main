@@ -2,6 +2,7 @@
 
 ## Homepage
 title = "CAE"
+subtitle = "Física"
 titleSeparator = "-"
 titleAddition = "Centro de Apoyo al Estudiante de Física"
 description = "Facilitando recursos para el estudio de la física."
@@ -72,7 +73,7 @@ alertText = "Las inscripciones para los minicursos se han abierto, haga clic en 
 
 # Edit Page
 repoHost = "GitHub"
-docsRepo = "https://github.com/caefis/web"
+docsRepo = "https://github.com/caefisica/web"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = true
