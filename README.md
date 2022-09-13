@@ -11,6 +11,15 @@
 
 ---
 
+### Estilos 
+
+1. Azul: 0F9BF6 a 1823AB
+2. Morado: 5D46B4 a 5D2F86
+3. Negro: 212529
+4. Opacidad 15%
+
+---
+
 <h3 align="center"><em>Requisitos:</em></h3> 
 
 > El autor usa Windows 11 (64 bits). Los pasos pueden variar un poco si usas un SO basado en Linux por ejemplo. Adicionalmente, te recomendaría usar las variantes para x64 al escoger los instaladores.
