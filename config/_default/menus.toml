@@ -82,17 +82,17 @@
 
 [[footer]]
   name = "Nosotros"
-  url = "/nosotros"
+  url = "/es/nosotros"
   weight = 10
 
 [[footer]]
   name = "Boletín"
-  url = "/newsletter"
+  url = "/es/newsletter"
   weight = 20
 
 [[footer]]
   name = "Privacidad"
-  url = "/privacidad"
+  url = "/es/privacidad"
   weight = 30
 
 [[experimental]]
@@ -103,5 +103,5 @@
 
 [[tertiary]]
   name = "Envía un artículo o página web"
-  url = "https://github.com/caefis/discusion/labels/página"
+  url = "https://github.com/caefisica/discusion/labels/página"
   weight = 10

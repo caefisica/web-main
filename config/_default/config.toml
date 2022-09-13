@@ -11,6 +11,7 @@ rssLimit = 10
 disablePathToLower = false
 disqusShortname = "caefis"
 DefaultContentLanguage = "es"
+defaultContentLanguageInSubdir = true
 
 # add redirects/headers
 [outputs]
@@ -76,3 +77,13 @@ rel  = "sitemap"
     keepVarNames = true
     noNullishOperator = false
     precision = 0
+
+[languages]
+  [languages.es]
+    title = "CAE"
+    languageName = "Español"
+    weight = 1
+  [languages.en]
+    title = "CAE"
+    languageName = "English"
+    weight = 2
