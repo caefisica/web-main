@@ -88,8 +88,8 @@ lastMod = true
   breadCrumb = false
   highLight = true
   kaTex = true
-  multilingualMode = false #
-  docsVersioning = false #
+  multilingualMode = true #
+  docsVersioning = true #
 
 [menu]
   [menu.section]
