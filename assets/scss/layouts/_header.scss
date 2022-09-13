@@ -111,7 +111,7 @@ button#doks-versions {
 
 .header-bar {
   border-top: 4px solid;
-  border-image-source: linear-gradient(90deg, #567cdc, #4554ca 50%, #145fd1);
+  border-image-source: linear-gradient(90deg, #0045c3, #0063d7, #007fe8, #0f9bf6);
   border-image-slice: 1;
 }
 
@@ -121,7 +121,6 @@ button#doks-versions {
 
 .home .navbar {
   border-bottom: 0;
-  max-height: 4.313rem;
 }
 
 @include media-breakpoint-up(md) {
@@ -168,6 +167,9 @@ button#doks-versions {
   padding-left: 0.3125rem;
   font-size: $font-size-base * 0.75;
   color: $gray-700;
+  content: "Ctrl + /";
+  border: 1px solid $gray-300;
+  border-radius: 0.25rem;
 }
 
 /*! purgecss start ignore */
@@ -345,18 +347,5 @@ button#doks-versions {
 @include media-breakpoint-up(md) {
   #search-placeholder .placeholder {
     width: 7.875rem;
-  }
-}
-
-.social-link {
-  padding-left: 0.5rem;
-
-  @include media-breakpoint-up(md) {
-    padding-left: 0;
-  }
-
-  @include media-breakpoint-up(lg) {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
   }
 }
