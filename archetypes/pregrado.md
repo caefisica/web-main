@@ -1,14 +1,26 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-description: ""
 lead: ""
-date: {{ .Date }}
-lastmod: {{ .Date }}
+description: ""
+id: ""
+credits:
+prerrequisites: [""]
+semester:
+contributors: ["David"]
+featured: false
+pdf: false
+math: false
 draft: true
-images: []
-menu:
-  pregrado:
-    parent: ""
 weight: 999
 toc: true
+images: []
+date: {{ .Date }}
+lastmod:
+  - :git
+  - lastmod
+  - date
+  - publishDate
+menu:
+  guias:
+    parent: "pregrado"
 ---
