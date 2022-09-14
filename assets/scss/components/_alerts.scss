@@ -9,7 +9,7 @@
 
 .cursos main .alert,
 .guias main .alert {
-  margin: 2rem -2.5rem;
+  margin: 2rem -1.5rem;
 }
 
 .alert .alert-link {
@@ -23,16 +23,6 @@
 
 .alert-dark .alert-link {
   color: $white;
-}
-
-.alert-info {
-  color: #055160;
-  background-color: #cff4fc;
-  border-color: #b6effb;
-}
-
-.alert-info .alert-link {
-  color: #04414d;
 }
 
 .alert-light {
@@ -75,11 +65,15 @@
 
 .alert-dismissible .btn-close {
   position: absolute;
+
+  /*
   top: 50%;
   transform: translateY(-50%);
+  */
+  top: 0.75rem;
   right: 1rem;
   z-index: 2;
-  padding: 0.5rem;
+  padding: 0.625rem;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-x'%3E%3Cline x1='18' y1='6' x2='6' y2='18'%3E%3C/line%3E%3Cline x1='6' y1='6' x2='18' y2='18'%3E%3C/line%3E%3C/svg%3E");
   background-size: 1.5rem;
   filter: invert(1) grayscale(100%) brightness(200%);
@@ -89,10 +83,6 @@
   .alert-dismissible .btn-close {
     background-size: 1.25rem;
   }
-}
-
-[data-global-alert="closed"] #announcement {
-  display: none;
 }
 
 .alert code {
