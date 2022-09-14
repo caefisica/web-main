@@ -11,6 +11,7 @@ lastmod:
   - publishDate
 draft: false
 weight: 10
+toc: false
 images: []
 pdf: true
 contributors: ["David"]
