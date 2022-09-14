@@ -1,0 +1,44 @@
+- id: título
+  translation: "Una guía para el estudio de las Ciencias Físicas"
+- id: cursos_mas_buscados
+  translation: "Cursos más buscados"
+- id: pie_de_pagina
+  translation: "Un proyecto del Centro de Apoyo al Estudiante de Física"
+
+# Secciones
+
+- id: biblioteca
+  translation: "Biblioteca"
+- id: biblioteca_descripcion
+  translation: "¡Tenemos múltiples bibliotecas! El contenido incluye sílabus, libros teórico-prácticos y grabaciones de clases pasadas."
+
+- id: guias
+  translation: "Guía de estudio"
+- id: guias_descripcion
+  translation: "¿No estás seguro de qué libro usar para estudiar un curso en particular? Aquí una lista, por curso, de libros recomendados."
+
+- id: articulos
+  translation: "Artículos"
+- id: articulos_descripcion
+  translation: "¿Andas aburrido y con ganas de leer? En esta sección encontrarás artículos sobre diversos temas (especialmente de Física)."
+
+- id: noticias
+  translation: "Noticias 📰"
+- id: noticias_descripcion
+  translation: "Es importante estar informado. En esta sección encontrarás información en tiempo real sobre becas, eventos próximos y mucho más."
+
+- id: minicursos
+  translation: "Minicursos de verano 🧑‍🏫"
+- id: minicursos_descripcion
+  translation: "Cursos y asesorías que te pueden servir durante tus estudios universitarios. Estos cursos son dictados por nuestros miembros."
+
+# Contribute
+
+- id: contribuir
+  translation: "¿Deseas participar?"
+- id: contribuir_descripcion
+  translation: "¿Eres de base mayor y cuentas con experiencia en el ámbito universitario? ¿Hay un buen libro que quieres recomendar? Puedes contactarnos sin compromiso."
+- id: boton
+  translation: "Quiero dar una recomendación"
+- id: contacto
+  translation: "Contáctanos"

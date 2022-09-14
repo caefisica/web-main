@@ -1,0 +1,107 @@
+[[guias]]
+  name = "Undergraduate"
+  weight = 10
+  identifier = "undergraduate"
+  url = "/en/guides/undergraduate/"
+
+[[guias]]
+  name = "Postgraduate"
+  weight = 20
+  identifier = "postgraduate"
+  url = "/en/guides/postgraduate/"
+
+[[cursos]]
+  name = "Courses"
+  weight = 10
+  identifier = "courses"
+  url = "/en/guides/courses/mathematics"
+
+[[main]]
+  name = "Library"
+  url = "/library/"
+  weight = 10
+
+[[main]]
+  name = "Academic"
+  url = "/en/undergraduate/"
+  weight = 20
+
+[[main]]
+  name = "Articles"
+  url = "/en/experimental/"
+  weight = 30
+  parent = "Resources"
+
+[[main]]
+  name = "News"
+  url = "/rss/"
+  weight = 40
+  parent = "Resources"
+
+[[main]]
+  name = "Blogs"
+  url = "/en/blog/"
+  weight = 50
+  parent = "Resources"
+
+[[main]]
+  name = "Guides"
+  weight = 10
+  url = "/en/guides/"
+  parent = "Academic"
+
+[[main]]
+  name = "Courses"
+  weight = 20
+  url = "/en/courses/"
+  parent = "Academic"
+
+[[main]]
+  name = "Faculty"
+  weight = 20
+  url = "/en/guides/faculty/directory/"
+  parent = "Academic"
+
+[[social]]
+  name = "Facebook"
+  pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"css-i6dzq1\"><path d=\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\"></path></svg>"
+  url = "https://www.facebook.com/caefisica"
+  weight = 10
+
+[[social]]
+  name = "Instagram"
+  pre = "<svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"css-i6dzq1\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"></rect><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"></path><line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"></line></svg>"
+  url = "https://www.instagram.com/caefisica/"
+  weight = 20
+
+#[[social]]
+#  name = "Telegram"
+#  pre = '<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram" class="svg-inline--fa fa-telegram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="22" height="22"><path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg>'
+#  url = "https://t.me/caefisica"
+#  weight = 50
+
+[[footer]]
+  name = "About Us"
+  url = "/en/we"
+  weight = 10
+
+[[footer]]
+  name = "Newsletter"
+  url = "/en/newsletter"
+  weight = 20
+
+[[footer]]
+  name = "Privacy"
+  url = "/en/privacy"
+  weight = 30
+
+[[experimental]]
+  name = "General"
+  weight = 10
+  identifier = "experimental"
+  url = "/experimental/"
+
+[[tertiary]]
+  name = "Submit an article or a website"
+  url = "https://github.com/caefisica/discusion/labels/página"
+  weight = 10
