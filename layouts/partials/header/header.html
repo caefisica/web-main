@@ -74,16 +74,28 @@
 
     {{ if eq .Site.Params.options.multilingualMode true -}}
     <div class="dropdown order-md-2">
-      <button class="btn btn-doks-light dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static" aria-label="Menú de selección de idioma">
-        <span class="d-none d-lg-inline"></span>Español
-      </button>
-      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="doks-languages">
-        <li><a class="dropdown-item current" aria-current="true" href="/es/">Español</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="/en/">Inglés</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="/contacto/">Ayúdanos a traducir</a></li>
-      </ul>
+    {{ if .IsTranslated }}
+    <button class="btn btn-doks-light dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static" aria-label="Menú de selección de idioma">
+    <span class="d-none d-lg-inline"></span>{{ if eq .Site.Language.Lang "en" }}English{{ else }}Español{{ end }}
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="doks-languages">
+    {{ range .Translations }}
+    {{ if eq .Site.Language.Lang "es" }}
+    <li><a class="dropdown-item" aria-current="true" href="{{ .RelPermalink }}">Spanish</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item current" href="/en/">English</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="/contacto/">Help us translate</a></li>
+    {{ else }}
+    <li><a class="dropdown-item current" href="/es/">Español</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="{{ .RelPermalink }}">Inglés</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="/contacto/">Ayúdanos a traducir</a></li>
+    {{end}}
+    {{ end }}
+    </ul>
+    {{ end }}
     </div>
     {{ end -}}
   </nav>
@@ -106,15 +118,15 @@
         <span class="d-none d-lg-inline">Versión</span> 0.9.1
       </button>
       <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="doks-versions">
-        <li><a class="dropdown-item current" aria-current="true" href="/docs/5.0/">Actual (0.9.1)</a></li>
+        <li><a class="dropdown-item current" aria-current="true" href="/">Actual (0.9.1)</a></li>
         <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="https://getbootstrap.com/docs/4.6/">0.9.2</a></li>
+        <li><a class="dropdown-item" href="/">0.9.2</a></li>
         <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="/docs/versions/">Todas las versiones</a></li>
+        <li><a class="dropdown-item" href="/i/">Todas las versiones</a></li>
       </ul>
     </div>
     {{ else -}}
-      <span class="navbar-text fs-6 d-none d-sm-block">v{{ $data := getJSON "https://raw.githubusercontent.com/h-enk/doks/master/package.json" }}{{ $data.version }}</span>
+      <span class="navbar-text fs-6 d-none d-sm-block">v{{ $data := getJSON "https://raw.githubusercontent.com/caefisica/web/master/package.json" }}{{ $data.version }}</span>
     {{ end -}}
 
     <button class="btn doks-sidebar-toggle d-lg-none ms-3 order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
