@@ -1,0 +1,44 @@
+- id: título
+  translation: "A Guide to the Study of Physical Sciences"
+- id: cursos_mas_buscados
+  translation: "Most Popular Courses"
+- id: pie_de_pagina
+  translation: "A project by Centro de Apoyo al Estudiante de Física"
+
+# Secciones
+
+- id: biblioteca
+  translation: "Library"
+- id: biblioteca_descripcion
+  translation: "We have multiple libraries! The content includes syllabus, theoretical and practical books and recordings of past lectures."
+
+- id: guias
+  translation: "Study Guides"
+- id: guias_descripcion
+  translation: "Not sure which book to use to study for a particular class? Here is a list, by course, of recommended books."
+
+- id: articulos
+  translation: "Articles"
+- id: articulos_descripcion
+  translation: "Are you bored and feel like reading? In this section you will be able to find articles on various scientific topics (especially physics)."
+
+- id: noticias
+  translation: "News 📰"
+- id: noticias_descripcion
+  translation: "It is important to be informed. In this section you will find real-time information about scholarships, upcoming events and much more."
+
+- id: minicursos
+  translation: "Summer Mini-Courses 🧑‍🏫"
+- id: minicursos_descripcion
+  translation: "Courses and guidance that can help you during your undergraduate studies. These courses are taught by our members."
+
+# Contribute
+
+- id: contribuir
+  translation: "Would you like to take part?"
+- id: contribuir_descripcion
+  translation: "Are you a student with experience in the university environment? Is there a good book you would like to recommend? You can contact us without any strings attached."
+- id: boton
+  translation: "I'd like to give a recommendation"
+- id: contacto
+  translation: "Contact us"

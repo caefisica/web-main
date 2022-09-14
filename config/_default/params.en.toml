@@ -2,14 +2,14 @@
 
 ## Homepage
 title = "CAE"
-subtitle = "Física"
+subtitle = "Physics"
 titleSeparator = "-"
 titleAddition = "Centro de Apoyo al Estudiante de Física"
-description = "Facilitando recursos para el estudio de la física."
+description = "Providing resources for the study of Physical Sciences."
 
 ## Open Graph
 images = ["cae.png"]
-ogLocale = "es_ES"
+ogLocale = "en_US"
 domainTLD = "caefis.netlify.app"
 titleHome = "Centro de Apoyo al Estudiante de Física"
 
@@ -25,7 +25,7 @@ schemaAuthor = "David"
 schemaAuthorTwitter = "https://twitter.com/totallynotdavid"
 schemaAuthorLinkedIn = ""
 schemaAuthorGitHub = "https://github.com/totallynotdavid"
-schemaLocale = "es"
+schemaLocale = "en"
 schemaLogo = "logo-cae.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
@@ -59,7 +59,7 @@ singleSize = false
 imageAddClass = "img-fluid lazyload blur-up"
 
 # Footer
-footer = "Un proyecto del Centro de Apoyo al Estudiante de Física"
+footer = "A project by Centro de Apoyo al Estudiante de Física"
 
 # Feed
 copyRight = "Copyright (c) 2022 — CAE Física"
@@ -95,4 +95,4 @@ lastMod = true
   [menu.section]
     auto = true
     collapsibleSidebar = true
-    mainSections = ["Guias", "Cursos", "Biblioteca", "Experimental", "RSS", "Blog"]
+    mainSections = ["Guides", "Courses", "Library", "Experimental", "RSS", "Blog"]
