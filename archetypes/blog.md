@@ -5,9 +5,13 @@ description: ""
 lead: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
-draft: true
-weight: 50
 images: []
-contributors: ["David"]
-tags: ["otros"]
+thumbnail: ""
+contributors: []
+author_id: ""
+tags: []
+toc: false
+weight: 50
+pinned: false
+draft: true
 ---
