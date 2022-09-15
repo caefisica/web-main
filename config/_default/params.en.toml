@@ -65,7 +65,7 @@ footer = "A project by CAE - Physics"
 copyRight = "Copyright (c) 2022 — CAE - Physics"
 
 # Alert
-alert = true
+alert = false
 alertDismissable = true
 # alertText = ""
 # alertText = ""
@@ -85,7 +85,7 @@ lastMod = true
   instantPage = true
   darkMode = true
   bootStrapJs = true
-  breadCrumb = false
+  breadCrumb = true
   highLight = true
   kaTex = true
   multilingualMode = true #
