@@ -34,6 +34,11 @@
 - id: minicursos_descripcion
   translation: "Cursos y asesorías que te pueden servir durante tus estudios universitarios. Estos cursos son dictados por nuestros miembros."
 
+# Equipo
+
+- id: equipo
+  translation: "Nuestro equipo"
+
 # Contribute
 
 - id: contribuir
@@ -44,3 +49,18 @@
   translation: "Quiero dar una recomendación"
 - id: contacto
   translation: "Contáctanos"
+
+# Boletín
+
+- id: boletin_titulo
+  translation: "👋 ¿Quieres estar al día?"
+- id: boletin_descripcion
+  translation: "Como diría la tía Marta: \"Pegale una suscribida al canal y andá a contarle a tus amigas y amigos, punto\"."
+- id: boletin_boton
+  translation: "Suscríbete"
+- id: boletin_email
+  translation: "tu@correo.com"
+- id: boletin_nombre_label
+  translation: "Nombre"
+- id: boletin_correo_label
+  translation: "Correo electrónico"

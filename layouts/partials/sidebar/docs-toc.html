@@ -1,4 +1,4 @@
 <div class="page-links">
-  <h2 class="h3">Contenido</h2>
+  <h2 class="h3">{{ if eq .Site.Language.Lang "es" }}Contenido{{ else }}Content{{ end }}</h2>
   {{ .TableOfContents }}
 </div>

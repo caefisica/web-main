@@ -11,7 +11,7 @@
         <form class="search-wrapper home-search" action="{{ `search` | relLangURL }}">
           <div id="docsearch"></div>
         </form>
-        <p class="meta mt-3">{{ i18n "pie_de_pagina" }}</a></p>
+        <p class="meta mt-3">{{ i18n "pie_de_pagina" }} {{ .Site.Params.titleAddition }}</a></p>
       </div>
       <div class="col-lg-7 galnew">
         {{ with .Site.Data.fixes.frontpage }}
@@ -114,7 +114,11 @@
   </div>
 </section>
 
+{{ if eq .Site.Language.Lang "es" }}
 {{ partial "components/miembros.html" . -}}
+{{ else }}
+{{ partial "components/miembros.en.html" . -}}
+{{ end }}
 
 <section class="section section-sm mt-3 mb-3">
   <div class="container">

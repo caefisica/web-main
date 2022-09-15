@@ -5,7 +5,7 @@
 - id: cursos_mas_buscados
   translation: "Most Popular Courses"
 - id: pie_de_pagina
-  translation: "A project by Centro de Apoyo al Estudiante de Física"
+  translation: "A project by"
 
 # Secciones
 
@@ -34,6 +34,11 @@
 - id: minicursos_descripcion
   translation: "Courses and guidance that can help you during your undergraduate studies. These courses are taught by our members."
 
+# Equipo
+
+- id: equipo
+  translation: "Our Amazing Team"
+
 # Contribute
 
 - id: contribuir
@@ -44,3 +49,18 @@
   translation: "I'd like to give a recommendation"
 - id: contacto
   translation: "Contact us"
+
+# Boletín
+
+- id: boletin_titulo
+  translation: "👋 Want to be updated?"
+- id: boletin_descripcion
+  translation: "As Aunt Marta would say: \"Subscribe to the channel and go and tell your friends about it, point\"."
+- id: boletin_boton
+  translation: "Subscribe"
+- id: boletin_email
+  translation: "your@email.com"
+- id: boletin_nombre_label
+  translation: "Name"
+- id: boletin_correo_label
+  translation: "Email"
