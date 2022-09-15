@@ -2,16 +2,16 @@
     <div class="card-bar"></div>
     <div class="card-body">
 
-      <h3 class="h4 card-title">¿Quieres estar al día?</h3>
-      <p class="card-text">Como diría la tía Marta: "Pegale una suscribida al canal y andá a contarle a tus amigas y amigos, punto".</p>
+      <h3 class="h4 card-title">{{ i18n "boletin_titulo" }}</h3>
+      <p class="card-text">{{ i18n "boletin_descripcion" }}</p>
       <form class="row gx-2 gy-3 email-form" name="newsletter" method="post" netlify-honeypot="name" data-netlify="true" onsubmit="subscribeButton.disabled = true">
         <div class="col-md-12">
-          <input name="name" type="text" class="form-control visually-hidden" placeholder="your name" aria-label="Name">
-          <input name="email" type="email" class="form-control" placeholder="tu@correo.com" aria-label="Correo electrónico" required>
+          <input name="name" type="text" class="form-control visually-hidden" placeholder="your name" aria-label="{{ i18n "boletin_nombre_label" }}">
+          <input name="email" type="email" class="form-control" placeholder="{{ i18n "boletin_email" }}" aria-label="{{ i18n "boletin_correo_label" }}" required>
           <input name="page" type="hidden" value="{{ .Page.Permalink }}">
         </div>
         <div class="col-md-4">
-          <button id="subscribeButton" type="submit" class="btn btn-primary w-100" aria-label="Subscribe">Suscríbete</button>
+          <button id="subscribeButton" type="submit" class="btn btn-primary w-100" aria-label="{{ i18n "boletin_boton" }}">{{ i18n "boletin_boton" }}</button>
         </div>
       </form>
 

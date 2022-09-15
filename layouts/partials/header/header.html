@@ -115,14 +115,14 @@
     {{ if eq .Site.Params.options.docsVersioning true -}}
     <div class="dropdown ms-3">
       <button class="btn btn-doks-light dropdown-toggle" id="doks-versions" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static" aria-label="Toggle version menu">
-        <span class="d-none d-lg-inline">Versión</span> 0.9.1
+        <span class="d-none d-lg-inline">{{ if eq .Site.Language.Lang "es" }}Versión{{ else }}Version{{ end }}</span> 0.9.1
       </button>
       <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="doks-versions">
-        <li><a class="dropdown-item current" aria-current="true" href="/">Actual (0.9.1)</a></li>
+        <li><a class="dropdown-item current" aria-current="true" href="/">0.9.1 (actual)</a></li>
         <li><hr class="dropdown-divider"></li>
         <li><a class="dropdown-item" href="/">0.9.2</a></li>
         <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="/i/">Todas las versiones</a></li>
+        <li><a class="dropdown-item" href="/i/">{{ if eq .Site.Language.Lang "es" }}Todas las versiones{{ else }}All versions{{ end }}</a></li>
       </ul>
     </div>
     {{ else -}}
