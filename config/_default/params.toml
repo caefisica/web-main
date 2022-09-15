@@ -69,7 +69,7 @@ alert = true
 alertDismissable = true
 # alertText = ""
 # alertText = ""
-alertText = "Oficialmente abrimos la convocatoria para miembros y colaboradores 🥳, haga clic <a class=\"fw-bold text-light bg-dark\" href=\"https://forms.gle/qSpKejd8iXityDB68s\">aquí</a> para registrarse."
+alertText = "Oficialmente abrimos la convocatoria para miembros y colaboradores 🥳, haga clic <a class=\"text-light\" href=\"https://forms.gle/qSpKejd8iXityDB68s\">aquí</a> para registrarse."
 
 # Edit Page
 repoHost = "GitHub"
