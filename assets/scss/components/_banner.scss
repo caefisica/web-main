@@ -4,6 +4,14 @@
   }
 }
 
+.subtitle-brand {
+  color: #145fd1;
+}
+
+[data-dark-mode] .subtitle-brand {
+  color: #0F9BF6;
+}
+
 .single.home {
   .arriba {
     padding-top: 4em;
