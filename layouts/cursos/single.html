@@ -11,11 +11,12 @@
 		</nav>
 		{{ end -}}
 		{{ if .Params.toc -}}
-		<main class="docs-content col-lg-11 col-xl-9 ms-md-3 me-md-3">
+		<main class="docs-content col-lg-11 col-xl-9">
 		{{ else -}}
-		<main class="docs-content col-lg-11 col-xl-9 ms-md-3 me-md-3">
+		<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
 		{{ end -}}
 		{{ if .Site.Params.options.breadCrumb -}}
+			<!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
 					{{ partial "main/breadcrumb" . -}}
@@ -23,30 +24,31 @@
 				</ol>
 			</nav>
 			{{ end }}
-			<h1>{{ .Title }}</h1>
+			<h1>{{ .Title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</h1>
 			<p class="lead">{{ .Params.lead | safeHTML }}</p>
+      {{ if ne .Params.toc false -}}
 			{{ partial "main/blog-meta.html" . }}
-			{{ if ne .Params.toc false -}}
 			<nav class="d-xl-none" aria-label="Quaternary navigation">
 				{{ partial "sidebar/docs-toc.html" . }}
 			</nav>
 			{{ end -}}
 			{{ partial "main/headline-hash.html" .Content }}
-			{{ if .Site.Params.editPage -}}
-				{{ partial "main/edit-page.html" . }}
-			{{ end -}}
-			{{ partial "main/docs-navigation.html" . }}
-			</br>
-			<div>
-				{{ partial "components/comments.html" . }}
-			</div>
-			<!--
-			{{ if not .Site.Params.options.collapsibleSidebar -}}
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between"></div>
+        <div class="metadata-article">
+  				{{ if .Site.Params.lastMod -}}
+  					{{ partial "main/last-modified.html" . }}
+  				{{ end -}}
+  				{{ if .Site.Params.editPage -}}
+  					{{ partial "main/edit-page.html" . }}
+  				{{ end -}}
+        </div>
 				{{ partial "main/docs-navigation.html" . }}
-			{{ else -}}
-				<div class="my-n3"></div>
-			{{ end -}}
-			-->
+				</br>
+				<div>
+					{{ partial "components/comments.html" . }}
+				</div>
+			</div>
+		</main>
 		</main>
 	</div>
 {{ end }}
