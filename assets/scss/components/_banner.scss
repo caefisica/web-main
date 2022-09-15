@@ -4,14 +4,6 @@
   }
 }
 
-.subtitle-brand {
-  color: #145fd1;
-}
-
-[data-dark-mode] .subtitle-brand {
-  color: #0F9BF6;
-}
-
 .single.home {
   .arriba {
     padding-top: 4em;
@@ -213,12 +205,12 @@
           transition: all 0.3s ease;
 
           path {
-            fill: #0F9BF6;
+            fill: #0f9bf6;
           }
         }
 
         &:hover {
-          background-color: #0F9BF6;
+          background-color: #0f9bf6;
 
           svg {
             path {
