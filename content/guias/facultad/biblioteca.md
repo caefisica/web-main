@@ -21,7 +21,7 @@ menu:
     parent: "pregrado"
 ---
 
-| FECHA | BIB. FÍSICA |
+| Fecha | Horario |
 | ----- | ----------- |
 | 22/08/22 | 9:00am - 11:45am |
 | 23/08/22 | 9:00am - 11:45am |
