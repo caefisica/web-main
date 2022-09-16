@@ -12,7 +12,7 @@ toc: false
 contributors: ["David"]
 ---
 
-{{< alert icon="🚨" text="Este es un curso a cargo de la Facultad de Ciencias Físicas (FCF)." />}}
+{{< alert icon="🚨" text="Este semestre está a cargo de la Facultad de Ciencias Físicas (FCF)." />}}
 
 ### Plan de Estudios 2018
 
