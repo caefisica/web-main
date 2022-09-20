@@ -35,7 +35,7 @@
 
   [plugins.inputs]
   branches = ['master']
-  disabled = true
+  disabled = false
   renderJavaScript = false
 
 [dev]
