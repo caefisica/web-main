@@ -28,6 +28,9 @@
 			<p class="lead">{{ .Params.lead | safeHTML }}</p>
       {{ if ne .Params.toc false -}}
 			{{ partial "main/blog-meta.html" . }}
+      {{ partial "box.html" . }}
+			{{ end -}}
+      {{ if ne .Params.toc false -}}
 			<nav class="d-xl-none" aria-label="Quaternary navigation">
 				{{ partial "sidebar/docs-toc.html" . }}
 			</nav>
@@ -43,8 +46,7 @@
   				{{ end -}}
         </div>
 				{{ partial "main/docs-navigation.html" . }}
-				</br>
-				<div>
+				<div class="mt-2">
 					{{ partial "components/comments.html" . }}
 				</div>
 			</div>
