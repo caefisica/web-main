@@ -36,3 +36,16 @@
 [data-dark-mode] .subtitle-brand {
   color: #0f9bf6;
 }
+
+.description_box p {
+  margin-bottom: 0.1rem;
+}
+.description_border {
+  border-top:    1px dashed $gray-200;
+  border-bottom: 1px dashed $gray-200;
+}
+
+[data-dark-mode] .description_border {
+  border-top:    1px dashed $border-dark;
+  border-bottom: 1px dashed $border-dark;
+}
