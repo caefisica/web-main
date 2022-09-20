@@ -27,7 +27,7 @@ menu:
 |Decanato                                                  |Secretaria            |Rocío Ballón Carbajo          |3801 |decano.fisica@unmsm.edu.pe<br>rballonc@unmsm.edu.pe          |
 |Dirección Administrativa                                  |Director              |Fidel Fretel Martinez         |3803 |diradmin.fisica@unmsm.edu.pe<br>ffretelm\_af@unmsm.edu.pe    |
 |Dirección Administrativa                                  |Secretaria            |Maryorie Vilchez Montoya      |3803 |diradmin.fisica@unmsm.edu.pe                                         |
-|Vicedecanato Académico                                    |Vicedecano            |Joel Rojas Acuña              |3804 |viceacademico.fisica@unmsm.edu.pe<br>jrojasa@unmsm.edu.pe    |
+|Vicedecanato Académico*                                   |Vicedecano            |Whualkuer Enrique Lozano Bartra|3804 |viceacademico.fisica@unmsm.edu.pe<br>jrojasa@unmsm.edu.pe    |
 |Vicedecanato Académico                                    |Secretaria            |Yessenia Estrada              |3804 |viceacademico.fisica@unmsm.edu.pe                                    |
 |EAP Física                                                |Director              |Carlos Javier Solano          |3805 |eapfis@unmsm.edu.pe<br>csolanos@unmsm.edu.pe                 |
 |EAP Física                                                |Secretaria            |Carmen Cano Gonzales          |3805 |eapfis@unmsm.edu.pe                                                  |

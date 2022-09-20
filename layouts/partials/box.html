@@ -1,4 +1,4 @@
-<div class="container-fluid description_border mt-3 mb-3">
+<div class="container-fluid description_border mt-3 mb-4">
   <div class="text-center description_box mt-3 mb-3">
     <div class="row text-start">
       <h6 class="ps-0">Información general</h6>
@@ -22,7 +22,7 @@
         <p class="fs-6">Prerrequisitos:</p>
       </div>
       <div class="col-12 p-0">
-        <p class="fs-6">{{ delimit .Params.prerrequisites " y " | safeHTML }}</p>
+        <p class="fs-6">{{ with .Params.prerrequisites }}{{ delimit . " y " | safeHTML }}{{ end }}</p>
       </div>
     </div>
   </div>
