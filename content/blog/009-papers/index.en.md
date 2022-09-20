@@ -7,7 +7,7 @@ date: 2022-09-15T14:44:30-05:00
 lastmod: 2022-09-15T14:44:30-05:00
 images: []
 thumbnail: ""
-contributors: ["David", "Richard", "Sergio", "Renzo"]
+contributors: ["David"]
 author_id: "david"
 tags: ["tips"]
 toc: true

@@ -4,7 +4,7 @@ lead: "CBX999 — x créditos"
 description: "CBX999 — x créditos"
 id: "CBX999"
 credits: 99
-prerrequisites: []
+prerrequisites: [""]
 semester: 99
 contributors: []
 featured: false
