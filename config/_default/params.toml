@@ -65,11 +65,11 @@ footer = "Un proyecto del Centro de Apoyo al Estudiante de Física"
 copyRight = "Copyright (c) 2022 — CAE Física"
 
 # Alert
-alert = false
+alert = true
 alertDismissable = true
 # alertText = ""
 # alertText = ""
-alertText = "Oficialmente abrimos la convocatoria para miembros y colaboradores 🥳, haga clic <a class=\"text-light\" href=\"https://forms.gle/qSpKejd8iXityDB68s\">aquí</a> para registrarse."
+alertText = "Tenemos nueva charla 🥳: \"¿Cómo publicar en una revista científica en pregrado?\", haga clic <a class=\"text-success\" href=\"https://forms.gle/bhDitoK3ymySbJgZ7\">aquí</a> para registrarse."
 
 # Edit Page
 repoHost = "GitHub"

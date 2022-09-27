@@ -65,11 +65,11 @@ footer = "A project by CAE - Physics"
 copyRight = "Copyright (c) 2022 — CAE - Physics"
 
 # Alert
-alert = false
+alert = true
 alertDismissable = true
 # alertText = ""
 # alertText = ""
-alertText = "We are officially opening the call for members and contributors 🥳, click <a class=\"text-light\" href=\"https://forms.gle/qSpKejd8iXityDB68s\">here</a> to register."
+alertText = "We have a new conference 🥳: \"How to publish in a scientific journal?\", click <a class=\"text-light\" href=\"https://forms.gle/bhDitoK3ymySbJgZ7\">here</a> to register."
 
 # Edit Page
 repoHost = "GitHub"

@@ -1,12 +1,12 @@
 [
   {
-    "name": "Fausto Antinori",
-    "image": "/images/member/fausto.webp",
+    "name": "David Durán",
+    "image": "/images/member/david.webp",
     "funcion": "Coordinación",
     "role": "Coordinator",
     "data": "1",
     "avatar": "main",
-    "description": "Estudiante de X año de la carrera de física. Se unió al CAE durante la etapa de selección XXX. Actualmente se desempeña como encargado del área de comunicaciones del CAE."
+    "description": "Estudiante de tercer año de la carrera de física. Se unió al CAE durante la etapa de selección XXX. Actualmente se desempeña como desarrollador principal y encargado del diseño del CAE."
   },
   {
     "name": "Sergio Cordero",
@@ -18,48 +18,30 @@
     "description": "Estudiante de tercer año de la carrera de física. Se unió al CAE durante la etapa de selección XXX. Actualmente se desempeña como subcoordinador del CAE. Ha dictado clases de Cálculo durante la etapa 2022-0."
   },
   {
-    "name": "David Durán",
-    "image": "/images/member/david.webp",
-    "funcion": "Comunicaciones",
-    "role": "Communication",
-    "data": "3",
-    "avatar": "main",
-    "description": "Estudiante de tercer año de la carrera de física. Se unió al CAE durante la etapa de selección XXX. Actualmente se desempeña como desarrollador principal y encargado del diseño del CAE."
-  },
-  {
     "name": "Alvaro Siesquen",
     "image": "/images/member/alvaro.webp",
     "funcion": "Académico",
     "role": "Academic",
-    "data": "4",
+    "data": "3",
     "avatar": "main",
     "description": "Encargado del área académica."
   },
   {
-    "name": "Víctor Tello",
-    "image": "/images/member/victor.webp",
-    "funcion": "Creativo",
-    "role": "Creative",
-    "data": "5",
+    "name": "Liuba Ramos",
+    "image": "/images/member/liuba.webp",
+    "funcion": "Comunicaciones",
+    "role": "Communication",
+    "data": "4",
     "avatar": "main",
     "description": "Miembro en el área de diseño."
   },
   {
-    "name": "Andrea Palacios",
-    "image": "/images/member/andrea.webp",
-    "funcion": "Creativo",
+    "name": "Víctor Tello",
+    "image": "/images/member/victor.webp",
+    "funcion": "Diseño",
     "role": "Creative",
-    "data": "6",
-    "avatar": "2",
-    "description": "Miembro en el área de diseño."
-  },
-  {
-    "name": "Liuba Ramos",
-    "image": "/images/member/liuba.webp",
-    "funcion": "Creativo",
-    "role": "Creative",
-    "data": "7",
-    "avatar": "2",
+    "data": "5",
+    "avatar": "main",
     "description": "Miembro en el área de diseño."
   },
   {
@@ -67,8 +49,17 @@
     "image": "/images/member/richard.webp",
     "funcion": "Edición",
     "role": "Editorial",
-    "data": "8",
+    "data": "6",
     "avatar": "main",
     "description": "Miembro en el área de redacción."
+  },
+  {
+    "name": "Andrea Palacios",
+    "image": "/images/member/andrea.webp",
+    "funcion": "Diseño",
+    "role": "Creative",
+    "data": "7",
+    "avatar": "2",
+    "description": "Miembro en el área de diseño."
   }
 ]
