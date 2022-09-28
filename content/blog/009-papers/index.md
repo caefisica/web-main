@@ -27,7 +27,7 @@ Antes de comenzar, es necesario que sepas los significados de los siguientes té
 
 Sin profundizar demasiado (por ahora), puedes añadir el siguiente script como favorito en tu navegador de preferencia.
 
-```
+```javascript
 javascript:location.hostname += '.sci-hub.ru'
 ```
 
@@ -35,9 +35,9 @@ Cuando te encuentres en la página del artículo, al hacer click en el elemento 
 
 #### Extensiones
 
-Este proceso puede automatizarse usando extensiones en tu navegador. 
+Este proceso puede automatizarse usando extensiones en tu navegador.
 
-1. Si utilizas un navegador basado en Chromium que permita instalar desde la Chrome Web Store. Puedes utilizar [Sci-Hub X Now!](https://chrome.google.com/webstore/detail/sci-hub-x-now/gmmnidkpkgiohfdoenhpghbilmeeagjj). 
+1. Si utilizas un navegador basado en Chromium que permita instalar desde la Chrome Web Store. Puedes utilizar [Sci-Hub X Now!](https://chrome.google.com/webstore/detail/sci-hub-x-now/gmmnidkpkgiohfdoenhpghbilmeeagjj).
 
 {{< img-simple src="1.jpg" alt="Captura de pantalla al buscar el término DOI en el navegador" class="d-block mx-auto shadow my-5" >}}
 
@@ -55,8 +55,9 @@ Existe un bot en Telegram ([@scihubot](https://telegram.me/scihubot)) al cual pu
 ##### Ejemplo
 
 Supongamos que quiero acceder al siguiente artículo:
+
 - Autor: Jonathan Adams
-- Título: "_Early citation counts correlate with accumulated impact_" 
+- Título: "_Early citation counts correlate with accumulated impact_"
 - URL: ```https://link.springer.com/article/10.1007/s11192-005-0228-9```
 
 Al ingresar al enlace, se puede ver lo siguiente:

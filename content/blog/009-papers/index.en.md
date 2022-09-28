@@ -27,7 +27,7 @@ Before we begin, you need to know the meanings of the following terms.
 
 Without going too into detail (for now), you can bookmark the following script in your browser of preference.
 
-```
+```javascript
 javascript:location.hostname += '.sci-hub.ru'
 ```
 
@@ -35,9 +35,9 @@ When visiting the paper webpage, you can click on the bookmark containing the sc
 
 #### Browser Add-ons
 
-This process can be automatized by using extensions in your browser. 
+This process can be automatized by using extensions in your browser.
 
-1. If you use a Chromium-based browser that allows you to install from the Chrome Web Store. You can install [Sci-Hub X Now!](https://chrome.google.com/webstore/detail/sci-hub-x-now/gmmnidkpkgiohfdoenhpghbilmeeagjj). 
+1. If you use a Chromium-based browser that allows you to install from the Chrome Web Store. You can install [Sci-Hub X Now!](https://chrome.google.com/webstore/detail/sci-hub-x-now/gmmnidkpkgiohfdoenhpghbilmeeagjj).
 
 {{< img-simple src="1.jpg" alt="Screenshot when searching for the DOI term in the browser" class="d-block mx-auto shadow my-5" >}}
 
@@ -55,8 +55,9 @@ In Telegram there is a bot ([@scihubot](https://telegram.me/scihubot)) to which 
 ##### Example
 
 Let's say I want to access the following article:
+
 - Author: Jonathan Adams
-- Title: "_Early citation counts correlate with accumulated impact_" 
+- Title: "_Early citation counts correlate with accumulated impact_"
 - URL: ```https://link.springer.com/article/10.1007/s11192-005-0228-9```
 
 When you enter the mentioned link, you will see the following:

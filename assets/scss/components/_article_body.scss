@@ -40,12 +40,13 @@
 .description_box p {
   margin-bottom: 0.1rem;
 }
+
 .description_border {
-  border-top:    1px dashed $gray-200;
+  border-top: 1px dashed $gray-200;
   border-bottom: 1px dashed $gray-200;
 }
 
 [data-dark-mode] .description_border {
-  border-top:    1px dashed $border-dark;
+  border-top: 1px dashed $border-dark;
   border-bottom: 1px dashed $border-dark;
 }

@@ -25,7 +25,7 @@ menu:
     parent: "pregrado"
 ---
 
-A principios del siglo 20, se fueron gestando diversos experimentos que dejarían a los físicos sin saber que hacer. Se estaba formando la física cuántica. Una parte principal de esta fue su respectiva mecánica, la cual se verá en el curso. 
+A principios del siglo 20, se fueron gestando diversos experimentos que dejarían a los físicos sin saber que hacer. Se estaba formando la física cuántica. Una parte principal de esta fue su respectiva mecánica, la cual se verá en el curso.
 
 Nota: Aunque el curso no es muy complicado, desarrollar una intuición para los fenómenos cuánticos exige un esfuerzo constante.
 
@@ -56,7 +56,7 @@ Los siguientes libros contienen bastante contenido teórico y una sección de pr
 |[Quantum Mechanics Theory and Experiment](https://drive.google.com/file/d/1vnDPB1LKvqVqPPisBJ9JBHlZtnTXDnqG/view?usp=sharing)| Mark Beck | Oxford University Press | 2012 |
 | [Quantum Mechanics](https://drive.google.com/file/d/1Ug4Uo3OIkR9j0a7tfOktNHkhDnQ-2uJj/view?usp=sharing) | Franz Schwabl | Springer | 2007 |
 | [Quantum Mechanics for Scientists and Engineers](https://drive.google.com/file/d/1_RgS8hg2mj-dMSwhiGNqOxHSiZCw__gD/view?usp=sharing) | David A. B. Miller | Cambridge | 2007 |
-| [Modern Quantum Mechanics](https://drive.google.com/file/d/1g35_paQ32l1ysA7cuq9T5JDzcicgZ43D/view?usp=sharing)| J. J. Sakurai | Pearson | 2011 | 
+| [Modern Quantum Mechanics](https://drive.google.com/file/d/1g35_paQ32l1ysA7cuq9T5JDzcicgZ43D/view?usp=sharing)| J. J. Sakurai | Pearson | 2011 |
 
 ### Práctica
 
@@ -82,7 +82,7 @@ Las primeras clases dictadas por Allan Adams en 2013 en el MIT pueden servirte p
 | ```115``` MIT 8.04 Quantum Physics I, Spring 2016 | Barton Zwiebach | [eng](https://youtube.com/playlist?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G) |
 | ```177``` Mecánica Cuántica | Entropía Negativa | [spa](https://www.youtube.com/playlist?list=PLBMRQ0GOZVeVLYpDC7cBOjy_9g_mcnSZh) |
 | ```65``` Curso "Mecánica cuántica I" | Diego Gallego Mahecha | [spa](https://www.youtube.com/playlist?list=PLDUN2fhgBC1_oLbWKwNw4tQlr5tpDGoU3) |
-| ```42``` Curso de Mecánica Cuántica | Fisico del Mal | [spa](https://youtube.com/playlist?list=PLLKYEqxsYB_cP2-dMUmn_ISU2kuG7YsSq) | 
+| ```42``` Curso de Mecánica Cuántica | Fisico del Mal | [spa](https://youtube.com/playlist?list=PLLKYEqxsYB_cP2-dMUmn_ISU2kuG7YsSq) |
 | ```52``` Mini curso de Mecánica Cuántica | Javier Garcia | [spa](https://youtube.com/playlist?list=PLAnA8FVrBl8DwNkN_3f_vahmE0PHjBWQM) |
 | ```254``` Introducción a la Mecánica Cuántica | MathArg | [spa](https://www.youtube.com/playlist?list=PLTef2OIG6VtJTyRqYxbhBPhbwuSiO1u1D) |
 | ```58``` Curso de Mecánica Cuántica | Ramon Castillo Bastos | [spa](https://www.youtube.com/playlist?list=PL4i6Jlnz3GWUbvwKsCswdi7myRV8RjR8U) |
