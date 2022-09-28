@@ -85,6 +85,15 @@ $navbar-dark-active-color:          $link-color-dark;
   border-bottom: 1px dashed $border-dark;
 }
 
+[data-dark-mode] body .docs-toc {
+  border-left: 1px dashed $border-dark;
+  border-right: 1px dashed $border-dark;
+
+  .author-links {
+    border-bottom: 1px dashed $border-dark;
+  }
+}
+
 [data-dark-mode] body.home .navbar {
   border-bottom: 0;
 }

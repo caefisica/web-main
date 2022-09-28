@@ -29,7 +29,7 @@
   }
 }
 
-.single.section.cursos .docs-toc .author-links, 
+.single.section.cursos .docs-toc .author-links,
 .single.section.resumenes .docs-toc .author-links {
   h2 {
     padding-top: 2rem;
@@ -51,9 +51,19 @@
 .description_border {
   border-top: 1px dashed $gray-200;
   border-bottom: 1px dashed $gray-200;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+
+  .row {
+    margin-left: 1.5rem;
+  }
 }
 
 [data-dark-mode] .description_border {
   border-top: 1px dashed $border-dark;
   border-bottom: 1px dashed $border-dark;
+}
+
+.btn.btn-doks-light.dropdown-toggle {
+  border: 0;
 }
