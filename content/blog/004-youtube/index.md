@@ -1,22 +1,18 @@
 ---
-title: Youtube
-description: Porque a veces uno no sabe en dónde buscar.
-lead: Porque a veces uno no sabe en dónde buscar. Esta lista no es necesariamente
-  académica, para ello véase la sección dentro de cada curso.
+title: "Youtube"
+description: "Porque a veces uno no sabe en dónde buscar.
+lead: Porque a veces uno no sabe en dónde buscar. Esta lista no es necesariamente académica, para ello véase la sección dentro de cada curso."
 date: 2022-01-30T03:19:42-05:00
-lastmod: '2022-02-03T09:19:42.000+01:00'
-images:
-- https://i.imgur.com/GgoqSI0.png
-thumbnail: https://i.imgur.com/GgoqSI0.png
-contributors:
-- David
-author_id: david
-tags:
-- lista
+lastmod: 2022-02-03T09:19:42.000+01:00
+images: ["https://i.imgur.com/GgoqSI0.png"]
+thumbnail: ["https://i.imgur.com/GgoqSI0.png"]
+contributors: ["David"]
+author_id: "david"
+tags: ["lista"]
 toc: true
-weight: "40"
-
+weight: 40
 ---
+
 ## Universitario
 
 | Descripción | Autor | Enlace | Idioma |
