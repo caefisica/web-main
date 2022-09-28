@@ -14,6 +14,7 @@ weight: 10
 images: []
 pdf: true
 contributors: ["David"]
+url: "/en/courses/undergraduate/"
 ---
 
 ## Curriculum
