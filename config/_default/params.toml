@@ -95,4 +95,4 @@ lastMod = true
   [menu.section]
     auto = true
     collapsibleSidebar = true
-    mainSections = ["Cursos", "Topicos", "Biblioteca", "Experimental", "RSS", "Blog"]
+    mainSections = ["Cursos", "Resúmenes", "Biblioteca", "Experimental", "RSS", "Blog"]
