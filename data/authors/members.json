@@ -1,15 +1,17 @@
 [
   {
     "name": "David Durán",
+    "first_name": "david",
     "image": "/images/member/david.webp",
     "funcion": "Coordinación",
-    "role": "Coordinator",
+    "role": "Coordination",
     "data": "1",
     "avatar": "main",
     "description": "Estudiante de tercer año de la carrera de física. Se unió al CAE durante la etapa de selección XXX. Actualmente se desempeña como desarrollador principal y encargado del diseño del CAE."
   },
   {
     "name": "Sergio Cordero",
+    "first_name": "sergio",
     "image": "/images/member/sergio.webp",
     "funcion": "Subcoordinación",
     "role": "Sub-coordination",
@@ -19,33 +21,37 @@
   },
   {
     "name": "Alvaro Siesquen",
+    "first_name": "alvaro",
     "image": "/images/member/alvaro.webp",
-    "funcion": "Académico",
-    "role": "Academic",
+    "funcion": "Académicos",
+    "role": "Academics",
     "data": "3",
     "avatar": "main",
     "description": "Encargado del área académica."
   },
   {
     "name": "Liuba Ramos",
+    "first_name": "liuba",
     "image": "/images/member/liuba.webp",
     "funcion": "Comunicaciones",
-    "role": "Communication",
+    "role": "Communications",
     "data": "4",
     "avatar": "main",
     "description": "Miembro en el área de diseño."
   },
   {
     "name": "Víctor Tello",
+    "first_name": "victor",
     "image": "/images/member/victor.webp",
     "funcion": "Diseño",
     "role": "Creative",
-    "data": "5",
+    "data": "7",
     "avatar": "main",
     "description": "Miembro en el área de diseño."
   },
   {
     "name": "José Ávalos",
+    "first_name": "jose",
     "image": "/images/member/richard.webp",
     "funcion": "Edición",
     "role": "Editorial",
@@ -55,10 +61,11 @@
   },
   {
     "name": "Andrea Palacios",
+    "first_name": "andrea",
     "image": "/images/member/andrea.webp",
     "funcion": "Diseño",
     "role": "Creative",
-    "data": "7",
+    "data": "5",
     "avatar": "2",
     "description": "Miembro en el área de diseño."
   }
