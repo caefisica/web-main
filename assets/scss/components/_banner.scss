@@ -116,6 +116,10 @@
     position: relative;
 
     .img-hero-mask {
+      mask: url("/images/shape/hero-mask-svg.png");
+      mask-repeat: no-repeat;
+      mask-size: contain;
+      mask-position: center center;
       -webkit-mask: url("/images/shape/hero-mask-svg.png");
       -webkit-mask-repeat: no-repeat;
       -webkit-mask-size: contain;
@@ -266,34 +270,30 @@
   background-size: cover;
 }
 
-#image1 {
+#david {
   background-image: url("/images/member/david.webp");
 }
 
-#image2 {
+#sergio {
   background-image: url("/images/member/sergio.webp");
 }
 
-#image3 {
+#alvaro {
   background-image: url("/images/member/alvaro.webp");
 }
 
-#image4 {
+#liuba {
   background-image: url("/images/member/liuba.webp");
 }
 
-#image5 {
+#andrea {
   background-image: url("/images/member/andrea.webp");
 }
 
-#image6 {
+#jose {
   background-image: url("/images/member/richard.webp");
 }
 
-#image7 {
+#victor {
   background-image: url("/images/member/victor.webp");
-}
-
-#image8 {
-  background-image: url("/images/member/richard.webp");
 }
