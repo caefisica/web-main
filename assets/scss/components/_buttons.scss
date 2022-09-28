@@ -219,36 +219,46 @@ pre {
   margin-right: -0.3125rem;
 }
 
-.dropdown-menu.dropdown-menu-main {
+.dropdown-menu.dropdown-menu-end hr {
+  border-top: 1px dashed rgba(52, 58, 64, 0.15);
+}
+
+.dropdown-menu.dropdown-menu-main,
+.dropdown-menu.dropdown-menu-end {
   width: 100%;
 }
 
 @include media-breakpoint-up(md) {
-  .dropdown-menu.dropdown-menu-main {
+  .dropdown-menu.dropdown-menu-main,
+  .dropdown-menu.dropdown-menu-end {
     width: auto;
   }
 }
 
-.dropdown-menu-main .dropdown-item {
+.dropdown-menu-main .dropdown-item,
+.dropdown-menu-end .dropdown-item {
   color: inherit;
   font-size: $font-size-base;
   font-weight: 400;
   text-decoration: none;
 }
 
-.dropdown-menu-main .dropdown-item:hover {
+.dropdown-menu-main .dropdown-item:hover,
+.dropdown-menu-end .dropdown-item:hover {
   background-color: transparent;
   color: $primary;
 }
 
-.dropdown-menu-main .dropdown-item.active {
+.dropdown-menu-main .dropdown-item.active,
+.dropdown-menu-end .dropdown-item.active {
   color: $primary;
   font-weight: 400;
   text-decoration: none;
   background-color: inherit;
 }
 
-.dropdown-menu-main .dropdown-item.active:hover {
+.dropdown-menu-main .dropdown-item.active:hover,
+.dropdown-menu-end .dropdown-item.active:hover {
   background-color: transparent;
 }
 
