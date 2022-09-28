@@ -1,4 +1,33 @@
-<div class="page-links">
-  <h2 class="h3">{{ if eq .Site.Language.Lang "es" }}Contenido{{ else }}Content{{ end }}</h2>
+<div class="author-links page-links d-none d-xl-block pb-3">
+  <h2 class="mb-2 mt-0 ms-4 fs-6">
+  {{- if isset .Params "contributors" -}}
+  {{- if eq (len .Params.contributors) 1 -}}
+    {{- i18n "autor" -}}
+  {{- else -}}
+    {{- i18n "autores" -}}
+  {{- end -}}
+  {{- end -}}
+  </h2>
+  {{- $member_list := .Site.Data.authors.members -}}
+  {{- if isset .Params "contributors" -}}
+  <ul class="ms-4 list-unstyled">
+    {{- range .Params.contributors -}}
+      {{- $contributor := . -}}
+      {{ range $member_list -}}
+        {{- if eq $contributor .first_name -}}
+          <li class="m-0 ">
+            <a href="/es/contributors/{{ .first_name | urlize }}">
+              <img src="{{ .image }}" alt="{{ .name }}" class="avatar rounded-circle">
+              <span class="name ms-2">{{ .name }}</span>
+            </a>
+          </li>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  </ul>
+  {{- end -}}
+</div>
+<div class="page-links mt-auto sticky-bottom">
+  <h2 class="h3">{{- i18n "toc" -}}</h2>
   {{ .TableOfContents }}
 </div>

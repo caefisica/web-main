@@ -64,3 +64,23 @@
   translation: "Nombre"
 - id: boletin_correo_label
   translation: "Correo electrónico"
+
+# Docs-TOC
+
+- id: autor
+  translation: "Autor"
+- id: autores
+  translation: "Autores"
+- id: toc
+  translation: "Contenido"
+
+# Información del curso
+
+- id: informacion_curso
+  translation: "Información general"
+- id: codigo_curso
+  translation: "Código"
+- id: creditos_curso
+  translation: "Créditos"
+- id: prerrequisitos
+  translation: "Prerrequisitos"
