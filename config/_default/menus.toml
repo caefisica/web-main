@@ -1,20 +1,20 @@
-[[guias]]
+[[cursos]]
   name = "Pregrado"
   weight = 10
-  identifier = "guias"
-  url = "/guias/pregrado/"
+  identifier = "cursos"
+  url = "/cursos/pregrado/"
 
-[[guias]]
+[[cursos]]
   name = "Posgrado"
   weight = 20
   identifier = "posgrado"
-  url = "/guias/posgrado/"
+  url = "/cursos/posgrado/"
 
-[[cursos]]
-  name = "Cursos"
+[[topicos]]
+  name = "Tópicos"
   weight = 10
-  identifier = "cursos"
-  url = "/cursos/matemática"
+  identifier = "topicos"
+  url = "/topicos/matemática"
 
 [[main]]
   name = "Biblioteca"
@@ -45,21 +45,21 @@
   parent = "Recursos"
 
 [[main]]
-  name = "Guías"
+  name = "Cursos"
   weight = 10
-  url = "/guias/"
+  url = "/cursos/"
   parent = "Académico"
 
 [[main]]
-  name = "Cursos"
+  name = "Tópicos"
   weight = 20
-  url = "/cursos/"
+  url = "/topicos/"
   parent = "Académico"
 
 [[main]]
   name = "Facultad"
   weight = 20
-  url = "/guias/facultad/directorio/"
+  url = "/cursos/facultad/directorio/"
   parent = "Académico"
 
 [[social]]
