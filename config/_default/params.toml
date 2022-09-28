@@ -69,7 +69,7 @@ alert = true
 alertDismissable = true
 # alertText = ""
 # alertText = ""
-alertText = "Tenemos nueva charla 🥳: \"¿Cómo publicar en una revista científica en pregrado?\", haga clic <a class=\"text-success\" href=\"https://forms.gle/bhDitoK3ymySbJgZ7\">aquí</a> para registrarse."
+alertText = "Tenemos nueva charla 🥳: \"¿Cómo publicar en una revista científica en pregrado?\", haga clic <a class=\"alert-link\" href=\"https://forms.gle/bhDitoK3ymySbJgZ7\">aquí</a> para registrarse."
 
 # Edit Page
 repoHost = "GitHub"
