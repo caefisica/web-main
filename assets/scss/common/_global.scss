@@ -262,12 +262,14 @@ body {
   padding-bottom: 3rem;
   order: 1;
 
-  tr, td, th {
+  tr,
+  td,
+  th {
     border-style: dashed;
   }
 
   tr {
-    border-bottom-width: 1px
+    border-bottom-width: 1px;
   }
 }
 
@@ -326,7 +328,7 @@ article li ul {
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
