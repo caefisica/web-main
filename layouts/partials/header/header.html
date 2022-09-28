@@ -78,19 +78,19 @@
     <button class="btn btn-doks-light dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static" aria-label="Menú de selección de idioma">
     <span class="d-none d-lg-inline"></span>{{ if eq .Site.Language.Lang "en" }}English{{ else }}Español{{ end }}
     </button>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="doks-languages">
+    <ul class="dropdown-menu dropdown-menu-end shadow border-0" aria-labelledby="doks-languages">
     {{ range .Translations }}
     {{ if eq .Site.Language.Lang "es" }}
     <li><a class="dropdown-item" aria-current="true" href="{{ .RelPermalink }}">Spanish</a></li>
-    <li><hr class="dropdown-divider"></li>
+    <li><hr class="dropdown-divider text-black-50"></li>
     <li><a class="dropdown-item current" href="/en/">English</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="/contacto/">Help us translate</a></li>
     {{ else }}
     <li><a class="dropdown-item current" href="/es/">Español</a></li>
-    <li><hr class="dropdown-divider"></li>
+    <li><hr class="dropdown-divider text-black-50"></li>
     <li><a class="dropdown-item" href="{{ .RelPermalink }}">Inglés</a></li>
-    <li><hr class="dropdown-divider"></li>
+    <li><hr class="dropdown-divider text-black-50"></li>
     <li><a class="dropdown-item" href="/contacto/">Ayúdanos a traducir</a></li>
     {{end}}
     {{ end }}
