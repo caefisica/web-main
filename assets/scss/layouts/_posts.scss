@@ -7,8 +7,8 @@
   transition: transform 0.3s;
 }
 
-.list.guias .card,
-.list.cursos .card {
+.list.cursos .card,
+.list.topicos .card {
   transition: transform 0.3s;
 }
 
@@ -25,8 +25,8 @@
 .home .card:hover,
 .blog .card:hover,
 .newsletter .card:hover,
-.list.guias .card:hover,
 .list.cursos .card:hover,
+.list.topicos .card:hover,
 .contributors.list .card:hover,
 .experimental.list .card:hover,
 .types.list .card:hover,
@@ -34,7 +34,7 @@
   transform: scale(1.025);
 }
 
-.list.guias .section-featured .card {
+.list.cursos .section-featured .card {
   margin: 0;
 }
 
@@ -46,14 +46,14 @@
 }
 
 .home .section-featured .card-body,
-.list.guias .section-featured .card-body,
-.list.cursos .section-featured .card-body {
+.list.cursos .section-featured .card-body,
+.list.topicos .section-featured .card-body {
   padding: 1rem;
 }
 
 .home .section-featured .card-title,
-.list.guias .section-featured .card-title,
-.list.cursos .section-featured .card-title {
+.list.cursos .section-featured .card-title,
+.list.topicos .section-featured .card-title {
   font-size: $font-size-base;
   font-weight: normal;
   text-align: center;

@@ -1,20 +1,20 @@
-[[guias]]
+[[cursos]]
   name = "Undergraduate"
   weight = 10
   identifier = "undergraduate"
-  url = "/en/guides/undergraduate/"
+  url = "/en/courses/undergraduate/"
 
-[[guias]]
+[[cursos]]
   name = "Postgraduate"
   weight = 20
   identifier = "postgraduate"
-  url = "/en/guides/postgraduate/"
+  url = "/en/courses/postgraduate/"
 
-[[cursos]]
-  name = "Courses"
+[[topics]]
+  name = "Topics"
   weight = 10
-  identifier = "courses"
-  url = "/en/guides/courses/mathematics"
+  identifier = "topics"
+  url = "/en/topics/mathematics"
 
 [[main]]
   name = "Library"
@@ -45,22 +45,22 @@
   parent = "Resources"
 
 [[main]]
-  name = "Guides"
-  weight = 10
-  url = "/en/guides/"
-  parent = "Academic"
-
-[[main]]
   name = "Courses"
-  weight = 20
+  weight = 10
   url = "/en/courses/"
   parent = "Academic"
 
 [[main]]
-  name = "Faculty"
+  name = "Topics"
   weight = 20
-  url = "/en/guides/faculty/directory/"
+  url = "/en/topics/"
   parent = "Academic"
+
+#[[main]]
+#  name = "Faculty"
+#  weight = 20
+#  url = "/en/courses/faculty/directory/"
+#  parent = "Academic"
 
 [[social]]
   name = "Facebook"
