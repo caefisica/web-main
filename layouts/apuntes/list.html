@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="row flex-xl-nowrap mt-md-4 mt-auto">
   <main class="docs-content col-md-15 mx-auto pb-4">
-    {{$docpage := .Site.GetPage "resumenes"}}
+    {{$docpage := .Site.GetPage "apuntes"}}
     {{range $docpage.Sections }}
     <section class="section section-featured mt-4 mb-4 bg-light py-5 rounded-4 mb-2">
       <div class="container">
@@ -26,7 +26,7 @@
 <div class="fullpage4 row flex-xl-nowrap">
   <main class="docs-content col-lg-11 mx-xl-auto">
     <h1 class="text-center">{{ .Title }}</h1>
-    {{$docpage := .Site.GetPage "resumenes"}}
+    {{$docpage := .Site.GetPage "apuntes"}}
     {{range $docpage.Sections}}
     <h3>{{ .Title }}</h3>
     <div class="row row-cols-1 row-cols-md-2 g-5">
