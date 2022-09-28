@@ -10,11 +10,11 @@
   identifier = "posgrado"
   url = "/cursos/posgrado/"
 
-[[topicos]]
-  name = "Tópicos"
+[[resumenes]]
+  name = "Resúmenes"
   weight = 10
-  identifier = "topicos"
-  url = "/topicos/matemática"
+  identifier = "resumenes"
+  url = "/resumenes/matemática"
 
 [[main]]
   name = "Biblioteca"
@@ -51,9 +51,9 @@
   parent = "Académico"
 
 [[main]]
-  name = "Tópicos"
+  name = "Resúmenes"
   weight = 20
-  url = "/topicos/"
+  url = "/resumenes/"
   parent = "Académico"
 
 [[main]]

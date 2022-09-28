@@ -18,8 +18,8 @@
 
 .list.section.cursos .docs-content,
 .single.section.cursos .docs-content,
-.list.section.topicos .docs-content,
-.single.section.topicos .docs-content {
+.list.section.resumenes .docs-content,
+.single.section.resumenes .docs-content {
   h1 {
     margin-top: 1rem;
   }
@@ -30,7 +30,7 @@
 }
 
 .single.section.cursos .docs-toc .author-links, 
-.single.section.topicos .docs-toc .author-links {
+.single.section.resumenes .docs-toc .author-links {
   h2 {
     padding-top: 2rem;
   }

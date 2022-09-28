@@ -28,7 +28,7 @@
             {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
             {{- $active = or $active (eq .Name $current.Title) -}}
             {{- $active = or $active (and (eq .Name "Cursos") (eq $current.Section "cursos")) -}}
-            {{- $active = or $active (and (eq .Name "Tópicos") (eq $current.Section "topicos")) -}}
+            {{- $active = or $active (and (eq .Name "Resúmenes") (eq $current.Section "resumenes")) -}}
             {{- $active = or $active (and (eq .Name "Experimental") (eq $current.Section "experimental" "types" "functionalities")) -}}
             {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog" "contributors")) -}}
             {{ if .HasChildren }}
@@ -101,7 +101,7 @@
   </nav>
 </header>
 
-{{ if eq .Section "cursos" "topicos" -}}
+{{ if eq .Section "cursos" "resumenes" -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
   <div class="container-xxl d-flex align-items-md-center">
 

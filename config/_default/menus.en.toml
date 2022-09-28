@@ -10,11 +10,11 @@
   identifier = "postgraduate"
   url = "/en/courses/postgraduate/"
 
-[[topics]]
-  name = "Topics"
+[[summaries]]
+  name = "Lecture Notes"
   weight = 10
-  identifier = "topics"
-  url = "/en/topics/mathematics"
+  identifier = "summaries"
+  url = "/en/summaries/mathematics"
 
 [[main]]
   name = "Library"
@@ -51,9 +51,9 @@
   parent = "Academic"
 
 [[main]]
-  name = "Topics"
+  name = "Lecture Notes"
   weight = 20
-  url = "/en/topics/"
+  url = "/en/summaries/"
   parent = "Academic"
 
 #[[main]]
