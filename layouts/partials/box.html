@@ -1,9 +1,9 @@
 <div class="container-fluid description_border mt-3 mb-4">
   <div class="text-center description_box mt-3 mb-3">
     <div class="row text-start">
-      <h6 class="ps-0">Información general</h6>
+      <h6 class="ps-0">{{- i18n "informacion_curso" -}}</h6>
       <div class="col-5 col-md-4 p-0">
-        <p class="fs-6">Código:</p>
+        <p class="fs-6">{{- i18n "codigo_curso" -}}:</p>
       </div>
       <div class="col-11 col-md-12 p-0">
         <p class="fs-6">{{ .Params.id | safeHTML }}</p>
@@ -11,15 +11,15 @@
     </div>
     <div class="row text-start">
       <div class="col-5 col-md-4 p-0">
-        <p class="fs-6">Créditos:</p>
+        <p class="fs-6">{{- i18n "creditos_curso" -}}:</p>
       </div>
       <div class="col-11 col-md-12 p-0">
-        <p class="fs-6">{{ .Params.credits | safeHTML }} créditos</p>
+        <p class="fs-6">{{ .Params.credits | safeHTML }} {{ i18n "creditos_curso" | lower }}</p>
       </div>
     </div>
     <div class="row text-start">
       <div class="col-5 col-md-4 p-0">
-        <p class="fs-6">Prerrequisitos:</p>
+        <p class="fs-6">{{- i18n "prerrequisitos" -}}:</p>
       </div>
       <div class="col-11 col-md-12 p-0">
         <p class="fs-6">{{ with .Params.prerrequisites }}{{ delimit . " y " | safeHTML }}{{ end }}</p>

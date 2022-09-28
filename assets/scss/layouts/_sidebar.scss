@@ -108,3 +108,29 @@ a.docs-link {
 .page-links h3.sidebar-link a:hover {
   text-decoration: underline;
 }
+
+.author-links {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  border-bottom: 1px dashed #e9ecef;
+
+  img {
+    height: 38px;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+
+    &:hover {
+      -webkit-filter: grayscale(0);
+      filter: none;
+      transition: transform 0.35s ease;
+    }
+  }
+
+  li {
+    border-top: 0 !important;
+  }
+}
+
+.page-links.bottom {
+  bottom: 0;
+}
