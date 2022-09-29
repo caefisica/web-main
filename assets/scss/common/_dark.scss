@@ -85,12 +85,37 @@ $navbar-dark-active-color:          $link-color-dark;
   border-bottom: 1px dashed $border-dark;
 }
 
+[data-dark-mode] body .alert-primary a {
+  color: $body-bg-dark;
+}
+
+[data-dark-mode] body .page-links a {
+  color: $body-color-dark;
+}
+
+[data-dark-mode] body .btn-toggle-nav a {
+  color: $body-color-dark;
+}
+
+[data-dark-mode] body .experimental-meta a {
+  color: $body-color-dark;
+}
+
 [data-dark-mode] body .docs-toc {
   border-left: 1px dashed $border-dark;
   border-right: 1px dashed $border-dark;
 
   .author-links {
     border-bottom: 1px dashed $border-dark;
+  }
+
+  .social-media-links {
+    border-top: 1px dashed $border-dark;
+
+    a,
+    button {
+      color: #e9ecef;
+    }
   }
 }
 
@@ -159,24 +184,8 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $navbar-dark-color;
 }
 
-[data-dark-mode] body .alert-primary a {
-  color: $body-bg-dark;
-}
-
 [data-dark-mode] body .alert-warning {
   background: $body-overlay-dark;
-  color: $body-color-dark;
-}
-
-[data-dark-mode] body .page-links a {
-  color: $body-color-dark;
-}
-
-[data-dark-mode] body .btn-toggle-nav a {
-  color: $body-color-dark;
-}
-
-[data-dark-mode] body .experimental-meta a {
   color: $body-color-dark;
 }
 
