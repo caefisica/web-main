@@ -35,6 +35,9 @@
 				{{ partial "sidebar/docs-toc.html" . }}
 			</nav>
 			{{ end -}}
+      {{ if eq .Params.working true -}}
+      {{ partial "components/alert"}}
+      {{ end }}
 			{{ partial "main/headline-hash.html" .Content }}
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between"></div>
         <div class="metadata-article">
