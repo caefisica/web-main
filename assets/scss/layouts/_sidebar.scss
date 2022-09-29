@@ -43,10 +43,14 @@
 }
 
 .social-media-links {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  border-top: 1px dashed #e9ecef;
+
   h3 {
-  font-size: $font-size-base;
-  margin: 2rem 1.5rem 1rem 0;
-  padding: 0;
+    font-size: $font-size-base;
+    margin: 2rem 1.5rem 1rem 0;
+    padding: 0;
   }
 
   button {
