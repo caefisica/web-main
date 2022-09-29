@@ -37,11 +37,11 @@
 }
 
 .subtitle-brand {
-  color: #145fd1;
+  color: $purple;
 }
 
 [data-dark-mode] .subtitle-brand {
-  color: #0f9bf6;
+  color: $blue-300;
 }
 
 .description_box p {
@@ -71,4 +71,34 @@
 .hover_card:hover {
   border-color: var(--bs-link-color);
   transition: all 0.3s ease;
+}
+
+.docs-content .custom-block {
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem 0.5rem;
+  line-height: 1.5rem;
+  font-size: 14px;
+  color: rgba($purple, .05);
+  margin: 1rem 0;
+
+  &.tip {
+    border-style: dashed;
+    border-color: rgba($purple, .5);
+    color: $purple;
+    background-color: rgba($purple, .05);
+  }
+
+  p:first-child {
+    margin: 0;
+  }
+
+  p {
+    line-height: 1.5rem;
+    margin: 0.5rem 0;
+  }
+
+  &-title {
+    font-weight: 700;
+  }
 }

@@ -124,6 +124,10 @@ $navbar-dark-active-color:          $link-color-dark;
   }
 }
 
+[data-dark-mode] .docs-content .custom-block.tip {
+  color: $blue-300;
+}
+
 [data-dark-mode] body.home .navbar {
   border-bottom: 0;
 }
