@@ -3,8 +3,8 @@
 	<!-- https://www.feliciano.tech/blog/custom-sort-hugo-single-pages/ -->
 	{{ $pages := where site.RegularPages "Section" .Section -}}
 	{{ with $pages.ByWeight.Next . -}}
-		<a href="{{ .RelPermalink }}">
-			<div class="card my-1">
+		<a class="text-decoration-none" href="{{ .RelPermalink }}">
+			<div class="card my-1 hover_card">
 				<div class="card-body py-2">
 					&larr; {{ .Title }}
 				</div>
@@ -12,8 +12,8 @@
 		</a>
 	{{ end -}}
 	{{ with $pages.ByWeight.Prev . -}}
-		<a class="ms-auto" href="{{ .RelPermalink }}">
-			<div class="card my-1">
+		<a class="ms-auto text-decoration-none" href="{{ .RelPermalink }}">
+			<div class="card my-1 hover_card">
 				<div class="card-body py-2">
 					{{ .Title }} &rarr;
 				</div>

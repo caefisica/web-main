@@ -67,3 +67,8 @@
 .btn.btn-doks-light.dropdown-toggle {
   border: 0;
 }
+
+.hover_card:hover {
+  border-color: var(--bs-link-color);
+  transition: all 0.3s ease;
+}

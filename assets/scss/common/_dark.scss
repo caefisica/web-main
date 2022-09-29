@@ -81,7 +81,7 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
-  background-color: rgba(33, 37, 41, 0.95);
+  background-color: rgba(33, 37, 41, 0.7);
   border-bottom: 1px dashed $border-dark;
 }
 
@@ -114,7 +114,12 @@ $navbar-dark-active-color:          $link-color-dark;
 
     a,
     button {
-      color: #e9ecef;
+      color: #dee2e6;
+    }
+
+    button:hover {
+      color: #fff;
+      transition: color 0.35s ease;
     }
   }
 }

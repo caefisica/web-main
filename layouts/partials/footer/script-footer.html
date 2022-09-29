@@ -75,7 +75,7 @@
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{ end -}}
 {{ if eq .Kind "home" -}}
-<script src="{{ "js/jquery.min.js" | relURL }}" type="text/javascript" defer></script>
+{{/*<script src="{{ "js/jquery.min.js" | relURL }}" type="text/javascript" defer></script>*/}}
 <script src="{{ $docSearch.RelPermalink }}" integrity="{{ $docSearch.Data.Integrity }}" crossorigin="anonymous" defer></script>
 <script src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
 <script src="{{ "js/pages/youtube-pop.js" | relURL }}" type="text/javascript" defer></script>
