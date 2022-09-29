@@ -181,6 +181,7 @@ pre {
 .btn-toggle-nav a:focus {
   background-color: transparent;
   color: $link-color;
+  transition: all 0.25s ease;
 }
 
 .btn-toggle-nav a.active {
