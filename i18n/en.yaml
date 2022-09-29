@@ -84,3 +84,10 @@
   translation: "Credits"
 - id: prerrequisitos
   translation: "Prerequisites"
+
+# 404
+
+- id: 404_message
+  translation: "Sorry, we couldn't find this page"
+- id: 404_text
+  translation: "Are you sure it was here? You can always ask a staff member if you think it's a bug."
