@@ -12,7 +12,7 @@ menu:
     parent: "general"
 weight: 460
 toc: false
-pinned: false
+pinned: true
 types: ["curso", "programación"]
 functionalities: ["web"]
 ---
