@@ -12,7 +12,7 @@ menu:
     parent: "general"
 weight: 510
 toc: false
-pinned: true
+pinned: false
 types: ["divulgación"]
 functionalities: ["video"]
 ---

@@ -12,7 +12,7 @@ menu:
     parent: "general"
 weight: 060
 toc: false
-pinned: true
+pinned: false
 types: ["programación"]
 functionalities: ["artículo"]
 ---

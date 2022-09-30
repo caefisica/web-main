@@ -12,7 +12,7 @@ menu:
     parent: "general"
 weight: 300
 toc: false
-pinned: false
+pinned: true
 types: ["academia", "universidad"]
 functionalities: ["web"]
 ---
