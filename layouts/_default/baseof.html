@@ -4,7 +4,8 @@
   {{ partial "head/body-class.html" . -}}
   <body class="{{ delimit (.Scratch.Get "class") " " }}">
     {{ partial "header/header.html" . }}
-    <div class="wrap container-xxl" role="document">
+    {{ $classes := .Scratch.Get "class" }}
+    <div class="wrap {{ if and (in $classes "list") (in $classes "section cursos") }}container-fluid{{- else -}}container-xxl{{- end -}}" role="document">
       <div class="content">
         {{ block "main" . }}{{ end }}
       </div>

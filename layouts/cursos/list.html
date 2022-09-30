@@ -1,86 +1,85 @@
 {{ define "main" }}
-<div class="row flex-xl-nowrap mt-md-4 mt-auto">
-  <main class="docs-content col-md-15 mx-auto pb-4">
-    {{$docpage := .Site.GetPage "cursos/pregrado"}}
-    {{range $docpage.Sections }}
-    <section class="section section-featured mt-4 mb-4 bg-light py-5 rounded-4 mb-2">
-      <div class="container">
-        <h2 class="h3 mt-0 text-center">{{ .Title }}</h2>
-        <div class="row justify-content-center mt-3 g-3">
-          {{range $pages := .Pages}}
-          <div class="col-sm-8 col-md-6 col-xl-4">
-            <div class="card h-100">
-              <div class="card-body">
-                <h3 class="h5 card-title my-2"><a class="card-link stretched-link text-dark text-decoration-none" href="{{ .RelPermalink }}">{{ .Params.title | title | truncate 25 }}</a></h3>
+{{ $styles := resources.Get "scss/components/pages/_courses.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+<div class="row align-items-start">
+  <div class="col-auto docs-sidebar d-none d-xl-block">
+    <nav class="docs-links" aria-label="Tertiary navigation">
+      {{ partial "sidebar/auto-default-menu.html" . -}}
+    </nav>
+  </div>
+  <div class="col-lg-16 col-xl-11 col-xxl-12 mx-auto flex-xl-nowrap mt-md-4 mt-auto">
+    <main class="docs-content col-md-15 px-5 mx-auto pb-4">
+      <section>
+        <div class="first_box position-relative d-flex align-items-center justify-content-start pt-5 mt-3">
+          <div class="text-box w-100">
+            <h1 class="mb-2">{{ .Params.Title }}</h1>
+            <h5 class="description_page p-0 lh-sm">
+            {{ .Params.Description_2 }}<br>{{ .Params.Description_3 }}
+            </h5>
+            <form class="form_title p-0 position-relative m-0 d-flex w-100 align-items-center">
+              <div class="search-icon-ban position-absolute">
+                <svg class="opacity-50" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><g opacity="1" clip-path="url(#a)"><path d="m18 15.964-4.794-4.793A7.2 7.2 0 1 0 .001 7.2a7.2 7.2 0 0 0 11.17 6.006L15.963 18 18 15.964ZM2.04 7.2A5.16 5.16 0 0 1 7.2 2.043 5.16 5.16 0 1 1 2.04 7.2Z" fill="#90794B"></path></g><defs><clipPath id="a"><path fill="#dee2e6" d="M0 0h18v18H0z"></path></clipPath></defs></svg>
               </div>
+              <input name="docs-search" placeholder="Buscar cursos..." value class="the-input m-0 pe-0 fs-6 rounded-pill">
+            </form>
+          </div>
+          <div class="back-div w-100">
+            <span class="back-span position-absolute mb-n3">
+              <div class="image-div-container position-relative d-inline-block align-top">
+                <div style="max-width:500px;display:block"><img alt="" role="presentation" aria-hidden="true" src="data:image/svg+xml;charset=utf-8,%3Csvg height='392' width='500' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E" style="max-width:100%;display:block;position:static"></div>
+                <img aria-hidden="true" data-placeholder-image="" class="the-image align-middle position-absolute w-100 opacity-0 m-0" width="500" decoding="async" src="https://pbs.twimg.com/media/Fduqq56XEAE396Y?format=jpg&name=4096x4096" alt="">
+                <picture>
+                  <source type="image/webp" srcset="/images/dirac.webp 125w,
+                  /images/dirac.webp 250w,
+                  /images/dirac.webp 500w" sizes="(min-width: 500px) 500px, 100vw">
+                  <img width="500" height="392" data-main-image="" class="the-new-image align-middle p-0 m-0 position-absolute w-100 opacity-100" sizes="(min-width: 500px) 500px, 100vw" decoding="async" loading="lazy" src="/images/tovar.jpg" srcset="/images/tovar.jpg 125w,
+                  /images/dirac.webp 250w,
+                  /images/tovar.jpg 500w" alt="This hog has an answer">
+                </picture>
+              </div>
+            </span>
+          </div>
+        </div>
+        <div class="group-data d-grid mt-3">
+          {{$pregrado := .Site.GetPage "cursos/pregrado"}}
+          {{ range $pregrado.Sections  -}}
+              <a target rel="noopener noreferrer" href="{{ .RelPermalink }}" class="text-data fw-semibold d-flex align-items-start text-decoration-none">
+                {{ partial "svg/books.svg" }}
+                <div class="ms-3">
+                  <h3 class="mt-0 fw-bolder">{{ .Title }}</h3>
+                  <p class="p-0 mb-1 lh-sm">{{ .Params.description }}</p>
+                </div>
+              </a>
+          {{ end }}
+        </div>
+      </section>
+      <section class="second-section">
+        <div class="section_title text-center">
+          <h2 class="mx-0 mt-0 mb-1 lh-base">Apuntes/Notas</h2>
+          <p class="p-0 lh-base fs-6">Información adicional sobre tópicos selectos de física.</p>
+        </div>
+        <div class="section-table d-grid gap-3 mb-0 rounded-0">
+          {{$apuntes := .Site.GetPage "apuntes"}}
+          {{ range $apuntes.Sections  -}}
+          <div class="group rounded-1">
+            <div>
+              <h4 class="fs-5 lh-base m-0 fw-bolder text-break">{{ .Title }}</h4>
+              <p class="fs-6 p-0 mb-3 mx-0 mt-1 lh-base">{{ .Params.description }}</p>
             </div>
+            <ul class="m-0 d-grid w-100 p-0 list-unstyled">
+              {{ range .Pages -}}
+              <li class="lh-base fs-6 flex-grow-1">
+                <a class="text-decoration-none d-flex align-items-center p-2 rounded-1" href="{{ .RelPermalink }}">
+                <span class="me-0 ms-2">{{ .Title }}</span>
+                </a>
+              </li>
+              {{ end }}
+            </ul>
           </div>
           {{ end }}
         </div>
-      </div>
-    </section>
-    {{ end }}
-    {{/*
-    <h1 class="text-center">{{ .Title }}</h1>
-    {{$docpage := .Site.GetPage "cursos/pregrado"}}
-    {{range $docpage.Sections}}
-    <div class="semestre mb-5">
-      <h3 class="text-center fw-normal mb-4">{{ .Title }}</h3>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        {{range $pages := .Pages}}
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body ps-4 pe-4">
-              <h5 class="card-title mt-2"><a class="card-link stretched-link text-dark text-decoration-none" href="{{ .RelPermalink }}">{{ .Params.title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</a></h5>
-                <div class="row">
-                  <div class="col">
-                    <p class="card-text mb-2">{{ .Params.lead | safeHTML }}</p>
-                  </div>
-                </div>
-                <div>
-                  <small>
-                    Prerrequisitos:
-                    {{ if isset .Params "prerrequisites" }}
-                      {{ if ( gt ( len .Params.prerrequisites ) 0 ) }}
-                        {{ if .Params.prerrequisites -}}
-                          {{ $id := string .Params.id }}
-                          {{ $courses := .Site.Data.content.courses }}
-                          {{ $coursesid := .Params.id }}
-                          {{ $semester := string .Params.semester }}
-                          {{ $prerrequisite := .Params.prerrequisites }}
-                          {{ range (index $courses $coursesid) }}
-                            {{ range . -}}
-                              <a 
-                                class="stretched-link position-relative" 
-                                href="/cursos/pregrado/{{ .semestre | urlize }}/{{ .codigo | urlize }}">
-                                {{ .nombre -}}
-                              </a>
-                              {{ if gt (len $prerrequisite) 1 }}|{{ end -}}
-                            {{ end }}
-                          {{ end }}
-                        {{ end -}}
-                      {{ else }}
-                      <a class="position-relative">Ninguno</a>
-                      {{ end }}
-                    {{ end }}
-                  </small>
-                </div>
-            </div>
-          </div>
-        </div>
-        {{end}}
-        <small>
-          {{ $data := .Site.Data.content.courses }}
-        {{ range $data.prerrequisitos }}
-            {{ $item := . }}
-            {{ $item.CBO204 }}
-        {{ end }}
-        </small>
-      </div>
-    </div>
-    {{end}}
-    */}}
-
-  </main>
+      </section>
+    </main>
+  </div>
 </div>
 {{ end }}
