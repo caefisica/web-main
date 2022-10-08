@@ -65,7 +65,7 @@ footer = "Un proyecto del Centro de Apoyo al Estudiante de Física"
 copyRight = "Copyright (c) 2022 — CAE Física"
 
 # Alert
-alert = true
+alert = false
 alertDismissable = true
 # alertText = ""
 # alertText = ""
