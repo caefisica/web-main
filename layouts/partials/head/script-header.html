@@ -9,7 +9,7 @@
 {{ if eq (hugo.Environment) "production" -}}
 <script async src="https://cdn.splitbee.io/sb.js"></script>
 {{ end -}}
-{{ if eq .Section "cursos" "apuntes" "blog" "tags" -}}
+{{ if eq .Section "unmsm" "apuntes" "blog" "tags" -}}
 <script src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
 {{ end -}}
 {{ if .Params.math }}
