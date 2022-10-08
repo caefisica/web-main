@@ -12,58 +12,68 @@ body {
   margin-top: -0.9rem;
   margin-right: -19vw;
   margin-bottom: 1em;
-}
 
-.sidenote.left {
-  float: left;
-  margin-left: -20vw;
-  margin-bottom: 1em;
+  &.left {
+    float: left;
+    margin-left: -20vw;
+    margin-bottom: 1em;
+  }
+
+  &:target {
+    border: hsl(55, 55%, 70%) 1.5px solid;
+    padding: 0 .5rem;
+    scroll-margin-block-start: 10rem;
+  }
 }
 
 /* (WIP) add border when a sidenote is clicked on */
-.sidenote:target {
-  border: hsl(55, 55%, 70%) 1.5px solid;
-  padding: 0 .5rem;
-  scroll-margin-block-start: 10rem;
-}
 
 /* sidenote counter */
+
 .sidenote-number {
   counter-increment: sidenote-counter;
+
+  &::after {
+    position: relative;
+    vertical-align: baseline;
+  }
 }
 
-.sidenote-number::after,
 .sidenote::before {
   position: relative;
   vertical-align: baseline;
 }
 
 /* add number in main content */
-.sidenote-number::after {
-  content: counter(sidenote-counter);
-  font-size: 0.7rem;
-  top: -0.5rem;
-  left: 0.1rem;
+
+.sidenote-number {
+  &::after {
+    content: counter(sidenote-counter);
+    font-size: 0.7rem;
+    top: -0.5rem;
+    left: 0.1rem;
+  }
+
+  ~ .sidenote::before {
+    content: counter(sidenote-counter) " ";
+    font-size: 0.7rem;
+    top: 1.2rem;
+    margin-left: -1rem;
+  }
 }
 
 /* add number in front of the sidenote */
-.sidenote-number ~ .sidenote::before {
-  content: counter(sidenote-counter) ' ';
-  font-size: 0.7rem;
-  top: 1.2rem;
-  margin-left: -1rem;
-}
 
 label.sidenote-toggle:not(.sidenote-number) {
   display: none;
 }
 
 /* sidenotes inside blockquotes are indented more */
+
 blockquote .sidenote {
   margin-right: -24vw;
   width: 18vw;
 }
-
 
 label.sidenote-toggle {
   display: inline;
@@ -78,9 +88,11 @@ input.sidenote-toggle {
   label.sidenote-toggle:not(.sidenote-number) {
     display: inline;
   }
+
   .sidenote {
     display: none;
   }
+
   .sidenote-toggle:checked + .sidenote {
     display: block;
     margin: 0.5rem 1.25rem 1rem 0.5rem;
@@ -89,7 +101,9 @@ input.sidenote-toggle {
     clear: both;
     width: 95%;
   }
+
   /* tweak indentation of sidenote inside a blockquote */
+
   blockquote .sidenote {
     margin-right: -25vw;
     width: 16vw;

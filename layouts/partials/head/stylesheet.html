@@ -12,6 +12,9 @@
 {{ $banner := resources.Get "scss/components/_banner.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $banner.Permalink }}" integrity="{{ $banner.Data.Integrity }}" media="screen">
 {{ end -}}
-
-  <noscript><link rel="stylesheet" href="/css/lazyload.css"></noscript>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css">
+{{ if .Params.Sidenote }}
+{{ $sidenotes := resources.Get "scss/components/articles/_sidenote.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $sidenotes.Permalink }}" integrity="{{ $sidenotes.Data.Integrity }}" media="screen">
+{{ end }}
+<noscript><link rel="stylesheet" href="/css/lazyload.css"></noscript>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css">
