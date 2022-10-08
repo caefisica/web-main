@@ -2,13 +2,13 @@
   name = "Undergraduate"
   weight = 10
   identifier = "undergraduate"
-  url = "/en/courses/undergraduate/"
+  url = "/en/unmsm/undergraduate/"
 
 [[cursos]]
   name = "Postgraduate"
   weight = 20
   identifier = "postgraduate"
-  url = "/en/courses/postgraduate/"
+  url = "/en/unmsm/postgraduate/"
 
 [[summaries]]
   name = "Lecture Notes"

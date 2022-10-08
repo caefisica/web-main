@@ -7,7 +7,7 @@
   transition: transform 0.3s;
 }
 
-.list.cursos .card,
+.list.unmsm .card,
 .list.apuntes .card {
   transition: transform 0.3s;
 }
@@ -25,7 +25,7 @@
 .home .card:hover,
 .blog .card:hover,
 .newsletter .card:hover,
-.list.cursos .card:hover,
+.list.unmsm .card:hover,
 .list.apuntes .card:hover,
 .contributors.list .card:hover,
 .experimental.list .card:hover,
@@ -34,7 +34,7 @@
   transform: scale(1.025);
 }
 
-.list.cursos .section-featured .card {
+.list.unmsm .section-featured .card {
   margin: 0;
 }
 
@@ -46,13 +46,13 @@
 }
 
 .home .section-featured .card-body,
-.list.cursos .section-featured .card-body,
+.list.unmsm .section-featured .card-body,
 .list.apuntes .section-featured .card-body {
   padding: 1rem;
 }
 
 .home .section-featured .card-title,
-.list.cursos .section-featured .card-title,
+.list.unmsm .section-featured .card-title,
 .list.apuntes .section-featured .card-title {
   font-size: $font-size-base;
   font-weight: normal;

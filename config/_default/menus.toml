@@ -2,13 +2,13 @@
   name = "Pregrado"
   weight = 10
   identifier = "cursos"
-  url = "/cursos/pregrado/"
+  url = "/unmsm/pregrado/"
 
 [[cursos]]
   name = "Posgrado"
   weight = 20
   identifier = "posgrado"
-  url = "/cursos/posgrado/"
+  url = "/unmsm/posgrado/"
 
 [[apuntes]]
   name = "Apuntes"
@@ -47,7 +47,7 @@
 [[main]]
   name = "Cursos"
   weight = 10
-  url = "/cursos/"
+  url = "/unmsm/"
   parent = "Académico"
 
 [[main]]
@@ -59,7 +59,7 @@
 [[main]]
   name = "Facultad"
   weight = 20
-  url = "/cursos/facultad/directorio/"
+  url = "/unmsm/facultad/directorio/"
   parent = "Académico"
 
 [[social]]
