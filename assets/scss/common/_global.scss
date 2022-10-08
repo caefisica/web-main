@@ -62,7 +62,7 @@
 .list.taxonomy.contributors .content,
 .list.term.contributors .content,
 .list.section.blog .content,
-.list.section.cursos .content,
+.list.section.unmsm .content,
 .list.section.apuntes .content,
 .list.taxonomy.types .content,
 .list.taxonomy.functionalities .content {
@@ -72,7 +72,7 @@
 
 .single.section.apuntes .content,
 .single.section.experimental .content,
-.single.section.cursos .content,
+.single.section.unmsm .content,
 .list.section.experimental .content,
 .list.term.types .content,
 .list.term.functionalities .content {
@@ -149,7 +149,7 @@ body.docs {
 @media (min-width: 1200px) {
   .single.section.blog .special_display,
   .single.section.experimental .special_display,
-  .single.section.cursos .special_display,
+  .single.section.unmsm .special_display,
   .single.section.apuntes .special_display {
     display: none;
   }
