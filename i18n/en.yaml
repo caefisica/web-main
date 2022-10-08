@@ -68,9 +68,7 @@
 # Docs-TOC
 
 - id: autor
-  translation: "Author"
-- id: autores
-  translation: "Authors"
+  translation: "Written by"
 - id: toc
   translation: "Content"
 

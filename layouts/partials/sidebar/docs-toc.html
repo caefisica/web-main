@@ -1,11 +1,7 @@
 <div class="author-links page-links d-none d-xl-block pb-3">
   <h2 class="mb-2 mt-0 ms-4 fs-6">
   {{- if isset .Params "contributors" -}}
-  {{- if eq (len .Params.contributors) 1 -}}
-    {{- i18n "autor" -}}
-  {{- else -}}
-    {{- i18n "autores" -}}
-  {{- end -}}
+  {{- i18n "autor" -}}
   {{- end -}}
   </h2>
   {{- $member_list := .Site.Data.authors.members -}}
