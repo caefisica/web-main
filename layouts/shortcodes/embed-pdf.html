@@ -1,5 +1,7 @@
 <script type="text/javascript" src= '{{"/" | relURL}}js/components/pdf-js/build/pdf.js'></script>
-<link rel="stylesheet" href="{{ "css/pdf-embed.css" | relURL }}"/>
+{{/* SCSS */}}
+{{- $pdf_embed := resources.Get "scss/components/articles/_pdf-embed.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
+<link rel="stylesheet" href="{{ $pdf_embed.Permalink }}" integrity="{{ $pdf_embed.Data.Integrity }}" media="screen">
 <div id="paginator">
     <button class="btn btn-primary" id="prev">Anterior</button>
     &nbsp;
