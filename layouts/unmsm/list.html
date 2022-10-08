@@ -41,7 +41,7 @@
           </div>
         </div>
         <div class="group-data d-grid mt-3">
-          {{$pregrado := .Site.GetPage "cursos/pregrado"}}
+          {{$pregrado := .Site.GetPage "unmsm/pregrado"}}
           {{ range $pregrado.Sections  -}}
               <a target rel="noopener noreferrer" href="{{ .RelPermalink }}" class="text-data fw-semibold d-flex align-items-start text-decoration-none">
                 {{ partial "svg/books.svg" }}
