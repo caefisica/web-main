@@ -81,7 +81,6 @@
 
 {{ if eq .Kind "home" -}}
 <script src="{{ "js/jquery.min.js" | relURL }}" type="text/javascript" defer></script>
-<script src="{{ $docSearch.RelPermalink }}" integrity="{{ $docSearch.Data.Integrity }}" crossorigin="anonymous" defer></script>
 <script src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
 {{- $youtube_pop := resources.Get "js/components/youtube_pop.js" | js.Build | minify | fingerprint "sha512" -}}
 <script src="{{ $youtube_pop.RelPermalink }}" integrity="{{ $youtube_pop.Data.Integrity }}" crossorigin="anonymous" defer></script>
