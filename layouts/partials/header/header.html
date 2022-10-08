@@ -27,7 +27,7 @@
           {{ range .Site.Menus.main -}}
             {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
             {{- $active = or $active (eq .Name $current.Title) -}}
-            {{- $active = or $active (and (eq .Name "Cursos") (eq $current.Section "cursos")) -}}
+            {{- $active = or $active (and (eq .Name "Cursos") (eq $current.Section "unmsm")) -}}
             {{- $active = or $active (and (eq .Name "Apuntes") (eq $current.Section "apuntes")) -}}
             {{- $active = or $active (and (eq .Name "Experimental") (eq $current.Section "experimental" "types" "functionalities")) -}}
             {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog" "contributors")) -}}
@@ -101,7 +101,7 @@
   </nav>
 </header>
 
-{{ if eq .Section "cursos" "apuntes" -}}
+{{ if eq .Section "unmsm" "apuntes" -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
   <div class="container-xxl d-flex align-items-md-center">
 
