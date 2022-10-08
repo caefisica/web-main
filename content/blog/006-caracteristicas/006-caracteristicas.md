@@ -13,6 +13,7 @@ tags: ["otros"]
 toc: false
 math: true
 pdf: true
+sidenote: true
 weight: 60
 ---
 
