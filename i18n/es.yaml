@@ -68,16 +68,14 @@
 # Docs-TOC
 
 - id: autor
-  translation: "Autor"
-- id: autores
-  translation: "Autores"
+  translation: "Escrito por"
 - id: toc
   translation: "Contenido"
 
 # Información del curso
 
 - id: informacion_curso
-  translation: "Información general"
+  translation: "Información del curso"
 - id: codigo_curso
   translation: "Código"
 - id: creditos_curso

@@ -28,7 +28,9 @@
 			<p class="lead">{{ .Params.lead | safeHTML }}</p>
       {{ if ne .Params.toc false -}}
 			{{ partial "main/blog-meta.html" . }}
-      {{ partial "box.html" . }}
+      {{ if .Params.semester }}
+      {{- partial "components/information_box.html" . -}}
+      {{- end -}}
 			{{ end -}}
       {{ if ne .Params.toc false -}}
 			<nav class="d-xl-none" aria-label="Quaternary navigation">
