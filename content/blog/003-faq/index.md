@@ -20,7 +20,7 @@ weight: 30
 2. **¿Qué es un crédito académico?**
 
     El crédito académico es una medida del tiempo formativo exigido a los estudiantes para lograr aprendizajes teóricos y prácticos. Para los estudios presenciales se define un crédito académico como equivalente a un mínimo de dieciséis (16) horas lectivas de teoría o el doble de horas de práctica (Artículo 101 del Estatuto de la UNMSM, 2016).
-    
+
     En términos simples: el crédito académico mide cuántas horas de estudio debes dedicarle a un curso. Un crédito equivale a 48 horas de estudio (entre clases y estudio propio) en **el ciclo académico**. Al tener el ciclo 16 semanas, **un crédito académico equivale a 3 horas de estudio semanal**, lo que incluye clases del profesor y estudio por cuenta propia.
 
 3. **¿Es lo mismo pasantía que intercambio?**
