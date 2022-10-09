@@ -3,8 +3,8 @@
   functions = "functions"
 
 [build.environment]
-  NODE_VERSION = "18.10.0"
-  NPM_VERSION = "8.19.0"
+  NODE_VERSION = "17.8.0"
+  NPM_VERSION = "8.14.0"
 
 [context.production]
   command = "npm run build && cp public/es/404.html public/404.html"
