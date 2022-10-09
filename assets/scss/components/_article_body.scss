@@ -17,8 +17,8 @@
 }
 
 .docs-content {
-  p a, 
-  li a, 
+  p a,
+  li a,
   td a {
     background: linear-gradient(90deg, hsla(60, 2%, 74%, 0), hsla(60, 2%, 74%, 0)), linear-gradient(90deg, #bfbfbc, #bfbfbc);
     background-position: 100% 100%, 0 100%;
@@ -29,7 +29,7 @@
     text-decoration: inherit;
   }
 
-  p a:hover, 
+  p a:hover,
   li a:hover,
   td a:hover {
     background-size: 0 0.1em, 100% 0.1em;

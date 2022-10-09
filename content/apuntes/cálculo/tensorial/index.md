@@ -23,11 +23,11 @@ types: ["matemática"]
 
 {{< alert icon="👉" text="REQUISITOS: Para un mejor entendimiento del curso Cálculo III se necesitan comprender los conceptos vistos en los anteriores cursos de cálculo (diferencial e integral), es decir tener una buena base tanto en las derivadas como las integrales." />}}
 
-### Funciones vectoriales
+## Funciones vectoriales
 
 En esta parte del curso se estudian las funciones que utilizan vectores como valores, y estas funciones son necesarias para poder describir tanto curvas como superficies en el espacio.
 
-#### Vectores en $\mathbb{R}^n$
+### Vectores en $\mathbb{R}^n$
 
 En este apartado se detallan sobre los vectores, un concepto fundamental para el estudio del cálculo de funciones de varias variables.
 
@@ -47,22 +47,22 @@ Y de manera general para un vector en $\mathbb{R}^n$ primero se define el espaci
    \vec{u}=(u_1,u_2,u_3,\ldots,u_n)
    $$
 
-##### Norma de un vector
+#### Norma de un vector
 
 La norma o _longitud_ de un vector $\vec{u}=(u_1,u_2,\ldots,u_n)$, esta definida como:
 $$|\vec{u}|=\sqrt{u_1^2+u_2^2+\ldots+u_n^2}$$
 
-##### Distancia entre dos puntos
+#### Distancia entre dos puntos
 
 Sean $\vec{u}=(u_1,\ldots,u_n)$ y $\vec{v}=(v_1,\ldots,v_n)$ los puntos los cuales se desea conocer la distancia entre ambos:
 $$d(\vec{v},\vec{u})=|\vec{v}-\vec{u}|=\sqrt{(v_1-u_1)^2+\ldots+(v_n-u_n)^2}$$
 
-##### Producto punto
+#### Producto punto
 
 Teniendo los vectores $\vec{u}=(u_1,\ldots,u_n)$ y $\vec{v}=(v_1,\ldots,v_n)$ en $\mathbb{R}^n$, se define el producto punto o escalar como:
 $$\vec{u} \cdot \vec{v}=u_1v_1+u_2v_2+\ldots+u_nv_n=\sum_{i=1}^n u_iv_i$$
 
-##### Producto cruz
+#### Producto cruz
 
 Teniendo los vectores $\vec{u}=(u_1,u_2,u_3)$ y $\vec{v}=(v_1,v_2,v_3)$ se define el producto vectorial de dos vectores en $\mathbb{R}^3$ como:
 $$
@@ -75,7 +75,7 @@ v_1     & v_2     & v_3
 \right|
 $$
 
-##### Funciones vectoriales de una variable real
+#### Funciones vectoriales de una variable real
 
 Aquí nos referimos a aquellas funciones vectoriales las cuales tienen su dominio en un subconjunto de $\mathbb{R}$ y un contradominio en un espacio vectorial $\mathbb{R}^n$.
 
@@ -89,7 +89,7 @@ f(t) = \[ x_1 (t) &, x_2 (t), \ldots , x_n (t) \] \in \mathbb{R}^n
 \end{aligned}
 $$
 
-##### Dominio de una función vectorial
+#### Dominio de una función vectorial
 
 El dominio de una función vectorial $f(t)$ esta referido a aquellos valores permitidos por $t$.
 
@@ -102,7 +102,7 @@ $$
 Dom(f)=\bigcap_{i=1}^n Dom(x_i(t))
 $$
 
-##### Limite y continuidad de una función vectorial
+#### Limite y continuidad de una función vectorial
 
 El límite de una función vectorial $f$ se define tomando los límites de sus funciones componentes:
 Si $f(t)=(x_1(t),x_2(t),\ldots,x_n(t)$, entonces
@@ -119,7 +119,7 @@ $$
 \lim_{t \rightarrow a} f(t)=f(a)
 $$
 
-##### Funciones vectoriales y curvas en el espacio
+#### Funciones vectoriales y curvas en el espacio
 
 Existe una estrecha relación entre las funciones vectoriales continuas y las curvas en el espacio.
 Supongase que $x_1$, $x_2$ y $x_3$ son funciones continuas con valores reales en un intervalo _I_. Entonces el conjunto $\mathbb{C}$ de todos los puntos $(x,y,z)$ en el espacio, donde:
@@ -136,7 +136,7 @@ $$
 
 Entonces $\mathbf{r}(t)$ es el vector de posición del punto $P(x_1(t),x_2(t),x_3(t))$ en $\mathbb{C}$. Así, toda función vectorial continua $\mathbf{r}$ define una curva en el espacio $\mathbb{C}$ trazada por la punta del vector en movimiento $\mathbf{r}(t)$.
 
-##### Derivadas e integrales de funciones vectoriales
+#### Derivadas e integrales de funciones vectoriales
 
 1. Derivadas: La derivada $\mathbf{r}^{\prime}$ de una función vectorial $\mathbf{r}$ se define casi de la misma manera que las funciones con valores reales:
 
@@ -179,7 +179,7 @@ Entonces $\mathbf{r}(t)$ es el vector de posición del punto $P(x_1(t),x_2(t),x_
 
    donde $\mathbf{R}$ es una antiderivada de $\mathbf{r}$, es decir $\mathbf{R}^{\prime}(t)=\mathbf{r}(t)$.
 
-##### Longitud de arco y curvatura
+#### Longitud de arco y curvatura
 
 1. Longitud de arco: Supóngase que la curva tiene la ecuación vectorial $\mathbf{r}(t)=\langle x_1(t),x_2(t),x_3(t) \rangle$, $a\leq t \leq b$ o de igual manera las ecuaciones paramétricas $x=x_1(t)$, $y=x_2(t)$ y $z=x_3(t)$, donde $x_1^{\prime}$,$x_2^{\prime}$ y $x_3^{\prime}$ son continuas. Si la curva es recorrida exactamente una vez cuando $t$ se incrementa de $a$ a $b$, es posible demostrar que su longitud es:
 
@@ -202,9 +202,9 @@ Entonces $\mathbf{r}(t)$ es el vector de posición del punto $P(x_1(t),x_2(t),x_
 
    Teorema: La curvatura de la curva dada por la función vectorial $\mathbf{r}$ es: $$\kappa=\dfrac{|\mathbf{r}^{\prime}(t)\times \mathbf{r}^{''}(t)|}{|\mathbf{r}^{'}(t)|^3}$$
 
-#### Función Real de Variable Vectorial
+### Función Real de Variable Vectorial
 
-##### Funciones de Varias variables
+#### Funciones de Varias variables
 
 **Definición**: Una función $f$ de dos variables es una regla la cual asigna a cada par ordenado de números reales $(x,y)$ en un conjunto $\mathbb{D}$ un número real único denotado por $f(x,y)$. Donde se tiene que el conjunto $\mathbb{D}$ es el dominio de $f$ y su rango es el conjunto de valores que $f$ adopta.
 
@@ -234,9 +234,9 @@ La desigualdad $x+y+1\geq 0$ describe los puntos que se encuentran en o sobre la
 
 * Definición: Las **curvas de nivel** de una función $f$ de dos variables son las curvas con las ecuaciones $f(x,y)=k$, donde $k$ es una constante.
 
-##### Límites y continuidad de una función real de variable vectorial
+#### Límites y continuidad de una función real de variable vectorial
 
-###### Límite de una función real de variable vectorial
+##### Límite de una función real de variable vectorial
 
 Definición: Sea $f$ una función de dos variables cuyo dominio $\mathbb{D}$ incluye puntos arbitraimente cerca de $(a,b)$. Se dice entonces que el límite de $f(x,y)$ cuando $(x,y)$ se aproxima a $(a,b)$ es $L$ y se denota de la forma
 
@@ -246,7 +246,7 @@ $$
 
 si para cada número $\varepsilon > 0$ hay un correspondiendo número $\varDelta >0$ tal que $(x,y) \in \mathbb{D}$ y $0 < \sqrt{(x-a)^2+(y-b)^2} < \varDelta$ entonces $|f(x,y)-L|< \varepsilon$.
 
-###### Continuidad de una función real de variable vectorial
+##### Continuidad de una función real de variable vectorial
 
 Definición: Una función $f$ de dos variables se llama continua en $(a,b)$ si se cumple que:
 
@@ -256,7 +256,7 @@ $$
 
 Se dice que $f$ es continua en $\mathbb{D}$ si $f$ es continua en cada punto $(a,b)$ en $\mathbb{D}$.
 
-##### Derivadas parciales
+#### Derivadas parciales
 
 En general, si $f$ es una función de dos variables $x$ y $y$, sus derivadas parciales son las funciones $f_x=\dfrac{\partial f(x,y)}{\partial x}$ y $f_y=\dfrac{\partial f(x,y)}{\partial y}$.
 
@@ -268,7 +268,7 @@ $$
 f_y=\dfrac{\partial f(x,y)}{\partial x}=\lim_{h \rightarrow 0} \dfrac{f(x,y+h)-f(x,y)}{h}
 $$
 
-###### Derivadas de orden superior
+##### Derivadas de orden superior
 
 Si $f$ es una función de dos variables, sus derivadas parciales $f_x$ y $f_y$ también son funciones de dos variables, así que se pueden considerar su derivadas parciales $(f_x)_x$, $(f_x)_y$, $(f_y)_x$ y $(f_y)_y$, llamadas segundas derivadas parciales de $f$.
 
@@ -281,9 +281,9 @@ $$
 \end{aligned}
 $$
 
-##### Derivadas direccionales y vector gradiente
+#### Derivadas direccionales y vector gradiente
 
-###### Derivadas direccionales
+##### Derivadas direccionales
 
 Definición: La **derivada direccional** de $f$ en $(x_0,y_0)$ en la direccion de un vector unitario $\mathbf{u}=\langle a, b \rangle$ se define como:
 
@@ -297,7 +297,7 @@ $$
 \mathbb{D}_{\mathbf{u}} f(x,y)=f_x (x,y)a+f_y (x,y)b
 $$
 
-###### El vector gradiente
+##### El vector gradiente
 
 Definición: Si $f$ es una función de dos variables $x$ y $y$, entonces el gradiente de $f$ es la función vector $\nabla f$ definida por:
 
@@ -311,7 +311,7 @@ $$
 \nabla f(x,y)=\langle f_x , f_y \rangle= \langle \cos{x} +ye^{xy}, xe^{xy} \rangle
 $$
 
-###### La derivada direccional en términos del vector gradiente
+##### La derivada direccional en términos del vector gradiente
 
 Se tiene:
 
@@ -321,13 +321,13 @@ $$
 
 Esto expresa la derivada direccional en la dirección de un vector unitario $\mathbf{u}$ como la proyección escalar del vector gradiente en $\mathbf{u}$.
 
-##### Planos tangentes
+#### Planos tangentes
 
-###### Vector normal
+##### Vector normal
 
 Teorema: Si una ecuación de una superficie $\mathbb{S}$ es $f(x,y,z)=0$ y $f_x,f_y,f_z$ son continuas y $P_0 (x_0,y_0,z_0)$ es un punto del plano de $\mathbb{S}$, entonces un vector normal a $\mathbb{S}$ en $P_0$ es $\vec{N}= \nabla f(x_0,y_0,z_0)$.
 
-###### Ecuación del plano tangente
+##### Ecuación del plano tangente
 
 Definición: Si una ecuación de una superficie $\mathbb{S}$ es: $f(x,y,z)=0$, entonces el plano tangente de $\mathbb{S}$ en un punto $P_0 (x_0,y_0,z_0)$ es el plano que tiene como vector normal a $\vec{N}=\nabla f(x_0,y_0,z_0)$ y la ecuación del plano tangente esta dado por:
 
@@ -335,7 +335,7 @@ $$
 \mathbb{D}_1 f(x_0,y_0,z_0)(x-x_0)+\mathbb{D}_2 f(x_0,y_0,z_0)(y-y_0)+\mathbb{D}_3 f(x_0,y_0,z_0)(z-z_0)=0.
 $$
 
-###### Ecuación simétrica de la recta normal
+##### Ecuación simétrica de la recta normal
 
 Definición: La recta normal a la superficie $\mathbb{S}$ en el punto $P_0 \in \mathbb{S}$ es la recta que pasa a través de $P_0$ y sigue la dirección del vector normal del plano tangente a $\mathbb{S}$ en $P_0$.
 
@@ -351,7 +351,7 @@ $$
 {{< details "Multiplicadores de Lagrange" >}}
 {{< /details >}}
 
-#### Integrales Múltiples
+### Integrales Múltiples
 
 {{< details "Integrales dobles" >}}
 {{< /details >}}
@@ -365,7 +365,7 @@ $$
 {{< details "Cambio de coordenadas en integrales triples" >}}
 {{< /details >}}
 
-#### Cálculo Vectorial
+### Cálculo Vectorial
 
 {{< details "Campos Vectoriales" >}}
 {{< /details >}}
