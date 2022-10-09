@@ -17,3 +17,5 @@
 <link rel="stylesheet" href="{{ $sidenotes.Permalink }}" integrity="{{ $sidenotes.Data.Integrity }}" media="screen">
 {{ end }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css">
+{{ $noscript := resources.Get "scss/components/_noscript.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<noscript><link rel="stylesheet" href="{{ $noscript.Permalink }}"></noscript>
