@@ -11,7 +11,7 @@
   </nav>
   {{- end -}}
   {{- if .Params.toc -}}
-  <main class="docs-content col-lg-10 col-xl-10">
+  <main class="docs-content col-lg-10 col-xl-9">
   {{- else -}}
   <main class="docs-content col-lg-11 col-xl-10 mx-xl-auto">
   {{- end -}}
@@ -26,7 +26,6 @@
       </nav>
     {{- end -}}
     <h1>{{ .Title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</h1>
-    <p class="lead">{{ .Params.lead | safeHTML }}</p>
     {{ if ne .Params.toc false -}}
     {{- partial "main/blog-meta.html" . -}}
     <nav class="d-xl-none" aria-label="Quaternary navigation">
