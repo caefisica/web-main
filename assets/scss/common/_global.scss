@@ -321,6 +321,13 @@ body {
   text-decoration: none;
 }
 
+.apuntes .docs-toc {
+  #TableOfContents a {
+    inline-size: 162px;
+    overflow-wrap: break-word;
+  }
+}
+
 article li ul {
   padding-top: 1rem;
   padding-bottom: 1rem;
