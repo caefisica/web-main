@@ -5,7 +5,7 @@
 <div class="header-bar"></div>
 
 <header class="navbar navbar-expand-lg navbar-light doks-navbar">
-  <nav class="container-xxl flex-wrap flex-lg-nowrap" aria-label="Navegación principal">
+  <nav class="container-fluid flex-wrap flex-lg-nowrap" aria-label="Navegación principal">
     <a class="navbar-brand order-0" href="{{ "/" | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
       {{ .Site.Params.Title }} <span class="text-muted">-</span> <span class="subtitle-brand">{{ .Site.Params.Subtitle }} </span>
     </a>
@@ -103,7 +103,7 @@
 
 {{ if eq .Section "unmsm" "apuntes" -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
-  <div class="container-xxl d-flex align-items-md-center">
+  <div class="container-fluid d-flex align-items-md-center">
 
     <div class="d-inline-flex me-auto placeholder-glow">
       <div id="search-placeholder" aria-hidden="true">
@@ -148,7 +148,7 @@
 
 {{ if eq .Section "tutorial" -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
-  <div class="container-xxl d-flex align-items-md-center">
+  <div class="container-fluid d-flex align-items-md-center">
 
     <nav class="nav">
       {{ range .Site.Menus.secondary -}}
@@ -175,7 +175,7 @@
 
 {{ if or (eq .Section "experimental") (eq .Data.Singular .Kind "type") (eq .Data.Singular .Kind "functionality") -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Navegación terciaria">
-  <div class="container-xxl d-flex align-items-md-center">
+  <div class="container-fluid d-flex align-items-md-center">
 
     <nav class="nav">
       {{ range .Site.Menus.tertiary -}}
