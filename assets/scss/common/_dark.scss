@@ -61,6 +61,10 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $link-color-dark;
 }
 
+[data-dark-mode] .group-data svg {
+  filter: grayscale(85%);
+}
+
 [data-dark-mode] body .btn-menu svg {
   color: $body-color-dark;
 }

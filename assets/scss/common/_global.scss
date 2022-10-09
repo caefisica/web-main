@@ -260,7 +260,8 @@ body {
   order: 2;
   border-left: 1px dashed $gray-200;
   border-right: 1px dashed $gray-200;
-  /*width: 14%;*/
+
+  /* width: 14%; */
 }
 
 @supports ((position:-webkit-sticky) or (position:sticky)) {
