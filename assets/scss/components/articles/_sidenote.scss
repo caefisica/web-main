@@ -18,12 +18,11 @@ body {
     margin-left: -20vw;
     margin-bottom: 1em;
   }
+}
 
-  &:target {
-    border: hsl(55, 55%, 70%) 1.5px solid;
-    padding: 0 .5rem;
-    scroll-margin-block-start: 10rem;
-  }
+.sidenote::before {
+  position: relative;
+  vertical-align: baseline;
 }
 
 /* (WIP) add border when a sidenote is clicked on */
@@ -36,18 +35,8 @@ body {
   &::after {
     position: relative;
     vertical-align: baseline;
-  }
-}
 
-.sidenote::before {
-  position: relative;
-  vertical-align: baseline;
-}
-
-/* add number in main content */
-
-.sidenote-number {
-  &::after {
+    /* add number in main content */
     content: counter(sidenote-counter);
     font-size: 0.7rem;
     top: -0.5rem;
@@ -62,12 +51,6 @@ body {
   }
 }
 
-/* add number in front of the sidenote */
-
-label.sidenote-toggle:not(.sidenote-number) {
-  display: none;
-}
-
 /* sidenotes inside blockquotes are indented more */
 
 blockquote .sidenote {
@@ -75,9 +58,19 @@ blockquote .sidenote {
   width: 18vw;
 }
 
+.sidenote:target {
+  border: hsl(55, 55%, 70%) 1.5px solid;
+  padding: 0 0.5rem;
+  scroll-margin-block-start: 10rem;
+}
+
 label.sidenote-toggle {
   display: inline;
   cursor: pointer;
+}
+
+label.sidenote-toggle:not(.sidenote-number) {
+  display: none; /* add number in front of the sidenote */
 }
 
 input.sidenote-toggle {
@@ -93,6 +86,15 @@ input.sidenote-toggle {
     display: none;
   }
 
+  /* tweak indentation of sidenote inside a blockquote */
+
+  blockquote .sidenote {
+    margin-right: -25vw;
+    width: 16vw;
+  }
+
+  /* end */
+
   .sidenote-toggle:checked + .sidenote {
     display: block;
     margin: 0.5rem 1.25rem 1rem 0.5rem;
@@ -100,12 +102,5 @@ input.sidenote-toggle {
     left: 1rem;
     clear: both;
     width: 95%;
-  }
-
-  /* tweak indentation of sidenote inside a blockquote */
-
-  blockquote .sidenote {
-    margin-right: -25vw;
-    width: 16vw;
   }
 }
