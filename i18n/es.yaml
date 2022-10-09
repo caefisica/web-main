@@ -89,3 +89,10 @@
   translation: "Lo siento, no encontramos esta página"
 - id: 404_text
   translation: "¿Estás seguro de que estaba acá? Puedes consultar con alguno de nuestros miembros si crees que se trata de un error."
+
+# Lista "Cursos/UNMSM"
+
+- id: apuntes
+  translation: "Apuntes/Notas"
+- id: apuntes_descripción
+  translation: "Información adicional sobre tópicos selectos de física"
