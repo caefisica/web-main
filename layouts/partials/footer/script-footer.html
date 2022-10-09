@@ -54,6 +54,9 @@
   {{ if .Site.Params.options.highLight -}}
     <script src="{{ $highlight.RelPermalink }}" defer></script>
   {{ end -}}
+  {{ if eq .Kind "home"}}
+  <script src="{{ $docSearch.RelPermalink }}" defer></script>
+  {{ end -}}
   {{ if eq .Section "unmsm" "apuntes" "blog" "tags" -}}
   <script src="{{ $docSearch.RelPermalink }}"></script>
   {{ end -}}
@@ -69,6 +72,9 @@
   {{ if .Site.Params.options.highLight -}}
     <script src="{{ $highlight.RelPermalink }}" integrity="{{ $highlight.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}
+  {{ if eq .Kind "home"}}
+  <script src="{{ $docSearch.RelPermalink }}" integrity="{{ $docSearch.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{ end }}
   {{ if eq .Section "unmsm" "apuntes" "blog" "tags"}}
   <script src="{{ $docSearch.RelPermalink }}" integrity="{{ $docSearch.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}
