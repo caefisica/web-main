@@ -163,8 +163,8 @@ a.docs-link {
 
   img {
     height: 38px;
-    filter: gray;
     -webkit-filter: grayscale(1);
+    filter: gray;
 
     &:hover {
       -webkit-filter: grayscale(0);
