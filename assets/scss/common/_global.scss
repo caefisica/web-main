@@ -230,7 +230,7 @@ body {
 
 @include media-breakpoint-up(xl) {
   .docs-sidebar {
-    flex: 0 1 320px;
+    flex: 0 1 264px;
   }
 }
 
@@ -260,6 +260,7 @@ body {
   order: 2;
   border-left: 1px dashed $gray-200;
   border-right: 1px dashed $gray-200;
+  /*width: 14%;*/
 }
 
 @supports ((position:-webkit-sticky) or (position:sticky)) {
@@ -275,6 +276,12 @@ body {
 .docs-content {
   padding-bottom: 3rem;
   order: 1;
+
+  @media (min-width: 1024px) {
+    .max-width {
+      max-width: 50rem;
+    }
+  }
 
   tr,
   td,

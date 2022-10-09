@@ -107,9 +107,11 @@ a.docs-link {
   font-size: $font-size-base;
 }
 
+/*
 .list.unmsm a.docs-link {
   padding: 0.2rem 0;
 }
+*/
 
 .page-links li {
   margin-top: 0.375rem;
@@ -139,6 +141,10 @@ a.docs-link {
   transition: all 0.25s ease;
 }
 
+.author-links a {
+  color: $link-color;
+}
+
 .docs-links h3.sidebar-link,
 .page-links h3.sidebar-link {
   text-transform: none;
@@ -163,14 +169,6 @@ a.docs-link {
 
   img {
     height: 38px;
-    -webkit-filter: grayscale(1);
-    filter: gray;
-
-    &:hover {
-      -webkit-filter: grayscale(0);
-      filter: none;
-      transition: transform 0.35s ease;
-    }
   }
 }
 
