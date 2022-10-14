@@ -274,14 +274,6 @@ body {
   }
 }
 
-.list.section.unmsm .docs-content {
-  @media (min-width: 1024px) {
-    .max-width {
-      max-width: 60rem;
-    }
-  }
-}
-
 .docs-content {
   padding-bottom: 3rem;
   order: 1;
@@ -300,6 +292,14 @@ body {
 
   tr {
     border-bottom-width: 1px;
+  }
+}
+
+.list.section.unmsm .docs-content {
+  @media (min-width: 1024px) {
+    .max-width {
+      max-width: 60rem;
+    }
   }
 }
 
