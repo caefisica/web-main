@@ -14,95 +14,79 @@ toc: true
 contributors: ["David", "Renzo"]
 ---
 
-## UNMSM
+## Local
 
 ### Física del Estado sólido
 
 La Maestría en Física, con mención en Física del Estado Sólido, es un programa académico que se imparte en la Universidad Nacional Mayor de San Marcos, desde el año 1980. En la actualidad el Departamento Académico de Física del Estado Sólido de la Facultad cuenta con doce doctores y cinco magísteres, este programa se sustenta en los recursos humanos e infraestructura disponibles, en las necesidades de la sociedad.
 
-Duración: 2 años (4 semestres).
+La duración es de 2 años (4 semestres).
 
-#### Plan de Estudios
-
-{{< details "Actualizado el 2020" >}}
+{{< details "Plan de Estudios - Actualizado el 2020" >}}
 {{< pdfjs file="PE_2020_Maestria_Solido.pdf" >}}
 {{< /details >}}
 
-#### Perfil del Ingresante
+<br>
 
-El ingresante al programa de Maestría en Física debe poseer el grado académico de Bachiller en Física o áreas afines como Ciencias o Ingeniería de los Materiales, Ingeniería Ambiental, Ingeniería Electrónica, Ingeniería de Minas, Ciencia o Ingeniería Química, Ciencias Matemáticas, entre otras que posean sólida formación en física y matemáticas que se enmarquen dentro de las líneas de investigación del presente programa de Maestría.
+1. **Perfil del Ingresante**: El ingresante al programa de Maestría en Física debe poseer el grado académico de Bachiller en Física o áreas afines como Ciencias o Ingeniería de los Materiales, Ingeniería Ambiental, Ingeniería Electrónica, Ingeniería de Minas, Ciencia o Ingeniería Química, Ciencias Matemáticas, entre otras que posean sólida formación en física y matemáticas que se enmarquen dentro de las líneas de investigación del presente programa de Maestría.
 
-#### Perfil del Egresado
-
-El graduado del presente programa de Maestría es un investigador científico que diseña una investigación original y completa mediante la aplicación de las normas aprendidas sobre metodología científica. Esta investigación debe, además, desarrollar los conocimientos especializados adquiridos, y aportar una visión crítica y personal.
+2. **Perfil del Egresado**: El graduado del presente programa de Maestría es un investigador científico que diseña una investigación original y completa mediante la aplicación de las normas aprendidas sobre metodología científica. Esta investigación debe, además, desarrollar los conocimientos especializados adquiridos, y aportar una visión crítica y personal.
 
 ### Física Nuclear
 
 La Maestría en Física con mención en Física Nuclear, es un programa académico cuya finalidad es contribuir al desarrollo de conocimiento especializado y profundo de la Física Nuclear, a través del desarrollo de habilidades y aptitudes investigativas a partir del diseño y ejecución de estudios científicos que se materialicen en la sustentación de la tesis y la difusión de los resultados de investigación.
 
-Duráción: 2 años (4 semestres).
+La duración es de 2 años (4 semestres).
 
-#### Plan de Estudios
-
-{{< details "Actualizado el 2020" >}}
+{{< details "Plan de Estudios - Actualizado el 2020" >}}
 {{< pdfjs file="PE_2020_Maestria_Nuclear.pdf" >}}
 {{< /details >}}
 
-#### Perfil del ingresante
+<br>
 
-El ingresante al programa de Maestría en Física con mención en Física Nuclear debe poseer el grado académico de Bachiller en Física o áreas afines como Ciencias de los Materiales, Ingeniería Electrónica, Ingeniería Eléctrica, Ingeniería Informática, Ciencia o Ingeniería Química, Ciencias Matemáticas, entre otras que posean sólida formación en física y matemáticas que se enmarquen dentro de las líneas de investigación del presente programa de Maestría.
+1. **Perfil del ingresante**: El ingresante al programa de Maestría en Física con mención en Física Nuclear debe poseer el grado académico de Bachiller en Física o áreas afines como Ciencias de los Materiales, Ingeniería Electrónica, Ingeniería Eléctrica, Ingeniería Informática, Ciencia o Ingeniería Química, Ciencias Matemáticas, entre otras que posean sólida formación en física y matemáticas que se enmarquen dentro de las líneas de investigación del presente programa de Maestría.
 
-#### Perfil del egresado
-
-El graduado del presente programa de Maestría es un investigador científico que diseña una investigación original y completa mediante la aplicación de las normas aprendidas sobre metodología científica en física nuclear y de altas energías.
+2.  **Perfil del egresado**: El graduado del presente programa de Maestría es un investigador científico que diseña una investigación original y completa mediante la aplicación de las normas aprendidas sobre metodología científica en física nuclear y de altas energías.
 
 ### Geofísica
 
 La Maestría en Física con mención en Geofísica es un programa académico cuyo plan de estudios se estructura en un esquema semestral y se organiza en tres áreas con asignaturas comunes obligatorias y asignaturas electivas. Las áreas permiten investigar y documentar fenómenos naturales a escalas espaciales globales, regionales y locales, y a escalas variables de tiempo.
 
-Duración: 2 años (4 semestres).
+La duración es de 2 años (4 semestres).
 
-#### Plan de Estudios
-
-{{< details "Actualizado el 2020" >}}
+{{< details "Plan de Estudios - Actualizado el 2020" >}}
 {{< pdfjs file="PE_2020_Maestria_Geofisica.pdf" >}}
 {{< /details >}}
 
-#### Perfil del ingresante
+<br>
 
-El ingresante al programa de Maestría en Física con mención en Geofísica debe poseer el grado académico de Bachiller en Física o áreas afines como Ciencias de los Materiales, Ingeniería Ambiental, Ingeniería Geológica, Ingeniería de Minas, Ciencia o Ingeniería Química, Ciencias Matemáticas, entre otras que posean sólida formación en física y matemáticas que se enmarquen dentro de las líneas de investigación del presente programa de Maestría. Así mismo el ingresante debe poseer capacidades de observación, análisis y crítica sobre los fenómenos naturales.
+1. **Perfil del ingresante**: El ingresante al programa de Maestría en Física con mención en Geofísica debe poseer el grado académico de Bachiller en Física o áreas afines como Ciencias de los Materiales, Ingeniería Ambiental, Ingeniería Geológica, Ingeniería de Minas, Ciencia o Ingeniería Química, Ciencias Matemáticas, entre otras que posean sólida formación en física y matemáticas que se enmarquen dentro de las líneas de investigación del presente programa de Maestría. Así mismo el ingresante debe poseer capacidades de observación, análisis y crítica sobre los fenómenos naturales.
 
-#### Perfil del egresado
-
-El graduado del presente programa de Maestría es un investigador científico que diseña una investigación original y completa mediante la aplicación de las normas aprendidas sobre metodología científica. Esta investigación debe, además, desarrollar los conocimientos especializados adquiridos, y aportar una visión crítica y personal.
+2. **Perfil del egresado**: El graduado del presente programa de Maestría es un investigador científico que diseña una investigación original y completa mediante la aplicación de las normas aprendidas sobre metodología científica. Esta investigación debe, además, desarrollar los conocimientos especializados adquiridos, y aportar una visión crítica y personal.
 
 ### Hidraúlica Computacional
 
 La Maestría en Ingeniería Hidráulica con mención en Hidráulica Computacional es un programa académico cuyo currículo se concibe como un proceso de formación integral de profesionales competentes, capaces de resolver de manera creativa, responsable, eficiente y eficaz los problemas que tengan a bien abordar es este campo específico; y será el instrumento de gestión que convierte una propuesta pedagógica en acción educativa dentro de esta área.
 
-Duración: 2 años (4 semestres).
+La duración es de 2 años (4 semestres).
 
 ### Ing. Hidraúlica
 
 La Maestría en Ingeniería Hidráulica con mención en Hidráulica Computacional es un programa académico cuyo currículo se concibe como un proceso de formación integral de profesionales competentes, capaces de resolver de manera creativa, responsable, eficiente y eficaz los problemas que tengan a bien abordar es este campo específico.
 
-Duración: 2 años (4 semestres).
+La duración es de 2 años (4 semestres).
 
-#### Plan de Estudios
-
-{{< details "Actualizado el 2020" >}}
+{{< details "Plan de Estudios - Actualizado el 2020" >}}
 {{< pdfjs file="PE_2020_Maestria_IHidraulica.pdf" >}}
 {{< /details >}}
 
-#### Perfil del ingresante
+<br>
 
-El ingresante al programa de Maestría en Física debe poseer el grado académico de Bachiller en Ingeniería de Mecánica de Fluidos, Física o áreas afines como Ingeniería Ambiental, Ingeniería Hidráulica, Ciencia o Ingeniería Química, Ciencias Matemáticas, entre otras que posean sólida formación en física, matemáticas, programación y química que se enmarquen dentro de las líneas de investigación del presente programa de Maestría.
+1. **Perfil del ingresante**: El ingresante al programa de Maestría en Física debe poseer el grado académico de Bachiller en Ingeniería de Mecánica de Fluidos, Física o áreas afines como Ingeniería Ambiental, Ingeniería Hidráulica, Ciencia o Ingeniería Química, Ciencias Matemáticas, entre otras que posean sólida formación en física, matemáticas, programación y química que se enmarquen dentro de las líneas de investigación del presente programa de Maestría.
 
-#### Perfil del egresado
+2. **Perfil del egresado**: Desarrollarse como investigador científico y tecnológico en las diversas áreas de ingeniería hidráulica con énfasis en la parte computacional en las instituciones del país o del extranjero. Desarrollarse en la docencia universitaria en programas de pre y posgrado, así como también en la difusión de la investigación científica, tecnológica, sus aplicaciones e innovaciones.
 
-Desarrollarse como investigador científico y tecnológico en las diversas áreas de ingeniería hidráulica con énfasis en la parte computacional en las instituciones del país o del extranjero. Desarrollarse en la docencia universitaria en programas de pre y posgrado, así como también en la difusión de la investigación científica, tecnológica, sus aplicaciones e innovaciones.
-
-## Maestría en el extranjero
+## Extranjero
 
 | Universidad | País | Tipo | Fechas | Idioma |
 | ----------- | ---- | ---- | ------ | ------ |
