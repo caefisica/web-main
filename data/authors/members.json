@@ -68,5 +68,15 @@
     "data": "5",
     "avatar": "2",
     "description": "Miembro en el área de diseño."
+  },
+  {
+    "name": "James Quispe",
+    "first_name": "James",
+    "image": "/images/member/james.webp",
+    "funcion": "Edición",
+    "role": "Editorial",
+    "data": "7",
+    "avatar": "main",
+    "description": "Miembro en el área de Redacción de la página web."
   }
 ]
