@@ -1,13 +1,28 @@
-<p align="center">
-        <a href="https://caefis.netlify.app">
-                <img src="https://i.imgur.com/T4FR9pc.png" alt="Encabezado con el logo del CAE">
-        </a>
-</p>
-<p align="center">
-        <a href="https://app.netlify.com/sites/caefis/deploys">
-                <img height="20" src="https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status" alt="Netlify">
-        </a>
-</p>
+# Documentación del CAE-Física 💻 [![Netlify](https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status)](https://app.netlify.com/sites/caefis/deploys) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+Este es el repositorio de la documentación de cada curso del Plan de Estudios de Física 2018 de la Facultad de Ciencias Físicas de la Universidad Nacional Mayor de San Marcos.
+
+- [Colaboradores](#colaboradores)
+- [Deseo colaborar](#colaborar)
+  - [¿Por qué contribuir lo vale?]()
+- [Convenciones]()
+  - [Estructura de las carpetas y nombre de los archivos]()
+  - [Formato de texto]()
+  - [Colores]()
+- [Licencia y derechos de autor]()
+
+## Colaboradores
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
 
