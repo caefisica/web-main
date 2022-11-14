@@ -51,3 +51,11 @@ Si ya estás familiarizado con el idioma, puedes utilizar estas herramientas:
     - [Academic Phrasebank](https://www.phrasebank.manchester.ac.uk/): Una guía para aquellos que están redactando documentos académicos. También se puede descargar la guía en formato .pdf.
     - [Academic Vocabulary](https://www.nottingham.ac.uk/alzsh3/acvocab/index.htm): Vocabulario académico.
     - [The Writing Center](https://writing.wisc.edu/handbook/assignments/): Material instructivo de la Universidad de Wisconsin - Madison. Para ver el material, ve al índice de la derecha y haz clic en expandir.
+
+## Tipos de exámenes
+
+### CEFR
+
+El _Common European Framework of Reference for Languages_ (CEFR) es un certificado otorgado por la Universidad de Cambridge. Los niveles que puedes alcanzar son los siguientes:
+
+![CEFR-Design_28.07.20.jpg]
