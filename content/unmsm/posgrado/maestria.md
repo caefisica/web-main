@@ -46,7 +46,7 @@ La duración es de 2 años (4 semestres).
 
 1. **Perfil del ingresante**: El ingresante al programa de Maestría en Física con mención en Física Nuclear debe poseer el grado académico de Bachiller en Física o áreas afines como Ciencias de los Materiales, Ingeniería Electrónica, Ingeniería Eléctrica, Ingeniería Informática, Ciencia o Ingeniería Química, Ciencias Matemáticas, entre otras que posean sólida formación en física y matemáticas que se enmarquen dentro de las líneas de investigación del presente programa de Maestría.
 
-2.  **Perfil del egresado**: El graduado del presente programa de Maestría es un investigador científico que diseña una investigación original y completa mediante la aplicación de las normas aprendidas sobre metodología científica en física nuclear y de altas energías.
+2. **Perfil del egresado**: El graduado del presente programa de Maestría es un investigador científico que diseña una investigación original y completa mediante la aplicación de las normas aprendidas sobre metodología científica en física nuclear y de altas energías.
 
 ### Geofísica
 
