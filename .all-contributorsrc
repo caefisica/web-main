@@ -27,6 +27,16 @@
         "research",
         "blog"
       ]
+    },
+    {
+      "login": "Rifejo",
+      "name": "Rifejo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99055529?v=4",
+      "profile": "https://github.com/Rifejo",
+      "contributions": [
+        "research",
+        "blog"
+      ]
     }
   ],
   "contributorsPerLine": 7,
