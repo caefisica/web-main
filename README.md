@@ -1,4 +1,6 @@
 # Documentación del CAE-Física 💻 [![Netlify](https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status)](https://app.netlify.com/sites/caefis/deploys) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
@@ -24,6 +26,7 @@ Este es el repositorio de la documentación de cada curso del Plan de Estudios d
   <tbody>
     <tr>
       <td align="center"><a href="http://totallynotdavid.github.io"><img src="https://avatars.githubusercontent.com/u/20960328?v=4?s=100" width="100px;" alt="David"/><br /><sub><b>David</b></sub></a><br /><a href="#maintenance-totallynotdavid" title="Maintenance">🚧</a> <a href="#security-totallynotdavid" title="Security">🛡️</a> <a href="#research-totallynotdavid" title="Research">🔬</a> <a href="#blog-totallynotdavid" title="Blogposts">📝</a></td>
+      <td align="center"><a href="https://github.com/alvaro18101"><img src="https://avatars.githubusercontent.com/u/75409414?v=4?s=100" width="100px;" alt="Alvaro Alejandro Siesquen Abad"/><br /><sub><b>Alvaro Alejandro Siesquen Abad</b></sub></a><br /><a href="#research-alvaro18101" title="Research">🔬</a> <a href="#blog-alvaro18101" title="Blogposts">📝</a></td>
     </tr>
   </tbody>
 </table>
@@ -174,6 +177,12 @@ Finalmente:
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
