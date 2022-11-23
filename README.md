@@ -100,14 +100,14 @@ Utlizamos mayoritariamente los siguiente colores (formato HEX) en degradado:
   * Instala `npm` a través de [Node.js](https://nodejs.org/es/download/). Las opciones predeterminadas bastan
   * Al culminar, reinicia tu ordenador por si acaso
   * Abre una consola (`cmd` por ejemplo) y escribe: `npm -v`
-  * Si te aparece una serie de números tipo: 1.4, entonces se instaló correctamente
-  * Una alternativa también es usar [nvm-windows](https://github.com/coreybutler/nvm-windows). Si decides usar nvm, no utilices el instalador de Node.js
+  * Si te aparece una serie de números como este: `1.4`, entonces se instaló correctamente
+  * Como alternativa, también puedes usar [nvm-windows](https://github.com/coreybutler/nvm-windows). Si decides usar nvm, no utilices el instalador de Node.js
 * `git`
   * Descarga [`git-scm`](https://git-scm.com/downloads), click en el nombre.
   * Sigue los pasos predeterminados.
   * Al culminar, abre Powershell y escribe: `git --version`
-  * Si te da un valor tipo: `git version 2.34.1.windows.1`. Entonces se ha instalado correctamente
-* `vscode` (opcional)
+  * Si te da un valor tipo: `git version 2.37.3.windows.1`. Entonces se ha instalado correctamente
+* `VSCode` (opcional)
   * Descarga e instala [VSCode](https://code.visualstudio.com/download)
 
 ### Entorno local
@@ -121,28 +121,18 @@ Utlizamos mayoritariamente los siguiente colores (formato HEX) en degradado:
 
 5. Ahora cambiaremos de carpeta:
         
-        cd .\cae\
+        cd .\web\
 
 6. Revisa los remotos:
 
         git remote -v
   
-    La consola tiene que contestar con un mensaje similar a este (puede que en tu caso no diga `cae` sino `origin`, si no deseas cambiarlo, sáltate al paso 8):
+    Deberás obtener los siguientes resultados:
 
-        cae     https://github.com/caefis/web.git (fetch)
-        cae     https://github.com/caefis/web.git (push)
+        origin     https://github.com/caefis/web.git (fetch)
+        origin     https://github.com/caefis/web.git (push)
 
-7. Cambiaremos `origin` por `cae` con:
-
-        git remote remove origin
-        git remote add cae https://github.com/caefisica/web.git
-
-    Ahora, al escribir `git remote -v`, tiene que salir algo similar a:
-
-        cae  https://github.com/caefisica/web.git (fetch)
-        cae  https://github.com/caefisica/web.git (push)
-
-8. Veamos cuantas ramas hay:
+7. Veamos cuantas ramas hay:
 
         git branch -a
 
@@ -154,7 +144,7 @@ Utlizamos mayoritariamente los siguiente colores (formato HEX) en degradado:
 
     > El asterisco (`*`) antes de master nos indica que estamos en la rama master.
 
-9. Hagamos pull para comprobar que no hay conflictos entre las historias:
+8. Hagamos pull para comprobar que no hay conflictos entre las historias:
 
         git pull cae master
 
@@ -171,11 +161,11 @@ Utlizamos mayoritariamente los siguiente colores (formato HEX) en degradado:
   
     > **NO CONTINÚES CON EL RESTO DE INSTRUCCIONES SI ES QUE ESTE PASO TE DA ALGÚN TIPO DE ERROR**. Puedes consultar con el administrador en caso de necesitar ayuda.
 
-10. Instala las dependencias:
+9. Instala las dependencias:
 
         npm install
 
-11. Corre localmente:
+10. Corre localmente:
 
         npm run start
 
