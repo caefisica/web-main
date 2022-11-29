@@ -1,4 +1,3 @@
-/*eslint-disable */
 document.addEventListener('DOMContentLoaded', function() {
   renderMathInElement(document.body, {
     delimiters: [
@@ -9,4 +8,3 @@ document.addEventListener('DOMContentLoaded', function() {
     ],
   });
 });
-/*eslint-enable */

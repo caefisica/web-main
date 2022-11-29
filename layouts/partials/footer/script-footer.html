@@ -8,6 +8,11 @@
 {{ $highlight := resources.Get "js/highlight.js" -}}
 {{ $highlight := $highlight | js.Build -}}
 
+{{ $katex := resources.Get "js/katex.js" -}}
+{{ $katexAutoRender := resources.Get "js/auto-render.js" -}}
+
+{{ $mermaid := resources.Get "js/mermaid.js" | js.Build -}}
+
 {{ $app := resources.Get "js/app.js" -}}
 
 {{ $slice := slice $app -}}
