@@ -5,7 +5,7 @@
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.min.js" integrity="sha512-U5C477Z8VvmbYAoV4HDq17tf4wG6HXPC6/KM9+0/wEXQQ13gmKY2Zb0Z2vu0VNUWch4GlJ+Tl/dfoLOH4i2msw==" crossorigin="anonymous"></script>
 {{ $pdf_file := .Get "file" }}
 {{ $pdf_id := replaceRE "[.-]" "_" $pdf_file }}
-{{ $pdf_url :=  path.Join "es" .Page.File.Dir $pdf_file }}
+{{ $pdf_url :=  path.Join .Page.File.Dir $pdf_file }}
 {{ $pdf_url := $pdf_url | absURL }}
 <div class="mt-auto mb-4">
 <div class="pdf-paginator d-flex justify-content-center pdf-head" id="paginator_{{- $pdf_id -}}">
