@@ -7,7 +7,7 @@
   NPM_VERSION = "8.19.2"
 
 [context.production]
-  command = "npm run build && cp public/es/404.html public/404.html"
+  command = "npm run build"
 
 [context.deploy-preview]
   command = "npm run build -- -b $DEPLOY_PRIME_URL"

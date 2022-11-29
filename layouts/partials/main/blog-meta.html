@@ -1,5 +1,8 @@
-{{ if eq .Site.Language.Lang "es" -}}
-<p class="published_data mt-1"><small>Publicado el {{ dateFormat "2 de January del 2006" .Date }}<span class="special_display"> por {{ $authors := .Params.contributors }}{{ if eq .Site.Language.Lang "es" }}{{ $authors := apply $authors "partial" "components/urlize" "."}}{{ if eq ( len $authors ) 2 -}}{{ delimit $authors " y " | safeHTML }}{{ else }}{{ delimit $authors ", " " y " | safeHTML }}{{ end -}}{{ else }}{{ $authors := apply $authors "partial" "components/urlize_en" "."}}{{ if eq ( len $authors ) 2 -}}{{ delimit $authors " and " | safeHTML }}{{ else }}{{ delimit $authors ", " " and " | safeHTML }}{{ end -}}{{ end }}</span>&nbsp;&hyphen;&nbsp;<strong>{{ .ReadingTime -}}&nbsp;min. de lectura</strong></small><p></p>
-{{ else -}}	
-<p class="published_data mt-1"><small>Published on {{ dateFormat "January 2, 2006" .Date }} by {{ $authors := .Params.contributors }}{{ if eq .Site.Language.Lang "es" }}{{ $authors := apply $authors "partial" "components/urlize" "."}}{{ if eq ( len $authors ) 2 -}}{{ delimit $authors " y " | safeHTML }}{{ else }}{{ delimit $authors ", " " y " | safeHTML }}{{ end -}}{{ else }}{{ $authors := apply $authors "partial" "components/urlize_en" "."}}{{ if eq ( len $authors ) 2 -}}{{ delimit $authors " and " | safeHTML }}{{ else }}{{ delimit $authors ", " " and " | safeHTML }}{{ end -}}{{ end }}&nbsp;&hyphen;&nbsp;<strong>{{ .ReadingTime -}}&nbsp;min read</strong></small><p></p>
-{{ end }}
+<p class="published_data mt-1"><small>Publicado el {{ dateFormat "2 de January del 2006" .Date }}<span class="special_display"> por {{ $authors := .Params.contributors }}
+    {{ $authors := apply $authors "partial" "components/urlize" "."}}
+    {{ if eq ( len $authors ) 2 -}}
+      {{ delimit $authors " y " | safeHTML }}
+    {{ else }}
+      {{ delimit $authors ", " " y " | safeHTML }}
+    {{ end -}}
+</span>&nbsp;&hyphen;&nbsp;<strong>{{ .ReadingTime -}}&nbsp;min. de lectura</strong></small><p></p>

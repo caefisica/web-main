@@ -71,33 +71,6 @@
       <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
     </button>
     {{ end -}}
-
-    {{ if eq .Site.Params.options.multilingualMode true -}}
-    <div class="dropdown order-md-2">
-    {{ if .IsTranslated }}
-    <button class="btn btn-doks-light dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static" aria-label="Menú de selección de idioma">
-    <span class="d-none d-lg-inline"></span>{{ if eq .Site.Language.Lang "en" }}English{{ else }}Español{{ end }}
-    </button>
-    <ul class="dropdown-menu dropdown-menu-end shadow border-0" aria-labelledby="doks-languages">
-    {{ range .Translations }}
-    {{ if eq .Site.Language.Lang "es" }}
-    <li><a class="dropdown-item" aria-current="true" href="{{ .RelPermalink }}">Spanish</a></li>
-    <li><hr class="dropdown-divider text-black-50"></li>
-    <li><a class="dropdown-item current" href="/en/">English</a></li>
-    <li><hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="/contacto/">Help us translate</a></li>
-    {{ else }}
-    <li><a class="dropdown-item current" href="/es/">Español</a></li>
-    <li><hr class="dropdown-divider text-black-50"></li>
-    <li><a class="dropdown-item" href="{{ .RelPermalink }}">Inglés</a></li>
-    <li><hr class="dropdown-divider text-black-50"></li>
-    <li><a class="dropdown-item" href="/contacto/">Ayúdanos a traducir</a></li>
-    {{end}}
-    {{ end }}
-    </ul>
-    {{ end }}
-    </div>
-    {{ end -}}
   </nav>
 </header>
 
@@ -122,11 +95,11 @@
         <li><hr class="dropdown-divider"></li>
         <li><a class="dropdown-item" href="/">PUCP</a></li>
         <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="/i/">{{ if eq .Site.Language.Lang "es" }}Todas las universidades{{ else }}All Universities{{ end }}</a></li>
+        <li><a class="dropdown-item" href="/i/">Todas las universidades</a></li>
       </ul>
     </div>
     {{ else -}}
-      <span class="navbar-text fs-6 d-none d-sm-block">v{{ $data := getJSON "https://raw.githubusercontent.com/caefisica/web/master/package.json" }}{{ $data.version }}</span>
+      <span class="navbar-text fs-6 d-none d-sm-block">v0.8</span>
     {{ end -}}
 
     <button class="btn doks-sidebar-toggle d-lg-none ms-3 order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
