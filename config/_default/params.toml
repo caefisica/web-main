@@ -10,7 +10,7 @@ description = "Facilitando recursos para el estudio de la física."
 ## Open Graph
 images = ["cae.png"]
 ogLocale = "es_ES"
-domainTLD = "caefis.netlify.app"
+domainTLD = "caefisica.com"
 titleHome = "Centro de Apoyo al Estudiante de Física"
 
 ## Twitter Cards

@@ -1,4 +1,4 @@
-baseURL = "https://caefis.netlify.app/"
+baseURL = "https://caefisica.com/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
