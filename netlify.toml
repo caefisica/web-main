@@ -21,23 +21,6 @@
 [context.next.environment]
   HUGO_ENV = "next"
 
-[[plugins]]
-  package = "netlify-plugin-cloudinary"
-
-  [plugins.inputs]
-  cloudName = "dubu"
-  deliveryType = "upload"
-  imagesPath = "/images"
-  folder = "caefisica"
-
-[[plugins]]
-  package = "@algolia/netlify-plugin-crawler"
-
-  [plugins.inputs]
-  branches = ['master']
-  disabled = false
-  renderJavaScript = false
-
 [dev]
   framework = "#custom"
   command = "npm run start"
