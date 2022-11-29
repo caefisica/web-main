@@ -74,3 +74,8 @@ rel  = "sitemap"
     keepVarNames = true
     noNullishOperator = false
     precision = 0
+
+[module]
+  [[module.mounts]]
+    source = "node_modules/mermaid"
+    target = "assets/js/vendor/mermaid"
