@@ -4,6 +4,7 @@ if (searchPlaceholder !== null) {
   searchPlaceholder.className = 'd-none';
 }
 
+/*eslint-disable */
 algoliasearchNetlify({
   appId: 'B36UGT1YWJ',
   apiKey: '8c770925ae0a24146f978f0495f51ec1',
@@ -11,3 +12,4 @@ algoliasearchNetlify({
   branch: 'master',
   selector: '#docsearch',
 });
+/*eslint-enable */
