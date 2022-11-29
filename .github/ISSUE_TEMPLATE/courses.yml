@@ -1,6 +1,6 @@
-name: Guias y cursos
+name: "📚 Guías de estudio"
 description: Sugiera una idea para el proyecto
-title: "[📚]: Semestre [] - Código"
+title: "📚 - Semestre [] - Código"
 labels: ["content"]
 body:
   - type: checkboxes
@@ -13,7 +13,7 @@ body:
         - label: Temas, detallar qué temas se desarrollan en el curso
         - label: Libros teóricos, junto a comentarios de los motivos de la recomendación
         - label: Libros prácticos, junto a comentarios de los motivos de la recomendación
-        - label: Videos, por ejemplo, puede incluir canales de Youtube
+        - label: Videos (por ejemplo, puede incluir canales de Youtube)
         - label: Sílabo
   - type: input
     id: curso

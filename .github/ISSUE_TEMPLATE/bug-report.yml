@@ -1,19 +1,23 @@
-name: Informe de error
+name: "\U0001F41E Informe de error"
 description: Crear un informe para ayudarnos a mejorar
-title: "[Bug]: "
+title: "\U0001F41E: "
 labels: ["bug"]
 assignees:
   - totallynotdavid
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por tomarte el tiempo de completar este informe de errores!
   - type: textarea
     id: que-paso
     attributes:
-      label: Cuéntenos lo que sucedió
+      label: Cuéntanos lo que sucedió
       description: Adjunte la información solicitada.
       placeholder: |
-        1. Especifique pasos claros que describan cómo reproducir el problema.
-        2. Cuéntenos lo que ve. Adjunte capturas de pantalla de ser necesario.
-        3. ¿Qué debería ocurrir?
+        1. Especifica pasos claros que describan cómo reproducir el problema.
+        2. Cuéntanos lo que ve. Adjunte capturas de pantalla de ser necesario.
+        3. ¿Qué es lo que debería de ocurrir?
     validations:
       required: true
   - type: dropdown
@@ -30,5 +34,5 @@ body:
     id: logs
     attributes:
       label: Log output
-      description: Pegue aquí la información que muestra `npm run check`
+      description: Pegue aquí la información que muestra `npm run check` (opcional)
       render: shell
