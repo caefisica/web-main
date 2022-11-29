@@ -12,10 +12,3 @@
 {{ if eq .Section "unmsm" "apuntes" "blog" "tags" -}}
 <script src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
 {{ end -}}
-{{ if .Params.math }}
-{{ partial "head/katex.html" . }}
-{{ end }}
-{{ if .Params.mermaid }}
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose'});</script>
-{{ end }}
