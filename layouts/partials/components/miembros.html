@@ -1,6 +1,6 @@
 <section class="section section-sm my-3 py-5 bg-light">
   <div class="container">
-    <h2 class="h3 mt-0 text-center">{{ i18n "equipo" }}</h2>
+    <h2 class="h3 mt-0 text-center">Nuestro equipo</h2>
     <div class="row justify-content-center g-4 mb-5">
       {{ $json := getJSON "data/authors/members.json" }}
       {{ range sort $json "data" "asc" }}

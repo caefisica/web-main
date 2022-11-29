@@ -1,6 +1,6 @@
 <section class="section section-featured mt-3 bg-light py-5">
   <div class="container">
-    <h2 class="h3 mt-0 text-center">{{ i18n "cursos_mas_buscados" }}</h2>
+    <h2 class="h3 mt-0 text-center">Cursos más buscados</h2>
     <div class="row justify-content-center mt-3 g-3">
       {{ range where (where .Site.RegularPages.ByDate.Reverse "Section" "unmsm") "Params.featured" true -}}
       <div class="col-sm-8 col-md-6 col-xl-4">
