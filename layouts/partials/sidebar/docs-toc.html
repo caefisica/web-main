@@ -12,7 +12,7 @@
       {{ range $member_list -}}
         {{- if eq $contributor .first_name -}}
           <li class="m-0 ">
-            <a href="/es/contributors/{{ .first_name | urlize }}">
+            <a href="/contributors/{{ .first_name | urlize }}">
               <img src="{{ .image }}" alt="{{ .name }}" class="avatar rounded-circle">
               <span class="name ms-2">{{ .name }}</span>
             </a>
