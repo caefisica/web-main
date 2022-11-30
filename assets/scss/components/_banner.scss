@@ -1,3 +1,5 @@
+$main-color: #2f288a;
+
 @mixin desktop {
   @media (max-width: 991px) {
     @content;
@@ -109,12 +111,12 @@
           transition: all 0.3s ease;
 
           path {
-            fill: #0f9bf6;
+            fill: $main-color;
           }
         }
 
         &:hover {
-          background-color: #0f9bf6;
+          background-color: $main-color;
 
           svg {
             path {
