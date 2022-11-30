@@ -56,14 +56,14 @@
     padding: 1rem 1rem 0.5rem;
     line-height: 1.5rem;
     font-size: 14px;
-    color: rgba($purple, 0.05);
+    color: rgba($indigo-700, 0.05);
     margin: 1rem 0;
 
     &.tip {
       border-style: dashed;
-      border-color: rgba($purple, 0.5);
-      color: $purple;
-      background-color: rgba($purple, 0.05);
+      border-color: rgba($indigo-700, 0.5);
+      color: $indigo-700;
+      background-color: rgba($indigo-700, 0.05);
     }
 
     p {
@@ -102,7 +102,7 @@
 }
 
 .subtitle-brand {
-  color: $purple;
+  color: $indigo-700;
 }
 
 [data-dark-mode] .description_border {
