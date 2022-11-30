@@ -1,4 +1,4 @@
-<p class="published_data mt-1"><small>Publicado el {{ dateFormat "2 de January del 2006" .Date }}<span class="special_display"> por {{ $authors := .Params.contributors }}
+<p class="published_data mt-1"><small>Publicado el {{ .Lastmod.Day }} de {{ index $.Site.Data.fixes.months (printf "%d" .Lastmod.Month) }}<span class="special_display"> por {{ $authors := .Params.contributors }}
     {{ $authors := apply $authors "partial" "components/urlize" "."}}
     {{ if eq ( len $authors ) 2 -}}
       {{ delimit $authors " y " | safeHTML }}
