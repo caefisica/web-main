@@ -416,7 +416,9 @@ article li ul {
   min-height: calc(100vh - 100px - 5.41rem);
 }
 
-.mx-n2r {
-  margin-left: -2rem;
-  margin-right: -2rem;
+@include media-breakpoint-up(lg) {
+  .mx-n2r {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
 }
