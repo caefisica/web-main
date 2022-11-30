@@ -20,6 +20,23 @@
 
 .email-form {
   margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  .name {
+    flex-grow: 1;
+    flex-basis: 120px;
+  }
+
+  .email {
+    flex-grow: 3;
+    flex-basis: 170px;
+  }
+
+  .button {
+    flex-grow: 1;
+    flex-basis: 70px;
+  }
 }
 
 .email-form .form-control {
