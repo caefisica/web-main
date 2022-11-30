@@ -12,7 +12,7 @@ $border-dark: $gray-800;
 $body-color-dark: $gray-300;
 $dots-dark: darken($body-color-dark, 50%);
 
-$link-color-dark: $blue-300;
+$link-color-dark: $indigo-300;
 $button-color-dark: $link-color-dark;
 $focus-color-dark: lighten($link-color-dark, 2.5%);
 
@@ -64,7 +64,7 @@ $navbar-dark-active-color:          $link-color-dark;
 [data-dark-mode] .group-data {
   a {
     h3 {
-      color: $green-500;
+      color: $indigo-500;
     }
   }
 
@@ -137,7 +137,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] .docs-content .custom-block.tip {
-  color: $blue-300;
+  color: $indigo-300;
 }
 
 [data-dark-mode] body.home .navbar {
@@ -614,9 +614,9 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] .subtitle-brand {
-  color: $green-400;
+  color: $indigo-400;
 }
 
 [data-dark-mode] .header-bar {
-  border-image-source: linear-gradient(90deg, $green-400, $green-500, $green-600);
+  border-image-source: linear-gradient(90deg, $indigo-400, $indigo-500, $indigo-600);
 }
