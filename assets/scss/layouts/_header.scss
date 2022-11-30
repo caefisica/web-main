@@ -115,7 +115,7 @@ button#doks-versions {
 
 .header-bar {
   border-top: 4px solid;
-  border-image-source: linear-gradient(90deg, #0045c3, #0063d7, #007fe8, #0f9bf6);
+  border-image-source: linear-gradient(90deg, $indigo-900, $indigo-700, $indigo-500, $indigo-600);
   border-image-slice: 1;
 }
 
@@ -140,12 +140,6 @@ button#doks-versions {
   .main-nav .nav-item:last-child .nav-link,
   .social-nav .nav-item:last-child .nav-link {
     padding-right: 0;
-  }
-
-  .doks-search {
-    max-width: 20rem;
-    margin-top: 0.125rem;
-    margin-bottom: 0.125rem;
   }
 }
 

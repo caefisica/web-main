@@ -1,9 +1,9 @@
 {{ define "main" }}
-<section class="section">
-  <div class="container banner">
+<section class="section p-0">
+  <div class="container banner d-flex justify-content-center align-items-center text-center">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-7 text-center text-lg-start">
-        <div class="hero_footer-svg">
+        <div class="hero_footer-svg position-absolute">
           <img src="/images/shape/figure-svg.svg" alt="Textura a modo de adorno." />
         </div>
         <h1 class="mb-4">Una guía para el estudio de las Ciencias Físicas</h1>
@@ -13,22 +13,22 @@
         </form>
         <p class="meta mt-3">Un proyecto del {{ .Site.Params.titleAddition }}</a></p>
       </div>
-      <div class="col-lg-7 galnew">
+      <div class="col-lg-7 d-none d-lg-block">
         {{ with .Site.Data.fixes.frontpage }}
-        <div class="hero_figure">
-          <div class="figure-svg">
-            <img src="/images/shape/figure-svg.svg" alt="figure-svg" />
+        <div class="hero_figure position-relative ms-auto">
+          <div class="figure-svg position-absolute">
+            <img class="w-100 h-100" src="/images/shape/figure-svg.svg" alt="figure-svg" />
           </div>
-          <img class="img-hero-mask" src="{{ .image | absURL }}" alt="hero-image"/>
+          <img class="img-hero-mask w-100 h-100" src="{{ .image | absURL }}" alt="hero-image"/>
 
           {{ if .videoURL }}
-          <div class="hero_figure-popup">
-            <div class="thumb">
-              <img src="{{ .videoThumb }}" alt="popup" />
+          <div class="hero_figure-popup position-absolute">
+            <div class="thumb position-relative overflow-hidden">
+              <img class="w-100 h-100" src="{{ .videoThumb }}" alt="popup" />
             </div>
 
-            <a href="{{ .videoURL }}" type="button" class="popup-button text-center big" aria-label="Youtube">
-              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24">
+            <a href="{{ .videoURL }}" type="button" class="popup-button text-center big position-absolute rounded-circle" aria-label="Youtube">
+              <svg class="position-absolute" xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24">
                 <path d="M17.961 10.264a2 2 0 010 3.473L2.992 22.29A2 2 0 010 20.554V3.446A2 2 0 012.992 1.71z"
                   data-name="Polygon 4" />
               </svg>
@@ -55,33 +55,52 @@
   <div class="container">
     <div class="row justify-content-center text-center mt-lg-3">
       <div class="col-lg-5">
-        <h2 class="h4">Biblioteca</h2>
-        <p>¡Tenemos múltiples bibliotecas! El contenido incluye sílabus, libros teórico-prácticos y grabaciones de clases pasadas.</p>
+        <h2 class="h4">Bibliotecas</h2>
+        <p>
+          Accede a nuestra biblioteca de recursos digitales con recomendaciones de profesores y estudiantes sanmarquinos.
+        </p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Guía de estudio</h2>
-        <p>¿No estás seguro de qué libro usar para estudiar un curso en particular? Aquí una lista, por curso, de libros recomendados.</p>
+        <h2 class="h4">Guías de estudio</h2>
+        <p>
+          ¿No estás seguro de qué libro usar para estudiar un curso en particular? Tenemos una serie de guías para cada curso.
+        </p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Artículos</h2>
-        <p>¿Andas aburrido y con ganas de leer? En esta sección encontrarás artículos sobre diversos temas (especialmente de Física).</p>
+        <h2 class="h4">Notas de clase</h2>
+        <p>
+          Notas de clase de profesores sanmarquinos con información adicional transcritas en formato $\LaTeX$ (web y PDF).
+        </p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Noticias 📰</h2>
-        <p>Es importante estar informado. En esta sección encontrarás información en tiempo real sobre becas, eventos próximos y mucho más.</p>
+        <h2 class="h4">Noticias</h2>
+        <p>
+          Información actualizada en tiempo real sobre nuevas convocatorias, becas y <em>workshops</em> de diversas fuentes.
+        </p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Minicursos de verano 🧑‍🏫</h2>
-        <p>Cursos y asesorías que te pueden servir durante tus estudios universitarios. Estos cursos son dictados por nuestros miembros.</p>
+        <h2 class="h4">Talleres y minicursos</h2>
+        <p>
+          Talleres y minicursos para ayudarte a adquirir nuevas habilidades y conocimientos en diversas áreas de la física.
+        </p>
       </div>
     </div>
   </div>
 </section>
 <section class="section apoyo mt-3 bg-light">
   <div class="container">
-    <h2 class="h3 mt-0 text-center">¿Deseas participar?</h2>
-    <p class="text-center">¿Eres de base mayor y cuentas con experiencia en el ámbito universitario? ¿Hay un buen libro que quieres recomendar? Puedes contactarnos sin compromiso.</p>
-    <p class="text-center mb-0 mt-4"><a class="btn btn-primary px-4 mb-2" href="https://github.com/caefis/discusion/labels/sugerencia" role="button">Quiero dar una recomendación</a><a class="btn btn-outline-primary px-4 ms-2 mb-2" href="{{ "contacto/" | relLangURL }}" role="button">Contáctanos</a></p>
+    <h2 class="h3 mt-0 text-center">¿Deseas colaborar?</h2>
+    <p class="text-center">
+      Si eres estudiante de segundo año o superior y deseas colaborar con nuestro proyecto, ¡nos gustaría contar contigo! Puedes editar directamente el contenido de la página, o bien, puedes contactarnos a través de nuestro correo.
+    </p>
+    <p class="text-center mb-0 mt-4">
+      <a class="btn btn-primary px-4 mb-2" href="https://github.com/caefis/discusion/labels/sugerencia" role="button">
+        Quiero dar una recomendación
+      </a>
+      <a class="btn btn-outline-primary px-4 ms-2 mb-2" href="{{ "contacto/" | relURL }}" role="button">
+        Contáctanos
+      </a>
+    </p>
   </div>
 </section>
 {{ end }}
