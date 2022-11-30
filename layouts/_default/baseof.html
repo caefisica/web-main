@@ -4,8 +4,7 @@
   {{ partial "head/body-class.html" . -}}
   <body class="{{ delimit (.Scratch.Get "class") " " }}">
     {{ partial "header/header.html" . }}
-    {{ $classes := .Scratch.Get "class" }}
-    <div class="wrap container-fluid" role="document">
+    <div class="wrap container-xxl" role="document">
       <div class="content">
         {{ block "main" . }}{{ end }}
       </div>
