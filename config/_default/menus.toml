@@ -1,10 +1,10 @@
-[[cursos]]
+[[unmsm]]
   name = "Pregrado"
   weight = 10
   identifier = "cursos"
   url = "/unmsm/pregrado/"
 
-[[cursos]]
+[[unmsm]]
   name = "Posgrado"
   weight = 20
   identifier = "posgrado"
