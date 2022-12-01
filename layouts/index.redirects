@@ -4,4 +4,4 @@
 {{ . }} {{ $p.RelPermalink -}}
 {{- end }}
 {{- end -}}
-/404 /es/404
+/es /
