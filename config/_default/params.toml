@@ -23,9 +23,9 @@ schemaType = "Organization"
 schemaName = "CAE"
 schemaAuthor = "David"
 schemaAuthorTwitter = "https://twitter.com/totallynotdavid"
-schemaAuthorLinkedIn = ""
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/amosduran/"
 schemaAuthorGitHub = "https://github.com/totallynotdavid"
-schemaLocale = "es"
+schemaLocale = "es-ES"
 schemaLogo = "logo-cae.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
@@ -62,7 +62,7 @@ imageAddClass = "img-fluid lazyload blur-up"
 footer = "Un proyecto del Centro de Apoyo al Estudiante de Física"
 
 # Feed
-copyRight = "Copyright (c) 2022 — CAE Física"
+copyRight = "Copyright (c) 2022 CAE-Física"
 
 # Alert
 alert = false
@@ -88,8 +88,8 @@ lastMod = true
   breadCrumb = true
   highLight = true
   kaTex = true
-  multilingualMode = false #
-  docsVersioning = false #
+  multilingualMode = false
+  docsVersioning = false
 
 [menu]
   [menu.section]
