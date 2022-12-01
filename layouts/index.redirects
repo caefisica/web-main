@@ -4,4 +4,5 @@
 {{ . }} {{ $p.RelPermalink -}}
 {{- end }}
 {{- end -}}
-/es /
+/es/ / 301
+/es/* /:splat 301
