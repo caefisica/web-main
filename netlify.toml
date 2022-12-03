@@ -37,4 +37,10 @@
   from = "https://caefis.netlify.app/*"
   to = "https://caefisica.com/:splat"
   status = 301
-  force = false
+  force = true
+
+[[redirects]]
+  from = "https://caefis.netlify.app/"
+  to = "https://caefisica.com/"
+  status = 301
+  force = true
