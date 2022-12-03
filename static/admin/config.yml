@@ -1,0 +1,185 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: static/images
+public_folder: /images
+publish_mode: editorial_workflow
+show_preview_links: true
+locale: 'es'
+logo_url: /logo-cae.svg
+slug:
+  clean_accents: true
+collections:
+  - name: blog
+    label: Blogs
+    folder: content/blog/
+    create: true
+    slug: "{{slug}}"
+    nested:
+      depth: 1000
+      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+    editor:
+      preview: true
+    fields:
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Autor (ej. List [ "tunombre" ])', name: 'contributors', widget: 'string' }
+      - { label: 'Descripción 1 (se muestra lista)', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string' }
+      - { label: 'Tags (ej. List [ "tag" ])', name: 'tags', widget: 'string' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Fecha de modificación', name: 'lastmod', widget: 'datetime' }
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown' }
+    meta: { path: { widget: string, label: 'Nombre del archivo (ej. "000-títulopag")', index_file: 'index.md' } }
+  - name: 'artículo'
+    label: 'Artículo'
+    folder: 'content/experimental/'
+    create: true
+    slug: '{{slug}}'
+    nested:
+      depth: 2
+      summary: '{{title}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Título', name: 'title', widget: "string" }
+      - { label: 'Descripción 1 (se muestra lista)', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Fecha de modificación', name: 'lastmod', widget: 'datetime' }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Imágenes (nombres del archivo, ej. "bbc.png")', name: 'images', widget: 'string', default: "[]" }
+      - { label: 'Enlace', name: 'link', widget: 'string', default: '["ENLACE"]' }
+      - { label: 'No tocar', name: 'menu', widget: 'text', default: "experimental:\n\tparent: \"general\"" }
+      - { label: 'Orden en el menú (menor va primero)', name: 'weight', widget: 'number', default: 10, value_type: "int", min: 10, step: 10 }
+      - { label: 'TOC', name: 'toc', widget: 'hidden', default: 'false'}
+      - { label: 'Anclado', name: 'pinned', widget: "select", options: [ "true", "false" ], default: false, multiple: true, required: true}
+      - { label: 'Tópicos', name: 'types', widget: 'string', required: true, default: '["Biología"]' }
+      - { label: 'Categorías', name: 'functionalities', widget: 'string', required: true, default: '["Artículo"]' }
+      - { label: 'Extracto', name: 'body', widget: 'markdown', default: "\n```text\nExtracto traducido automáticamente de la \"Página\"\n```\n\nEscribe el extracto aquí." }
+    meta: { path: { widget: string, label: 'Página web, no enlace (ej. "bbc.com")', index_file: 'index.md' } }
+  - name: 's1'
+    label: 'Ciclo I'
+    folder: 'content/pregrado/semestre/1/'
+    create: true
+    slug: "{{title}}"
+    editor:
+      preview: true
+    fields:
+      - { label: 'Código del curso (mayúsculas)', name: 'title', widget: 'string', default: 'CFO000' }
+      - { label: 'Descripción 1 (se muestra en lista)', name: 'description', widget: 'string', default: 'CFO000 — 0 créditos' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string', default: 'CFO000 — 0 créditos' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Fecha de modificación (NO TOCAR)', name: 'lastmod', widget: 'text', default: 'List [ ":git", "lastmod", "date", "publishDate" ]' }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Imágenes (no tocar)', name: 'images', widget: 'string', default: "[]" }
+      - { label: 'No tocar', name: 'menu', widget: 'text', default: 'Map { "pregrado": Map { "parent": "semestre" } }' }
+      - { label: 'Orden en el menú (menor va primero)', name: 'weight', widget: 'number', default: 10, value_type: "int", min: 10, max: 110, step: 10 }
+      - { label: 'TOC', name: 'toc', widget: 'hidden', default: 'true'}
+      - { label: 'Autor', name: 'contributors', widget: 'string', default: 'David' }
+      - { label: 'LaTeX', name: 'math', widget: 'boolean', default: false}
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown', default: "\n\\{\\{< alert icon=\"📌\" text=\"MENSAJE\" \/>\\}\\}\n\n\\<br\\>\n\n\\{\\{ alert icon=\"👉\" text=\"REQUISITOS:\" \/>\\}\\}\n\n## Título\n\nNo comiences con \"#\". Comienza a partir de ##, luego ### y así.\n\nNota: Tus cambios no se verán instantáneamente." }
+  - name: 's2'
+    label: 'Ciclo II'
+    folder: 'content/pregrado/semestre/2/'
+    create: true
+    slug: "{{title}}"
+    editor:
+      preview: true
+    fields:
+      - { label: 'Código del curso (mayúsculas)', name: 'title', widget: 'string', default: 'CFO000' }
+      - { label: 'Descripción 1 (se muestra en lista)', name: 'description', widget: 'string', default: 'CFO000 — 0 créditos' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string', default: 'CFO000 — 0 créditos' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Fecha de modificación (NO TOCAR)', name: 'lastmod', widget: 'text', default: "- :git\n- lastmod\n- date\n- publishDate" }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Imágenes (no tocar)', name: 'images', widget: 'string', default: "[]" }
+      - { label: 'No tocar', name: 'menu', widget: 'text', default: "pregrado:\n\tparent: \"semestre\"" }
+      - { label: 'Orden en el menú (menor va primero)', name: 'weight', widget: 'number', default: 10, value_type: "int", min: 10, max: 110, step: 10 }
+      - { label: 'TOC', name: 'toc', widget: 'hidden', default: 'true'}
+      - { label: 'Autor', name: 'contributors', widget: 'string', default: 'David' }
+      - { label: 'LaTeX', name: 'math', widget: 'boolean', default: false}
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown', default: "\n\\{\\{< alert icon=\"📌\" text=\"MENSAJE\" \/>\\}\\}\n\n\\<br\\>\n\n\\{\\{ alert icon=\"👉\" text=\"REQUISITOS:\" \/>\\}\\}\n\n## Título\n\nNo comiences con \"#\". Comienza a partir de ##, luego ### y así.\n\nNota: Tus cambios no se verán instantáneamente." }
+  - name: 's3'
+    label: 'Ciclo III'
+    folder: 'content/pregrado/semestre/3/'
+    create: true
+    slug: "{{title}}"
+    editor:
+      preview: true
+    fields:
+      - { label: 'Código del curso (mayúsculas)', name: 'title', widget: 'string', default: CFO000 }
+      - { label: 'Descripción 1 (se muestra en lista)', name: 'description', widget: 'string', default: CFO000 — 0 créditos }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string', default: CFO000 — 0 créditos }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Fecha de modificación (NO TOCAR)', name: 'lastmod', widget: 'text', default: 'List [ ":git", "lastmod", "date", "publishDate" ]' }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true }
+      - { label: 'Imágenes (no tocar)', name: 'images', widget: 'string', default: 'List []' }
+      - { label: 'No tocar', name: 'menu', widget: 'text', default: 'Map { "pregrado": Map { "parent": "semestre" } }' }
+      - { label: 'Orden en el menú (menor va primero)', name: 'weight', widget: 'number', default: 10, value_type: "int", min: 10, max: 110, step: 10 }
+      - { label: 'TOC', name: 'toc', widget: 'hidden', default: 'true'}
+      - { label: 'Autor', name: 'contributors', widget: 'string', default: ["David"] }
+      - { label: 'LaTeX', name: 'math', widget: 'boolean', default: false}
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown', default: "\n\\{\\{< alert icon=\"📌\" text=\"MENSAJE\" \/>\\}\\}\n\n\\<br\\>\n\n\\{\\{ alert icon=\"👉\" text=\"REQUISITOS:\" \/>\\}\\}\n\n## Título\n\nNo comiences con \"#\". Comienza a partir de ##, luego ### y así.\n\nNota: Tus cambios no se verán instantáneamente." }
+  - name: 's4'
+    label: 'Ciclo IV'
+    folder: 'content/pregrado/semestre/4/'
+    create: true
+    slug: "{{title}}"
+    editor:
+      preview: true
+    fields:
+      - { label: 'Código del curso (mayúsculas)', name: 'title', widget: 'string', default: 'CFO000' }
+      - { label: 'Descripción 1 (se muestra en lista)', name: 'description', widget: 'string', default: 'CFO000 — 0 créditos' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string', default: 'CFO000 — 0 créditos' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Fecha de modificación (NO TOCAR)', name: 'lastmod', widget: 'text', default: "- :git\n- lastmod\n- date\n- publishDate" }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Imágenes (no tocar)', name: 'images', widget: 'string', default: "[]" }
+      - { label: 'No tocar', name: 'menu', widget: 'text', default: "pregrado:\n\tparent: \"semestre\"" }
+      - { label: 'Orden en el menú (menor va primero)', name: 'weight', widget: 'number', default: 10, value_type: "int", min: 10, max: 110, step: 10 }
+      - { label: 'TOC', name: 'toc', widget: 'hidden', default: 'true'}
+      - { label: 'Autor', name: 'contributors', widget: 'string', default: 'David' }
+      - { label: 'LaTeX', name: 'math', widget: 'boolean', default: false}
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown', default: "\n\\{\\{< alert icon=\"📌\" text=\"MENSAJE\" \/>\\}\\}\n\n\\<br\\>\n\n\\{\\{ alert icon=\"👉\" text=\"REQUISITOS:\" \/>\\}\\}\n\n## Título\n\nNo comiences con \"#\". Comienza a partir de ##, luego ### y así.\n\nNota: Tus cambios no se verán instantáneamente." }
+  - name: 's5'
+    label: 'Ciclo V'
+    folder: 'content/pregrado/semestre/5/'
+    create: true
+    slug: "{{title}}"
+    editor:
+      preview: true
+    fields:
+      - { label: 'Código del curso (mayúsculas)', name: 'title', widget: 'string', default: 'CFO000' }
+      - { label: 'Descripción 1 (se muestra en lista)', name: 'description', widget: 'string', default: 'CFO000 — 0 créditos' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string', default: 'CFO000 — 0 créditos' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Fecha de modificación (NO TOCAR)', name: 'lastmod', widget: 'text', default: "- :git\n- lastmod\n- date\n- publishDate" }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Imágenes (no tocar)', name: 'images', widget: 'string', default: "[]" }
+      - { label: 'No tocar', name: 'menu', widget: 'text', default: "pregrado:\n\tparent: \"semestre\"" }
+      - { label: 'Orden en el menú (menor va primero)', name: 'weight', widget: 'number', default: 10, value_type: "int", min: 10, max: 110, step: 10 }
+      - { label: 'TOC', name: 'toc', widget: 'hidden', default: 'true'}
+      - { label: 'Autor', name: 'contributors', widget: 'string', default: 'David' }
+      - { label: 'LaTeX', name: 'math', widget: 'boolean', default: false}
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown', default: "\n\\{\\{< alert icon=\"📌\" text=\"MENSAJE\" \/>\\}\\}\n\n\\<br\\>\n\n\\{\\{ alert icon=\"👉\" text=\"REQUISITOS:\" \/>\\}\\}\n\n## Título\n\nNo comiences con \"#\". Comienza a partir de ##, luego ### y así.\n\nNota: Tus cambios no se verán instantáneamente." }
+  - name: 's6'
+    label: 'Ciclo VI'
+    folder: 'content/pregrado/semestre/6/'
+    create: true
+    slug: "{{title}}"
+    editor:
+      preview: true
+    fields:
+      - { label: 'Código del curso (mayúsculas)', name: 'title', widget: 'string', default: 'CFO000' }
+      - { label: 'Descripción 1 (se muestra en lista)', name: 'description', widget: 'string', default: 'CFO000 — 0 créditos' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string', default: 'CFO000 — 0 créditos' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Fecha de modificación (NO TOCAR)', name: 'lastmod', widget: 'text', default: "- :git\n- lastmod\n- date\n- publishDate" }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Imágenes (no tocar)', name: 'images', widget: 'string', default: "[]" }
+      - { label: 'No tocar', name: 'menu', widget: 'text', default: "pregrado:\n\tparent: \"semestre\"" }
+      - { label: 'Orden en el menú (menor va primero)', name: 'weight', widget: 'number', default: 10, value_type: "int", min: 10, max: 110, step: 10 }
+      - { label: 'TOC', name: 'toc', widget: 'hidden', default: 'true'}
+      - { label: 'Autor', name: 'contributors', widget: 'string', default: 'David' }
+      - { label: 'LaTeX', name: 'math', widget: 'boolean', default: false}
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown', default: "\n\\{\\{< alert icon=\"📌\" text=\"MENSAJE\" \/>\\}\\}\n\n\\<br\\>\n\n\\{\\{ alert icon=\"👉\" text=\"REQUISITOS:\" \/>\\}\\}\n\n## Título\n\nNo comiences con \"#\". Comienza a partir de ##, luego ### y así.\n\nNota: Tus cambios no se verán instantáneamente." }
