@@ -14,6 +14,12 @@ if (location.href.indexOf("#invite_token") >= 0 || location.href.indexOf("#acces
   window.location = `/admin/#${urlSplit[1]}`;
 }
 
-document.querySelector('form[name="newsletter"]').addEventListener('submit', function(event) {
-  document.querySelector('#subscribeButton').disabled = true;
-});
+document.querySelector('form[name="newsletter"]')
+  .addEventListener('submit', function(e) {
+    // prevent the form from submitting
+    e.preventDefault();
+    // disable the subscribe button
+    subscribeButton.disabled = true;
+    // submit the form
+    this.submit();
+  });
