@@ -33,15 +33,9 @@
   parent = "Recursos"
 
 [[main]]
-  name = "Noticias"
-  url = "/rss/"
-  weight = 40
-  parent = "Recursos"
-
-[[main]]
   name = "Blogs"
   url = "/blog/"
-  weight = 50
+  weight = 40
   parent = "Recursos"
 
 [[main]]

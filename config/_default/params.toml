@@ -95,7 +95,7 @@ lastMod = true
   [menu.section]
     auto = true
     collapsibleSidebar = true
-    mainSections = ["Cursos", "Apuntes", "Biblioteca", "Experimental", "RSS", "Blog"]
+    mainSections = ["Cursos", "Apuntes", "Biblioteca", "Experimental", "Blog"]
 
 [lazyimg]
   resizer = "auto"
