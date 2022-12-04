@@ -10,7 +10,7 @@
 {{ end -}}
 {{ if eq .Kind "home"}}
 {{ $banner := resources.Get "scss/components/_banner.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $banner.Permalink }}" integrity="{{ $banner.Data.Integrity }}" media="screen">
+<link rel="stylesheet" href="{{ $banner.Permalink }}" integrity="{{ $banner.Data.Integrity }}" media="screen" crossorigin="anonymous">
 {{ end -}}
 {{ if .Params.Sidenote }}
 {{ $sidenotes := resources.Get "scss/components/articles/_sidenote.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
