@@ -16,6 +16,7 @@ imgsrc:
 - https://*.cloudinary.com
 - https://i.imgur.com
 - "data:"
+- "blob:"
 
 manifestsrc:
 - "'self'"
