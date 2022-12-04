@@ -46,10 +46,7 @@ El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de S
     - Boletín informativo
     - Comentarios en las páginas
     - Descarga de archivos PDF
-
-    {{< pdfjs file="admision-2022.pdf" >}}
-
-    - Quiz (pospuesto por motivos de seguridad) {{< sidenote >}}Este es un mensaje extraño, porque no sé muy bien lo que quiero decir. Definitivamente no sé lo que estoy escribiendo.{{< /sidenote >}}
+    - Quiz (pospuesto por motivos de seguridad)
 
 <p>   </p>
 
@@ -63,6 +60,4 @@ El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de S
 
 5. **Ideas**
     - Esta es una <cite>cita[^1]</cite>
-    - A sentence deserving a sidenote.{{< sidenote >}}Este es un mensaje extraño, porque no sé muy bien lo que quiero decir. Definitivamente no sé lo que estoy escribiendo.{{< /sidenote >}}
-
-[^1]: Esta es una cita.
+    - A sentence deserving a sidenote.
