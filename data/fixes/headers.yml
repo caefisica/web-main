@@ -1,0 +1,43 @@
+connectsrc:
+- "'self'"
+- https://*.netlify.app
+- https://*.algolia.net
+- https://*.algolianet.com
+- https://*.algolia.io
+- https://*.splitbee.io
+- https://*.cloudinary.com
+- https://*.jsdelivr.net
+- https://unpkg.com
+- https://*.workers.dev
+
+imgsrc:
+- "'self'"
+- https://*.netlify.app
+- https://*.cloudinary.com
+- https://i.imgur.com
+- "data:"
+
+manifestsrc:
+- "'self'"
+- https://*.netlify.app
+
+stylesrc:
+- "'self'"
+- https://*.netlify.app
+- https://*.jsdelivr.net
+- "'unsafe-inline'"
+
+scriptsrc:
+- "'self'"
+- https://*.netlify.com
+- https://*.netlify.app
+- https://unpkg.com
+- https://*.splitbee.io
+- https://*.jsdelivr.net
+- https://*.netlify.app
+- "'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs='"
+- "'sha512-vlFmLX+di288EcdUcaD8muGAN4NZ6R0+HO9EDXXMhVFpNnMCgGWYd+RxkQtIZyL8FSBRhPoCKWRRZM5bhfY1VQ=='"
+- "'sha512-A0szvdIuCKA21xigr2/288rv04z5w6cH/GETcSny1t222OlOShgazYLkYIMUH6yAan2CxMeKkNwbmUuLqbnsBQ=='"
+- "'sha512-Ta7m7CSVtknH4g6MRSsaidvmIUYVte91DzEgKSEPZDpaVVTyXLaIPGBRSFCRRLwVsyDFCzrp8+70L5RcHz46fw=='"
+- "'strict-dynamic'"
+- "'unsafe-inline'"
