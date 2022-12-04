@@ -38,8 +38,3 @@
   to = "https://caefisica.com/:splat"
   status = 301
   force = true
-
-[[headers]]
-  for = "/admin/*"
-  [headers.values]
-    Content-Security-Policy = "style-src 'self' 'unsafe-eval';"
