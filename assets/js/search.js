@@ -13,3 +13,7 @@ if (location.href.indexOf("#invite_token") >= 0 || location.href.indexOf("#acces
   var urlSplit = document.URL.split("#");
   window.location = `/admin/#${urlSplit[1]}`;
 }
+
+document.querySelector('form[name="newsletter"]').addEventListener('submit', function(event) {
+  document.querySelector('#subscribeButton').disabled = true;
+});
