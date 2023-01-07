@@ -40,7 +40,7 @@
 				{{ range $index, $type := .Params.functionalities }}<li><a href="{{ "/experimental/functionalities/" | relURL }}{{ . | urlize }}/">{{ . | title }}</a></li>{{ end -}}
 				</ul>
 			{{ end -}}
-			<h2>Sitio web</h2>
+			<h2>Página web</h2>
 			<ul>
 				<li><a href="{{ .Params.link }}">{{ strings.TrimPrefix "https://" .Params.link }}</a></li>
 			</ul>
