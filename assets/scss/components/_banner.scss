@@ -257,7 +257,7 @@ $main-color: #2f288a;
   --color-primary: hsl(245, 58%, 61%);
   --color-primary-dark: hsl(245, 58%, 41%);
   --button-color: #fff;
-  --button-link-url: url("https://fs.blog/wp-content/plugins/mai-icons/icons/svgs/regular/arrow-right.svg");
+  --button-link-url: url("/images/icon/arrow-right.svg");
   --heading-font-weight: 700 !important;
   --heading-line-height: 125%;
   --h2-font-size: 1.5rem;
@@ -680,8 +680,8 @@ h2 {
   content: "";
   margin-bottom: -0.1em;
   margin-left: 8px;
-  -webkit-mask-image: url("https://fs.blog/wp-content/themes/fsblog/assets/icons/arrow-right.svg");
-  mask-image: url("https://fs.blog/wp-content/themes/fsblog/assets/icons/arrow-right.svg");
+  -webkit-mask-image: url("/images/icon/arrow-right.svg");
+  mask-image: url("/images/icon/arrow-right.svg");
 }
 
 [data-dark-mode] .button:active,
