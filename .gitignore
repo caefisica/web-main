@@ -4,4 +4,3 @@ resources
 .netlify
 .hugo_build.lock
 .env
-assets/js/var_secret.js
