@@ -25,7 +25,7 @@ function playVideo() {
 
   player = new YT.Player('player', {
     videoId: videoId,
-    origin: 'https://www.youtube.com',
+    origin: 'https://caefisica.com/',
     width: 900,
     height: 506,
     events: {
@@ -42,7 +42,7 @@ function playVideo() {
       'iv_load_policy': 3,
     },
   });
-
+  player.h.attributes.sandbox.value = "allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation";
   document.querySelector('#player').style.display = 'block';
 }
 
