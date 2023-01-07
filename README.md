@@ -1,18 +1,27 @@
-# Documentación del CAE-Física 💻 [![Netlify](https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status)](https://app.netlify.com/sites/caefis/deploys) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
+# Documentación del CAE-Física 💻 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Este es el repositorio de la documentación de cada curso del Plan de Estudios de Física 2018 de la Facultad de Ciencias Físicas de la Universidad Nacional Mayor de San Marcos.
+[![Netlify](https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status)](https://app.netlify.com/sites/caefis/deploys)
 
-- [Colaboradores](#colaboradores)
+Bienvenidos al repositorio de la documentación de cada curso del Plan de Estudios de Física 2018 de la Facultad de Ciencias Físicas de la Universidad Nacional Mayor de San Marcos.
+
+- [Nosotros](#nosotros)
+  * [Colaboradores](#colaboradores)
 - [Deseo colaborar](#contribuciones)
-  - [¿Por qué contribuir lo vale?](#¿por-qué-contribuir)
+  * [¿Por qué contribuir lo vale?](#¿por-qué-contribuir)
 - [Convenciones](#convenciones)
-  - [Estructura de las carpetas y nombre de los archivos](#estructura-del-directorio-y-nombre-de-los-archivos)
-  - [Formato de texto](#formato-del-texto)
-  - [Colores](#colores)
-  - [Plantillas](#plantillas)
+  * [Estructura de las carpetas y nombre de los archivos](#estructura-del-directorio-y-nombre-de-los-archivos)
+  * [Formato de texto](#formato-del-texto)
+  * [Colores](#colores)
+  * [Plantillas](#plantillas)
 - [Para desarrolladores](#desarrolladores)
 
-## Colaboradores
+## Nosotros
+
+El Centro de Apoyo al Estudiante de Física (CAE-Física) es un grupo de estudiantes universitarios de física enfocados en ayudar a otros estudiantes de física. Nuestro objetivo es proporcionar recursos y apoyo de alta calidad para ayudar a los estudiantes a tener éxito en sus estudios.
+
+### Colaboradores
+
+Este repositorio es mantenido por un equipo de voluntarios dedicados. Si deseas contribuir, por favor consulta la sección "Contribuciones" a continuación.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -35,18 +44,16 @@ Este es el repositorio de la documentación de cada curso del Plan de Estudios d
 
 ## Contribuciones
 
-Puedes comenzar a contribuir corrigiendo errores tipográficos en nuestra documentación. Otros aspectos en los que necesitamos ayuda son los siguientes:
+¡Agradecemos cualquier contribución de la comunidad! Si tienes experiencia en física o educación y quieres ayudar a otros estudiantes a mejorar en sus estudios, por favor considera contribuir a este repositorio. Algunas formas en las que puedes hacerlo son:
 
-1. *Guías de estudio*
-
-    Las guías de estudio necesitan de una mejor documentación para que los estudiantes los entiendan fácilmente. La documentación actual es a menudo vaga y no ofrece suficientes detalles sobre las asignaturas. Además, el lenguaje utilizado a menudo en las listas de reproducción que recomendamos suele ser demasiado técnicos o se encuentran únicamente en inglés; esta es una barrera para los estudiantes que no están familiarizados con la materia.
+1. **Guías de estudio**: Si has completado un curso y quieres compartir tus conocimientos y recursos con otros estudiantes, puedes crear o actualizar guías de estudio para ese curso. Asegúrate de incluir recomendaciones de libros y otros materiales útiles, y utiliza un lenguaje claro y accesible para facilitar la comprensión de los temas. En general tratamos de:
 
     - Recomendar libros de estudio.
     - Recomendar canales de Youtube u otra plataforma que aborde temas similares a los sílabos.
 
-2. *Apuntes de Clase*
+2. **Apuntes de Clase**: Si tienes apuntes de clase completos y bien organizados, podrías considerar compartirlos con otros estudiantes. Asegúrate de usar un lenguaje sencillo y claro, y elimina cualquier información innecesaria para mantener los apuntes concisos y fáciles de seguir.
 
-    Sería útil que los *Apuntes de Clase* sean más claros y concisos. Además, el uso de un lenguaje más sencillo facilitaría a los estudiantes la comprensión de algunos tópicos avanzados.
+3. **Recomendaciones de libros y otras fuentes de información**: Si conoces libros o canales de Youtube que cubren temas relevantes para los estudiantes de física, compártelos con la comunidad a través de nuestro repositorio. Asegúrate de proporcionar una descripción clara y completa de cada recomendación para que otros puedan evaluar si es relevante para ellos.
 
 ### ¿Por qué contribuir?
 
@@ -56,13 +63,11 @@ Si te apasiona la física y quieres ayudar a los nuevos estudiantes a sobresalir
 
 ### Estructura del directorio y nombre de los archivos
 
-Las versiones procesadas y en formato HTML de las guías de estudio se encuentran en [CAE-Física](https://caefis.netlify.app/). Los nombres de los cursos siguen la siguiente nomenclatura:
+Los archivos que contienen las guías de estudio se almacenan en una estructura de carpetas y subcarpetas que reflejan la universidad, el nivel de grado, el semestre y el código del curso. Por ejemplo, la guía de estudio para un curso de pregrado en el primer semestre con el código `CBO106` se guardaría en la siguiente ubicación: `content/unmsm/pregrado/1/CBO106.md`
 
-`[universidad]/[grado]/[número del semestre]/[código del curso sin espacios].md`
+Para facilitar la navegación, se recomienda seguir una nomenclatura consistente para los nombres de los archivos y carpetas. Por ejemplo, se podrían utilizar minúsculas y separar las palabras con guiones bajos en lugar de espacios en blanco.
 
-Por ejemplo, [la guía del curso](https://caefis.netlify.app/es/unmsm/pregrado/1/cbo106/) que se encuentra en: `https://caefis.netlify.app/es/unmsm/pregrado/1/cbo106/` tiene su [contenido en este repositorio](https://github.com/caefisica/web/blob/master/content/unmsm/pregrado/1/CBO106.md) en: `unmsm/pregrado/1/CBO106.md`
-
-Adicionalmente, puedes acceder a la dirección en GitHub de cada página de las Guías de Estudio. Solo dirígete la parte final de la página y verás lo siguiente:
+Adicionalmente, puedes acceder a la dirección en GitHub de cada archivo a través del menú ubicado al final de la página de la guía o nota de clase en particular. Deberías encontrar algo similar a esto:
 
 <p align="center">
 <img src="https://i.imgur.com/CIobd1U.png" width=60% height=60%>
@@ -70,17 +75,11 @@ Adicionalmente, puedes acceder a la dirección en GitHub de cada página de las 
 
 ### Formato del texto
 
-El formato de cada guía de estudio es Markdown y es procesada por `goldmark`. Como usamos Markdown, puedes añadir `*` o `_` para dar énfasis o `[enlaces](https://caefis.netlify.app/)`. Markdown tiene una sintaxis sencilla de aprender, puedes leer esto con más detalle [aquí](https://datosgobar.github.io/portal-andino/markdown-guide/).
+Las guías de estudio deben estar escritas en formato Markdown y deben procesarse utilizando goldmark. Markdown es un lenguaje de marcado sencillo que permite enfatizar el texto con asteriscos o subrayados (por ejemplo, *énfasis* o _énfasis_) y crear enlaces con corchetes y paréntesis (por ejemplo, [enlace](https://caefisica.com/)). Si necesitas más información sobre el uso de Markdown, puedes consultar [esta guía](https://datosgobar.github.io/portal-andino/markdown-guide/).
 
 ### Colores 
 
-Utlizamos mayoritariamente los siguiente colores (formato HEX) en degradado:
-
-| Color  | HEX |
-| -----  | --- |
-| Azul   | #0F9BF6 a #1823AB |
-| Morado | #5D46B4 a #5D2F86 |
-| Negro  | #212529 |
+Utilizamos principalmente colores en degradado, especificados en formato HEX. Por ejemplo, el azul se especifica como: `#0F9BF6` a `#1823AB`, el morado como: `#5D46B4` a `#5D2F86` y el negro como: `#212529`. Se recomienda utilizar un conjunto de colores coherente a lo largo de todas las guías de estudio.
 
 ### Plantillas
 
@@ -94,118 +93,23 @@ Utlizamos mayoritariamente los siguiente colores (formato HEX) en degradado:
 
 ### Software necesario
 
-> El autor usa Windows 11 (64 bits). Los pasos pueden variar un poco si usas un SO basado en Linux por ejemplo. Adicionalmente, te recomendaría usar las variantes para x64 al escoger los instaladores.
+Para desarrollar y contribuir a este proyecto, necesitarás tener instalado cierto software en tu sistema operativo. A continuación se describen los pasos para instalar cada uno de estos programas en un sistema operativo Windows:
 
-* `npm`
-  * Instala `npm` a través de [Node.js](https://nodejs.org/es/download/). Las opciones predeterminadas bastan
-  * Al culminar, reinicia tu ordenador por si acaso
-  * Abre una consola (`cmd` por ejemplo) y escribe: `npm -v`
-  * Si te aparece una serie de números como este: `1.4`, entonces se instaló correctamente
-  * Como alternativa, también puedes usar [nvm-windows](https://github.com/coreybutler/nvm-windows). Si decides usar nvm, no utilices el instalador de Node.js
-* `git`
-  * Descarga [`git-scm`](https://git-scm.com/downloads), click en el nombre.
-  * Sigue los pasos predeterminados.
-  * Al culminar, abre Powershell y escribe: `git --version`
-  * Si te da un valor tipo: `git version 2.37.3.windows.1`. Entonces se ha instalado correctamente
-* `VSCode` (opcional)
-  * Descarga e instala [VSCode](https://code.visualstudio.com/download)
+* `npm`: es el administrador de paquetes de Node.js. Puedes instalarlo a través de la página de descargas de [Node.js](https://nodejs.org/es/download/). Asegúrate de descargar la versión `16.16.0` y sigue los pasos predeterminados durante la instalación. Una vez finalizada, reinicia tu ordenador y abre una consola (por ejemplo, cmd). Escribe npm -v y presiona Enter. Si aparece una serie de números como 1.4, significa que npm se ha instalado correctamente. Alternativamente, puedes utilizar [nvm-windows](https://github.com/coreybutler/nvm-windows). Si decides usar nvm, no utilices el instalador de Node.js.
+* `git`: es una herramienta de control de versiones que nos permitirá gestionar y mantener el código fuente del proyecto. Puedes descargarlo desde la página de [`git-scm`](https://git-scm.com/downloads). Sigue los pasos predeterminados durante la instalación. Una vez finalizada la instalación, abre una consola (por ejemplo, Powershell) y escribe git --version. Si aparece una línea como `git version 2.37.3.windows.1`, significa que git se ha instalado correctamente.
+* `VSCode` (opcional): es un editor de código fuente muy popular y completo. Puedes descargarlo desde la página de [VSCode](https://code.visualstudio.com/download).
 
-### Entorno local
+### Configuración del entorno de desarrollo
 
-1. Crea la carpeta donde guardarás el repositorio localmente.
-2. Haz anticlic en la carpeta que acabas de crear, luego clic en "Abrir en VSCode".
-3. En VSCode, presiona `Ctrl + Shift + Ñ`
-4. En el terminal que se acaba de abrir escribe el siguiente comando (clonar el repositorio de Github):
+En adelante, se denominará como consola a un terminal como Powershell o Command Prompt (CMD). Para configurar tu entorno de desarrollo, sigue estos pasos:
 
-        git clone https://github.com/caefisica/web.git
-
-5. Ahora cambiaremos de carpeta:
-        
-        cd .\web\
-
-6. Revisa los remotos:
-
-        git remote -v
-  
-    Deberás obtener los siguientes resultados:
-
-        origin     https://github.com/caefis/web.git (fetch)
-        origin     https://github.com/caefis/web.git (push)
-
-7. Veamos cuantas ramas hay:
-
-        git branch -a
-
-   Te saldrá un resultado similar a este:
-
-          home-page
-        * master
-          remotes/origin/dependabot/npm_and_yarn/autoprefixer-10.4.10
-
-    > El asterisco (`*`) antes de master nos indica que estamos en la rama master.
-
-8. Hagamos pull para comprobar que no hay conflictos entre las historias:
-
-        git pull cae master
-
-    O también puedes hacerlo por VSCode:
-      
-      1. `Ctrl + Alt + G`
-      2. Haz clic en los tres puntos del menú que se acaba de abrir.
-      3. Selecciona `Pull/Push`.
-      4. Selecciona `Extraer de`.
-      5. Selecciona `cae` o `origin` (si te saltaste el paso 7).
-      6. Selecciona `master`.
-
-      </br>
-  
-    > **NO CONTINÚES CON EL RESTO DE INSTRUCCIONES SI ES QUE ESTE PASO TE DA ALGÚN TIPO DE ERROR**. Puedes consultar con el administrador en caso de necesitar ayuda.
-
-9. Instala las dependencias:
-
-        npm install
-
-10. Corre localmente:
-
-        npm run start
-
-12: A continuación, en tu navegador de preferencia, ve a:
-        
-        http://localhost:1313
-
-13. Tras hacer tus cambios, crea un commit.
-
-    * `Ctrl + Mayus + G`
-    * Clic en el símbolo ✔️ al lado de "Control de código fuente".
-    * Te pedirá que escribas una descripción del commit, escribe qué haz añadido o quitado.
-    * Presiona `enter`.
-
-### Publicar tus cambios
-
-> **Importante**: antes de publicar tus cambios, haz pull para evitar historias conflictivas. Es decir, vuelve a realizar el paso 9.
-
-Finalmente:
-
-1. `Ctrl + Mayus + G`
-2. En los tres puntos de la esquina derecha, haz clic en `Pull/Push`. 
-3. Selecciona `Insertar en...`
-4. Selecciona `cae`.
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+1. Clona el repositorio en tu equipo usando git. Abre una consola y escribe `git clone https://github.com/caefisica/web.git`. Esto creará una copia del repositorio en tu equipo en una carpeta llamada web.
+2. Accede a la carpeta del proyecto. En la consola, escribe `cd web` para entrar en la carpeta del proyecto.
+3. Instala las dependencias del proyecto. En la consola, escribe `npm install`. Este comando instalará todas las dependencias necesarias para ejecutar y desarrollar el proyecto.
+4. Arranca el servidor de desarrollo. En la consola, escribe `npm run start`. Este comando arrancará el servidor de desarrollo y abrirá automáticamente una pestaña en tu navegador con la página del proyecto. A partir de ahora, cada vez que hagas un cambio en el código fuente, el servidor se reiniciará automáticamente y podrás ver los cambios en tiempo real. Podrás acceder a la página en `http://localhost:1313`.
+5. Para comenzar a editar el proyecto utilizando VSCode, escribe `code .` (no te olvides del punto y el espacio después de `code`). Una vez que hayas realizado los cambios que desees en el proyecto, puedes publicarlos en el repositorio de GitHub siguiendo estos pasos:
+  * Abre la lista de archivos modificados en VSCode haciendo clic en el icono de control de código fuente en la barra lateral izquierda o presionando Ctrl + Mayús + G.
+  * Selecciona los archivos que deseas incluir en el commit haciendo clic en el icono de "staged changes" al lado de cada archivo.
+  * Escribe una descripción clara y concisa del commit en el campo "Message" en la parte inferior de la ventana.
+  * Haz clic en el botón "Commit All" para realizar el commit.
+  * Para enviar tus cambios al repositorio de GitHub, haz clic en el botón "Push" en la barra superior o selecciona "Push" en el menú "Control de código fuente". Esto enviará tus cambios al repositorio de GitHub y los hará disponibles para todos los miembros del equipo.
