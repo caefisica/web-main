@@ -3,10 +3,10 @@
   {{ $css := resources.Get "scss/app.scss" | toCSS $options -}}
   <link rel="stylesheet" href="{{ $css.Permalink | relURL }}">
   {{ if eq .Kind "home" -}}
-  {{ $options := (dict "targetPath" "home.css" "enableSourceMap" true) -}}
-  {{ $banner := resources.Get "scss/components/_banner.scss" | toCSS $options -}}
-  <link rel="stylesheet" href="{{ $banner.Permalink | relURL }}">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css">
+    {{ $options := (dict "targetPath" "home.css" "enableSourceMap" true) -}}
+    {{ $banner := resources.Get "scss/components/_banner.scss" | toCSS $options -}}
+    <link rel="stylesheet" href="{{ $banner.Permalink | relURL }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css">
   {{ end -}}
 {{ else -}}
   {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "includePaths" (slice "node_modules")) -}}
@@ -14,10 +14,10 @@
   {{ $secureCSS := $css | resources.Fingerprint "sha512" -}}
   <link rel="stylesheet" href="{{ $secureCSS.Permalink | relURL }}" integrity="{{ $secureCSS.Data.Integrity }}" crossorigin="anonymous">
   {{ if eq .Kind "home" -}}
-  {{ $options := (dict "targetPath" "home.css" "outputStyle" "compressed") -}}
-  {{ $banner := resources.Get "scss/components/_banner.scss" | toCSS $options | postCSS (dict "config" "config/postcss.config.js") -}}
-  {{ $secureBanner := $banner | resources.Fingerprint "sha512" -}}
-  <link rel="stylesheet" href="{{ $secureBanner.Permalink | relURL }}" integrity="{{ $secureBanner.Data.Integrity }}" crossorigin="anonymous">
+    {{ $options := (dict "targetPath" "home.css" "outputStyle" "compressed") -}}
+    {{ $banner := resources.Get "scss/components/_banner.scss" | toCSS $options | postCSS (dict "config" "config/postcss.config.js") -}}
+    {{ $secureBanner := $banner | resources.Fingerprint "sha512" -}}
+    <link rel="stylesheet" href="{{ $secureBanner.Permalink | relURL }}" integrity="{{ $secureBanner.Data.Integrity }}" crossorigin="anonymous">
   {{ end -}}
 {{ end -}}
 

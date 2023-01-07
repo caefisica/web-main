@@ -4,25 +4,25 @@
 
 <div class="header-bar"></div>
 
-<header class="navbar navbar-expand-lg navbar-light doks-navbar">
-  <nav class="container-fluid flex-wrap flex-lg-nowrap" aria-label="Navegación principal">
-    <a class="navbar-brand order-0" href="{{ "/" | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
+<header class="navbar navbar-expand-md navbar-light doks-navbar">
+  <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Navegación principal">
+    <a class="navbar-brand p-0 me-auto" href="{{ "/" | relURL }}" aria-label="{{ .Site.Params.Title }}">
       {{ .Site.Params.Title }} <span class="text-muted">-</span> <span class="subtitle-brand">{{ .Site.Params.Subtitle }} </span>
     </a>
 
-    <button class="btn btn-menu d-block d-lg-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Abrir menú principal">
+    <button class="btn btn-menu d-block d-md-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Abrir menú principal">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
     </button>
 
-    <div class="offcanvas offcanvas-end border-0 py-lg-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
-      <div class="header-bar d-lg-none"></div>
-      <div class="offcanvas-header d-lg-none">
+    <div class="offcanvas offcanvas-end border-0 py-md-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
+      <div class="header-bar d-md-none"></div>
+      <div class="offcanvas-header d-md-none">
         <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="{{ "/" | relURL }}">{{ .Site.Params.Title }} <span class="text-primary subtitle-brand">{{ .Site.Params.Subtitle }} </span> </a></h2>
         <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Cerrar menú principal"></button>
       </div>
       <div class="offcanvas-body px-4">
-        <h3 class="h6 text-uppercase mb-3 d-lg-none">Categorías</h3>
-        <ul class="nav flex-column flex-lg-row ms-lg-n3">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Categorías</h3>
+        <ul class="nav flex-column flex-md-row ms-md-n3">
           {{- $current := . -}}
           {{ $counter := 0 }}
           {{ range .Site.Menus.main -}}
@@ -33,7 +33,7 @@
             {{- $active = or $active (and (eq .Name "Experimental") (eq $current.Section "experimental" "types" "functionalities")) -}}
             {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog" "contributors")) -}}
             {{ if .HasChildren }}
-            {{ $counter = add $counter 1 }}
+              {{ $counter = add $counter 1 }}
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink-{{ $counter }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   {{ .Name }}
@@ -55,9 +55,9 @@
             {{ end }}
           {{ end -}}
         </ul>
-        <hr class="text-black-50 my-4 d-lg-none">
-        <h3 class="h6 text-uppercase mb-3 d-lg-none">Redes sociales</h3>
-        <ul class="nav flex-column flex-lg-row ms-lg-auto me-lg-n5 pe-lg-2">
+        <hr class="text-black-50 my-4 d-md-none">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Redes sociales</h3>
+        <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
           {{ range .Site.Menus.social -}}
             <li class="nav-item">
               <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
@@ -78,7 +78,7 @@
 
 {{ if eq .Section "unmsm" "apuntes" -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
-  <div class="container-fluid d-flex align-items-md-center">
+  <div class="container-xxl d-flex align-items-md-center">
 
     <div class="d-inline-flex me-auto placeholder-glow">
       <div id="search-placeholder" aria-hidden="true">
@@ -123,7 +123,7 @@
 
 {{ if eq .Section "tutorial" -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
-  <div class="container-fluid d-flex align-items-md-center">
+  <div class="container-xxl d-flex align-items-md-center">
 
     <nav class="nav">
       {{ range .Site.Menus.secondary -}}
@@ -150,7 +150,7 @@
 
 {{ if or (eq .Section "experimental") (eq .Data.Singular .Kind "type") (eq .Data.Singular .Kind "functionality") -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Navegación terciaria">
-  <div class="container-fluid d-flex align-items-md-center">
+  <div class="container-xxl d-flex align-items-md-center">
 
     <nav class="nav">
       {{ range .Site.Menus.tertiary -}}
