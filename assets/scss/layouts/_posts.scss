@@ -22,7 +22,6 @@
   margin: 0;
 }
 
-.home .card:hover,
 .blog .card:hover,
 .newsletter .card:hover,
 .list.unmsm .card:hover,
@@ -36,6 +35,10 @@
 
 .list.unmsm .section-featured .card {
   margin: 0;
+}
+
+.home .card:hover:not(.alignfull .card) {
+  transform: scale(1.025);
 }
 
 .home .card-body,

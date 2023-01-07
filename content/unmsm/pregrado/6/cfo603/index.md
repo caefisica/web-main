@@ -49,14 +49,26 @@ Los siguientes libros contienen bastante contenido teórico y una sección de pr
 
 |Nombre|Autor|Editorial|Año|
 |------|-----|---------|---|
-|[A modern approach to Quantum Mechanics](https://drive.google.com/file/d/1qPKj5a7Br5weHLpW_O6anGlx9HuwoUip/view?usp=sharing)|Towsend, J.|University Science Books|2012|
-|[Introducción a la Mecánica Cuántica](https://drive.google.com/file/d/1tg9dyvvz58K53apqDQCvgLwwqrMPTrHZ/view?usp=sharing)| Luis de la Pëña | Fondo de Cultura Economica | 2014 |
+| [A modern approach to Quantum Mechanics](https://drive.google.com/file/d/1qPKj5a7Br5weHLpW_O6anGlx9HuwoUip/view?usp=sharing)|Townsend, J.|University Science Books|2012|
+| [Introducción a la Mecánica Cuántica](https://drive.google.com/file/d/1tg9dyvvz58K53apqDQCvgLwwqrMPTrHZ/view?usp=sharing)| Luis de la Pëña | Fondo de Cultura Economica | 2014 |
 | [Introduction to Quantum Mechanics](https://drive.google.com/file/d/15dGhRSGqPTv86cgRxI9wMfV9icqZ0UWV/view?usp=sharing)| David J. Griffiths |  Pearson | 2005 |
 | [Quantum Mechanics](https://drive.google.com/file/d/1LnZuwittPFyXFn-JpXZaeruDyWmwjefJ/view?usp=sharing)| Richard W. Robinett | Oxford University Press | 2006 |
+| [Quantum Mechanics](https://drive.google.com/file/d/1ClrFVnrNK5k_xWL2OexIl334YoGRXqkx/view?usp=share_link) | David McIntyre |
 |[Quantum Mechanics Theory and Experiment](https://drive.google.com/file/d/1vnDPB1LKvqVqPPisBJ9JBHlZtnTXDnqG/view?usp=sharing)| Mark Beck | Oxford University Press | 2012 |
 | [Quantum Mechanics](https://drive.google.com/file/d/1Ug4Uo3OIkR9j0a7tfOktNHkhDnQ-2uJj/view?usp=sharing) | Franz Schwabl | Springer | 2007 |
 | [Quantum Mechanics for Scientists and Engineers](https://drive.google.com/file/d/1_RgS8hg2mj-dMSwhiGNqOxHSiZCw__gD/view?usp=sharing) | David A. B. Miller | Cambridge | 2007 |
 | [Modern Quantum Mechanics](https://drive.google.com/file/d/1g35_paQ32l1ysA7cuq9T5JDzcicgZ43D/view?usp=sharing)| J. J. Sakurai | Pearson | 2011 |
+
+Adicionalmente:
+
+|Nombre|Autor|Editorial|Año|
+|------|-----|---------|---|
+| [Quantum Mechanics](https://drive.google.com/file/d/1U1Y-rO9-k6OTHdHj7nb6mxJJbVzBpH4t/view?usp=share_link) | Walter Greiner | Springer | 1989 |
+| Quanturn Mechanics | John Powell |
+| [Introducción a la mecánica Cuántica](https://drive.google.com/file/d/14Y4gkApyoXTnWByZbxCePvXuxlDyhZlo/view?usp=share_link) | Julio Gratton | Independiente | 2003 |
+| [Mecánica Cuántica](https://drive.google.com/file/d/1_MAbEDFxFdkX0M75UZGEgYdj2uwlaolo/view?usp=sharing) | Francisco Yndurain |
+| [Introducción a la mecánica cuántica](https://drive.google.com/file/d/1JjwaPhn7Hl_fR7j67eLoYLMOU_l21aDl/view?usp=share_link) | Daniel Gillespie
+| [Apuntes de un curso de Mecánica Cuántica I](https://drive.google.com/file/d/1f7BeQxz0EWAjS3rm3wfRC20NKCQvDjCZ/view?usp=share_link) | Ferrer, Massmann, Muñoz, Rossler, Rogan |
 
 ### Práctica
 
@@ -64,9 +76,13 @@ Los siguientes libros contienen ejercicios o problemas planteados. Contienen muy
 
 |Nombre|Autor|Editorial|Año|
 |------|-----|---------|---|
+| [Problemas y ejercicios de Mecánica Cuántica](https://drive.google.com/file/d/1-CxML2bk0tSH4lttsCbDf7jkDpkdhofF/view?usp=sharing) | Luis de la Peña y Mirna Villavicencio | Fondo de Cultura Económica | 2003 |
 | [Solved Problems in Quantum and Stadistical Mechanics](https://drive.google.com/file/d/1ThSu6plwX1l57vGu1hlFhQlqPxkKTjs4/view?usp=sharing) | M. Cini, F. Fucito & M. Sbragaglia | Springer | 2012 |
 | [Quantum Mechanics Concepts and Applications](https://drive.google.com/file/d/1xO2MSB55AYjx3Dq-oBTyVx75-0MuREaO/view?usp=sharing) | Nouredine Zettili | WILEY | 2009 |
+| [Problems and Solutions on Quantum Mechanics](https://drive.google.com/file/d/1kJn8_SDmlSbn86hDfnAuWOMBYY08xI8k/view?usp=share_link) | Yung-Kuo Lim
 | [Problems & Solutions in Quantum Mechanics](https://drive.google.com/file/d/1L7mo8keIkSJ6-1rthIv0RFNRh_TWovEG/view?usp=sharing) | Kyriakos Tamvakis | Cambridge | 2005 |
+| [Problems in Quantum Mechanics with Solutions](https://drive.google.com/file/d/1hn8YcHn-O8jlXe4996dYiwEwbVV9pRkC/view?usp=sharing) | Gordon Squires
+| [Problems in Quantum Mechanics with Solutions](https://drive.google.com/file/d/1ktmYwIpnZSD8Cw68lDbbU49YKNMhOC_7/view?usp=share_link) | Emilio d'Emilio & Luigi Picasso
 | [Quantum Mechanics 5000 Problems with Solutions](https://drive.google.com/file/d/1xeRZRQif8oUeMQZLmKCxx3Px1gWp8hk0/view?usp=sharing) | G. Aruldhas | University of Kerala | 2011 |
 
 ### Listas de reproducción
