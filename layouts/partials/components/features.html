@@ -24,11 +24,11 @@
           <div class="card my-0 mai-column is-column hover-box">
             <h2 class="has-black-color has-xl-font-size">
               <a href="{{ $link | relURL }}">
-                {{ .title }}
+                {{ .title | markdownify -}}
               </a>
             </h2>
             <p class="has-sm-font-size">
-              {{ .description }}
+              {{ .description | markdownify -}}
             </p>
             <div class="d-flex flex-wrap wp-block-buttons">
               <div class="wp-block-button">
