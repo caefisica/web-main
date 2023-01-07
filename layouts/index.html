@@ -1,57 +1,19 @@
 {{ define "main" }}
-<section class="section p-0">
-  <div class="container banner d-flex justify-content-center align-items-center text-center">
-    <div class="row justify-content-between align-items-center">
-      <div class="col-lg-7 text-center text-lg-start">
-        <div class="hero_footer-svg position-absolute">
-          <img src="/images/shape/figure-svg.svg" alt="Textura a modo de adorno." />
-        </div>
-        <h1 class="mb-4">Una guía para el estudio de las Ciencias Físicas</h1>
-        <p class="lead mb-4">{{ .Params.Lead | safeHTML }}</p>
-        <form class="search-wrapper home-search" action="{{ `search` | relLangURL }}">
-          <div id="docsearch"></div>
-        </form>
-        <p class="meta mt-3">Un proyecto del {{ .Site.Params.titleAddition }}</a></p>
-      </div>
-      <div class="col-lg-7 d-none d-lg-block">
-        {{ with .Site.Data.fixes.frontpage }}
-        <div class="hero_figure position-relative ms-auto">
-          <div class="figure-svg position-absolute">
-            <img class="w-100 h-100" src="/images/shape/figure-svg.svg" alt="figure-svg" />
-          </div>
-          <img class="img-hero-mask w-100 h-100" src="{{ .image | absURL }}" alt="hero-image"/>
-
-          {{ if .videoURL }}
-          <div class="hero_figure-popup position-absolute">
-            <div class="thumb position-relative overflow-hidden">
-              <img class="w-100 h-100" src="{{ .videoThumb }}" alt="popup" />
-            </div>
-
-            <a href="{{ .videoURL }}" type="button" class="popup-button text-center big position-absolute rounded-circle" aria-label="Youtube">
-              <svg class="position-absolute" xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24">
-                <path d="M17.961 10.264a2 2 0 010 3.473L2.992 22.29A2 2 0 010 20.554V3.446A2 2 0 012.992 1.71z"
-                  data-name="Polygon 4" />
-              </svg>
-            </a>
-          </div>
-          {{ end }}
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </div>
-</section>
+{{ partial "components/welcome.html" . -}}
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
-{{ partial "main/featured-courses.html" . -}}
-<!--
-<div class="d-flex justify-content-start mb-3">
+{{/* partial "main/featured-courses.html" . -*/}}
+
+<div class="d-flex justify-content-start">
   <div class="bg-dots"></div>
 </div>
--->
 
-<section class="section section-md mb-5 arriba">
+
+{{ partial "components/features.html" . -}}
+
+<!--
+<section class="section section-md mb-5">
   <div class="container">
     <div class="row justify-content-center text-center mt-lg-3">
       <div class="col-lg-5">
@@ -87,6 +49,8 @@
     </div>
   </div>
 </section>
+-->
+
 <section class="section apoyo mt-3 bg-light">
   <div class="container">
     <h2 class="h3 mt-0 text-center">¿Deseas colaborar?</h2>
