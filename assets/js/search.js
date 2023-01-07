@@ -9,17 +9,40 @@ document.onkeyup = function () {
 
 /* Redirect the invites links to /admin/, this is not an automatic function from Netlify */
 /* If either indexOf() returns value equal or greater than zero, then it will be executed */
-if (location.href.indexOf("#invite_token") >= 0 || location.href.indexOf("#access_token") >= 0) {
-  var urlSplit = document.URL.split("#");
-  window.location = `/admin/#${urlSplit[1]}`;
+
+function checkToken() {
+  if (location.href.indexOf('#invite_token') >= 0 || location.href.indexOf('#access_token') >= 0) {
+    var urlSplit = window.location.href.split('#');
+    if (urlSplit.length >= 2) {
+      window.location = `/admin/#${urlSplit[1]}`;
+    }
+  }
 }
 
-document.querySelector('form[name="newsletter"]')
-  .addEventListener('submit', function(e) {
-    // prevent the form from submitting
-    e.preventDefault();
-    // disable the subscribe button
+// check for the invite or access token
+checkToken();
+
+/* This handles the newsletter submission button */
+function handleFormSubmit(e) {
+  e.preventDefault();
+
+  var form = e.currentTarget;
+  var subscribeButton = form.querySelector('button[type="submit"]');
+  if (subscribeButton) {
     subscribeButton.disabled = true;
-    // submit the form
-    this.submit();
-  });
+    form.submit();
+    form.addEventListener('error', () => subscribeButton.disabled = false); // re-enable the subscribe button if error
+  }
+}
+
+function addFormListener() {
+  var form = document.querySelector('form[name="newsletter"]');
+  if (form) {
+    form.addEventListener('submit', handleFormSubmit);
+    form.addEventListener('success', () => console.log('¡Se ha enviado un correo correctamente!'));
+    form.addEventListener('remove', () => form.removeEventListener('submit', handleFormSubmit));
+  }
+}
+
+var forms = document.querySelectorAll('form[name="newsletter"]');
+forms.forEach(addFormListener);
