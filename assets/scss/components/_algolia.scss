@@ -2,12 +2,6 @@
   min-height: 2.5rem;
 }
 
-@media (min-width: 680px) {
-  #docsearch:hover {
-    width: auto;
-  }
-}
-
 .aa-SourceFooter {
   display: none;
 }
@@ -321,6 +315,10 @@
 [data-dark-mode] .aa-Input::placeholder {
   color: #ced4da;
   opacity: 1;
+}
+
+.aa-Input:focus-visible {
+  outline: none;
 }
 
 [data-dark-mode] .aa-Label svg {

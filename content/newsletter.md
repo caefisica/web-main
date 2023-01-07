@@ -8,10 +8,8 @@ type: "newsletter"
 images: []
 ---
 
-<br>
+¿Quieres estar siempre enterado de lo que sucede en nuestra facultad? ¿Te interesan las oportunidades académicas como becas, conferencias, seminarios y talleres? ¿Te gustaría mantenerte al tanto de las últimas noticias y novedades sobre investigación?
 
-{{< mascot >}}
+Entonces, ¡no puedes perderte nuestro boletín! Al suscribirte, recibirás nuestras últimas noticias y actualizaciones cada dos semanas directamente en tu correo electrónico.
 
-Suscríbete a nuestro boletín y recibe actualizaciones ocasionales sobre nuevos cursos aperturados.
-
-<br>
+Es muy fácil suscribirse, solo tienes que introducir tu nombre y dirección de correo electrónico en el formulario de abajo. ¡No te lo pierdas!
