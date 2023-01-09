@@ -40,13 +40,13 @@
     "description": "Miembro en el área de diseño."
   },
   {
-    "name": "Víctor Tello",
-    "first_name": "Victor",
-    "image": "/images/member/victor.webp",
+    "name": "Andrea Palacios",
+    "first_name": "Andrea",
+    "image": "/images/member/andrea.webp",
     "funcion": "Diseño",
     "role": "Creative",
-    "data": "7",
-    "avatar": "main",
+    "data": "5",
+    "avatar": "2",
     "description": "Miembro en el área de diseño."
   },
   {
@@ -60,13 +60,31 @@
     "description": "Miembro en el área de redacción."
   },
   {
-    "name": "Andrea Palacios",
-    "first_name": "Andrea",
-    "image": "/images/member/andrea.webp",
+    "name": "Víctor Tello",
+    "first_name": "Victor",
+    "image": "/images/member/victor.webp",
     "funcion": "Diseño",
     "role": "Creative",
-    "data": "5",
-    "avatar": "2",
+    "avatar": "main",
     "description": "Miembro en el área de diseño."
+  },
+  {
+    "name": "Edwing Pineda",
+    "first_name": "Edwing",
+    "image": "/images/member/edwing.webp",
+    "funcion": "Académicos",
+    "role": "Academics",
+    "data": "8",
+    "avatar": "main",
+    "description": "Miembro en el área de académicos."
+  },
+  {
+    "name": "Nelson Noa",
+    "first_name": "Nelson",
+    "image": "/images/member/nelson.webp",
+    "funcion": "Edición",
+    "role": "Creative",
+    "avatar": "main",
+    "description": "Miembro en el área de comunicaciones."
   }
 ]
