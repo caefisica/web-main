@@ -17,10 +17,10 @@
 }
 
 .docs-content {
-  p a,
-  li a,
-  td a {
-    background: linear-gradient(90deg, hsla(60, 2%, 74%, 0), hsla(60, 2%, 74%, 0)), linear-gradient(90deg, #bfbfbc, #bfbfbc);
+  p a:not(.page-links a),
+  li a:not(.page-links a),
+  td a:not(.page-links a) {
+    background: linear-gradient(90deg, hsla(60, 2%, 74%, 0), hsla(60, 2%, 74%, 0)), linear-gradient(90deg, rgba(44, 38, 130, 0.4), rgba(44, 38, 130, 0.4));
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
     background-size: 100% 0.1em, 0 0.1em;
@@ -29,9 +29,9 @@
     text-decoration: inherit;
   }
 
-  p a:hover,
-  li a:hover,
-  td a:hover {
+  p a:not(.page-links a):hover,
+  li a:not(.page-links a):hover,
+  td a:not(.page-links a):hover {
     background-size: 0 0.1em, 100% 0.1em;
   }
 
