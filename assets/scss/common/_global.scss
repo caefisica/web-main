@@ -416,7 +416,7 @@ article li ul {
   min-height: calc(100vh - 100px - 5.41rem);
 }
 
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(xl) {
   .mx-n2r {
     margin-left: -2rem;
     margin-right: -2rem;
