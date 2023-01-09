@@ -76,17 +76,17 @@
 
 [[footer]]
   name = "Nosotros"
-  url = "/es/nosotros"
+  url = "/nosotros"
   weight = 10
 
 [[footer]]
   name = "Boletín"
-  url = "/es/newsletter"
+  url = "/newsletter"
   weight = 20
 
 [[footer]]
   name = "Privacidad"
-  url = "/es/privacidad"
+  url = "/privacidad"
   weight = 30
 
 [[experimental]]

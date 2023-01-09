@@ -1,5 +1,5 @@
 ---
-title : "Tercer semestre"
+title : "Ciclo III"
 lead: "Si llegaste hasta aquí, ¡es porque probablemente ya pasaste a facultad! Las asignaturas de Física del tercer semestre comienzan a verse más especializadas. Llevarás cursos de matemáticas que te irán preparando para cursos de quinto y sexto ciclo que requieren de ciertas técnicas al momento de resolver problemas físicos."
 description: "Tercer semestre"
 date: 2020-10-06T08:48:45+00:00
