@@ -1,5 +1,5 @@
 ---
-title : "Segundo semestre"
+title : "Ciclo II"
 lead: "Las asignaturas de Física del segundo semestre te ofrecen la oportunidad de refrescar un poco la memoria. Todavía cursos que a priori no parecen estar relacionados mucho con la carrera."
 description: "Segundo semestre"
 date: 2020-10-06T08:48:45+00:00

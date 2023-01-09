@@ -1,5 +1,5 @@
 ---
-title : "Séptimo semestre"
+title : "Ciclo VII"
 lead: "Aún no llego a este semestre. Pi, pi, pi."
 description: "Séptimo semestre"
 date: 2020-10-06T08:48:45+00:00
