@@ -24,7 +24,7 @@ Por favor, informe de cualquier problema de seguridad que descubra, incluyendo:
 
 ### Cómo informar
 
-Para informar sobre un problema de seguridad, envíanos un correo electrónico a david@caefisica.com e incluya la palabra "[SEGURIDAD]: " al inicio del asunto. Por ejemplo: "[SEGURIDAD]: Doble escape". Es posible que un miembro de nuestro equipo solicite información u orientación adicional sobre tu hallazgo.
+Para informar sobre un problema de seguridad, envíanos un correo electrónico a david@caefisica.com e incluya la palabra "`[SEGURIDAD]: `" al inicio del asunto. Por ejemplo: "`[SEGURIDAD]: Doble escape`". Es posible que un miembro de nuestro equipo solicite información u orientación adicional sobre tu hallazgo.
 
 ### Información a incluir
 
@@ -53,7 +53,7 @@ Please report any security issues you discover, including:
 
 ### How to Report
 
-To report a security issue, please email us at david@caefisica.com and include the word "[SEGURIDAD]: " at the beginning of the subject line. For example: "[SEGURIDAD]: Double escaping". A member of our team may request additional information or guidance on your finding.
+To report a security issue, please email us at david@caefisica.com and include the word "`[SEGURIDAD]: `" at the beginning of the subject line. For example: "`[SEGURIDAD]: Double escaping`". A member of our team may request additional information or guidance on your finding.
 
 ### Information to Include
 

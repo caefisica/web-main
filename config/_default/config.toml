@@ -60,8 +60,8 @@ rel  = "sitemap"
 
 [permalinks]
   blog = "/blog/:title/"
-  types = "/showcase/types/:title/"
-  functionalities = "/showcase/functionalities/:title/"
+  types = "/experimental/types/:title/"
+  functionalities = "/experimental/functionalities/:title/"
 
 [minify]
   disableJs = false
