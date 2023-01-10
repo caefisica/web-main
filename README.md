@@ -1,6 +1,6 @@
 # Documentación del CAE-Física 💻 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![Netlify](https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status)](https://app.netlify.com/sites/caefis/deploys)
+[![Netlify](https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status)](https://app.netlify.com/sites/caefis/deploys) [![Momobot CI](https://github.com/caefisica/web/actions/workflows/node.js-ci.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/node.js-ci.yml) [![Análisis CodeQL](https://github.com/caefisica/web/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/codeql-analysis.yml) [![Lighthouse CI](https://github.com/caefisica/web/actions/workflows/push.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/push.yml)
 
 Bienvenidos al repositorio de la documentación de cada curso del Plan de Estudios de Física 2018 de la Facultad de Ciencias Físicas de la Universidad Nacional Mayor de San Marcos.
 

@@ -300,9 +300,6 @@ a {
 a:focus,
 a:hover {
   color: var(--color-link-dark, var(--link-color, var(--color-link)));
-  /*-webkit-text-decoration: underline;*/
-  /*text-decoration: underline;*/
-  /*text-underline-offset: var(--link-text-decoration-offset, 6px);*/
 }
 
 .has-black-color a {
