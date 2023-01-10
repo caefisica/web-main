@@ -45,9 +45,11 @@
       {{- end -}}
     </div>
     {{ partial "main/docs-navigation.html" . }}
+    {{- if .Site.Params.giscus -}}
     <div class="mt-2">
       {{- partial "components/comments.html" . -}}
     </div>
+    {{- end -}}
   </div>
   </main>
 </div>
