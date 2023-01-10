@@ -107,8 +107,8 @@
 {{ end -}}
 
 {{ if eq .Kind "home" -}}
-  <script src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
+  <script src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript" defer></script>
   {{ $player := resources.Get "js/player.js" | js.Build -}}
   <script src="{{ $player.RelPermalink }}" defer></script>
-  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="https://www.youtube.com/iframe_api" defer></script>
 {{ end -}}
