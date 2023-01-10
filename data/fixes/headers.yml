@@ -11,6 +11,11 @@ connectsrc:
 - https://unpkg.com
 - https://*.workers.dev
 
+fontsrc:
+- "'self'"
+- "data:"
+- https://caefisica.com
+
 framesrc:
 - "'self'"
 - https://d.cae.workers.dev
@@ -28,6 +33,7 @@ imgsrc:
 
 manifestsrc:
 - "'self'"
+- https://caefisica.com
 - https://*.netlify.app
 
 stylesrc:

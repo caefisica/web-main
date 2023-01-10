@@ -28,9 +28,6 @@
     <h1>{{ .Title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</h1>
     {{ if ne .Params.toc false -}}
     {{- partial "main/blog-meta.html" . -}}
-    <nav class="d-xl-none" aria-label="Quaternary navigation">
-      {{ partial "sidebar/docs-toc.html" . }}
-    </nav>
     {{- end -}}
     {{- if eq .Params.working true -}}
       {{- partial "components/alert.html" -}}
