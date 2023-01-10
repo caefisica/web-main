@@ -18,6 +18,7 @@ fontsrc:
 
 framesrc:
 - "'self'"
+- https://*.netlify.com
 - https://d.cae.workers.dev
 - https://www.youtube.com
 
