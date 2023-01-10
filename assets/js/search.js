@@ -46,3 +46,22 @@ function addFormListener() {
 
 var forms = document.querySelectorAll('form[name="newsletter"]');
 forms.forEach(addFormListener);
+
+/* Lazy Loading */
+
+let observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+      if(entry.intersectionRatio > 0){
+          const img = entry.target;
+          const src = img.getAttribute('data-src');
+
+          img.setAttribute('src', src);
+          observer.unobserve(img);
+      }
+  });
+});
+
+const imgTags = document.querySelectorAll('img[data-src]');
+imgTags.forEach(img => {
+  observer.observe(img);
+});
