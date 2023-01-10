@@ -30,9 +30,11 @@
 		{{ if .Site.Params.editPage -}}
 			{{ partial "main/edit-page.html" . }}
 		{{ end -}}
+    {{- if .Site.Params.giscus -}}
 		<div>
 			{{ partial "components/comments.html" . }}
 		</div>
+    {{ end -}}
 		{{ if not .Site.Params.options.collapsibleSidebar -}}
 			{{ partial "main/docs-navigation.html" . }}
 		{{ else -}}

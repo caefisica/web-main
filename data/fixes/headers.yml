@@ -1,5 +1,6 @@
 connectsrc:
 - "'self'"
+- https://caefisica.com
 - https://*.netlify.app
 - https://*.algolia.net
 - https://*.algolianet.com
@@ -13,16 +14,15 @@ connectsrc:
 framesrc:
 - "'self'"
 - https://d.cae.workers.dev
-- https://www.youtube.com/
-- https://giscus.app
-- "'sha512-vm/f9r6MM8qOik8KvAze+iwXBw3c9Xp/QV054MTePyxZqSlxcfv7k1t/TeTjl+ygpO8DHNc6j8WsQwZ0ejZCwA=='"
+- https://www.youtube.com
 
 imgsrc:
 - "'self'"
+- https://caefisica.com
 - https://*.netlify.app
 - https://*.cloudinary.com
 - https://i.imgur.com
-- https://i.ytimg.com/
+- https://i.ytimg.com
 - "data:"
 - "blob:"
 
@@ -32,13 +32,13 @@ manifestsrc:
 
 stylesrc:
 - "'self'"
+- https://caefisica.com
 - https://*.netlify.app
 - https://*.jsdelivr.net
-- https://giscus.app/
-- "'sha512-vm/f9r6MM8qOik8KvAze+iwXBw3c9Xp/QV054MTePyxZqSlxcfv7k1t/TeTjl+ygpO8DHNc6j8WsQwZ0ejZCwA=='"
 
 scriptsrc:
 - "'self'"
+- https://caefisica.com
 - https://*.netlify.com
 - https://*.netlify.app
 - https://unpkg.com
@@ -46,8 +46,6 @@ scriptsrc:
 - https://*.jsdelivr.net
 - https://*.netlify.app
 - https://www.youtube.com
-- https://giscus.app/
 - "'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs='"
-- "'sha512-vm/f9r6MM8qOik8KvAze+iwXBw3c9Xp/QV054MTePyxZqSlxcfv7k1t/TeTjl+ygpO8DHNc6j8WsQwZ0ejZCwA=='"
 - "'sha512-A0szvdIuCKA21xigr2/288rv04z5w6cH/GETcSny1t222OlOShgazYLkYIMUH6yAan2CxMeKkNwbmUuLqbnsBQ=='"
 - "'sha512-Ta7m7CSVtknH4g6MRSsaidvmIUYVte91DzEgKSEPZDpaVVTyXLaIPGBRSFCRRLwVsyDFCzrp8+70L5RcHz46fw=='"

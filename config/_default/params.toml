@@ -79,6 +79,9 @@ docsRepoSubPath = ""
 editPage = true
 lastMod = true
 
+# Comments
+giscus = false
+
 [options]
   lazySizes = true
   clipBoard = true
