@@ -31,9 +31,9 @@ math: true
 ## Examenes
 
 {{< details "Examen parcial de Termodinámica-2022" >}}
-{{< pdfjs file="Parcial -Termodinámica 2022-2 UNMSM.pdf" >}}
+{{< pdfjs file="Parcial-Termodinámica_2022-2_UNMSM.pdf" >}}
 {{< /details >}}
 
 {{< details "Examen final de Termodinámica-2022" >}}
-{{< pdfjs file="Examen FINAL-Termodinámica 2022-2.pdf" >}}
+{{< pdfjs file="Examen_FINAL-Termodinámica_2022-2.pdf" >}}
 {{< /details >}}
