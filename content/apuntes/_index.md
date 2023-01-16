@@ -8,7 +8,7 @@ lastmod:
   - lastmod
   - date
   - publishDate
-draft: true
+draft: false
 images: []
 alias: ["/summaries/introduccion"]
 math: false
