@@ -45,7 +45,9 @@ Para contribuir en la sección de Guía de Estudios, siga estos pasos:
     git push
     ```
 4. Ve a la sección de "[Pull requests](https://github.com/caefisica/web/pulls)" en el repositorio del CAE-Física:
+
     <img src="https://i.imgur.com/T5Gacvf.png" alt="Botón de Pull Requests en Github" height="125">
+
 5. Presiona en el botón de "_New pull request_". 
 6. Selecciona el _branch_ que creaste. En este caso, `sugerencias`.
 7. Revisa que estás conforme con tus cambios.
