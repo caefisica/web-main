@@ -96,12 +96,12 @@ La duración es de 2 años (4 semestres).
 | ICTP | Italia | Diploma | | No |
 | IFGW-UNICAMP | Brasil | Maestría | | |
 | [IFT-UNESP](https://www.ift.unesp.br/#!/en/post-graduate/enroll/) | Brasil | Maestría | | No |
-| [IFTUSP](http://portal.if.usp.br/pg/pt-br/node/1304) | Brasil | Maestría | `8-11-2021`-`30-11-2021` | |
+| [IFTUSP](https://portal.if.usp.br/pg/pt-br/node/1304) | Brasil | Maestría | `8-11-2021`-`30-11-2021` | |
 | Padua | Italia | Maestría | | |
-| [Pontificia Universidad Católica de Chile](http://fisica.uc.cl/magister-en-fisica.html#sobre-el-mag%C3%ADster) | Chile | Maestría | | No |
+| [Pontificia Universidad Católica de Chile](https://fisica.uc.cl/item-3/magister-en-fisica#sobre-el-mag%C3%ADster) | Chile | Maestría | | No |
 | [PUCP](https://bit.ly/3GCzVj2) `350`| Perú | Maestría | | |
 | Universidad Federal de Río de Janeiro | | | | |
-|[USM](http://doctoradofisica.usm.cl/) `0` | Chile | Doctorado directo | | Sí |
+|[USM](https://doctoradofisica.usm.cl/) `0` | Chile | Doctorado directo | | Sí |
 | Universitat de Valencia | España | Maestría | | |
 | [University of Warsaw](https://www.fuw.edu.pl/faculty-of-physics-home.html) [1](https://nawa.gov.pl/en/students/foreign-students/the-ignacy-lukasiewicz-scholarship-programme) | Polonia | Maestría| | |
 
@@ -120,7 +120,7 @@ La duración es de 2 años (4 semestres).
 ### Historia de la Física
 
 - [Breno Arsioli Moura - UFABC](https://www.brenoam.com/)
-- [Ana Paula Bispo da Silva](http://www.ghtc.usp.br/apbs-cur.htm)
+- [Ana Paula Bispo da Silva](https://www.ghtc.usp.br/apbs-cur.htm)
 - [History and Philosophy of Science](https://www.uu.nl/masters/en/history-and-philosophy-science)
 
 ## Escuelas
