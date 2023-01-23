@@ -6,8 +6,8 @@ if (searchPlaceholder !== null) {
 
 /*eslint-disable */
 algoliasearchNetlify({
-  appId: 'B36UGT1YWJ',
-  apiKey: '8c770925ae0a24146f978f0495f51ec1',
+  appId: 'OFKEMFNRGM',
+  apiKey: '7aeadd350c28f8dc7d97bb001bc2dd3b',
   siteId: 'abc167f5-8dee-48db-a7da-3c97c18849be',
   branch: 'master',
   selector: '#docsearch',
