@@ -1,6 +1,14 @@
 name: Calidad del código (Navegadores)
 
-on: push
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - '/layouts/'
+      - '/assets/'
+      - '/functions/'
+  pull_request:
+    branches: [ master ]
 
 jobs:
   lighthouse:
