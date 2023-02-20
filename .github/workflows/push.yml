@@ -1,4 +1,4 @@
-name: Lighthouse CI
+name: Calidad del código (Navegadores)
 
 on: push
 

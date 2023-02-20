@@ -1,4 +1,4 @@
-name: Jihyo Bot
+name: Buscador de agujeros de seguridad
 on:
   workflow_dispatch:
   schedule:

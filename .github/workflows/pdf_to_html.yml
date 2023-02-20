@@ -1,0 +1,37 @@
+name: Convertir PDF a HTML
+
+on:
+  push:
+    paths:
+      - '*.pdf'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install LatexML
+      run: sudo apt-get install latexml
+
+    - name: Convert PDF to HTML
+      run: |
+        for file in $(find . -name '*.pdf'); do
+          filename=$(basename -- "$file")
+          extension="${filename##*.}"
+          filename="${filename%.*}"
+          latexml --dest="$filename.html" "$file"
+        done
+
+    - name: Create pull request
+        uses: peter-evans/create-pull-request@v3.10.0
+        with:
+          commit-message: Updated screenshots
+          title: 'Automated HTML conversion'
+          branch: html-conversion-{{ github.sha }}
+          delete-branch: true
+          labels: automated-update
+          base: main
+          token: ${{ secrets.GITHUB_TOKEN }}

@@ -10,11 +10,23 @@ body:
       description: |
         Recordar que para que esta guía sea marcada como completada tiene que tener la siguiente estructura:
       options:
-        - label: Temas, detallar qué temas se desarrollan en el curso
-        - label: Libros teóricos, junto a comentarios de los motivos de la recomendación
-        - label: Libros prácticos, junto a comentarios de los motivos de la recomendación
-        - label: Videos (por ejemplo, puede incluir canales de Youtube)
-        - label: Sílabo
+options:
+        - label: Información (nombre, código y créditos)
+        - label: Descripción del curso (objetivos y contenido del curso)
+        - label: Prerrequisitos
+        - label: Temas (incluir por lo menos 4)
+        - label: Libros teóricos (incluir por lo menos 5)
+        - label: Libros teórico-prácticos (incluir por lo menos 3)
+        - label: Libros prácticos, recomendaciones de libros con un enfoque práctico (incluir por lo menos 3)
+        - label: Solucionarios (incluir por lo menos 1)
+        - label: Usar el formato LibGen para las tablas
+        - label: Acerca de los libros, comentarios y motivos detrás de las recomendaciones de libros
+        - label: Documentos (incluir por lo menos 3)
+        - label: Listas de reproducción (incluir por lo menos 5)
+        - label: Páginas web (incluir por lo menos 3)
+        - label: Sílabos
+        - label: Docentes
+        - label: Juntar docentes y sílabos, sección para agrupar la información sobre los docentes y sílabos en _toggles_ (opciones para mostrar y ocultar información)
   - type: input
     id: curso
     attributes:

@@ -1,8 +1,12 @@
-name: "Análisis CodeQL"
+name: "Análisis de la calidad del código"
 
 on:
   push:
     branches: [ master ]
+    paths:
+      - '/layouts/'
+      - '/assets/'
+      - '/functions/'
   pull_request:
     branches: [ master ]
   schedule:
