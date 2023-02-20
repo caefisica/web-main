@@ -1,4 +1,4 @@
-name: Photographer Momo
+name: Generador de capturas de pantalla
 
 on:
   schedule:

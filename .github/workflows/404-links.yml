@@ -1,6 +1,9 @@
-name: Vibe pass
+name: Buscador de enlaces rotos
 
 on:
+  push:
+    paths:
+      - "*.md"
   pull_request:
     branches: [ master ]
   schedule:

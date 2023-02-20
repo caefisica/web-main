@@ -1,10 +1,14 @@
-name: Momobot CI
+name: CI/CD de la web del CAE
 
 on:
   push:
-    branches: master
+    branches: [ master ]
+    paths:
+      - '/layouts/'
+      - '/assets/'
+      - '/functions/'
   pull_request:
-    branches: master
+    branches: [ master ]
 
 jobs:
   build:
