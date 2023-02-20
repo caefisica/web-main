@@ -1,0 +1,33 @@
+name: Photographer Momo
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+
+jobs:
+  generate_screenshots:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Extract links
+        run: go run ./assets/go/markdown-link-extractor/main.go
+        id: extract_links
+
+      - name: Generate screenshots
+        run: go run ./assets/go/website-screenshot-generator/main.go
+        id: generate_screenshots
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v3.10.0
+        with:
+          commit-message: Updated screenshots
+          title: 'Automated screenshot update'
+          branch: automated-update-{{ github.sha }}
+          delete-branch: true
+          labels: automated-update
+          base: main
+          token: ${{ secrets.GITHUB_TOKEN }}
