@@ -113,7 +113,7 @@ La duración es de 2 años (4 semestres).
 - [Master of Science Physics - Physical Sciences in Mainz, Germany: Bachelor, Master, PHD in Physics](https://physics.uni-mainz.de/en/degrees/master-of-science-in-physics/)
 - [School of Physics and Astronomy](https://cse.umn.edu/physics)
 - [Master of Science](https://www.physik.fu-berlin.de/en/studium/master/index.html)
-- [Second-cycle Degree Overview](http://physics.dfa.unipd.it/index.php?id=143)
+- [Second-cycle Degree Overview](https://physics.dfa.unipd.it/index.php?id=143)
 - [Master of Science](https://physik.uni-koeln.de/index.php?id=171)
 - [Masternanobio](https://www.masternanobio.es/)
 
