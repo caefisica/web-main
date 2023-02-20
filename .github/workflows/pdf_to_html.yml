@@ -36,12 +36,12 @@ jobs:
         git commit -m "Convert PDF to HTML" || echo "No changes to commit"
 
     - name: Create pull request
-        uses: peter-evans/create-pull-request@v3.10.0
-        with:
-          commit-message: Created HTML files for PDF files
-          title: 'Automated HTML conversion'
-          branch: html-conversion-{{ github.sha }}
-          delete-branch: true
-          labels: automated-update
-          base: main
-          token: ${{ secrets.GITHUB_TOKEN }}
+      uses: peter-evans/create-pull-request@v3.10.0
+      with:
+        commit-message: Created HTML files for PDF files
+        title: 'Automated HTML conversion'
+        branch: html-conversion-{{ github.sha }}
+        delete-branch: true
+        labels: automated-update
+        base: main
+        token: ${{ secrets.GITHUB_TOKEN }}
