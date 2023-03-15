@@ -101,7 +101,7 @@ Estos libros están diseñados para mejorar tus habilidades resolviendo ejercici
 
 {{< img-simple src="3Blue1Brown.png" alt="El Teorema Fundamental del Cálculo." class="d-block mx-auto shadow my-4" >}}
 
-Los capítulos 8 y 9 de la playslist Essence of Caluculus del canal 3Blue1Brown muestrans conceptos fundamentales del cálculo integral.
+Los capítulos 8 y 9 de la playslist Essence of Calculus del canal 3Blue1Brown muestran conceptos fundamentales del cálculo integral.
 
 | Nombre | Autor | Enlace | Idioma |
 |------|-----|------|------|
