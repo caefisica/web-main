@@ -44,7 +44,7 @@ Para complementar tu aprendizaje, hemos preparado una lista de libros con un enf
 
 ### Teóricos
 
-Para una comprensión profunda de los temas de Cálculo II, te recomendamos consultar los siguientes libros, que incluyen amplia información teórica y secciones de problemas.
+🔸Para una comprensión profunda de los temas de Cálculo II, te recomendamos consultar los siguientes libros, que incluyen amplia información teórica y secciones de problemas.
 
 |Nombre|Autor|Editorial|Año|
 |----|------|---------|----|
@@ -59,7 +59,7 @@ Para una comprensión profunda de los temas de Cálculo II, te recomendamos cons
 
 ### Teórico-Prácticos
 
-Estos libros proporcionan una combinación de teoría y práctica, con una amplia selección de ejercicios resueltos para aplicar y consolidar tus conocimientos.
+🔸Estos libros proporcionan una combinación de teoría y práctica, con una amplia selección de ejercicios resueltos para aplicar y consolidar tus conocimientos.
 
 |Nombre|Autor|Editorial|Año|
 |----|------|---------|----|
@@ -72,7 +72,7 @@ Estos libros proporcionan una combinación de teoría y práctica, con una ampli
 
 ### Prácticos
 
-Estos libros están diseñados para mejorar tus habilidades resolviendo ejercicios y problemas, con poco contenido teórico.
+🔸Estos libros están diseñados para mejorar tus habilidades resolviendo ejercicios y problemas, con poco contenido teórico.
 
 |Nombre|Autor|Editorial|Año|
 |----|------|---------|----|
