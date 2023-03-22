@@ -1,9 +1,9 @@
-name: Convertir PDF a HTML
+name: Convertir TEX a HTML
 
 on:
   push:
     paths:
-      - '*.pdf'
+      - '*.tex'
 
 jobs:
   build:
@@ -18,13 +18,13 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y latexml
 
-    - name: Convert PDF to HTML
+    - name: Convert TEX to HTML
       run: |
-        for file in $(find . -type f -name '*.pdf'); do
-          filename=$(basename "$file" .pdf)
+        for file in $(find . -type f -name '*.tex'); do
+          filename=$(basename "$file" .tex)
           html_file="$filename".html
           if [ ! -f "$html_file" ]; then
-            $LATEXML "$file" --output="$html_file"
+            latexml "$file" --output="$html_file"
           fi
         done
 
@@ -33,12 +33,12 @@ jobs:
         git config --local user.email "github-actions@github.com"
         git config --local user.name "Github Actions"
         git add .
-        git commit -m "Convert PDF to HTML" || echo "No changes to commit"
+        git commit -m "Convert TEX to HTML" || echo "No changes to commit"
 
     - name: Create pull request
       uses: peter-evans/create-pull-request@v3.10.0
       with:
-        commit-message: Created HTML files for PDF files
+        commit-message: Created HTML files for TEX files
         title: 'Automated HTML conversion'
         branch: html-conversion-{{ github.sha }}
         delete-branch: true
