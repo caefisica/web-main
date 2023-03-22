@@ -91,6 +91,8 @@ Utilizamos principalmente colores en degradado, especificados en formato HEX. Po
 
 ## Desarrolladores
 
+⚠️ Advertencia: Este proyecto utiliza Git Large File Storage para almacenar recursos no textuales como imágenes y documentos. Asegúrate de tener instalado [Git LFS](https://packagecloud.io/github/git-lfs/install#manual-deb) y de haber clonado el proyecto usando git. **Si lo descargas como un archivo ZIP, dichos recursos no estarán disponibles**.
+
 ### Software necesario
 
 Para desarrollar y contribuir a este proyecto, necesitarás tener instalado cierto software en tu sistema operativo. A continuación se describen los pasos para instalar cada uno de estos programas en un sistema operativo Windows:
