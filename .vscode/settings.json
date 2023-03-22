@@ -1,5 +1,6 @@
 {
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
 	"editor.formatOnPaste": false,
 	"editor.insertSpaces": true,
 	"editor.formatOnSave": true,
