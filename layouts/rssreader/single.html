@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+<div class="content">
+  <div class="row justify-content-center">
+    <div class="col-md-12 col-lg-10 col-xl-8">
+      <article>
+        <h1 class="text-center">{{ .Title }}</h1>
+        <div class="text-center">
+          <p>{{ .Params.description }}</p>
+        </div>
+        <form id="add-feed-form" class="row gx-2 gy-3 d-flex align-items-end" name="add-rss-feed" method="post">
+          <div class="col-10">
+            <input
+              name="feed-url"
+              type="url"
+              id="feed-url"
+              class="form-control name"
+              placeholder="RSS Feed URL"
+              aria-label="RSS Feed URL"
+              required
+            />
+          </div>
+          <div class="col-6">
+            <button
+              type="submit"
+              class="btn btn-primary w-100 button-email mt-0"
+              aria-label="Add Feed"
+            >
+              Añadir Feed
+            </button>
+          </div>
+        </form>        
+        
+        <div class="card-list" id="feed-container"></div>
+      </article>
+    </div>
+  </div>
+</div>
+<script src="/js/rssReader.js"></script>
+<script>
+  const feedUrlsJson = {{ .Site.Params.rss.feedUrls | jsonify }};
+  const feedUrls = JSON.parse(feedUrlsJson.trim());
+  init(feedUrls);
+</script>
+{{ end }}

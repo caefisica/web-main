@@ -1,7 +1,8 @@
 .home .card,
 .blog .card,
 .newsletter .card,
-.contributors.list .card {
+.contributors.list .card,
+.rss .card {
   margin-top: 2rem;
   margin-bottom: 2rem;
   transition: transform 0.3s;
@@ -14,7 +15,8 @@
 
 .experimental.list .card,
 .types.list .card,
-.functionalities.list .card {
+.functionalities.list .card,
+.rss .card {
   transition: transform 0.3s;
 }
 
@@ -29,7 +31,8 @@
 .contributors.list .card:hover,
 .experimental.list .card:hover,
 .types.list .card:hover,
-.functionalities.list .card:hover {
+.functionalities.list .card:hover,
+.rss .card:hover {
   transform: scale(1.025);
 }
 
@@ -44,7 +47,8 @@
 .home .card-body,
 .blog .card-body,
 .newsletter .card-body,
-.contributors.list .card-body {
+.contributors.list .card-body,
+.rss .card-body {
   padding: 0 2rem 1rem;
 }
 
