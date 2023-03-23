@@ -62,7 +62,7 @@ imageAddClass = "img-fluid lazyload blur-up"
 footer = "Un proyecto del Centro de Apoyo al Estudiante de Física"
 
 # Feed
-copyRight = "Copyright (c) 2022 CAE-Física"
+copyRight = "Copyright (c) 2023 CAE-Física"
 
 # Alert
 alert = false
@@ -116,3 +116,9 @@ giscus = false
   noscript = true
 
   errorHandler = "warning"
+
+## Author
+[Author]
+  name = "David Duran"
+  email = "davidamos.duran@unmsm.edu.pe"
+  bio = "Estudiante de Física de la Universidad Nacional Mayor de San Marcos. Miembro del Centro de Apoyo al Estudiante de Física."
