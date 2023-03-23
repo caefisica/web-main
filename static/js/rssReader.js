@@ -37,11 +37,14 @@ function capitalizeFirstWord(str, nameExceptions = [], initialExceptions = []) {
   return capitalizedSentence;
 }
 
-function sanitizeHTML(text) {
+function sanitizeHTML(text, feedName) {
   const tempElement = document.createElement('div');
   tempElement.innerHTML = text;
   const plainText = tempElement.textContent || tempElement.innerText || '';
-  const sanitizedText = plainText.replace(/<br\s*\/?>/gi, '\n')
+  if (feedName === 'OGCRI - UNMSM') {
+    console.log('Sanitizing text from OGCRI - UNMSM')
+    console.log('The feed name is: ' + feedName)
+    const sanitizedText = plainText.replace(/<br\s*\/?>/gi, '\n')
                                   .replace(/([^\sA-Za-záéíóúüñÁÉÍÓÚÜÑ])\s?(?=[A-Za-záéíóúüñÁÉÍÓÚÜÑ])/g, '$1')
                                   .replace(/([A-Za-záéíóúüñÁÉÍÓÚÜÑ])\s?(?=[^\sA-Za-záéíóúüñÁÉÍÓÚÜÑ]|[a-záéíóúüñÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ])/g, '$1')
                                   .replace(/(\d)(?=[A-Za-záéíóúüñÁÉÍÓÚÜÑ])/g, '$1 ')
@@ -52,45 +55,47 @@ function sanitizeHTML(text) {
                                   .replace(/(http|https)(:\/{2})/gi, '$1$2')
                                   .replace(/([^htps:])(:)/gi, '$1: ')
                                   .replace(/\)(?=[a-zA-Z])/g, ') ')
-                                  // if "(" then " (" 
                                   .replace(/\((?=[a-zA-Z])/g, ' (')
                                   .replace(/\d\.(?!\s)/g, '$& ')
-  return sanitizedText.trim();
+    return sanitizedText.trim();
+  } else {
+    return plainText.trim();
+  }
 }
 
 function parseFeed(xmlDoc) {
   const items = xmlDoc.getElementsByTagName('item');
   const parsedItems = [];
-
-  const channel = xmlDoc.getElementsByTagName('channel')[0];
-  const feedName = channel.getElementsByTagName('title')[0].textContent;
   
-  const nameExceptions = ['colombia', 'méxico', 'argentina', 'buenos', 'aires', 'universidad', 'salamanca', 'españa', 'alemania', 'taiwán', 'ecuador', 'brasil', 'canadá', 'finlandia', 'europa', 'fundación', 'chile', 'jaen', 'fundación', 'carolina', 'university', 'jyväskylä', 'facultad', 'central', 'san', 'autónoma', 'concepción', 'técnica', 'guanajuato', 'antioquía', 'salvador', 'nacional', 'cuyo', 'metropolitana', 'católica', 'valparaíso', 'américa', 'latina']; // These are going to be capitalized
-  const initialExceptions = ['OEA', 'STEM', 'AUIP', 'UNMSM', '2023-II', 'ELAP', 'FMUSP', 'UDEC', 'PUCV', 'USS', 'ITESO']; // These are going to be fully uppercase
+  // Words to be capitalized
+  const nameExceptions = ['colombia', 'méxico', 'argentina', 'buenos', 'aires', 'universidad', 'salamanca', 'españa', 'alemania', 'taiwán', 'ecuador', 'brasil', 'canadá', 'finlandia', 'europa', 'fundación', 'chile', 'jaen', 'fundación', 'carolina', 'university', 'jyväskylä', 'facultad', 'central', 'san', 'autónoma', 'concepción', 'técnica', 'guanajuato', 'antioquía', 'salvador', 'nacional', 'cuyo', 'metropolitana', 'católica', 'valparaíso', 'américa', 'latina']; 
+  // Words to be fully uppercase
+  const initialExceptions = ['OEA', 'STEM', 'AUIP', 'UNMSM', '2023-II', 'ELAP', 'FMUSP', 'UDEC', 'PUCV', 'USS', 'ITESO']; 
 
-  for (let i = 0; i < items.length; i++) {
-    const item = items[i];
+  for (const item of items) {
+    const channel = xmlDoc.getElementsByTagName('channel')[0];
+    const feedName = channel.getElementsByTagName('title')[0].textContent;
+
     const titleElement = item.getElementsByTagName('title')[0];
-    const title = titleElement ? capitalizeFirstWord(titleElement.textContent, nameExceptions, initialExceptions) : '';
+    const title = titleElement ? (feedName === 'OGCRI - UNMSM' ? capitalizeFirstWord(titleElement.textContent, nameExceptions, initialExceptions) : titleElement.textContent) : '';
+
     const link = item.getElementsByTagName('link')[0].textContent;
     const rawDescription = item.getElementsByTagName('description')[0].textContent;
-    const sanitizedDescription = sanitizeHTML(rawDescription);
-    const clippedDescription = capitalizeFirstWord(sanitizedDescription.slice(0, 350), nameExceptions, initialExceptions);
+    const sanitizedDescription = sanitizeHTML(rawDescription, feedName);
+    const clippedDescription = (feedName === 'OGCRI - UNMSM') ? capitalizeFirstWord(sanitizedDescription.slice(0, 350), nameExceptions, initialExceptions) : sanitizedDescription.slice(0, 350);
+
     const pubDate = item.getElementsByTagName('pubDate')[0].textContent;
 
-    let img = '';
     const enclosure = item.getElementsByTagName('enclosure')[0];
-    if (enclosure && enclosure.getAttribute('type').startsWith('image')) {
-      img = enclosure.getAttribute('url');
-    }
+    const img = (enclosure && enclosure.getAttribute('type').startsWith('image')) ? enclosure.getAttribute('url') : '';
 
     parsedItems.push({
-      title: title,
-      link: link,
+      title,
+      link,
       description: clippedDescription,
-      img: img,
-      pubDate: pubDate,
-      feedName: feedName,
+      img,
+      pubDate,
+      feedName,
     });
   }
 
