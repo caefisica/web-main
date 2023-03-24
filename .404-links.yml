@@ -11,6 +11,8 @@ ignore:
     - https://www.ilectureonline.com/*
     - https://www.doitpoms.ac.uk/*
     - https://annas-archive.org/
+    - https://www.fuw.edu.pl/faculty-of-physics-home.html
+    - https://physics.dfa.unipd.it/index.php?id=143
 delay:
   'https://gitlab.com': 500
   'https://facebook.com': 1000
