@@ -1,7 +1,8 @@
 name: 🚀 Funcionalidad
 description: Sugiere una idea para nuestro proyecto
 
-title: \[🚀\]\: 
+title: |
+  [🚀]: 
 labels: [ "funcionalidad" ]
 assignees:
   - totallynotdavid

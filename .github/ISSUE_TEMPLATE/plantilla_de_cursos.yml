@@ -1,7 +1,8 @@
 name: 📚 Guías de estudio
 description: Sugiere una idea para el proyecto
 
-title: \[📚\]\: Semestre [X] - [Código]
+title: |
+  [📚]: Semestre [X] - [Código]
 labels: [ "contenido" ]
 
 body:

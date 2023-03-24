@@ -1,7 +1,8 @@
 name: 🐞 Informe de error
 description: Crear un informe para ayudarnos a mejorar
 
-title: \[🐞\]\:
+title: |
+  [🐞]: 
 labels: [ "bug" ]
 assignees:
   - totallynotdavid
