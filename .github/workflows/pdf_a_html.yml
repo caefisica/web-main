@@ -1,6 +1,7 @@
 name: 👷 PDF a HTML
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '**/*.pdf'

@@ -1,6 +1,7 @@
 name: 🚓 Análisis de código
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
     paths:

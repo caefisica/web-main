@@ -1,6 +1,7 @@
 name: 👷 TEX a HTML
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '**/*.tex'

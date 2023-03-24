@@ -1,6 +1,7 @@
 name: 💡 Experiencia del usuario
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
     paths:
