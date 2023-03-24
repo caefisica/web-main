@@ -21,8 +21,16 @@ jobs:
         node: [16.x, 18.x]
 
     steps:
+    - name: Install libvips (Ubuntu)
+      if: matrix.os == 'ubuntu-latest'
+      run: |
+        sudo apt-get update -y
+        sudo apt-get install -y libvips git-lfs
+
     - name: Inicializar Github Action
       uses: actions/checkout@v3
+      with:
+        lfs: true
 
     - name: Instalar Node.js ${{ matrix.node }}
       uses: actions/setup-node@v3
@@ -34,12 +42,6 @@ jobs:
 
     - name: Análisis lint
       run: npm test
-
-    - name: Install libvips (Ubuntu)
-      if: matrix.os == 'ubuntu-latest'
-      run: |
-        sudo apt-get update -y
-        sudo apt-get install -y libvips
 
     - name: Construir sitio
       run: npm run build
