@@ -35,5 +35,11 @@ jobs:
     - name: Análisis lint
       run: npm test
 
+    - name: Install libvips (Ubuntu)
+      if: matrix.os == 'ubuntu-latest'
+      run: |
+        sudo apt-get update -y
+        sudo apt-get install -y libvips
+
     - name: Construir sitio
       run: npm run build
