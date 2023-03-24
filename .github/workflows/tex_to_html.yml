@@ -3,7 +3,7 @@ name: Convertir TEX a HTML
 on:
   push:
     paths:
-      - '*.tex'
+      - '**/*.tex'
 
 jobs:
   build:
