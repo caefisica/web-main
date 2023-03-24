@@ -1,30 +1,35 @@
-name: "\U0001F680 Funcionalidad"
+name: 🚀 Funcionalidad
 description: Sugiere una idea para nuestro proyecto
-title: "\U0001F680: "
-labels: ["enhancement"]
+
+title: \[🚀\]\: 
+labels: [ "funcionalidad" ]
 assignees:
   - totallynotdavid
+
 body:
   - type: markdown
     attributes:
       value: |
         ¡Gracias por tomarte el tiempo de completar este informe!
+
   - type: textarea
     attributes:
       label: Resumen
-      description: Explícanos brevemente sobre la funcionalidad.
-      placeholder: Como estudiante de física quiero [objetivo] para [beneficio].
+      description: Describe brevemente la funcionalidad que deseas proponer.
+      placeholder: Como estudiante de física, quiero [objetivo] para [beneficio].
     validations:
       required: true
+
   - type: textarea
     attributes:
       label: Ejemplo básico
-      description: Incluye aquí un ejemplo básico y/o enlaces referencia a sus ideas.
+      description: Proporciona un ejemplo básico o enlaces de referencia relacionados con tus ideas.
     validations:
       required: false
+
   - type: textarea
     attributes:
       label: Motivación
-      description: ¿Por qué estamos haciendo esto? ¿En qué casos espera que sea utilizado? ¿Cuál es el resultado esperado?
+      description: ¿Cuál es el propósito de esta propuesta? ¿En qué casos se espera que sea útil? ¿Cuál es el resultado esperado?
     validations:
       required: false

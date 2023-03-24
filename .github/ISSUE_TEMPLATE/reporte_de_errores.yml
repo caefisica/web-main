@@ -1,14 +1,17 @@
-name: "\U0001F41E Informe de error"
+name: 🐞 Informe de error
 description: Crear un informe para ayudarnos a mejorar
-title: "\U0001F41E: "
-labels: ["bug"]
+
+title: \[🐞\]\:
+labels: [ "bug" ]
 assignees:
   - totallynotdavid
+
 body:
   - type: markdown
     attributes:
       value: |
         ¡Gracias por tomarte el tiempo de completar este informe de errores!
+
   - type: textarea
     id: que-paso
     attributes:
@@ -20,6 +23,7 @@ body:
         3. ¿Qué es lo que debería de ocurrir?
     validations:
       required: true
+
   - type: dropdown
     id: browsers
     attributes:
@@ -30,6 +34,7 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+
   - type: textarea
     id: logs
     attributes:

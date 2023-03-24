@@ -1,46 +1,49 @@
-name: "📚 Guías de estudio"
-description: Sugiera una idea para el proyecto
-title: "📚 - Semestre [] - Código"
-labels: ["content"]
+name: 📚 Guías de estudio
+description: Sugiere una idea para el proyecto
+
+title: \[📚\]\: Semestre [X] - [Código]
+labels: [ "contenido" ]
+
 body:
   - type: checkboxes
     id: pasos
     attributes: 
       label: Pasos
       description: |
-        Recordar que para que esta guía sea marcada como completada tiene que tener la siguiente estructura:
+        Para considerar esta guía como completada, debe tener la siguiente estructura:
       options:
-options:
         - label: Información (nombre, código y créditos)
-        - label: Descripción del curso (objetivos y contenido del curso)
+        - label: Descripción del curso (objetivos y contenido)
         - label: Prerrequisitos
-        - label: Temas (incluir por lo menos 4)
-        - label: Libros teóricos (incluir por lo menos 5)
-        - label: Libros teórico-prácticos (incluir por lo menos 3)
-        - label: Libros prácticos, recomendaciones de libros con un enfoque práctico (incluir por lo menos 3)
-        - label: Solucionarios (incluir por lo menos 1)
-        - label: Usar el formato LibGen para las tablas
-        - label: Acerca de los libros, comentarios y motivos detrás de las recomendaciones de libros
-        - label: Documentos (incluir por lo menos 3)
-        - label: Listas de reproducción (incluir por lo menos 5)
-        - label: Páginas web (incluir por lo menos 3)
+        - label: Temas (mínimo 4)
+        - label: Libros teóricos (mínimo 5)
+        - label: Libros teórico-prácticos (mínimo 3)
+        - label: Libros prácticos y recomendaciones (mínimo 3)
+        - label: Solucionarios (mínimo 1)
+        - label: Utilizar el formato LibGen para las tablas
+        - label: Comentarios y justificación de las recomendaciones de libros
+        - label: Documentos (mínimo 3)
+        - label: Listas de reproducción (mínimo 5)
+        - label: Páginas web (mínimo 3)
         - label: Sílabos
         - label: Docentes
-        - label: Juntar docentes y sílabos, sección para agrupar la información sobre los docentes y sílabos en _toggles_ (opciones para mostrar y ocultar información)
+        - label: Agrupar docentes y sílabos en secciones desplegables (opciones para mostrar y ocultar información)
+
   - type: input
     id: curso
     attributes:
       label: Curso
-      description: Escriba el nombre del curso
+      description: Escribe el nombre del curso
       placeholder: |
         Ejemplo: "Álgebra Lineal"
     validations:
       required: true
+
   - type: input
     id: codigo
     attributes:
       label: Código
-      description: Escriba el código del curso
+      description: Escribe el código del curso
       placeholder: |
         Ejemplo: "CFO304"
     validations:

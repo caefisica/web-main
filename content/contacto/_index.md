@@ -9,8 +9,8 @@ draft: false
 Si deseas contribuir (puedes hacerlo a través de Github) o encontraste algún
 error que crees que debería de ser enmendado, siéntete libre de contactarnos.
 
-> **Principal**: {{ emailobfuscation "Y2FlQGNhZS5hbm9uYWRkeS5jb20=" "Haz click aquí para ver el correo" }}
+> **Principal**: {{< emailobfuscation "Y2FlQGNhZS5hbm9uYWRkeS5jb20=" "Haz click aquí para ver el correo" >}}
 
 [](ignored)
 
-> **Desarrollador**: {{ emailobfuscation "ZGV2QGNhZS5hbm9uYWRkeS5jb20=" "Haz click aquí para ver el correo" }}
+> **Desarrollador**: {{< emailobfuscation "ZGV2QGNhZS5hbm9uYWRkeS5jb20=" "Haz click aquí para ver el correo" >}}
