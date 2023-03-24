@@ -29,6 +29,11 @@ jobs:
       with:
         node-version: ${{ matrix.node }}
 
+    - name: Actualizar entorno
+      run: |
+        sudo apt-get update -y
+        sudo apt-get install -y libvips
+
     - name: Instalar dependencias
       run: npm ci
 
