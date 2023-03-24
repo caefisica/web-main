@@ -12,7 +12,7 @@
     <button class="btn btn-primary" id="prev_{{- $pdf_id -}}">Anterior</button>
     <div class="paginas"><span>Página: <span id="page_num_{{- $pdf_id -}}"></span> / <span id="page_count_{{- $pdf_id -}}"></span></span></div>
     <button class="btn btn-primary" id="next_{{- $pdf_id -}}">Siguiente</button>
-    <a href="{{ $pdf_url }}"><button class="btn btn-secondary" id="next_{{- $pdf_id -}}" target="_blank" rel="noopener noreferrer">Descargar</button></a>
+    <a href="{{ $pdf_url }}" target="_blank" rel="noopener noreferrer"><button class="btn btn-secondary" id="next_{{- $pdf_id -}}">Descargar</button></a>
 </div>
 <div id="embed-pdf-container_{{- $pdf_id -}} container-fluid" class="mt-4">
     <div class="row justify-content-md-center"><canvas class="pdf-canvas pdf-cae col-md-auto" id="the-canvas_{{- $pdf_id -}}"></canvas></div>
