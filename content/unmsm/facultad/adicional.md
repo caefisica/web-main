@@ -25,7 +25,6 @@ weight: 900
 [Crónicas de Estados Unidos de América](https://chroniclingamerica.loc.gov/)|Inglés|Periódicos estadounidenses digitalizados|Grande (2397313)
 [Biblioteca Digital Hispánica](http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Inicio/index.html)|Español|Monografías impresas, manuscritos, fotografías, partituras, material cartográfico, [prensa y revistas](https://hemerotecadigital.bne.es/hd/es/advanced)|Mediano (224339)
 [Repositorio de la PUCP](https://repositorio.pucp.edu.pe/index/)|Español|Documentos y fotografías de carácter académico, científico e institucional producidos por la PUCP|Mediano (44897) entre imágenes y documentos
-[Repositorio abierto del Banco Mundial](https://openknowledge.worldbank.org/)|Inglés|Investigaciones llevadas a cabo por el Banco Mundial|Mediano (29979)
 [Directory of Open Access Books](https://www.doabooks.org/)|Inglés, alemán, entre otros|Libros académicos revisados por pares|Mediano (27491)
 [Open Access Publishing in European Networks](https://oapen.org/home)|Inglés, entre otros|Libros académicos|Pequeño-mediano (14393)
 [Biblioteca Digital Abierta de la UNESCO](https://unesdoc.unesco.org/search/72a71bb0-74c9-4ef5-a26b-934dd8b90ab8/N-1da12d17-c47d-4977-a307-b02f8106f6f6)|Inglés|Memoria institucional y actividades de la UNESCO|Pequeño (7153)

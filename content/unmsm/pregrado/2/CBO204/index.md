@@ -67,7 +67,7 @@ Para complementar tu aprendizaje, hemos preparado una lista de libros con un enf
 | [Análisis Matemático II](https://drive.google.com/file/d/1B3iG7XJ4qCGDtQ6Iw0T5ghOzD_fDjCwi/view?usp=share_link) | Lázaro | Perú: Moshera | 2011 |
 | [Cálculo 1](https://drive.google.com/file/d/1qWE7jueqa3hGY9VR4adVGRTIpFbTKjkZ/view?usp=sharing) | Larson R, Edwards B. | México: McGraw-Hill/Interamericana Editores | 2010, (9.ª ed.) |
 | [Cálculo una variable](https://drive.google.com/file/d/1CYoUmnaFFoUfxjc4hy1ZSzNq7Hs26Gc3/view?usp=sharing) | Thomas G. | México: Pearson Education | 2012, (9.ª ed.) |
-| [Cálculo integral en una Variable](http://ciencias.bogota.unal.edu.co/fileadmin/Facultad_de_Ciencias/Publicaciones/Imagenes/Portadas_Libros/Matematicas/Calculo_Integral/CalculoIntegral.pdf) | Peñaloza, Jeanneth. | Facultad de Ciencias, Bogota | 2020, (1.ª ed.) |
+| [Cálculo integral en una Variable](https://web.archive.org/web/20220419202918/http://ciencias.bogota.unal.edu.co/fileadmin/Facultad_de_Ciencias/Publicaciones/Imagenes/Portadas_Libros/Matematicas/Calculo_Integral/CalculoIntegral.pdf) | Peñaloza, Jeanneth. | Facultad de Ciencias, Bogota | 2020, (1.ª ed.) |
 | [Cálculo Integral para primer curso de los Grados en Matemáticas y en Física](https://ocw.unican.es/pluginfile.php/1771/course/section/1293/Calculo-2017.pdf) | Bayod, José. | Universidad de Cantabria | 2017 |
 
 ### Prácticos

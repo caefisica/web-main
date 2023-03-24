@@ -49,8 +49,8 @@ Los siguientes libros contienen bastante contenido teórico y una sección de pr
 
 |Nombre|Autor|Editorial|Año|
 |------|-----|---------|---|
-| [A modern approach to Quantum Mechanics](https://drive.google.com/file/d/1qPKj5a7Br5weHLpW_O6anGlx9HuwoUip/view?usp=sharing)|Townsend, J.|University Science Books|2012|
-| [Introducción a la Mecánica Cuántica](https://drive.google.com/file/d/1tg9dyvvz58K53apqDQCvgLwwqrMPTrHZ/view?usp=sharing)| Luis de la Pëña | Fondo de Cultura Economica | 2014 |
+| [A modern approach to Quantum Mechanics](https://drive.google.com/file/d/1upmB4rSmlq92Ry_0iYd67woMTbrWAON7/view?usp=share_link)|Townsend, J.|University Science Books|2012|
+| [Introducción a la Mecánica Cuántica](https://drive.google.com/file/d/1bYWGBUqS_UZ7nFX_UVeGi4mfL7gpfMB0/view?usp=share_link)| Luis de la Pëña | Fondo de Cultura Economica | 2014 |
 | [Introduction to Quantum Mechanics](https://drive.google.com/file/d/1nBPB9igYjGqk5AJf1SDNY8CQVbH6IT2e/view?usp=share_link)| David J. Griffiths |  Pearson | 2005 |
 | [Quantum Mechanics](https://drive.google.com/file/d/1LnZuwittPFyXFn-JpXZaeruDyWmwjefJ/view?usp=sharing)| Richard W. Robinett | Oxford University Press | 2006 |
 | [Quantum Mechanics](https://drive.google.com/file/d/1ClrFVnrNK5k_xWL2OexIl334YoGRXqkx/view?usp=share_link) | David McIntyre |
