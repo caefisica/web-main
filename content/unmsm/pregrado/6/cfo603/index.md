@@ -51,13 +51,13 @@ Los siguientes libros contienen bastante contenido teórico y una sección de pr
 |------|-----|---------|---|
 | [A modern approach to Quantum Mechanics](https://drive.google.com/file/d/1qPKj5a7Br5weHLpW_O6anGlx9HuwoUip/view?usp=sharing)|Townsend, J.|University Science Books|2012|
 | [Introducción a la Mecánica Cuántica](https://drive.google.com/file/d/1tg9dyvvz58K53apqDQCvgLwwqrMPTrHZ/view?usp=sharing)| Luis de la Pëña | Fondo de Cultura Economica | 2014 |
-| [Introduction to Quantum Mechanics](https://drive.google.com/file/d/15dGhRSGqPTv86cgRxI9wMfV9icqZ0UWV/view?usp=sharing)| David J. Griffiths |  Pearson | 2005 |
+| [Introduction to Quantum Mechanics](https://drive.google.com/file/d/1nBPB9igYjGqk5AJf1SDNY8CQVbH6IT2e/view?usp=share_link)| David J. Griffiths |  Pearson | 2005 |
 | [Quantum Mechanics](https://drive.google.com/file/d/1LnZuwittPFyXFn-JpXZaeruDyWmwjefJ/view?usp=sharing)| Richard W. Robinett | Oxford University Press | 2006 |
 | [Quantum Mechanics](https://drive.google.com/file/d/1ClrFVnrNK5k_xWL2OexIl334YoGRXqkx/view?usp=share_link) | David McIntyre |
 |[Quantum Mechanics Theory and Experiment](https://drive.google.com/file/d/1vnDPB1LKvqVqPPisBJ9JBHlZtnTXDnqG/view?usp=sharing)| Mark Beck | Oxford University Press | 2012 |
 | [Quantum Mechanics](https://drive.google.com/file/d/1Ug4Uo3OIkR9j0a7tfOktNHkhDnQ-2uJj/view?usp=sharing) | Franz Schwabl | Springer | 2007 |
 | [Quantum Mechanics for Scientists and Engineers](https://drive.google.com/file/d/1_RgS8hg2mj-dMSwhiGNqOxHSiZCw__gD/view?usp=sharing) | David A. B. Miller | Cambridge | 2007 |
-| [Modern Quantum Mechanics](https://drive.google.com/file/d/1g35_paQ32l1ysA7cuq9T5JDzcicgZ43D/view?usp=sharing)| J. J. Sakurai | Pearson | 2011 |
+| [Modern Quantum Mechanics](https://drive.google.com/file/d/1lw7ma_hlCiJZj6P5kWLDTLuKZa791YQd/view?usp=share_link)| J. J. Sakurai | Pearson | 2011 |
 
 Adicionalmente:
 
@@ -77,8 +77,8 @@ Los siguientes libros contienen ejercicios o problemas planteados. Contienen muy
 |Nombre|Autor|Editorial|Año|
 |------|-----|---------|---|
 | [Problemas y ejercicios de Mecánica Cuántica](https://drive.google.com/file/d/1-CxML2bk0tSH4lttsCbDf7jkDpkdhofF/view?usp=sharing) | Luis de la Peña y Mirna Villavicencio | Fondo de Cultura Económica | 2003 |
-| [Solved Problems in Quantum and Stadistical Mechanics](https://drive.google.com/file/d/1ThSu6plwX1l57vGu1hlFhQlqPxkKTjs4/view?usp=sharing) | M. Cini, F. Fucito & M. Sbragaglia | Springer | 2012 |
-| [Quantum Mechanics Concepts and Applications](https://drive.google.com/file/d/1xO2MSB55AYjx3Dq-oBTyVx75-0MuREaO/view?usp=sharing) | Nouredine Zettili | WILEY | 2009 |
+| [Solved Problems in Quantum and Stadistical Mechanics](https://drive.google.com/file/d/1UeJvZ-lSCRFkc5Ah90MQfxlz1iuXFks3/view?usp=share_link) | M. Cini, F. Fucito & M. Sbragaglia | Springer | 2012 |
+| [Quantum Mechanics Concepts and Applications](https://drive.google.com/file/d/1zxBWzDFgOXFyGroGERF_JSd-QV2YQq4r/view?usp=share_link) | Nouredine Zettili | WILEY | 2009 |
 | [Problems and Solutions on Quantum Mechanics](https://drive.google.com/file/d/1kJn8_SDmlSbn86hDfnAuWOMBYY08xI8k/view?usp=share_link) | Yung-Kuo Lim
 | [Problems & Solutions in Quantum Mechanics](https://drive.google.com/file/d/1L7mo8keIkSJ6-1rthIv0RFNRh_TWovEG/view?usp=sharing) | Kyriakos Tamvakis | Cambridge | 2005 |
 | [Problems in Quantum Mechanics with Solutions](https://drive.google.com/file/d/1hn8YcHn-O8jlXe4996dYiwEwbVV9pRkC/view?usp=sharing) | Gordon Squires
