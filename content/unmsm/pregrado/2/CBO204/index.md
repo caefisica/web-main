@@ -123,6 +123,10 @@ Los capítulos 8 y 9 de la playslist Essence of Calculus del canal 3Blue1Brown m
 
 ## Sílabos
 
-{{< details "Semestre 2020-II- Universidad Nacional Mayor de San Marcos" >}}{{< pdfjs file="SILABO_CÁLCULO-II_2020-II.pdf" >}}{{< /details >}}
+{{< details "Semestre 2020-II- Universidad Nacional Mayor de San Marcos" >}}
+{{< pdfjs file="SILABO_CALCULO-II_2020-II.pdf" >}}
+{{< /details >}}
 
-{{< details "Semestre 2021-II- Universidad Nacional Mayor de San Marcos" >}}{{< pdfjs file="SÍLABO_CALCULO-II_2021-II.pdf" >}}{{< /details >}}
+{{< details "Semestre 2021-II- Universidad Nacional Mayor de San Marcos" >}}
+{{< pdfjs file="SILABO_CALCULO-II_2021-II.pdf" >}}
+{{< /details >}}
