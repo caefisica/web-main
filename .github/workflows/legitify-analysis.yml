@@ -1,4 +1,5 @@
-name: Buscador de agujeros de seguridad
+name: 🛡️ Análisis de seguridad
+
 on:
   workflow_dispatch:
   schedule:
@@ -7,11 +8,13 @@ on:
 jobs:
   analyze:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Inicializar Github Action
         uses: actions/checkout@v2
-      - name: Legitify Action
-        uses: Legit-Labs/legitify@main # it is recommended to use a specific commit hash
+
+      - name: Legitify
+        uses: Legit-Labs/legitify@main
         with:
           github_token: ${{ secrets.PAT_FOR_LEGITIFY }}
           repositories: caefisica/web

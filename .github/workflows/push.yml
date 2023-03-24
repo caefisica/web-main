@@ -1,4 +1,4 @@
-name: Calidad del código (Navegadores)
+name: 💡 Experiencia del usuario
 
 on:
   push:
@@ -12,16 +12,19 @@ on:
 
 jobs:
   lighthouse:
-    name: Experiencia de usuario
+    name: Experiencia del usuario
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Audit URLs using Lighthouse
+      - name: Inicializar Github Action
+        uses: actions/checkout@v3
+
+      - name: Auditar usando Lighthouse
         uses: treosh/lighthouse-ci-action@v9
         with:
           urls: |
             https://caefisica.com/
             https://caefisica.com/blog/
-          budgetPath: ./budget.json
+          budgetPath: ./.github/budget.json
           uploadArtifacts: true
           temporaryPublicStorage: true

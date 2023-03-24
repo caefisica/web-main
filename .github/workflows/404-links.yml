@@ -1,4 +1,4 @@
-name: Buscador de enlaces rotos
+name: 🔎 Enlaces no existentes
 
 on:
   pull_request:
@@ -9,9 +9,11 @@ on:
 jobs:
   check-links:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: Inicializar Github Action
+        uses: actions/checkout@v3
+
       - name: 'atalent-labs-404-links'
         uses: atalent-labs/404-links@3.1.4
         env:

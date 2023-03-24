@@ -1,4 +1,4 @@
-name: Convertir TEX a HTML
+name: 👷 TEX a HTML
 
 on:
   push:
@@ -11,14 +11,14 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Install LatexML
       run: |
         sudo apt-get update
         sudo apt-get install -y latexml
 
-    - name: Convert TEX to HTML
+    - name: TEX a HTML
       run: |
         for file in $(find . -type f -name '*.tex'); do
           filename=$(basename "$file" .tex)
@@ -28,20 +28,20 @@ jobs:
           fi
         done
 
-    - name: Commit HTML Files
+    - name: Commit archivos HTML
       run: |
         git config --local user.email "github-actions@github.com"
         git config --local user.name "Github Actions"
         git add .
-        git commit -m "Convert TEX to HTML" || echo "No changes to commit"
+        git commit -m "content: Conversión de PDF a HTML" || echo "No hay cambios a los que hacer commit"
 
-    - name: Create pull request
+    - name: Crear Pull Request
       uses: peter-evans/create-pull-request@v3.10.0
       with:
-        commit-message: Created HTML files for TEX files
-        title: 'Automated HTML conversion'
-        branch: html-conversion-{{ github.sha }}
+        commit-message: 'content: Conversión de PDF a HTML'
+        title: '🤖 Conversión a HTML'
+        branch: tex-html-{{ github.sha }}
         delete-branch: true
-        labels: automated-update
+        labels: auto-act
         base: main
         token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,4 +1,4 @@
-name: Convertir PDF a HTML
+name: 👷 PDF a HTML
 
 on:
   push:
@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+    - name: Inicializar Github Action
+      uses: actions/checkout@v3
 
     - name: Actualizar e instalar dependencias
       run: |
@@ -50,7 +50,8 @@ jobs:
     - name: Crear Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
-        commit-message: 'Convertir PDF a HTML'
-        branch: 'convertir-pdf-a-html'
-        title: 'Convertir PDF a HTML'
+        commit-message: 'content: Conversión de PDF a HTML'
+        title: '🤖 Convertir PDF a HTML'
+        branch: 'pdf-html-{{ github.sha }}'
         body: 'Convertir todos los PDF en HTML'
+        token: ${{ secrets.GITHUB_TOKEN }}

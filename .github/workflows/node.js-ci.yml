@@ -1,4 +1,4 @@
-name: CI/CD de la web del CAE
+name: 👷 CI/CD (Node.JS)
 
 on:
   push:
@@ -20,8 +20,8 @@ jobs:
         node: [16.x, 18.x]
 
     steps:
-    - name: Revisando el proyecto
-      uses: actions/checkout@v2
+    - name: Inicializar Github Action
+      uses: actions/checkout@v3
 
     - name: Instalar Node.js ${{ matrix.node }}
       uses: actions/setup-node@v2
@@ -31,7 +31,7 @@ jobs:
     - name: Instalar dependencias
       run: npm ci
 
-    - name: Script de prueba
+    - name: Análisis lint
       run: npm test
 
     - name: Construir sitio
