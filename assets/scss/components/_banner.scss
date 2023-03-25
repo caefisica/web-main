@@ -1,6 +1,6 @@
-$main-color: #2f288a;
-
-/* Go to line 200 to see the second */
+$main-color: $indigo-700;
+$mask-image: url("/images/shape/hero-mask-svg.png");
+$transition-duration: 0.3s;
 
 @mixin desktop {
   @media (max-width: 991px) {
@@ -8,38 +8,11 @@ $main-color: #2f288a;
   }
 }
 
-.single.home .banner {
-  min-height: 80vh;
-}
-
-.mai-icon svg {
-  position: relative;
-  width: 100%;
-  max-width: 0.75rem;
-  height: 100%;
-  max-height: 0.75rem;
-  color: currentcolor;
-  fill: currentcolor;
-}
-
-.button-subscribe {
-  display: inline-flex !important;
-  gap: 10px;
-
-  svg {
-    width: 32px;
-  }
-}
-
-[data-dark-mode] .button-subscribe svg {
-  color: #fff;
-}
-
 .hero {
   &_figure {
     .img-hero-mask {
-      -webkit-mask: url("/images/shape/hero-mask-svg.png");
-      mask: url("/images/shape/hero-mask-svg.png");
+      -webkit-mask: $mask-image;
+      mask: $mask-image;
       -webkit-mask-repeat: no-repeat;
       mask-repeat: no-repeat;
       -webkit-mask-size: contain;
@@ -50,9 +23,9 @@ $main-color: #2f288a;
 
     &-popup {
       bottom: 80px;
-      left: 0;
+      /* left: 0; */
       transform: translateX(-50%);
-      transition: all 0.4s ease;
+      transition: all $transition-duration ease;
 
       @include desktop {
         bottom: -40px;
@@ -74,27 +47,17 @@ $main-color: #2f288a;
           background: rgba(0, 0, 0, 0.6);
           z-index: 1;
         }
-
-        img {
-          object-fit: cover;
-        }
       }
 
       .popup-button {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         height: 60px;
         width: 60px;
-        background: #fff;
+        background: $white;
         z-index: 2;
-        transition: all 0.3s ease;
+        transition: all $transition-duration ease;
 
         svg {
-          top: 50%;
-          left: 55%;
-          transform: translate(-50%, -50%);
-          transition: all 0.3s ease;
+          left: 55% !important;
 
           path {
             fill: $main-color;
@@ -104,17 +67,16 @@ $main-color: #2f288a;
         &:hover {
           background-color: $main-color;
 
-          svg {
-            path {
-              fill: #fff;
-            }
+          svg path {
+            fill: $white;
           }
+
         }
       }
 
       &:hover {
         .popup-button {
-          transform: translate(-50%, -50%) scale(1.1);
+          transform: translate(-50%, -50%) scale(1.1) !important;
         }
       }
     }
@@ -142,56 +104,48 @@ $main-color: #2f288a;
   }
 }
 
+/* Temporary */
+.mai-icon svg {
+  max-width: 0.75rem;
+  max-height: 0.75rem;
+}
+
+.button-subscribe {
+  gap: 10px;
+
+  svg {
+    width: 32px;
+  }
+
+  [data-dark-mode] & {
+    svg {
+      color: $white;
+    }
+  }
+}
+
 // Youtube player
 
 .player_container {
-  overflow: hidden;
   z-index: 1043;
-  position: fixed;
-  outline: none !important;
-  display: grid;
   place-items: flex-end;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 
   --webkit-backface-visibility: hidden;
+
+  .youtube_container {
+    max-width: 90vw;
+  }
+  
+  #close-button {
+    color: $white;
+  }
 }
 
 .cover_play {
   inset: 0;
-  width: 100%;
-  height: 100%;
   z-index: 1042;
-  overflow: hidden;
-  position: fixed;
-  background-color: #0b0b0b;
+  background-color: $gray-900;
   opacity: 0.8;
-}
-
-.player_wrapper {
-  padding: 40px 8px;
-  width: 100%;
-  height: 100%;
-  inset: 0;
-}
-
-.player_wrapper::before {
-  content: "";
-  height: 100%;
-  vertical-align: middle;
-}
-
-.youtube_container {
-  line-height: 0;
-  width: 100%;
-  max-width: 900px;
-}
-
-#close-button {
-  color: #fff;
-  background-color: transparent;
-  outline: none;
 }
 
 // Lista de miembros del CAE
