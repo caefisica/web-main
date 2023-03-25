@@ -57,14 +57,14 @@ Para una comprensión profunda de los temas de Cálculo II, te recomendamos cons
 
 Estos libros combinan teoría y práctica, presentando una amplia gama de ejercicios resueltos para aplicar y reforzar tus conocimientos.
 
-| Nombre | Autor | Editorial | Año |
-| ------ | ----- | --------- | --- |
-| [Cálculo de una variable. Transcendentes Tempranas](https://drive.google.com/file/d/1GvPySS7MCPlnhv7VR3I1vuPYesJVDjqP/view?usp=sharing) | Stewart J. | México: Cengage Learning | 2012, (7.ª ed.) |
-| [Análisis Matemático II](https://drive.google.com/file/d/1B3iG7XJ4qCGDtQ6Iw0T5ghOzD_fDjCwi/view?usp=share_link) | Lázaro | Perú: Moshera | 2011 |
-| [Cálculo 1](https://drive.google.com/file/d/1qWE7jueqa3hGY9VR4adVGRTIpFbTKjkZ/view?usp=sharing) | Larson R, Edwards B. | México: McGraw-Hill/Interamericana Editores | 2010, (9.ª ed.) |
-| [Cálculo una variable](https://drive.google.com/file/d/1CYoUmnaFFoUfxjc4hy1ZSzNq7Hs26Gc3/view?usp=sharing) | Thomas G. | México: Pearson Education | 2012, (9.ª ed.) |
-| [Cálculo integral en una Variable](https://web.archive.org/web/20220419202918/http://ciencias.bogota.unal.edu.co/fileadmin/Facultad_de_Ciencias/Publicaciones/Imagenes/Portadas_Libros/Matematicas/Calculo_Integral/CalculoIntegral.pdf) | Peñaloza, Jeanneth. | Facultad de Ciencias, Bogota | 2020, (1.ª ed.) |
-| [Cálculo Integral para primer curso de los Grados en Matemáticas y en Física](https://ocw.unican.es/pluginfile.php/1771/course/section/1293/Calculo-2017.pdf) | Bayod, José. | Universidad de Cantabria | 2017 |
+{{< book_table >}}
+  {{< book_row title="Cálculo de una variable. Transcendentes Tempranas" author="Stewart J." editorial="México: Cengage Learning" year="2012" edition="7ma ed." url="https://drive.google.com/file/d/1GvPySS7MCPlnhv7VR3I1vuPYesJVDjqP/view?usp=sharing" >}}
+  {{< book_row title="Análisis Matemático II" author="Lázaro" editorial="Perú: Moshera" year="2011" edition="" url="https://drive.google.com/file/d/1B3iG7XJ4qCGDtQ6Iw0T5ghOzD_fDjCwi/view?usp=share_link" >}}
+  {{< book_row title="Cálculo 1" author="Larson R, Edwards B." editorial="México: McGraw-Hill/Interamericana Editores" year="2010" edition="9na ed." url="https://drive.google.com/file/d/1qWE7jueqa3hGY9VR4adVGRTIpFbTKjkZ/view?usp=sharing" >}}
+  {{< book_row title="Cálculo una variable" author="Thomas G." editorial="México: Pearson Education" year="2012" edition="9na ed." url="https://drive.google.com/file/d/1CYoUmnaFFoUfxjc4hy1ZSzNq7Hs26Gc3/view?usp=sharing" >}}
+  {{< book_row title="Cálculo integral en una Variable" author="Peñaloza, Jeanneth." editorial="Facultad de Ciencias, Bogota" year="2020" edition="1ra ed." url="https://web.archive.org/web/20220419202918/http://ciencias.bogota.unal.edu.co/fileadmin/Facultad_de_Ciencias/Publicaciones/Imagenes/Portadas_Libros/Matematicas/Calculo_Integral/CalculoIntegral.pdf" >}}
+  {{< book_row title="Cálculo Integral para primer curso de los Grados en Matemáticas y en Física" author="Bayod, José." editorial="Universidad de Cantabria" year="2017" edition="" url="https://ocw.unican.es/pluginfile.php/1771/course/section/1293/Calculo-2017.pdf" >}}
+{{< /book_table >}}
 
 ### Prácticos
 

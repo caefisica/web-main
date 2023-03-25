@@ -2,4 +2,13 @@ table {
   @extend .table;
 
   margin: 1rem 0 2rem;
+
+  .editorial {
+    font-size: 0.8em;
+  }
+
+  .title {
+    margin-top: -1px;
+  }
+
 }
