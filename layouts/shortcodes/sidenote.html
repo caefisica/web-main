@@ -1,5 +1,0 @@
-<link rel="stylesheet" href="/css/sidenote.css">
-{{ $id := md5 .Inner }}
-<label for="{{ $id }}" class="sidenote-toggle sidenote-number"></label>
-<input type="checkbox" id="{{ $id }}" class="sidenote-toggle" />
-<span class="sidenote"><p>{{ .Inner }}</p></span>

@@ -14,8 +14,8 @@
               type="url"
               id="feed-url"
               class="form-control name"
-              placeholder="RSS Feed URL"
-              aria-label="RSS Feed URL"
+              placeholder="Enlace a un feed RSS"
+              aria-label="Enlace a un feed RSS"
               required
             />
           </div>
@@ -35,6 +35,8 @@
     </div>
   </div>
 </div>
-<script src="/js/rssReader.js"></script>
-<script src="/js/initRss.js"></script>
+
+{{ $rss_reader := resources.Get "js/rss_reader.js" | resources.Fingerprint -}}
+<script src="{{ $rss_reader.RelPermalink }}" integrity="{{ $rss_reader.Data.Integrity }}" defer></script>
+
 {{ end }}
