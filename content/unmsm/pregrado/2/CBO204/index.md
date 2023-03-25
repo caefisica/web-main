@@ -1,7 +1,7 @@
 ---
 title: "Cálculo II"
-lead: ""
-description: ""
+lead: "Domina el cálculo integral y sus aplicaciones en problemas físicos y geométricos"
+description: "Una guía de estudio completa para el curso de Cálculo II, que incluye recursos de aprendizaje, libros recomendados, listas de reproducción y más"
 id: "CBO204"
 credits: 4
 prerrequisites: ["Cálculo I"]
@@ -24,13 +24,9 @@ menu:
     parent: "pregrado"
 ---
 
-{{< infobox-alert text="Este curso está relacionado al cálculo integral, la operación inversa a la diferencial de una función. Verás distintas técnicas de integración para su posterior aplicación en problemas físicos y geométricos." />}}
+{{< infobox-alert text="Este curso aborda el cálculo integral, la operación inversa al cálculo diferencial de una función. Aprenderás distintas técnicas de integración y cómo aplicarlas en problemas físicos y geométricos." />}}
 
-{{< alert icon="👉" text=" Prerrequisitos: Cálculo I, cálculo diferencial." />}}
-
-## Temas
-
-El curso de Cálculo II se divide generalmente en los siguientes temas principales:
+El plan de estudios incluye los siguientes temas:
 
 * Integrales Indefinidas
 * Integrales Definidas
@@ -38,16 +34,16 @@ El curso de Cálculo II se divide generalmente en los siguientes temas principal
 * Integración Numérica
 * Integrales impropias
 
-## Libros
+## Libros recomendados
 
-Para complementar tu aprendizaje, hemos preparado una lista de libros con un enfoque tanto teórico como práctico:
+Para complementar tu aprendizaje, hemos seleccionado una lista de libros que proporcionan tanto conocimientos teóricos como prácticos sobre los temas de Cálculo II:
 
 ### Teóricos
 
-🔸Para una comprensión profunda de los temas de Cálculo II, te recomendamos consultar los siguientes libros, que incluyen amplia información teórica y secciones de problemas.
+Para una comprensión profunda de los temas de Cálculo II, te recomendamos consultar los siguientes libros, que incluyen amplia información teórica y aunque con pocas secciones de problemas.
 
-|Nombre|Autor|Editorial|Año|
-|----|------|---------|----|
+| Nombre | Autor | Editorial | Año |
+| ------ | ----- | --------- | --- |
 | [O Cálculo com Geometria Analítica](https://drive.google.com/file/d/1O7GZe0fLF_S7AIgz-QXr6RekktjkSBts/view?usp=share_link) | Leithold L. | HARBRA | 1994, (Vol. 1, 3.ª ed.) |
 | [El Cálculo](https://drive.google.com/file/d/1xKzfjvKyJXke2dSWfZOEUlnHL8PbgIce/view?usp=share_link) | Leithold L. | Oxford University Press - HARLA MÉXICO | 1998, (7.ª ed.) |
 | [Análisis Matemático 2](https://drive.google.com/file/d/1JgCOInH9qoewmf3ID4jCZyc5u-PhCq_P/view?usp=sharing) | Venero A. | Perú: Ediciones Gemar | 2012, (2.ª ed.) |
@@ -59,10 +55,10 @@ Para complementar tu aprendizaje, hemos preparado una lista de libros con un enf
 
 ### Teórico-Prácticos
 
-🔸Estos libros proporcionan una combinación de teoría y práctica, con una amplia selección de ejercicios resueltos para aplicar y consolidar tus conocimientos.
+Estos libros combinan teoría y práctica, presentando una amplia gama de ejercicios resueltos para aplicar y reforzar tus conocimientos.
 
-|Nombre|Autor|Editorial|Año|
-|----|------|---------|----|
+| Nombre | Autor | Editorial | Año |
+| ------ | ----- | --------- | --- |
 | [Cálculo de una variable. Transcendentes Tempranas](https://drive.google.com/file/d/1GvPySS7MCPlnhv7VR3I1vuPYesJVDjqP/view?usp=sharing) | Stewart J. | México: Cengage Learning | 2012, (7.ª ed.) |
 | [Análisis Matemático II](https://drive.google.com/file/d/1B3iG7XJ4qCGDtQ6Iw0T5ghOzD_fDjCwi/view?usp=share_link) | Lázaro | Perú: Moshera | 2011 |
 | [Cálculo 1](https://drive.google.com/file/d/1qWE7jueqa3hGY9VR4adVGRTIpFbTKjkZ/view?usp=sharing) | Larson R, Edwards B. | México: McGraw-Hill/Interamericana Editores | 2010, (9.ª ed.) |
@@ -72,10 +68,10 @@ Para complementar tu aprendizaje, hemos preparado una lista de libros con un enf
 
 ### Prácticos
 
-🔸Estos libros están diseñados para mejorar tus habilidades resolviendo ejercicios y problemas, con poco contenido teórico.
+Diseñados para mejorar tus habilidades de resolución de problemas, estos libros se centran en ejercicios y problemas con contenido teórico mínimo.
 
-|Nombre|Autor|Editorial|Año|
-|----|------|---------|----|
+| Nombre | Autor | Editorial | Año |
+| ------ | ----- | --------- | --- |
 | [Tópicos de Cálculo](https://drive.google.com/file/d/1iURxS5vgzk3aT_2EXv545fE9AkadAJln/view?usp=sharing) | Mitacc M, Toro L. | Perú: Editorial THALES | 2009, (Vol. 3, 3.ª ed) |
 | [Calculo diferencial e Integral. Teoria y 1.175 problemas resueltos](https://drive.google.com/file/d/1p8RcadS9CaMnpM1zs6UIHgCN7fJWmnU9/view?usp=sharing) | Ayres F. | España: McGraw-Hill | 1971, (1.ª ed.) |
 | [Problemas y ejercicios de Análisis Matemático](https://drive.google.com/file/d/1Be__Egs-IUOtSFwP9MbitEuOvlWxcl8N/view?usp=sharing) | Demidovich B, Baranenkov G, Efimenko V, Kogan S. | Moscú: Editorial MIR | 1967, (2.ª ed.) |
@@ -84,8 +80,10 @@ Para complementar tu aprendizaje, hemos preparado una lista de libros con un enf
 
 ### Solucionarios
 
-|Nombre|Autor|Editorial|Año|
-|----|------|---------|----|
+Para ayudarte aún más en la comprensión del material, aquí tienes una lista de solucionarios para algunos libros seleccionados.
+
+| Nombre | Autor | Editorial | Año |
+| ------ | ----- | --------- | --- |
 | [Solucionario de Tópicos de Cálculo](https://drive.google.com/file/d/1XazwGHYQjFglHL7t2b88pWHPYy2qy3WW/view?usp=share_link) | Ticona Méndez y López Mamani | - | 2014, (Vol. 2)|
 | [Solucionario Demidovich](https://drive.google.com/file/d/1OSoKM0cYlVkd4Vf8nQwYvfvPYSFZEpZq/view?usp=share_link) | Espinoza, E. | Perú: Espinoza E. | Vol. 2 |
 | [Solucionario Análisis Matemático II de Espinoza, E.](https://drive.google.com/file/d/165vUbdRAAen0Pjvsdt8gxQWgDIErWMAj/view?usp=share_link) | Espinoza, E. | Perú: Espinoza E. | 2012 |
@@ -93,40 +91,38 @@ Para complementar tu aprendizaje, hemos preparado una lista de libros con un enf
 
 ## Documentos
 
-|Nombre|Autor|Institución|Año|
-|----|------|---------|----|
+| Nombre | Autor | Institución | Año |
+| ------ | ----- | ----------- | --- |
 | Cálculo Integral | Dionio Flores | UNMSM | 2019 |
 
 ## Listas de reproducción
 
-{{< img-simple src="3Blue1Brown.png" alt="El Teorema Fundamental del Cálculo." class="d-block mx-auto shadow my-4" >}}
+{{< img-simple src="3Blue1Brown.png" alt="Miniatura del video titulado 'El Teorema Fundamental del Cálculo'" class="d-block mx-auto shadow my-4" >}}
 
-Los capítulos 8 y 9 de la playslist Essence of Calculus del canal 3Blue1Brown muestran conceptos fundamentales del cálculo integral.
+Los capítulos 8 y 9 de la lista de reproducción "Essence of Calculus" del canal 3Blue1Brown muestran conceptos fundamentales del cálculo integral.
 
 | Nombre | Autor | Enlace | Idioma |
-|------|-----|------|------|
+| ------ | ----- | ------ | ------ |
 | Essence of Calculus | 3Blue1Brown | [Youtube](https://youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) | Inglés |
 | Single Variable Calculus | Mit OpenCourse | [Youtube](https://youtube.com/playlist?list=PL590CCC2BC5AF3BC1) | Inglés |
 | Curso Calculo Integral | Matefacil | [Youtube](https://youtube.com/playlist?list=PL9SnRnlzoyX39hvLuyYgFEIdCXFXI3xaU) |Español|
 | Curso de Calculo Integral | José Alejandro Lopez Rentería |[Youtube](https://youtube.com/playlist?list=PLrRyf2WHbKIu6Vz3eAwXW7cWtLwCBSpMg)| Español |
 
-## Recursos adicionales
+## Sílabos
+
+{{< details "Semestre 2020-II | Universidad Nacional Mayor de San Marcos" >}}
+{{< pdfjs file="SILABO_CALCULO-II_2020-II.pdf" >}}
+{{< /details >}}
+
+{{< details "Semestre 2021-II | Universidad Nacional Mayor de San Marcos" >}}
+{{< pdfjs file="SILABO_CALCULO-II_2021-II.pdf" >}}
+{{< /details >}}
 
 ## Docentes
 
 | Nombre | Semestre |
 | ------ | -------- |
-| Maruja Yolanda Gavilan Gonzales | 2020-I |
-| Jesus Virgilio Luque Rivera | 2022-II |
-| Jose Saldaña Tovar | 2022-II |
+| Maruja Yolanda Gavilan Gonzales | 2020-I  |
+| Jesus Virgilio Luque Rivera     | 2022-II |
+| Jose Saldaña Tovar              | 2022-II |
 | Luis Guillermo Huamanlazo Ricci | 2022-II |
-
-## Sílabos
-
-{{< details "Semestre 2020-II- Universidad Nacional Mayor de San Marcos" >}}
-{{< pdfjs file="SILABO_CALCULO-II_2020-II.pdf" >}}
-{{< /details >}}
-
-{{< details "Semestre 2021-II- Universidad Nacional Mayor de San Marcos" >}}
-{{< pdfjs file="SILABO_CALCULO-II_2021-II.pdf" >}}
-{{< /details >}}
