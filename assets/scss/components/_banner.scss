@@ -195,44 +195,18 @@ $main-color: #2f288a;
 }
 
 // Lista de miembros del CAE
+.lista_miembros {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 
-.miembro-cae {
-  width: 83px;
-  height: 83px;
-  background: #eee no-repeat center;
-  background-size: cover;
-}
-
-#David {
-  background-image: url("/images/member/david.webp");
-}
-
-#Sergio {
-  background-image: url("/images/member/sergio.webp");
-}
-
-#Alvaro {
-  background-image: url("/images/member/alvaro.webp");
-}
-
-#Liuba {
-  background-image: url("/images/member/liuba.webp");
-}
-
-#Andrea {
-  background-image: url("/images/member/andrea.webp");
-}
-
-#Richard {
-  background-image: url("/images/member/richard.webp");
-}
-
-#Victor {
-  background-image: url("/images/member/victor.webp");
-}
-
-#Edwing {
-  background-image: url("/images/member/edwing.webp");
+  .imagen_miembros {
+    width: 83px;
+    height: 83px;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 /* Features */
