@@ -30,3 +30,7 @@
 [[mounts]]
   source = "node_modules/katex"
   target = "assets/js/vendor/katex"
+
+[[mounts]]
+  source = "node_modules/pdfjs-dist"
+  target = "assets/js/vendor/pdfjs"

@@ -1,8 +1,11 @@
 {{/* SCSS */}}
 {{- $pdfjs := resources.Get "scss/components/pages/_pdfjs.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
 <link rel="stylesheet" href="{{ $pdfjs.Permalink }}" integrity="{{ $pdfjs.Data.Integrity }}" media="screen">
+
 {{/* JS */}}
-<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.min.js" integrity="sha512-U5C477Z8VvmbYAoV4HDq17tf4wG6HXPC6/KM9+0/wEXQQ13gmKY2Zb0Z2vu0VNUWch4GlJ+Tl/dfoLOH4i2msw==" crossorigin="anonymous"></script>
+{{ $pdfjs_dist := resources.Get "js/vendor/pdfjs/build/pdf.min.js" -}}
+<script src="{{ $pdfjs_dist.RelPermalink }}" defer></script>
+
 {{ $pdf_file := .Get "file" }}
 {{ $pdf_id := replaceRE "[.-]" "_" $pdf_file }}
 {{ $lowercase_path := .Page.File.Dir | lower }}
@@ -30,7 +33,8 @@ var hidePaginator = "{{ .Get "hidePaginator" }}";
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 
 // The workerSrc property shall be specified.
-pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.worker.min.js";
+{{ $pdfjs_worker := resources.Get "js/vendor/pdfjs/build/pdf.worker.min.js" -}}
+pdfjsLib.GlobalWorkerOptions.workerSrc = "{{ $pdfjs_worker.RelPermalink }}";
 
 // Change the Scale value for lower or higher resolution.
 var pdfDoc = null,
