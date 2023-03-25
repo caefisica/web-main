@@ -5,9 +5,8 @@ connectsrc:
 - https://*.algolia.net
 - https://*.algolianet.com
 - https://*.algolia.io
-- https://*.splitbee.io
+- https://cdn.splitbee.io/
 - https://*.cloudinary.com
-- https://*.jsdelivr.net
 - https://unpkg.com
 - https://*.workers.dev
 
@@ -41,7 +40,6 @@ stylesrc:
 - "'self'"
 - https://caefisica.com
 - https://*.netlify.app
-- https://*.jsdelivr.net
 - "'unsafe-inline'"
 
 scriptsrc:
@@ -49,11 +47,11 @@ scriptsrc:
 - https://caefisica.com
 - https://*.netlify.com
 - https://*.netlify.app
-- https://unpkg.com
-- https://*.splitbee.io
-- https://*.jsdelivr.net
+- https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js
+- https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js
+- https://cdn.splitbee.io/sb.js
 - https://*.netlify.app
-- https://www.youtube.com
+- https://www.youtube.com/iframe_api
 - "'nonce-Y1ScUXOl8NAZzNrRydXz1Q=='"
 - "'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs='"
 - "'sha512-A0szvdIuCKA21xigr2/288rv04z5w6cH/GETcSny1t222OlOShgazYLkYIMUH6yAan2CxMeKkNwbmUuLqbnsBQ=='"
