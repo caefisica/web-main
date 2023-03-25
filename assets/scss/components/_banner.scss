@@ -8,6 +8,58 @@ $transition-duration: 0.3s;
   }
 }
 
+/* Temporary */
+.mai-icon svg {
+  max-width: 0.75rem;
+  max-height: 0.75rem;
+}
+
+.button-content {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.button-subscribe {
+  gap: 10px;
+
+  svg {
+    width: 32px;
+  }
+
+  .button-subheading {
+    display: block;
+    margin-bottom: 2px;
+    color: #878787;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: start;
+  }
+
+  &:hover {
+    background-color: #dbdbdb !important;
+  }
+
+  [data-dark-mode] & {
+    &:hover {
+      background-color: rgb(43, 48, 83) !important;
+    }
+
+    background-color: rgb(43, 48, 53) !important;
+
+    .button-content {
+      color: $white;
+    }
+
+    .button-subheading {
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    svg {
+      color: $white;
+    }
+  }
+}
+
 .hero {
   &_figure {
     .img-hero-mask {
@@ -23,7 +75,6 @@ $transition-duration: 0.3s;
 
     &-popup {
       bottom: 80px;
-      /* left: 0; */
       transform: translateX(-50%);
       transition: all $transition-duration ease;
 
@@ -70,7 +121,6 @@ $transition-duration: 0.3s;
           svg path {
             fill: $white;
           }
-
         }
       }
 
@@ -104,26 +154,6 @@ $transition-duration: 0.3s;
   }
 }
 
-/* Temporary */
-.mai-icon svg {
-  max-width: 0.75rem;
-  max-height: 0.75rem;
-}
-
-.button-subscribe {
-  gap: 10px;
-
-  svg {
-    width: 32px;
-  }
-
-  [data-dark-mode] & {
-    svg {
-      color: $white;
-    }
-  }
-}
-
 // Youtube player
 
 .player_container {
@@ -135,7 +165,7 @@ $transition-duration: 0.3s;
   .youtube_container {
     max-width: 90vw;
   }
-  
+
   #close-button {
     color: $white;
   }
@@ -744,40 +774,6 @@ h3 {
   border-bottom: 1px solid rgba(10, 20, 30, 0.05);
   padding-bottom: 36px;
   padding-top: 16px;
-}
-
-.button-subscribe:hover {
-  background-color: #dbdbdb !important;
-}
-
-.button-content {
-  font-weight: 700;
-  font-size: 15px;
-}
-
-.button-subscribe .button-subheading {
-  display: block;
-  margin-bottom: 2px;
-  color: #878787;
-  font-weight: 400;
-  font-size: 12px;
-  text-align: start;
-}
-
-[data-dark-mode] .button-subscribe {
-  background-color: rgb(43, 48, 53) !important;
-
-  .button-content {
-    color: #fff;
-  }
-
-  .button-subheading {
-    color: rgba(255, 255, 255, 0.9);
-  }
-
-  &:hover {
-    background-color: rgb(43, 48, 83) !important;
-  }
 }
 
 .recent-guides {
