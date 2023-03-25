@@ -42,16 +42,16 @@ Para complementar tu aprendizaje, hemos seleccionado una lista de libros que pro
 
 Para una comprensión profunda de los temas de Cálculo II, te recomendamos consultar los siguientes libros, que incluyen amplia información teórica y aunque con pocas secciones de problemas.
 
-| Nombre | Autor | Editorial | Año |
-| ------ | ----- | --------- | --- |
-| [O Cálculo com Geometria Analítica](https://drive.google.com/file/d/1O7GZe0fLF_S7AIgz-QXr6RekktjkSBts/view?usp=share_link) | Leithold L. | HARBRA | 1994, (Vol. 1, 3.ª ed.) |
-| [El Cálculo](https://drive.google.com/file/d/1xKzfjvKyJXke2dSWfZOEUlnHL8PbgIce/view?usp=share_link) | Leithold L. | Oxford University Press - HARLA MÉXICO | 1998, (7.ª ed.) |
-| [Análisis Matemático 2](https://drive.google.com/file/d/1JgCOInH9qoewmf3ID4jCZyc5u-PhCq_P/view?usp=sharing) | Venero A. | Perú: Ediciones Gemar | 2012, (2.ª ed.) |
-| [Cálculo diferencial e integral](https://drive.google.com/file/d/1wIxqHGaEJX_R5OhLX2XsAulvAY5hxpq4/view?usp=share_link) | Piskunov | Moscú: Mir | 1977, (Vol. 1, 3.ª ed.) |
-| [Análisis matemático 2: curso intermedio](https://drive.google.com/file/d/1XiXWD3l9R5wGXNQ7yFeZVaLSYxS04pKy/view?usp=share_link) | Haaser, La Salle y Sullivan | México: Trillas | 1990, (2.ª ed.) |
-| [Cálculo Integral. Sucesiones y Series de funciones](https://drive.google.com/file/d/1fEILUchFX7XmZ3mUCd7YuTyIEDT--1Cw/view?usp=sharing) | Rivera A. | México: Grupo Editorial Patria | 2014, (1.ª ed) |
-| [Calculus](https://drive.google.com/file/d/12KDVjNb4fidBYkMG2yc1qRH2LIgD44cw/view?usp=sharing) | Apostol T.M. | España: Editorial Reverté | 2001, (Vol. 1)|
-| [Calculus](https://drive.google.com/file/d/1G7ic1EJHk8XnZf9ismY2npYyxbQI9elh/view?usp=sharing) | Spivak M. | España: Editorial Reverté | 2014, (3.ª ed.) |
+{{< book_table >}}
+  {{< book_row title="O Cálculo com Geometria Analítica: Vol. 1" author="Leithold L." editorial="HARBRA" year="1994" edition="3ra ed." url="https://drive.google.com/file/d/1O7GZe0fLF_S7AIgz-QXr6RekktjkSBts/view?usp=share_link" >}}
+  {{< book_row title="El Cálculo" author="Leithold L." editorial="Oxford University Press - HARLA MÉXICO" year="1998" edition="7ma ed." url="https://drive.google.com/file/d/1xKzfjvKyJXke2dSWfZOEUlnHL8PbgIce/view?usp=share_link" >}}
+  {{< book_row title="Análisis Matemático 2" author="Venero A." editorial="Perú: Ediciones Gemar" year="2012" edition="2da ed." url="https://drive.google.com/file/d/1JgCOInH9qoewmf3ID4jCZyc5u-PhCq_P/view?usp=sharing" >}}
+  {{< book_row title="Cálculo diferencial e integral: Vol. 1" author="Piskunov" editorial="Moscú: Mir" year="1977" edition="3ra ed." url="https://drive.google.com/file/d/1wIxqHGaEJX_R5OhLX2XsAulvAY5hxpq4/view?usp=share_link" >}}
+  {{< book_row title="Análisis matemático 2: curso intermedio" author="Haaser, La Salle y Sullivan" editorial="México: Trillas" year="1990" edition="2da ed." url="https://drive.google.com/file/d/1XiXWD3l9R5wGXNQ7yFeZVaLSYxS04pKy/view?usp=share_link" >}}
+  {{< book_row title="Cálculo Integral. Sucesiones y Series de funciones" author="Rivera A." editorial="México: Grupo Editorial Patria" year="2014" edition="1ra ed." url="https://drive.google.com/file/d/1fEILUchFX7XmZ3mUCd7YuTyIEDT--1Cw/view?usp=sharing" >}}
+  {{< book_row title="Calculus: Vol. 1" author="Apostol T.M." editorial="España: Editorial Reverté" year="2001" edition="2da ed." url="https://drive.google.com/file/d/12KDVjNb4fidBYkMG2yc1qRH2LIgD44cw/view?usp=sharing" >}}
+  {{< book_row title="Calculus" author="Spivak M." editorial="España: Editorial Reverté" year="2014" edition="3ra ed." url="https://drive.google.com/file/d/1G7ic1EJHk8XnZf9ismY2npYyxbQI9elh/view?usp=sharing" >}}
+{{< /book_table >}}
 
 ### Teórico-Prácticos
 
@@ -70,24 +70,24 @@ Estos libros combinan teoría y práctica, presentando una amplia gama de ejerci
 
 Diseñados para mejorar tus habilidades de resolución de problemas, estos libros se centran en ejercicios y problemas con contenido teórico mínimo.
 
-| Nombre | Autor | Editorial | Año |
-| ------ | ----- | --------- | --- |
-| [Tópicos de Cálculo](https://drive.google.com/file/d/1iURxS5vgzk3aT_2EXv545fE9AkadAJln/view?usp=sharing) | Mitacc M, Toro L. | Perú: Editorial THALES | 2009, (Vol. 3, 3.ª ed) |
-| [Calculo diferencial e Integral. Teoria y 1.175 problemas resueltos](https://drive.google.com/file/d/1p8RcadS9CaMnpM1zs6UIHgCN7fJWmnU9/view?usp=sharing) | Ayres F. | España: McGraw-Hill | 1971, (1.ª ed.) |
-| [Problemas y ejercicios de Análisis Matemático](https://drive.google.com/file/d/1Be__Egs-IUOtSFwP9MbitEuOvlWxcl8N/view?usp=sharing) | Demidovich B, Baranenkov G, Efimenko V, Kogan S. | Moscú: Editorial MIR | 1967, (2.ª ed.) |
-| [Análisis Matemático II para estudiantes de Ciencia e Ingeniería](https://drive.google.com/file/d/1Tft7Ynkfmat2ILXpE4hKofVZaCn5FxXq/view?usp=sharing) | Espinoza E. | Perú: Espinoza E. | 2002, (3.ª ed.) |
-| [5000 problemas de análisis matemático](https://drive.google.com/drive/u/0/folders/1g6zT40hjySHl6I7Xw2srR6T21h9lAUCn) | Demidovich, B. | España: Thomson | 2003, (9.ª ed.) |
+{{< book_table >}}
+  {{< book_row title="Tópicos de Cálculo: Vol. 3" author="Mitacc M, Toro L." editorial="Perú: Editorial THALES" year="2009" edition="3ra ed." url="https://drive.google.com/file/d/1iURxS5vgzk3aT_2EXv545fE9AkadAJln/view?usp=sharing" >}}
+  {{< book_row title="Calculo diferencial e Integral. Teoria y 1.175 problemas resueltos" author="Ayres F." editorial="España: McGraw-Hill" year="1971" edition="1ra ed." url="https://drive.google.com/file/d/1p8RcadS9CaMnpM1zs6UIHgCN7fJWmnU9/view?usp=sharing" >}}
+  {{< book_row title="Problemas y ejercicios de Análisis Matemático" author="Demidovich B, Baranenkov G, Efimenko V, Kogan S." editorial="Moscú: Editorial MIR" year="1967" edition="2da ed." url="https://drive.google.com/file/d/1Be__Egs-IUOtSFwP9MbitEuOvlWxcl8N/view?usp=sharing" >}}
+  {{< book_row title="Análisis Matemático II para estudiantes de Ciencia e Ingeniería" author="Espinoza E." editorial="Perú: Espinoza E." year="2002" edition="3ra ed." url="https://drive.google.com/file/d/1Tft7Ynkfmat2ILXpE4hKofVZaCn5FxXq/view?usp=sharing" >}}
+  {{< book_row title="5000 problemas de análisis matemático" author="Demidovich, B." editorial="España: Thomson" year="2003" edition="9na ed." url="https://drive.google.com/drive/u/0/folders/1g6zT40hjySHl6I7Xw2srR6T21h9lAUCn" >}}
+{{< /book_table >}}
 
 ### Solucionarios
 
 Para ayudarte aún más en la comprensión del material, aquí tienes una lista de solucionarios para algunos libros seleccionados.
 
-| Nombre | Autor | Editorial | Año |
-| ------ | ----- | --------- | --- |
-| [Solucionario de Tópicos de Cálculo](https://drive.google.com/file/d/1XazwGHYQjFglHL7t2b88pWHPYy2qy3WW/view?usp=share_link) | Ticona Méndez y López Mamani | - | 2014, (Vol. 2)|
-| [Solucionario Demidovich](https://drive.google.com/file/d/1OSoKM0cYlVkd4Vf8nQwYvfvPYSFZEpZq/view?usp=share_link) | Espinoza, E. | Perú: Espinoza E. | Vol. 2 |
-| [Solucionario Análisis Matemático II de Espinoza, E.](https://drive.google.com/file/d/165vUbdRAAen0Pjvsdt8gxQWgDIErWMAj/view?usp=share_link) | Espinoza, E. | Perú: Espinoza E. | 2012 |
-| [Antidemidovich](https://drive.google.com/file/d/1wfXmIhSyN6SpMZtxQWlj02VbeCgwQ4FZ/view?usp=share_link) | Boiarchuk A.K., Gai Ia.G., Golovach G.P., Liashko I.I. | URSS | 1997, (Vol. 2) |
+{{< book_table >}}
+  {{< book_row title="Solucionario de Tópicos de Cálculo: Vol. 2" author="Ticona Méndez y López Mamani" year="2014" edition="1ra ed." url="https://drive.google.com/file/d/1XazwGHYQjFglHL7t2b88pWHPYy2qy3WW/view?usp=share_link" >}}
+  {{< book_row title="Solucionario Demidovich: Vol. 2" author="Espinoza, E." editorial="Perú: Espinoza E." year="2003" edition="1ra ed." url="https://drive.google.com/file/d/1OSoKM0cYlVkd4Vf8nQwYvfvPYSFZEpZq/view?usp=share_link" >}}
+  {{< book_row title="Solucionario Análisis Matemático II de Espinoza, E." author="Espinoza, E." editorial="Perú: Espinoza E." year="2012" edition="1ra ed." url="https://drive.google.com/file/d/165vUbdRAAen0Pjvsdt8gxQWgDIErWMAj/view?usp=share_link" >}}
+  {{< book_row title="Antidemidovich: Vol. 2" author="Boiarchuk A.K., Gai Ia.G., Golovach G.P., Liashko I.I." editorial="URSS" year="1997" edition="4ta ed." url="https://drive.google.com/file/d/1wfXmIhSyN6SpMZtxQWlj02VbeCgwQ4FZ/view?usp=share_link" >}}
+{{< /book_table >}}
 
 ## Documentos
 
