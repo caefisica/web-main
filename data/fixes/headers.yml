@@ -42,6 +42,7 @@ stylesrc:
 - https://caefisica.com
 - https://*.netlify.app
 - https://*.jsdelivr.net
+- "'unsafe-inline'"
 
 scriptsrc:
 - "'self'"
