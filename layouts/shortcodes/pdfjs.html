@@ -3,40 +3,35 @@
 <link rel="stylesheet" href="{{ $pdfjs.Permalink }}" integrity="{{ $pdfjs.Data.Integrity }}" media="screen">
 
 {{/* JS */}}
-{{ $pdfjs_dist := resources.Get "js/vendor/pdfjs/build/pdf.min.js" -}}
-<script src="{{ $pdfjs_dist.RelPermalink }}" defer></script>
+{{ $pdfjs_dist := resources.Get "js/vendor/pdfjs/build/pdf.min.js" | resources.Fingerprint -}}
+<script src="{{ $pdfjs_dist.RelPermalink }}" integrity="{{ $pdfjs_dist.Data.Integrity }}" defer></script>
 
 {{ $pdf_file := .Get "file" }}
 {{ $pdf_id := replaceRE "[.-]" "_" $pdf_file }}
 {{ $lowercase_path := .Page.File.Dir | lower }}
 {{ $pdf_url := path.Join $lowercase_path $pdf_file | relURL }}
+
 <div class="mt-auto mb-4">
-<div class="pdf-paginator d-flex justify-content-center pdf-head" id="paginator_{{- $pdf_id -}}">
-    <button class="btn btn-primary" id="prev_{{- $pdf_id -}}">Anterior</button>
-    <div class="paginas"><span>Página: <span id="page_num_{{- $pdf_id -}}"></span> / <span id="page_count_{{- $pdf_id -}}"></span></span></div>
-    <button class="btn btn-primary" id="next_{{- $pdf_id -}}">Siguiente</button>
-    <a href="{{ $pdf_url }}" target="_blank" rel="noopener noreferrer"><button class="btn btn-secondary" id="next_{{- $pdf_id -}}">Descargar</button></a>
-</div>
-<div id="embed-pdf-container_{{- $pdf_id -}} container-fluid" class="mt-4">
-    <div class="row justify-content-md-center"><canvas class="pdf-canvas pdf-cae col-md-auto" id="the-canvas_{{- $pdf_id -}}"></canvas></div>
-</div>
+  <div class="pdf-paginator d-flex justify-content-center pdf-head" id="paginator_{{- $pdf_id -}}">
+      <button class="btn btn-primary" id="prev_{{- $pdf_id -}}">Anterior</button>
+      <div class="paginas"><span>Página: <span id="page_num_{{- $pdf_id -}}"></span> / <span id="page_count_{{- $pdf_id -}}"></span></span></div>
+      <button class="btn btn-primary" id="next_{{- $pdf_id -}}">Siguiente</button>
+      <a href="{{ $pdf_url }}" target="_blank" rel="noopener noreferrer"><button class="btn btn-secondary" id="next_{{- $pdf_id -}}_descarga">Descargar</button></a>
+  </div>
+  <div id="embed-pdf-container_{{- $pdf_id -}} container-fluid" class="mt-4">
+      <div class="row justify-content-md-center"><canvas class="pdf-canvas pdf-cae col-md-auto" id="the-canvas_{{- $pdf_id -}}"></canvas></div>
+  </div>
 </div>
 
 <script type="text/javascript" nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">
 window.addEventListener("load",function(){
-// If absolute URL from the remote server is provided, configure the CORS
-// header on that server.
 var url = '{{ $pdf_url }}';
 var hidePaginator = "{{ .Get "hidePaginator" }}";
-
-// Loaded via <script> tag, create shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-// The workerSrc property shall be specified.
 {{ $pdfjs_worker := resources.Get "js/vendor/pdfjs/build/pdf.worker.min.js" -}}
 pdfjsLib.GlobalWorkerOptions.workerSrc = "{{ $pdfjs_worker.RelPermalink }}";
 
-// Change the Scale value for lower or higher resolution.
+// Cambiar el valor de la escala para una mayor o menor resolución
 var pdfDoc = null,
     pageNum = 1,
     pageRendering = false,
@@ -45,44 +40,37 @@ var pdfDoc = null,
     canvas_{{ safeJS $pdf_id }} = document.getElementById('the-canvas_{{ safeJS $pdf_id }}'),
     ctx = canvas_{{ safeJS $pdf_id }}.getContext('2d');
 
-/**
- * Get page info from document, resize canvas accordingly, and render page.
- * @param num Page number.
- */
+// Obtiene la información de la página del documento, redimensiona el lienzo en consecuencia y renderiza la página. @param num Número de página
 function renderPage(num) {
   pageRendering = true;
-  // Using promise to fetch the page
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
     canvas_{{ safeJS $pdf_id }}.height = viewport.height;
     canvas_{{ safeJS $pdf_id }}.width = viewport.width;
 
-    // Render PDF page into canvas context
+    // Renderiza la página del PDF en el contexto del lienzo
     var renderContext = {
       canvasContext: ctx,
       viewport: viewport
     };
     var renderTask = page.render(renderContext);
 
-    // Wait for rendering to finish
+    // Espera a que la renderización termine
     renderTask.promise.then(function() {
       pageRendering = false;
       if (pageNumPending !== null) {
-        // New page rendering is pending
+        // Si hay una página pendiente de renderizar, la renderiza
         renderPage(pageNumPending);
         pageNumPending = null;
       }
     });
   });
 
-  // Update page counters
+  // Actualiza los contadores de página
   document.getElementById('page_num_{{ safeJS $pdf_id }}').textContent = num;
 }
 
-/**
- * If another page rendering in progress, waits until the rendering is
- * finised. Otherwise, executes rendering immediately.
- */
+// Si hay otra página en proceso de renderizado, espera a que termine. De lo contrario, renderiza la página inmediatamente
 function queuerenderPage(num) {
   if (pageRendering) {
     pageNumPending = num;
@@ -91,16 +79,12 @@ function queuerenderPage(num) {
   }
 }
 
-/**
- * Optionally hides the paginator
- */
+// Opcionalmente oculta el paginador
 if (hidePaginator == "true") {
   document.getElementById("paginator_{{ safeJS $pdf_id }}").style.display = 'none';
 }
 
-/**
- * Displays previous page.
- */
+// Muestra la página anterior
 function onPrevPage() {
   if (pageNum <= 1) {
     return;
@@ -110,9 +94,7 @@ function onPrevPage() {
 }
 document.getElementById('prev_{{ safeJS $pdf_id }}').addEventListener('click', onPrevPage);
 
-/**
- * Displays next page.
- */
+// Muestra la página siguiente
 function onNextPage() {
   if (pageNum >= pdfDoc.numPages) {
     return;
@@ -122,14 +104,12 @@ function onNextPage() {
 }
 document.getElementById('next_{{ safeJS $pdf_id }}').addEventListener('click', onNextPage);
 
-/**
- * Asynchronously downloads PDF.
- */
+// Descarga el PDF asincronamente
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
   document.getElementById('page_count_{{ safeJS $pdf_id }}').textContent = pdfDoc.numPages;
 
-  // Initial/first page rendering
+  // Renderiza la primera página
   renderPage(pageNum);
 });
 })
