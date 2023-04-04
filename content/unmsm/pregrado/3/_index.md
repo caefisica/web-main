@@ -18,12 +18,6 @@ contributors: ["David"]
 
 {{< alert icon="🚨" text="Los datos aquí mostrados son de carácter referencial, consulta la información publicada por la misma facultad." />}}
 
-| Código | Curso                | Créditos | Requisitos        | Obligatorio* |
-| ------ | -------------------- | -------- | ----------------- | ------------ |
-| CFO302 | Física Matemática I  | 4        | Cálculo II        | Sí           |
-| CFO303 | Física Molecular     | 6        |                   | Sí           |
-| CFO304 | Álgebra Lineal       | 4        | Matemática Básica | Sí           |
-| CFO305 | Cálculo III          | 4        | Cálculo II        | Sí           |
-| CFO306 | Física Computacional | 4        | Cálculo I         | Sí           |
+{{< semester_list >}}
 
 [*] Todos los cursos que llevarás durante tus primeros años de carrera son de carácter obligatorio.
