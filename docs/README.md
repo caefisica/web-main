@@ -21,3 +21,15 @@ Con el motivo de simplificar el código. A continuación una lista de clases per
       {{< book_row title="" author="" editorial="" year="" edition="" url="" >}}
     {{< /book_table >}}
     ```
+
+# Listas
+
+1. Profesores:
+    ```
+    - name: ''
+      title: ''
+      courses:
+        - code: ''
+          semesters:
+            - ''
+    ```

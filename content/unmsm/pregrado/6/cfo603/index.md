@@ -110,7 +110,3 @@ Las primeras clases dictadas por Allan Adams en 2013 en el MIT pueden servirte p
 {{< /details >}}
 
 ### Docentes
-
-| Nombre | Semestre |
-| ------ | -------- |
-| Pablo Rivera | 2022-II |

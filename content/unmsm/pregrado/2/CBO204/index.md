@@ -119,10 +119,3 @@ Los capítulos 8 y 9 de la lista de reproducción "Essence of Calculus" del cana
 {{< /details >}}
 
 ## Docentes
-
-| Nombre | Semestre |
-| ------ | -------- |
-| Maruja Yolanda Gavilan Gonzales | 2020-I  |
-| Jesus Virgilio Luque Rivera     | 2022-II |
-| Jose Saldaña Tovar              | 2022-II |
-| Luis Guillermo Huamanlazo Ricci | 2022-II |

@@ -2,7 +2,7 @@
 title: "Física Estadística I"
 lead: "La física estadística conecta los mundos microscópico y macroscópico, mediante la extracción de propiedades macroscópicas a partir de interacciones microscópicas fundamentales."
 description: "El curso de Física Estadística ofrece una introducción sólida a conceptos clave como variables aleatorias discretas, cadenas de Markov y formalismo de Gibbs, proporcionando una base sólida en mecánica estadística, una teoría con aplicaciones en diversas áreas de la ciencia, desde cosmología y física de partículas hasta biología y economía."
-id: "CFO701"
+id: "CFO704"
 credits: 5
 prerrequisites: [ "Estadística y Probabilidad I" ]
 semester: 7
@@ -99,9 +99,3 @@ Leonard Susskind impartió una serie de 10 conferencias sobre Mecánica Estadís
 {{< /details >}}
 
 ## Docentes
-
-| Nombre | Semestre |
-| ------ | -------- |
-| Carlos Landauro Saenz | 2020-II |
-| Jaime Vento Flores | 2021-I |
-| Robert Guzmán Arellano | 2023-I |

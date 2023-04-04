@@ -1,0 +1,285 @@
+- name: 'Carlos Landauro Saenz'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO704'
+      semesters:
+        - '2020-II'
+- name: 'Jaime Francisco Vento Flores'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO704'
+      semesters:
+        - '2021-I'
+- name: 'Justo Rojas Tapia'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO502'
+      semesters:
+        - '2021-I'
+- name: 'Renato Tovar Landeo'
+  title: 'Lic.'
+  courses:
+    - code: 'CFO405'
+      semesters:
+        - '2021-II'
+    - code: 'CFO504'
+      semesters:
+        - '2022-II'
+- name: 'Fulgencio Villegas Silva'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO503'
+      semesters:
+        - '2021-I'
+        - '2022-I'
+- name: 'Jose Domingo Arbañil Vela'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO306'
+      semesters:
+        - '2021-I'
+    - code: 'CFO406'
+      semesters:
+        - '2021-II'
+- name: 'Victor Garcia Rivera'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO501'
+      semesters:
+        - '2021-I'
+- name: 'Moises Humberto Garcia Santivañez'
+  title: 'Lic.'
+  courses:
+    - code: 'CFO501'
+      semesters:
+        - '2022-I'
+- name: 'Luiz Salazar de Paz'
+  title: 'Br.'
+  courses:
+    - code: 'CFO303'
+      semesters:
+        - '2021-I'
+    - code: 'CFO401'
+      semesters:
+        - '2021-II'
+- name: 'Garin Fedor Janampa Añaños'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO303'
+      semesters:
+        - '2022-II'
+- name: 'Richard Saúl Toribio Saavedra'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO302'
+      semesters:
+        - '2021-I'
+    - code: 'CFO406'
+      semesters:
+        - '2021-II'
+    - code: 'CFO605'
+      semesters:
+        - '2022-II'
+- name: 'Erich Víctor Manrique Castillo'
+  title: 'Mg.'
+  courses:
+    - code: 'CFO302'
+      semesters:
+        - '2022-II'
+    - code: 'CFO306'
+      semesters:
+        - '2021-I'
+    - code: 'CFO502'
+      semesters:
+        - '2021-I'
+        - '2022-I'
+- name: 'Oscar Baltuano Elias'
+  title: 'Mag.'
+  courses:
+    - code: 'CFO602'
+      semesters:
+        - '2021-II'
+        - '2022-II'
+- name: 'Gilberto Yactayo Yactayo'
+  title: 'Lic.'
+  courses:
+    - code: 'CFO602'
+      semesters:
+        - '2022-I'
+- name: 'Pablo Rivera Riofano'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO603'
+      semesters:
+        - '2022-II'
+    - code: 'CFO703'
+      semesters:
+        - '2021-I'
+        - '2023-I'
+- name: 'Cesar Omar Jimenez Tintaya'
+  title: 'Lic.'
+  courses:
+    - code: '705'
+      semesters:
+        - '2023-0'
+- name: 'Mauro Quiroga Agurto'
+  title: 'Lic.'
+  courses:
+    - code: 'CBE013'
+      semesters:
+        - '2020-I'
+        - '2021-I'
+        - '2022-I'
+- name: 'Robert Mikhail Guzman Arellano'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO704'
+      semesters:
+        - '2023-I'
+- name: 'Robert Marino Espinoza Bernardo'
+  title: 'Mag.'
+  courses: 
+    - code: 'CBE013'
+      semesters:
+        - '2020-I'
+        - '2021-I'
+        - '2022-I'
+    - code: 'CFO504'
+      semesters:
+        - '2022-I'
+- name: 'Sthy Warren Flores Daorta'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO505'
+      semesters:
+        - '2022-I'
+- name: 'Maximo Poma Torres'
+  title: 'Mg.'
+  courses:
+    - code: 'CFO505'
+      semesters:
+        - '2021-I'
+- name: 'Jesús Felix Sánchez Ortiz'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO604'
+      semesters:
+        - '2022-II'
+- name: 'Carlos Gilmer Castillo Correa'
+  title: 'Lic.'
+  courses:
+    - code: 'CFO604'
+      semesters:
+        - '2021-II'
+- name: 'Marco Antonio Tito Patricio'
+  title: 'Dr.'
+  courses:
+    - code: 'CBE013'
+      semesters:
+        - '2022-I'
+- name: 'Soledad Ramírez Carrasco'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO304'
+      semesters:
+        - '2021-I'
+- name: 'Jose Kenyn Rodriguez Briceño'
+  title: 'Mg.'
+  courses:
+    - code: 'CFO304'
+      semesters:
+        - '2022-II'
+- name: 'Ronald Juven Reyes Narvaez'
+  title: 'MSc'
+  courses:
+    - code: 'CBO104'
+      semesters:
+        - '2020-I'
+- name: 'José Saldaña Tovar'
+  title: 'Dr.'
+  courses:
+    - code: 'CBO104'
+      semesters:
+        - '2022-I'
+        - '2022-II'
+    - code: 'CBO204'
+      semesters:
+        - '2022-II'
+- name: 'Cesar Santiago Rojas Romero'
+  title: 'Lic.'
+  courses:
+    - code: 'CBO104'
+      semesters:
+        - '2022-I'
+- name: 'Renzo Emerson Rodriguez Calderon'
+  title: 'Mag.'
+  courses:
+    - code: 'CBO105'
+      semesters:
+        - '2020-I'
+- name: 'Luis Alberto Macha Collotupa'
+  title: 'Lic.'
+  courses:
+    - code: 'CBO105'
+      semesters:
+        - '2021-II'
+- name: 'Sofia Irena Duran Quiñones'
+  title: 'Br.'
+  courses:
+    - code: 'CBO105'
+      semesters:
+        - '2021-II'
+    - code: 'CFO305'
+      semesters:
+        - '2021-I'
+- name: 'Isidro Quiroz Zarabia'
+  title: 'Br.'
+  courses:
+    - code: 'CBO105'
+      semesters:
+        - '2021-II'
+- name: 'Armando Marcelino Taco Llave'
+  title: 'Lic.'
+  courses:
+    - code: 'CBO105'
+      semesters:
+        - '2022-II'
+- name: 'Marinoli Rivas Chamorro'
+  title: 'Lic.'
+  courses:
+    - code: 'CBO106'
+      semesters:
+        - '2020-I'
+- name: 'Juan Pedro Arguelles Torres 🧪'
+  title: 'MSc'
+  courses:
+    - code: 'CBO106'
+      semesters:
+        - '2020-I'
+- name: 'Maruja Yolanda Gavilan Gonzales'
+  title: 'Lic.'
+  courses:
+    - code: 'CBO204'
+      semesters:
+        - '2020-I'
+- name: 'Jesus Virgilio Luque Rivera'
+  title: 'Mg.'
+  courses:
+    - code: 'CBO204'
+      semesters:
+        - '2022-II'
+- name: 'Luis Guillermo Huamanlazo Ricci'
+  title: 'Br.'
+  courses:
+    - code: 'CBO204'
+      semesters:
+        - '2022-II'
+    - code: 'CFO305'
+      semesters:
+        - '2021-I'
+- name: ''
+  title: ''
+  courses:
+    - code: ''
+      semesters:
+        - ''

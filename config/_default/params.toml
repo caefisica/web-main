@@ -82,6 +82,9 @@ lastMod = true
 # Comments
 giscus = false
 
+# Professors
+professors = true
+
 [options]
   lazySizes = true
   clipBoard = true
