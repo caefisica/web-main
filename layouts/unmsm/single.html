@@ -36,7 +36,7 @@
       {{ partial "components/alert.html" . -}}
     {{ end -}}
     {{- partial "main/headline-hash.html" .Content -}}
-    {{- if and .Site.Params.professors (not .BundleType) -}}
+    {{- if and .Site.Params.professors .Params.prerrequisites -}}
       {{- partial "components/professors.html" . -}}
     {{- end -}}
     <div class="metadata-article">
