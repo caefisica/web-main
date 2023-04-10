@@ -1,7 +1,7 @@
 ---
 title: "Mecánica Cuantica I"
-lead: ""
-description: ""
+lead: "Explora los fundamentos de la mecánica cuántica"
+description: "Con temas como superposición, mecánica matricial y ondulatoria, este curso te ofrece una introducción exhaustiva a la mecánica cuántica para estudiantes con conocimientos previos en física moderna y álgebra lineal."
 id: "CFO603"
 credits: 5
 prerrequisites: [ "Física Moderna I", "Álgebra Lineal" ]
