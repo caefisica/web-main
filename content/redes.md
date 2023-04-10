@@ -10,5 +10,3 @@ robots: noindex, nofollow, noarchive
 type: "links"
 images: []
 ---
-
-Hola
