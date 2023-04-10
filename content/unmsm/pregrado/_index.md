@@ -19,30 +19,35 @@ contributors: ["David"]
 
 ## Plan de Estudios
 
-{{< details "Actualizado en febrero del 2020" >}}
+{{< details "Actualizado en febrero de 2020" >}}
 {{< pdfjs file="EAP_10-02-2020.pdf" >}}
 {{< /details >}}
 
-{{< details "Actualizado en julio del 2021" >}}
+{{< details "Actualizado en julio de 2021" >}}
 {{< pdfjs file="plan2018.pdf" >}}
 {{< /details >}}
 
 ## Contenido
 
-Encontrarás consejos de estudiantes de años superiores (hasta de egresados).
-Aquí está el conocimiento adquirido gracias a nuestra experiencia: desde como
-matricularse hasta que hacer después de egresar de la carrera.
+La presente sección ofrece información esencial sobre el pregrado en ciencias físicas. A continuación, se detallan los temas abordados en esta sección:
 
-La sección de pregrado contiene detalles sobre qué libros usar para el estudio
-de las ciencias físicas. Este contenido se ha dividido por semestre y cursos.
-Puede acceder a cada una de estas páginas usando el menú de la izquierda.
-En esta sección también podrás encontrar un listado de bibliotecas donde puedes
-conseguir los libros que se recomiendan aquí. Deslízate en el menú de la
-izquierda hasta la parte final.
-⬅️
+1. **Consejos**: En esta parte, se recogen las experiencias de estudiantes avanzados y egresados, ofreciendo una perspectiva valiosa sobre cómo enfrentar los retos académicos y aprovechar las oportunidades profesionales.
+2. **Materiales de estudio**: Se proporciona una lista detallada de los libros recomendados para cada semestre y curso. Para acceder a esta información, utilice el menú de navegación situado en la parte izquierda de la pantalla si estás en un ordenador.
 
-En el menú de la derecha se detalla el contenido de cada una de las páginas.
-➡️
+    {{< vimeo "816274451?autoplay=1&loop=1&autopause=0?background=1" >}}
 
-Adicionalmente, puedes encontrar contenido adicional sobre cada curso en la
-sección de bibliotecá del menú superior. ⬆️
+    <br>
+
+3. **Bibliotecas**: Se presenta un listado de bibliotecas donde es posible obtener los libros recomendados en la sección de materiales de estudio. Este listado puede encontrarse navegando en el menú superior.
+
+    {{< vimeo "816287722?autoplay=1&loop=1&autopause=0?background=1" >}}
+
+    <br>
+
+4. **Contenido específico** de cada curso: El menú de navegación situado en la parte derecha de cada artículo ofrece un desglose detallado del contenido de cada página.
+
+    {{< vimeo "816287698?autoplay=1&loop=1&autopause=0?background=1" >}}
+
+    <br>
+
+Esta sección tiene como objetivo servir como guía y apoyo a los estudiantes en su trayecto académico, proporcionando información relevante y recursos útiles en su formación en ciencias físicas.
