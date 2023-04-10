@@ -73,7 +73,7 @@ Para ayudarte aún más en la comprensión del material, aquí tienes una lista 
   {{< book_row title="Problems for the course Statistical Physics" author="Yuri Galperin" editorial="Independiente" year="2004" edition="1ra ed." url="https://drive.google.com/file/d/1hE3YEq1kmyruov30JE2bwbCyLZwHpaQe/view?usp=sharing" >}}
 {{< /book_table >}}
 
-## Documentos 
+## Documentos
 
 | Nombre | Autor | Institución | Año |
 | ------ | ----- | ----------- | --- |

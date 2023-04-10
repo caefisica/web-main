@@ -104,7 +104,7 @@ Los siguientes libros contienen ejercicios o problemas planteados. Contienen muy
 | Apuntes de un curso de Mecánica Cuántica I | Ferrer, Massmann, Muñoz, Rossler, Rogan | Universidad de Chile | [2007](https://drive.google.com/file/d/1f7BeQxz0EWAjS3rm3wfRC20NKCQvDjCZ/view?usp=share_link) |
 | Mecánica Cuántica II | Gustavo Castellano | Universidad Nacional de Córdoba | [2017](https://www.famaf.unc.edu.ar/~gcas/cuantica2/clases-mc2.pdf) |
 | Introducción a la física cuántica | José Granado, Álvaro Cantero y Pablo Múzquiz | Universidad Complutense de Madrid | [2004](http://nuclear.fis.ucm.es/EM2011/Apuntes-FC2-1_1_0-Joaquin.pdf) |
-| Mecánica Cuántica: Notas de Clase | Rodolfo Diaz | Universidad Nacional de Colombia | [2015](http://168.176.14.11/fileadmin/content/fisica/Documentos/cuantica.pdf) | 
+| Mecánica Cuántica: Notas de Clase | Rodolfo Diaz | Universidad Nacional de Colombia | [2015](http://168.176.14.11/fileadmin/content/fisica/Documentos/cuantica.pdf) |
 
 ## Listas de reproducción
 
