@@ -9,6 +9,7 @@ connectsrc:
 - https://*.cloudinary.com
 - https://unpkg.com
 - https://*.workers.dev
+- https://player.vimeo.com/
 
 fontsrc:
 - "'self'"
@@ -53,6 +54,7 @@ scriptsrc:
 - https://*.netlify.app
 - https://www.youtube.com/iframe_api
 - https://www.youtube.com/s/player/ace4d669/www-widgetapi.vflset/www-widgetapi.js
+- https://player.vimeo.com/
 - "'nonce-Y1ScUXOl8NAZzNrRydXz1Q=='"
 - "'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs='"
 - "'sha512-A0szvdIuCKA21xigr2/288rv04z5w6cH/GETcSny1t222OlOShgazYLkYIMUH6yAan2CxMeKkNwbmUuLqbnsBQ=='"

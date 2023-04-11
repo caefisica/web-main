@@ -12,8 +12,6 @@ toc: false
 contributors: ["David"]
 ---
 
-{{< alert icon="🚨" text="Este semestre está a cargo de la Escuela de Estudios Generales (EEG), no de la Facultad de Ciencias Físicas (FCF)." />}}
-
 ### Plan de Estudios 2018
 
 {{< alert icon="🚨" text="Los datos aquí mostrados son de carácter referencial, consulta la información publicada por la misma facultad." />}}
