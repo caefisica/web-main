@@ -5,14 +5,14 @@
     <div class="title">{{ .Get "title" }}</div>
   </td>
   <td class="align-middle">
-    {{ $urls := split (.Get "urls") "," }}
-    {{ $editions := split (.Get "editions") "," }}
-    {{ $years := split (.Get "years") "," }}
-    {{ range $index, $url := $urls }}
-      <a href="{{ $url }}" target="_blank">
-        {{ with index $editions $index }}{{ . }}, {{ end }}{{ index $years $index }}
-      </a>
-      {{ if lt $index (sub (len $urls) 1) }}<br>{{ end }}
-    {{ end }}
+  {{ $urls := split (.Get "urls") "," }}
+  {{ $editions := split (.Get "editions") "," }}
+  {{ $years := split (.Get "years") "," }}
+  {{ range $index, $url := $urls }}
+  <a href="{{ $url }}" target="_blank">
+  {{ with index $editions $index }}{{ . }}, {{ end }}{{ index $years $index }}
+  </a>
+  {{ if lt $index (sub (len $urls) 1) }}<br>{{ end }}
+  {{ end }}
   </td>
 </tr>

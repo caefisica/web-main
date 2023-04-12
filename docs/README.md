@@ -17,9 +17,11 @@ Con el motivo de simplificar el código. A continuación una lista de clases per
 1. Tablas:
 
     ```
-    {{< book_table >}}
+    {{< content_table >}}
       {{< book_row title="" author="" editorial="" year="" edition="" url="" >}}
-    {{< /book_table >}}
+      {{< book_row_multiple title="" author="" editorial="" urls="" editions="" years="" >}}
+      {{< playlist_row title="" channel="" lecturer="" videos="" url="" >}}
+    {{< /content_table >}}
     ```
 
 # Listas

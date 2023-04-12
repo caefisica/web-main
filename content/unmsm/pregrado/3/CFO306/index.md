@@ -57,22 +57,22 @@ Para complementar tu aprendizaje en Física Computacional I, hemos seleccionado 
 
 Te recomendamos consultar los siguientes libros, que incluyen información teórica detallada y ejemplos de programas escritos en Python u otros lenguajes (ten en cuenta que Fortran no es comúnmente utilizado en cursos similares en otros países):
 
-{{< book_table >}}
+{{< content_table type="book" >}}
   {{< book_row title="Introduction to Programming with Fortran" author="Ian Chivers y Jane Sleightholme" editorial="Springer International Publishing AG" year="2018" edition="4ta ed." url="https://drive.google.com/file/d/1qKxqT4IcyfFROFiFrwhqfX5bhfOU5Ynm/view?usp=share_link" >}}
   {{< book_row title="A First Course in Computational Physics" author="Paul DeVries" editorial="John Wiley & Sons" year="1994" edition="1ra ed." url="https://drive.google.com/file/d/1YsPZJ0fCP4-gYKNO2X4kCoiOxEIIldco/view?usp=share_link" >}}
   {{< book_row title="An Introduction to Computational Physics" author="Tao Pang" editorial="Cambride University Press" year="2006" edition="2da ed." url="https://drive.google.com/file/d/1hLow99N95A2BWNDTbL635LJFZYUwOdDz/view?usp=share_link" >}}
   {{< book_row title="Numerical Methods for Scientists and Engineers" author="H. M. Antia" editorial="Hindustan Book Agency" year="2012" edition="3ra ed." url="https://drive.google.com/file/d/1eAHhtZAHGLncF7TvKMG6yTX0c9b9s7ps/view?usp=share_link" >}}
   {{< book_row title="Numerical Methods of Mathematics Implemented in Fortran" author="Sujit Kumar Bose" editorial="Springer Nature Singapore" year="2019" edition="1ra ed." url="https://drive.google.com/file/d/1EBg-Ay8QQPa69BLYdblvkAbYUEG2glcL/view?usp=share_link" >}}
   {{< book_row title="How to learn Applied Mathematics through Modern Fortran" author="Juan Hernández y Javier Escoto" editorial="Independiente" year="2022" edition="3ra ed." url="https://drive.google.com/file/d/1iFw449C5q8AQoVEYNqtf-uJ-1gxTO611/view?usp=share_link" >}}
-{{< /book_table >}}
+{{< /content_table >}}
 
 Antia: https://www.tifr.res.in/~antia/nmse3.html
 
 ### Solucionarios
 
-{{< book_table >}}
+{{< content_table type="book" >}}
   {{< book_row title="An Introduction to Computational Physics" author="Tao Pang" editorial="Cambridge University Press" year="1997" edition="1ra ed." url="https://www.physics.unlv.edu/~pang/cp_f90.html" >}}
-{{< /book_table >}}
+{{< /content_table >}}
 
 ### Documentos
 
