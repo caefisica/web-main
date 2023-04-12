@@ -1,7 +1,7 @@
 ---
 title: "Mecánica Cuantica I"
 lead: "Explora los fundamentos de la mecánica cuántica"
-description: "Con temas como superposición, mecánica matricial y ondulatoria, este curso te ofrece una introducción exhaustiva a la mecánica cuántica para estudiantes con conocimientos previos en física moderna y álgebra lineal."
+description: "Con temas como superposición, mecánica matricial y ondulatoria, este curso te ofrece una introducción exhaustiva a la mecánica cuántica para estudiantes con conocimientos previos en física moderna y álgebra lineal"
 id: "CFO603"
 credits: 5
 prerrequisites: [ "Física Moderna I", "Álgebra Lineal" ]
@@ -122,6 +122,7 @@ Las primeras clases dictadas por Allan Adams en 2013 en el MIT pueden servirte p
 | ```42``` Curso de Mecánica Cuántica | Fisico del Mal | [spa](https://youtube.com/playlist?list=PLLKYEqxsYB_cP2-dMUmn_ISU2kuG7YsSq) |
 | ```52``` Mini curso de Mecánica Cuántica | Javier Garcia | [spa](https://youtube.com/playlist?list=PLAnA8FVrBl8DwNkN_3f_vahmE0PHjBWQM) |
 | ```254``` Introducción a la Mecánica Cuántica | MathArg | [spa](https://www.youtube.com/playlist?list=PLTef2OIG6VtJTyRqYxbhBPhbwuSiO1u1D) |
+| ```24``` Quantum Theory Lectures | Alexander Maloney | [eng](https://www.youtube.com/playlist?list=PLrbYZnU7vahIbplgN1YwOmpmlTh-cRJZ5)|
 | ```58``` Curso de Mecánica Cuántica | Ramon Castillo Bastos | [spa](https://www.youtube.com/playlist?list=PL4i6Jlnz3GWUbvwKsCswdi7myRV8RjR8U) |
 
 ## Sílabos
