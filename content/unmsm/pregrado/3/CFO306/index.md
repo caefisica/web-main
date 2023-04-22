@@ -105,6 +105,12 @@ Antia: https://www.tifr.res.in/~antia/nmse3.html
 | Metodos númericos en Fortran | Claudio Canales | [spa](https://youtube.com/playlist?list=PL3PWU72lXK16ESgNVgS3e2WQqT_TQgv5_) |
 | Métodos númericos en Fortran | TheMarcosVerissimo | [pt](https://youtube.com/playlist?list=PLPKxl5s4bNYxgeedSZy_5V_eB2NssC-7u) |
 
+### Páginas web
+
+| Nombre | Autor | Enlace |
+| ------ | ----- | ------ |
+| Learning Fortran | Alvaro Siesquen | [spa](https://sites.google.com/unmsm.edu.pe/learningfortran/inicio)
+
 ## Sílabos
 
 {{< details "Profesor Chachi, semestre 2021-I, UNMSM" >}}
