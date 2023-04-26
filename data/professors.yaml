@@ -4,27 +4,56 @@
     - code: 'CFO704'
       semesters:
         - '2020-II'
+    - code: 'CFE909A'
+      semesters:
+        - '2023-I'
 - name: 'Jaime Francisco Vento Flores'
   title: 'Dr.'
   courses:
     - code: 'CFO704'
       semesters:
         - '2021-I'
+    - code: 'CFO903'
+      semesters:
+        - '2023-I'
 - name: 'Justo Rojas Tapia'
   title: 'Dr.'
   courses:
     - code: 'CFO502'
       semesters:
         - '2021-I'
+        - '2023-I'
+- name: 'Chachi Rojas Ayala'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO306'
+      semesters:
+        - '2021-I'
+        - '2023-I'
+    - code: 'CFO901'
+      semesters:
+        - '2021-I'
 - name: 'Renato Tovar Landeo'
   title: 'Lic.'
   courses:
+    - code: 'CFO302'
+      semesters:
+        - '2023-I'
     - code: 'CFO405'
       semesters:
         - '2021-II'
     - code: 'CFO504'
       semesters:
         - '2022-II'
+    - code: 'CFE905B'
+      semesters:
+        - '2023-I'
+- name: 'Navor Figueroa Jamanca'
+  title: 'Mg.'
+  courses:
+    - code: 'CFE910B'
+      semesters:
+        - '2023-I'
 - name: 'Fulgencio Villegas Silva'
   title: 'Dr.'
   courses:
@@ -32,7 +61,14 @@
       semesters:
         - '2021-I'
         - '2022-I'
+        - '2023-I'
     - code: 'CFO701'
+      semesters:
+        - '2023-I'
+- name: 'Whaulkuer Enrique Lozano Bartra'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO902'
       semesters:
         - '2023-I'
 - name: 'Jose Domingo Arbañil Vela'
@@ -44,6 +80,12 @@
     - code: 'CFO406'
       semesters:
         - '2021-II'
+- name: 'Elvira Leticia Zeballos Velásquez'
+  title: 'Dr.'
+  courses:
+    - code: 'CFE907A'
+      semesters:
+        - '2023-I'
 - name: 'Victor Garcia Rivera'
   title: 'Dr.'
   courses:
@@ -56,12 +98,32 @@
     - code: 'CFO501'
       semesters:
         - '2022-I'
+        - '2023-I'
+- name: 'Jorge Aurelio Bravo Cabrejos'
+  title: 'Dr.'
+  courses:
+    - code: 'CFE909B'
+      semesters:
+        - '2023-I'
+    - code: 'CFE910A'
+      semesters:
+        - '2023-I'
+    - code: 'CFE910B'
+      semesters:
+        - '2023-I'
+    - code: 'CFE911B'
+      semesters:
+        - '2023-I'
 - name: 'Luiz Salazar de Paz'
   title: 'Br.'
   courses:
+    - code: 'CFO302'
+      semesters:
+        - '2023-I'
     - code: 'CFO303'
       semesters:
         - '2021-I'
+        - '2023-I'
     - code: 'CFO401'
       semesters:
         - '2021-II'
@@ -71,6 +133,7 @@
     - code: 'CFO303'
       semesters:
         - '2022-II'
+        - '2023-I'
 - name: 'Richard Saúl Toribio Saavedra'
   title: 'Dr.'
   courses:
@@ -80,6 +143,9 @@
     - code: 'CFO406'
       semesters:
         - '2021-II'
+    - code: 'CFO504'
+      semesters:
+        - '2023-I'
     - code: 'CFO605'
       semesters:
         - '2022-II'
@@ -89,6 +155,7 @@
     - code: 'CFO302'
       semesters:
         - '2022-II'
+        - '2023-I'
     - code: 'CFO306'
       semesters:
         - '2021-I'
@@ -96,6 +163,7 @@
       semesters:
         - '2021-I'
         - '2022-I'
+        - '2023-I'
 - name: 'Oscar Baltuano Elias'
   title: 'Mag.'
   courses:
@@ -106,6 +174,9 @@
 - name: 'Gilberto Yactayo Yactayo'
   title: 'Lic.'
   courses:
+    - code: 'CFO702'
+      semesters:
+        - '2023-I'
     - code: 'CFO602'
       semesters:
         - '2022-I'
@@ -138,6 +209,9 @@
         - '2020-I'
         - '2021-I'
         - '2022-I'
+    - code: 'CBO207'
+      semesters:
+        - '2020-II'
 - name: 'Robert Mikhail Guzman Arellano'
   title: 'Dr.'
   courses:
@@ -155,24 +229,35 @@
     - code: 'CFO504'
       semesters:
         - '2022-I'
+        - '2023-I'
 - name: 'Sthy Warren Flores Daorta'
   title: 'Dr.'
   courses:
     - code: 'CFO505'
       semesters:
         - '2022-I'
+        - '2023-I'
 - name: 'Maximo Poma Torres'
   title: 'Mg.'
   courses:
     - code: 'CFO505'
       semesters:
         - '2021-I'
+    - code: 'CFE911B'
+      semesters:
+        - '2023-I'
 - name: 'Jesús Felix Sánchez Ortiz'
   title: 'Dr.'
   courses:
     - code: 'CFO604'
       semesters:
         - '2022-II'
+- name: 'Carlos Solano Salinas'
+  title: 'Dr.'
+  courses:
+    - code: 'CFE104B'
+      semesters:
+        - '2023-I'
 - name: 'Carlos Gilmer Castillo Correa'
   title: 'Lic.'
   courses:
