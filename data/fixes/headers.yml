@@ -21,6 +21,7 @@ framesrc:
 - https://*.netlify.com
 - https://d.cae.workers.dev
 - https://www.youtube.com
+- https://player.vimeo.com
 
 imgsrc:
 - "'self'"
