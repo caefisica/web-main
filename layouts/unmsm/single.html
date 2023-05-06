@@ -33,9 +33,12 @@
       {{ partial "components/information_box.html" . -}}
     {{ end -}}
     {{ if eq .Params.working true -}}
-      {{ partial "components/alert.html" -}}
+      {{ partial "components/alert.html" . -}}
     {{ end -}}
     {{- partial "main/headline-hash.html" .Content -}}
+    {{- if and .Site.Params.professors .Params.prerrequisites -}}
+      {{- partial "components/professors.html" . -}}
+    {{- end -}}
     <div class="metadata-article">
       {{- if .Site.Params.lastMod -}}
         {{- partial "main/last-modified.html" . -}}

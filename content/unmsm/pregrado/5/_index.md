@@ -18,12 +18,6 @@ contributors: ["David"]
 
 {{< alert icon="🚨" text="Los datos aquí mostrados son de carácter referencial, consulta la información publicada por la misma facultad." />}}
 
-| Código | Curso                   | Créditos | Requisitos                | Obligatorio* |
-| ------ | ----------------------- | -------- | ------------------------- | ------------ |
-| CFO501 | Óptica                  | 6        | Electricidad y Magnetismo | Sí           |
-| CFO502 | Física Computacional II | 4        | Física Computacional I    | Sí           |
-| CFO503 | Mecánica Clásica II     | 4        | Mecánica Clásica I        | Sí           |
-| CFO504 | Física Matemática III   | 4        | Física Matemática II      | Sí           |
-| CFO505 | Física Moderna I        | 4        | Electricidad y Magnetismo | Sí           |
+{{< semester_list >}}
 
 [*] Todos los cursos que llevarás durante tus primeros años de carrera son de carácter obligatorio.

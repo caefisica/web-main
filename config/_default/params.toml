@@ -7,6 +7,12 @@ titleSeparator = "-"
 titleAddition = "Centro de Apoyo al Estudiante de Física"
 description = "Facilitando recursos para el estudio de la física."
 
+## Our Online Presence
+ourFacebook = "https://www.facebook.com/caefisica"
+ourInstagram = "https://www.instagram.com/caefisica/"
+ourVideoLibraryDrive = "https://drive.google.com/drive/folders/1udNDbnUZRk6Kih_Fl6hv4RsZNs0PHGUM"
+ourBookLibraryDrive = "https://drive.google.com/drive/folders/152My-loiJkz5eLNhHb8uZ164K62-8iQ-"
+
 ## Open Graph
 images = ["cae.png"]
 ogLocale = "es_ES"
@@ -67,9 +73,12 @@ copyRight = "Copyright (c) 2023 CAE-Física"
 # Alert
 alert = false
 alertDismissable = true
-# alertText = ""
-# alertText = ""
 alertText = "Tenemos nueva charla 🥳: \"¿Cómo publicar en una revista científica en pregrado?\", regístrese <a class=\"alert-link\" href=\"https://forms.gle/bhDitoK3ymySbJgZ7\">aquí</a>."
+
+# Events
+events = true
+bannerEventForm = "https://forms.gle/bhDitoK3ymySbJgZ7"
+bannerEventImage = "2022_11_1.jpg"
 
 # Edit Page
 repoHost = "GitHub"
@@ -81,6 +90,9 @@ lastMod = true
 
 # Comments
 giscus = false
+
+# Professors
+professors = true
 
 [options]
   lazySizes = true

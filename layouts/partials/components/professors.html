@@ -1,0 +1,22 @@
+{{ $courseCode := .Params.id }}
+{{ $professorsFound := false }}
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Semestre</th>
+  </tr>
+  {{ range $professor := .Site.Data.professors }}
+    {{ range $course := $professor.courses }}
+      {{ if eq $course.code $courseCode }}
+        <tr>
+          <td>{{- $professor.title }} {{ $professor.name }}</td>
+          <td>{{ delimit $course.semesters ", " }}</td>
+        </tr>
+        {{ $professorsFound = true }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</table>
+{{ if not $professorsFound }}
+  <p>⚠️ Todavía no tenemos información sobre los profesores que enseñaron este curso.</p>
+{{ end }}

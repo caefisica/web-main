@@ -31,7 +31,7 @@ Correo electrónico de contacto del Titular: cae [en] unmsm.edu.pe
 
 Los únicos Datos que recogemos son los solicitados para la suscripción al boletín del CAE. Este es un servicio provisto a través de terceros, en este caso: `Buttondown`. Para efectos funcionales solicitamos el nombre y el correo del usuario. El uso de este servicio es opcional, es decir los usuarios serán libres de no comunicar tales Datos sin que esto tenga consecuencia alguna sobre la disponibilidad o el funcionamiento del servicio.
 
-El usuario asume la responsabilidad respecto de los Datos Personales que se obtengan, publiquen o compartan a través de esta página web y declara por la presente que da su consentimiento para el uso de sus Datos por parte de `Sendgrid` en caso decida participar del boletín. Véase la política de privacidad de [`Sendgrid`](https://sendgrid.com/policies/privacy).
+El usuario asume la responsabilidad respecto de los Datos Personales que se obtengan, publiquen o compartan a través de esta página web y declara por la presente que da su consentimiento para el uso de sus Datos por parte de `Sendgrid` en caso decida participar del boletín. Véase la política de privacidad de [`Sendgrid`](https://www.twilio.com/en-us/legal/privacy).
 
 ## Información detallada del proveedor
 
