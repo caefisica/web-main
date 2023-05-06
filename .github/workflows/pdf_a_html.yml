@@ -55,4 +55,4 @@ jobs:
         title: '🤖 Convertir PDF a HTML'
         branch: 'pdf-html-{{ github.sha }}'
         body: 'Convertir todos los PDF en HTML'
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.COMMITS_ALLOWED }}
