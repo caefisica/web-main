@@ -8,8 +8,6 @@ on:
       - '/layouts/'
       - '/assets/'
       - '/functions/'
-  pull_request:
-    branches: [ master ]
 
 jobs:
   lighthouse:

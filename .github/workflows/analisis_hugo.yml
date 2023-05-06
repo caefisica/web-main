@@ -8,8 +8,11 @@ on:
     - synchronize
     - reopened
   push:
-    branches:
-     - main
+    branches: [ master ]
+    paths:
+      - '/layouts/'
+      - '/assets/'
+      - '/functions/'
 jobs:
   build-unminified-site:
     runs-on: ubuntu-20.04
