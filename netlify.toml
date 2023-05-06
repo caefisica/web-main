@@ -64,3 +64,9 @@ package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
   cloudName = "dubu"
   loadingStrategy = "lazy"
+
+# [[plugins]]
+#  package = "netlify-plugin-no-more-404"
+#
+#  [plugins.inputs]
+#  on404 = "error"

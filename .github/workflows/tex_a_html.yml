@@ -45,4 +45,4 @@ jobs:
         delete-branch: true
         labels: auto-act
         base: main
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.COMMITS_ALLOWED }}

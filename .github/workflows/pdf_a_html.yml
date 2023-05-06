@@ -48,11 +48,17 @@ jobs:
           done
         ' bash {} +
 
+    - name: Establecer variable de entorno con el hash corto del commit
+      id: vars
+      run: |
+        echo "SHA_SHORT=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+        echo ${{ env.SHA_SHORT }}
+
     - name: Crear Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
         commit-message: 'content: Conversión de PDF a HTML'
         title: '🤖 Convertir PDF a HTML'
-        branch: 'pdf-html-{{ github.sha }}'
+        branch: 'pdf-html-${{ env.SHA_SHORT }}'
         body: 'Convertir todos los PDF en HTML'
         token: ${{ secrets.COMMITS_ALLOWED }}

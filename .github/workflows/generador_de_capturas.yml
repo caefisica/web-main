@@ -20,7 +20,7 @@ jobs:
         run: go run ./assets/go/website-screenshot-generator/main.go
         id: generar_capturas
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.COMMITS_ALLOWED }}
 
       - name: Crear Pull Request
         uses: peter-evans/create-pull-request@v3.10.0
@@ -31,4 +31,4 @@ jobs:
           delete-branch: true
           labels: auto-act
           base: main
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.COMMITS_ALLOWED }}
