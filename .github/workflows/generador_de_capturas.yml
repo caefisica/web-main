@@ -24,7 +24,7 @@ jobs:
 
       - name: Download Go modules
         run: |
-          go get -u github.com/chromedp/chromedp
+          go mod download
         working-directory: ${{ github.workspace }}
 
       - name: Generar y guardas capturas
