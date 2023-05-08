@@ -24,7 +24,7 @@ jobs:
 
       - name: Download Go modules
         run: |
-          go get -d ./assets/go/website-screenshot-generator
+          go get -u github.com/chromedp/chromedp
         working-directory: ${{ github.workspace }}
 
       - name: Generar y guardas capturas
