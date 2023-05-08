@@ -29,13 +29,13 @@ menu:
 
 El plan de estudios incluye los siguientes temas:
 
-1. Introducción a los métodos estadísticos
-2. Descripción estadística de sistemas de partículas (ensamble)
-3. Termodinámica estadística (sistemas en equilibrio)
-4. Gas ideal monoatómico
-5. Teorema de equipartición
-6. Estadísticas de Maxwell-Boltzmann, Bose-Einstein y Fermi-Dirac
-7. Radiación de cuerpo negro
+* Introducción a los métodos estadísticos
+* Descripción estadística de sistemas de partículas (ensamble)
+* Termodinámica estadística (sistemas en equilibrio)
+* Gas ideal monoatómico
+* Teorema de equipartición
+* Estadísticas de Maxwell-Boltzmann, Bose-Einstein y Fermi-Dirac
+* Radiación de cuerpo negro
 
 ## Libros recomendados
 

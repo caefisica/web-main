@@ -66,17 +66,15 @@ Te recomendamos consultar los siguientes libros, que incluyen información teór
   {{< book_row title="How to learn Applied Mathematics through Modern Fortran" author="Juan Hernández y Javier Escoto" editorial="Independiente" year="2022" edition="3ra ed." url="https://drive.google.com/file/d/1iFw449C5q8AQoVEYNqtf-uJ-1gxTO611/view?usp=share_link" >}}
 {{< /content_table >}}
 
-Antia: https://www.tifr.res.in/~antia/nmse3.html
-
 ### Solucionarios
 
 {{< content_table type="book" >}}
   {{< book_row title="An Introduction to Computational Physics" author="Tao Pang" editorial="Cambridge University Press" year="1997" edition="1ra ed." url="https://www.physics.unlv.edu/~pang/cp_f90.html" >}}
 {{< /content_table >}}
 
-### Documentos
+## Documentos
 
-#### Fortran
+### Fortran
 
 | Nombre | Autor | Enlace |
 | ------ | ----- | ------ |
@@ -87,7 +85,7 @@ Antia: https://www.tifr.res.in/~antia/nmse3.html
 | Introducción a Fortran | Miguel Alcubierre | [spa](https://drive.google.com/file/d/1so75hpOmN0zOyI6UgPC4MBPXw3pFgPoS/view?usp=sharing) |
 | Computational Physics | Martin Siegert | [eng](https://www.phys.uconn.edu/~rozman/Courses/P2200_15F/campus_access/Siegert-comphys.pdf) |
 
-#### Métodos Numéricos
+### Métodos Numéricos
 
 | Nombre | Autor | Año | Editor | Enlace |
 | ------ | ----- | --- | ------ | ------ |
@@ -95,7 +93,7 @@ Antia: https://www.tifr.res.in/~antia/nmse3.html
 | Métodos numéricos y computación | Ward Chene | 2010 | Cengage Learning | [spa](https://drive.google.com/file/d/1nU1KXcONN0TAKUzv4NPDd29cD-GjC_bY/view?usp=sharing) |
 | Computational Physics - Fortran Version  | Steven E. Koonin | 1990 | Westview Press | [eng](https://drive.google.com/file/d/1crbnbw0ndKnaj_Pp1M5l-obdzCUwP3eq/view?usp=sharing) |
 
-### Videos
+## Listas de reproducción
 
 | Nombre | Autor | Enlace |
 | ------ | ----- | ------ |
@@ -105,11 +103,12 @@ Antia: https://www.tifr.res.in/~antia/nmse3.html
 | Metodos númericos en Fortran | Claudio Canales | [spa](https://youtube.com/playlist?list=PL3PWU72lXK16ESgNVgS3e2WQqT_TQgv5_) |
 | Métodos númericos en Fortran | TheMarcosVerissimo | [pt](https://youtube.com/playlist?list=PLPKxl5s4bNYxgeedSZy_5V_eB2NssC-7u) |
 
-### Páginas web
+## Páginas web
 
 | Nombre | Autor | Enlace |
 | ------ | ----- | ------ |
-| Learning Fortran | Alvaro Siesquen | [spa](https://sites.google.com/unmsm.edu.pe/learningfortran/inicio)
+| Numerical Methods for Scientists | H. M. Anthia | [eng](https://www.tifr.res.in/~antia/nmse3.html) |
+| Learning Fortran | Alvaro Siesquen | [spa](https://sites.google.com/unmsm.edu.pe/learningfortran/inicio) |
 
 ## Sílabos
 
