@@ -24,6 +24,8 @@ jobs:
 
       - name: Download Go modules
         run: |
+          echo "Downloading Go modules"
+          echo "$(pwd)"
           go mod download
         working-directory: ${{ github.workspace }}
 
