@@ -82,7 +82,7 @@ Antia: https://www.tifr.res.in/~antia/nmse3.html
 | ------ | ----- | ------ |
 | Fortran 90 Tutorial | C. K. Shene | [eng](https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/fortran.html) |
 | Computational Physics | Morten Hjorth-Jensen | [eng](https://www.uio.no/studier/emner/matnat/fys/FYS4411/v14/lectures2013.pdf)
-| Guía de estudio de Fortran95 | Rachael Padman de la U. de Oxford | [eng](https://www.mrao.cam.ac.uk/~rachael/compphys/SelfStudyF95.pdf) |
+| Guía de estudio de Fortran95 | Rachael Padman de la U. de Oxford | [eng](https://drive.google.com/file/d/1JQmKvYLoviuUZG4QCmyycvVKu1WYloQ9/view?usp=share_link) |
 | Fortran | David Apsley | [eng](https://web.pa.msu.edu/people/duxbury/courses/phy201_f06/Fortran90NotesI.pdf) |
 | Introducción a Fortran | Miguel Alcubierre | [spa](https://drive.google.com/file/d/1so75hpOmN0zOyI6UgPC4MBPXw3pFgPoS/view?usp=sharing) |
 | Computational Physics | Martin Siegert | [eng](https://www.phys.uconn.edu/~rozman/Courses/P2200_15F/campus_access/Siegert-comphys.pdf) |

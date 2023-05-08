@@ -48,11 +48,11 @@ Para una comprensión profunda, te recomendamos consultar los siguientes libros,
 {{< content_table type="book" >}}
   {{< book_row title="Thermodynamics and Statistical Physics" author="Greiner, Neise, Stöcker" editorial="Springer" year="2001" edition="1ra ed." url="https://drive.google.com/file/d/1x95pDUmoh0teffmi5Y8XJcs6XAcw2te1/view?usp=sharing" >}}
   {{< book_row title="Statistical Mechanics" author="Bipin Agarwal y Melvin Eisner" editorial="Wiley Eastern Limited" year="1989" edition="2da ed." url="https://drive.google.com/file/d/1KQLhnWuEm43RV8lFV4fOOQ4O9DU2l_tA/view?usp=sharing" >}}
-  {{< book_row title="Fundamentos de física estadística y térmica" author="Frederick Reif" editorial="" year="1968" edition="1ra ed." url="https://drive.google.com/file/d/1dXWGTlZKDSrjRyEKqg3KnGkEh1TPiq_I/view?usp=sharing" >}}
+  {{< book_row title="Fundamentos de física estadística y térmica" author="Frederick Reif" editorial="McGraw-Hill Book Company" year="1968" edition="1ra ed." url="https://drive.google.com/file/d/1dXWGTlZKDSrjRyEKqg3KnGkEh1TPiq_I/view?usp=sharing" >}}
   {{< book_row title="Introduction to Modern Statistical Mechanics" author="David Chandler" editorial="Oxford University Press" year="1987" edition="1ra ed." url="https://drive.google.com/file/d/1r5B98P51ZGapILOI2Byst_W6KYdBHwSx/view?usp=share_link" >}}
   {{< book_row title="Statistical Physics" author="Ya. P. Terletskii" editorial="North-Holland Publishing Company" year="1971" edition="1ra ed." url="https://drive.google.com/file/d/1Rrt8VyWL0jlK-yfy_Rwn4zaapwTLeRX8/view?usp=share_link" >}}
   {{< book_row title="Statistical Mechanics" author="R. K. Pathria" editorial="Elsevier" year="2011" edition="3ra ed." url="https://drive.google.com/file/d/1yBz1Ph1TpFXpESDhmtKx-BmCFKzsKc9I/view?usp=share_link" >}}
-  {{< book_row title="An Introduction to Thermal Physics" author="Daniel Schroeder" editorial="Addison-Wesley" year="2000" edition="1ra ed." url="https://drive.google.com/file/d/1wEPMlO_-LlIywyxlKcjTIfRamCCtwaP3/view?usp=share_link" >}}
+  {{< book_row title="Introduction to Statistical Physics" author="Kerson Huang" editorial="Taylor & Francis Group" year="2010" edition="2da ed." url="https://drive.google.com/file/d/1GPVz63NhMdS-tTltNOIA-YRFbG98KjWI/view?usp=share_link" >}}
 {{< /content_table >}}
 
 ### Prácticos

@@ -91,6 +91,8 @@ Los siguientes libros contienen ejercicios o problemas planteados. Contienen muy
 
 ### Solucionarios
 
+Para ayudarte aún más en la comprensión del material, aquí tienes una lista de solucionarios para algunos libros seleccionados.
+
 {{< content_table type="book" >}}
   {{< book_row title="Problemas y ejercicios de Mecánica Cuántica" author="Luis de la Peña y Mirna Villavicencio" editorial="Fondo de Cultura Económica" year="2003" edition="1ra ed." url="https://drive.google.com/file/d/1-CxML2bk0tSH4lttsCbDf7jkDpkdhofF/view?usp=sharing" >}}
   {{< book_row title="Solutions Manual to Quantum Mechanics" author="David McIntyre" editorial="Pearson Education Limited" year="2008" edition="1ra ed." url="https://drive.google.com/file/d/1PvYhHVPyRTnexqrxJpZWHAB0aVNlTIZK/view?usp=share_link" >}}
@@ -99,12 +101,14 @@ Los siguientes libros contienen ejercicios o problemas planteados. Contienen muy
 
 ## Documentos
 
-| Nombre | Autor | Institución | Año |
-| ------ | ----- | ----------- | --- |
-| Apuntes de un curso de Mecánica Cuántica I | Ferrer, Massmann, Muñoz, Rossler, Rogan | Universidad de Chile | [2007](https://drive.google.com/file/d/1f7BeQxz0EWAjS3rm3wfRC20NKCQvDjCZ/view?usp=share_link) |
-| Mecánica Cuántica II | Gustavo Castellano | Universidad Nacional de Córdoba | [2017](https://www.famaf.unc.edu.ar/~gcas/cuantica2/clases-mc2.pdf) |
-| Introducción a la física cuántica | José Granado, Álvaro Cantero y Pablo Múzquiz | Universidad Complutense de Madrid | [2004](http://nuclear.fis.ucm.es/EM2011/Apuntes-FC2-1_1_0-Joaquin.pdf) |
-| Mecánica Cuántica: Notas de Clase | Rodolfo Diaz | Universidad Nacional de Colombia | [2015](http://168.176.14.11/fileadmin/content/fisica/Documentos/cuantica.pdf) |
+Los siguientes documentos no son necesariamente libros en el sentido tradicional, sino que se trata de apuntes y notas de clase elaborados por profesores universitarios. Estos materiales pueden ofrecer enfoques y explicaciones alternativas de diversos temas.
+
+{{< content_table type="book" >}}
+  {{< book_row title="Apuntes de un curso de Mecánica Cuántica I" author="Ferrer, Massmann, Muñoz, Rossler, Rogan" editorial="Universidad de Chile" year="2007" edition="" url="https://drive.google.com/file/d/1f7BeQxz0EWAjS3rm3wfRC20NKCQvDjCZ/view?usp=share_link" >}}
+  {{< book_row title="Mecánica Cuántica II" author="Gustavo Castellano" editorial="Universidad Nacional de Córdoba" year="2017" edition="" url="https://drive.google.com/file/d/1m3GQn-WMvjclrUtQ0ByCJ-dJqnt-g2iF/view?usp=share_link" >}}
+  {{< book_row title="Introducción a la física cuántica" author="José Granado, Álvaro Cantero y Pablo Múzquiz" editorial="Universidad Complutense de Madrid" year="2004" edition="" url="http://nuclear.fis.ucm.es/EM2011/Apuntes-FC2-1_1_0-Joaquin.pdf" >}}
+  {{< book_row title="Mecánica Cuántica: Notas de Clase" author="Rodolfo Diaz" editorial="Universidad Nacional de Colombia" year="2015" edition="" url="https://drive.google.com/file/d/143Ep5BydPS5mHJ8HJ45N_cNNcWtAYKpA/view?usp=share_link" >}}
+{{< /content_table >}}
 
 ## Listas de reproducción
 
@@ -112,23 +116,23 @@ Los siguientes libros contienen ejercicios o problemas planteados. Contienen muy
 
 Las primeras clases dictadas por Allan Adams en 2013 en el MIT pueden servirte para comprender algunas ideas fundamentales de la mecánica cuántica.
 
-| Nombre | Autor | Enlace |
-| ------ | ----- | ------ |
-| ```11``` Minicurso de Mecánica Cuántica | Renzo Franco | [spa](https://www.youtube.com/playlist?list=PLk5Bf41Vit0BdGF7ryPo7XrrMb4UDpH2w) |
-| ```25``` MIT 8.04 Quantum Physics I, Spring 2013 | Allan Adams | [eng](https://www.youtube.com/playlist?list=PLUl4u3cNGP61-9PEhRognw5vryrSEVLPr) |
-| ```115``` MIT 8.04 Quantum Physics I, Spring 2016 | Barton Zwiebach | [eng](https://youtube.com/playlist?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G) |
-| ```177``` Mecánica Cuántica | Entropía Negativa | [spa](https://www.youtube.com/playlist?list=PLBMRQ0GOZVeVLYpDC7cBOjy_9g_mcnSZh) |
-| ```65``` Curso "Mecánica cuántica I" | Diego Gallego Mahecha | [spa](https://www.youtube.com/playlist?list=PLDUN2fhgBC1_oLbWKwNw4tQlr5tpDGoU3) |
-| ```42``` Curso de Mecánica Cuántica | Fisico del Mal | [spa](https://youtube.com/playlist?list=PLLKYEqxsYB_cP2-dMUmn_ISU2kuG7YsSq) |
-| ```52``` Mini curso de Mecánica Cuántica | Javier Garcia | [spa](https://youtube.com/playlist?list=PLAnA8FVrBl8DwNkN_3f_vahmE0PHjBWQM) |
-| ```254``` Introducción a la Mecánica Cuántica | MathArg | [spa](https://www.youtube.com/playlist?list=PLTef2OIG6VtJTyRqYxbhBPhbwuSiO1u1D) |
-| ```24``` Quantum Theory Lectures | Alexander Maloney | [eng](https://www.youtube.com/playlist?list=PLrbYZnU7vahIbplgN1YwOmpmlTh-cRJZ5)|
-| ```58``` Curso de Mecánica Cuántica | Ramon Castillo Bastos | [spa](https://www.youtube.com/playlist?list=PL4i6Jlnz3GWUbvwKsCswdi7myRV8RjR8U) |
+{{< content_table type="playlist" >}}
+  {{< playlist_row title="Minicurso de Mecánica Cuántica" channel="Física en Directo" lecturer="Renzo Franco" videos="11" url="https://www.youtube.com/playlist?list=PLk5Bf41Vit0BdGF7ryPo7XrrMb4UDpH2w" >}}
+  {{< playlist_row title="MIT 8.04 Quantum Physics I, Spring 2013" channel="MIT OpenCourseWare" lecturer="Allan Adams" videos="25" url="https://www.youtube.com/playlist?list=PLUl4u3cNGP61-9PEhRognw5vryrSEVLPr" >}}
+  {{< playlist_row title="MIT 8.04 Quantum Physics I, Spring 2016" channel="MIT OpenCourseWare" lecturer="Barton Zwiebach" videos="115" url="https://youtube.com/playlist?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G" >}}
+  {{< playlist_row title="Mecánica Cuántica" channel="Entropía Negativa" lecturer="Desconocido" videos="182" url="https://www.youtube.com/playlist?list=PLBMRQ0GOZVeVLYpDC7cBOjy_9g_mcnSZh" >}}
+  {{< playlist_row title="Curso 'Mecánica cuántica I'" channel="" lecturer="Diego Gallego Mahecha" videos="65" url="https://www.youtube.com/playlist?list=PLDUN2fhgBC1_oLbWKwNw4tQlr5tpDGoU3" >}}
+  {{< playlist_row title="Curso de Mecánica Cuántica" channel="Fisico del Mal" lecturer="Javier Díaz García" videos="42" url="https://youtube.com/playlist?list=PLLKYEqxsYB_cP2-dMUmn_ISU2kuG7YsSq" >}}
+  {{< playlist_row title="Mini curso de Mecánica Cuántica" channel="" lecturer="Javier Garcia" videos="52" url="https://youtube.com/playlist?list=PLAnA8FVrBl8DwNkN_3f_vahmE0PHjBWQM" >}}
+  {{< playlist_row title="Introducción a la Mecánica Cuántica" channel="MathArg" lecturer="Agustín Besteiro" videos="254" url="https://www.youtube.com/playlist?list=PLTef2OIG6VtJTyRqYxbhBPhbwuSiO1u1D" >}}
+  {{< playlist_row title="Quantum Theory Lectures" channel="" lecturer="Alexander Maloney" videos="24" url="https://www.youtube.com/playlist?list=PLrbYZnU7vahIbplgN1YwOmpmlTh-cRJZ5" >}}
+  {{< playlist_row title="Curso de Mecánica Cuántica" channel="" lecturer="Ramon Castillo Bastos" videos="58" url="https://www.youtube.com/playlist?list=PL4i6Jlnz3GWUbvwKsCswdi7myRV8RjR8U" >}}
+{{< /content_table >}}
 
 ## Sílabos
 
 {{< details "Sílabo del semestre 2022-II" >}}
-{{< pdfjs file="MC1_sílabo_2022-II_rivera.pdf" >}}
+  {{< pdfjs file="MC1_sílabo_2022-II_rivera.pdf" >}}
 {{< /details >}}
 
 ## Docentes
