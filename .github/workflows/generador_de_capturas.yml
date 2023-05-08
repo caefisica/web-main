@@ -27,7 +27,7 @@ jobs:
           echo "Downloading Go modules"
           echo "$(pwd)"
           go mod download
-        working-directory: ${{ github.workspace }}
+        working-directory: ${{ github.workspace }}/assets/go/website-screenshot-generator
 
       - name: Generar y guardas capturas
         run: go run ./assets/go/website-screenshot-generator/main.go
