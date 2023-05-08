@@ -12,6 +12,11 @@ jobs:
       - name: Inicializar Github Action
         uses: actions/checkout@v3
 
+      - name: Instalar Golang
+        uses: actions/setup-go@v4
+        with:
+          go-version: 'stable'
+
       - name: Obtener los enlaces
         run: go run ./assets/go/markdown-link-extractor/main.go
         id: extraer_enlaces
