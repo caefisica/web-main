@@ -19,20 +19,34 @@ jobs:
 
       - name: Obtener los enlaces
         run: go run ./assets/go/markdown-link-extractor/main.go
+        working-directory: ${{ github.workspace }}
         id: extraer_enlaces
+
+      - name: Download Go modules
+        run: |
+          cd assets/go/website-screenshot-generator
+          go mod download
+        working-directory: ${{ github.workspace }}
 
       - name: Generar y guardas capturas
         run: go run ./assets/go/website-screenshot-generator/main.go
+        working-directory: ${{ github.workspace }}
         id: generar_capturas
         env:
           GITHUB_TOKEN: ${{ secrets.COMMITS_ALLOWED }}
+
+      - name: Establecer variable de entorno con el hash corto del commit
+        id: vars
+        run: |
+          echo "SHA_SHORT=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+          echo ${{ env.SHA_SHORT }}
 
       - name: Crear Pull Request
         uses: peter-evans/create-pull-request@v3.10.0
         with:
           commit-message: 'content: Capturas de pantalla actualizadas'
           title: '🤖 Capturas de pantalla'
-          branch: auto-act-{{ github.sha }}
+          branch: auto-act-{{ env.SHA_SHORT }}
           delete-branch: true
           labels: auto-act
           base: main
