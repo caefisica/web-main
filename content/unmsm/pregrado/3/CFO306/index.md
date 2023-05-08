@@ -27,7 +27,7 @@ menu:
 
 {{< infobox-alert text="El curso de Física Computacional I ofrece una introducción a los métodos numéricos y la programación en Fortran, con el objetivo de enseñar a diseñar programas para resolver problemas y analizar los resultados obtenidos mediante métodos computacionales en diversos problemas físicos." />}}
 
-## Temas
+El plan de estudios incluye los siguientes temas:
 
 Nota: Los temas pueden variar según el profesor.
 
