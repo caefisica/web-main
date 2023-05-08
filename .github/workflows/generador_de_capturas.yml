@@ -25,6 +25,7 @@ jobs:
       - name: Download Go modules
         run: |
           cd assets/go/website-screenshot-generator
+          pwd
           go mod download
         working-directory: ${{ github.workspace }}
 
