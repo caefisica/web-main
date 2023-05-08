@@ -50,5 +50,5 @@ jobs:
           branch: auto-act-{{ env.SHA_SHORT }}
           delete-branch: true
           labels: auto-act
-          base: main
+          base: master
           token: ${{ secrets.COMMITS_ALLOWED }}
