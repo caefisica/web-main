@@ -24,12 +24,14 @@ jobs:
 
       - name: Download Go modules
         run: |
-          go get -d ./assets/go/website-screenshot-generator
-        working-directory: ${{ github.workspace }}
+          echo "Downloading Go modules"
+          echo "$(pwd)"
+          go mod download
+        working-directory: ${{ github.workspace }}/assets/go/website-screenshot-generator
 
       - name: Generar y guardas capturas
-        run: go run ./assets/go/website-screenshot-generator/main.go
-        working-directory: ${{ github.workspace }}
+        run: go run ./main.go
+        working-directory: ${{ github.workspace }}/assets/go/website-screenshot-generator
         id: generar_capturas
         env:
           GITHUB_TOKEN: ${{ secrets.COMMITS_ALLOWED }}
@@ -45,8 +47,8 @@ jobs:
         with:
           commit-message: 'content: Capturas de pantalla actualizadas'
           title: '🤖 Capturas de pantalla'
-          branch: auto-act-{{ env.SHA_SHORT }}
+          branch: auto-act-${{ env.SHA_SHORT }}
           delete-branch: true
           labels: auto-act
-          base: main
+          base: master
           token: ${{ secrets.COMMITS_ALLOWED }}

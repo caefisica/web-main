@@ -5,6 +5,7 @@ import (
     "context"
     "fmt"
     "io/ioutil"
+		"net/url"
     "os"
     "path/filepath"
     "strings"
@@ -67,10 +68,13 @@ func main() {
             continue
         }
 
-        websiteDir := strings.Replace(website, "https://", "", 1)
-        websiteDir = strings.Replace(websiteDir, "http://", "", 1)
-        websiteDir = strings.Replace(websiteDir, "www.", "", 1)
-        websiteDir = strings.TrimSuffix(websiteDir, "/")
+        u, err := url.Parse(website)
+				if err != nil {
+						fmt.Println(err)
+						continue
+				}
+				websiteDir := u.Hostname()
+				websiteDir = strings.Replace(websiteDir, "www.", "", 1)
 
         resultDir := filepath.Join(root, "content", "experimental")
         if _, err := os.Stat(resultDir); os.IsNotExist(err) {
@@ -82,7 +86,7 @@ func main() {
             os.MkdirAll(websiteDir, os.ModePerm)
         }
 
-        filename := filepath.Join(websiteDir, fmt.Sprintf("%s.png", websiteDir))
+				filename := filepath.Join(websiteDir, "main_screenshot.png")
         err = ioutil.WriteFile(filename, buf, os.ModePerm)
         if err != nil {
             fmt.Println(err)
