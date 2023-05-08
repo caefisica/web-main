@@ -47,7 +47,7 @@ jobs:
         with:
           commit-message: 'content: Capturas de pantalla actualizadas'
           title: '🤖 Capturas de pantalla'
-          branch: auto-act-{{ env.SHA_SHORT }}
+          branch: auto-act-${{ env.SHA_SHORT }}
           delete-branch: true
           labels: auto-act
           base: master
