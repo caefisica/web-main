@@ -11,4 +11,4 @@ Estudiante de ciencias físicas interesado en la física de la materia condensad
 
 Actualmente soy el coordinador del CAE-Física. Entre mis funciones están la organización de proyectos, supervisión, redacción y desarrollo del sitio web del grupo.
 
-Puedes seguirme en Twitter si deseas, me encuentro como [@totallynotdavid](https://twitter.com/totallynotdavid).
+Puedes seguirme en Twitter si deseas, me encuentro como @totallynotdavid
