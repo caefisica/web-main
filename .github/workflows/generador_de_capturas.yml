@@ -24,9 +24,7 @@ jobs:
 
       - name: Download Go modules
         run: |
-          cd assets/go/website-screenshot-generator
-          pwd
-          go mod download
+          go get -d ./assets/go/website-screenshot-generator
         working-directory: ${{ github.workspace }}
 
       - name: Generar y guardas capturas
