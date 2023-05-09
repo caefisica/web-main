@@ -26,6 +26,7 @@ $$
 \end{align}
 $$
 donde:
+
 * $p$ es la presión.
 * $V$ es el volumen.
 * $T$ es la temperatura.
@@ -59,7 +60,8 @@ $$
     U=U_0+C_v(T-T_0)
 \end{align}
 $$
-esta ecuación se demostrará mas adelante. 
+esta ecuación se demostrará mas adelante.
+
 * $U$ es la energía interna.
 * $C_v$ es la capacidad calorífica a $V=cte$.
 

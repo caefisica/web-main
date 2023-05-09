@@ -63,6 +63,7 @@ $$
 $$
 
 donde:
+
 * $a_i$ es la i-ésima coordenada generalizada.
 * $A_u$ es la i-ésima fuerza generalizada.
 * $\ell$ son los grados de libertad
@@ -80,7 +81,7 @@ Expresado en su forma integral:
 $$
 \begin{align}
     W=\int \delta W=\int_{V_0}^{V}p dV
-\end{align} 
+\end{align}
 $$
 
 {{< img-simple src="diagram-20230116.png" alt="Proceso isotérmico" class="d-block mx-auto shadow my-5 w-50" >}}
