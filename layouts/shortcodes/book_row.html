@@ -5,7 +5,7 @@
     <div class="title">{{ .Get "title" }}</div>
   </td>
   <td class="align-middle">
-    <a href="{{ .Get "url" }}" target="_blank">
+    <a href="{{ .Get "url" }}" target="_blank" rel="noopener noreferrer">
       {{ with .Get "edition" }}{{ . }}, {{ end }}{{ .Get "year" }}
     </a>
   </td>
