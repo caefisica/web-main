@@ -12,6 +12,14 @@ Con el motivo de simplificar el código. A continuación una lista de clases per
     }
     ```
 
+## Plantillas
+
+1. Emoji
+
+   ```text
+   {{ ":zap:" | emojify }}
+   ```
+
 ## Markdown
 
 1. Tablas:
