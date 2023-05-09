@@ -4,7 +4,7 @@
 
 Con el motivo de simplificar el código. A continuación una lista de clases personalizadas reutilizables.
 
-1. Background cover: 
+1. Background cover:
 
     ```css
     .bg-cover {
@@ -12,11 +12,11 @@ Con el motivo de simplificar el código. A continuación una lista de clases per
     }
     ```
 
-# Markdown 
+## Markdown
 
 1. Tablas:
 
-    ```
+    ```markdown
     {{< content_table type="book" >}}
       {{< book_row title="" author="" editorial="" year="" edition="" url="" >}}
       {{< book_row_multiple title="" author="" editorial="" urls="" editions="" years="" >}}
@@ -24,10 +24,11 @@ Con el motivo de simplificar el código. A continuación una lista de clases per
     {{< /content_table >}}
     ```
 
-# Listas
+## Listas
 
 1. Profesores:
-    ```
+
+    ```yaml
     - name: ''
       title: ''
       courses:
