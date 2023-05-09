@@ -17,9 +17,11 @@ weight: 1010
 contributors: ["Nelson"]
 ---
 
+## Matrícula
+
 Según el Reglamento General de Matrícula, en el artículo 13, existen 3 tipos de matrícula:
 
-### Matrícula Regular
+### Regular
 
 Es el proceso mediante cual el estudiante hace su matrícula en las asignaturas correspondientes a su plan de estudio y ciclo al cual pertenece, este se hace dentro de las fechas programas en el semestre correspondiente del Cronograma de Actividades Académicas de Pregrado en el año correspondiente. Está matriculada lo hacen los estudiantes que no tengan ninguna asignatura desaprobada o a lo mucho una asignatura o varias con una sola repitencia.
 
@@ -31,7 +33,7 @@ Proceso:
 4. En la fecha de matrícula el estudiante debe ingresar a la plataforma de SUM y entrar a la sección de matrícula vía Internet luego seleccionara las asignaturas en las cuales se matriculara.
 5. Una vez hecha su matrícula el estudiante, debe descargar su reporte de matrícula.
 
-### Matrícula Extemporánea
+### Extemporánea
 
 Es aquel proceso mediante el cual el estudiante hace su matrícula fuera de la fecha de matrícula programada en el cronograma de actividades académicas del presente año. En este proceso no se puede hacer matrícula de asignaturas a la cual el estudiante no logro matricularse en la Matricula Regular, ya que es exclusivamente para estudiantes que no se matricularon en la Matricula Regular.
 
@@ -44,7 +46,7 @@ Proceso:
 5. Este Formato de Matricula Extemporánea debe ser adjuntado junto a su Reporte de Prematricula, la cual descargar de la plataforma de SUM. Y luego enviarlo a la Unidad de Matricula para que realicen el proceso de Matricula.
 6. Una vez realizada la matricula, el estudiante deberá verificar su reporte de Matricula y se verifiquen las asignaturas a la cual ha solicitado su matrícula.
 
-### Matrícula Condicionada
+### Condicionada
 
 Esa cara el proceso en la cual el estudiante ha tenido más de 2 repitencias en uno o más asignaturas.
 

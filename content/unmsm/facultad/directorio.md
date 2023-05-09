@@ -19,6 +19,12 @@ lastmod:
 menu:
   guias:
     parent: "pregrado"
+type: extend
+---
+
+---
+La siguiente lista fue recuperada de la página web de la Facultad de Ciencias Físicas. Sin embargo, esta lista no fue actualizada por varios años.
+
 ---
 
 |Unidad/Laboratorio                                        |Cargo                 |Nombre                        |Anexo|Email                                                                |
