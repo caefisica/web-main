@@ -1,12 +1,12 @@
 name: 🛡️ Auditar Hugo
 on:
   workflow_dispatch:
-  pull_request:
-    types:
-    - assigned
-    - opened
-    - synchronize
-    - reopened
+  # pull_request:
+  #   types:
+  #   - assigned
+  #   - opened
+  #   - synchronize
+  #   - reopened
   push:
     branches: [ master ]
     paths:

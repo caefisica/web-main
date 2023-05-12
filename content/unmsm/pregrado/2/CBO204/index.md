@@ -43,10 +43,10 @@ Para complementar tu aprendizaje, hemos seleccionado una lista de libros que pro
 Para una comprensión profunda de los temas de Cálculo II, te recomendamos consultar los siguientes libros, que incluyen amplia información teórica y aunque con pocas secciones de problemas.
 
 {{< content_table type="book" >}}
-  {{< book_row title="O Cálculo com Geometria Analítica: Vol. 1" author="Leithold L." editorial="HARBRA" year="1994" edition="3ra ed." url="https://drive.google.com/file/d/1O7GZe0fLF_S7AIgz-QXr6RekktjkSBts/view?usp=share_link" >}}
-  {{< book_row title="El Cálculo" author="Leithold L." editorial="Oxford University Press - HARLA MÉXICO" year="1998" edition="7ma ed." url="https://drive.google.com/file/d/1xKzfjvKyJXke2dSWfZOEUlnHL8PbgIce/view?usp=share_link" >}}
+  {{< book_row title="O Cálculo com Geometria Analítica: Vol. 1" author="Leithold L." editorial="Brasil: HARBRA" year="1994" edition="3ra ed." url="https://drive.google.com/file/d/1O7GZe0fLF_S7AIgz-QXr6RekktjkSBts/view?usp=share_link" >}}
+  {{< book_row title="El Cálculo" author="Leithold L." editorial="México: Oxford University Press - HARLA MÉXICO" year="1998" edition="7ma ed." url="https://drive.google.com/file/d/1xKzfjvKyJXke2dSWfZOEUlnHL8PbgIce/view?usp=share_link" >}}
   {{< book_row title="Análisis Matemático 2" author="Venero A." editorial="Perú: Ediciones Gemar" year="2012" edition="2da ed." url="https://drive.google.com/file/d/1JgCOInH9qoewmf3ID4jCZyc5u-PhCq_P/view?usp=sharing" >}}
-  {{< book_row title="Cálculo diferencial e integral: Vol. 1" author="Piskunov" editorial="Moscú: Mir" year="1977" edition="3ra ed." url="https://drive.google.com/file/d/1wIxqHGaEJX_R5OhLX2XsAulvAY5hxpq4/view?usp=share_link" >}}
+  {{< book_row title="Cálculo diferencial e integral: Vol. 1" author="Piskunov" editorial="Rusia: MIR Moscú" year="1977" edition="3ra ed." url="https://drive.google.com/file/d/1wIxqHGaEJX_R5OhLX2XsAulvAY5hxpq4/view?usp=share_link" >}}
   {{< book_row title="Análisis matemático 2: curso intermedio" author="Haaser, La Salle y Sullivan" editorial="México: Trillas" year="1990" edition="2da ed." url="https://drive.google.com/file/d/1XiXWD3l9R5wGXNQ7yFeZVaLSYxS04pKy/view?usp=share_link" >}}
   {{< book_row title="Cálculo Integral. Sucesiones y Series de funciones" author="Rivera A." editorial="México: Grupo Editorial Patria" year="2014" edition="1ra ed." url="https://drive.google.com/file/d/1fEILUchFX7XmZ3mUCd7YuTyIEDT--1Cw/view?usp=sharing" >}}
   {{< book_row title="Calculus: Vol. 1" author="Apostol T.M." editorial="España: Editorial Reverté" year="2001" edition="2da ed." url="https://drive.google.com/file/d/12KDVjNb4fidBYkMG2yc1qRH2LIgD44cw/view?usp=sharing" >}}
@@ -62,8 +62,8 @@ Estos libros combinan teoría y práctica, presentando una amplia gama de ejerci
   {{< book_row title="Análisis Matemático II" author="Lázaro" editorial="Perú: Moshera" year="2011" edition="" url="https://drive.google.com/file/d/1B3iG7XJ4qCGDtQ6Iw0T5ghOzD_fDjCwi/view?usp=share_link" >}}
   {{< book_row title="Cálculo 1" author="Larson R, Edwards B." editorial="México: McGraw-Hill/Interamericana Editores" year="2010" edition="9na ed." url="https://drive.google.com/file/d/1qWE7jueqa3hGY9VR4adVGRTIpFbTKjkZ/view?usp=sharing" >}}
   {{< book_row title="Cálculo una variable" author="Thomas G." editorial="México: Pearson Education" year="2012" edition="9na ed." url="https://drive.google.com/file/d/1CYoUmnaFFoUfxjc4hy1ZSzNq7Hs26Gc3/view?usp=sharing" >}}
-  {{< book_row title="Cálculo integral en una Variable" author="Peñaloza, Jeanneth." editorial="Facultad de Ciencias, Bogota" year="2020" edition="1ra ed." url="https://web.archive.org/web/20220419202918/http://ciencias.bogota.unal.edu.co/fileadmin/Facultad_de_Ciencias/Publicaciones/Imagenes/Portadas_Libros/Matematicas/Calculo_Integral/CalculoIntegral.pdf" >}}
-  {{< book_row title="Cálculo Integral para primer curso de los Grados en Matemáticas y en Física" author="Bayod, José." editorial="Universidad de Cantabria" year="2017" edition="" url="https://ocw.unican.es/pluginfile.php/1771/course/section/1293/Calculo-2017.pdf" >}}
+  {{< book_row title="Cálculo integral en una Variable" author="Peñaloza, Jeanneth." editorial="Colombia: Facultad de Ciencias (UNAL)" year="2020" edition="1ra ed." url="https://web.archive.org/web/20220419202918/http://ciencias.bogota.unal.edu.co/fileadmin/Facultad_de_Ciencias/Publicaciones/Imagenes/Portadas_Libros/Matematicas/Calculo_Integral/CalculoIntegral.pdf" >}}
+  {{< book_row title="Cálculo Integral para primer curso de los Grados en Matemáticas y en Física" author="Bayod, José." editorial="España: Universidad de Cantabria" year="2017" edition="" url="https://ocw.unican.es/pluginfile.php/1771/course/section/1293/Calculo-2017.pdf" >}}
 {{< /content_table >}}
 
 ### Prácticos

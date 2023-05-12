@@ -1,5 +1,14 @@
 # Documentación
 
+**Índices**:
+- [Instalación](instalaci%C3%B3n.md)
+- [Convenciones](convenciones.md)
+- [CSS](#css)
+- [Plantillas](#plantillas)
+- [Listas](#listas)
+
+---
+
 ## CSS
 
 Con el motivo de simplificar el código. A continuación una lista de clases personalizadas reutilizables.
@@ -14,13 +23,13 @@ Con el motivo de simplificar el código. A continuación una lista de clases per
 
 ## Plantillas
 
-1. Emoji
+### Shortcode
 
-   ```text
+   ```html
    {{ ":zap:" | emojify }}
    ```
 
-## Markdown
+### Markdown
 
 1. Tablas:
 
