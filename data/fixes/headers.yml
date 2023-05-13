@@ -38,6 +38,10 @@ manifestsrc:
 - https://caefisica.com
 - https://*.netlify.app
 
+prefetchsrc:
+- "'self'"
+- https://res.cloudinary.com/dubu/
+
 stylesrc:
 - "'self'"
 - https://caefisica.com
@@ -61,3 +65,8 @@ scriptsrc:
 - "'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs='"
 - "'sha512-A0szvdIuCKA21xigr2/288rv04z5w6cH/GETcSny1t222OlOShgazYLkYIMUH6yAan2CxMeKkNwbmUuLqbnsBQ=='"
 - "'sha512-Ta7m7CSVtknH4g6MRSsaidvmIUYVte91DzEgKSEPZDpaVVTyXLaIPGBRSFCRRLwVsyDFCzrp8+70L5RcHz46fw=='"
+
+workersrc:
+- "'self'"
+- https://d.cae.workers.dev
+- "blob:"
