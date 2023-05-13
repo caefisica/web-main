@@ -105,8 +105,12 @@ Aquí una lista de libros con bastante contenido teórico y una sección de prob
 
 ## Sílabos
 
-{{< details "Sílabo del semestre 2022-I" >}}
-  {{< pdfjs file="SILABO_CALCULO__2022.pdf" >}}
+{{< details "Semestre 2021-II" >}}
+  {{< pdfjs file="C1_Sílabo_2021-II_Elvia.pdf" >}}
+{{< /details >}}
+
+{{< details "Semestre 2022-I" >}}
+  {{< pdfjs file="C1_Sílabo_2022-I.pdf" >}}
 {{< /details >}}
 
 ## Docentes
