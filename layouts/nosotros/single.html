@@ -35,7 +35,7 @@
 
       <ul class="contacts-list">
 
-        {{ $group := .Site.Data.authors.group}}
+        {{ $group := .Site.Data.authors.organization }}
         {{ range $group }}
         {{ range . }}
         <li class="contact-item">
@@ -220,7 +220,7 @@
 
         <ul class="testimonials-list has-scrollbar">
 
-          {{ $json := getJSON "data/authors/old_members.json" }}
+          {{ $json := getJSON "data/authors/members_legacy.json" }}
           {{ range sort $json "data" "asc" }}
           <li class="testimonials-item">
             <div class="content-card" data-testimonials-item>
