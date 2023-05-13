@@ -58,8 +58,7 @@ scriptsrc:
 - https://cdn.splitbee.io/sb.js
 - https://*.netlify.app
 - https://www.youtube.com/iframe_api
-- https://www.youtube.com/s/player/ace4d669/www-widgetapi.vflset/www-widgetapi.js
-- https://www.youtube.com/s/player/0c487f05/www-widgetapi.vflset/www-widgetapi.js
+- https://www.youtube.com/s/player/
 - https://player.vimeo.com/
 - "'nonce-Y1ScUXOl8NAZzNrRydXz1Q=='"
 - "'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs='"
