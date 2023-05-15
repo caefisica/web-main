@@ -94,8 +94,11 @@ Para ayudarte aún más en la comprensión del material, aquí tienes una lista 
 Leonard Susskind impartió una serie de 10 conferencias sobre Mecánica Estadística en la primavera de 2013. Las charlas cubren temas como entropía, temperatura, distribución de Boltzmann, presión de gases ideales y entropía frente a reversibilidad. Además, analizó modelos como el de Ising y las transiciones de fase líquido-gas, ofreciendo una visión integral del campo de la mecánica estadística.
 
 {{< content_table type="playlist" >}}
+  {{< playlist_row title="Termodinámica y Física Estadística" channel="Física Exactas UBA" lecturer="Esteban Calzetta" videos="52" url="https://www.youtube.com/playlist?list=PLNbPNPgqTfs48kKZb_eGI6gdI5C9Kc3u7" >}}
+  {{< playlist_row title="Clases IB en línea: Mecánica estadística" channel="Instituto Balseiro - Académico" lecturer="Dr. Damián H. Zanette" videos="29" url="https://www.youtube.com/playlist?list=PLv0-vSkgrxj-5sd5SmNX3h4ZgqGw5xmTl" >}}
   {{< playlist_row title="Statistical Mechanics" channel="Universidad de Stanford" lecturer="Leonard Susskind" videos="10" url="https://www.youtube.com/playlist?list=PLpi18tMShZSAQFNTb8Ji7EgCFP9lXbkOe" >}}
   {{< playlist_row title="Thermodynamics and Statistical Physics" channel="" lecturer="Pazzy Boardman" videos="24" url="https://www.youtube.com/playlist?list=PLVjZPwRzdu40ZWkRxvwjan9ZyIbVexzOK" >}}
+  {{< playlist_row title="Física Teórica 3: Mecánica estadística" channel="Física Exactas UBA" lecturer="Pablo Mininni" videos="27" url="https://www.youtube.com/playlist?list=PLNbPNPgqTfs41JhSZjGINWnP1LIzmAoK4" >}}
   {{< playlist_row title="Introduction to Statistical Mechanics" channel="" lecturer="John Preskill" videos="20" url="https://www.youtube.com/playlist?list=PL0ojjrEqIyPzgJUUW76koGcSCy6OGtDRI" >}}
 {{< /content_table >}}
 
