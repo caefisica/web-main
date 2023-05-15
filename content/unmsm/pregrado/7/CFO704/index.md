@@ -55,6 +55,12 @@ Para una comprensión profunda, te recomendamos consultar los siguientes libros,
   {{< book_row title="Introduction to Statistical Physics" author="Kerson Huang" editorial="Taylor & Francis Group" year="2010" edition="2da ed." url="https://drive.google.com/file/d/1GPVz63NhMdS-tTltNOIA-YRFbG98KjWI/view?usp=share_link" >}}
 {{< /content_table >}}
 
+### Teórico-prácticos
+
+{{< content_table type="book" >}}
+  {{< book_row title="A Modern Course in Statistical Physics" author="Linda E. Reichl" editorial="Alemania: Wiley-VCH Verlag" year="2016" edition="4ta ed." url="https://drive.google.com/file/d/1KmZWRcSVk0HgV4fVKTWHNxDKJswTzFRH/view?usp=share_link" >}}
+{{< /content_table >}}
+
 ### Prácticos
 
 Diseñados para mejorar tus habilidades de resolución de problemas, estos libros se centran en conceptos más avanzados y problemas con contenido teórico conciso.
