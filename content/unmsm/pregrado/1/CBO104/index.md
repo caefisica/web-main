@@ -93,15 +93,15 @@ Aquí una lista de libros con bastante contenido teórico y una sección de prob
 
 ## Conclusión
 
-* Si aún no inician tus clases y quieres introducirte en este curso, entonces puedes consultar primero el **Stewart** ya que su contenido es más didáctico en comparación a los otros dos. Ten en cuenta que este libro tiene un enfoque al modelado por lo que verás muchas gráficas y ejercicios donde se requiera uso de softwares libres. De todas maneras, durante el curso será un buen complemento para los otros dos libros teóricos.
-* El **Venero**, el **Mitac** y el **Demidovich** son los principales libros que los profesores te pedirán que consultes ya que probablemente ellos también los usarán, ¡¡ a veces la clase teórica del profesor es lo mismo que está en el **Venero**!!. Por último, desarrollar los ejercicios del **Mitac** será una buena forma de prepararte para tus prácticas calificadas.
-* El **Piskunov** tiene algunas cositas que complementan al **Venero**, no dudes en consultarlo.
-* El **Hasser y el Spivak** son dos libros que te permitirán profundizar en el Análisis Matemático (no confundir con Cálculo).  
-* El **Figueroa** y el **Moisés Lázaro**, a diferencia del **Venero**, tienen la cualidad de que a su parte teórica le acompaña una serie de ejemplos resueltos con bastante detalle. Así , con estos dos libros podrás aprender guiándote de ejercicios resueltos.
-* Dicen que el libro **5000 problemas de análisis matemático** es la biblia que todo matemático usa para dominar el Análisis matemático.
-* Puedes consultar los solucionarios para que veas los métodos que se usaron si esque no te sale algún problema.
+- Si aún no inician tus clases y quieres introducirte en este curso, entonces puedes consultar primero el **Stewart** ya que su contenido es más didáctico en comparación a los otros dos. Ten en cuenta que este libro tiene un enfoque al modelado por lo que verás muchas gráficas y ejercicios donde se requiera uso de softwares libres. De todas maneras, durante el curso será un buen complemento para los otros dos libros teóricos.
+- El **Venero**, el **Mitac** y el **Demidovich** son los principales libros que los profesores te pedirán que consultes ya que probablemente ellos también los usarán, ¡¡ a veces la clase teórica del profesor es lo mismo que está en el **Venero**!!. Por último, desarrollar los ejercicios del **Mitac** será una buena forma de prepararte para tus prácticas calificadas.
+- El **Piskunov** tiene algunas cositas que complementan al **Venero**, no dudes en consultarlo.
+- El **Hasser y el Spivak** son dos libros que te permitirán profundizar en el Análisis Matemático (no confundir con Cálculo).  
+- El **Figueroa** y el **Moisés Lázaro**, a diferencia del **Venero**, tienen la cualidad de que a su parte teórica le acompaña una serie de ejemplos resueltos con bastante detalle. Así , con estos dos libros podrás aprender guiándote de ejercicios resueltos.
+- Dicen que el libro **5000 problemas de análisis matemático** es la biblia que todo matemático usa para dominar el Análisis matemático.
+- Puedes consultar los solucionarios para que veas los métodos que se usaron si esque no te sale algún problema.
   Recomendación: consulta el **Anti-Demidovich**, hay métodos de resolución muy interesantes.
-* Del **Espinoza Ramos** sirve consultar su solucionario, pues algunas partes de su libro de teoría tienen errores. Si consultas este libro ten en cuenta que el solucionario presenta errores de tipeo en algunos ejercicios, lamentable.
+- Del **Espinoza Ramos** sirve consultar su solucionario, pues algunas partes de su libro de teoría tienen errores. Si consultas este libro ten en cuenta que el solucionario presenta errores de tipeo en algunos ejercicios, lamentable.
 
 ## Sílabos
 

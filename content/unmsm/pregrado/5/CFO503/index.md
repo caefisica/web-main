@@ -60,12 +60,29 @@ El plan de estudios incluye los siguientes temas:
 {{< /content_table >}}
 
 ## Notas de clase
+
 {{< content_table type="book" >}}
   {{< book_row title="Mecánica Clásica" author="Guillermo Abramson" editorial="Instituto Balseiro" year="2019" edition="" url="https://drive.google.com/file/d/1Kzcbg0MuTb31kRM3pxt6iTdexXw4p9s8/view?usp=share_link" >}}
 {{< /content_table >}}
 
 ## Listas de reproducción
+
+{{< img-simple src="Guillermo_Abramson.jpeg" alt="Guillermo Abramson dando la introducción al curso de Mecánica Clásica." class="d-block mx-auto shadow my-4" >}}
+
 {{< content_table type="playlist" >}}
   {{< playlist_row title="Clases IB en línea: Mecánica clásica" channel="Instituto Balseiro - Académico" lecturer="Guillermo Abramson" videos="29" url="https://www.youtube.com/playlist?list=PLv0-vSkgrxj_Uv65oZV9ilrWZ2xUNbaw8" >}}
 {{< /content_table >}}
 
+## Sílabos
+
+{{< details "Semestre 2022-II" >}}
+  {{< pdfjs file="MC2_Sílabo_2022-II_Fulgencio.pdf" >}}
+{{< /details >}}
+
+## Docentes
+
+{{< details "Fulgencio Villegas" >}}
+  {{< pdfjs file="CV_Fulgencio.pdf" >}}
+{{< /details >}}
+
+Para más información sobre el curso, tales como exámenes, prácticas, tareas, etc. que se dieron en este, visita el siguiente enlace de Google Drive: [Curso Mecánica Clásica II](https://drive.google.com/drive/u/0/folders/1EEwAXrCBzNqFvXmisFSPyrHzdCoc1ULx)
