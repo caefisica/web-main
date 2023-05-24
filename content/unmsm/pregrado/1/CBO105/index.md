@@ -94,16 +94,16 @@ El plan de estudios incluye generalmente los siguientes temas:
 
 ## Sílabos
 
-{{< details "Semestre 2021-II- Universidad Nacional Mayor de San Marcos" >}}
-  {{< pdfjs file="SILABOMATEMATICABASICA.pdf" >}}
+{{< details "Semestre 2021-II (Universidad Nacional Mayor de San Marcos)" >}}
+  {{< pdfjs file="MB_Sílabo_2021-II.pdf" >}}
 {{< /details >}}
 
-{{< details "Semestre I- Universidad Nacional Autónoma de México" >}}
-  {{< pdfjs file="SILABO_UNAM-ALGEBRA_SUPERIOR.pdf" >}}
+{{< details "Semestre I (Universidad Nacional Autónoma de México)" >}}
+  {{< pdfjs file="AS1_Sílabo_UNAM.pdf" >}}
 {{< /details >}}
 
-{{< details "Semestre II- Universidad Nacional Autónoma de México" >}}
-  {{< pdfjs file="SILABO_UNAM-ALGEBRA_SUPERIOR_II.pdf" >}}
+{{< details "Semestre II (Universidad Nacional Autónoma de México)" >}}
+  {{< pdfjs file="AS2_Sílabo_UNAM.pdf" >}}
 {{< /details >}}
 
 ## Docentes
