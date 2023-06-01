@@ -119,7 +119,7 @@ La duración es de 2 años (4 semestres).
 
 ### Historia de la Física
 
-- [Breno Arsioli Moura - UFABC](https://www.brenoam.com/)
+- [Breno Arsioli Moura - UFABC](https://web.archive.org/web/20230316141039/https://www.brenoam.com/)
 - [Ana Paula Bispo da Silva](https://www.ghtc.usp.br/apbs-cur.htm)
 - [History and Philosophy of Science](https://www.uu.nl/masters/en/history-and-philosophy-science)
 
