@@ -110,6 +110,8 @@ Los siguientes documentos no son necesariamente libros en el sentido tradicional
   {{< book_row title="Mecánica Cuántica: Notas de Clase" author="Rodolfo Diaz" editorial="Universidad Nacional de Colombia" year="2015" edition="" url="https://drive.google.com/file/d/143Ep5BydPS5mHJ8HJ45N_cNNcWtAYKpA/view?usp=share_link" >}}
 {{< /content_table >}}
 
+Adicionalmente, puedes revisar la página de [Physlabs](https://physlab.lums.edu.pk/) tiene notas de clase y problemas de mecánica cuántica.
+
 ## Listas de reproducción
 
 {{< img-simple src="allan_adams.jpg" alt="Profesor Allan Adams explicando una ecuación escrita en una pizarra negra." class="d-block mx-auto shadow my-4" >}}
