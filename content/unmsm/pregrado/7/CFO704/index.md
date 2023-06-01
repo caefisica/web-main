@@ -46,7 +46,9 @@ Para complementar tu aprendizaje, hemos seleccionado una lista de libros que pro
 Para una comprensión profunda, te recomendamos consultar los siguientes libros, que incluyen amplia información teórica y aunque con pocas secciones de problemas.
 
 {{< content_table type="book" >}}
+  {{< book_row title="Curso de Física Estadística" author="Jordi Ortín y José Sancho" editorial="Publicacions i Edicions" year="2006" edition="1ra ed." url="https://drive.google.com/file/d/1B4zUaAu95YIjcL3qQGVPn-S-UQhA8vQ3/view?usp=share_link" >}}
   {{< book_row title="Thermodynamics and Statistical Physics" author="Greiner, Neise, Stöcker" editorial="Springer" year="2001" edition="1ra ed." url="https://drive.google.com/file/d/1x95pDUmoh0teffmi5Y8XJcs6XAcw2te1/view?usp=sharing" >}}
+  {{< book_row title="Elementos de Mecánica Estadística" author="Giorgio Zgrablich" editorial="Universidad Autónoma Metropolitana" year="2009" edition="1ra ed." url="https://drive.google.com/file/d/1fUCRLxBOTpBTu0XsOBXmyOUEW_9znJ9H/view?usp=share_link" >}}
   {{< book_row title="Statistical Mechanics" author="Bipin Agarwal y Melvin Eisner" editorial="Wiley Eastern Limited" year="1989" edition="2da ed." url="https://drive.google.com/file/d/1KQLhnWuEm43RV8lFV4fOOQ4O9DU2l_tA/view?usp=sharing" >}}
   {{< book_row title="Fundamentos de física estadística y térmica" author="Frederick Reif" editorial="McGraw-Hill Book Company" year="1968" edition="1ra ed." url="https://drive.google.com/file/d/1dXWGTlZKDSrjRyEKqg3KnGkEh1TPiq_I/view?usp=sharing" >}}
   {{< book_row title="Introduction to Modern Statistical Mechanics" author="David Chandler" editorial="Oxford University Press" year="1987" edition="1ra ed." url="https://drive.google.com/file/d/1r5B98P51ZGapILOI2Byst_W6KYdBHwSx/view?usp=share_link" >}}
@@ -84,6 +86,8 @@ Para ayudarte aún más en la comprensión del material, aquí tienes una lista 
 
 | Nombre | Autor | Institución | Año |
 | ------ | ----- | ----------- | --- |
+| Física Estadística | P. I. Hurtado | Universidad de Granada | [Desconocido](https://ic1.ugr.es/members/statphys/temario/) |
+| Lecture Notes Statistical Physics AP3021 | Jos Thijssen | Delft University of Technology | [2022](https://drive.google.com/file/d/1Z3H7ymVcDDi8uR3pOeV4EeTu1xjmVUrX/view?usp=share_link) |
 | Undergraduate Statistical Mechanics | Gabriel Teixeira | Universidad de São Paulo​ | [2017](http://www.fmt.if.usp.br/~gtlandi/lecture-notes/stat-mech.html) |
 | ME 334 Introduction to Statistical Mechanics | Wei Cai | Stanford University​ | [2012](http://micro.stanford.edu/~caiwei/me334/ME346A_Lecture_Notes_Win2012.pdf) |
 
