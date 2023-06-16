@@ -29,24 +29,29 @@ $navbar-dark-active-color:          $link-color-dark;
 
     a {
       color: $link-color-dark;
+
       &.text-body {
         color: $body-color-dark !important;
       }
     }
 
     // Fix for text and h3 from Newsletter
-    p, h3 {
+    p,
+    h3 {
       color: $body-color-dark;
     }
 
     .btn-primary {
       @include button-variant($button-color-dark, $button-color-dark);
+
       color: $body-bg-dark !important;
     }
 
     .btn-outline-primary {
       @include button-outline-variant($button-color-dark, $button-color-dark);
+
       color: $link-color-dark;
+
       &:hover {
         color: $body-bg-dark;
       }
