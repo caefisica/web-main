@@ -36,6 +36,7 @@
     "name": "Liuba Ramos",
     "first_name": "Liuba",
     "image": "/images/member/liuba.webp",
+    "url": "/contributors/liuba/",
     "funcion": "Comunicaciones",
     "role": "Communications",
     "data": "4",
@@ -86,8 +87,10 @@
     "name": "Nelson Noa",
     "first_name": "Nelson",
     "image": "/images/member/nelson.webp",
+    "url": "/contributors/nelson/",
     "funcion": "Edición",
     "role": "Creative",
+    "data": "9",
     "avatar": "main",
     "description": "Miembro en el área de comunicaciones."
   }
