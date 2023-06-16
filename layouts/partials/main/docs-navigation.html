@@ -5,18 +5,18 @@
 	{{ with $pages.ByWeight.Next . -}}
 		<a class="text-decoration-none" href="{{ .RelPermalink }}">
 			<div class="card my-1 hover_card">
-				<div class="card-body py-2">
+				<a class="card-body py-2 text-decoration-none active">
 					&larr; {{ .Title }}
-				</div>
+        </a>
 			</div>
 		</a>
 	{{ end -}}
 	{{ with $pages.ByWeight.Prev . -}}
 		<a class="ms-auto text-decoration-none" href="{{ .RelPermalink }}">
 			<div class="card my-1 hover_card">
-				<div class="card-body py-2">
+				<a class="card-body py-2 text-decoration-none active">
 					{{ .Title }} &rarr;
-				</div>
+        </a>
 			</div>
 		</a>
 	{{ end -}}

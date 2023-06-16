@@ -184,7 +184,8 @@ pre {
   transition: all 0.25s ease;
 }
 
-.btn-toggle-nav a.active {
+.btn-toggle-nav a.active,
+.docs-navigation a.active {
   color: $link-color;
 }
 

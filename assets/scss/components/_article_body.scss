@@ -118,3 +118,7 @@
   border-color: var(--bs-link-color);
   transition: all 0.3s ease;
 }
+
+[data-dark-mode] .hover_card:hover {
+  border-color: $indigo-500;
+}
