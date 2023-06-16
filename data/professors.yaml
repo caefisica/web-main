@@ -62,6 +62,10 @@
         - '2021-I'
         - '2022-I'
         - '2023-I'
+    - code: 'CFO601'
+      semesters:
+        - '2021-II'
+        - '2022-II'
     - code: 'CFO701'
       semesters:
         - '2023-I'

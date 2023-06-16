@@ -6,8 +6,13 @@ function decodeEmail(encoded) {
 function showEmail(event, encodedEmail) {
   event.preventDefault();
   const decodedEmail = decodeEmail(encodedEmail);
-  const mailtoLink = 'mailto:' + decodedEmail;
-  window.location.href = mailtoLink;
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (emailRegex.test(decodedEmail)) {
+    const mailtoLink = 'mailto:' + encodeURIComponent(decodedEmail);
+    window.location.href = mailtoLink;
+  } else {
+    console.error('Email inválido:', decodedEmail);
+  }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
