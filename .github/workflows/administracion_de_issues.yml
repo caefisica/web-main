@@ -20,12 +20,15 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3
+        with:
+          repository: totallynotdavid/Issue-Manager-Action
       - uses: actions/setup-node@v3
         with:
           node-version: 18
       
       - name: Install Dependencies
         run: npm install
+        working-directory: ./Issue-Manager-Action
       
       - name: Issue Management
         uses: totallynotdavid/Issue-Manager-Action@0.1
