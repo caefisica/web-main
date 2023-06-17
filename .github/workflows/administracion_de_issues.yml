@@ -28,7 +28,7 @@ jobs:
       
       - name: Install Dependencies
         run: npm install
-        working-directory: ./Issue-Manager-Action
+        working-directory: ${{ github.action_path }}/
       
       - name: Issue Management
         uses: totallynotdavid/Issue-Manager-Action@0.1
