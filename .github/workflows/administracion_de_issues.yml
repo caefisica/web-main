@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v3
       
       - name: Issue Management
-        uses: totallynotdavid/Issue-Manager-Action
+        uses: totallynotdavid/Issue-Manager-Action@0.1
         with:
           GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
           ASSIGNEES: 'totallynotdavid,cae-unmsm'
