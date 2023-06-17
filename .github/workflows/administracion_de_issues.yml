@@ -27,9 +27,12 @@ jobs:
           node-version: 18
       
       - name: Install Dependencies
-        run: npm install
         working-directory: ${{ github.action_path }}/
-      
+        run: |
+          echo "Installing Dependencies"
+          echo "Installing on ${{ github.action_path }}/"
+          npm install
+
       - name: Issue Management
         uses: totallynotdavid/Issue-Manager-Action@0.1
         with:
