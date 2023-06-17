@@ -1,10 +1,8 @@
 name: 💼 Administración de Issues
-
 on:
   workflow_dispatch:
   schedule:
     - cron: '0 11 * * 5'
-
 jobs:
   MomoBot:
     name: 🤖 MomoBot
@@ -12,16 +10,15 @@ jobs:
     permissions:
       issues: write
       pull-requests: write
-    
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ 'javascript' ]
     steps:
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '16'
-
+      - name: Check out repository code
+        uses: actions/checkout@v3
       - name: Install dependencies
-        run: npm install
-      
+        run: npm ci
       - name: Issue Management
         uses: totallynotdavid/Issue-Manager-Action@0.1
         with:
