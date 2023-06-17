@@ -1,0 +1,30 @@
+name: 💼 Administración de Issues
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 11 * * 5'
+
+jobs:
+  MomoBot:
+    name: 🤖 MomoBot
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ 'javascript' ]
+    
+    steps:
+      - name: Inicializar Github Action
+        uses: actions/checkout@v3
+      
+      - name: Issue Management
+        uses: totallynotdavid/Issue-Manager-Action
+        with:
+          GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
+          ASSIGNEES: 'totallynotdavid,cae-unmsm'
+          MAINTAINER: 'totallynotdavid'
