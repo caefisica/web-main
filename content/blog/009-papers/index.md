@@ -37,7 +37,7 @@ Cuando te encuentres en la página del artículo, al hacer click en el elemento 
 
 Este proceso puede automatizarse usando extensiones en tu navegador.
 
-1. Si utilizas un navegador basado en Chromium que permita instalar desde la Chrome Web Store. Puedes utilizar [Sci-Hub X Now!](https://chrome.google.com/webstore/detail/sci-hub-x-now/gmmnidkpkgiohfdoenhpghbilmeeagjj).
+1. Si utilizas un navegador basado en Chromium que permita instalar desde la Chrome Web Store. Puedes utilizar [Sci-Hub X Now!](https://github.com/gchenfc/sci-hub-now).
 
 {{< img-simple src="1.jpg" alt="Captura de pantalla al buscar el término DOI en el navegador" class="d-block mx-auto shadow my-5" >}}
 
