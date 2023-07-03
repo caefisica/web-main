@@ -59,7 +59,7 @@
     "mermaid": "^10.2.3",
     "netlify-plugin-cloudinary": "^1.2.0",
     "node-fetch": "^3.3.0",
-    "pdfjs-dist": "^3.7.107",
+    "pdfjs-dist": "^3.8.162",
     "postcss": "^8.4",
     "postcss-cli": "^10.0",
     "purgecss-whitelister": "^2.4",
