@@ -39,7 +39,7 @@
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.21.8",
-    "@babel/preset-env": "^7.22.4",
+    "@babel/preset-env": "^7.22.6",
     "@fullhuman/postcss-purgecss": "^5.0",
     "@hyas/images": "^1.0.2",
     "auto-changelog": "^2.4",
