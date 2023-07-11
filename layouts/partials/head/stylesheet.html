@@ -2,10 +2,10 @@
 
 {{ if eq .Kind "home" -}}
   {{ .Scratch.Set "scssFile" (resources.Get "scss/home.scss") }}
-  {{ .Scratch.Set "options" (dict "targetPath" "home.css" "includePaths" (slice "node_modules")) }}
+  {{ .Scratch.Set "options" (dict "transpiler" "dartsass" "targetPath" "home.css" "includePaths" (slice "node_modules")) }}
 {{ else -}}
   {{ .Scratch.Set "scssFile" (resources.Get "scss/app.scss") }}
-  {{ .Scratch.Set "options" (dict "targetPath" "main.css" "includePaths" (slice "node_modules")) }}
+  {{ .Scratch.Set "options" (dict "transpiler" "dartsass" "targetPath" "main.css" "includePaths" (slice "node_modules")) }}
 {{ end -}}
 
 {{ if eq (hugo.Environment) "development" -}}

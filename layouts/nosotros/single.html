@@ -1,7 +1,8 @@
 {{ define "main" }}
 
-{{ $sass := resources.Get "scss/components/pages/_nosotros.scss" }}
-{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+{{- $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" -}}
+{{- $sass := resources.Get "scss/components/pages/_nosotros.scss" -}}
+{{- $style := $sass | resources.ToCSS $opts | resources.Fingerprint -}}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"> 
 <main class="mt-5 mb-5">
 

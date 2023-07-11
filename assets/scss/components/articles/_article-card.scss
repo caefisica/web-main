@@ -42,7 +42,7 @@ $break-largest: 90rem; // >= 1440px @ 16px
 
 // @include respond-to( );
 @mixin respond-to( $condition ) {
-  @if $condition == "initialize" { @media only screen and (min-width: 1px) { @content; } }
+  @if $condition == "initialize" { @media only screen and (width >= 1px) { @content; } }
 
   @if $condition == "small" { @media only screen and (min-width: $break-small) { @content; } }
 
@@ -166,10 +166,7 @@ $break-largest: 90rem; // >= 1440px @ 16px
   &::before {
     content: "";
     position: absolute;
-    top: 10px;
-    right: 10px;
-    bottom: 0;
-    left: 10px;
+    inset: 10px 10px 0;
     border-radius: 10px;
 
     @include bs(var(--article-shadow-normal));

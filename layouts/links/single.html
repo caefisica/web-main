@@ -3,8 +3,9 @@
   {{ partial "head/head.html" . }}
   {{ partial "head/body-class.html" . -}}
 
+  {{- $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" -}}
   {{- $linktree := resources.Get "scss/components/pages/_linktree.scss" -}}
-  {{- $style := $linktree | resources.ToCSS | resources.Fingerprint -}}
+  {{- $style := $linktree | resources.ToCSS $opts | resources.Fingerprint -}}
   <link rel="stylesheet" href="{{ $style.Permalink -}}" integrity="{{ $style.Data.Integrity -}}"> 
 
   <body class="dark-mode {{ delimit (.Scratch.Get "class") " " }}">

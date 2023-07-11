@@ -3,7 +3,7 @@ $mask-image: url("/images/shape/hero-mask-svg.png");
 $transition-duration: 0.3s;
 
 @mixin desktop {
-  @media (max-width: 991px) {
+  @media (width <= 991px) {
     @content;
   }
 }
@@ -411,7 +411,7 @@ h2 {
   flex: var(--flex, var(--flex-default));
 }
 
-@media only screen and (min-width: 800px) and (max-width: 999px) {
+@media only screen and (width >= 800px) and (width <= 999px) {
   :root {
     --padding-scale: var(--padding-scale-tablet, 1.778);
   }
@@ -423,7 +423,7 @@ h2 {
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (width >= 1000px) {
   :root {
     --font-scale: var(--font-scale-desktop, 1.25);
     --spacing-scale: var(--spacing-scale-desktop, 1.5);
@@ -441,7 +441,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 799px) {
+@media only screen and (width <= 799px) {
   :root {
     --font-scale: var(--font-scale-mobile, 1.125);
     --spacing-scale: var(--spacing-scale-mobile, 1.333);
@@ -453,7 +453,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (width <= 599px) {
   .has-columns,
   .is-column {
     --flex: var(--flex-xs, var(--flex-default));
@@ -578,7 +578,7 @@ h3 {
   margin-bottom: 16px !important;
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (width <= 599px) {
   :root {
     --spacing-scale: 1.25;
     --padding-bottom-lg: calc(1rem + 4vw);
@@ -589,7 +589,7 @@ h3 {
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (width >= 800px) {
   :root {
     --h2-font-size: 2rem;
   }
@@ -645,20 +645,20 @@ h3 {
   padding-top: 0;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (width >= 800px) {
   .hover-box {
     --hover-box-transform-distance: calc(16px * 1.5);
     --hover-box-button-opacity: 0;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (width >= 1200px) {
   .content {
     position: relative;
   }
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (width <= 599px) {
   .has-xxxxl-font-size {
     font-size: 1.75rem;
   }
@@ -709,7 +709,7 @@ h3 {
 
 // Last edited articles Section
 
-@media only screen and (min-width: 600px) and (max-width: 799px) {
+@media only screen and (width >= 600px) and (width <= 799px) {
   .has-columns,
   .is-column {
     --flex: var(--flex-sm, var(--flex-default));
@@ -717,7 +717,7 @@ h3 {
   }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 999px) {
+@media only screen and (width >= 800px) and (width <= 999px) {
   .has-columns,
   .is-column {
     --flex: var(--flex-md, var(--flex-default));
