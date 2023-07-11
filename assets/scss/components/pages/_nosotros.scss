@@ -1313,7 +1313,7 @@ textarea.form-input {
 
 /* responsive larger than 450px screen */
 
-@media (min-width: 450px) {
+@media (width >= 450px) {
   /* client */
 
   .clients-item {
@@ -1330,7 +1330,7 @@ textarea.form-input {
 
 /* responsive larger than 580px screen */
 
-@media (min-width: 580px) {
+@media (width >= 580px) {
   /* CUSTOM PROPERTY */
 
   :root {
@@ -1649,7 +1649,7 @@ textarea.form-input {
  * responsive larger than 768px screen
  */
 
-@media (min-width: 768px) {
+@media (width >= 768px) {
   /**
    * REUSED STYLE
    */
@@ -1750,7 +1750,7 @@ textarea.form-input {
  * responsive larger than 1024px screen
  */
 
-@media (min-width: 1024px) {
+@media (width >= 1024px) {
   /**
    * CUSTOM PROPERTY
    */
@@ -1795,10 +1795,7 @@ textarea.form-input {
 
   .content .navbar {
     position: absolute;
-    bottom: auto;
-    top: 0;
-    left: auto;
-    right: 0;
+    inset: 0 0 auto auto;
     width: max-content;
     border-radius: 0 20px;
     padding: 0 20px;
@@ -1858,7 +1855,7 @@ textarea.form-input {
  * responsive larger than 1250px screen
  */
 
-@media (min-width: 1250px) {
+@media (width >= 1250px) {
   /**
    * RESET
    */

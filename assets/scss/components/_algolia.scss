@@ -253,7 +253,7 @@
   text-decoration: none;
   z-index: 1100;
 
-  @media (min-width: 992px) {
+  @media (width >= 992px) {
     display: flex;
   }
 }
@@ -398,7 +398,7 @@
     font-size: 1rem;
   }
 
-  @media (min-width: 992px) and (max-width: 1200px) {
+  @media (width >= 992px) and (width <= 1200px) {
     right: 0;
     position: relative;
     width: 488px;
@@ -476,7 +476,7 @@
   color: #212529;
   text-decoration-line: none;
 
-  @media (min-width: 992px) {
+  @media (width >= 992px) {
     width: 19rem;
     padding-left: 1rem;
   }
@@ -498,7 +498,7 @@
     display: none;
   }
 
-  @media (min-width: 992px) {
+  @media (width >= 992px) {
     > div:not(.aa-ItemIcon) {
       display: flex;
     }
@@ -515,7 +515,7 @@
   display: flex;
   font-size: 1rem;
 
-  @media (min-width: 992px) {
+  @media (width >= 992px) {
     width: 9rem;
     padding-right: 1rem;
     border-right: 1px solid #e9ecef;
