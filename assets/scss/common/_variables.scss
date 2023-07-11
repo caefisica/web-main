@@ -145,7 +145,7 @@ $spacer: 1rem;
 
 // Navbar
 
-$navbar-padding-y:                  $spacer / 2;
+$navbar-padding-y:                  calc($spacer / 2);
 $navbar-padding-x:                  0;
 
 $navbar-nav-link-padding-x:         0.5rem;

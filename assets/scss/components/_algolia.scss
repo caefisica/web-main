@@ -241,7 +241,7 @@
   .aa-LoadingIndicator,
   .aa-SubmitButton {
     padding-left: 3px;
-    padding-left: calc(var(--aa-spacing-half)  2 - 1px);
+    padding-left: calc(var(--aa-spacing-half) * 2 - 1px);
     width: 39px;
     width: calc(var(--aa-icon-size) + var(--aa-spacing) * 1.25 - 1px);
   }
