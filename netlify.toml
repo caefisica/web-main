@@ -8,40 +8,16 @@
   DART_SASS_VERSION = "1.63.5"
 
 [context.production]
-  command = """
-  curl -LJO https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
-  tar -xf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
-  rm dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
-  export PATH=/opt/build/repo/dart-sass:$PATH && \
-  npm run build
-  """
+  command = "./build.sh production"
 
 [context.deploy-preview]
-  command = """
-  curl -LJO https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
-  tar -xf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
-  rm dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
-  export PATH=/opt/build/repo/dart-sass:$PATH && \
-  npm run build -- -b $DEPLOY_PRIME_URL
-  """
+  command = "./build.sh deploy-preview"
 
 [context.branch-deploy]
-  command = """
-  curl -LJO https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
-  tar -xf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
-  rm dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
-  export PATH=/opt/build/repo/dart-sass:$PATH && \
-  npm run build -- -b $DEPLOY_PRIME_URL
-  """
+  command = "./build.sh branch-deploy"
 
 [context.next]
-  command = """
-  curl -LJO https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
-  tar -xf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
-  rm dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
-  export PATH=/opt/build/repo/dart-sass:$PATH && \
-  npm run build
-  """
+  command = "./build.sh next"
 
 [context.next.environment]
   HUGO_ENV = "next"
