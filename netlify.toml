@@ -8,16 +8,16 @@
   DART_SASS_VERSION = "1.63.5"
 
 [context.production]
-  command = "./build.sh production"
+  command = "bash build.sh production"
 
 [context.deploy-preview]
-  command = "./build.sh deploy-preview"
+  command = "bash build.sh deploy-preview"
 
 [context.branch-deploy]
-  command = "./build.sh branch-deploy"
+  command = "bash build.sh branch-deploy"
 
 [context.next]
-  command = "./build.sh next"
+  command = "bash build.sh next"
 
 [context.next.environment]
   HUGO_ENV = "next"
