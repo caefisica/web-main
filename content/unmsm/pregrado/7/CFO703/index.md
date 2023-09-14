@@ -51,8 +51,9 @@ El libro de John S. Townsend sigue siendo el preferido del profesor Pablo Rivera
 
 {{< content_table type="book" >}}
   {{< book_row title="A Modern Approach to Quantum Mechanics" author="John S. Townsend" editorial="University Science Books" year="2000" edition="1ra ed." url="https://drive.google.com/file/d/1upmB4rSmlq92Ry_0iYd67woMTbrWAON7/view?usp=share_link" >}}
+  {{< book_row title="Fundamentals of quantum mechanics" author="Sidney Borowitz" editorial="W. A. Benjamin" year="1967" edition="1ra ed." url="https://drive.google.com/file/d/1TvLZGZzz_0b6xLCWeVYWxM8kFkeWxO89/view?usp=drive_link" >}}
+  {{< book_row title="Quantum Mechanics of One- and Two-Electron Atoms" author="Hans A. Bethe & Edwin E. Salpeter" editorial="Dover Publications" year="2008" edition="2da ed." url="https://drive.google.com/file/d/1mm9ChY3xuGGURHNDmOCk9T0JnI7wvCHg/view?usp=drive_link" >}}
   {{< book_row title="Quantum Mechanics: A Modern and Concise Introductory Course" author="Daniel R. Bes" editorial="Springer-Verlag Berlin Heidelberg" year="2012" edition="3ra ed." url="https://drive.google.com/file/d/1jcdwLyPG5nMkNAiESGycMma9fUJmqhqb/view?usp=share_link" >}}
-  {{< book_row title="Quantum Mechanics for Scientists and Engineers" author="David A. B. Miller" editorial="Cambridge University Press" year="2008" edition="1ra ed." url="https://drive.google.com/file/d/17cI8CG2j1xIv25COhxheJluPvhpv_X-g/view?usp=share_link" >}}
 {{< /content_table >}}
 
 ### Teórico-Prácticos
@@ -60,6 +61,10 @@ El libro de John S. Townsend sigue siendo el preferido del profesor Pablo Rivera
 ### Prácticos
 
 Los siguientes libros contienen ejercicios o problemas planteados. Contienen muy poco contenido teórico.
+
+{{< content_table type="book" >}}
+  {{< book_row title="Quantum Mechanics" author="Richard W. Robinett" editorial="Oxford University Press" year="2006" edition="2da ed." url="https://drive.google.com/file/d/1EEx2ZfXi4A3GpaZttfKXXyvbA9PUSKgM/view?usp=share_link" >}}
+{{< /content_table >}}
 
 ## Documentos
 
@@ -75,6 +80,10 @@ Los siguientes libros contienen ejercicios o problemas planteados. Contienen muy
 
 {{< details "Sílabo del semestre 2023-I" >}}
   {{< pdfjs file="MC2_Sílabo_2023-I_Rivera.pdf" >}}
+{{< /details >}}
+
+{{< details "Sílabo del semestre 2022-I" >}}
+  {{< pdfjs file="MC2_Sílabo_2022-I_Rivera.pdf" >}}
 {{< /details >}}
 
 ## Docentes
