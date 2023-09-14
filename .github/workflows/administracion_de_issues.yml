@@ -18,10 +18,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Administración de Issues
-        uses: totallynotdavid/Issue-Manager-Action@v3.0.6
+        uses: totallynotdavid/Issue-Manager-Action@v3.7.3
         with:
-          GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
-          ASSIGNEES: 'totallynotdavid,cae-unmsm'
-          MAINTAINER: 'totallynotdavid'
+          org: 'caefisica'
+          repo: 'web'
+          branch: 'master'
+          templateName: 'plantilla_de_cursos.yml'
+          issuePrefix: '[📚]:'
+          gifURL: 'https://media.tenor.com/t8ZbssN1A9kAAAAd/momo-twice.gif'
+          useGif: 'true'
         env:
           ISSUE_TOKEN: ${{ secrets.ISSUE_TOKEN }}
