@@ -66,8 +66,8 @@ devDependencies:
     specifier: ^10.4.0
     version: 10.4.0
   netlify-plugin-cloudinary:
-    specifier: ^1.2.0
-    version: 1.8.0(encoding@0.1.13)
+    specifier: ^1.9.0
+    version: 1.9.0(encoding@0.1.13)
   node-fetch:
     specifier: ^3.3.0
     version: 3.3.2
@@ -4310,8 +4310,8 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /netlify-plugin-cloudinary@1.8.0(encoding@0.1.13):
-    resolution: {integrity: sha512-zRGfKfG3xi0nXdb00+ccFe9dcWxVmU9i+sb/Hc9icwKY4c1B4V9/zmHrd4CxeOc+u1+yx1Aj0FWpMvpqkHqJWg==}
+  /netlify-plugin-cloudinary@1.9.0(encoding@0.1.13):
+    resolution: {integrity: sha512-LkkjBZ4Jo1T0M7a53pfPWjZK0l/TS18QXOapfZySK7YEeDaudmmOr4ASXaszG/LOL50L7W65Cj9VPAJVsrWTqg==}
     dependencies:
       cloudinary: 1.40.0
       glob: 10.3.4
