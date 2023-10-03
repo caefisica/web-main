@@ -2,44 +2,54 @@
   "name": "@caefisica/web",
   "version": "0.9.6",
   "private": true,
+  "author": "David Duran <contacto@altmails.com> (https://totallynotdavid.github.io/)",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caefisica/web.git"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/totallynotdavid"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "browserslist": [
     "defaults"
   ],
+
   "scripts": {
     "init": "shx rm -rf .git && git init -b master",
-    "create": "exec-bin node_modules/.bin/hugo/hugo new",
-    "prestart": "npm run clean",
-    "start": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender",
-    "start:lan": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --baseURL=http://192.168.18.10 --port=1313",
-    "prebuild": "npm run clean",
-    "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
-    "build:lan": "exec-bin node_modules/.bin/hugo/hugo --gc --minify --baseURL=http://192.168.18.10",
-    "build:preview": "npm run build -D -F",
-    "build:functions": "netlify-lambda build assets/submission-created",
-    "clean": "shx rm -rf public resources",
+    "clean": "npm run clean:build && npm run clean:packages",
+    "clean:build": "shx rm -rf public resources",
     "clean:packages": "shx rm -rf package-lock.json node_modules",
-    "clean:hugo": "shx rm -rf admin apuntes audio blog css fonts i images js unmsm rss site.webmanifest safari-pinned-tab.svg logo-cae.png logo-cae.svg android-chrome-192x192.png android-chrome-512x512.png apple-touch-icon.png favicon-16x16.png favicon-32x32.png favicon.ico cae.png assets/jsconfig.json",
-    "cleaner": "npm run clean && npm run clean:install && npm run clean:hugo",
+  
+    "hugo": "exec-bin node_modules/.bin/hugo/hugo",
+    "hugo:create": "npm run hugo new",
+    "hugo:start": "npm run hugo server --disableFastRender",
+    "hugo:start:lan": "npm run hugo server --bind=0.0.0.0 --baseURL=http://192.168.18.10 --port=1313",
+    "hugo:build": "npm run hugo --gc --minify",
+    "hugo:build:lan": "npm run hugo --gc --minify --baseURL=http://192.168.18.10",
+    "hugo:build:preview": "npm run build -D -F",
+    "hugo:version": "npm run hugo version",
+
     "lint": "npm run -s lint:scripts && npm run -s lint:styles && npm run -s lint:markdown",
     "lint:scripts": "eslint assets/js config functions",
     "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
-    "lint:styles-fix": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\" --fix",
     "lint:markdown": "markdownlint-cli2 \"*.md\" \".github/*.md\" \"content/**/*.md\" \"docs/*.md\"",
-    "lint:markdown-fix": "markdownlint-cli2-fix \".github/*.md\" \"content/**/*.md\" \"docs/*.md\"",
-    "server": "exec-bin node_modules/.bin/hugo/hugo server",
+
     "test": "npm run -s lint",
-    "env": "env",
-    "precheck": "npm version",
-    "check": "exec-bin node_modules/.bin/hugo/hugo version",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md",
-    "serve": "netlify-lambda serve functions"
+    "serve": "netlify functions:serve"
   },
+
   "devDependencies": {
     "@babel/cli": "^7.22.10",
-    "@babel/core": "^7.22.17",
-    "@babel/preset-env": "^7.22.10",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
     "@fullhuman/postcss-purgecss": "^5.0",
     "@hyas/images": "^1.0.2",
     "auto-changelog": "^2.4",
@@ -55,7 +65,7 @@
     "instant.page": "^5.1",
     "katex": "^0.16.8",
     "lazysizes": "^5.3.2",
-    "markdownlint-cli2": "^0.9.2",
+    "markdownlint-cli2": "^0.10.0",
     "mermaid": "^10.4.0",
     "netlify-plugin-cloudinary": "^1.2.0",
     "node-fetch": "^3.3.0",
@@ -65,7 +75,7 @@
     "purgecss-whitelister": "^2.4",
     "shx": "^0.3.4",
     "stylelint": "^15.10.3",
-    "stylelint-config-standard-scss": "^10.0.0"
+    "stylelint-config-standard-scss": "^11.0.0"
   },
   "otherDependencies": {
     "hugo": "0.114.1"
