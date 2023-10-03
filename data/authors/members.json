@@ -71,6 +71,7 @@
     "funcion": "Diseño",
     "role": "Creative",
     "avatar": "main",
+    "data": "7",
     "description": "Miembro en el área de diseño."
   },
   {
@@ -79,7 +80,6 @@
     "image": "/images/member/edwing.webp",
     "funcion": "Académicos",
     "role": "Academics",
-    "data": "8",
     "avatar": "main",
     "description": "Miembro en el área de académicos."
   },
