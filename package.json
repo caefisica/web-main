@@ -27,7 +27,7 @@
   
     "hugo:create": "exec-bin node_modules/.bin/hugo/hugo new",
     "hugo:start": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender",
-    "hugo:start:lan": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --baseURL=http://192.168.18.10 --port=1313",
+    "hugo:start:lan": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --baseURL=http://192.168.18.48 --port=1313",
     "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
     "hugo:build:lan": "exec-bin node_modules/.bin/hugo/hugo --gc --minify --baseURL=http://192.168.18.10",
     "hugo:build:preview": "npm run build -D -F",
@@ -46,11 +46,11 @@
   },
 
   "devDependencies": {
-    "@babel/cli": "^7.22.10",
+    "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.0",
     "@babel/preset-env": "^7.22.20",
     "@fullhuman/postcss-purgecss": "^5.0",
-    "@hyas/images": "^1.0.2",
+    "@hyas/images": "^2.0.3",
     "auto-changelog": "^2.4",
     "autoprefixer": "^10.4.16",
     "bootstrap": "^5.3.0",
@@ -59,7 +59,7 @@
     "encoding": "^0.1.13",
     "eslint": "^8.52.0",
     "exec-bin": "^1.0.0",
-    "highlight.js": "^11.6",
+    "highlight.js": "^11.9.0",
     "hugo-installer": "^4.0",
     "instant.page": "^5.1",
     "katex": "^0.16.8",
@@ -68,13 +68,13 @@
     "mermaid": "^10.6.0",
     "netlify-plugin-cloudinary": "^1.12.0",
     "node-fetch": "^3.3.0",
-    "pdfjs-dist": "^3.8.162",
+    "pdfjs-dist": "^3.11.174",
     "postcss": "^8.4.31",
     "postcss-cli": "^10.0",
     "purgecss-whitelister": "^2.4",
     "shx": "^0.3.4",
     "stylelint": "^15.10.3",
-    "stylelint-config-standard-scss": "^11.0.0"
+    "stylelint-config-standard-scss": "^11.1.0"
   },
   "otherDependencies": {
     "hugo": "0.114.1"
