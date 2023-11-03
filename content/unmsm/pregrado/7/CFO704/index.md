@@ -89,7 +89,7 @@ Para ayudarte aún más en la comprensión del material, aquí tienes una lista 
 | ------ | ----- | ----------- | --- |
 | Física Estadística | P. I. Hurtado | Universidad de Granada | [Desconocido](https://ic1.ugr.es/members/statphys/temario/) |
 | Lecture Notes Statistical Physics AP3021 | Jos Thijssen | Delft University of Technology | [2022](https://drive.google.com/file/d/1Z3H7ymVcDDi8uR3pOeV4EeTu1xjmVUrX/view?usp=share_link) |
-| Undergraduate Statistical Mechanics | Gabriel Teixeira | Universidad de São Paulo​ | [2017](http://www.fmt.if.usp.br/~gtlandi/lecture-notes/stat-mech.html) |
+| Undergraduate Statistical Mechanics | Gabriel Teixeira | Universidad de São Paulo​ | [2017](https://web.archive.org/web/20200220124922/http://www.fmt.if.usp.br/~gtlandi/lecture-notes/stat-mech.html) |
 | ME 334 Introduction to Statistical Mechanics | Wei Cai | Stanford University​ | [2012](http://micro.stanford.edu/~caiwei/me334/ME346A_Lecture_Notes_Win2012.pdf) |
 
 ## Listas de reproducción
