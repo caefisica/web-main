@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^5.0
     version: 5.0.0(postcss@8.4.31)
   '@hyas/images':
-    specifier: ^1.0.2
-    version: 1.0.2
+    specifier: ^2.0.3
+    version: 2.0.3
   auto-changelog:
     specifier: ^2.4
     version: 2.4.0(encoding@0.1.13)
@@ -1405,8 +1405,8 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@hyas/images@1.0.2:
-    resolution: {integrity: sha512-RuY0KY2XYZmohZFYptKEyJA7v6zgbm88t/VbANril5gCwk/BxmitPBMGMmADcYlTW/hTWucI3crQA66G/iw4hQ==}
+  /@hyas/images@2.0.3:
+    resolution: {integrity: sha512-4LqRiOZDQ3h0qyNBCRqfBD3yKwsVWmhPe0/JGuxtn6Kpr7GdTOBKNcfKunR8MATIBI15/Zulil9bYsFnCGr8Cw==}
     engines: {node: '>=16.12.0'}
     dev: true
 
