@@ -118,7 +118,7 @@ A continuación, se presentan algunas páginas web que brindan información adic
 
 | Nombre | Autor | Enlace |
 | ------ | ----- | ------ |
-| Numerical Methods for Scientists | H. M. Anthia | [eng](https://www.tifr.res.in/~antia/nmse3.html) |
+| Numerical Methods for Scientists | H. M. Anthia | [eng](https://web.archive.org/web/20230609023514/https://www.tifr.res.in/~antia/nmse3.html) |
 | Fortran 90 for the Fortran 77 Programmer | Bo Einarsson & Yurij Shokin | [eng](https://ergodic.ugr.es/cphys/index.php?id=lec_fortran_html2)
 | Learning Fortran | Alvaro Siesquen | [spa](https://sites.google.com/unmsm.edu.pe/learningfortran/inicio) |
 

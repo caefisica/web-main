@@ -47,9 +47,10 @@ weight: 900
 
 Nombre|Idioma|Contenido|Tamaño
 ------|------|---------|------
-[Semantic Scholar](https://www.semanticscholar.org/)|Inglés|Artículos científicos|Grande (181061808)
+[Archivo de Anna](https://es.annas-archive.org/)|Español|Libros, artículos científicos|Grande (22 079 866 libros y 97 849 610 artículos)
+[Semantic Scholar](https://www.semanticscholar.org/)|Inglés|Artículos científicos|Grande (181 061 808)
 [SciHub](https://sci-hub.tw/) [1](https://sci-hub.se/)|Ingles|Artículos científicos|Grande
-[Biblioteca Génesis](https://libgen.lc/) [1](https://libgen.li/) | Inglés, español, alemán, entre otros|Libros universitarios, artículos científicos, ficción, cómics y revistas|Grande
+[Biblioteca Génesis](https://libgen.is/) [1](https://libgen.li/) | Inglés, español, alemán, entre otros|Libros universitarios, artículos científicos, ficción, cómics y revistas|Grande
 
 <!---
 https://www.compadre.org/osp/document/ServeFile.cfm?ID=7375
