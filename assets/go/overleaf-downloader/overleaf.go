@@ -55,7 +55,7 @@ func main() {
 	projectURL := "https://www.overleaf.com/project/642bf7a5c1587fd0745b6713"
 	downloadURL := projectURL + "/download/zip"
 
-	log.Println("Inicializando el navegador...")
+	log.Println("Inicializando contexto del navegador...")
 	allocatorContext, cancel := chromedp.NewExecAllocator(context.Background(), append(chromedp.DefaultExecAllocatorOptions[:],
 		chromedp.Flag("headless", false),
 	)...)
@@ -75,7 +75,6 @@ func main() {
 			if ev, ok := v.(*browser.EventDownloadProgress); ok {
 					if ev.State == browser.DownloadProgressStateCompleted {
 							done <- ev.GUID
-							close(done)
 					}
 			}
 	})
@@ -93,24 +92,31 @@ func main() {
 		chromedp.WaitVisible(`#password`, chromedp.ByID),
 		chromedp.SendKeys(`#password`, password, chromedp.ByID),
 		chromedp.Click(`button[type=submit]`, chromedp.ByQuery),
-		// Wait for the new project button to ensure a successful login
 		chromedp.WaitVisible(`#new-project-button-sidebar`, chromedp.ByID),
 	}); err != nil {
 			log.Fatalf("Error iniciando sesión: %v", err)
 	}
-	log.Println("Inicio de sesión exitoso. Navegando a la URL de descarga...")
 
-	log.Println("Navegando a la URL de descarga: " + downloadURL)
+	log.Println("Inicio de sesión exitoso. Preparando configuración de descarga...")
+	if err := chromedp.Run(ctx, browser.SetDownloadBehavior(browser.SetDownloadBehaviorBehaviorAllowAndName).
+			WithDownloadPath(wd).
+			WithEventsEnabled(true)); err != nil {
+			log.Fatalf("Error al establecer el comportamiento de descarga: %v", err)
+	}
+
+	log.Println("Navegando a la URL de descarga...")
 	if err := chromedp.Run(ctx, chromedp.Tasks{
-			browser.SetDownloadBehavior(browser.SetDownloadBehaviorBehaviorAllowAndName).
-					WithDownloadPath(wd).
-					WithEventsEnabled(true),
 			chromedp.Navigate(downloadURL),
 	}); err != nil {
 			log.Fatalf("Error al ir a la URL de descarga: %v", err)
 	}
 
 	log.Println("Esperando a que se complete la descarga...")
-	guid := <-done
-	log.Printf("Descarga completada. Archivo descargado: %s", filepath.Join(wd, guid))
+
+	select {
+	case guid := <-done:
+			log.Printf("Descarga completada. Archivo descargado: %s", filepath.Join(wd, guid))
+	case <-time.After(60 * time.Second):
+			log.Fatal("Error: El tiempo de espera para la descarga ha excedido el límite.")
+	}
 }
