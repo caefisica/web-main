@@ -1,8 +1,9 @@
 package main
 
 import (
+	"bufio"
+  "strings"
 	"context"
-	"fmt"
 	"log"
 	"os"
 	"path/filepath"
@@ -12,10 +13,49 @@ import (
 	"github.com/chromedp/chromedp"
 )
 
+func loadEnv(filename string) error {
+	file, err := os.Open(filename)
+	if err != nil {
+			return err
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+			line := scanner.Text()
+			if len(line) == 0 || line[0] == '#' {
+					continue
+			}
+
+			parts := strings.SplitN(line, "=", 2)
+			if len(parts) != 2 {
+					continue
+			}
+
+			key := parts[0]
+			value := parts[1]
+			os.Setenv(key, value)
+	}
+
+	return scanner.Err()
+}
+
 func main() {
+	log.Println("Cargando archivo .env...")
+	err := loadEnv(".env")
+	if err != nil {
+			log.Fatal("Error cargando el archivo .env")
+	}
+
+	email := os.Getenv("OVERLEAF_EMAIL")
+	password := os.Getenv("OVERLEAF_PASSWORD")
+
+	log.Println("Variables de entorno cargadas correctamente")
+
 	projectURL := "https://www.overleaf.com/project/642bf7a5c1587fd0745b6713"
 	downloadURL := projectURL + "/download/zip"
 
+	log.Println("Inicializando el navegador...")
 	allocatorContext, cancel := chromedp.NewExecAllocator(context.Background(), append(chromedp.DefaultExecAllocatorOptions[:],
 		chromedp.Flag("headless", false),
 	)...)
@@ -32,17 +72,12 @@ func main() {
 
 	done := make(chan string, 1)
 	chromedp.ListenTarget(ctx, func(v interface{}) {
-		if ev, ok := v.(*browser.EventDownloadProgress); ok {
-			completed := "(unknown)"
-			if ev.TotalBytes != 0 {
-				completed = fmt.Sprintf("%0.2f%%", ev.ReceivedBytes/ev.TotalBytes*100.0)
+			if ev, ok := v.(*browser.EventDownloadProgress); ok {
+					if ev.State == browser.DownloadProgressStateCompleted {
+							done <- ev.GUID
+							close(done)
+					}
 			}
-			log.Printf("Estado: %s, completado: %s\n", ev.State.String(), completed)
-			if ev.State == browser.DownloadProgressStateCompleted {
-				done <- ev.GUID
-				close(done)
-			}
-		}
 	})
 
 	wd, err := os.Getwd()
@@ -50,39 +85,32 @@ func main() {
 		log.Fatal(err)
 	}
 
+	log.Println("Navegando a la página de inicio de sesión de Overleaf...")
 	if err := chromedp.Run(ctx, chromedp.Tasks{
 		chromedp.Navigate("https://www.overleaf.com/login"),
 		chromedp.WaitVisible(`#email`, chromedp.ByID),
-		chromedp.SendKeys(`#email`, "mail@unmsm.edu.pe", chromedp.ByID),
+		chromedp.SendKeys(`#email`, email, chromedp.ByID),
 		chromedp.WaitVisible(`#password`, chromedp.ByID),
-		chromedp.SendKeys(`#password`, "password", chromedp.ByID),
+		chromedp.SendKeys(`#password`, password, chromedp.ByID),
 		chromedp.Click(`button[type=submit]`, chromedp.ByQuery),
-		chromedp.Sleep(5 * time.Second),
+		// Wait for the new project button to ensure a successful login
+		chromedp.WaitVisible(`#new-project-button-sidebar`, chromedp.ByID),
 	}); err != nil {
-		log.Fatalf("Error iniciando sesión: %v", err)
+			log.Fatalf("Error iniciando sesión: %v", err)
 	}
+	log.Println("Inicio de sesión exitoso. Navegando a la URL de descarga...")
 
-	log.Println("Navegando a la URL del proyecto...")
+	log.Println("Navegando a la URL de descarga: " + downloadURL)
 	if err := chromedp.Run(ctx, chromedp.Tasks{
-		chromedp.Navigate(projectURL),
-		chromedp.Sleep(3 * time.Second),
+			browser.SetDownloadBehavior(browser.SetDownloadBehaviorBehaviorAllowAndName).
+					WithDownloadPath(wd).
+					WithEventsEnabled(true),
+			chromedp.Navigate(downloadURL),
 	}); err != nil {
-		log.Fatalf("Error al ir a la URL del proyecto: %v", err)
+			log.Fatalf("Error al ir a la URL de descarga: %v", err)
 	}
 
-	log.Println("Navegando a la URL de descarga...")
-	if err := chromedp.Run(ctx, chromedp.Tasks{
-		browser.SetDownloadBehavior(browser.SetDownloadBehaviorBehaviorAllowAndName).
-			WithDownloadPath(wd).
-			WithEventsEnabled(true),
-		chromedp.Navigate(downloadURL),
-		chromedp.Sleep(3 * time.Second),
-	}); err != nil {
-		log.Fatalf("Error al ir a la URL de descarga: %v", err)
-	}
-
-	fmt.Println("¡Descarga completada!")
-
+	log.Println("Esperando a que se complete la descarga...")
 	guid := <-done
-	log.Printf("se escribió %s", filepath.Join(wd, guid))
+	log.Printf("Descarga completada. Archivo descargado: %s", filepath.Join(wd, guid))
 }
