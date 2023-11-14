@@ -66,8 +66,8 @@ devDependencies:
     specifier: ^10.6.0
     version: 10.6.0
   netlify-plugin-cloudinary:
-    specifier: ^1.12.0
-    version: 1.12.0(encoding@0.1.13)
+    specifier: ^1.15.0
+    version: 1.15.0(encoding@0.1.13)
   node-fetch:
     specifier: ^3.3.0
     version: 3.3.2
@@ -4401,13 +4401,15 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /netlify-plugin-cloudinary@1.12.0(encoding@0.1.13):
-    resolution: {integrity: sha512-1MfI+3PSjAqG8zh+1o62eFMscJISdCiMBsr3SNIavOvXMr+6gMgv5niZEMqoXBZDKyjPYz7TOVVuERrHGRthUg==}
+  /netlify-plugin-cloudinary@1.15.0(encoding@0.1.13):
+    resolution: {integrity: sha512-rn/s4visCyjXlULRHO1/oWN5FgfxdtN9uTdhzQaOyzb4OEg02/x4r4Qfoh/dDNqajKtlRoVIMIaGF73A/61APA==}
+    engines: {node: '>=16'}
     dependencies:
       cloudinary: 1.40.0
       glob: 10.3.4
       jsdom: 21.1.2
       node-fetch: 2.7.0(encoding@0.1.13)
+      p-limit: 3.1.0
     transitivePeerDependencies:
       - bufferutil
       - canvas
