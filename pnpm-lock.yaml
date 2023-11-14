@@ -72,8 +72,8 @@ devDependencies:
     specifier: ^3.3.0
     version: 3.3.2
   pdfjs-dist:
-    specifier: ^3.11.174
-    version: 3.11.174(encoding@0.1.13)
+    specifier: ^4.0.189
+    version: 4.0.189(encoding@0.1.13)
   postcss:
     specifier: ^8.4.31
     version: 8.4.31
@@ -4642,8 +4642,8 @@ packages:
     dev: true
     optional: true
 
-  /pdfjs-dist@3.11.174(encoding@0.1.13):
-    resolution: {integrity: sha512-TdTZPf1trZ8/UFu5Cx/GXB7GZM30LT+wWUNfsi6Bq8ePLnb+woNKtDymI2mxZYBpMbonNFqKmiz684DIfnd8dA==}
+  /pdfjs-dist@4.0.189(encoding@0.1.13):
+    resolution: {integrity: sha512-5IWbLRJjQJhk3cu3nNFAvIYoSzT8xRYlRkFCIV1tn7hK1eq9H+6vOP0ytJhZz9YI35IXlu33uQspvmYO6Oir4g==}
     engines: {node: '>=18'}
     optionalDependencies:
       canvas: 2.11.2(encoding@0.1.13)
