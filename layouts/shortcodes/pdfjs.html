@@ -2,116 +2,109 @@
 {{- $pdfjs := resources.Get "scss/components/pages/_pdfjs.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
 <link rel="stylesheet" href="{{ $pdfjs.Permalink }}" integrity="{{ $pdfjs.Data.Integrity }}" media="screen">
 
-{{/* JS */}}
-{{ $pdfjs_dist := resources.Get "js/vendor/pdfjs/build/pdf.min.js" | resources.Fingerprint -}}
-<script src="{{ $pdfjs_dist.RelPermalink }}" integrity="{{ $pdfjs_dist.Data.Integrity }}" defer></script>
+{{/* JS Modules */}}
+{{ $pdfjs_dist := resources.Get "js/vendor/pdfjs/build/pdf.min.mjs" | resources.Fingerprint -}}
+{{ $pdfjs_worker_dist := resources.Get "js/vendor/pdfjs/build/pdf.worker.min.mjs" | resources.Fingerprint -}}
+
+<script type="module">
+import * as pdfjsLib from '{{ $pdfjs_dist.RelPermalink }}';
+pdfjsLib.GlobalWorkerOptions.workerSrc = '{{ $pdfjs_worker_dist.RelPermalink }}';
 
 {{ $pdf_file := .Get "file" }}
 {{ $pdf_id := replaceRE "[.-]" "_" $pdf_file }}
 {{ $lowercase_path := .Page.File.Dir | lower }}
 {{ $pdf_url := path.Join $lowercase_path $pdf_file | relURL }}
 
-<div class="mt-auto mb-4">
-  <div class="pdf-paginator d-flex justify-content-center pdf-head" id="paginator_{{- $pdf_id -}}">
-      <button class="btn btn-primary" id="prev_{{- $pdf_id -}}">Anterior</button>
-      <div class="paginas"><span>Página: <span id="page_num_{{- $pdf_id -}}"></span> / <span id="page_count_{{- $pdf_id -}}"></span></span></div>
-      <button class="btn btn-primary" id="next_{{- $pdf_id -}}">Siguiente</button>
-      <a href="{{ $pdf_url }}" target="_blank" rel="noopener noreferrer"><button class="btn btn-secondary" id="next_{{- $pdf_id -}}_descarga">Descargar</button></a>
-  </div>
-  <div id="embed-pdf-container_{{- $pdf_id -}} container-fluid" class="mt-4">
-      <div class="row justify-content-md-center"><canvas class="pdf-canvas pdf-cae col-md-auto" id="the-canvas_{{- $pdf_id -}}"></canvas></div>
-  </div>
-</div>
+window.addEventListener("load", function() {
+    var url = '{{ $pdf_url }}';
+    var hidePaginator = "{{ .Get "hidePaginator" }}";
+    var pdfDoc = null,
+        pageNum = 1,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 1,
+        canvas = document.getElementById('the-canvas_{{ safeJS $pdf_id }}'),
+        ctx = canvas.getContext('2d');
 
-<script type="text/javascript" nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">
-window.addEventListener("load",function(){
-var url = '{{ $pdf_url }}';
-var hidePaginator = "{{ .Get "hidePaginator" }}";
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-{{ $pdfjs_worker := resources.Get "js/vendor/pdfjs/build/pdf.worker.min.js" -}}
-pdfjsLib.GlobalWorkerOptions.workerSrc = "{{ $pdfjs_worker.RelPermalink }}";
+    function renderPage(num) {
+        pageRendering = true;
+        pdfDoc.getPage(num).then(function(page) {
+            var viewport = page.getViewport({ scale: scale });
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
 
-// Cambiar el valor de la escala para una mayor o menor resolución
-var pdfDoc = null,
-    pageNum = 1,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 1,
-    canvas_{{ safeJS $pdf_id }} = document.getElementById('the-canvas_{{ safeJS $pdf_id }}'),
-    ctx = canvas_{{ safeJS $pdf_id }}.getContext('2d');
+            var renderContext = {
+                canvasContext: ctx,
+                viewport: viewport
+            };
+            var renderTask = page.render(renderContext);
 
-// Obtiene la información de la página del documento, redimensiona el lienzo en consecuencia y renderiza la página. @param num Número de página
-function renderPage(num) {
-  pageRendering = true;
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas_{{ safeJS $pdf_id }}.height = viewport.height;
-    canvas_{{ safeJS $pdf_id }}.width = viewport.width;
+            renderTask.promise.then(function() {
+                pageRendering = false;
+                if (pageNumPending !== null) {
+                    renderPage(pageNumPending);
+                    pageNumPending = null;
+                }
+            });
+        });
 
-    // Renderiza la página del PDF en el contexto del lienzo
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
+        document.getElementById('page_num_{{ safeJS $pdf_id }}').textContent = num;
+    }
 
-    // Espera a que la renderización termine
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      if (pageNumPending !== null) {
-        // Si hay una página pendiente de renderizar, la renderiza
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
+    function queueRenderPage(num) {
+        if (pageRendering) {
+            pageNumPending = num;
+        } else {
+            renderPage(num);
+        }
+    }
+
+    function onPrevPage() {
+        if (pageNum <= 1) {
+            return;
+        }
+        pageNum--;
+        queueRenderPage(pageNum);
+    }
+
+    function onNextPage() {
+        if (pageNum >= pdfDoc.numPages) {
+            return;
+        }
+        pageNum++;
+        queueRenderPage(pageNum);
+    }
+
+    if (hidePaginator === "true") {
+        document.getElementById("paginator_{{ safeJS $pdf_id }}").style.display = 'none';
+    }
+
+    document.getElementById('prev_{{ safeJS $pdf_id }}').addEventListener('click', onPrevPage);
+    document.getElementById('next_{{ safeJS $pdf_id }}').addEventListener('click', onNextPage);
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+        pdfDoc = pdfDoc_;
+        document.getElementById('page_count_{{ safeJS $pdf_id }}').textContent = pdfDoc.numPages;
+        renderPage(pageNum);
     });
-  });
-
-  // Actualiza los contadores de página
-  document.getElementById('page_num_{{ safeJS $pdf_id }}').textContent = num;
-}
-
-// Si hay otra página en proceso de renderizado, espera a que termine. De lo contrario, renderiza la página inmediatamente
-function queuerenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-// Opcionalmente oculta el paginador
-if (hidePaginator == "true") {
-  document.getElementById("paginator_{{ safeJS $pdf_id }}").style.display = 'none';
-}
-
-// Muestra la página anterior
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queuerenderPage(pageNum);
-}
-document.getElementById('prev_{{ safeJS $pdf_id }}').addEventListener('click', onPrevPage);
-
-// Muestra la página siguiente
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queuerenderPage(pageNum);
-}
-document.getElementById('next_{{ safeJS $pdf_id }}').addEventListener('click', onNextPage);
-
-// Descarga el PDF asincronamente
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  document.getElementById('page_count_{{ safeJS $pdf_id }}').textContent = pdfDoc.numPages;
-
-  // Renderiza la primera página
-  renderPage(pageNum);
 });
-})
 
 </script>
+
+<div class="mt-auto mb-4">
+    <div class="pdf-paginator d-flex justify-content-center pdf-head" id="paginator_{{- $pdf_id -}}">
+        <button class="btn btn-primary" id="prev_{{- $pdf_id -}}">Anterior</button>
+        <div class="paginas">
+            <span>Página: <span id="page_num_{{- $pdf_id -}}"></span> / <span id="page_count_{{- $pdf_id -}}"></span></span>
+        </div>
+        <button class="btn btn-primary" id="next_{{- $pdf_id -}}">Siguiente</button>
+        <a href="{{ $pdf_url }}" target="_blank" rel="noopener noreferrer">
+            <button class="btn btn-secondary" id="download_{{- $pdf_id -}}">Descargar</button>
+        </a>
+    </div>
+    <div id="embed-pdf-container_{{- $pdf_id -}}" class="container-fluid mt-4">
+        <div class="row justify-content-md-center">
+            <canvas class="pdf-canvas pdf-cae col-md-auto" id="the-canvas_{{- $pdf_id -}}"></canvas>
+        </div>
+    </div>
+</div>
