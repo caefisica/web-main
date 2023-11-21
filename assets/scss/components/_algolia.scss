@@ -421,8 +421,7 @@
   background-color: white;
   max-height: 650px;
   max-height: var(--aa-panel-max-height);
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden auto;
   z-index: 1200;
 
   &::-webkit-scrollbar {

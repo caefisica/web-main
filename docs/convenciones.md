@@ -9,7 +9,7 @@ Para facilitar la navegación, se recomienda seguir una nomenclatura consistente
 Adicionalmente, puedes acceder a la dirección en GitHub de cada archivo a través del menú ubicado al final de la página de la guía o nota de clase en particular. Deberías encontrar algo similar a esto:
 
 <p align="center">
-<img src="https://i.imgur.com/CIobd1U.png" width=60% height=60%>
+<img src="https://i.imgur.com/CIobd1U.png" alt="Captura de pantalla mostrando el pie de página de documentación con iconos y texto que indica la última fecha de modificación como el 19 de octubre de 2022, y una opción para editar la página." width=60% height=60%>
 </p>
 
 ## Formato del texto
