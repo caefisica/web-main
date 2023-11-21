@@ -99,7 +99,7 @@ window.addEventListener("load", function() {
         </div>
         <button class="btn btn-primary" id="next_{{- $pdf_id -}}">Siguiente</button>
         <a href="{{ $pdf_url }}" target="_blank" rel="noopener noreferrer">
-            <button class="btn btn-secondary" id="download_{{- $pdf_id -}}">Descargar</button>
+            <button class="btn btn-secondary h-100 d-none d-sm-block" id="download_{{- $pdf_id -}}">Descargar</button>
         </a>
     </div>
     <div id="embed-pdf-container_{{- $pdf_id -}}" class="container-fluid mt-4">
