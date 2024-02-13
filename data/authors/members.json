@@ -28,7 +28,6 @@
     "url": "/contributors/alvaro/",
     "funcion": "Académicos",
     "role": "Academics",
-    "data": "3",
     "avatar": "main",
     "description": "Encargado del área académica."
   },
@@ -39,7 +38,7 @@
     "url": "/contributors/liuba/",
     "funcion": "Comunicaciones",
     "role": "Communications",
-    "data": "4",
+    "data": "3",
     "avatar": "main",
     "description": "Miembro en el área de diseño."
   },
@@ -49,7 +48,7 @@
     "image": "/images/member/andrea.webp",
     "funcion": "Diseño",
     "role": "Creative",
-    "data": "5",
+    "data": "4",
     "avatar": "2",
     "description": "Miembro en el área de diseño."
   },
@@ -60,7 +59,7 @@
     "image": "/images/member/richard.webp",
     "funcion": "Edición",
     "role": "Editorial",
-    "data": "6",
+    "data": "5",
     "avatar": "main",
     "description": "Miembro en el área de redacción."
   },
@@ -71,7 +70,7 @@
     "funcion": "Diseño",
     "role": "Creative",
     "avatar": "main",
-    "data": "7",
+    "data": "6",
     "description": "Miembro en el área de diseño."
   },
   {
@@ -90,7 +89,7 @@
     "url": "/contributors/nelson/",
     "funcion": "Marketing",
     "role": "Creative",
-    "data": "9",
+    "data": "7",
     "avatar": "main",
     "description": "Miembro en el área de comunicaciones."
   }
