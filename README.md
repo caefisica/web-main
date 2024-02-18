@@ -1,4 +1,4 @@
-# Documentación del CAE-Física 💻 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
+# Documentación del @caefisica 💻 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 | Publicación y CI | Calidad del código | Monitoreo |
 | --------------- | ------------------ | --------- |
@@ -20,7 +20,7 @@ Bienvenidos al repositorio de la documentación de cada curso del Plan de Estudi
 
 ## Nosotros
 
-El Centro de Apoyo al Estudiante de Física (CAE-Física) es un grupo de estudiantes universitarios de física enfocados en ayudar a otros estudiantes de física. Nuestro objetivo es proporcionar recursos y apoyo de alta calidad para ayudar a los estudiantes a tener éxito en sus estudios.
+El Centro de Apoyo al Estudiante de Física (@caefisica) es un grupo de estudiantes universitarios de física enfocados en ayudar a otros estudiantes de física. Nuestro objetivo es proporcionar recursos y apoyo de alta calidad para ayudar a los estudiantes a tener éxito en sus estudios.
 
 ### Colaboradores
 

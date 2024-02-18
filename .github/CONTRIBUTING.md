@@ -1,6 +1,6 @@
 # Contribuir
 
-Gracias por considerar contribuir al repositorio de la página web del CAE-Física. Agradecemos y apreciamos cualquier contribución, ya sea grande o pequeña.
+Gracias por considerar contribuir al repositorio de la página web del @caefisica. Agradecemos y apreciamos cualquier contribución, ya sea grande o pequeña.
 
 ## ¿Cómo puedo contribuir?
 
@@ -47,7 +47,7 @@ _Prerrequisitos_: Git y tener una cuenta en GitHub.
     git push
     ```
 
-4. Ve a la sección de "[Pull requests](https://github.com/caefisica/web/pulls)" en el repositorio del CAE-Física:
+4. Ve a la sección de "[Pull requests](https://github.com/caefisica/web/pulls)" en el repositorio del @caefisica:
 
     <img src="https://i.imgur.com/T5Gacvf.png" alt="Botón de Pull Requests en Github" height="125">
 

@@ -25,7 +25,7 @@ ignore:
     - https://vrip.unmsm.edu.pe/* 
 
     - https://www.ilectureonline.com/*
-    - http://www.bne.es # Problemas de firma (UNABLE_TO_VERIFY_LEAF_SIGNATURE)
+    - http://www.bne.es/* # Problemas de firma (UNABLE_TO_VERIFY_LEAF_SIGNATURE)
     - https://www.doitpoms.ac.uk/*
     - https://annas-archive.org/
     - https://www.fuw.edu.pl/faculty-of-physics-home.html

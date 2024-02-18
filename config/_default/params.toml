@@ -68,7 +68,7 @@ imageAddClass = "img-fluid lazyload blur-up"
 footer = "Un proyecto del Centro de Apoyo al Estudiante de Física"
 
 # Feed
-copyRight = "Copyright (c) 2023 CAE-Física"
+copyRight = "Copyright (c) 2023 @caefisica"
 
 # Alert
 alert = false

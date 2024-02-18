@@ -1,6 +1,6 @@
 # Código de conducta
 
-En el CAE-Física nos comprometemos a crear un entorno acogedor e inclusivo para todos los miembros de nuestra comunidad. Esperamos que todos los participantes en nuestro repositorio se adhieran al siguiente Código de Conducta:
+En el [@caefisica](https://linktr.ee/caefisica) nos comprometemos a crear un entorno acogedor e inclusivo para todos los miembros de nuestra comunidad. Esperamos que todos los participantes en nuestro repositorio se adhieran al siguiente Código de Conducta:
 
 1. Respeto: Tratamos a todos los miembros de la comunidad con respeto y consideración. No se tolerará ningún tipo de acoso o discriminación.
 2. Integridad: Esperamos que todos los miembros de la comunidad actúen con integridad y ética en su contribución al proyecto.

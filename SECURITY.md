@@ -13,7 +13,7 @@
 
 ## Informes de problemas de seguridad
 
-El equipo del Centro de Apoyo al Estudiante de Física (CAE-Física) se toma muy en serio los problemas de seguridad en nuestro sitio web. Agradecemos tus esfuerzos para revelar de manera responsable tus hallazgos y haremos todo lo posible para reconocer tus contribuciones.
+El equipo del Centro de Apoyo al Estudiante de Física (@caefisica) se toma muy en serio los problemas de seguridad en nuestro sitio web. Agradecemos tus esfuerzos para revelar de manera responsable tus hallazgos y haremos todo lo posible para reconocer tus contribuciones.
 
 ### Qué reportar
 
@@ -42,7 +42,7 @@ Nos comprometemos a proteger la privacidad de los(as) investigadores de segurida
 
 ## Security Issue Reports
 
-The Centro de Apoyo al Estudiante de Física (CAE-Física) team takes security issues on our website very seriously. We appreciate your efforts to responsibly disclose your findings, and we will do our best to recognize your contributions.
+The Centro de Apoyo al Estudiante de Física (@caefisica) team takes security issues on our website very seriously. We appreciate your efforts to responsibly disclose your findings, and we will do our best to recognize your contributions.
 
 ### What to Report
 
