@@ -9,6 +9,6 @@ images: ["/images/member/david.webp"]
 
 Estudiante de ciencias físicas interesado en la física de la materia condensada y computacional. Actualmente me encuentro desarrollando mis habilidades en Python y análisis de datos para investigar las propiedades y el comportamiento de la materia a nanoescala.
 
-Actualmente soy el coordinador del CAE-Física. Entre mis funciones están la organización de proyectos, supervisión, redacción y desarrollo del sitio web del grupo.
+Actualmente soy el coordinador del @caefisica. Entre mis funciones están la organización de proyectos, supervisión, redacción y desarrollo del sitio web del grupo.
 
 Puedes seguirme en Twitter si deseas, me encuentro como @totallynotdavid
