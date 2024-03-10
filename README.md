@@ -42,13 +42,13 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 
 **Estrategia de priorización**
 - Ahora:
-    [X] Construir una serie de canales de información en redes sociales ([Facebook](https://facebook.com/caefisica), [Instagram](https://www.instagram.com/caefisica), WhatsApp público).
-    [X] Prototipar y desarrollar la [versión inicial de la web](https://caefisica.com/) con documentación limitada al Plan de Estudios 2018.
-    [X] Compartir oportunidades y becas a través del grupo de WhatsApp público.
+  - [X] Construir una serie de canales de información en redes sociales ([Facebook](https://facebook.com/caefisica), [Instagram](https://www.instagram.com/caefisica), WhatsApp público).
+  - [X] Prototipar y desarrollar la [versión inicial de la web](https://caefisica.com/) con documentación limitada al Plan de Estudios 2018.
+  - [X] Compartir oportunidades y becas a través del grupo de WhatsApp público.
 - Siguiente:
-    [ ] Consolidar la información a través de grupos de WhatsApp divididos por categorías (oportunidades, artículos científicos, física de altas energías, etc).
-    [ ] Añadir apuntes de clase en formato LaTeX transcritas de notas publicadas por profesores de la facultad. Véase [caefisica/NotasTeX](https://github.com/caefisica/NotasTeX).
-    [ ] Implementar las partes necesarias para escalar la página web a otros planes de estudio dentro y fuera de la facultad.
+  - [ ] Consolidar la información a través de grupos de WhatsApp divididos por categorías (oportunidades, artículos científicos, física de altas energías, etc).
+  - [ ] Añadir apuntes de clase en formato LaTeX transcritas de notas publicadas por profesores de la facultad. Véase [caefisica/NotasTeX](https://github.com/caefisica/NotasTeX).
+  - [ ] Implementar las partes necesarias para escalar la página web a otros planes de estudio dentro y fuera de la facultad.
 - Después - Añadir funcionalidades terciarias.
 
 | Fase | Prioridades |
