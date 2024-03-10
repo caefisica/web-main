@@ -193,6 +193,9 @@ content:
         type: text
         options:
           autoresize: true
+      - name: link
+        label: Enlace
+        type: string
       - name: body
         label: Cuerpo
         type: rich-text
