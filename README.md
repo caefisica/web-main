@@ -30,17 +30,20 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 **Nuestra misión** es mantener diversos canales de información en beneficio de nuestra comunidad estudiantil.
 
 **Nuestros principales resultados** a futuro son:
+
 - Mejorar significativamente la comunicación y accesibilidad del material de estudio disponible.
 - Lograr que todos puedan encontrar y utilizar la información necesaria para tomar decisiones informadas.
 - Establecer un sistema sostenible y acorde a las necesidades de nuestra comunidad.
 
 **El público objetivo** a futuro es:
+
 - Dentro de la UNMSM - Estudiantes y docentes de la E.P. de Física.
 - Fuera de la UNMSM - Comunidad universitaria de habla castellana.
 
 ## Estrategia y plan 🤔
 
-**Estrategia de priorización**
+### Estrategia de priorización
+
 - Ahora:
   - [X] Construir una serie de canales de información en redes sociales ([Facebook](https://facebook.com/caefisica), [Instagram](https://www.instagram.com/caefisica), WhatsApp público).
   - [X] Prototipar y desarrollar la [versión inicial de la web](https://caefisica.com/) con documentación limitada al Plan de Estudios 2018.
@@ -78,7 +81,7 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 
 ## Dominio público
 
-Este proyecto se encuentra bajo la [licencia MIT](LICENCE), lo que significa que es de código abierto y cualquier persona puede utilizarlo, modificarlo y distribuirlo libremente. 
+Este proyecto se encuentra bajo la [licencia MIT](LICENCE), lo que significa que es de código abierto y cualquier persona puede utilizarlo, modificarlo y distribuirlo libremente.
 
 ## Contribuciones de la comunidad
 
