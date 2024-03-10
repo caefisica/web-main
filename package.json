@@ -36,8 +36,7 @@
     "lint": "npm run -s lint:scripts && npm run -s lint:styles && npm run -s lint:markdown",
     "lint:scripts": "eslint assets/js config functions",
     "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
-    "lint:markdown": "markdownlint-cli2 \"*.md\" \".github/*.md\" \"content/**/*.md\" \"docs/*.md\"",
-    "lint:markdown:fix": "pnpm run -s lint:markdown -- --fix",
+    "lint:markdown": "markdownlint-cli2 \"**/*.md\" \"!node_modules/**\"",
 
     "test": "npm run -s lint",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
