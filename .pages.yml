@@ -27,6 +27,14 @@ content:
       - name: featured
         label: Destacado
         type: boolean
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media
+            extensions: [ jpg, jpeg, png ]
     format: yaml-frontmatter
 
   - name: apuntes
@@ -62,6 +70,14 @@ content:
       - name: weight
         label: Orden
         type: number
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/apuntes
+            extensions: [ jpg, jpeg, png ]
     view:
       fields: [ title, description ]
       primary: title
@@ -99,7 +115,7 @@ content:
         list: true
         type: string
       - name: cover
-        label: Imagen de Portada
+        label: Imagen de portada
         type: image
         options:
           path: content/media/blog
@@ -135,6 +151,14 @@ content:
         type: text
         options:
           autoresize: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/contacto
+            extensions: [ jpg, jpeg, png ]
     format: yaml-frontmatter
 
   - name: contributors
@@ -156,6 +180,14 @@ content:
         type: text
         options:
           autoresize: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/contributors
+            extensions: [ jpg, jpeg, png ]
     view:
       fields: [ name, role ]
       primary: name
@@ -175,27 +207,17 @@ content:
         type: text
         options:
           autoresize: true
-      - name: code
-        label: Código
-        type: code
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/experimental
+            extensions: [ jpg, jpeg, png ]
     view:
       fields: [ title ]
       primary: title
-    format: yaml-frontmatter
-
-  - name: functionalities
-    label: Funcionalidades
-    type: file
-    path: content/functionalities/_index.md
-    fields:
-      - name: title
-        label: Título
-        type: string
-      - name: description
-        label: Descripción
-        type: text
-        options:
-          autoresize: true
     format: yaml-frontmatter
 
   - name: nosotros
@@ -211,6 +233,14 @@ content:
         type: text
         options:
           autoresize: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/nosotros
+            extensions: [ jpg, jpeg, png ]
     format: yaml-frontmatter
 
   - name: privacidad
@@ -226,6 +256,14 @@ content:
         type: text
         options:
           autoresize: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/privacidad
+            extensions: [ jpg, jpeg, png ]
     format: yaml-frontmatter
 
   - name: unmsm
@@ -253,6 +291,14 @@ content:
                 label: parent
                 type: string
         required: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/unmsm
+            extensions: [ jpg, jpeg, png ]
     view:
       fields: [ title, description ]
       primary: title
