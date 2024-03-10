@@ -121,6 +121,13 @@ Algunas formas en las que puedes colaborar son:
 
 Todas las contribuciones son bienvenidas, ¡no importa su tamaño! Juntos podemos construir un increíble repositorio de recursos para beneficiar a toda la comunidad estudiantil. Si necesitas ayuda, no dudes en contactarnos. ¡Esperamos tus aportes!
 
+## Tech Stack
+
+Tipo: Headless CSS (Pages CMS)
+Lenguajes y frameworks: Hugo, Bootstrap, SCSS, Golang
+
+Puedes encontrar más detalles sobre cómo ejecutar este repositorio localmente, visita [CONTRIBUTING](.github/CONTRIBUTING.md).
+
 ---
 
 Redactado por David Duran, _coordinador general del @caefisica (2022-Actualidad)_
