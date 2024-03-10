@@ -3,7 +3,6 @@
   "version": "0.9.6",
   "private": true,
   "author": "David Duran <contacto@altmails.com> (https://totallynotdavid.github.io/)",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/caefisica/web.git"
@@ -18,13 +17,11 @@
   "browserslist": [
     "defaults"
   ],
-
   "scripts": {
     "init": "shx rm -rf .git && git init -b master",
     "clean": "npm run clean:build && npm run clean:packages",
     "clean:build": "shx rm -rf public resources",
     "clean:packages": "shx rm -rf node_modules pnpm-lock.yaml",
-  
     "hugo:create": "exec-bin node_modules/.bin/hugo/hugo new",
     "hugo:start": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender",
     "hugo:start:lan": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --baseURL=http://192.168.18.48 --port=1313",
@@ -32,19 +29,16 @@
     "hugo:build:lan": "exec-bin node_modules/.bin/hugo/hugo --gc --minify --baseURL=http://192.168.18.48",
     "hugo:build:preview": "npm run build -D -F",
     "hugo:version": "exec-bin node_modules/.bin/hugo/hugo version",
-
     "lint": "npm run -s lint:scripts && npm run -s lint:styles && npm run -s lint:markdown",
     "lint:scripts": "eslint assets/js config functions",
     "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
     "lint:markdown": "markdownlint-cli2 \"**/*.md\" \"!node_modules/**\"",
-
     "test": "npm run -s lint",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "serve": "netlify functions:serve"
   },
-
   "devDependencies": {
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.9",
@@ -76,6 +70,6 @@
     "stylelint-config-standard-scss": "^11.1.0"
   },
   "otherDependencies": {
-    "hugo": "0.114.1"
+    "hugo": "0.123.8"
   }
 }
