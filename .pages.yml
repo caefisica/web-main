@@ -18,9 +18,6 @@ content:
         type: text
         options:
           autoresize: true
-      - name: menu
-        label: Entrada de menú
-        type: string
       - name: image
         label: Imagen
         type: image
@@ -36,54 +33,6 @@ content:
             path: content/media
             extensions: [ jpg, jpeg, png ]
     format: yaml-frontmatter
-
-  - name: apuntes
-    label: Apuntes
-    type: collection
-    path: content/apuntes
-    fields:
-      - name: title
-        label: Título
-        type: string
-      - name: description
-        label: Descripción
-        type: string
-      - name: menu
-        label: Entrada de menú
-        type: string
-      - name: featured
-        label: Destacado
-        type: boolean
-      - name: contributors
-        label: Colaboradores
-        list: true
-        type: string
-      - name: pdf
-        label: Uso de PDF
-        type: boolean
-      - name: math
-        label: Uso de LaTeX
-        type: boolean
-      - name: draft
-        label: Borrador
-        type: boolean
-      - name: weight
-        label: Orden
-        type: number
-      - name: body
-        label: Cuerpo
-        type: rich-text
-        options:
-          format: markdown
-          image:
-            path: content/media/apuntes
-            extensions: [ jpg, jpeg, png ]
-    view:
-      fields: [ title, description ]
-      primary: title
-      sort: [ weight ]
-    format: yaml-frontmatter
-    subfolders: true
 
   - name: blog
     label: Blog
@@ -135,128 +84,61 @@ content:
     format: yaml-frontmatter
     subfolders: true
 
-  - name: contacto
-    label: Contacto
-    type: file
-    path: content/contacto/_index.md
+  - name: apuntes
+    label: Apuntes
+    type: collection
+    path: content/apuntes
     fields:
       - name: title
         label: Título
         type: string
-      - name: subtitle
-        label: Subtítulo
-        type: string
       - name: description
         label: Descripción
-        type: text
-        options:
-          autoresize: true
+        type: string
+      - name: menu
+        label: Entrada de menú
+        type: object
+        fields:
+          - name: cursos
+            label: cursos
+            type: object
+            fields:
+              - name: parent
+                label: parent
+                type: string
+      - name: featured
+        label: Destacado
+        type: boolean
+      - name: contributors
+        label: Colaboradores
+        list: true
+        type: string
+      - name: pdf
+        label: Uso de PDF
+        type: boolean
+      - name: math
+        label: Uso de LaTeX
+        type: boolean
+      - name: draft
+        label: Borrador
+        type: boolean
+      - name: weight
+        label: Orden
+        type: number
       - name: body
         label: Cuerpo
         type: rich-text
         options:
           format: markdown
           image:
-            path: content/media/contacto
-            extensions: [ jpg, jpeg, png ]
-    format: yaml-frontmatter
-
-  - name: contributors
-    label: Colaboradores
-    type: collection
-    path: content/contributors
-    fields:
-      - name: name
-        label: Nombre
-        type: string
-      - name: description
-        label: Descripción
-        type: text
-      - name: body
-        label: Cuerpo
-        type: rich-text
-        options:
-          format: markdown
-          image:
-            path: content/media/contributors
+            path: content/media/apuntes
             extensions: [ jpg, jpeg, png ]
     view:
-      fields: [ name, role ]
-      primary: name
+      fields: [ title, description ]
+      primary: title
+      sort: [ weight ]
     format: yaml-frontmatter
     subfolders: true
-
-  - name: experimental
-    label: Experimental
-    type: collection
-    path: content/experimental
-    fields:
-      - name: title
-        label: Título
-        type: string
-      - name: description
-        label: Descripción
-        type: text
-        options:
-          autoresize: true
-      - name: body
-        label: Cuerpo
-        type: rich-text
-        options:
-          format: markdown
-          image:
-            path: content/media/experimental
-            extensions: [ jpg, jpeg, png ]
-    view:
-      fields: [ title ]
-      primary: title
-    format: yaml-frontmatter
-
-  - name: nosotros
-    label: Nosotros
-    type: file
-    path: content/nosotros/index.md
-    fields:
-      - name: title
-        label: Título
-        type: string
-      - name: description
-        label: Descripción
-        type: text
-        options:
-          autoresize: true
-      - name: body
-        label: Cuerpo
-        type: rich-text
-        options:
-          format: markdown
-          image:
-            path: content/media/nosotros
-            extensions: [ jpg, jpeg, png ]
-    format: yaml-frontmatter
-
-  - name: privacidad
-    label: Privacidad
-    type: file
-    path: content/privacidad/index.md
-    fields:
-      - name: title
-        label: Título
-        type: string
-      - name: description
-        label: Descripción
-        type: text
-        options:
-          autoresize: true
-      - name: body
-        label: Cuerpo
-        type: rich-text
-        options:
-          format: markdown
-          image:
-            path: content/media/privacidad
-            extensions: [ jpg, jpeg, png ]
-    format: yaml-frontmatter
 
   - name: unmsm
     label: UNMSM
@@ -296,3 +178,126 @@ content:
       primary: title
     format: yaml-frontmatter
     subfolders: true
+
+  - name: experimental
+    label: Experimental
+    type: collection
+    path: content/experimental
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+        options:
+          autoresize: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/experimental
+            extensions: [ jpg, jpeg, png ]
+    view:
+      fields: [ title ]
+      primary: title
+    format: yaml-frontmatter
+
+  - name: contributors
+    label: Colaboradores
+    type: collection
+    path: content/contributors
+    fields:
+      - name: name
+        label: Nombre
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/contributors
+            extensions: [ jpg, jpeg, png ]
+    view:
+      fields: [ name, role ]
+      primary: name
+    format: yaml-frontmatter
+    subfolders: true
+
+  - name: nosotros
+    label: Nosotros
+    type: file
+    path: content/nosotros/index.md
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+        options:
+          autoresize: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/nosotros
+            extensions: [ jpg, jpeg, png ]
+    format: yaml-frontmatter
+
+  - name: contacto
+    label: Contacto
+    type: file
+    path: content/contacto/_index.md
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: subtitle
+        label: Subtítulo
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+        options:
+          autoresize: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/contacto
+            extensions: [ jpg, jpeg, png ]
+    format: yaml-frontmatter
+
+  - name: privacidad
+    label: Privacidad
+    type: file
+    path: content/privacidad/index.md
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+        options:
+          autoresize: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/privacidad
+            extensions: [ jpg, jpeg, png ]
+    format: yaml-frontmatter
