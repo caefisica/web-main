@@ -9,7 +9,7 @@ httpsOnly: false
 pullRequestReview: true
 
 # Lista de URLs que serán ignoradas por la acción, ya que suelen presentar problemas de conexión o de bloqueo.
-ignore: 
+ignore:
   urls:
     # Dominios de Sci-Hub suele estar bloqueados
     - https://sci-hub.se/
@@ -19,10 +19,10 @@ ignore:
     - https://libgen.li/ # Problemas de tiempo de espera (ETIMEDOUT)
     - https://b-ok.cc/
 
-    # Ignoramos todas las URLs del VRIP usando un comodín. 
+    # Ignoramos todas las URLs del VRIP usando un comodín.
     # Esto se debe a que existen múltiples enlaces hacia distintos grupos de investigación dentro de este dominio,
     # y frecuentemente se encuentran problemas como errores de conexión o enlaces desactualizados.
-    - https://vrip.unmsm.edu.pe/* 
+    - https://vrip.unmsm.edu.pe/*
 
     - https://www.ilectureonline.com/*
     - http://www.bne.es/* # Problemas de firma (UNABLE_TO_VERIFY_LEAF_SIGNATURE)
@@ -36,3 +36,4 @@ ignore:
 delay:
   'https://gitlab.com': 500
   'https://facebook.com': 1000
+  'https://web.archive.org/': 1000
