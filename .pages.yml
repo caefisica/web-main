@@ -18,12 +18,30 @@ content:
         type: text
         options:
           autoresize: true
-      - name: image
-        label: Imagen
-        type: image
-      - name: featured
-        label: Destacado
+      - name: lead
+        label: Descripción corta
+        type: string
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: draft
+        label: Borrador
         type: boolean
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
       - name: body
         label: Cuerpo
         type: rich-text
@@ -47,6 +65,9 @@ content:
         type: text
         options:
           autoresize: true
+      - name: lead
+        label: Descripción corta
+        type: string
       - name: date
         label: Fecha
         type: date
@@ -61,9 +82,21 @@ content:
           time: true
           format: "YYYY-MM-DDTHH:mm:ssZ"
         required: true
-      - name: featured
-        label: Destacado
-        type: boolean
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
+      - name: thumbnail
+        label: Miniatura
+        type: image
+        list: true
+      - name: contributors
+        label: Colaboradores
+        list: true
+        type: string
+      - name: author_id
+        label: Autor
+        type: string
       - name: draft
         label: Borrador
         type: boolean
@@ -71,12 +104,12 @@ content:
         label: Etiquetas
         list: true
         type: string
-      - name: cover
-        label: Imagen de portada
-        type: image
-        options:
-          path: content/media/blog
-          extensions: [ jpg, jpeg, png ]
+      - name: toc
+        label: Tabla de contenidos
+        type: boolean
+      - name: weight
+        label: Orden
+        type: number
       - name: body
         label: Cuerpo
         type: rich-text
