@@ -169,17 +169,9 @@ content:
       - name: name
         label: Nombre
         type: string
-      - name: role
-        label: Rol
-        type: string
-      - name: image
-        label: Imagen
-        type: image
       - name: description
         label: Descripción
         type: text
-        options:
-          autoresize: true
       - name: body
         label: Cuerpo
         type: rich-text
