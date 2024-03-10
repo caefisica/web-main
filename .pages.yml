@@ -6,24 +6,24 @@ media:
 
 content:
   - name: _index
-    label: Home
+    label: Inicio
     type: file
     path: content/_index.md
     fields:
       - name: title
-        label: Title
+        label: Título
         type: string
       - name: description
-        label: Description
+        label: Descripción
         type: string
       - name: menu
-        label: Menu Entry
+        label: Entrada de menú
         type: string
       - name: image
-        label: Image
+        label: Imagen
         type: image
       - name: featured
-        label: Featured
+        label: Destacado
         type: boolean
     extension: md
     format: yaml-frontmatter
@@ -34,32 +34,32 @@ content:
     path: content/apuntes
     fields:
       - name: title
-        label: Title
+        label: Título
         type: string
       - name: description
-        label: Description
+        label: Descripción
         type: string
       - name: menu
-        label: Menu Entry
+        label: Entrada de menú
         type: string
       - name: featured
-        label: Featured
+        label: Destacado
         type: boolean
       - name: contributors
-        label: Contributors
+        label: Colaboradores
         list: true
         type: string
       - name: pdf
-        label: PDF Available
+        label: Uso de PDF
         type: boolean
       - name: math
-        label: Math Rendered
+        label: Uso de LaTeX
         type: boolean
       - name: draft
-        label: Draft
+        label: Borrador
         type: boolean
       - name: weight
-        label: Weight
+        label: Orden
         type: number
     view:
       fields: [ title, description ]
@@ -75,35 +75,35 @@ content:
     path: content/blog
     fields:
       - name: title
-        label: Title
+        label: Título
         type: string
       - name: description
-        label: Description
+        label: Descripción
         type: string
       - name: date
-        label: Date
+        label: Fecha
         type: date
         options:
           format: DD/MM/YYYY
           time: true
       - name: featured
-        label: Featured
+        label: Destacado
         type: boolean
       - name: draft
-        label: Draft
+        label: Borrador
         type: boolean
       - name: tags
-        label: Tags
+        label: Etiquetas
         list: true
         type: string
       - name: cover
-        label: Cover Image
+        label: Imagen de Portada
         type: image
         options:
           path: content/media/blog
           extensions: [ jpg, jpeg, png ]
       - name: body
-        label: Body
+        label: Cuerpo
         type: rich-text
         options:
           format: markdown
@@ -124,33 +124,33 @@ content:
     path: content/contacto/_index.md
     fields:
       - name: title
-        label: Title
+        label: Título
         type: string
       - name: subtitle
-        label: Subtitle
+        label: Subtítulo
         type: string
       - name: description
-        label: Description
+        label: Descripción
         type: string
     extension: md
     format: yaml-frontmatter
 
   - name: contributors
-    label: Contributors
+    label: Colaboradores
     type: collection
     path: content/contributors
     fields:
       - name: name
-        label: Name
+        label: Nombre
         type: string
       - name: role
-        label: Role
+        label: Rol
         type: string
       - name: image
-        label: Image
+        label: Imagen
         type: image
       - name: description
-        label: Description
+        label: Descripción
         type: string
     view:
       fields: [ name, role ]
@@ -165,13 +165,13 @@ content:
     path: content/experimental
     fields:
       - name: title
-        label: Title
+        label: Título
         type: string
       - name: description
-        label: Description
+        label: Descripción
         type: string
       - name: code
-        label: Code
+        label: Código
         type: code
     view:
       fields: [ title ]
@@ -180,15 +180,15 @@ content:
     format: yaml-frontmatter
 
   - name: functionalities
-    label: Functionalities
+    label: Funcionalidades
     type: file
     path: content/functionalities/_index.md
     fields:
       - name: title
-        label: Title
+        label: Título
         type: string
       - name: description
-        label: Description
+        label: Descripción
         type: string
     extension: md
     format: yaml-frontmatter
@@ -199,10 +199,10 @@ content:
     path: content/nosotros/index.md
     fields:
       - name: title
-        label: Title
+        label: Título
         type: string
       - name: description
-        label: Description
+        label: Descripción
         type: string
     extension: md
     format: yaml-frontmatter
@@ -213,24 +213,24 @@ content:
     path: content/privacidad/index.md
     fields:
       - name: title
-        label: Title
+        label: Título
         type: string
       - name: description
-        label: Description
+        label: Descripción
         type: string
     extension: md
     format: yaml-frontmatter
 
   - name: types
-    label: Types
+    label: Tipos
     type: file
     path: content/types/_index.md
     fields:
       - name: title
-        label: Title
+        label: Título
         type: string
       - name: description
-        label: Description
+        label: Descripción
         type: string
     extension: md
     format: yaml-frontmatter
@@ -241,17 +241,17 @@ content:
     path: content/unmsm
     fields:
       - name: title
-        label: Title
+        label: Título
         type: string
       - name: description
-        label: Description
+        label: Descripción
         type: string
       - name: menu
-        label: Menu Entry
+        label: Entrada de menú
         type: string
         required: true
       - name: rating
-        label: Rating
+        label: Calificación
         type: number
         options:
           min: 1
@@ -270,70 +270,71 @@ content:
     path: content/unmsm/pregrado
     fields:
       - name: title
-        label: Title
+        label: Título
         type: string
       - name: description
-        label: Description
+        label: Descripción
         type: text
         options:
           minlength: 100
+          autoresize: true
       - name: id
         label: ID
         type: string
       - name: credits
-        label: Credits
+        label: Créditos
         type: number
       - name: prerrequisites
-        label: Prerequisites
+        label: Prerrequisitos
         list: true
         type: string
       - name: semester
-        label: Semester
+        label: Semestre
         type: number
       - name: contributors
-        label: Contributors
+        label: Colaboradores
         list: true
         type: string
       - name: featured
-        label: Featured
+        label: Destacado
         type: boolean
       - name: pdf
-        label: PDF Available
+        label: Uso de PDF
         type: boolean
       - name: math
-        label: Math Rendered
+        label: Uso de LaTeX
         type: boolean
       - name: draft
-        label: Draft
+        label: Borrador
         type: boolean
       - name: weight
-        label: Weight
+        label: Orden
         type: number
       - name: images
-        label: Images
+        label: Imágenes
         list: true
         type: image
         options:
           path: content/media/courses
       - name: toc
-        label: Table of Contents
+        label: Tabla de contenidos
         type: boolean
       - name: level
-        label: Level
+        label: Nivel
         type: select
         options:
           values:
             - value: basic
-              label: Basic
+              label: Básico
             - value: intermediate
-              label: Intermediate
+              label: Intermedio
             - value: advanced
-              label: Advanced
+              label: Avanzado
       - name: date
-        label: Date
+        label: Fecha
         type: date
         options:
-          format: MM/DD/YYYY
+          format: DD/MM/YYYY
           min: 01/01/2020
     view:
       fields: [ title, description, semester, id, level ]
