@@ -39,9 +39,7 @@ content:
         type: string
       - name: description
         label: Descripción
-        type: text
-        options:
-          autoresize: true
+        type: string
       - name: menu
         label: Entrada de menú
         type: string
@@ -162,7 +160,7 @@ content:
       fields: [ name, role ]
       primary: name
     format: yaml-frontmatter
-    subfolders: false
+    subfolders: true
 
   - name: experimental
     label: Experimental
