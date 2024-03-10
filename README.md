@@ -120,4 +120,4 @@ Todas las contribuciones son bienvenidas, ¡no importa su tamaño! Juntos podemo
 
 ---
 
-Redactado por David Duran, coordinador general del @caefisica (2022-Actualidad)
+Redactado por David Duran, _coordinador general del @caefisica (2022-Actualidad)_
