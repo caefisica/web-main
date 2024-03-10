@@ -10,4 +10,14 @@ table {
   .title {
     margin-top: -1px;
   }
+
+  thead {
+    position: sticky;
+    top: 0;
+
+    @include media-breakpoint-up(md) {
+      // suggested in https: //btxx.org/posts/Please_Make_Your_Table_Headings_Sticky/
+      top: 59px; // doks-subnavbar height is 59px (check _header.scss)
+    }
+  }
 }
