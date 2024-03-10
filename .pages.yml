@@ -228,21 +228,6 @@ content:
           autoresize: true
     format: yaml-frontmatter
 
-  - name: types
-    label: Tipos
-    type: file
-    path: content/types/_index.md
-    fields:
-      - name: title
-        label: Título
-        type: string
-      - name: description
-        label: Descripción
-        type: text
-        options:
-          autoresize: true
-    format: yaml-frontmatter
-
   - name: unmsm
     label: UNMSM
     type: collection
@@ -258,96 +243,18 @@ content:
           autoresize: true
       - name: menu
         label: Entrada de menú
-        type: string
+        type: object
+        fields:
+          - name: guias
+            label: guias
+            type: object
+            fields:
+              - name: parent
+                label: parent
+                type: string
         required: true
-      - name: rating
-        label: Calificación
-        type: number
-        options:
-          min: 1
-          max: 5
-          step: 0.5
     view:
-      fields: [ title, description, rating ]
+      fields: [ title, description ]
       primary: title
-    format: yaml-frontmatter
-    subfolders: true
-
-  - name: pregrado
-    label: Pregrado
-    type: collection
-    path: content/unmsm/pregrado
-    fields:
-      - name: title
-        label: Título
-        type: string
-      - name: description
-        label: Descripción
-        type: text
-        options:
-          minlength: 100
-          autoresize: true
-      - name: id
-        label: ID
-        type: string
-      - name: credits
-        label: Créditos
-        type: number
-      - name: prerrequisites
-        label: Prerrequisitos
-        list: true
-        type: string
-      - name: semester
-        label: Semestre
-        type: number
-      - name: contributors
-        label: Colaboradores
-        list: true
-        type: string
-      - name: featured
-        label: Destacado
-        type: boolean
-      - name: pdf
-        label: Uso de PDF
-        type: boolean
-      - name: math
-        label: Uso de LaTeX
-        type: boolean
-      - name: draft
-        label: Borrador
-        type: boolean
-      - name: weight
-        label: Orden
-        type: number
-      - name: images
-        label: Imágenes
-        list: true
-        type: image
-        options:
-          path: content/media/courses
-      - name: toc
-        label: Tabla de contenidos
-        type: boolean
-      - name: level
-        label: Nivel
-        type: select
-        options:
-          values:
-            - value: basic
-              label: Básico
-            - value: intermediate
-              label: Intermedio
-            - value: advanced
-              label: Avanzado
-      - name: date
-        label: Fecha
-        type: date
-        options:
-          format: DD/MM/YYYY
-          min: 01/01/2020
-    view:
-      fields: [ title, description, semester, id, level ]
-      primary: title
-      sort: [ semester, id ]
     format: yaml-frontmatter
     subfolders: true
