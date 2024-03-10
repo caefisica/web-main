@@ -224,7 +224,7 @@ content:
         options:
           min: 1
           max: 6
-      - name: prerequisites
+      - name: prerrequisites
         label: Prerrequisitos
         type: string
         list: true
