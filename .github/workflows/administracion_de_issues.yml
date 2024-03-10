@@ -1,22 +1,29 @@
 name: 💼 Administración de Issues
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 11 * * *'
+    - cron: '0 11 * * *' # Cada día a las 11:00
+
 jobs:
   MomoBot:
     name: 🤖 MomoBot
+
     runs-on: ubuntu-latest
+
     permissions:
       issues: write
       pull-requests: write
+
     strategy:
       fail-fast: false
       matrix:
         language: [ 'javascript' ]
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
       - name: Administración de Issues
         uses: totallynotdavid/Issue-Manager-Action@v3.7.3
         with:
