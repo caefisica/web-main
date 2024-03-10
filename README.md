@@ -2,8 +2,8 @@
 
 | Publicación y CI | Calidad del código | Monitoreo |
 | --------------- | ------------------ | --------- |
-| [![Netlify](https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status)](https://app.netlify.com/sites/caefis/deploys) | [![Momobot CI](https://github.com/caefisica/web/actions/workflows/node.js_ci.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/node.js_ci.yml) | [![Análisis CodeQL](https://github.com/caefisica/web/actions/workflows/analisis_codeql.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/analisis_codeql.yml) |
-| | [![Lighthouse CI](https://github.com/caefisica/web/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/lighthouse.yml) | [![🔎 Enlaces no existentes](https://github.com/caefisica/web/actions/workflows/enlaces_404.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/enlaces_404.yml) |
+| [![Cloudflare](https://img.shields.io/endpoint?url=https://cloudflare-pages-badges.cae.workers.dev/?projectName=caefisica)](https://dash.cloudflare.com/?to=/:account/pages/view/caefisica/) | [![Momobot CI](https://github.com/caefisica/web/actions/workflows/node.js_ci.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/node.js_ci.yml) | [![Análisis CodeQL](https://github.com/caefisica/web/actions/workflows/analisis_codeql.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/analisis_codeql.yml) |
+| [![Netlify](https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status)](https://app.netlify.com/sites/caefis/deploys) | [![Lighthouse CI](https://github.com/caefisica/web/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/lighthouse.yml) | [![🔎 Enlaces no existentes](https://github.com/caefisica/web/actions/workflows/enlaces_404.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/enlaces_404.yml) |
 
 ## Contexto y el núcleo del problema 🤐
 
@@ -123,8 +123,9 @@ Todas las contribuciones son bienvenidas, ¡no importa su tamaño! Juntos podemo
 
 ## Tech Stack
 
-Tipo: Headless CSS (Pages CMS)
-Lenguajes y frameworks: Hugo, Bootstrap, SCSS, Golang
+Tipo: Headless CSS ([Pages CMS](https://editor.caefisica.com/))
+Lenguajes y frameworks: [Hugo](https://github.com/gohugoio/hugo/releases/), [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/), SCSS, [Golang](https://go.dev/doc/)
+Búsqueda: [Algolia Crawler](https://crawler.algolia.com/admin/crawlers/) a través de plugins de Netlify.
 
 Puedes encontrar más detalles sobre cómo ejecutar este repositorio localmente, visita [CONTRIBUTING](.github/CONTRIBUTING.md).
 
