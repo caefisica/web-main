@@ -95,7 +95,7 @@ Aquí encontrarás una lista de documentos relacionados con el lenguaje de progr
 | Nombre | Autor | Enlace |
 | ------ | ----- | ------ |
 | Fortran 90 Tutorial | C. K. Shene | [eng](https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/fortran.html) |
-| Computational Physics | Morten Hjorth-Jensen | [eng](https://www.uio.no/studier/emner/matnat/fys/FYS4411/v14/lectures2013.pdf)
+| Computational Physics | Morten Hjorth-Jensen | [eng](https://www.uio.no/studier/emner/matnat/fys/FYS4411/v14/lectures2013.pdf) |
 | Guía de estudio de Fortran95 | Rachael Padman de la U. de Oxford | [eng](https://drive.google.com/file/d/1JQmKvYLoviuUZG4QCmyycvVKu1WYloQ9/view?usp=share_link) |
 | Fortran | David Apsley | [eng](https://web.pa.msu.edu/people/duxbury/courses/phy201_f06/Fortran90NotesI.pdf) |
 | Introducción a Fortran | Miguel Alcubierre | [spa](https://drive.google.com/file/d/1Z7hPykoWdDJU1Pz2h1o4lQIRn4hUjc2K/view?usp=drive_link) |
@@ -119,7 +119,7 @@ A continuación, se presentan algunas páginas web que brindan información adic
 | Nombre | Autor | Enlace |
 | ------ | ----- | ------ |
 | Numerical Methods for Scientists | H. M. Anthia | [eng](https://web.archive.org/web/20230609023514/https://www.tifr.res.in/~antia/nmse3.html) |
-| Fortran 90 for the Fortran 77 Programmer | Bo Einarsson & Yurij Shokin | [eng](https://ergodic.ugr.es/cphys/index.php?id=lec_fortran_html2)
+| Fortran 90 for the Fortran 77 Programmer | Bo Einarsson & Yurij Shokin | [eng](https://ergodic.ugr.es/cphys/index.php?id=lec_fortran_html2) |
 | Learning Fortran | Alvaro Siesquen | [spa](https://sites.google.com/unmsm.edu.pe/learningfortran/inicio) |
 
 ## Sílabos
