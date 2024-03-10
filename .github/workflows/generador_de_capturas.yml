@@ -3,14 +3,14 @@ name: 🖼️ Capturas de pantalla
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 0 1 * *' # Cada mes el primer día a las 00:00
 
 jobs:
   generate_screenshots:
     runs-on: ubuntu-latest
     steps:
       - name: Inicializar Github Action
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Instalar Golang
         uses: actions/setup-go@v4

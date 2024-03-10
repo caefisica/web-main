@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Inicializar Github Action
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Auditar usando Lighthouse
         uses: treosh/lighthouse-ci-action@v9

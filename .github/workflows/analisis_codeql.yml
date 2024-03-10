@@ -3,7 +3,10 @@ name: 🚓 Análisis de código
 on:
   workflow_dispatch:
   pull_request:
-    branches: [ master ]
+    paths:
+      - '/layouts/'
+      - '/assets/'
+      - '/functions/'
   push:
     branches: [ master ]
     paths:
@@ -11,7 +14,7 @@ on:
       - '/assets/'
       - '/functions/'
   schedule:
-    - cron: '0 11 * * 5'
+    - cron: '0 11 * * 5' # Viernes a las 11:00
 
 jobs:
   analyze:
