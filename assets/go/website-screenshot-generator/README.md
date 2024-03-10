@@ -10,7 +10,7 @@ Para ejecutar este script, necesitarás tener Go y el paquete chromedp instalado
 
 También necesitarás tener Google Chrome o Chromium instalado en tu sistema, ya que el script utiliza el binario de Chrome o Chromium para generar las capturas de pantalla.
 
-```
+```bash
 sudo apt update
 sudo apt install wget
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
