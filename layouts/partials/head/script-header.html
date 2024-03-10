@@ -7,7 +7,7 @@
   <script nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">{{ $alertInit.Content | safeJS }}</script>
 {{- end -}}
 {{ if eq (hugo.Environment) "production" -}}
-  <script async data-api="/_hive" src="/bee.js"></script>
+  <script async data-api="/_hive" src="https://hive.caefisica.com/sb.js"></script>
 {{ end -}}
 {{ if eq .Section "unmsm" "apuntes" "blog" "tags" -}}
   <script src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>

@@ -56,6 +56,7 @@ scriptsrc:
 - https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js
 - https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js
 - https://cdn.splitbee.io/sb.js
+- https://hive.caefisica.com/sb.js
 - https://*.netlify.app
 - https://www.youtube.com/iframe_api
 - https://www.youtube.com/s/player/
