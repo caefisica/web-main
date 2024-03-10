@@ -51,8 +51,16 @@ content:
         label: Fecha
         type: date
         options:
-          format: DD/MM/YYYY
           time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
       - name: featured
         label: Destacado
         type: boolean
@@ -96,6 +104,23 @@ content:
       - name: description
         label: Descripción
         type: string
+      - name: lead
+        label: Descripción corta
+        type: string
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
       - name: menu
         label: Entrada de menú
         type: object
@@ -222,6 +247,13 @@ content:
         type: text
       - name: date
         label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
         type: date
         options:
           time: true
