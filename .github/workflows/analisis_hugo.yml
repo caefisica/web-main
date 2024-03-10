@@ -9,6 +9,7 @@ on:
       - '/layouts/'
       - '/assets/'
       - '/functions/'
+
 jobs:
   build-unminified-site:
     runs-on: ubuntu-22.04
@@ -26,8 +27,7 @@ jobs:
     - name: "Validate HTML in output-directory"
       uses: wildtechgarden/validator-html-action@main
       with:
-        download-site-as: unminified-site-${{ matrix.post-status }}
-        output-directory: public-${{ matrix.post-status }}
+        output-directory: public
         repo-token: ${{ secrets.ISSUE_TOKEN }}
 
 #    - name: "Check internal links"
