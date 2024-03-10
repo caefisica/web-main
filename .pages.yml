@@ -123,7 +123,6 @@ content:
       primary: title
       sort: [ date, desc ]
     format: yaml-frontmatter
-    extensions: [ md ]
     subfolders: true
 
   - name: apuntes
