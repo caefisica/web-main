@@ -212,6 +212,60 @@ content:
         type: text
         options:
           autoresize: true
+      - name: lead
+        label: Descripción corta
+        type: string
+      - name: id
+        label: Código del curso
+        type: string
+      - name: credits
+        label: Créditos
+        options:
+          min: 1
+          max: 6
+      - name: prerequisites
+        label: Prerrequisitos
+        type: string
+        list: true
+      - name: semester
+        label: Semestre
+        options:
+          min: 1
+          max: 10
+      - name: contributors
+        label: Colaboradores
+        list: true
+        type: string
+      - name: featured
+        label: Destacado
+        type: boolean
+      - name: pdf
+        label: Uso de PDF
+        type: boolean
+      - name: math
+        label: Uso de LaTeX
+        type: boolean
+      - name: weight
+        label: Orden
+        type: number
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
+      - name: toc
+        label: Tabla de contenidos
+        type: boolean
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: string
+        list: true
       - name: menu
         label: Entrada de menú
         type: object
