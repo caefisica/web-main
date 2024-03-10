@@ -1,7 +1,7 @@
 media:
   input: content/media
-  output: /media
-  path: /media
+  output: media
+  path: media
   extensions: [ jpg, jpeg, png, gif, svg, pdf, doc, docx, ppt, pptx, xlsx, mp4, avi, mov, mp3, wav, aac, ogg, flac ]
 
 content:
@@ -15,7 +15,9 @@ content:
         type: string
       - name: description
         label: Descripción
-        type: string
+        type: text
+        options:
+          autoresize: true
       - name: menu
         label: Entrada de menú
         type: string
@@ -25,7 +27,6 @@ content:
       - name: featured
         label: Destacado
         type: boolean
-    extension: md
     format: yaml-frontmatter
 
   - name: apuntes
@@ -38,7 +39,9 @@ content:
         type: string
       - name: description
         label: Descripción
-        type: string
+        type: text
+        options:
+          autoresize: true
       - name: menu
         label: Entrada de menú
         type: string
@@ -65,7 +68,6 @@ content:
       fields: [ title, description ]
       primary: title
       sort: [ weight ]
-    extension: md
     format: yaml-frontmatter
     subfolders: true
 
@@ -79,7 +81,9 @@ content:
         type: string
       - name: description
         label: Descripción
-        type: string
+        type: text
+        options:
+          autoresize: true
       - name: date
         label: Fecha
         type: date
@@ -114,7 +118,6 @@ content:
       fields: [ title, date, featured ]
       primary: title
       sort: [ date, desc ]
-    extension: md
     format: yaml-frontmatter
     subfolders: true
 
@@ -131,8 +134,9 @@ content:
         type: string
       - name: description
         label: Descripción
-        type: string
-    extension: md
+        type: text
+        options:
+          autoresize: true
     format: yaml-frontmatter
 
   - name: contributors
@@ -151,11 +155,12 @@ content:
         type: image
       - name: description
         label: Descripción
-        type: string
+        type: text
+        options:
+          autoresize: true
     view:
       fields: [ name, role ]
       primary: name
-    extension: md
     format: yaml-frontmatter
     subfolders: false
 
@@ -169,14 +174,15 @@ content:
         type: string
       - name: description
         label: Descripción
-        type: string
+        type: text
+        options:
+          autoresize: true
       - name: code
         label: Código
         type: code
     view:
       fields: [ title ]
       primary: title
-    extension: md
     format: yaml-frontmatter
 
   - name: functionalities
@@ -189,8 +195,9 @@ content:
         type: string
       - name: description
         label: Descripción
-        type: string
-    extension: md
+        type: text
+        options:
+          autoresize: true
     format: yaml-frontmatter
 
   - name: nosotros
@@ -203,8 +210,9 @@ content:
         type: string
       - name: description
         label: Descripción
-        type: string
-    extension: md
+        type: text
+        options:
+          autoresize: true
     format: yaml-frontmatter
 
   - name: privacidad
@@ -217,8 +225,9 @@ content:
         type: string
       - name: description
         label: Descripción
-        type: string
-    extension: md
+        type: text
+        options:
+          autoresize: true
     format: yaml-frontmatter
 
   - name: types
@@ -231,8 +240,9 @@ content:
         type: string
       - name: description
         label: Descripción
-        type: string
-    extension: md
+        type: text
+        options:
+          autoresize: true
     format: yaml-frontmatter
 
   - name: unmsm
@@ -245,7 +255,9 @@ content:
         type: string
       - name: description
         label: Descripción
-        type: string
+        type: text
+        options:
+          autoresize: true
       - name: menu
         label: Entrada de menú
         type: string
@@ -260,7 +272,6 @@ content:
     view:
       fields: [ title, description, rating ]
       primary: title
-    extension: md
     format: yaml-frontmatter
     subfolders: true
 
@@ -340,6 +351,5 @@ content:
       fields: [ title, description, semester, id, level ]
       primary: title
       sort: [ semester, id ]
-    extension: md
     format: yaml-frontmatter
     subfolders: true
