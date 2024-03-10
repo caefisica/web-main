@@ -458,9 +458,6 @@ content:
         label: Tipo
         type: string
         list: true
-        options:
-          - "extend"
-          - "nosotros"
       - name: body
         label: Cuerpo
         type: rich-text
@@ -545,9 +542,6 @@ content:
         label: Tipo
         type: string
         list: true
-        options:
-          - "extend"
-          - "nosotros"
       - name: body
         label: Cuerpo
         type: rich-text
