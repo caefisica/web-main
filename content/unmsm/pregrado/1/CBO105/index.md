@@ -39,7 +39,7 @@ El plan de estudios incluye generalmente los siguientes temas:
 
 ### Teóricos
 
-🔸 A continuación, presentamos una lista de libros con un enfoque riguroso en los contenidos teóricos y una sección dedicada a problemas prácticos.
+A continuación, presentamos una lista de libros con un enfoque riguroso en los contenidos teóricos y una sección dedicada a problemas prácticos.
 
 {{< content_table type="book" >}}
   {{< book_row title="Álgebra-I" author="Armando O. Rojo" editorial="El Ateneo" year="1996" edition="18va ed." url="https://drive.google.com/file/d/1EH3g_psh7e8qu-MJiEGfTRUfMbozYrgg/view?usp=share_link" >}}
@@ -54,7 +54,7 @@ El plan de estudios incluye generalmente los siguientes temas:
 
 ### Teórico-prácticos
 
-🔸 Libros con poco contenido teórico, pero con bastantes ejercicios resueltos.
+Libros con poco contenido teórico, pero con bastantes ejercicios resueltos.
 
 {{< content_table type="book" >}}
   {{< book_row title="Matemática Básica (Tomo 1)" author="Moisés Lázaro" editorial="Moshera S.R.L." year="2012" edition="1ra ed." url="https://drive.google.com/file/d/101o6z8oQc3zZkjUEv9bA8iO9GwkOxWHl/view?usp=share_link" >}}
@@ -66,7 +66,7 @@ El plan de estudios incluye generalmente los siguientes temas:
 
 ### Prácticos
 
-🔸 Libros con ejercicios o problemas planteados, tienen muy poco contenido teórico.
+Libros con ejercicios o problemas planteados, tienen muy poco contenido teórico.
 
 {{< content_table type="book" >}}
   {{< book_row title="Álgebra Superior" author="Murray Spiegel y Robert Moyer" editorial="MgGraw-Hill Interamericana" year="2007" edition="3ra ed." url="https://drive.google.com/file/d/1cWW059Mln4EYRMjcn60GrFfCYqanB1Qk/view?usp=share_link" >}}

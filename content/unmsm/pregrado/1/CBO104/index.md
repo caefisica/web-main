@@ -54,7 +54,7 @@ Aquí una lista de libros con bastante contenido teórico y una sección de prob
 
 ### Teórico-prácticos
 
-🔸 Libros con poco contenido teórico, pero con bastantes ejercicios resueltos.
+Libros con poco contenido teórico, pero con bastantes ejercicios resueltos.
 
 {{< content_table type="book" >}}
   {{< book_row title="Análisis Matemático 1" author="Ricardo Figueroa" editorial="Ediciones RFG" year="2006" edition="2da ed." url="https://drive.google.com/file/d/1kQylAHeS3ILnOhxYPAqhZmJtrngfM61C/view?usp=share_link" >}}
@@ -63,7 +63,7 @@ Aquí una lista de libros con bastante contenido teórico y una sección de prob
 
 ### Práctica
 
-🔸 Libros con ejercicios o problemas planteados, tienen muy poco contenido teórico.
+Libros con ejercicios o problemas planteados, tienen muy poco contenido teórico.
 
 {{< content_table type="book" >}}
   {{< book_row title="Tópicos de Cálculo (Vol. 1)" author="Máximo Mitac y Luis Toro" editorial="Editorial THALES" year="2009" edition="3ra ed." url="https://drive.google.com/file/d/1AL7ecvLtvDJA8bOo-D8ygfikOMwNQoVN/view?usp=share_link" >}}
