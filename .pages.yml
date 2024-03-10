@@ -1,0 +1,344 @@
+media:
+  input: content/media
+  output: /media
+  path: /media
+  extensions: [ jpg, jpeg, png, gif, svg, pdf, doc, docx, ppt, pptx, xlsx, mp4, avi, mov, mp3, wav, aac, ogg, flac ]
+
+content:
+  - name: _index
+    label: Home
+    type: file
+    path: content/_index.md
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+      - name: menu
+        label: Menu Entry
+        type: string
+      - name: image
+        label: Image
+        type: image
+      - name: featured
+        label: Featured
+        type: boolean
+    extension: md
+    format: yaml-frontmatter
+
+  - name: apuntes
+    label: Apuntes
+    type: collection
+    path: content/apuntes
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+      - name: menu
+        label: Menu Entry
+        type: string
+      - name: featured
+        label: Featured
+        type: boolean
+      - name: contributors
+        label: Contributors
+        list: true
+        type: string
+      - name: pdf
+        label: PDF Available
+        type: boolean
+      - name: math
+        label: Math Rendered
+        type: boolean
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: weight
+        label: Weight
+        type: number
+    view:
+      fields: [ title, description ]
+      primary: title
+      sort: [ weight ]
+    extension: md
+    format: yaml-frontmatter
+    subfolders: true
+
+  - name: blog
+    label: Blog
+    type: collection
+    path: content/blog
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+      - name: date
+        label: Date
+        type: date
+        options:
+          format: DD/MM/YYYY
+          time: true
+      - name: featured
+        label: Featured
+        type: boolean
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: tags
+        label: Tags
+        list: true
+        type: string
+      - name: cover
+        label: Cover Image
+        type: image
+        options:
+          path: content/media/blog
+          extensions: [ jpg, jpeg, png ]
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/blog
+            extensions: [ jpg, jpeg, png ]
+    view:
+      fields: [ title, date, featured ]
+      primary: title
+      sort: [ date, desc ]
+    extension: md
+    format: yaml-frontmatter
+    subfolders: true
+
+  - name: contacto
+    label: Contacto
+    type: file
+    path: content/contacto/_index.md
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: subtitle
+        label: Subtitle
+        type: string
+      - name: description
+        label: Description
+        type: string
+    extension: md
+    format: yaml-frontmatter
+
+  - name: contributors
+    label: Contributors
+    type: collection
+    path: content/contributors
+    fields:
+      - name: name
+        label: Name
+        type: string
+      - name: role
+        label: Role
+        type: string
+      - name: image
+        label: Image
+        type: image
+      - name: description
+        label: Description
+        type: string
+    view:
+      fields: [ name, role ]
+      primary: name
+    extension: md
+    format: yaml-frontmatter
+    subfolders: false
+
+  - name: experimental
+    label: Experimental
+    type: collection
+    path: content/experimental
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+      - name: code
+        label: Code
+        type: code
+    view:
+      fields: [ title ]
+      primary: title
+    extension: md
+    format: yaml-frontmatter
+
+  - name: functionalities
+    label: Functionalities
+    type: file
+    path: content/functionalities/_index.md
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+    extension: md
+    format: yaml-frontmatter
+
+  - name: nosotros
+    label: Nosotros
+    type: file
+    path: content/nosotros/index.md
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+    extension: md
+    format: yaml-frontmatter
+
+  - name: privacidad
+    label: Privacidad
+    type: file
+    path: content/privacidad/index.md
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+    extension: md
+    format: yaml-frontmatter
+
+  - name: types
+    label: Types
+    type: file
+    path: content/types/_index.md
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+    extension: md
+    format: yaml-frontmatter
+
+  - name: unmsm
+    label: UNMSM
+    type: collection
+    path: content/unmsm
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+      - name: menu
+        label: Menu Entry
+        type: string
+        required: true
+      - name: rating
+        label: Rating
+        type: number
+        options:
+          min: 1
+          max: 5
+          step: 0.5
+    view:
+      fields: [ title, description, rating ]
+      primary: title
+    extension: md
+    format: yaml-frontmatter
+    subfolders: true
+
+  - name: pregrado
+    label: Pregrado
+    type: collection
+    path: content/unmsm/pregrado
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: text
+        options:
+          minlength: 100
+      - name: id
+        label: ID
+        type: string
+      - name: credits
+        label: Credits
+        type: number
+      - name: prerrequisites
+        label: Prerequisites
+        list: true
+        type: string
+      - name: semester
+        label: Semester
+        type: number
+      - name: contributors
+        label: Contributors
+        list: true
+        type: string
+      - name: featured
+        label: Featured
+        type: boolean
+      - name: pdf
+        label: PDF Available
+        type: boolean
+      - name: math
+        label: Math Rendered
+        type: boolean
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: weight
+        label: Weight
+        type: number
+      - name: images
+        label: Images
+        list: true
+        type: image
+        options:
+          path: content/media/courses
+      - name: toc
+        label: Table of Contents
+        type: boolean
+      - name: level
+        label: Level
+        type: select
+        options:
+          values:
+            - value: basic
+              label: Basic
+            - value: intermediate
+              label: Intermediate
+            - value: advanced
+              label: Advanced
+      - name: date
+        label: Date
+        type: date
+        options:
+          format: MM/DD/YYYY
+          min: 01/01/2020
+    view:
+      fields: [ title, description, semester, id, level ]
+      primary: title
+      sort: [ semester, id ]
+    extension: md
+    format: yaml-frontmatter
+    subfolders: true
