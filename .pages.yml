@@ -434,6 +434,34 @@ content:
         type: text
         options:
           autoresize: true
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: draft
+        label: Borrador
+        type: boolean
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
+      - name: type
+        label: Tipo
+        type: string
+        list: true
+        options:
+          - "extend"
+          - "nosotros"
       - name: body
         label: Cuerpo
         type: rich-text
@@ -452,14 +480,24 @@ content:
       - name: title
         label: Título
         type: string
-      - name: subtitle
-        label: Subtítulo
-        type: string
       - name: description
         label: Descripción
         type: text
         options:
           autoresize: true
+      - name: lead
+        label: Descripción corta
+        type: string
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: draft
+        label: Borrador
+        type: boolean
       - name: body
         label: Cuerpo
         type: rich-text
@@ -483,6 +521,34 @@ content:
         type: text
         options:
           autoresize: true
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: draft
+        label: Borrador
+        type: boolean
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
+      - name: type
+        label: Tipo
+        type: string
+        list: true
+        options:
+          - "extend"
+          - "nosotros"
       - name: body
         label: Cuerpo
         type: rich-text
