@@ -220,6 +220,25 @@ content:
       - name: description
         label: Descripción
         type: text
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          format: "YYYY-MM-DDTHH:MM:SS+00:00"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          format: "YYYY-MM-DDTHH:MM:SS+00:00"
+        required: true
+      - name: draft
+        label: Borrador
+        type: boolean
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
       - name: body
         label: Cuerpo
         type: rich-text
