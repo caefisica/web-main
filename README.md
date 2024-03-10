@@ -1,24 +1,5 @@
 # Bienvenido al caefisica.com
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href="http://totallynotdavid.github.io"><img src="https://avatars.githubusercontent.com/u/20960328?v=4?s=100" width="100px;" alt="David"/><br /><sub><b>David</b></sub></a><br /><a href="#maintenance-totallynotdavid" title="Maintenance">🚧</a> <a href="#security-totallynotdavid" title="Security">🛡️</a> <a href="#research-totallynotdavid" title="Research">🔬</a> <a href="#blog-totallynotdavid" title="Blogposts">📝</a></td>
-      <td align="center"><a href="https://github.com/alvaro18101"><img src="https://avatars.githubusercontent.com/u/75409414?v=4?s=100" width="100px;" alt="Alvaro Alejandro Siesquen Abad"/><br /><sub><b>Alvaro Alejandro Siesquen Abad</b></sub></a><br /><a href="#research-alvaro18101" title="Research">🔬</a> <a href="#blog-alvaro18101" title="Blogposts">📝</a></td>
-      <td align="center"><a href="https://github.com/Ser-CorD"><img src="https://avatars.githubusercontent.com/u/98802192?v=4?s=100" width="100px;" alt="Ser-CorD"/><br /><sub><b>Ser-CorD</b></sub></a><br /><a href="#research-Ser-CorD" title="Research">🔬</a> <a href="#blog-Ser-CorD" title="Blogposts">📝</a></td>
-      <td align="center"><a href="https://github.com/Rifejo"><img src="https://avatars.githubusercontent.com/u/99055529?v=4?s=100" width="100px;" alt="Rifejo"/><br /><sub><b>Rifejo</b></sub></a><br /><a href="#research-Rifejo" title="Research">🔬</a> <a href="#blog-Rifejo" title="Blogposts">📝</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
 | Publicación y CI | Calidad del código | Monitoreo |
 | --------------- | ------------------ | --------- |
 | [![Netlify](https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status)](https://app.netlify.com/sites/caefis/deploys) | [![Momobot CI](https://github.com/caefisica/web/actions/workflows/node.js_ci.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/node.js_ci.yml) | [![Análisis CodeQL](https://github.com/caefisica/web/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/analisis_codeql.yml) |
@@ -80,6 +61,7 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 ## Cómo tendremos éxito o fracasaremos 😮‍💨
 
 ### Tendremos éxito si:
+
 - trabajamos de buena fe con estudiantes de diversas bases para expandir el contenido disponible y comprender sus necesidades
 - los estudiantes toman decisiones informadas basadas en sus áreas de interés, aumentando la cantidad de estudiantes que realizan intercambios académicos (especialmente al extranjero) e incrementando las posibilidades de continuar con estudios de posgrado como maestría o doctorado
 - los estudiantes de nuestra facultad interactúan y comparten conocimientos con estudiantes de facultades de física de otras universidades
@@ -87,6 +69,7 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 - obtenemos _feedback_ continuo sobre el código en funcionamiento e ideas para nuevas funcionalidades, en lugar de quedar como simples propuestas.
 
 ### Fracasaremos si:
+
 - las visitas a nuestros canales son mínimas, en lugar de ser adoptados orgánicamente por los estudiantes
 - la cantidad de estudiantes realizando intercambios estudiantiles se mantiene sin incremento significativo
 - no se incrementa la cantidad de eventos organizados dentro de nuestra facultad y no surgen nuevos grupos estudiantiles
@@ -98,6 +81,27 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 Este proyecto se encuentra bajo la [licencia MIT](LICENCE), lo que significa que es de código abierto y cualquier persona puede utilizarlo, modificarlo y distribuirlo libremente. 
 
 ## Contribuciones de la comunidad
+
+Este repositorio es mantenido por un equipo de voluntarios dedicados.
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="http://totallynotdavid.github.io"><img src="https://avatars.githubusercontent.com/u/20960328?v=4?s=100" width="100px;" alt="David"/><br /><sub><b>David</b></sub></a><br /><a href="#maintenance-totallynotdavid" title="Maintenance">🚧</a> <a href="#security-totallynotdavid" title="Security">🛡️</a> <a href="#research-totallynotdavid" title="Research">🔬</a> <a href="#blog-totallynotdavid" title="Blogposts">📝</a></td>
+      <td align="center"><a href="https://github.com/alvaro18101"><img src="https://avatars.githubusercontent.com/u/75409414?v=4?s=100" width="100px;" alt="Alvaro Alejandro Siesquen Abad"/><br /><sub><b>Alvaro Alejandro Siesquen Abad</b></sub></a><br /><a href="#research-alvaro18101" title="Research">🔬</a> <a href="#blog-alvaro18101" title="Blogposts">📝</a></td>
+      <td align="center"><a href="https://github.com/Ser-CorD"><img src="https://avatars.githubusercontent.com/u/98802192?v=4?s=100" width="100px;" alt="Ser-CorD"/><br /><sub><b>Ser-CorD</b></sub></a><br /><a href="#research-Ser-CorD" title="Research">🔬</a> <a href="#blog-Ser-CorD" title="Blogposts">📝</a></td>
+      <td align="center"><a href="https://github.com/Rifejo"><img src="https://avatars.githubusercontent.com/u/99055529?v=4?s=100" width="100px;" alt="Rifejo"/><br /><sub><b>Rifejo</b></sub></a><br /><a href="#research-Rifejo" title="Research">🔬</a> <a href="#blog-Rifejo" title="Blogposts">📝</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ¡Valoramos y alentamos las contribuciones de la comunidad! Si tienes experiencia en física y quieres ayudar a otros estudiantes a mejorar en sus estudios, te invitamos a contribuir a este repositorio. Puedes consultar más detalles en [CONTRIBUTING](.github/CONTRIBUTING.md).
 
