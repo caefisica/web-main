@@ -31,6 +31,7 @@ ignore:
     - https://www.fuw.edu.pl/faculty-of-physics-home.html
     - https://physics.dfa.unipd.it/index.php?id=143
     - https://dictionary.cambridge.org/es/diccionario/espanol-ingles/ # ECONNRESET
+    - https://www.fis.puc-rio.br/en/ # CERT_HAS_EXPIRED
 
 delay:
   'https://gitlab.com': 500
