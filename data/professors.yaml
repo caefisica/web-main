@@ -30,6 +30,7 @@
       semesters:
         - '2021-I'
         - '2023-I'
+        - '2023-II'
     - code: 'CFO901'
       semesters:
         - '2021-I'
@@ -57,6 +58,9 @@
 - name: 'Fulgencio Villegas Silva'
   title: 'Dr.'
   courses:
+    - code: 'CFO405'
+      semesters:
+        - '2023-II'
     - code: 'CFO503'
       semesters:
         - '2021-I'
@@ -66,6 +70,7 @@
       semesters:
         - '2021-II'
         - '2022-II'
+        - '2023-II'
     - code: 'CFO701'
       semesters:
         - '2023-I'
@@ -84,6 +89,9 @@
     - code: 'CFO406'
       semesters:
         - '2021-II'
+    - code: 'CFO504'
+      semesters:
+        - '2023-II'
 - name: 'Elvira Leticia Zeballos Velásquez'
   title: 'Dr.'
   courses:
@@ -141,6 +149,7 @@
       semesters:
         - '2022-II'
         - '2023-I'
+        - '2023-II'
 - name: 'Richard Saúl Toribio Saavedra'
   title: 'Dr.'
   courses:
@@ -150,6 +159,7 @@
     - code: 'CFO406'
       semesters:
         - '2021-II'
+        - '2023-II'
     - code: 'CFO504'
       semesters:
         - '2023-I'
@@ -178,6 +188,7 @@
       semesters:
         - '2021-II'
         - '2022-II'
+        - '2023-II'
 - name: 'Gilberto Yactayo Yactayo'
   title: 'Lic.'
   courses:
@@ -189,7 +200,7 @@
         - '2022-I'
     - code: 'CFO401'
       semesters:
-        - '2017-I <code>lab</code>'
+        - '2017-I [🧪]'
 - name: 'Pablo Hector Rivera Riofano'
   title: 'Dr.'
   courses:
@@ -197,10 +208,12 @@
       semesters:
         - '2022-II'
         - '2023-I'
+        - '2023-II'
     - code: 'CFO703'
       semesters:
         - '2021-I'
         - '2023-I'
+        - '2023-II'
 - name: 'Cesar Omar Jimenez Tintaya'
   title: 'Lic.'
   courses:
@@ -222,17 +235,23 @@
 - name: 'Robert Mikhail Guzman Arellano'
   title: 'Dr.'
   courses:
+    - code: 'CFO402'
+      semesters:
+        - '2023-II'
     - code: 'CFO704'
       semesters:
         - '2023-I'
 - name: 'Robert Marino Espinoza Bernardo'
-  title: 'Mag.'
+  title: 'Mg.'
   courses:
     - code: 'CBE013'
       semesters:
         - '2020-I'
         - '2021-I'
         - '2022-I'
+    - code: 'CFO302'
+      semesters:
+        - '2023-II'
     - code: 'CFO504'
       semesters:
         - '2022-I'
@@ -244,6 +263,9 @@
       semesters:
         - '2022-I'
         - '2023-I'
+    - code: 'CFO605'
+      semesters:
+        - '2023-II'
 - name: 'Maximo Poma Torres'
   title: 'Mg.'
   courses:
@@ -259,6 +281,9 @@
     - code: 'CFO604'
       semesters:
         - '2022-II'
+    - code: 'CFO704'
+      semesters:
+        - '2023-II'
 - name: 'Carlos Solano Salinas'
   title: 'Dr.'
   courses:
@@ -387,5 +412,17 @@
   title: 'Dr.'
   courses:
     - code: 'CFO805'
+      semesters:
+        - '2023-II'
+- name: 'Felipe Américo Reyes Navarro'
+  title: 'Dr.'
+  courses:
+    - code: 'CFO604'
+      semesters:
+        - '2023-II'
+- name: 'José Julián Medina Medina'
+  title: 'Lic.'
+  courses:
+    - code: 'CFO401'
       semesters:
         - '2023-II'
