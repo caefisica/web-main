@@ -74,6 +74,16 @@
     "description": "Miembro en el área de diseño."
   },
   {
+    "name": "Karla Torres",
+    "first_name": "Karla",
+    "image": "/images/member/victor.webp",
+    "funcion": "Redes sociales",
+    "role": "Social Media",
+    "avatar": "main",
+    "data": "8",
+    "description": "Miembro en el área de redes sociales."
+  },
+  {
     "name": "Edwing Pineda",
     "first_name": "Edwing",
     "image": "/images/member/edwing.webp",
@@ -89,7 +99,6 @@
     "url": "/contributors/nelson/",
     "funcion": "Diseño",
     "role": "Creative",
-    "data": "6",
     "avatar": "main",
     "description": "Miembro en el área de comunicaciones."
   }
