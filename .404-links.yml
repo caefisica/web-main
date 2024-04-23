@@ -1,39 +1,59 @@
-# Este archivo sirve de configuración para el GitHub Action '404-links' que verifica los enlaces en el repositorio del @caefisica.
+# Este archivo sirve de configuración para la acción de GitHub '404-links',
+# que verifica los enlaces en la web principal del @caefisica.
 
-# Escaneamos únicamente los archivos en la carpeta 'content/' ya que es donde se encuentran los archivos markdown y tenemos que priorizar el tiempo de ejecución.
+# Escaneamos únicamente los archivos en la carpeta 'content/',
+# ya que es donde se encuentran los archivos markdown
+# y tenemos que priorizar el tiempo de ejecución.
 folder: content/
 
-# Muchos enlaces a sitios web de profesores de universidades suelen usar el protocolo http, por lo que deshabilitamos la verificación de enlaces seguros.
+# Muchos enlaces a sitios web de profesores de universidades
+# suelen usar el protocolo http, por lo que deshabilitamos
+# la verificación de enlaces seguros.
 httpsOnly: false
 
+# Habilitamos la revisión de pull requests.
 pullRequestReview: true
 
-# Lista de URLs que serán ignoradas por la acción, ya que suelen presentar problemas de conexión o de bloqueo.
+# Lista de URLs que serán ignoradas por la acción,
+# ya que suelen presentar problemas de conexión o de bloqueo.
 ignore:
-  urls:
-    # Dominios de Sci-Hub suele estar bloqueados
-    - https://sci-hub.se/
-    - https://sci-hub.st/
-    - https://sci-hub.ru/
+    urls:
+        # Dominios de Sci-Hub suelen estar bloqueados.
+        - https://sci-hub.se/
+        - https://sci-hub.st/
+        - https://sci-hub.ru/
 
-    - https://libgen.li/ # Problemas de tiempo de espera (ETIMEDOUT)
-    - https://b-ok.cc/
+        # Problemas de tiempo de espera (ETIMEDOUT).
+        - https://libgen.li/
 
-    # Ignoramos todas las URLs del VRIP usando un comodín.
-    # Esto se debe a que existen múltiples enlaces hacia distintos grupos de investigación dentro de este dominio,
-    # y frecuentemente se encuentran problemas como errores de conexión o enlaces desactualizados.
-    - https://vrip.unmsm.edu.pe/*
+        - https://b-ok.cc/
 
-    - https://www.ilectureonline.com/*
-    - http://www.bne.es/* # Problemas de firma (UNABLE_TO_VERIFY_LEAF_SIGNATURE)
-    - https://www.doitpoms.ac.uk/*
-    - https://annas-archive.org/
-    - https://www.fuw.edu.pl/faculty-of-physics-home.html
-    - https://physics.dfa.unipd.it/index.php?id=143
-    - https://dictionary.cambridge.org/es/diccionario/espanol-ingles/ # ECONNRESET
-    - https://www.fis.puc-rio.br/en/ # CERT_HAS_EXPIRED
+        # Ignoramos todas las URLs del VRIP usando un comodín.
+        # Esto se debe a que existen múltiples enlaces hacia distintos
+        # grupos de investigación dentro de este dominio, y frecuentemente
+        # se encuentran problemas como errores de conexión o enlaces desactualizados.
+        - https://vrip.unmsm.edu.pe/*
 
+        - https://www.ilectureonline.com/*
+
+        # UNABLE_TO_VERIFY_LEAF_SIGNATURE
+        - http://www.bne.es/*
+        - https://hemerotecadigital.bne.es/*
+
+        - https://www.doitpoms.ac.uk/*
+        - https://annas-archive.org/
+        - https://www.fuw.edu.pl/faculty-of-physics-home.html
+        - https://physics.dfa.unipd.it/index.php?id=143
+
+        # ECONNRESET
+        - https://dictionary.cambridge.org/es/diccionario/espanol-ingles/
+
+        # CERT_HAS_EXPIRED
+        - https://www.fis.puc-rio.br/en/
+
+# Configuración de retrasos para ciertos dominios.
 delay:
-  'https://gitlab.com': 500
-  'https://facebook.com': 1000
-  'https://web.archive.org/': 1000
+    "https://gitlab.com": 500
+    "https://facebook.com": 1000
+    "https://web.archive.org/": 1000
+    "https://www.ehu.eus/": 1000
