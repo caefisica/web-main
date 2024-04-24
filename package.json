@@ -40,9 +40,6 @@
         "serve": "netlify functions:serve"
     },
     "devDependencies": {
-        "@babel/cli": "^7.24.1",
-        "@babel/core": "^7.24.4",
-        "@babel/preset-env": "^7.24.4",
         "@fullhuman/postcss-purgecss": "^5.0",
         "@hyas/images": "^3.1.0",
         "auto-changelog": "^2.4",
