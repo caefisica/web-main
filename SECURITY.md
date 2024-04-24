@@ -1,10 +1,23 @@
-# Política de Seguridad
+# Política de Seguridad/Security Policy
+
+> Nuestro objetivo es que esta sección sea bilingüe, por lo que encontrarás una traducción al inglés al final del archivo.
+
+<!-- división -->
+
+> We aim to make this section bilingual, so you will find an English translation at the end of this file.
+
+*Tabla de contenido*:
+
+- [Español](#español)
+- [English](#english)
+
+## Español
 
 En el Centro de Apoyo al Estudiante de Física ([@caefisica](https://linktr.ee/caefisica)), nos tomamos muy en serio la seguridad de nuestro sitio web y repositorios. Agradecemos y valoramos los esfuerzos de la comunidad para divulgar de manera responsable cualquier problema de seguridad que encuentren.
 
 Si descubres un problema de seguridad en nuestro sitio web o repositorios, te pedimos que lo divulgues de manera responsable. Por favor, no publiques ni reveles públicamente la vulnerabilidad antes de que hayamos tenido la oportunidad de poder revisarla.
 
-## Qué reportar
+### Qué reportar
 
 Por favor, informa sobre cualquier problema de seguridad que descubras, incluyendo pero no limitado a:
 
@@ -12,9 +25,9 @@ Por favor, informa sobre cualquier problema de seguridad que descubras, incluyen
 - Exposición de datos sensibles
 - Vulnerabilidades en las dependencias utilizadas en nuestros proyectos
 
-## Cómo reportar
+### Cómo reportar
 
-Para reportar un problema de seguridad, por favor envía un correo electrónico a [david@caefisica.com](mailto:david@caefisica.com) con el asunto "SEGURIDAD". 
+Para reportar un problema de seguridad, por favor envía un correo electrónico a [david@caefisica.com](mailto:david@caefisica.com) con el asunto "SEGURIDAD".
 
 En tu reporte, por favor incluye:
 
@@ -25,27 +38,27 @@ En tu reporte, por favor incluye:
 
 Un miembro de nuestro equipo se pondrá en contacto contigo para discutir tu reporte en caso de necesitar más información y trabajar en una solución.
 
-## Confidencialidad
+### Confidencialidad
 
 Tratamos todos los reportes de seguridad con estricta confidencialidad. No revelaremos tu identidad o cualquier información que proporciones sin tu consentimiento explícito.
 
-## Reconocimiento
+### Reconocimiento
 
 Si lo deseas, nos complace reconocer tu contribución en nuestro [README](README.md) una vez que el problema haya sido resuelto. Por favor, háznoslo saber en tu reporte si te gustaría ser reconocido y cómo te gustaría ser nombrado.
 
-## Actualizaciones y comunicación
+### Actualizaciones y comunicación
 
 Nos comprometemos a mantener una comunicación abierta y transparente contigo durante todo el proceso de divulgación y resolución. Te mantendremos informado sobre el progreso y te notificaremos cuando el problema haya sido resuelto.
 
 ---
 
-# Security Policy
+## English
 
 At the Centro de Apoyo al Estudiante de Física ([@caefisica](https://linktr.ee/caefisica)), we take the security of our website and repositories very seriously. We appreciate and value the community's efforts to responsibly disclose any security issues they find.
 
 If you discover a security issue in our website or repositories, we ask that you disclose it responsibly. Please do not publicly post or reveal the vulnerability before we have had a chance to address it.
 
-## What to Report
+### What to Report
 
 Please report any security issues you discover, including but not limited to:
 
@@ -53,7 +66,7 @@ Please report any security issues you discover, including but not limited to:
 - Exposure of sensitive data
 - Vulnerabilities in the dependencies used in our projects
 
-## How to Report
+### How to Report
 
 To report a security issue, please email [david@caefisica.com](mailto:david@caefisica.com) with the subject line "SECURITY".
 
@@ -66,14 +79,14 @@ In your report, please include:
 
 A member of our team will reach out to you to discuss your report and work towards a resolution.
 
-## Confidentiality
+### Confidentiality
 
 We treat all security reports with strict confidentiality. We will not disclose your identity or any information you provide without your explicit consent.
 
-## Acknowledgment
+### Acknowledgment
 
 If you would like, we are happy to acknowledge your contribution on our [README](README.md) once the issue has been resolved. Please let us know in your report if you would like to be acknowledged and how you would like to be named.
 
-## Updates and Communication
+### Updates and Communication
 
 We are committed to maintaining open and transparent communication with you throughout the disclosure and resolution process. We will keep you informed of progress and notify you when the issue has been resolved.
