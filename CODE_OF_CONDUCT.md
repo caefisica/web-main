@@ -29,11 +29,11 @@ Los mantenedores del proyecto tienen el derecho y la responsabilidad de eliminar
 
 ## Alcance
 
-Este Código de Conducta se aplica tanto dentro de los espacios nuestros proyectos como en los espacios públicos cuando un individuo representa el proyecto o su comunidad. 
+Este Código de Conducta se aplica tanto dentro de los espacios nuestros proyectos como en los espacios públicos cuando un individuo representa el proyecto o su comunidad.
 
 ## Aplicación
 
-Los casos de comportamiento abusivo, acosador o inaceptable pueden ser reportados contactando al [Comité de Ética](#Comité-de-Ética). Todas las quejas serán revisadas e investigadas y resultarán en una respuesta que se considere necesaria y apropiada a las circunstancias. El equipo del proyecto está obligado a mantener la confidencialidad con respecto a la persona que reporta un incidente.
+Los casos de comportamiento abusivo, acosador o inaceptable pueden ser reportados contactando al [Comité de Ética](#comité-de-ética). Todas las quejas serán revisadas e investigadas y resultarán en una respuesta que se considere necesaria y apropiada a las circunstancias. El equipo del proyecto está obligado a mantener la confidencialidad con respecto a la persona que reporta un incidente.
 
 Los mantenedores del proyecto que no sigan o hagan cumplir el Código de Conducta de buena fe pueden enfrentar repercusiones temporales o permanentes según lo determinen otros miembros del equipo de mantenimiento del proyecto.
 
