@@ -1,71 +1,58 @@
 # Contribuir
 
-Gracias por considerar contribuir al repositorio de la página web del @caefisica. Agradecemos y apreciamos cualquier contribución, ya sea grande o pequeña.
+Hey 👋 ¿Quieres contribuir a mejorar nuestra página web? ¡Genial! Nos encanta recibir aportes de la comunidad, ya sean grandes o pequeños. Cada contribución nos ayuda a hacer de este un mejor recurso para todos los estudiantes universitarios de física.
 
-## ¿Cómo puedo contribuir?
+## ¿Cómo puedo contribuir? 🤔
 
-- Añadir nuevas Guías de Estudio o Notas de Clase para cursos universitarios de Física
-- Actualizar o mejorar las Guías de Estudio o Notas de Clase existentes
-- Añadir libros o material de estudio para el estudio de la física
-- Informar de errores o problemas con las guías de estudio (ejemplo: hay enlaces que ya no pueden ser accedidos, errores ortográficos)
+Hay varias formas en las que puedes colaborar:
 
-## ¿Cómo contribuir?
+- ✏️ Añadiendo nuevas Guías de Estudio o Notas de Clase 
+- 🔄 Actualizando o mejorando el contenido existente
+- 📚 Sugiriendo libros o materiales de estudio útiles
+- 🐛 Reportando errores o problemas que encuentres
 
-Para contribuir en la sección de Guía de Estudios, siga estos pasos:
+¡Todas las ideas son bienvenidas! Si se te ocurre alguna otra forma de aportar que capaz no se nos ocurrió, no dudes en proponerla. Puedes contactarnos por [correo](https://caefisica.com/contacto/) o a través de [nuestras redes sociales](https://linktr.ee/caefisica).
 
-1. Encuentra el archivo que deseas editar
+## ¿Cómo hago mi contribución? 📝
 
-   | Recomendado 🛡 | Complicado 🤔 |
-   | -------------- | ----------- |
-   | 1. Dírigete al artículo que deseas editar en nuestra página web <br> 2. En la parte final del artículo encontrarás la opción de `Edita esta página`. Al hacer click te redirigirá a la página del artículo en GitHub. | 1. Todos las guías se encuentran en el siguiente directorio: `content/unmsm/pregrado/`.<br> 2. Las guías están divididas por semestre, dentro de la carpeta `1` estarán los cursos de primer semestre en archivos Markdown. |
-2. Encuentra el botón de editar en la esquina superior derecha, el botón es representado por el símbolo del lápiz.
+Contribuir es fácil, solo sigue estos pasos:
 
-   <img src="https://i.imgur.com/RYzzFJF.png" alt="Botón de edición en GitHub" height="125">
-  
-3. Edita el contenido en el editor nativo de GitHub. Recuerda que usamos Markdown para estos archivos.
-4. En la parte final de la página hay una sección de "_Commit changes_". Deja un mensaje breve sobre los cambios que hiciste.
-5. Presiona en "_Commit changes_".
+1. Ubica el archivo que quieres editar:
+   - Ve al artículo en nuestra web y al final verás la opción "Edita esta página". ¡Haz click ahí y listo! Se abrirá GitHub.
+   - Si prefieres, puedes ir directo a GitHub. Las guías están en `content/unmsm/pregrado/`, organizadas por semestre (`1`, `2`, etc). Cada guía es un archivo `.md`.
+2. En GitHub, busca el botoncito de ✏️ "Editar" arriba a la derecha y dale click.
+3. Realiza tus cambios en el editor. En nuestras guías, usamos formato Markdown.
+4. Abajo verás "Commit changes". Pon un mensajito sobre lo que modificaste, nos servirá para entender tus cambios.
+5. ¡Dale a "Commit changes" y listo! Nosotros nos encargaremos de revisar e integrar tu aporte.
 
-### Usuario avanzado 🔧
+### Para usuarios avanzados 🔧
 
-_Prerrequisitos_: Git y tener una cuenta en GitHub.
+Si manejas Git, puedes clonar el repo y mandarnos un Pull Request:
 
-1. En tu terminal favorita, ejecuta:
+```bash
+git clone https://github.com/caefisica/web
+git branch sugerencias
+git checkout sugerencias
+```
 
-    ```bash
-    git clone https://github.com/caefisica/web
-    git branch sugerencias
-    git checkout sugerencias
-    ```
+Haz tus cambios y luego:
 
-2. Realiza los cambios necesarios en el repositorio. Para encontrar los archivos de esta sección puedes guiarte de la información en la tabla anterior.
-3. Luego de guardar tus cambios localmente. Ejecuta:
+```bash
+git add .
+git commit -m "Un mensaje sobre tus cambios"
+git push
+```
 
-    ```bash
-    git add .
-    git commit -m "Edita esto por un mensaje indicando brevemente tus cambios"
-    git push
-    ```
+Luego ve a [Pull Requests](https://github.com/caefisica/web/pulls), crea uno nuevo desde tu branch, añade título y descripción, ¡y envíalo! Lo revisaremos y te avisaremos cualquier cosa.
 
-4. Ve a la sección de "[Pull requests](https://github.com/caefisica/web/pulls)" en el repositorio del @caefisica:
-
-    <img src="https://i.imgur.com/T5Gacvf.png" alt="Botón de Pull Requests en Github" height="125">
-
-5. Presiona en el botón de "_New pull request_".
-6. Selecciona el _branch_ que creaste. En este caso, `sugerencias`.
-7. Revisa que estás conforme con tus cambios.
-8. Presiona en el botón de "_Create pull request_".
-9. Pon un título y una descripción para el "_Pull Request_", explicando los cambios que has realizado.
-10. Envía el "_Pull Request_".
-
-Revisaremos tu pull request y te daremos nuestra opinión si es necesario. Una vez que tus cambios hayan sido revisados y aprobados, se fusionarán en el repositorio principal.
+## Código de Conducta 🤝
 
 ## Código de conducta
 
-Pedimos a todos los colaboradores que sigan nuestro [Código de Conducta](CODE_OF_CONDUCT.md). Al participar en este proyecto, aceptas cumplir con sus términos.
+Para mantener un espacio amigable y respetuoso, te pedimos seguir nuestro [Código de Conducta](CODE_OF_CONDUCT.md). Básicamente, se trata de ser buena onda con tod@s. 😊
 
-## Licencia
+## Licencia 📜
 
-Al contribuir a este repositorio, acepta publicar sus contribuciones bajo la [licencia MIT](LICENSE).
+Al contribuir, aceptas publicar tu aporte bajo la [licencia MIT](LICENSE). Así todos podrán beneficiarse de las mejoras.
 
-¡Gracias por tu contribución!
+¡Eso es todo! Cualquier duda, nos avisas. Y nuevamente, ¡muchas gracias por tu interés en contribuir! 🙌 Entre todos podemos hacer de este un recurso increíble para aprender física. ¡Manos a la obra! 💪
