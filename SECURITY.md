@@ -1,68 +1,79 @@
-# Seguridad/Security
+# Política de Seguridad
 
-> Nuestro objetivo es que esta sección sea bilingüe, por lo que encontrarás una traducción al inglés al final del archivo.
+En el Centro de Apoyo al Estudiante de Física ([@caefisica](https://linktr.ee/caefisica)), nos tomamos muy en serio la seguridad de nuestro sitio web y repositorios. Agradecemos y valoramos los esfuerzos de la comunidad para divulgar de manera responsable cualquier problema de seguridad que encuentren.
 
-<!-- división -->
+Si descubres un problema de seguridad en nuestro sitio web o repositorios, te pedimos que lo divulgues de manera responsable. Por favor, no publiques ni reveles públicamente la vulnerabilidad antes de que hayamos tenido la oportunidad de poder revisarla.
 
-> We aim to make this section bilingual, so you will find an English translation at the end of this file.
+## Qué reportar
 
-*Tabla de contenido*:
+Por favor, informa sobre cualquier problema de seguridad que descubras, incluyendo pero no limitado a:
 
-- [Español](#informes-de-problemas-de-seguridad)
-- [English](#security-issue-reports)
+- Vulnerabilidades que podrían permitir acceso no autorizado a datos o sistemas
+- Exposición de datos sensibles
+- Vulnerabilidades en las dependencias utilizadas en nuestros proyectos
 
-## Informes de problemas de seguridad
+## Cómo reportar
 
-El equipo del Centro de Apoyo al Estudiante de Física (@caefisica) se toma muy en serio los problemas de seguridad en nuestro sitio web. Agradecemos tus esfuerzos para revelar de manera responsable tus hallazgos y haremos todo lo posible para reconocer tus contribuciones.
+Para reportar un problema de seguridad, por favor envía un correo electrónico a [david@caefisica.com](mailto:david@caefisica.com) con el asunto "SEGURIDAD". 
 
-### Qué reportar
+En tu reporte, por favor incluye:
 
-Por favor, informe de cualquier problema de seguridad que descubra, incluyendo:
+1. Una descripción del problema y su potencial impacto
+2. Pasos para reproducir el problema
+3. Cualquier archivo de registro o captura de pantalla relevante
+4. Tus recomendaciones para resolver o mitigar el problema, si las tienes
 
-- Vulnerabilidades que podrían permitir el acceso no autorizado o la violación de datos
-- Acceso no autorizado a datos o sistemas
+Un miembro de nuestro equipo se pondrá en contacto contigo para discutir tu reporte en caso de necesitar más información y trabajar en una solución.
 
-### Cómo informar
+## Confidencialidad
 
-Para informar sobre un problema de seguridad, envíanos un correo electrónico a david@caefisica.com e incluya la palabra "`[SEGURIDAD]:` " al inicio del asunto. Por ejemplo: "`[SEGURIDAD]: Doble escape`". Es posible que un miembro de nuestro equipo solicite información u orientación adicional sobre tu hallazgo.
+Tratamos todos los reportes de seguridad con estricta confidencialidad. No revelaremos tu identidad o cualquier información que proporciones sin tu consentimiento explícito.
 
-### Información a incluir
+## Reconocimiento
 
-Cuando informe sobre un problema de seguridad, por favor incluya:
+Si lo deseas, nos complace reconocer tu contribución en nuestro [README](README.md) una vez que el problema haya sido resuelto. Por favor, háznoslo saber en tu reporte si te gustaría ser reconocido y cómo te gustaría ser nombrado.
 
-1. Pasos para reproducir el problema
-2. El impacto del problema
-3. Cualquier archivo de registro relevante
+## Actualizaciones y comunicación
 
-### Confidencialidad
-
-Nos comprometemos a proteger la privacidad de los(as) investigadores de seguridad y la confidencialidad de la información que informan. Trataremos todos los informes de manera confidencial y no revelaremos su identidad sin su permiso.
+Nos comprometemos a mantener una comunicación abierta y transparente contigo durante todo el proceso de divulgación y resolución. Te mantendremos informado sobre el progreso y te notificaremos cuando el problema haya sido resuelto.
 
 ---
 
-## Security Issue Reports
+# Security Policy
 
-The Centro de Apoyo al Estudiante de Física (@caefisica) team takes security issues on our website very seriously. We appreciate your efforts to responsibly disclose your findings, and we will do our best to recognize your contributions.
+At the Centro de Apoyo al Estudiante de Física ([@caefisica](https://linktr.ee/caefisica)), we take the security of our website and repositories very seriously. We appreciate and value the community's efforts to responsibly disclose any security issues they find.
 
-### What to Report
+If you discover a security issue in our website or repositories, we ask that you disclose it responsibly. Please do not publicly post or reveal the vulnerability before we have had a chance to address it.
 
-Please report any security issues you discover, including:
+## What to Report
 
-- Vulnerabilities that could allow unauthorized access or data breaches
-- Unauthorized access to data or systems
+Please report any security issues you discover, including but not limited to:
 
-### How to Report
+- Vulnerabilities that could allow unauthorized access to data or systems
+- Exposure of sensitive data
+- Vulnerabilities in the dependencies used in our projects
 
-To report a security issue, please email us at david@caefisica.com and include the word "`[SEGURIDAD]:` " at the beginning of the subject line. For example: "`[SEGURIDAD]: Double escaping`". A member of our team may request additional information or guidance on your finding.
+## How to Report
 
-### Information to Include
+To report a security issue, please email [david@caefisica.com](mailto:david@caefisica.com) with the subject line "SECURITY".
 
-When reporting a security issue, please include:
+In your report, please include:
 
-- Steps to reproduce the issue
-- The impact of the issue
-- Any relevant log files
+1. A description of the issue and its potential impact
+2. Steps to reproduce the issue
+3. Any relevant log files or screenshots
+4. Your recommendations for resolving or mitigating the issue, if you have any
 
-### Confidentiality
+A member of our team will reach out to you to discuss your report and work towards a resolution.
 
-We are committed to protecting the privacy of security researchers and the confidentiality of the information they report. We will handle all reports in a confidential manner and will not disclose your identity without your permission.
+## Confidentiality
+
+We treat all security reports with strict confidentiality. We will not disclose your identity or any information you provide without your explicit consent.
+
+## Acknowledgment
+
+If you would like, we are happy to acknowledge your contribution on our [README](README.md) once the issue has been resolved. Please let us know in your report if you would like to be acknowledged and how you would like to be named.
+
+## Updates and Communication
+
+We are committed to maintaining open and transparent communication with you throughout the disclosure and resolution process. We will keep you informed of progress and notify you when the issue has been resolved.
