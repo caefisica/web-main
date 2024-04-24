@@ -53,7 +53,7 @@ ignore:
 
 # Configuración de retrasos para ciertos dominios.
 delay:
-    "https://gitlab.com": 500
-    "https://facebook.com": 1000
-    "https://web.archive.org/": 1000
-    "https://www.ehu.eus/": 1000
+    'https://gitlab.com': 500
+    'https://facebook.com': 1000
+    'https://web.archive.org/': 1000
+    'https://www.ehu.eus/': 1000
