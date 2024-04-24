@@ -6,7 +6,7 @@ Hey 👋 ¿Quieres contribuir a mejorar nuestra página web? ¡Genial! Nos encan
 
 Hay varias formas en las que puedes colaborar:
 
-- ✏️ Añadiendo nuevas Guías de Estudio o Notas de Clase 
+- ✏️ Añadiendo nuevas Guías de Estudio o Notas de Clase
 - 🔄 Actualizando o mejorando el contenido existente
 - 📚 Sugiriendo libros o materiales de estudio útiles
 - 🐛 Reportando errores o problemas que encuentres
