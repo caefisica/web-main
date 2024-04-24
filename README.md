@@ -22,7 +22,7 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 
 ## Visión 👀, misión 🎯 y estrategia a futuro 🗺️
 
-### Aspiramos a la igualdad de oportunidades para todos los estudiantes de física, creyendo que hasta el menor apoyo puede transformar su futuro.
+### Aspiramos a la igualdad de oportunidades para todos los estudiantes de física, creyendo que hasta el menor apoyo puede transformar su futuro
 
 > [!NOTE]  
 > Cuando hablamos de oportunidades, nos referimos principalmente a que todos tengan conocimiento de las mismas convocatorias, accedan a las mismas recomendaciones, libros y demás recursos disponibles.
@@ -63,7 +63,7 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 
 ## Cómo tendremos éxito o fracasaremos 😮‍💨
 
-### Tendremos éxito si:
+### Tendremos éxito si: <!-- markdownlint-disable-line -->
 
 - trabajamos de buena fe con estudiantes de diversas bases para expandir el contenido disponible y comprender sus necesidades
 - los estudiantes toman decisiones informadas basadas en sus áreas de interés, aumentando la cantidad de estudiantes que realizan intercambios académicos (especialmente al extranjero) e incrementando las posibilidades de continuar con estudios de posgrado como maestría o doctorado
@@ -71,7 +71,7 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 - surgen nuevos grupos estudiantiles dedicados a informar y organizar eventos en áreas más específicas dentro de nuestra facultad
 - obtenemos _feedback_ continuo sobre el código en funcionamiento e ideas para nuevas funcionalidades, en lugar de quedar como simples propuestas.
 
-### Fracasaremos si:
+### Fracasaremos si: <!-- markdownlint-disable-line -->
 
 - las visitas a nuestros canales son mínimas, en lugar de ser adoptados orgánicamente por los estudiantes
 - la cantidad de estudiantes realizando intercambios estudiantiles se mantiene sin incremento significativo
