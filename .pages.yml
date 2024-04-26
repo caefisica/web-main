@@ -22,7 +22,7 @@ media:
             wav,
             aac,
             ogg,
-            flac,
+            flac
         ]
 
 content:
