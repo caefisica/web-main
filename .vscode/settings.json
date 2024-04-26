@@ -2,7 +2,7 @@
     "editor.wordWrap": "on",
     "editor.linkedEditing": true,
     "editor.lineHeight": 33,
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.cursorBlinking": "expand",
