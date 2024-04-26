@@ -6,10 +6,10 @@
 
 > We aim to make this section bilingual, so you will find an English translation at the end of this file.
 
-*Tabla de contenido*:
+_Tabla de contenido_:
 
-- [Español](#español)
-- [English](#english)
+-   [Español](#español)
+-   [English](#english)
 
 ## Español
 
@@ -21,9 +21,9 @@ Si descubres un problema de seguridad en nuestro sitio web o repositorios, te pe
 
 Por favor, informa sobre cualquier problema de seguridad que descubras, incluyendo pero no limitado a:
 
-- Vulnerabilidades que podrían permitir acceso no autorizado a datos o sistemas
-- Exposición de datos sensibles
-- Vulnerabilidades en las dependencias utilizadas en nuestros proyectos
+-   Vulnerabilidades que podrían permitir acceso no autorizado a datos o sistemas
+-   Exposición de datos sensibles
+-   Vulnerabilidades en las dependencias utilizadas en nuestros proyectos
 
 ### Cómo reportar
 
@@ -62,9 +62,9 @@ If you discover a security issue in our website or repositories, we ask that you
 
 Please report any security issues you discover, including but not limited to:
 
-- Vulnerabilities that could allow unauthorized access to data or systems
-- Exposure of sensitive data
-- Vulnerabilities in the dependencies used in our projects
+-   Vulnerabilities that could allow unauthorized access to data or systems
+-   Exposure of sensitive data
+-   Vulnerabilities in the dependencies used in our projects
 
 ### How to Report
 
