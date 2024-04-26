@@ -5,7 +5,7 @@
     "singleQuote": true,
     "quoteProps": "consistent",
     "jsxSingleQuote": true,
-    "trailingComma": "es5",
+    "trailingComma": "none",
     "bracketSpacing": true,
     "jsxBracketSameLine": false,
     "arrowParens": "avoid",
@@ -16,7 +16,9 @@
     "endOfLine": "lf",
     "printWidth": 80,
     "goTemplateBracketSpacing": true,
-    "plugins": ["prettier-plugin-go-template"],
+    "plugins": [
+        "prettier-plugin-go-template"
+    ],
     "overrides": [
         {
             "files": "*.js",
@@ -28,7 +30,9 @@
             }
         },
         {
-            "files": ["*.html"],
+            "files": [
+                "*.html"
+            ],
             "options": {
                 "parser": "go-template"
             }
