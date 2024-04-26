@@ -6,10 +6,10 @@ Hey 👋 ¿Quieres contribuir a mejorar nuestra página web? ¡Genial! Nos encan
 
 Hay varias formas en las que puedes colaborar:
 
-- ✏️ Añadiendo nuevas Guías de Estudio o Notas de Clase
-- 🔄 Actualizando o mejorando el contenido existente
-- 📚 Sugiriendo libros o materiales de estudio útiles
-- 🐛 Reportando errores o problemas que encuentres
+-   ✏️ Añadiendo nuevas Guías de Estudio o Notas de Clase
+-   🔄 Actualizando o mejorando el contenido existente
+-   📚 Sugiriendo libros o materiales de estudio útiles
+-   🐛 Reportando errores o problemas que encuentres
 
 ¡Todas las ideas son bienvenidas! Si se te ocurre alguna otra forma de aportar que capaz no se nos ocurrió, no dudes en proponerla. Puedes contactarnos por [correo](https://caefisica.com/contacto/) o a través de [nuestras redes sociales](https://linktr.ee/caefisica).
 
@@ -18,8 +18,8 @@ Hay varias formas en las que puedes colaborar:
 Contribuir es fácil, solo sigue estos pasos:
 
 1. Ubica el archivo que quieres editar:
-   - Ve al artículo en nuestra web y al final verás la opción "Edita esta página". ¡Haz click ahí y listo! Se abrirá GitHub.
-   - Si prefieres, puedes ir directo a GitHub. Las guías están en `content/unmsm/pregrado/`, organizadas por semestre (`1`, `2`, etc). Cada guía es un archivo `.md`.
+    - Ve al artículo en nuestra web y al final verás la opción "Edita esta página". ¡Haz click ahí y listo! Se abrirá GitHub.
+    - Si prefieres, puedes ir directo a GitHub. Las guías están en `content/unmsm/pregrado/`, organizadas por semestre (`1`, `2`, etc). Cada guía es un archivo `.md`.
 2. En GitHub, busca el botoncito de ✏️ "Editar" arriba a la derecha y dale click.
 3. Realiza tus cambios en el editor. En nuestras guías, usamos formato Markdown.
 4. Abajo verás "Commit changes". Pon un mensajito sobre lo que modificaste, nos servirá para entender tus cambios.
