@@ -1,20 +1,20 @@
 ---
-title: "Ctclima"
-description: "Grupo de investigación"
-lead: "Grupo de investigación en ciencias de la tierra, clima y medio ambiente. Estudian la tierra sólida, el clima y el medio ambiente desde un punto de vista físico."
+title: 'Ctclima'
+description: 'Grupo de investigación'
+lead: 'Grupo de investigación en ciencias de la tierra, clima y medio ambiente. Estudian la tierra sólida, el clima y el medio ambiente desde un punto de vista físico.'
 date: 2022-03-25T13:34:22-05:00
 lastmod: 2022-03-25T13:34:22-05:00
 draft: false
-images: ["ctclima.png"]
-link: "https://vrip.unmsm.edu.pe/ctclima/"
+images: ['ctclima.png']
+link: 'https://vrip.unmsm.edu.pe/ctclima/'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 220
 toc: false
 pinned: false
-types: ["investigación", "universidad", "UNMSM"]
-functionalities: ["web"]
+types: ['investigación', 'universidad', 'UNMSM']
+functionalities: ['web']
 ---
 
 ```text
@@ -29,14 +29,4 @@ Octavio Fashe Raymundo
 
 #### Titulares
 
-Octavio Fashe Raymundo
-Melchor Nicolas Llosa Demartini
-Jose Carlos Eche Llenque
-Fanny Esmeralda Mori Escobar
-Arnulfo Alipio Guillen Guevara
-Jorge Martin Quispe Sanchez
-Marco Antonio Merma Jara
-Fernando Mestanza Hernandez
-De Dios Miguel Fidencio Saavedra Juan
-Jorge Luis Susanibar Zevallos
-David Pareja Quispe
+Octavio Fashe Raymundo Melchor Nicolas Llosa Demartini Jose Carlos Eche Llenque Fanny Esmeralda Mori Escobar Arnulfo Alipio Guillen Guevara Jorge Martin Quispe Sanchez Marco Antonio Merma Jara Fernando Mestanza Hernandez De Dios Miguel Fidencio Saavedra Juan Jorge Luis Susanibar Zevallos David Pareja Quispe

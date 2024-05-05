@@ -1,14 +1,14 @@
 {
-  "renzo": {
-    "name": "Renzo Franco",
-    "data": "1",
-    "avatar": "1",
-    "description": "Estudiante egresado de la carrera de física."
-  },
-  "david": {
-    "name": "David Hinostroza",
-    "data": "2",
-    "avatar": "1",
-    "description": "Estudiante egresado de la carrera de física."
-  }
+    "renzo": {
+        "name": "Renzo Franco",
+        "data": "1",
+        "avatar": "1",
+        "description": "Estudiante egresado de la carrera de física."
+    },
+    "david": {
+        "name": "David Hinostroza",
+        "data": "2",
+        "avatar": "1",
+        "description": "Estudiante egresado de la carrera de física."
+    }
 }

@@ -1,14 +1,17 @@
 {{ if .Site.Params.options.darkMode -}}
-  {{ $darkModeInit := resources.Get "js/darkmode-init.js" | js.Build | minify | fingerprint "sha512" -}}
+    {{ $darkModeInit := resources.Get "js/darkmode-init.js" | js.Build | minify | fingerprint "sha512" -}}
   <script nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">{{ $darkModeInit.Content | safeJS }}</script>
 {{ end -}}
 {{- if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
-  {{ $alertInit := resources.Get "js/alert-init.js" | js.Build | minify -}}
+    {{ $alertInit := resources.Get "js/alert-init.js" | js.Build | minify -}}
   <script nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">{{ $alertInit.Content | safeJS }}</script>
 {{- end -}}
 {{ if eq (hugo.Environment) "production" -}}
-  <script async src="https://hive.caefisica.com/sb.js"></script>
+    <script async src="https://hive.caefisica.com/sb.js"></script>
 {{ end -}}
 {{ if eq .Section "unmsm" "apuntes" "blog" "tags" -}}
-  <script src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
+    <script
+        src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}"
+        type="text/javascript"
+    ></script>
 {{ end -}}

@@ -2,11 +2,11 @@
 
 **Índices**:
 
-- [Instalación](instalaci%C3%B3n.md)
-- [Convenciones](convenciones.md)
-- [CSS](#css)
-- [Plantillas](#plantillas)
-- [Listas](#listas)
+-   [Instalación](instalaci%C3%B3n.md)
+-   [Convenciones](convenciones.md)
+-   [CSS](#css)
+-   [Plantillas](#plantillas)
+-   [Listas](#listas)
 
 ---
 
@@ -18,7 +18,7 @@ Con el motivo de simplificar el código. A continuación una lista de clases per
 
     ```css
     .bg-cover {
-      background-repeat: no-repeat;
+        background-repeat: no-repeat;
     }
     ```
 
@@ -26,20 +26,16 @@ Con el motivo de simplificar el código. A continuación una lista de clases per
 
 ### Shortcode
 
-   ```html
-   {{ ":zap:" | emojify }}
-   ```
+```html
+{{ ":zap:" | emojify }}
+```
 
 ### Markdown
 
 1. Tablas:
 
     ```markdown
-    {{< content_table type="book" >}}
-      {{< book_row title="" author="" editorial="" year="" edition="" url="" >}}
-      {{< book_row_multiple title="" author="" editorial="" urls="" editions="" years="" >}}
-      {{< playlist_row title="" channel="" lecturer="" videos="" url="" >}}
-    {{< /content_table >}}
+    {{< content_table type="book" >}} {{< book_row title="" author="" editorial="" year="" edition="" url="" >}} {{< book_row_multiple title="" author="" editorial="" urls="" editions="" years="" >}} {{< playlist_row title="" channel="" lecturer="" videos="" url="" >}} {{< /content_table >}}
     ```
 
 ## Listas
@@ -50,7 +46,7 @@ Con el motivo de simplificar el código. A continuación una lista de clases per
     - name: ''
       title: ''
       courses:
-        - code: ''
-          semesters:
-            - ''
+          - code: ''
+            semesters:
+                - ''
     ```

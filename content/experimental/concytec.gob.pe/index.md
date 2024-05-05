@@ -1,20 +1,20 @@
 ---
-title: "Directorio de Investigadores"
-description: "Investigadores en el Registro Nacional de Ciencia, Tecnología y de Innovación Tecnológica"
-lead: "Investigadores en el Registro Nacional de Ciencia, Tecnología y de Innovación Tecnológica"
+title: 'Directorio de Investigadores'
+description: 'Investigadores en el Registro Nacional de Ciencia, Tecnología y de Innovación Tecnológica'
+lead: 'Investigadores en el Registro Nacional de Ciencia, Tecnología y de Innovación Tecnológica'
 date: 2022-03-25T15:26:08-05:00
 lastmod: 2022-03-25T15:26:08-05:00
 draft: false
-images: ["concytec.gob.pe.png"]
-link: "https://ctivitae.concytec.gob.pe/renacyt-ui/#/registro/investigadores"
+images: ['concytec.gob.pe.png']
+link: 'https://ctivitae.concytec.gob.pe/renacyt-ui/#/registro/investigadores'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 300
 toc: false
 pinned: true
-types: ["academia", "universidad"]
-functionalities: ["web"]
+types: ['academia', 'universidad']
+functionalities: ['web']
 ---
 
 ```text

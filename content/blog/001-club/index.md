@@ -1,14 +1,14 @@
 ---
-title: "Club de Lectura"
-description: ""
-lead: "Para aprovechar mejor estas fechas (vacaciones de verano), decidimos formar un club de lectura, comenzaremos con Richard Feynmann."
+title: 'Club de Lectura'
+description: ''
+lead: 'Para aprovechar mejor estas fechas (vacaciones de verano), decidimos formar un club de lectura, comenzaremos con Richard Feynmann.'
 date: 2022-01-30T09:19:42+01:00
 lastmod: 2022-02-10T09:19:42+01:00
-images: ["https://i.imgur.com/GgoqSI0.png"]
-thumbnail: "https://i.imgur.com/GNvaW6k.png"
-contributors: ["David"]
-author_id: "david"
-tags: ["evento"]
+images: ['https://i.imgur.com/GgoqSI0.png']
+thumbnail: 'https://i.imgur.com/GNvaW6k.png'
+contributors: ['David']
+author_id: 'david'
+tags: ['evento']
 draft: true
 toc: false
 weight: 10

@@ -1,25 +1,25 @@
 ---
-title: "Energía interna"
-description: "Descripción de la función de estado energía interna, su dependencia de la temperatura y el volumen en sistemas cerrados y abiertos, y cómo calcular su evolución energética"
-lead: "Análisis de la función de estado energía interna en termodinámica, su relación con la temperatura y el volumen, y su relevancia en el cálculo del trabajo calorífico elemental en procesos termodinámicos"
+title: 'Energía interna'
+description: 'Descripción de la función de estado energía interna, su dependencia de la temperatura y el volumen en sistemas cerrados y abiertos, y cómo calcular su evolución energética'
+lead: 'Análisis de la función de estado energía interna en termodinámica, su relación con la temperatura y el volumen, y su relevancia en el cálculo del trabajo calorífico elemental en procesos termodinámicos'
 date: 2022-02-01T02:00:00
 lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
+    - :git
+    - lastmod
+    - date
+    - publishDate
 draft: false
 menu:
-  cursos:
-    parent: "termodinámica"
+    cursos:
+        parent: 'termodinámica'
 weight: 20
 toc: true
-contributors: ["Richard"]
+contributors: ['Richard']
 math: true
-types: ["matemática"]
+types: ['matemática']
 ---
 
-Vamos a definir la función  de estado llamada energía interna la cual va a depender de la temperatura y el volumen(para un sistema cerrado):
+Vamos a definir la función de estado llamada energía interna la cual va a depender de la temperatura y el volumen(para un sistema cerrado):
 
 $$
 \begin{align}
@@ -45,6 +45,7 @@ $$
 $$
 
 **Observación:**
+
 $$
 \begin{align}
   \boxed{\int dU=\int_{T_0}^T \alpha(T)dT+\int_{V_0}^V \beta(V)dV}
@@ -64,9 +65,9 @@ $$
 
 donde:
 
-* $a_i$ es la i-ésima coordenada generalizada.
-* $A_u$ es la i-ésima fuerza generalizada.
-* $\ell$ son los grados de libertad
+-   $a_i$ es la i-ésima coordenada generalizada.
+-   $A_u$ es la i-ésima fuerza generalizada.
+-   $\ell$ son los grados de libertad
 
 Otra forma de expresarlo es:
 

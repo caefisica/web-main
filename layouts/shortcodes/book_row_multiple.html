@@ -1,18 +1,20 @@
 <tr>
-  <td class="align-middle">{{ .Get "author" }}</td>
-  <td class="align-middle">
-    <div class="editorial fst-italic">{{ .Get "editorial" }}</div>
-    <div class="title">{{ .Get "title" }}</div>
-  </td>
-  <td class="align-middle">
-  {{ $urls := split (.Get "urls") "," }}
-  {{ $editions := split (.Get "editions") "," }}
-  {{ $years := split (.Get "years") "," }}
-  {{ range $index, $url := $urls }}
-  <a href="{{ $url }}" target="_blank" rel="noopener noreferrer">
-  {{ with index $editions $index }}{{ . }}, {{ end }}{{ index $years $index }}
-  </a>
-  {{ if lt $index (sub (len $urls) 1) }}<br>{{ end }}
-  {{ end }}
-  </td>
+    <td class="align-middle">{{ .Get "author" }}</td>
+    <td class="align-middle">
+        <div class="editorial fst-italic">{{ .Get "editorial" }}</div>
+        <div class="title">{{ .Get "title" }}</div>
+    </td>
+    <td class="align-middle">
+        {{ $urls := split (.Get "urls") "," }}
+        {{ $editions := split (.Get "editions") "," }}
+        {{ $years := split (.Get "years") "," }}
+        {{ range $index, $url := $urls }}
+            <a href="{{ $url }}" target="_blank" rel="noopener noreferrer">
+                {{ with index $editions $index }}
+                    {{ . }},
+                {{ end }}{{ index $years $index }}
+            </a>
+            {{ if lt $index (sub (len $urls) 1) }}<br />{{ end }}
+        {{ end }}
+    </td>
 </tr>

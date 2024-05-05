@@ -1,18 +1,18 @@
 <table>
-  <thead>
-    <tr>
-      {{- if eq (.Params.type) "book" -}}
-        <th>Autor(es)</th>
-        <th>Título</th>
-        <th>Enlace</th>
-      {{- else if eq (.Params.type) "playlist" -}}
-        <th>Canal</th>
-        <th>Título</th>
-        <th>Videos</th>
-      {{- end -}}
-    </tr>
-  </thead>
-  <tbody>
-    {{ .Inner | markdownify }}
-  </tbody>
+    <thead>
+        <tr>
+            {{- if eq (.Params.type) "book" -}}
+                <th>Autor(es)</th>
+                <th>Título</th>
+                <th>Enlace</th>
+            {{- else if eq (.Params.type) "playlist" -}}
+                <th>Canal</th>
+                <th>Título</th>
+                <th>Videos</th>
+            {{- end -}}
+        </tr>
+    </thead>
+    <tbody>
+        {{ .Inner | markdownify }}
+    </tbody>
 </table>

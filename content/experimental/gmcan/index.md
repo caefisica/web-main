@@ -1,20 +1,20 @@
 ---
-title: "Gmcan"
-description: "Grupo de investigación"
-lead: "Grupo de métoods computacionales aplicado a nanomateriales"
+title: 'Gmcan'
+description: 'Grupo de investigación'
+lead: 'Grupo de métoods computacionales aplicado a nanomateriales'
 date: 2022-03-25T13:34:22-05:00
 lastmod: 2022-03-25T13:34:22-05:00
 draft: false
-images: ["gmcan.png"]
-link: "https://vrip.unmsm.edu.pe/gmcan/"
+images: ['gmcan.png']
+link: 'https://vrip.unmsm.edu.pe/gmcan/'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 230
 toc: false
 pinned: false
-types: ["investigación", "universidad", "UNMSM"]
-functionalities: ["web"]
+types: ['investigación', 'universidad', 'UNMSM']
+functionalities: ['web']
 ---
 
 ```text
@@ -29,9 +29,4 @@ Justo Alcides Rojas Tapia
 
 #### Titulares
 
-Justo Alcides Rojas Tapia
-Chachi Rojas Ayala
-Eusebio Castor Torres Tapia
-Robert Marino Espinoza Bernardo
-Cesar Enrique Perez Villegas
-Robert Mikhail Guzman Arellano
+Justo Alcides Rojas Tapia Chachi Rojas Ayala Eusebio Castor Torres Tapia Robert Marino Espinoza Bernardo Cesar Enrique Perez Villegas Robert Mikhail Guzman Arellano

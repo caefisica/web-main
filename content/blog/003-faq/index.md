@@ -1,14 +1,14 @@
 ---
-title: "Preguntas frecuentes"
-description: "Respuestas a preguntas comunes que a veces, solo a veces, uno se pregunta cuando apenas ingresó."
-lead: "Respuestas a preguntas comunes que a veces, solo a veces, uno se pregunta cuando apenas ingresó."
+title: 'Preguntas frecuentes'
+description: 'Respuestas a preguntas comunes que a veces, solo a veces, uno se pregunta cuando apenas ingresó.'
+lead: 'Respuestas a preguntas comunes que a veces, solo a veces, uno se pregunta cuando apenas ingresó.'
 date: 2022-03-23T01:19:42+01:00
 lastmod: 2022-03-24T01:19:42+01:00
-images: ["https://i.imgur.com/GgoqSI0.png"]
-thumbnail: "https://c.tenor.com/4Nh-kwo0mSQAAAAC/batman-thinking.gif"
-contributors: ["Alvaro", "David"]
-author_id: "alvaro"
-tags: ["otros"]
+images: ['https://i.imgur.com/GgoqSI0.png']
+thumbnail: 'https://c.tenor.com/4Nh-kwo0mSQAAAAC/batman-thinking.gif'
+contributors: ['Alvaro', 'David']
+author_id: 'alvaro'
+tags: ['otros']
 toc: false
 weight: 30
 ---
@@ -25,22 +25,13 @@ weight: 30
 
 3. **¿Es lo mismo pasantía que intercambio?**
 
-    Un intercambio implica básicamente llevar cursos durante un semestre en una
-    universidad con la cual la universidad tenga un convenio. Puedes acceder a
-    algunos beneficios como si fueras literalmente un alumno de la otra
-    universidad durante ese periodo [tambien se ha dado durante la pandemia].
+    Un intercambio implica básicamente llevar cursos durante un semestre en una universidad con la cual la universidad tenga un convenio. Puedes acceder a algunos beneficios como si fueras literalmente un alumno de la otra universidad durante ese periodo [tambien se ha dado durante la pandemia].
 
-    Una pasantía es una rotación en un laboratorio o grupo de investigación en
-    general. Puede tener una duración más variable e incluso extenderse por
-    varios meses y según cómo te lleves con la gente del laboratorio podría
-    haber una prórroga significativa. Es más viable que los experimentales
-    encuentren pasantías.
+    Una pasantía es una rotación en un laboratorio o grupo de investigación en general. Puede tener una duración más variable e incluso extenderse por varios meses y según cómo te lleves con la gente del laboratorio podría haber una prórroga significativa. Es más viable que los experimentales encuentren pasantías.
 
 4. **Sobre la programación**
 
-    La carrera requiere de programación, pues la física computacional es una parte que abarca demasiados aspectos en la carrera.
-    Si no sabes programar no te preocupes, en tercer ciclo llevas Física Computacional I donde te enseñarán Fortran, que es un lenguaje adaptado para cálculo científico. Pero puedes apreder a programar por tu cuenta.
-    Los lenguajes de programación que son útiles en la carrera son Fortran, Python y C++.
+    La carrera requiere de programación, pues la física computacional es una parte que abarca demasiados aspectos en la carrera. Si no sabes programar no te preocupes, en tercer ciclo llevas Física Computacional I donde te enseñarán Fortran, que es un lenguaje adaptado para cálculo científico. Pero puedes apreder a programar por tu cuenta. Los lenguajes de programación que son útiles en la carrera son Fortran, Python y C++.
 
 5. **¿La Universidad tiene convenios con el extranjero?**
 

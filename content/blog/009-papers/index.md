@@ -1,15 +1,15 @@
 ---
-title: "Acceso a artículos científicos"
-emoji: ":lock_with_ink_pen:"
-description: "En muchas ocasiones, necesitarás acceder a un artículo que se encuentra tras un muro de pago. Veremos algunos métodos para acceder a estos artículos."
-lead: "En muchas ocasiones, necesitarás acceder a un artículo que se encuentra tras un muro de pago. Veremos algunos métodos para acceder a estos artículos."
+title: 'Acceso a artículos científicos'
+emoji: ':lock_with_ink_pen:'
+description: 'En muchas ocasiones, necesitarás acceder a un artículo que se encuentra tras un muro de pago. Veremos algunos métodos para acceder a estos artículos.'
+lead: 'En muchas ocasiones, necesitarás acceder a un artículo que se encuentra tras un muro de pago. Veremos algunos métodos para acceder a estos artículos.'
 date: 2022-09-15T14:44:30-05:00
 lastmod: 2022-09-15T14:44:30-05:00
 images: []
-thumbnail: ""
-contributors: ["David"]
-author_id: "david"
-tags: ["tips"]
+thumbnail: ''
+contributors: ['David']
+author_id: 'david'
+tags: ['tips']
 toc: true
 weight: 90
 pinned: false
@@ -28,7 +28,7 @@ Antes de comenzar, es necesario que sepas los significados de los siguientes té
 Sin profundizar demasiado (por ahora), puedes añadir el siguiente script como favorito en tu navegador de preferencia.
 
 ```javascript
-javascript:location.hostname += '.sci-hub.ru'
+javascript: location.hostname += '.sci-hub.ru';
 ```
 
 Cuando te encuentres en la página del artículo, al hacer click en el elemento favorito que contiene el script, este se ejecutará y te redigirá a la página del artículo en Sci-Hub.
@@ -56,18 +56,18 @@ Existe un bot en Telegram ([@scihubot](https://telegram.me/scihubot)) al cual pu
 
 Supongamos que quiero acceder al siguiente artículo:
 
-- Autor: Jonathan Adams
-- Título: "_Early citation counts correlate with accumulated impact_"
-- URL: ```https://link.springer.com/article/10.1007/s11192-005-0228-9```
+-   Autor: Jonathan Adams
+-   Título: "_Early citation counts correlate with accumulated impact_"
+-   URL: `https://link.springer.com/article/10.1007/s11192-005-0228-9`
 
 Al ingresar al enlace, se puede ver lo siguiente:
 
 {{< img-simple src="2.jpeg" alt="Captura de pantalla de un artículo científico en Springer" class="d-block mx-auto shadow my-5" >}}
 
-Primero, necesitamos identificar el DOI. Cada revista científica tiene una forma distinta de mostrar la información de sus artículos, por lo que estará en distintas posiciones. Utiliza ```Ctrl+F``` en tu navegador y busca el término "DOI". Habitualmente se encuentran en la parte final de la página.
+Primero, necesitamos identificar el DOI. Cada revista científica tiene una forma distinta de mostrar la información de sus artículos, por lo que estará en distintas posiciones. Utiliza `Ctrl+F` en tu navegador y busca el término "DOI". Habitualmente se encuentran en la parte final de la página.
 
 {{< img-simple src="3.png" alt="Captura de pantalla al buscar el término DOI en el navegador" class="d-block mx-auto shadow my-5" >}}
 
-En este caso, el código DOI es ```10.1007/s11192-005-0228-9```. Pegas esto en la página de Sci-Hub y te cargará el documento. Puedes usar ```Ctrl+S``` para guardar el documento de forma local.
+En este caso, el código DOI es `10.1007/s11192-005-0228-9`. Pegas esto en la página de Sci-Hub y te cargará el documento. Puedes usar `Ctrl+S` para guardar el documento de forma local.
 
 {{< img-simple src="4.png" alt="Captura de pantalla al buscar el término DOI en el navegador" class="d-block mx-auto shadow my-5" >}}

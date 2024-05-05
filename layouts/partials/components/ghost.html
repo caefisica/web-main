@@ -1,18 +1,23 @@
 {{ $styles := resources.Get "scss/components/_mascot.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+<link
+    rel="stylesheet"
+    href="{{ $styles.Permalink }}"
+    integrity="{{ $styles.Data.Integrity }}"
+    media="screen"
+/>
 <div class="mascot">
-  <div class="ghost-legs">
-    <div class="one"></div>
-    <div class="two"></div>
-    <div class="three"></div>
-    <div class="four"></div>
-  </div>
-  <div class="ghost">
-    <div class="face">
-      <div class="eye"></div>
-      <div class="eye-right"></div>
-      <div class="mouth"></div>
+    <div class="ghost-legs">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
     </div>
-  </div>
-  <div class="shadow"></div>
+    <div class="ghost">
+        <div class="face">
+            <div class="eye"></div>
+            <div class="eye-right"></div>
+            <div class="mouth"></div>
+        </div>
+    </div>
+    <div class="shadow"></div>
 </div>

@@ -1,20 +1,20 @@
 ---
-title: "Scimago Journal & Country Ranking"
-description: "Métricas para publicaciones y países basadas en Scopus"
-lead: "Métricas para publicaciones y países basadas en Scopus"
+title: 'Scimago Journal & Country Ranking'
+description: 'Métricas para publicaciones y países basadas en Scopus'
+lead: 'Métricas para publicaciones y países basadas en Scopus'
 date: 2022-03-25T15:19:02-05:00
 lastmod: 2022-03-25T15:19:02-05:00
 draft: false
-images: ["scimagojr.com"]
-link: "https://www.scimagojr.com/"
+images: ['scimagojr.com']
+link: 'https://www.scimagojr.com/'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 290
 toc: false
 pinned: false
-types: ["academia"]
-functionalities: ["web"]
+types: ['academia']
+functionalities: ['web']
 ---
 
 ```text

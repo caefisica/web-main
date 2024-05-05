@@ -1,20 +1,20 @@
 ---
-title: "Perimeter Institute"
-description: "Requisitos y papeles necesarios para postular en el Perimeter Institute"
-lead: "Requisitos y papeles necesarios para postular en el Perimeter Institute"
+title: 'Perimeter Institute'
+description: 'Requisitos y papeles necesarios para postular en el Perimeter Institute'
+lead: 'Requisitos y papeles necesarios para postular en el Perimeter Institute'
 date: 2022-03-25T13:24:00-05:00
 lastmod: 2022-03-25T13:24:00-05:00
 draft: false
-images: ["perimeterinstitute.ca.png"]
-link: "https://perimeterinstitute.ca/psi-masters-program"
+images: ['perimeterinstitute.ca.png']
+link: 'https://perimeterinstitute.ca/psi-masters-program'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 350
 toc: false
 pinned: false
-types: ["extranjero", "universidad"]
-functionalities: ["artículo"]
+types: ['extranjero', 'universidad']
+functionalities: ['artículo']
 ---
 
 ```text

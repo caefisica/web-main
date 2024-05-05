@@ -1,20 +1,20 @@
 ---
-title: "Física de a Pasos"
-description: "Divulgación de física"
-lead: "Divulgación de física"
+title: 'Física de a Pasos'
+description: 'Divulgación de física'
+lead: 'Divulgación de física'
 date: 2022-03-25T20:30:43-05:00
 lastmod: 2022-03-25T20:30:43-05:00
 draft: false
-images: ["yt-fisicadeapasos.png"]
-link: "https://www.youtube.com/channel/UCDt8JltOilU939pVEBZa3Jw/"
+images: ['yt-fisicadeapasos.png']
+link: 'https://www.youtube.com/channel/UCDt8JltOilU939pVEBZa3Jw/'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 510
 toc: false
 pinned: false
-types: ["divulgación"]
-functionalities: ["video"]
+types: ['divulgación']
+functionalities: ['video']
 ---
 
 ```text
