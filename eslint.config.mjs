@@ -29,23 +29,13 @@ export default [
             'no-console': 0,
             'quotes': [
                 'error',
-                'backtick',
+                'double',
                 { avoidEscape: true, allowTemplateLiterals: false }
             ],
             'semi': [`error`, `always`],
             'multiline-ternary': [`error`, `always-multiline`],
             'no-multi-spaces': [`error`],
-            'array-element-newline': ['error', 'consistent'],
-            'comma-dangle': [
-                'error',
-                {
-                    arrays: 'always-multiline',
-                    objects: 'always-multiline',
-                    imports: 'always-multiline',
-                    exports: 'always-multiline',
-                    functions: 'ignore'
-                }
-            ]
+            'array-element-newline': ['error', 'consistent']
         }
     }
 ];

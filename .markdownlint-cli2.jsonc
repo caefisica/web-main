@@ -1,9 +1,16 @@
 {
     "config": {
         "default": true,
+        "MD007": false, // Indentation issue: https://github.com/prettier/prettier/issues/4114
         "MD013": false,
         "MD024": false,
-        "MD033": false
+        "MD029": false, // This only works if you have a continuous list (p.s. we don't)
+        "MD030": false,
+        "MD033": false,
+        "MD034": false // We use bare URLs on shortcodes
     },
-    "ignores": ["node_modules", "CHANGELOG.md"]
+    "ignores": [
+        "node_modules",
+        "CHANGELOG.md"
+    ]
 }
