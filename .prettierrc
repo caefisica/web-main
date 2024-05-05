@@ -31,8 +31,7 @@
         },
         {
             "files": [
-                "*.html",
-                "*.md"
+                "*.html"
             ],
             "options": {
                 "parser": "go-template"
