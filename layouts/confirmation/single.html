@@ -1,19 +1,24 @@
 {{ define "main" }}
-{{ $styles := resources.Get "scss/components/_message.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-<section class="section fullpage2">
-  <div class="container">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-12 col-lg-5 me-5">
-        {{ partial "components/ghost.html" . -}}
-      </div>
-      <div class="col-12 col-lg-7">
-        <article>
-          <h1 class="text-left">{{ .Title }}</h1>
-          <div class="text-left">{{ .Content }}</div>
-        </article>
-      </div>
-    </div>
-  </div>
-</section>
+    {{ $styles := resources.Get "scss/components/_message.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link
+        rel="stylesheet"
+        href="{{ $styles.Permalink }}"
+        integrity="{{ $styles.Data.Integrity }}"
+        media="screen"
+    />
+    <section class="section fullpage2">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-lg-5 me-5">
+                    {{ partial "components/ghost.html" . -}}
+                </div>
+                <div class="col-12 col-lg-7">
+                    <article>
+                        <h1 class="text-left">{{ .Title }}</h1>
+                        <div class="text-left">{{ .Content }}</div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
 {{ end }}

@@ -1,20 +1,20 @@
 ---
-title: "Mathematics for Robotics"
-description: "Curso de la Universidad de Michigan"
-lead: "Curso de la Universidad de Michigan"
+title: 'Mathematics for Robotics'
+description: 'Curso de la Universidad de Michigan'
+lead: 'Curso de la Universidad de Michigan'
 date: 2022-03-25T19:59:29-05:00
 lastmod: 2022-03-25T19:59:29-05:00
 draft: false
-images: ["robotics501.png"]
-link: "https://github.com/michiganrobotics/rob501"
+images: ['robotics501.png']
+link: 'https://github.com/michiganrobotics/rob501'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 430
 toc: false
 pinned: false
-types: ["matemática", "curso"]
-functionalities: ["web"]
+types: ['matemática', 'curso']
+functionalities: ['web']
 ---
 
 ```text

@@ -1,20 +1,20 @@
 ---
-title : "Pregrado"
-description: "Malla curricular y Plan de Estudios"
-lead: "Malla curricular y Plan de Estudio: 2018"
-layout: "single"
+title: 'Pregrado'
+description: 'Malla curricular y Plan de Estudios'
+lead: 'Malla curricular y Plan de Estudio: 2018'
+layout: 'single'
 date: 2020-10-06T00:00:45+00:00
 lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
+    - :git
+    - lastmod
+    - date
+    - publishDate
 draft: false
 weight: 10
 toc: false
 images: []
 pdf: true
-contributors: ["David"]
+contributors: ['David']
 ---
 
 <br>¡Bienvenido a nuestra serie de guías académicas para físicos en pregrado! Aquí encontrarás una descripción detallada de los recursos y materiales disponibles para optimizar tu experiencia educativa.

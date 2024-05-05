@@ -1,20 +1,20 @@
 ---
-title: "Instituto Balseiro"
-description: "Centro Argentino"
-lead: "Centro educativo científico integrado al Centro Atómico Bariloche (CAB), dependiente de la CNEA y la UNCUYO"
+title: 'Instituto Balseiro'
+description: 'Centro Argentino'
+lead: 'Centro educativo científico integrado al Centro Atómico Bariloche (CAB), dependiente de la CNEA y la UNCUYO'
 date: 2022-03-25T16:33:53-05:00
 lastmod: 2022-03-25T16:33:53-05:00
 draft: false
-images: ["ib.edu.ar.png"]
-link: "https://www.ib.edu.ar/comunicacion-y-prensa/"
+images: ['ib.edu.ar.png']
+link: 'https://www.ib.edu.ar/comunicacion-y-prensa/'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 330
 toc: false
 pinned: false
-types: ["extranjero", "universidad"]
-functionalities: ["web"]
+types: ['extranjero', 'universidad']
+functionalities: ['web']
 ---
 
 ```text

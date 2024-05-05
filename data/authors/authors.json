@@ -1,47 +1,47 @@
 [
-  {
-    "name": "David Durán",
-    "first_name": "David",
-    "image": "/images/member/david.webp"
-  },
-  {
-    "name": "Sergio Cordero",
-    "first_name": "Sergio",
-    "image": "/images/member/sergio.webp"
-  },
-  {
-    "name": "Alvaro Siesquen",
-    "first_name": "Alvaro",
-    "image": "/images/member/alvaro.webp"
-  },
-  {
-    "name": "Liuba Ramos",
-    "first_name": "Liuba",
-    "image": "/images/member/liuba.webp"
-  },
-  {
-    "name": "Richard Avalos",
-    "first_name": "Richard",
-    "image": "/images/member/richard.webp"
-  },
-  {
-    "name": "Nelson Noa",
-    "first_name": "Nelson",
-    "image": "/images/member/nelson.webp"
-  },
-  {
-    "name": "Joseph Luna",
-    "first_name": "Joseph",
-    "image": "/images/member/joseph.webp"
-  },
-  {
-    "name": "Renzo Franco",
-    "first_name": "Renzo",
-    "image": "/images/member/renzo.webp"
-  },
-  {
-    "name": "Mg. Eduardo Villareyes",
-    "first_name": "Eduardo",
-    "image": "/images/member/villareyes.webp"
-  }
+    {
+        "name": "David Durán",
+        "first_name": "David",
+        "image": "/images/member/david.webp"
+    },
+    {
+        "name": "Sergio Cordero",
+        "first_name": "Sergio",
+        "image": "/images/member/sergio.webp"
+    },
+    {
+        "name": "Alvaro Siesquen",
+        "first_name": "Alvaro",
+        "image": "/images/member/alvaro.webp"
+    },
+    {
+        "name": "Liuba Ramos",
+        "first_name": "Liuba",
+        "image": "/images/member/liuba.webp"
+    },
+    {
+        "name": "Richard Avalos",
+        "first_name": "Richard",
+        "image": "/images/member/richard.webp"
+    },
+    {
+        "name": "Nelson Noa",
+        "first_name": "Nelson",
+        "image": "/images/member/nelson.webp"
+    },
+    {
+        "name": "Joseph Luna",
+        "first_name": "Joseph",
+        "image": "/images/member/joseph.webp"
+    },
+    {
+        "name": "Renzo Franco",
+        "first_name": "Renzo",
+        "image": "/images/member/renzo.webp"
+    },
+    {
+        "name": "Mg. Eduardo Villareyes",
+        "first_name": "Eduardo",
+        "image": "/images/member/villareyes.webp"
+    }
 ]

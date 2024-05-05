@@ -1,8 +1,8 @@
 ---
-title: "Biblioteca"
-lead: ""
-description: ""
-contributors: ["David"]
+title: 'Biblioteca'
+lead: ''
+description: ''
+contributors: ['David']
 featured: false
 pdf: false
 math: false
@@ -12,17 +12,17 @@ toc: false
 images: []
 date: 2022-09-14T02:11:03-05:00
 lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
+    - :git
+    - lastmod
+    - date
+    - publishDate
 menu:
-  guias:
-    parent: "pregrado"
+    guias:
+        parent: 'pregrado'
 ---
 
-| Fecha | Horario |
-| ----- | ----------- |
+| Fecha    | Horario          |
+| -------- | ---------------- |
 | 22/08/22 | 9:00am - 11:45am |
 | 23/08/22 | 9:00am - 11:45am |
 | 25/08/22 | 9:00am - 11:45am |
@@ -37,4 +37,4 @@ menu:
 | 15/09/22 | 12:00pm - 2:00pm |
 | 19/09/22 | 9:00am - 11:45am |
 | 20/09/22 | 9:00am - 11:45am |
-| 22/09/22 | 9:00am - 2:00pm |
+| 22/09/22 | 9:00am - 2:00pm  |

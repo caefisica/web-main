@@ -1,20 +1,20 @@
 ---
-title: "La crisis de replicabilidad en psicología no se puede ignorar"
-description: "Tiene un coste real y desgarrador."
-lead: "Lo que no ayuda es la reticencia a indagar en nuestro pasado y preguntarse qué hay que revisar. Ha llegado el momento de hacer cuentas con nuestro pasado. Nuestro futuro podría depender de ello."
+title: 'La crisis de replicabilidad en psicología no se puede ignorar'
+description: 'Tiene un coste real y desgarrador.'
+lead: 'Lo que no ayuda es la reticencia a indagar en nuestro pasado y preguntarse qué hay que revisar. Ha llegado el momento de hacer cuentas con nuestro pasado. Nuestro futuro podría depender de ello.'
 date: 2021-03-04T08:02:23+01:00
 lastmod: 2021-03-04T08:02:23+01:00
 draft: true
-images: ["theatlantic.com.png"]
-link: "https://www.theatlantic.com/science/archive/2016/03/psychologys-replication-crisis-cant-be-wished-away/472272/"
+images: ['theatlantic.com.png']
+link: 'https://www.theatlantic.com/science/archive/2016/03/psychologys-replication-crisis-cant-be-wished-away/472272/'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 060
 toc: false
 pinned: false
-types: ["psicología"]
-functionalities: ["artículo"]
+types: ['psicología']
+functionalities: ['artículo']
 ---
 
 ```text

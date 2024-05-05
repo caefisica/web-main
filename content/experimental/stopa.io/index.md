@@ -1,20 +1,20 @@
 ---
-title: "What Gödel Discovered"
-description: "A los 25 escribió una demostración que puso las matemáticas de cabeza."
-lead: "A los 25 escribió una demostración que puso las matemáticas de cabeza."
+title: 'What Gödel Discovered'
+description: 'A los 25 escribió una demostración que puso las matemáticas de cabeza.'
+lead: 'A los 25 escribió una demostración que puso las matemáticas de cabeza.'
 date: 2022-03-25T04:20:42-05:00
 lastmod: 2022-03-25T04:20:42-05:00
 draft: true
-images: ["stopa.io.png"]
-link: "https://stopa.io/post/269"
+images: ['stopa.io.png']
+link: 'https://stopa.io/post/269'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 130
 toc: false
 pinned: false
-types: ["biografía"]
-functionalities: ["artículo"]
+types: ['biografía']
+functionalities: ['artículo']
 ---
 
 ```text

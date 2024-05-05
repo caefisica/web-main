@@ -1,20 +1,20 @@
 ---
-title: "The Big Book of Small Python Projects"
-description: "Ideas para proyectos en lenguaje Python"
-lead: "Ideas para proyectos en lenguaje Python"
+title: 'The Big Book of Small Python Projects'
+description: 'Ideas para proyectos en lenguaje Python'
+lead: 'Ideas para proyectos en lenguaje Python'
 date: 2022-03-25T20:10:44-05:00
 lastmod: 2022-03-25T20:10:44-05:00
 draft: false
-images: ["inventwithpython.com.png"]
-link: "https://inventwithpython.com/bigbookpython/"
+images: ['inventwithpython.com.png']
+link: 'https://inventwithpython.com/bigbookpython/'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 480
 toc: false
 pinned: false
-types: ["curso", "programación"]
-functionalities: ["web"]
+types: ['curso', 'programación']
+functionalities: ['web']
 ---
 
 ```text

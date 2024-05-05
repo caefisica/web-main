@@ -1,15 +1,15 @@
 ---
-title : "Ciclo V"
-lead: "En mi opinión, en este ciclo es en el que realmente comienzas a entrar un poco a la física. Las asignaturas anteriores te han preparado para este momento."
-description: "Quinto semestre"
+title: 'Ciclo V'
+lead: 'En mi opinión, en este ciclo es en el que realmente comienzas a entrar un poco a la física. Las asignaturas anteriores te han preparado para este momento.'
+description: 'Quinto semestre'
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
-layout: "single"
+layout: 'single'
 draft: false
 weight: 5
 images: []
 toc: false
-contributors: ["David"]
+contributors: ['David']
 ---
 
 {{< alert icon="🚨" text="Este semestre está a cargo de la Facultad de Ciencias Físicas (FCF)." />}}

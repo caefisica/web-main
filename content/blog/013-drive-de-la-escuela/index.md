@@ -1,8 +1,8 @@
 ---
-title: "La historia detrás del nuevo Drive de la E.P. de Física"
-lead: "Descubre el porqué de los cambios y cómo, con el apoyo de la comunidad, se ha logrado preservar y mantener accesibles importantes recursos académicos"
-description: "La historia detrás de la creación de la unidad compartida de la Escuela Profesional de Física de la UNMSM y cómo se ha logrado mantener accesibles los recursos académicos a pesar de los cambios en Google Workspace for Education"
-contributors: [ "David" ]
+title: 'La historia detrás del nuevo Drive de la E.P. de Física'
+lead: 'Descubre el porqué de los cambios y cómo, con el apoyo de la comunidad, se ha logrado preservar y mantener accesibles importantes recursos académicos'
+description: 'La historia detrás de la creación de la unidad compartida de la Escuela Profesional de Física de la UNMSM y cómo se ha logrado mantener accesibles los recursos académicos a pesar de los cambios en Google Workspace for Education'
+contributors: ['David']
 featured: false
 pdf: false
 math: true
@@ -12,18 +12,18 @@ toc: false
 images: []
 date: 2024-04-19T00:00:00-00:00
 lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
+    - :git
+    - lastmod
+    - date
+    - publishDate
 menu:
-  guias:
-    parent: "pregrado"
+    guias:
+        parent: 'pregrado'
 ---
 
 #### El inicio de todo: Google Apps for Education
 
-En 2006, Google  anunció un programa: [Google Apps for Education](https://googlepress.blogspot.com/2006/10/google-announces-education-news-at_10.html). Este programa brindaba, de forma gratuita, servicios como Gmail, Google Calendar y otros a colegios y universidades que calificaban. En 2014, Google sorprendió al anunciar que el programa ahora ofrecería espacio ilimitado sin costo alguno para universidades [[1](https://web.archive.org/web/20141001033527/https://googleforeducation.blogspot.com/2014/09/announcing-drive-for-education-21st.html)]. Dos años después, en 2016, Google Apps for Education pasó a llamarse G Suite for Education [[2](https://blog.google/outreach-initiatives/education/introducing-g-suite-education/)].
+En 2006, Google anunció un programa: [Google Apps for Education](https://googlepress.blogspot.com/2006/10/google-announces-education-news-at_10.html). Este programa brindaba, de forma gratuita, servicios como Gmail, Google Calendar y otros a colegios y universidades que calificaban. En 2014, Google sorprendió al anunciar que el programa ahora ofrecería espacio ilimitado sin costo alguno para universidades [[1](https://web.archive.org/web/20141001033527/https://googleforeducation.blogspot.com/2014/09/announcing-drive-for-education-21st.html)]. Dos años después, en 2016, Google Apps for Education pasó a llamarse G Suite for Education [[2](https://blog.google/outreach-initiatives/education/introducing-g-suite-education/)].
 
 #### El cambio de las reglas del juego
 
@@ -31,9 +31,9 @@ Pero en 2021, Google decidió cambiar las reglas del juego. En un movimiento ent
 
 ¿Por qué comprensible? Habían universidades que ocupaban cantidades en la escala de petabytes (equivalente a $10^5$ gigabytes) 😬:
 
-- [Boston University](https://www.bu.edu/articles/2022/university-negotiates-discount-for-new-google-workspace-charges/): (6.5 PB)
-- [University of California](https://www.oit.uci.edu/2023/04/06/introducing-google-storage-tiers/): (6 PB)
-- [University of Texas](https://it.utexas.edu/projects/utmail_storage_reduction/overview): (6.4 PB)
+-   [Boston University](https://www.bu.edu/articles/2022/university-negotiates-discount-for-new-google-workspace-charges/): (6.5 PB)
+-   [University of California](https://www.oit.uci.edu/2023/04/06/introducing-google-storage-tiers/): (6 PB)
+-   [University of Texas](https://it.utexas.edu/projects/utmail_storage_reduction/overview): (6.4 PB)
 
 Este espacio sería el total disponible para todas las cuentas de cada institución (conocido como [pooled storage](https://support.google.com/a/answer/9214707#pooled&zippy=%2Cc%C3%B3mo-funciona-el-almacenamiento-compartido)). Además, el programa pasaba a llamarse Google Workspace for Education.
 
@@ -50,7 +50,7 @@ Esta idea no pasó desapercibida y pronto otras bases comenzaron a replicar esta
 Los nuevos límites impuestos por Google obligaron a la Oficina de la Red Telemática de la UNMSM a tomar medidas cada vez más drásticas:
 
 1. Al principio, [indicaron que la información no sería eliminada](https://www.facebook.com/1551UNMSM/posts/pfbid0XqSY3X9wpaLesWXuudPDdpC5fzcM3WB5pdGZp3awtpCKmhjngCUyZbTBsQnmDhawl).
-{{< img-simple src="UNMSM_Comunicado_Cambio_Politica_Almacenamiento_Google_2023-01-04.png" alt="Imagen de un comunicado oficial en español de la Universidad Nacional Mayor de San Marcos (UNMSM), conocida como la Universidad del Perú, Decana de América. El documento informa sobre un cambio en las políticas de almacenamiento de Google, especificando que el espacio en Google Drive para correos institucionales ya no será ilimitado. Se aconseja respaldar la información en otro medio de almacenamiento. El comunicado incluye el escudo de la universidad, un encabezado en negritas que dice \"COMUNICADO\", y al final, los detalles de contacto de la Oficina de la Red Telemática. Fecha del comunicado: Lima, 4 de enero de 2023." class="d-block mx-auto shadow my-4" >}}
+   {{< img-simple src="UNMSM_Comunicado_Cambio_Politica_Almacenamiento_Google_2023-01-04.png" alt="Imagen de un comunicado oficial en español de la Universidad Nacional Mayor de San Marcos (UNMSM), conocida como la Universidad del Perú, Decana de América. El documento informa sobre un cambio en las políticas de almacenamiento de Google, especificando que el espacio en Google Drive para correos institucionales ya no será ilimitado. Se aconseja respaldar la información en otro medio de almacenamiento. El comunicado incluye el escudo de la universidad, un encabezado en negritas que dice \"COMUNICADO\", y al final, los detalles de contacto de la Oficina de la Red Telemática. Fecha del comunicado: Lima, 4 de enero de 2023." class="d-block mx-auto shadow my-4" >}}
 2. Luego, desactivaron la opción de grabar reuniones de Google Meet para cuentas institucionales.
 3. Para mediados y finales de 2023, comenzaron a enviar correos a estudiantes y docentes que sobrepasaban los nuevos límites establecidos, indicándoles que era necesario que eliminaran sus archivos de Google Drive.
 4. Actualmente (abril de 2024), no se pueden subir nuevos archivos, incluso si se está dentro del rango indicado. No hay información oficial sobre los nuevos límites; he visto correos donde se indicaba 5 GB, en otros 1 GB como límite.
@@ -87,7 +87,7 @@ Pero volvemos al mismo punto: no se puede compartir públicamente una unidad com
 
 {{< img-simple src="Captura_EP_Fisica_Listado_Archivos.png" alt="Captura de pantalla que muestra la interfaz de Google Drive con una lista nombrada \"E.P. de Física\" que incluye 3 grupos y 2 personas. La vista detalla un menú con opciones para ordenar por 'Tipo', 'Personas' y 'Modificado'. Debajo hay una lista de archivos titulados 'Base 18' hasta 'Base 24', además de un archivo llamado 'Representantes Estudiantiles' y una carpeta denominada 'Otros'." class="d-block mx-auto shadow my-4" >}}
 
-Las carpetas se pueden compartir públicamente. *Voilà*, caso cerrado. Bueno, no tanto. Desde entonces, se reciben ocasionalmente solicitudes de acceso a la unidad compartida:
+Las carpetas se pueden compartir públicamente. _Voilà_, caso cerrado. Bueno, no tanto. Desde entonces, se reciben ocasionalmente solicitudes de acceso a la unidad compartida:
 
 {{< img-simple src="Solicitudes_Compartir_Archivos_Notificaciones.png" alt="Captura de pantalla de una lista de notificaciones de solicitudes de compartir archivos. Las solicitudes incluyen una para \"Salazar\" a las 11:29, sin fecha específica, y varias fechadas el 20 y 19 de abril para \"5 Mecánica Clásica II\" y \"E.P. de Física\"." class="d-block mx-auto shadow my-4" >}}
 
@@ -97,9 +97,9 @@ Para solucionar esto, hay dos posibles salidas:
 
 2. **Usar mailing lists** (listas de correos): Es una forma de agrupar varios correos bajo una sola dirección. Y Google tiene justamente un servicio para esto: Grupos de Google. Entre sus ventajas están que:
 
-   - Permiten automatizar el proceso de añadir y dar acceso a los usuarios. Básicamente cada persona se une al mailing list y ya está, ya pueden acceder a la unidad compartida.
-   - Permiten limitar el acceso a una organización si es que se crea con una cuenta institucional. San Marcos, en este caso.
-   - Permiten configurar el grupo para que no se pueda ver los correos del resto de usuarios del mailing list, protegiendo la privacidad.
+    - Permiten automatizar el proceso de añadir y dar acceso a los usuarios. Básicamente cada persona se une al mailing list y ya está, ya pueden acceder a la unidad compartida.
+    - Permiten limitar el acceso a una organización si es que se crea con una cuenta institucional. San Marcos, en este caso.
+    - Permiten configurar el grupo para que no se pueda ver los correos del resto de usuarios del mailing list, protegiendo la privacidad.
 
 Finalmente, se optó por la segunda opción y se organizó la unidad compartida del siguiente modo:
 

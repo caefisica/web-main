@@ -1,14 +1,14 @@
 ---
-title: "El idioma"
-description: "Quizás ya te lo han contado, pero a veces es bueno recordártelo..."
-lead: "Quizás ya te lo han contado, pero a veces es bueno recordártelo..."
+title: 'El idioma'
+description: 'Quizás ya te lo han contado, pero a veces es bueno recordártelo...'
+lead: 'Quizás ya te lo han contado, pero a veces es bueno recordártelo...'
 date: 2022-02-25T00:00:00+01:00
 lastmod: 2022-02-25T00:00:00+01:00
-images: ["https://i.imgur.com/GgoqSI0.png"]
-thumbnail: "https://i.imgur.com/0yarGgB.png"
-contributors: ["David"]
-author_id: "david"
-tags: ["tips"]
+images: ['https://i.imgur.com/GgoqSI0.png']
+thumbnail: 'https://i.imgur.com/0yarGgB.png'
+contributors: ['David']
+author_id: 'david'
+tags: ['tips']
 toc: false
 weight: 50
 ---
@@ -23,9 +23,9 @@ El francés, el alemán y el italiano también te pueden ser útiles [cof, cof, 
 
 Algunos recursos educativos para comenzar a aprender inglés:
 
-- [Duolingo](https://www.duolingo.com/): Sí, personalmente lo recomiendo, es lo suficientemente interactivo como para no tener excusas. Además, algunas universidades aceptan como certificado al "Duolingo English Test".
-- [Diccionario Cambridge](https://dictionary.cambridge.org/es/diccionario/espanol-ingles/): La interfaz de usuario es amigable y contiene ejemplos de uso.
-- [Ozdic](https://ozdic.com/): Base de datos de formas adecuadas de colocar (ordenar) las palabras en una frase. Te puede venir bien al momento de revisar tus manuscritos.
+-   [Duolingo](https://www.duolingo.com/): Sí, personalmente lo recomiendo, es lo suficientemente interactivo como para no tener excusas. Además, algunas universidades aceptan como certificado al "Duolingo English Test".
+-   [Diccionario Cambridge](https://dictionary.cambridge.org/es/diccionario/espanol-ingles/): La interfaz de usuario es amigable y contiene ejemplos de uso.
+-   [Ozdic](https://ozdic.com/): Base de datos de formas adecuadas de colocar (ordenar) las palabras en una frase. Te puede venir bien al momento de revisar tus manuscritos.
 
 Si ya estás familiarizado con el idioma, puedes utilizar estas herramientas:
 

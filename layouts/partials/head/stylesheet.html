@@ -1,23 +1,28 @@
 {{/* Usamos .Scratch porque las variables definidas dentro de un if no son válidas fuera */}}
 
 {{ if eq .Kind "home" -}}
-  {{ .Scratch.Set "scssFile" (resources.Get "scss/home.scss") }}
-  {{ .Scratch.Set "options" (dict "transpiler" "dartsass" "targetPath" "home.css" "includePaths" (slice "node_modules")) }}
+    {{ .Scratch.Set "scssFile" (resources.Get "scss/home.scss") }}
+    {{ .Scratch.Set "options" (dict "transpiler" "dartsass" "targetPath" "home.css" "includePaths" (slice "node_modules")) }}
 {{ else -}}
-  {{ .Scratch.Set "scssFile" (resources.Get "scss/app.scss") }}
-  {{ .Scratch.Set "options" (dict "transpiler" "dartsass" "targetPath" "main.css" "includePaths" (slice "node_modules")) }}
+    {{ .Scratch.Set "scssFile" (resources.Get "scss/app.scss") }}
+    {{ .Scratch.Set "options" (dict "transpiler" "dartsass" "targetPath" "main.css" "includePaths" (slice "node_modules")) }}
 {{ end -}}
 
 {{ if eq (hugo.Environment) "development" -}}
-  {{ .Scratch.Set "options" (merge (.Scratch.Get "options") (dict "enableSourceMap" true)) }}
-  {{ $css := (.Scratch.Get "scssFile") | toCSS (.Scratch.Get "options") -}}
-  <link rel="stylesheet" href="{{ $css.Permalink | relURL }}">
+    {{ .Scratch.Set "options" (merge (.Scratch.Get "options") (dict "enableSourceMap" true)) }}
+    {{ $css := (.Scratch.Get "scssFile") | toCSS (.Scratch.Get "options") -}}
+    <link rel="stylesheet" href="{{ $css.Permalink | relURL }}" />
 {{ else -}}
-  {{ .Scratch.Set "options" (merge (.Scratch.Get "options") (dict "outputStyle" "compressed")) }}
-  {{ $css := (.Scratch.Get "scssFile") | toCSS (.Scratch.Get "options") | postCSS (dict "config" "config/postcss.config.js") -}}
-  {{ $secureCSS := $css | resources.Fingerprint "sha512" -}}
-  <link rel="stylesheet" href="{{ $secureCSS.Permalink | relURL }}" integrity="{{ $secureCSS.Data.Integrity }}" crossorigin="anonymous">
+    {{ .Scratch.Set "options" (merge (.Scratch.Get "options") (dict "outputStyle" "compressed")) }}
+    {{ $css := (.Scratch.Get "scssFile") | toCSS (.Scratch.Get "options") | postCSS (dict "config" "config/postcss.config.js") -}}
+    {{ $secureCSS := $css | resources.Fingerprint "sha512" -}}
+    <link
+        rel="stylesheet"
+        href="{{ $secureCSS.Permalink | relURL }}"
+        integrity="{{ $secureCSS.Data.Integrity }}"
+        crossorigin="anonymous"
+    />
 {{ end -}}
 
 {{ $noscript := resources.Get "scss/components/_noscript.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-<noscript><link rel="stylesheet" href="{{ $noscript.Permalink }}"></noscript>
+<noscript><link rel="stylesheet" href="{{ $noscript.Permalink }}" /></noscript>

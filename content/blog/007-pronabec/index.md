@@ -1,14 +1,14 @@
 ---
-title: "Becas"
-description: "El PRONABEC y una guía a las becas que ofrece."
-lead: "El PRONABEC y una guía a las becas que ofrece."
+title: 'Becas'
+description: 'El PRONABEC y una guía a las becas que ofrece.'
+lead: 'El PRONABEC y una guía a las becas que ofrece.'
 date: 2022-03-28T23:15:00-05:00
 lastmod: 2022-03-29T05:15:00.000+01:00
-images: ["https://i.imgur.com/GgoqSI0.png"]
-thumbnail: "https://i.imgur.com/JaR7dLm.png"
-contributors: ["Richard", "Sergio"]
-author_id: "richard"
-tags: ["tips"]
+images: ['https://i.imgur.com/GgoqSI0.png']
+thumbnail: 'https://i.imgur.com/JaR7dLm.png'
+contributors: ['Richard', 'Sergio']
+author_id: 'richard'
+tags: ['tips']
 pinned: true
 weight: 70
 toc: true
@@ -18,12 +18,12 @@ PRONABEC (Programa Nacional de Becas y Crédito Educativo) es un programa del Mi
 
 Entre las becas que ofrece el PRONABEC se encuentran:
 
-* Beca Permanencia
-* Beca Continuidad
-* Beca 18
-* Beca Generación del Bicentenario
-* Beca Perú
-* Beca Alianza del Pacifico
+-   Beca Permanencia
+-   Beca Continuidad
+-   Beca 18
+-   Beca Generación del Bicentenario
+-   Beca Perú
+-   Beca Alianza del Pacifico
 
 De todas estas becas que ofrece el PRONABEC comentaremos sobre las dos primeras, ya que ambas becas tanto la _Beca Permanencia_ como _Beca Continuidad_ son para el nivel de Pregrado.
 
@@ -35,9 +35,9 @@ Esta beca esta dirigida a estudiantes de universidades públicas que tengan buen
 
 Entre los beneficios que ofrece la beca se encuentran:
 
-* Alimentación
-* Útiles de escritorio
-* Movilidad local
+-   Alimentación
+-   Útiles de escritorio
+-   Movilidad local
 
 Esta beca te ofrece mensualmente el monto aproximado de S/.920.00 soles el cual se deposita en una cuenta que te apertura PRONABEC luego de haber obtenido la beca. Aparte esta beca ofrece un monto adicional para la adquisición de una Laptop, aunque esto depende de cada convocatoria (el monto que se ofreció para la convocatoria 2021 fue de S/.2159.00).
 
@@ -51,10 +51,10 @@ Es decir si el beneficiario se hace acreedor de la beca estando en 3er ciclo ent
 
 Los requisitos que se tienen para poder postular a la beca son los siguientes (teniendo en consideración la convocatoria de 2021):
 
-* Tener nacionalidad peruana.
-* Ser estudiante de universidad pública elegible.
-* Poseer un buen rendimiento académico.
-* Acreditar pobreza o pobreza extrema según el Sistema de Focalización de Hogares (Sisfoh) del Ministerio de Desarrollo e Inclusión Social.
+-   Tener nacionalidad peruana.
+-   Ser estudiante de universidad pública elegible.
+-   Poseer un buen rendimiento académico.
+-   Acreditar pobreza o pobreza extrema según el Sistema de Focalización de Hogares (Sisfoh) del Ministerio de Desarrollo e Inclusión Social.
 
 ### Registro del proceso de postulación
 
@@ -74,8 +74,8 @@ La beca continuidad es un concurso dirigido a estudiantes de educación superior
 
 Los beneficios que ofrece la beca varían dependiendo de si el becario esta en una universidad pública o una privada:
 
-* Para estudiantes en instituciones privadas: matrícula y pensión de estudios.
-* Para estudiantes en instituciones públicas: manutención (alimentación, movilidad local y útiles de escritorio).
+-   Para estudiantes en instituciones privadas: matrícula y pensión de estudios.
+-   Para estudiantes en instituciones públicas: manutención (alimentación, movilidad local y útiles de escritorio).
 
 La manutención que ofrece la beca es la misma que Beca Permanencia, es decir el monto de 920 soles mensuales.
 
@@ -89,6 +89,6 @@ Los requisitos que se tienen para poder postular a la beca son los siguientes (t
 
 1. Nacionalidad peruana.
 2. Acreditar condición de vulnerabilidad económica, de acuerdo al siguiente detalle:
-   * **Pobreza o pobreza extrema**, la cual es consultada en línea a través del Sistema de Focalización de Hogares (Sisfoh) del Midis; o
-   * **Ser receptor del Bono Yanapay** o ser hijo de un receptor de dicho bono (mayor detalle leer Artículo 11 bases del concurso).
+    - **Pobreza o pobreza extrema**, la cual es consultada en línea a través del Sistema de Focalización de Hogares (Sisfoh) del Midis; o
+    - **Ser receptor del Bono Yanapay** o ser hijo de un receptor de dicho bono (mayor detalle leer Artículo 11 bases del concurso).
 3. Contar con matricula.

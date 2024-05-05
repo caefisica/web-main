@@ -1,11 +1,11 @@
 ---
-title: "Centro de Apoyo al Estudiante de Física"
-description: "El Centro de Apoyo al Estudiante de Física (CAE Física) es un grupo conformado por estudiantes de ciencias físicas de la Universidad Nacional Mayor San Marcos (UNMSM) de Lima, Perú. Nuestro principal objetivo es el de brindar recursos académicos que faciliten el estudio de la física. Como objetivos secundarios, aunque no por esto menos importantes, son informar (a través de guías de estudio), divulgar (a través de publicaciones en redes sociales) e incentivar el estudio de la física."
+title: 'Centro de Apoyo al Estudiante de Física'
+description: 'El Centro de Apoyo al Estudiante de Física (CAE Física) es un grupo conformado por estudiantes de ciencias físicas de la Universidad Nacional Mayor San Marcos (UNMSM) de Lima, Perú. Nuestro principal objetivo es el de brindar recursos académicos que faciliten el estudio de la física. Como objetivos secundarios, aunque no por esto menos importantes, son informar (a través de guías de estudio), divulgar (a través de publicaciones en redes sociales) e incentivar el estudio de la física.'
 date: 2022-07-27T19:23:18+02:00
 lastmod: 2022-07-27T19:23:18+02:00
 draft: false
 images: []
-type: "nosotros"
+type: 'nosotros'
 ---
 
 El Centro de Apoyo al Estudiante de Física (CAE Física) es un grupo conformado por estudiantes de ciencias físicas de la Universidad Nacional Mayor San Marcos (UNMSM) de Lima, Perú. Nuestro principal objetivo es el de brindar recursos académicos que faciliten el estudio de la física. Como objetivos secundarios, aunque no por esto menos importantes, son informar (a través de guías de estudio), divulgar (a través de publicaciones en redes sociales) e incentivar el estudio de la física.
