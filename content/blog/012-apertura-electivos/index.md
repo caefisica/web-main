@@ -39,8 +39,6 @@ La solicitud para los cursos electivos debe estar dirigida al director de escuel
 
 A continuación, puedes ver un ejemplo de una solicitud para abrir un área. Si necesitas ayuda adicional, puedes descargar la plantilla en formato PDF.
 
-{{< details "Solicitud de Apertura de Área" >}}
-{{< pdfjs file="Carta_Solicitud_Apertura.pdf" >}}
-{{< /details >}}
+{{< details "Solicitud de Apertura de Área" >}} {{< pdfjs file="Carta_Solicitud_Apertura.pdf" >}} {{< /details >}}
 
 Puedes acceder a la plantilla a través de [este enlace](Carta_Solicitud_Apertura.pdf) o [este enlace](Carta_Solicitud_Apertura.docx).
