@@ -14,10 +14,6 @@ weight: 2010
 images: []
 ---
 
-{{< details "Actualizado en setiembre del 2022" >}}
-{{< pdfjs file="H_2022-II_Facultad.pdf" >}}
-{{< /details >}}
+{{< details "Actualizado en setiembre del 2022" >}} {{< pdfjs file="H_2022-II_Facultad.pdf" >}} {{< /details >}}
 
-{{< details "Actualizado en setiembre del 2022" >}}
-{{< pdfjs file="H_2022-II_EEEG.pdf" >}}
-{{< /details >}}
+{{< details "Actualizado en setiembre del 2022" >}} {{< pdfjs file="H_2022-II_EEEG.pdf" >}} {{< /details >}}

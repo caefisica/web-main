@@ -16,9 +16,7 @@
     "endOfLine": "lf",
     "printWidth": 80,
     "goTemplateBracketSpacing": true,
-    "plugins": [
-        "prettier-plugin-go-template"
-    ],
+    "plugins": ["prettier-plugin-go-template"],
     "overrides": [
         {
             "files": "*.js",
@@ -30,9 +28,7 @@
             }
         },
         {
-            "files": [
-                "*.html"
-            ],
+            "files": ["*.html"],
             "options": {
                 "parser": "go-template"
             }

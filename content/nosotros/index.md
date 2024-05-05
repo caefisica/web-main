@@ -18,6 +18,7 @@ Para alcanzar estos objetivos optamos por cinco estrategias:
 4. Difundir información académica (tales como comunicados de la Facultad de Ciencias Físicas, becas, etc) que influya en un mejor desempeño de los estudiantes.
 5. Difundir contenido multimedia que incentive el interés en la física como ciencia y potencial carrera.
 
+<!-- prettier-ignore-start -->
 {{< new-box-list title="¿Qué estamos haciendo?" >}}
   {{< new-box
     subtitle="Redes sociales"
@@ -31,3 +32,4 @@ Para alcanzar estos objetivos optamos por cinco estrategias:
     content="Repositorio de guías y documentos relacionados al estudio de las ciencias físicas."
   >}}
 {{< /new-box-list >}}
+<!-- prettier-ignore-end -->

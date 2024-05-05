@@ -22,9 +22,7 @@ Duración: 3 años (6 semestres).
 
 ## Plan de Estudios
 
-{{< details "Actualizado el 2020" >}}
-{{< pdfjs file="PE_2020_Doctorado.pdf" >}}
-{{< /details >}}
+{{< details "Actualizado el 2020" >}} {{< pdfjs file="PE_2020_Doctorado.pdf" >}} {{< /details >}}
 
 ## Perfil del Ingresante
 

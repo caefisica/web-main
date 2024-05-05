@@ -22,9 +22,7 @@ La Maestría en Física, con mención en Física del Estado Sólido, es un progr
 
 La duración es de 2 años (4 semestres).
 
-{{< details "Plan de Estudios - Actualizado el 2020" >}} 
-{{< pdfjs file="PE_2020_Maestria_Solido.pdf" >}}
-{{< /details >}}
+{{< details "Plan de Estudios - Actualizado el 2020" >}} {{< pdfjs file="PE_2020_Maestria_Solido.pdf" >}} {{< /details >}}
 
 <br>
 
@@ -38,9 +36,7 @@ La Maestría en Física con mención en Física Nuclear, es un programa académi
 
 La duración es de 2 años (4 semestres).
 
-{{< details "Plan de Estudios - Actualizado el 2020" >}}
-{{< pdfjs file="PE_2020_Maestria_Nuclear.pdf" >}}
-{{< /details >}}
+{{< details "Plan de Estudios - Actualizado el 2020" >}} {{< pdfjs file="PE_2020_Maestria_Nuclear.pdf" >}} {{< /details >}}
 
 <br>
 
@@ -54,9 +50,7 @@ La Maestría en Física con mención en Geofísica es un programa académico cuy
 
 La duración es de 2 años (4 semestres).
 
-{{< details "Plan de Estudios - Actualizado el 2020" >}}
-{{< pdfjs file="PE_2020_Maestria_Geofisica.pdf" >}}
-{{< /details >}}
+{{< details "Plan de Estudios - Actualizado el 2020" >}} {{< pdfjs file="PE_2020_Maestria_Geofisica.pdf" >}} {{< /details >}}
 
 <br>
 
@@ -76,9 +70,7 @@ La Maestría en Ingeniería Hidráulica con mención en Hidráulica Computaciona
 
 La duración es de 2 años (4 semestres).
 
-{{< details "Plan de Estudios - Actualizado el 2020" >}}
-{{< pdfjs file="PE_2020_Maestria_IHidraulica.pdf" >}}
-{{< /details >}}
+{{< details "Plan de Estudios - Actualizado el 2020" >}} {{< pdfjs file="PE_2020_Maestria_IHidraulica.pdf" >}} {{< /details >}}
 
 <br>
 

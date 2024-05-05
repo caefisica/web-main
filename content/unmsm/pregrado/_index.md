@@ -23,13 +23,9 @@ contributors: ['David']
 
 Te invitamos a revisar los planes de estudios actualizados, disponibles en archivos PDF:
 
-{{< details "Febrero de 2020" >}}
-{{< pdfjs file="EAP_10-02-2020.pdf" >}}
-{{< /details >}}
+{{< details "Febrero de 2020" >}} {{< pdfjs file="EAP_10-02-2020.pdf" >}} {{< /details >}}
 
-{{< details "Julio de 2021" >}}
-{{< pdfjs file="plan2018.pdf" >}}
-{{< /details >}}
+{{< details "Julio de 2021" >}} {{< pdfjs file="plan2018.pdf" >}} {{< /details >}}
 
 ## Contenido
 
