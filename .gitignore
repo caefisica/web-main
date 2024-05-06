@@ -1,7 +1,13 @@
+# dev dependencies
 node_modules
+
+# build files
 public
 resources
-.netlify
-.hugo_build.lock
-.env
+static/fonts
 assets/jsconfig.json
+
+# sensitive varibles
+.env
+.hugo_build.lock
+.netlify
