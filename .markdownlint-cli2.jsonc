@@ -1,7 +1,6 @@
 {
     "config": {
         "default": true,
-        "MD007": false, // Indentation issue: https://github.com/prettier/prettier/issues/4114
         "MD013": false,
         "MD024": false,
         "MD029": false, // This only works if you have a continuous list (p.s. we don't)
