@@ -2,8 +2,7 @@
     {{- partial "footer/esbuild" (dict "src" "js/color-mode.js" "transpile" false) }}
 {{ end -}}
 {{- if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
-    {{ $alertInit := resources.Get "js/alert-init.js" | js.Build | minify -}}
-  <script nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">{{ $alertInit.Content | safeJS }}</script>
+    {{- partial "footer/esbuild" (dict "src" "js/dismissable-alert.js" "transpile" false) }}
 {{- end -}}
 {{ if eq (hugo.Environment) "production" -}}
     <script async src="https://hive.caefisica.com/sb.js"></script>

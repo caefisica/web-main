@@ -35,12 +35,6 @@
     {{ $slice = $slice | append $instantPage -}}
 {{ end -}}
 
-{{ if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
-    {{ $alert := resources.Get "js/alert.js" -}}
-    {{ $alert := $alert | js.Build -}}
-    {{ $slice = $slice | append $alert -}}
-{{ end -}}
-
 {{ if .Site.Params.options.kaTex -}}
     {{ $katexConfig := resources.Get "js/katex.js" -}}
     {{ $katexConfig := $katexConfig | js.Build -}}
