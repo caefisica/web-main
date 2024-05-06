@@ -5,7 +5,7 @@ const getPreferredTheme = () => {
     }
     return window.matchMedia("(prefers-color-scheme: dark)").matches ?
             "dark"
-        :   "light";
+        :   "light"; // eslint-disable-line no-multi-spaces
 };
 
 const setTheme = theme => {
@@ -21,7 +21,7 @@ const toggleTheme = () => {
     const currentTheme =
         document.documentElement.hasAttribute("data-dark-mode") ?
             "dark"
-        :   "light";
+        :   "light"; // eslint-disable-line no-multi-spaces
     const newTheme = currentTheme === "dark" ? "light" : "dark";
     setTheme(newTheme);
 };

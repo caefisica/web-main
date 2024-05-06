@@ -1,6 +1,5 @@
 {{ if .Site.Params.options.darkMode -}}
-    {{ $darkModeInit := resources.Get "js/color-mode.js" | js.Build | minify | fingerprint "sha512" -}}
-  <script nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">{{ $darkModeInit.Content | safeJS }}</script>
+    {{- partial "footer/esbuild" (dict "src" "js/color-mode.js" "transpile" false) }}
 {{ end -}}
 {{- if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
     {{ $alertInit := resources.Get "js/alert-init.js" | js.Build | minify -}}
