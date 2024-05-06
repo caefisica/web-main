@@ -1,20 +1,20 @@
 ---
-title: "Instituto de Física UNAM"
-description: "Uno de los centros dedicados a la investigación más importantes de México"
-lead: "Uno de los centros dedicados a la investigación en temas de física más importantes de México"
+title: 'Instituto de Física UNAM'
+description: 'Uno de los centros dedicados a la investigación más importantes de México'
+lead: 'Uno de los centros dedicados a la investigación en temas de física más importantes de México'
 date: 2022-03-25T16:46:55-05:00
 lastmod: 2022-03-25T16:46:55-05:00
 draft: false
-images: ["fisica.unam.png"]
-link: "https://www.facebook.com/InstitutodeFisicaUNAM/"
+images: ['fisica.unam.png']
+link: 'https://www.facebook.com/InstitutodeFisicaUNAM/'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 390
 toc: false
 pinned: false
-types: ["comunidad", "universidad", "charlas"]
-functionalities: ["web"]
+types: ['comunidad', 'universidad', 'charlas']
+functionalities: ['web']
 ---
 
 ```text

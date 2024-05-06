@@ -1,20 +1,20 @@
 ---
-title: "Cecilia Payne-Gaposchkin"
-description: "El día en el que el universo cambió."
-lead: "This Month in Physics History"
+title: 'Cecilia Payne-Gaposchkin'
+description: 'El día en el que el universo cambió.'
+lead: 'This Month in Physics History'
 date: 2022-03-25T04:24:49-05:00
 lastmod: 2022-03-25T04:24:49-05:00
 draft: true
-images: ["aps.org.png"]
-link: "https://www.aps.org/publications/apsnews/201501/physicshistory.cfm"
+images: ['aps.org.png']
+link: 'https://www.aps.org/publications/apsnews/201501/physicshistory.cfm'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 140
 toc: false
 pinned: false
-types: ["biografía"]
-functionalities: ["artículo"]
+types: ['biografía']
+functionalities: ['artículo']
 ---
 
 ```text

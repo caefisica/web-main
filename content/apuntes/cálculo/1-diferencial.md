@@ -1,22 +1,22 @@
 ---
-title: "Diferencial"
-description: "CBO204 — 4 créditos"
-lead: "CBO204 — 4 créditos"
+title: 'Diferencial'
+description: 'CBO204 — 4 créditos'
+lead: 'CBO204 — 4 créditos'
 date: 2022-02-01T02:00:00
 lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
+    - :git
+    - lastmod
+    - date
+    - publishDate
 draft: true
 menu:
-  cursos:
-    parent: "cálculo"
+    cursos:
+        parent: 'cálculo'
 weight: 10
 toc: true
-contributors: ["Richard"]
+contributors: ['Richard']
 math: true
-types: ["matemática"]
+types: ['matemática']
 ---
 
 {{< alert icon="📌" text="Los temas que se tocan en el curso Cálculo II está relacionado con el cálculo integral, donde se aprenderá distintas técnicas de integración." />}}
@@ -27,11 +27,11 @@ types: ["matemática"]
 
 El curso de Cálculo II se puede dividir en los siguientes temas de forma general:
 
-- Integrales Indefinidas
-- Integrales Definidas
-- Aplicaciones de las Integrales definidas
-- Integración Numérica
-- Integrales impropias
+-   Integrales Indefinidas
+-   Integrales Definidas
+-   Aplicaciones de las Integrales definidas
+-   Integración Numérica
+-   Integrales impropias
 
 Explayándonos un poco más en los temas mencionados anteriormente:
 
@@ -97,14 +97,14 @@ Explayándonos un poco más en los temas mencionados anteriormente:
 
             2. Haciendo que:
 
-                $$u=ln^2 x \quad \rightarrow \quad du=2\dfrac{\ln x}{x}dx$$
-                $$dv=x^2 dx \quad \rightarrow \quad v=\dfrac{x^3}{3} $$
+                $$u=ln^2 x \quad \rightarrow \quad du=2\dfrac{\ln x}{x}dx$$ $$dv=x^2 dx \quad \rightarrow \quad v=\dfrac{x^3}{3} $$
 
             3. Reemplazando utilizando el método de integración por partes:
 
                 $$
                 \int x^2 \ln{x} dx=\ln^2{x} \left( \dfrac{x^3}{3}\right)-\int \dfrac{x^3}{3} 2 \dfrac{\ln{x}}{x}dx
                 $$
+
                 $$
                 \int x^2\ln{x} dx=\dfrac{x^3}{3} \ln^2{x}-\dfrac{2}{3}\int x^2 \ln{x} dx
                 $$
@@ -134,7 +134,7 @@ Explayándonos un poco más en los temas mencionados anteriormente:
             1. Teniendo la integral:
                 $$
                 \int \dfrac{x+4}{x^4-9x^2}dx
-                $$  
+                $$
             2. Si factorizamos el denominador de nuestra integral:
 
                 $$
@@ -182,6 +182,7 @@ Explayándonos un poco más en los temas mencionados anteriormente:
                 $$
 
             3. Reemplazando en la integral nos queda:
+
                 $$
                 \begin{aligned}
                 \int \dfrac{\sqrt{x^2-8}}{x^4}dx&=\int \dfrac{\sqrt{8\sec^2{\theta}-8}}{64\sec^4{\theta}}\sqrt{8}\tan{\theta}\sec{\theta}d\theta \newline \newline

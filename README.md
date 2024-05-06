@@ -1,7 +1,7 @@
 # Bienvenido al caefisica.com
 
 | Publicación y CI | Calidad del código | Monitoreo |
-| --------------- | ------------------ | --------- |
+| --- | --- | --- |
 | [![Cloudflare](https://img.shields.io/endpoint?url=https://cloudflare-pages-badges.cae.workers.dev/?projectName=caefisica)](https://dash.cloudflare.com/?to=/:account/pages/view/caefisica/) | [![Momobot CI](https://github.com/caefisica/web/actions/workflows/node.js_ci.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/node.js_ci.yml) | [![Análisis CodeQL](https://github.com/caefisica/web/actions/workflows/analisis_codeql.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/analisis_codeql.yml) |
 | [![Netlify](https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status)](https://app.netlify.com/sites/caefis/deploys) | [![Lighthouse CI](https://github.com/caefisica/web/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/lighthouse.yml) | [![🔎 Enlaces no existentes](https://github.com/caefisica/web/actions/workflows/enlaces_404.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/enlaces_404.yml) |
 
@@ -22,7 +22,7 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 
 ## Visión 👀, misión 🎯 y estrategia a futuro 🗺️
 
-### Aspiramos a la igualdad de oportunidades para todos los estudiantes de física, creyendo que hasta el menor apoyo puede transformar su futuro.
+### Aspiramos a la igualdad de oportunidades para todos los estudiantes de física, creyendo que hasta el menor apoyo puede transformar su futuro
 
 > [!NOTE]  
 > Cuando hablamos de oportunidades, nos referimos principalmente a que todos tengan conocimiento de las mismas convocatorias, accedan a las mismas recomendaciones, libros y demás recursos disponibles.
@@ -31,31 +31,31 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 
 **Nuestros principales resultados** a futuro son:
 
-- Mejorar significativamente la comunicación y accesibilidad del material de estudio disponible.
-- Lograr que todos puedan encontrar y utilizar la información necesaria para tomar decisiones informadas.
-- Establecer un sistema sostenible y acorde a las necesidades de nuestra comunidad.
+-   Mejorar significativamente la comunicación y accesibilidad del material de estudio disponible.
+-   Lograr que todos puedan encontrar y utilizar la información necesaria para tomar decisiones informadas.
+-   Establecer un sistema sostenible y acorde a las necesidades de nuestra comunidad.
 
 **El público objetivo** a futuro es:
 
-- Dentro de la UNMSM - Estudiantes y docentes de la E.P. de Física.
-- Fuera de la UNMSM - Comunidad universitaria de habla castellana.
+-   Dentro de la UNMSM - Estudiantes y docentes de la E.P. de Física.
+-   Fuera de la UNMSM - Comunidad universitaria de habla castellana.
 
 ## Estrategia y plan 🤔
 
 ### Estrategia de priorización
 
-- Ahora:
-  - [X] Construir una serie de canales de información en redes sociales ([Facebook](https://facebook.com/caefisica), [Instagram](https://www.instagram.com/caefisica), WhatsApp público).
-  - [X] Prototipar y desarrollar la [versión inicial de la web](https://caefisica.com/) con documentación limitada al Plan de Estudios 2018.
-  - [X] Compartir oportunidades y becas a través del grupo de WhatsApp público.
-- Siguiente:
-  - [ ] Consolidar la información a través de grupos de WhatsApp divididos por categorías (oportunidades, artículos científicos, física de altas energías, etc).
-  - [ ] Añadir apuntes de clase en formato LaTeX transcritas de notas publicadas por profesores de la facultad. Véase [caefisica/NotasTeX](https://github.com/caefisica/NotasTeX).
-  - [ ] Implementar las partes necesarias para escalar la página web a otros planes de estudio dentro y fuera de la facultad.
-- Después - Añadir funcionalidades terciarias.
+-   Ahora:
+    -   [x] Construir una serie de canales de información en redes sociales ([Facebook](https://facebook.com/caefisica), [Instagram](https://www.instagram.com/caefisica), WhatsApp público).
+    -   [x] Prototipar y desarrollar la [versión inicial de la web](https://caefisica.com/) con documentación limitada al Plan de Estudios 2018.
+    -   [x] Compartir oportunidades y becas a través del grupo de WhatsApp público.
+-   Siguiente:
+    -   [ ] Consolidar la información a través de grupos de WhatsApp divididos por categorías (oportunidades, artículos científicos, física de altas energías, etc).
+    -   [ ] Añadir apuntes de clase en formato LaTeX transcritas de notas publicadas por profesores de la facultad. Véase [caefisica/NotasTeX](https://github.com/caefisica/NotasTeX).
+    -   [ ] Implementar las partes necesarias para escalar la página web a otros planes de estudio dentro y fuera de la facultad.
+-   Después - Añadir funcionalidades terciarias.
 
 | Fase | Prioridades |
-| ---- | ----------- |
+| --- | --- |
 | Hecho - Prototipo | <ul><li>Iniciamos cubriendo el Plan de Estudios 2018 hasta el séptimo ciclo. Véase la sección de [cursos](https://caefisica.com/unmsm/).</li><li>Requisitos y opciones viables para un CMS: [Pages CMS](https://auth.caefisica.com/), utilizábamos Forestry, pero [fue abandonado](https://tina.io/forestry/).</li><li>Integrado [Splitbee](https://splitbee.io/) como herramienta analítica para optimizar la experiencia del usuario.</li><li>Implementado revisión automática de enlaces para asegurar su funcionamiento a través de GitHub Actions (gracias a [atalent-labs/404-link](https://github.com/atalent-labs/404-links))</li></ul> |
 | **Ahora - Consolidación** | <ul><li>Ampliamos información cubriendo todos los planes de estudio con apoyo docente.</li><li>Desarrollamos automatización para la transcripción de documentos a formato LaTeX</li><li>Unificamos los grupos de WhatsApp para fortalecer nuestra comunidad</li><li>Estamos trabajando en un sistema de automatización para compartir automáticamente oportunidades académicas y becas entre grupos de WhatsApp, canales de WhatsApp, página web y newsletter. Véase [caefisica/whatsapp-manager](https://github.com/caefisica/whatsapp-manager)</li></ul> |
 | Siguiente - Expandir | <ul><li>Implementaremos técnicas de extracción de datos para actualizar noticias relacionadas a la física en tiempo real. Véase [rss.caefisica.com](https://rss.caefisica.com/)</li><li>Automatizaremos la creación de copias de seguridad con cada nuevo boletín informativo</li><li>Mejoraremos la funcionalidad de búsqueda en nuestra biblioteca virtual</li><li>Publicaremos automáticamente contenidos en redes sociales, añadiéndolo al feed de los autores (véase el feed de [David](https://caefisica.com/contributors/david/))</li></ul> |
@@ -63,21 +63,21 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 
 ## Cómo tendremos éxito o fracasaremos 😮‍💨
 
-### Tendremos éxito si:
+### Tendremos éxito si: <!-- markdownlint-disable-line -->
 
-- trabajamos de buena fe con estudiantes de diversas bases para expandir el contenido disponible y comprender sus necesidades
-- los estudiantes toman decisiones informadas basadas en sus áreas de interés, aumentando la cantidad de estudiantes que realizan intercambios académicos (especialmente al extranjero) e incrementando las posibilidades de continuar con estudios de posgrado como maestría o doctorado
-- los estudiantes de nuestra facultad interactúan y comparten conocimientos con estudiantes de facultades de física de otras universidades
-- surgen nuevos grupos estudiantiles dedicados a informar y organizar eventos en áreas más específicas dentro de nuestra facultad
-- obtenemos _feedback_ continuo sobre el código en funcionamiento e ideas para nuevas funcionalidades, en lugar de quedar como simples propuestas.
+-   trabajamos de buena fe con estudiantes de diversas bases para expandir el contenido disponible y comprender sus necesidades
+-   los estudiantes toman decisiones informadas basadas en sus áreas de interés, aumentando la cantidad de estudiantes que realizan intercambios académicos (especialmente al extranjero) e incrementando las posibilidades de continuar con estudios de posgrado como maestría o doctorado
+-   los estudiantes de nuestra facultad interactúan y comparten conocimientos con estudiantes de facultades de física de otras universidades
+-   surgen nuevos grupos estudiantiles dedicados a informar y organizar eventos en áreas más específicas dentro de nuestra facultad
+-   obtenemos _feedback_ continuo sobre el código en funcionamiento e ideas para nuevas funcionalidades, en lugar de quedar como simples propuestas.
 
-### Fracasaremos si:
+### Fracasaremos si: <!-- markdownlint-disable-line -->
 
-- las visitas a nuestros canales son mínimas, en lugar de ser adoptados orgánicamente por los estudiantes
-- la cantidad de estudiantes realizando intercambios estudiantiles se mantiene sin incremento significativo
-- no se incrementa la cantidad de eventos organizados dentro de nuestra facultad y no surgen nuevos grupos estudiantiles
-- la página web no se actualiza continuamente con nuevo contenido y oportunidades relevantes
-- trabajamos de manera aislada, sin interactuar con otros grupos estudiantiles o facultades afines.
+-   las visitas a nuestros canales son mínimas, en lugar de ser adoptados orgánicamente por los estudiantes
+-   la cantidad de estudiantes realizando intercambios estudiantiles se mantiene sin incremento significativo
+-   no se incrementa la cantidad de eventos organizados dentro de nuestra facultad y no surgen nuevos grupos estudiantiles
+-   la página web no se actualiza continuamente con nuevo contenido y oportunidades relevantes
+-   trabajamos de manera aislada, sin interactuar con otros grupos estudiantiles o facultades afines.
 
 ## Dominio público
 
@@ -112,8 +112,8 @@ Algunas formas en las que puedes colaborar son:
 
 1. **Guías de estudio**: Crea o actualiza guías para cursos que hayas aprobado. Incluye recomendaciones de libros, materiales útiles y explica los temas con un lenguaje claro y accesible. En general tratamos de:
 
-   - Recomendar libros de estudio.
-   - Recomendar canales de Youtube u otra plataforma que aborde temas similares a los sílabos.
+    - Recomendar libros de estudio.
+    - Recomendar canales de Youtube u otra plataforma que aborde temas similares a los sílabos.
 
 2. **Apuntes de clase**: Comparte tus apuntes. Tus notas pueden ser muy valiosas para otros estudiantes.
 
@@ -124,11 +124,13 @@ Todas las contribuciones son bienvenidas, ¡no importa su tamaño! Juntos podemo
 ## Tech Stack
 
 Tipo: Headless CSS ([Pages CMS](https://editor.caefisica.com/))
+
 Lenguajes y frameworks: [Hugo](https://github.com/gohugoio/hugo/releases/), [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/), SCSS, [Golang](https://go.dev/doc/)
+
 Búsqueda: [Algolia Crawler](https://crawler.algolia.com/admin/crawlers/) a través de plugins de Netlify.
 
 Puedes encontrar más detalles sobre cómo ejecutar este repositorio localmente, visita [CONTRIBUTING](.github/CONTRIBUTING.md).
 
 ---
 
-Redactado por David Duran, _coordinador general del @caefisica (2022-Actualidad)_
+Redactado por David Duran, _Coordinador General del @caefisica (2022-Actualidad)_

@@ -3,6 +3,7 @@
 Esta carpeta contiene scripts escritos en Go utilizados para automatizar tareas a través de Github Actions. Actualmente, se utilizan las siguientes herramientas:
 
 1. Photographer Momo
+
     - Markdown Link Extractor: una herramienta que extrae y guarda todos los enlaces de los archivos Markdown.
     - Website Screenshot Generator: Generador de capturas de pantalla de sitios web.
 

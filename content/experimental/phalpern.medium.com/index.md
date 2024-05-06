@@ -1,20 +1,20 @@
 ---
-title: "A Quantum of Insults"
-description: "El físico Wolfgang Pauli, galardonado con el premio Nobel, tenía una gran afición a lanzar maldiciones a otros científicos"
-lead: "El físico Wolfgang Pauli, galardonado con el premio Nobel, tenía una gran afición a lanzar maldiciones a otros científicos."
+title: 'A Quantum of Insults'
+description: 'El físico Wolfgang Pauli, galardonado con el premio Nobel, tenía una gran afición a lanzar maldiciones a otros científicos'
+lead: 'El físico Wolfgang Pauli, galardonado con el premio Nobel, tenía una gran afición a lanzar maldiciones a otros científicos.'
 date: 2022-03-25T04:03:13-05:00
 lastmod: 2022-03-25T04:03:13-05:00
 draft: true
-images: ["phalpern.medium.com"]
-link: "https://phalpern.medium.com/a-quantum-of-insults-23150f27bbb3"
+images: ['phalpern.medium.com']
+link: 'https://phalpern.medium.com/a-quantum-of-insults-23150f27bbb3'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 110
 toc: false
 pinned: false
-types: ["biografía"]
-functionalities: ["artículo"]
+types: ['biografía']
+functionalities: ['artículo']
 ---
 
 ```text

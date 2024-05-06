@@ -1,182 +1,182 @@
 {
-  "CBO204": {
-    "CBO104": [
-      {
-      "nombre": "Cálculo I",
-      "codigo": "CBO104",
-      "semestre": "1"
-      }
-    ]
-  },
-  "CFO302": {
-    "CBO204": [
-      {
-      "nombre": "Cálculo II",
-      "codigo": "CBO204",
-      "semestre": "2"
-      }
-    ]
-  },
-  "CFO304": {
-    "CBO105": [
-      {
-      "nombre": "Matemática Básica",
-      "codigo": "CBO105",
-      "semestre": "1"
-      }
-    ]
-  },
-  "CFO305": {
-    "CBO204": [
-      {
-      "nombre": "Cálculo II",
-      "codigo": "CBO104",
-      "semestre": "1"
-      }
-    ]
-  },
-  "CFO306": {
-    "CBO104": [
-      {
-      "nombre": "Cálculo I",
-      "codigo": "CBO104",
-      "semestre": "1"
-      }
-    ]
-  },
-  "CFO401": {
-    "CFO303": [
-      {
-      "nombre": "Física Molecular",
-      "codigo": "CFO303",
-      "semestre": "3"
-      }
-    ]
-  },
-  "CFO402": {
-    "CFO303": [
-      {
-      "nombre": "Física Molecular",
-      "codigo": "CFO303",
-      "semestre": "3"
-      }
-    ]
-  },
-  "CFO405": {
-    "CFO303": [
-      {
-      "nombre": "Física Molecular",
-      "codigo": "CFO303",
-      "semestre": "3"
-      }
-    ],
-    "CFO305": [
-      {
-      "nombre": "Cálculo III",
-      "codigo": "CFO305",
-      "semestre": "3"
-      }
-    ]
-  },
-  "CFO406": {
-    "CFO302": [
-      {
-      "nombre": "Física Matemática I",
-      "codigo": "CFO302",
-      "semestre": "3"
-      }
-    ]
-  },
-  "CFO407": {
-    "CFO105": [
-      {
-      "nombre": "Matemática Básica",
-      "codigo": "CBO105",
-      "semestre": "1"
-      }
-    ],
-    "CFO204": [
-      {
-      "nombre": "Cálculo II",
-      "codigo": "CBO204",
-      "semestre": "2"
-      }
-    ]
-  },
-  "CFO501": {
-    "CFO401": [
-      {
-      "nombre": "Electricidad y Magnetismo",
-      "codigo": "CFO401",
-      "semestre": "4"
-      }
-    ]
-  },
-  "CFO502": {
-    "CFO306": [
-      {
-      "nombre": "Física Computacional I",
-      "codigo": "CFO306",
-      "semestre": "3"
-      }
-    ]
-  },
-  "CFO503": {
-    "CFO405": [
-      {
-      "nombre": "Mecánica Clásica I",
-      "codigo": "CFO405",
-      "semestre": "4"
-      }
-    ]
-  },
-  "CFO504": {
-    "CFO406": [
-      {
-      "nombre": "Física Matemática II",
-      "codigo": "CFO406"
-      }
-    ]
-  },
-  "CFO505": {
-    "CFO401": [
-      {
-      "nombre": "Electricidad y Magnetismo",
-      "codigo": "CFO406",
-      "semestre": "4"
-      }
-    ]
-  },
-  "CFO603": {
-    "CFO304": [
-      {
-      "nombre": "Álgebra Lineal",
-      "codigo": "CFO304",
-      "semestre": "3"
-      }
-    ],
-    "CFO505": [
-      {
-      "nombre": "Física Moderna I",
-      "codigo": "CFO505",
-      "semestre": "5"
-      }
-    ]
-  },
-  "CFO604": {
-    "CFO303": [
-      {
-      "nombre": "Física Molecular",
-      "codigo": "CFO303",
-      "semestre": "3"
-      }
-    ],
-    "CFO305": [
-      {
-      "nombre": "Cálculo III",
-      "codigo": "CFO305",
-      "semestre": "3"
-      }
-    ]
-  }
+    "CBO204": {
+        "CBO104": [
+            {
+                "nombre": "Cálculo I",
+                "codigo": "CBO104",
+                "semestre": "1"
+            }
+        ]
+    },
+    "CFO302": {
+        "CBO204": [
+            {
+                "nombre": "Cálculo II",
+                "codigo": "CBO204",
+                "semestre": "2"
+            }
+        ]
+    },
+    "CFO304": {
+        "CBO105": [
+            {
+                "nombre": "Matemática Básica",
+                "codigo": "CBO105",
+                "semestre": "1"
+            }
+        ]
+    },
+    "CFO305": {
+        "CBO204": [
+            {
+                "nombre": "Cálculo II",
+                "codigo": "CBO104",
+                "semestre": "1"
+            }
+        ]
+    },
+    "CFO306": {
+        "CBO104": [
+            {
+                "nombre": "Cálculo I",
+                "codigo": "CBO104",
+                "semestre": "1"
+            }
+        ]
+    },
+    "CFO401": {
+        "CFO303": [
+            {
+                "nombre": "Física Molecular",
+                "codigo": "CFO303",
+                "semestre": "3"
+            }
+        ]
+    },
+    "CFO402": {
+        "CFO303": [
+            {
+                "nombre": "Física Molecular",
+                "codigo": "CFO303",
+                "semestre": "3"
+            }
+        ]
+    },
+    "CFO405": {
+        "CFO303": [
+            {
+                "nombre": "Física Molecular",
+                "codigo": "CFO303",
+                "semestre": "3"
+            }
+        ],
+        "CFO305": [
+            {
+                "nombre": "Cálculo III",
+                "codigo": "CFO305",
+                "semestre": "3"
+            }
+        ]
+    },
+    "CFO406": {
+        "CFO302": [
+            {
+                "nombre": "Física Matemática I",
+                "codigo": "CFO302",
+                "semestre": "3"
+            }
+        ]
+    },
+    "CFO407": {
+        "CFO105": [
+            {
+                "nombre": "Matemática Básica",
+                "codigo": "CBO105",
+                "semestre": "1"
+            }
+        ],
+        "CFO204": [
+            {
+                "nombre": "Cálculo II",
+                "codigo": "CBO204",
+                "semestre": "2"
+            }
+        ]
+    },
+    "CFO501": {
+        "CFO401": [
+            {
+                "nombre": "Electricidad y Magnetismo",
+                "codigo": "CFO401",
+                "semestre": "4"
+            }
+        ]
+    },
+    "CFO502": {
+        "CFO306": [
+            {
+                "nombre": "Física Computacional I",
+                "codigo": "CFO306",
+                "semestre": "3"
+            }
+        ]
+    },
+    "CFO503": {
+        "CFO405": [
+            {
+                "nombre": "Mecánica Clásica I",
+                "codigo": "CFO405",
+                "semestre": "4"
+            }
+        ]
+    },
+    "CFO504": {
+        "CFO406": [
+            {
+                "nombre": "Física Matemática II",
+                "codigo": "CFO406"
+            }
+        ]
+    },
+    "CFO505": {
+        "CFO401": [
+            {
+                "nombre": "Electricidad y Magnetismo",
+                "codigo": "CFO406",
+                "semestre": "4"
+            }
+        ]
+    },
+    "CFO603": {
+        "CFO304": [
+            {
+                "nombre": "Álgebra Lineal",
+                "codigo": "CFO304",
+                "semestre": "3"
+            }
+        ],
+        "CFO505": [
+            {
+                "nombre": "Física Moderna I",
+                "codigo": "CFO505",
+                "semestre": "5"
+            }
+        ]
+    },
+    "CFO604": {
+        "CFO303": [
+            {
+                "nombre": "Física Molecular",
+                "codigo": "CFO303",
+                "semestre": "3"
+            }
+        ],
+        "CFO305": [
+            {
+                "nombre": "Cálculo III",
+                "codigo": "CFO305",
+                "semestre": "3"
+            }
+        ]
+    }
 }

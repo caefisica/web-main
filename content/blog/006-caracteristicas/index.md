@@ -1,15 +1,15 @@
 ---
-title: "¡Nueva versión! 0.8.9"
-emoji: ":tada:"
-description: "Se han añadido varias funciones desde el lanzamiento inicial de esta página, aquí una lista de ellos y los que tengo planeados añadir."
-lead: "Se han añadido varias funciones desde el lanzamiento inicial de esta página, aquí una lista de ellos y también de los que tengo planeados añadir."
+title: '¡Nueva versión! 0.8.9'
+emoji: ':tada:'
+description: 'Se han añadido varias funciones desde el lanzamiento inicial de esta página, aquí una lista de ellos y los que tengo planeados añadir.'
+lead: 'Se han añadido varias funciones desde el lanzamiento inicial de esta página, aquí una lista de ellos y también de los que tengo planeados añadir.'
 date: 2022-04-03T00:09:00+01:00
 lastmod: 2022-04-03T00:09:00+01:00
-images: ["https://i.imgur.com/GgoqSI0.png"]
-thumbnail: "https://i.imgur.com/U99Hkjm.png"
-contributors: ["David"]
-author_id: "david"
-tags: ["otros"]
+images: ['https://i.imgur.com/GgoqSI0.png']
+thumbnail: 'https://i.imgur.com/U99Hkjm.png'
+contributors: ['David']
+author_id: 'david'
+tags: ['otros']
 toc: false
 math: true
 pdf: true

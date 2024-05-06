@@ -1,4 +1,12 @@
 {{ with .Parent -}}
-  {{ partial "main/breadcrumb.html" . -}}
-  <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ if .IsHome }}Inicio{{ else }}{{ .Title }}{{ end }}</a></li>
+    {{ partial "main/breadcrumb.html" . -}}
+    <li class="breadcrumb-item">
+        <a href="{{ .RelPermalink }}"
+            >{{ if .IsHome }}
+                Inicio
+            {{ else }}
+                {{ .Title }}
+            {{ end }}</a
+        >
+    </li>
 {{ end -}}

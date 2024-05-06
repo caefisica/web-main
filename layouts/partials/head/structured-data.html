@@ -8,12 +8,12 @@
 {{ $.Scratch.Add "path" .Site.BaseURL -}}
 
 {{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) -}}
-  {{ range $index, $element := split $url "/" -}}
+{{ range $index, $element := split $url "/" -}}
     {{ $dot.Scratch.Add "path" $element -}}
     {{ $.Scratch.Add "path" "/" -}}
     {{ if ne $element "" -}}
-    {{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
-  {{ end -}}
+        {{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
+    {{ end -}}
 {{ end -}}
 
 <script type="application/ld+json" nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">

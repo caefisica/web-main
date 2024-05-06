@@ -17,4 +17,4 @@ La herramienta buscará todos los archivos Markdown dentro de la carpeta especif
 
 Para ejecutar esta herramienta, necesitas tener instalado lo siguiente:
 
-- Golang (versión 1.16 o posterior)
+-   Golang (versión 1.16 o posterior)

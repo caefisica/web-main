@@ -8,7 +8,7 @@ export default [
             'assets/js/index.js',
             'assets/js/katex.js',
             'assets/js/vendor',
-            'node_modules',
+            'node_modules'
         ],
         languageOptions: {
             globals: {
@@ -17,11 +17,11 @@ export default [
                 ...globals.es6,
                 ...globals.node,
                 Atomics: 'readonly',
-                SharedArrayBuffer: 'readonly',
+                SharedArrayBuffer: 'readonly'
             },
             ecmaVersion: 2018,
-            sourceType: 'module',
-        },
+            sourceType: 'module'
+        }
     },
     {
         ...pluginJs.configs.recommended,
@@ -29,22 +29,13 @@ export default [
             'no-console': 0,
             'quotes': [
                 'error',
-                'backtick',
-                { avoidEscape: true, allowTemplateLiterals: false },
+                'double',
+                { avoidEscape: true, allowTemplateLiterals: false }
             ],
             'semi': [`error`, `always`],
             'multiline-ternary': [`error`, `always-multiline`],
             'no-multi-spaces': [`error`],
-            'comma-dangle': [
-                'error',
-                {
-                    arrays: 'always-multiline',
-                    objects: 'always-multiline',
-                    imports: 'always-multiline',
-                    exports: 'always-multiline',
-                    functions: 'ignore',
-                },
-            ],
-        },
-    },
+            'array-element-newline': ['error', 'consistent']
+        }
+    }
 ];

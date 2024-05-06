@@ -1,20 +1,20 @@
 ---
-title: "Revista de Investigacion de Física"
-description: "Publicado por la facultad de Ciencias Físicas"
-lead: "Publicado por la facultad de Ciencias Físicas"
+title: 'Revista de Investigacion de Física'
+description: 'Publicado por la facultad de Ciencias Físicas'
+lead: 'Publicado por la facultad de Ciencias Físicas'
 date: 2022-03-25T17:17:32-05:00
 lastmod: 2022-03-25T17:17:32-05:00
 draft: false
-images: ["revistasinvestigacion.unmsm.edu.pe.png"]
-link: "https://revistasinvestigacion.unmsm.edu.pe/index.php/fisica"
+images: ['revistasinvestigacion.unmsm.edu.pe.png']
+link: 'https://revistasinvestigacion.unmsm.edu.pe/index.php/fisica'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 370
 toc: false
 pinned: false
-types: ["UNMSM", "universidad", "academia"]
-functionalities: ["web"]
+types: ['UNMSM', 'universidad', 'academia']
+functionalities: ['web']
 ---
 
 ```text

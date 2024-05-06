@@ -1,20 +1,20 @@
 ---
-title: "Asociación Peruana de Astrobiologia"
-description: "Investigación y divulgación sobre astrobiología"
-lead: "Investigación y divulgación sobre astrobiología"
+title: 'Asociación Peruana de Astrobiologia'
+description: 'Investigación y divulgación sobre astrobiología'
+lead: 'Investigación y divulgación sobre astrobiología'
 date: 2022-03-25T15:08:51-05:00
 lastmod: 2022-03-25T15:08:51-05:00
 draft: true
-images: ["astrobiologia.pe.png"]
-link: "https://astrobiologia.pe/"
+images: ['astrobiologia.pe.png']
+link: 'https://astrobiologia.pe/'
 menu:
-  experimental:
-    parent: "general"
+    experimental:
+        parent: 'general'
 weight: 240
 toc: false
 pinned: false
-types: ["club", "astronomía", "biología"]
-functionalities: ["web"]
+types: ['club', 'astronomía', 'biología']
+functionalities: ['web']
 ---
 
 ```text

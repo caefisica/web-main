@@ -1,15 +1,16 @@
 ---
-title: "Política de privacidad"
-description: "We do not use cookies and we do not collect any personal data."
+title: 'Política de privacidad'
+description: 'We do not use cookies and we do not collect any personal data.'
 date: 2020-08-27T19:23:18+02:00
 lastmod: 2020-08-27T19:23:18+02:00
 draft: false
 images: []
-type: "extend"
+type: 'extend'
 ---
 
 ---
-__Resumen__: No utilizamos cookies y no recogemos Datos Personales de forma obligatoria.
+
+**Resumen**: No utilizamos cookies y no recogemos Datos Personales de forma obligatoria.
 
 ---
 
@@ -20,12 +21,12 @@ Correo electrónico de contacto del Titular: cae [en] unmsm.edu.pe
 
 ## Visitantes
 
-- No recogemos ninguna información personal.
-- No almacenamos ninguna información en el navegador.
-- No compartimos, enviamos o vendemos ninguna información relacionada al usuario a terceros.
-- No compartimos ninguna información con empresas de publicidad.
-- No recopilamos información suya para determinar sus preferencias personales o de comportamiento.
-- No comercializamos ninguna información.
+-   No recogemos ninguna información personal.
+-   No almacenamos ninguna información en el navegador.
+-   No compartimos, enviamos o vendemos ninguna información relacionada al usuario a terceros.
+-   No compartimos ninguna información con empresas de publicidad.
+-   No recopilamos información suya para determinar sus preferencias personales o de comportamiento.
+-   No comercializamos ninguna información.
 
 ## Clases de Datos recogidos
 
@@ -47,8 +48,8 @@ Netlify (Netlify, Inc.)
 
 Netlify es un servicio de hosting prestado por Netlify, Inc.
 
-- Datos Personales tratados: Datos comunicados durante el uso del servicio.
-- Lugar de tratamiento: EE.UU. – Política de privacidad.
+-   Datos Personales tratados: Datos comunicados durante el uso del servicio.
+-   Lugar de tratamiento: EE.UU. – Política de privacidad.
 
 ---
 

@@ -1,182 +1,196 @@
 ---
-title : "Grupos de Investigación"
-description: "Las líneas de investigación en la UPG-FCF son desarrolladas por los GI-FCF"
-lead: "Las líneas de investigación que se desarrollan en la UPG-FCF son las que desarrollan los GI-FCF, las cuales sean establecido por el Instituto de Investigación y los GI-FCF."
+title: 'Grupos de Investigación'
+description: 'Las líneas de investigación en la UPG-FCF son desarrolladas por los GI-FCF'
+lead: 'Las líneas de investigación que se desarrollan en la UPG-FCF son las que desarrollan los GI-FCF, las cuales sean establecido por el Instituto de Investigación y los GI-FCF.'
 date: 2022-10-08T08:09:45+00:00
 lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
+    - :git
+    - lastmod
+    - date
+    - publishDate
 draft: false
 weight: 2040
 images: []
 toc: false
 type: extend
-contributors: [ "David" ]
+contributors: ['David']
 ---
 
 ---
-__Nota__: A continuación se presenta una lista de los grupos de investigación de la Facultad de Ciencias Físicas junto con sus líneas de investigación y el investigador principal:
+
+**Nota**: A continuación se presenta una lista de los grupos de investigación de la Facultad de Ciencias Físicas junto con sus líneas de investigación y el investigador principal:
 
 ---
 
-- __Modelamiento Numérico en Mecánica de Fluidos__ ([MNMF](https://vrip.unmsm.edu.pe/mnmf))  
-  *Responsable*: CARBONEL HUAMAN CARLOS (ccarbonelh@unmsm.edu.pe)  
-  *Línea de investigación*: Simulación numérica
+-   **Modelamiento Numérico en Mecánica de Fluidos** ([MNMF](https://vrip.unmsm.edu.pe/mnmf))  
+    _Responsable_: CARBONEL HUAMAN CARLOS (ccarbonelh@unmsm.edu.pe)  
+    _Línea de investigación_: Simulación numérica
 
-- __Ciencia del Suelo, Arqueometría y Nuevos Materiales__ ([ASANUM](https://vrip.unmsm.edu.pe/asanum/))  
-  *Responsable*: CERON LOAYZA MARIA LUISA (malucelo@hotmail.com)  
-  *Líneas de investigación*:
-  - Aplicaciones de la Física en Nanociencia y Nanotecnología de Materiales Magnéticos
-  - Ciencias del Suelo
-  - Arqueometría
+-   **Ciencia del Suelo, Arqueometría y Nuevos Materiales** ([ASANUM](https://vrip.unmsm.edu.pe/asanum/))  
+    _Responsable_: CERON LOAYZA MARIA LUISA (malucelo@hotmail.com)  
+    _Líneas de investigación_:
 
-- __Grupo de Investigación en Astronomía__ ([GIA](https://vrip.unmsm.edu.pe/gia))  
-  *Responsable*: CARLOS REYES RAFAEL EDGARDO (raedcare@yahoo.com)  
-  *Línea de investigación*: Clima Espacial
+    -   Aplicaciones de la Física en Nanociencia y Nanotecnología de Materiales Magnéticos
+    -   Ciencias del Suelo
+    -   Arqueometría
 
-- __Instrumentación Física y Aplicaciones__ ([INFISA](https://vrip.unmsm.edu.pe/infisa))  
-  *Responsable*: PATINO CAMARGO GALO (gpatinoc@unmsm.edu.pe)  
-  *Líneas de investigación*:
-  - Enseñanza de la Física desde Diversas Perspectivas
-  - Física Médica
-  - Estudio de Radiosótopos
+-   **Grupo de Investigación en Astronomía** ([GIA](https://vrip.unmsm.edu.pe/gia))  
+    _Responsable_: CARLOS REYES RAFAEL EDGARDO (raedcare@yahoo.com)  
+    _Línea de investigación_: Clima Espacial
 
-- __Modelamiento Matemático de Procesos Físicos__ (MMP)  
-  *Responsable*: SABRERA ALVARADO REGULO ANGEL (rsabreraa@unmsm.edu.pe)  
-  *Línea de investigación*: Simulación y modelamiento de procesos físicos
+-   **Instrumentación Física y Aplicaciones** ([INFISA](https://vrip.unmsm.edu.pe/infisa))  
+    _Responsable_: PATINO CAMARGO GALO (gpatinoc@unmsm.edu.pe)  
+    _Líneas de investigación_:
 
-- __Centro de Investigación y Desarrollo de Energías del Mañana Micha Yawaypita__ ([CIDEM](https://vrip.unmsm.edu.pe/cidem))  
-  *Responsable*: SANCHEZ CORTEZ LOZANO PEDRO (lsanchezc@unmsm.edu.pe)  
-  *Líneas de investigación*:
-  - Sociedad, Ciencia, Tecnología e Innovación
-  - Ingeniería y tecnologías del Medio Ambiente
+    -   Enseñanza de la Física desde Diversas Perspectivas
+    -   Física Médica
+    -   Estudio de Radiosótopos
 
-- __Física__ (FIS)
-  *Responsable*: GASTELO VILLANUEVA JORGE LUIS (jgastelov@unmsm.edu.pe)  
+-   **Modelamiento Matemático de Procesos Físicos** (MMP)  
+    _Responsable_: SABRERA ALVARADO REGULO ANGEL (rsabreraa@unmsm.edu.pe)  
+    _Línea de investigación_: Simulación y modelamiento de procesos físicos
 
-- __Grupo de Física Teórica__ ([GFT](https://vrip.unmsm.edu.pe/gft))  
-  *Responsable*: VARGAS AUCCALLA TEOFILO (tvargasa@unmsm.edu.pe)  
-  *Línea de investigación*: Cosmología y Gravitación
+-   **Centro de Investigación y Desarrollo de Energías del Mañana Micha Yawaypita** ([CIDEM](https://vrip.unmsm.edu.pe/cidem))  
+    _Responsable_: SANCHEZ CORTEZ LOZANO PEDRO (lsanchezc@unmsm.edu.pe)  
+    _Líneas de investigación_:
 
-- __Centro de Desarrollo e Investigación en Termofluidos e Hidráulica__ (CEDITH)  
-  *Responsable*: SALVADOR ROJAS BERNARDINO PEDRO (bsalvadorr@unmsm.edu.pe)  
-  *Líneas de investigación*:
-  - Energética
-  - Recursos Hídricos
-  - Simulación, Modelado y Visualización
+    -   Sociedad, Ciencia, Tecnología e Innovación
+    -   Ingeniería y tecnologías del Medio Ambiente
 
-- __Física Computacional y Simulacional Aplicada__ (FICOSIAP)  
-  *Responsable*: MONTENEGRO JOO JAVIER SEMPRONIO (jmontenegroj@unmsm.edu.pe)  
-  *Línea de investigación*: Enseñanza de la Física desde Diversas Perspectivas
+-   **Física** (FIS) _Responsable_: GASTELO VILLANUEVA JORGE LUIS (jgastelov@unmsm.edu.pe)
 
-- __Mecánica de Fluidos - Energética y Termofluidos__ (MECFLUET)  
-  *Responsable*: QUISPE GONZALES CESAR ALEJANDRO (cquispeg@unmsm.edu.pe)  
-  *Línea de investigación*: Energética
+-   **Grupo de Física Teórica** ([GFT](https://vrip.unmsm.edu.pe/gft))  
+    _Responsable_: VARGAS AUCCALLA TEOFILO (tvargasa@unmsm.edu.pe)  
+    _Línea de investigación_: Cosmología y Gravitación
 
-- __Grupo de Investigación en Hidráulica, Recursos Hídricos y Medio Ambiente y Energías No Convencionales__ (GIHREHMA)  
-  *Responsable*: SARANGO JULCA DOUGLAS DONAL (dsarangoj@unmsm.edu.pe)  
-  *Líneas de investigación*:
-  - Ciencias del Suelo
-  - Recursos Hídricos
-  - Recursos Energéticos
+-   **Centro de Desarrollo e Investigación en Termofluidos e Hidráulica** (CEDITH)  
+    _Responsable_: SALVADOR ROJAS BERNARDINO PEDRO (bsalvadorr@unmsm.edu.pe)  
+    _Líneas de investigación_:
 
-- __Física Aplicada y Computacional en Nuclear__ (FAYCEN)  
-  *Responsable*: CARITA MONTERO RAUL FELIX (rcaritam@unmsm.edu.pe)  
-  *Líneas de investigación*:
-  - Física Médica
-  - Estudio de Radioisótopos
+    -   Energética
+    -   Recursos Hídricos
+    -   Simulación, Modelado y Visualización
 
-- __Materiales Funcionales__ ([MATEFUN](https://vrip.unmsm.edu.pe/matefun))  
-  *Responsable*: BUSTAMANTE DOMINGUEZ ANGEL GUILLERMO (abustamanted@unmsm.edu.pe)  
-  *Línea de investigación*: Superconductividad
+-   **Física Computacional y Simulacional Aplicada** (FICOSIAP)  
+    _Responsable_: MONTENEGRO JOO JAVIER SEMPRONIO (jmontenegroj@unmsm.edu.pe)  
+    _Línea de investigación_: Enseñanza de la Física desde Diversas Perspectivas
 
-- __Aleaciones Metálicas y Cristales Reales__ (ALEAMET)  
-  *Responsable*: MEDRANO ATENCIO EMILIO (emedranoa@unmsm.edu.pe)  
-  *Línea de investigación*: Física de Metales y Aleaciones Metálicas
+-   **Mecánica de Fluidos - Energética y Termofluidos** (MECFLUET)  
+    _Responsable_: QUISPE GONZALES CESAR ALEJANDRO (cquispeg@unmsm.edu.pe)  
+    _Línea de investigación_: Energética
 
-- __Calibraciones Instrumentación Microsatélite para Preservar el Medio Ambiente__ ([CAIMMA](https://vrip.unmsm.edu.pe/caimma))  
-  *Responsable*: YACTAYO YACTAYO GILBERTO (gilberto.yactayo@unmsm.edu.pe)  
-  *Líneas de investigación*:
-  - Aplicaciones de la Física en Nanociencia y NanotecNanociencia y Nanotecnología de Materiales Magnéticos
-  - Ciencia de Materiales Avanzados y de Estructuras Artificiales
-  - Propiedades Estructurales de las Nanopartículas
+-   **Grupo de Investigación en Hidráulica, Recursos Hídricos y Medio Ambiente y Energías No Convencionales** (GIHREHMA)  
+    _Responsable_: SARANGO JULCA DOUGLAS DONAL (dsarangoj@unmsm.edu.pe)  
+    _Líneas de investigación_:
 
-- __Grupo de Métodos Computacionales Aplicado a Nanomateriales__ ([GMCAN](https://vrip.unmsm.edu.pe/gmcan))  
-  *Responsable*: ROJAS TAPIA JUSTO ALCIDES (jrojast@unmsm.edu.pe)  
-  *Líneas de investigación*:
-  - Propiedades Estructurales de las Nanopartículas
-  - Ciencia de Materiales Avanzados y de Estructuras Artificiales
-  - Aplicaciones de la Física en Nanociencia y Nanotecnología de Materiales Magnéticos
+    -   Ciencias del Suelo
+    -   Recursos Hídricos
+    -   Recursos Energéticos
 
-- __Grupo de Investigación de Sistemas Complejos Funcionalizados__ ([GISICOF](https://vrip.unmsm.edu.pe/gisicof))  
-  *Responsable*: LANDAURO SAENZ CARLOS VLADIMIR (clandauros@unmsm.edu.pe)  
-  *Líneas de investigación*:
-  - Aplicaciones de la Física en Nanociencia y NanotecNanociencia y Nanotecnología de Materiales Magnéticos
-  - Ciencia de Materiales Avanzados y de Estructuras Artificiales
-  - Propiedades Estructurales de las Nanopartículas
+-   **Física Aplicada y Computacional en Nuclear** (FAYCEN)  
+    _Responsable_: CARITA MONTERO RAUL FELIX (rcaritam@unmsm.edu.pe)  
+    _Líneas de investigación_:
 
-- __Conservación de Recursos Hídricos__ (LAGOS)  
-  *Responsable*: AGUIRRE CESPEDES CESAR AUGUSTO (caguirrec@unmsm.edu.pe)
+    -   Física Médica
+    -   Estudio de Radioisótopos
 
-- __Grupo de Investigación en Sistemas Fuertemente Correlacionados__ (GISFUC)  
-  *Responsable*: VENTO FLORES JAIME FRANCISCO (jventof@unmsm.edu.pe)  
-  *Línea de investigación*:
-  - Aplicaciones de la Física en Nanociencia y NanotecNanociencia y Nanotecnología de Materiales Magnéticos
+-   **Materiales Funcionales** ([MATEFUN](https://vrip.unmsm.edu.pe/matefun))  
+    _Responsable_: BUSTAMANTE DOMINGUEZ ANGEL GUILLERMO (abustamanted@unmsm.edu.pe)  
+    _Línea de investigación_: Superconductividad
 
-- __Grupo de Espectroscopía Lineal y No Lineal para el Uso Tecnológico de Materiales Ópticos__ ([GELYNOL](https://vrip.unmsm.edu.pe/gelynol))  
-  *Responsable*: LOZANO BARTRA WHUALKUER ENRIQUE (wlozanob@unmsm.edu.pe)  
-  *Líneas de investigación*:
-  - Óptica Lineal y No Lineal
-  - Arqueometría
-  - Ciencia de Materiales Avanzados y de Estructuras Artificiales
+-   **Aleaciones Metálicas y Cristales Reales** (ALEAMET)  
+    _Responsable_: MEDRANO ATENCIO EMILIO (emedranoa@unmsm.edu.pe)  
+    _Línea de investigación_: Física de Metales y Aleaciones Metálicas
 
-- __Cristalografía, Edafología, Arqueometría y Nuevos Materiales__ ([CEANUM](https://vrip.unmsm.edu.pe/ceanum))  
-  *Responsable*: ZEBALLOS VELASQUEZ ELVIRA LETICIA (ezeballosv@unmsm.edu.pe)
-  *Líneas de investigación*:
-  - Cristalografía y Sistemas Cristalinos Bidimensionales
-  - Arqueometría
-  - Ciencias del Suelo
+-   **Calibraciones Instrumentación Microsatélite para Preservar el Medio Ambiente** ([CAIMMA](https://vrip.unmsm.edu.pe/caimma))  
+    _Responsable_: YACTAYO YACTAYO GILBERTO (gilberto.yactayo@unmsm.edu.pe)  
+    _Líneas de investigación_:
 
-- __Películas Delgadas y Sistemas de Baja Dimensionalidad__ ([GIPESBD](https://vrip.unmsm.edu.pe/gipesbd))  
-  *Responsable*: QUISPE MARCATOMA JUSTINIANO (jquispem@unmsm.edu.pe)  
-  *Líneas de investigación*:
-  - Ciencia de Materiales Avanzados y de Estructuras Artificiales
-  - Aplicaciones de la Física en Nanociencia y NanotecNanociencia y Nanotecnología de Materiales Magnéticos
+    -   Aplicaciones de la Física en Nanociencia y NanotecNanociencia y Nanotecnología de Materiales Magnéticos
+    -   Ciencia de Materiales Avanzados y de Estructuras Artificiales
+    -   Propiedades Estructurales de las Nanopartículas
 
-- __Física de Cambios Ambientales y la Teledetección__ ([LABTEL](https://vrip.unmsm.edu.pe/labtel))  
-  *Responsable*: ROJAS ACUÑA JOEL (jrojasa@unmsm.edu.pe)  
-  *Línea de investigación*:
-  - Teledetección por Satélite Aplicado al Estudio de los Recursos Naturales (Recursos Hídricos y Ecosistemas)
+-   **Grupo de Métodos Computacionales Aplicado a Nanomateriales** ([GMCAN](https://vrip.unmsm.edu.pe/gmcan))  
+    _Responsable_: ROJAS TAPIA JUSTO ALCIDES (jrojast@unmsm.edu.pe)  
+    _Líneas de investigación_:
 
-- __LAB2D4__ ([LAB](https://vrip.unmsm.edu.pe/lab))  
-  *Responsable*: RIVERA RIOFANO PABLO HECTOR (priverar@unmsm.edu.pe)  
-  *Línea de investigación*: Ciencia de Materiales Avanzados y de Estructuras Artificiales
+    -   Propiedades Estructurales de las Nanopartículas
+    -   Ciencia de Materiales Avanzados y de Estructuras Artificiales
+    -   Aplicaciones de la Física en Nanociencia y Nanotecnología de Materiales Magnéticos
 
-- __Grupo de Investigación en Ciencias de la Tierra, Clima y Medio Ambiente__ ([CTCLIMA](https://vrip.unmsm.edu.pe/ctclima))  
-  *Responsable*: FASHE RAYMUNDO OCTAVIO (ofasher@unmsm.edu.pe)  
-  *Líneas de investigación*:
-  - Oceanografía Física y Física de la Atmósfera
-  - Física de Fenómenos para la Previsión de Desastres Naturales
-  - Ciencias del Suelo
+-   **Grupo de Investigación de Sistemas Complejos Funcionalizados** ([GISICOF](https://vrip.unmsm.edu.pe/gisicof))  
+    _Responsable_: LANDAURO SAENZ CARLOS VLADIMIR (clandauros@unmsm.edu.pe)  
+    _Líneas de investigación_:
 
-- __Magnetismo Moderno, Nanomagnetismo y Aleaciones Metálicas__ (GIMNA)
+    -   Aplicaciones de la Física en Nanociencia y NanotecNanociencia y Nanotecnología de Materiales Magnéticos
+    -   Ciencia de Materiales Avanzados y de Estructuras Artificiales
+    -   Propiedades Estructurales de las Nanopartículas
 
-  - __Responsable:__ PEÑA RODRÍGUEZ VICTOR ANTONIO (vpenar@unmsm.edu.pe)
-  - __Enlace al grupo:__ [GIMNA](https://vrip.unmsm.edu.pe/gimna)
-  - __Líneas de investigación:__
-    - Física de Metales y Aleaciones Metálicas
-    - Aplicaciones de la Física en Nanociencia y Nanotecnología
-    - Nanociencia y Nanotecnología de Materiales Magnéticos
-    - Ciencia de Materiales Avanzados y de Estructuras Artificiales
+-   **Conservación de Recursos Hídricos** (LAGOS)  
+    _Responsable_: AGUIRRE CESPEDES CESAR AUGUSTO (caguirrec@unmsm.edu.pe)
 
-- __Grupo de Investigación de Nanotecnología Aplicada para Biorremediación Ambiental, Energía, Biomedicina y Agricultura__ (NANOTECH)
+-   **Grupo de Investigación en Sistemas Fuertemente Correlacionados** (GISFUC)  
+    _Responsable_: VENTO FLORES JAIME FRANCISCO (jventof@unmsm.edu.pe)  
+    _Línea de investigación_:
 
-  - __Responsable:__ RAMOS GUIVAR JUAN ADRIAN (juan.ramos5@unmsm.edu.pe)
-  - __Enlace al grupo:__ [NANOTECH](https://vrip.unmsm.edu.pe/nanotech)
-  - __Líneas de investigación:__
-    - Aplicaciones de la Física en Nanociencia y NanotecNanociencia y Nanotecnología de Materiales Magnéticos
-    - Biorremediación y Bioconversión
-    - Propiedades Estructurales de las Nanopartículas
-    - Remediación de agua, aire y suelo
+    -   Aplicaciones de la Física en Nanociencia y NanotecNanociencia y Nanotecnología de Materiales Magnéticos
+
+-   **Grupo de Espectroscopía Lineal y No Lineal para el Uso Tecnológico de Materiales Ópticos** ([GELYNOL](https://vrip.unmsm.edu.pe/gelynol))  
+    _Responsable_: LOZANO BARTRA WHUALKUER ENRIQUE (wlozanob@unmsm.edu.pe)  
+    _Líneas de investigación_:
+
+    -   Óptica Lineal y No Lineal
+    -   Arqueometría
+    -   Ciencia de Materiales Avanzados y de Estructuras Artificiales
+
+-   **Cristalografía, Edafología, Arqueometría y Nuevos Materiales** ([CEANUM](https://vrip.unmsm.edu.pe/ceanum))  
+    _Responsable_: ZEBALLOS VELASQUEZ ELVIRA LETICIA (ezeballosv@unmsm.edu.pe) _Líneas de investigación_:
+
+    -   Cristalografía y Sistemas Cristalinos Bidimensionales
+    -   Arqueometría
+    -   Ciencias del Suelo
+
+-   **Películas Delgadas y Sistemas de Baja Dimensionalidad** ([GIPESBD](https://vrip.unmsm.edu.pe/gipesbd))  
+    _Responsable_: QUISPE MARCATOMA JUSTINIANO (jquispem@unmsm.edu.pe)  
+    _Líneas de investigación_:
+
+    -   Ciencia de Materiales Avanzados y de Estructuras Artificiales
+    -   Aplicaciones de la Física en Nanociencia y NanotecNanociencia y Nanotecnología de Materiales Magnéticos
+
+-   **Física de Cambios Ambientales y la Teledetección** ([LABTEL](https://vrip.unmsm.edu.pe/labtel))  
+    _Responsable_: ROJAS ACUÑA JOEL (jrojasa@unmsm.edu.pe)  
+    _Línea de investigación_:
+
+    -   Teledetección por Satélite Aplicado al Estudio de los Recursos Naturales (Recursos Hídricos y Ecosistemas)
+
+-   **LAB2D4** ([LAB](https://vrip.unmsm.edu.pe/lab))  
+    _Responsable_: RIVERA RIOFANO PABLO HECTOR (priverar@unmsm.edu.pe)  
+    _Línea de investigación_: Ciencia de Materiales Avanzados y de Estructuras Artificiales
+
+-   **Grupo de Investigación en Ciencias de la Tierra, Clima y Medio Ambiente** ([CTCLIMA](https://vrip.unmsm.edu.pe/ctclima))  
+    _Responsable_: FASHE RAYMUNDO OCTAVIO (ofasher@unmsm.edu.pe)  
+    _Líneas de investigación_:
+
+    -   Oceanografía Física y Física de la Atmósfera
+    -   Física de Fenómenos para la Previsión de Desastres Naturales
+    -   Ciencias del Suelo
+
+-   **Magnetismo Moderno, Nanomagnetismo y Aleaciones Metálicas** (GIMNA)
+
+    -   **Responsable:** PEÑA RODRÍGUEZ VICTOR ANTONIO (vpenar@unmsm.edu.pe)
+    -   **Enlace al grupo:** [GIMNA](https://vrip.unmsm.edu.pe/gimna)
+    -   **Líneas de investigación:**
+        -   Física de Metales y Aleaciones Metálicas
+        -   Aplicaciones de la Física en Nanociencia y Nanotecnología
+        -   Nanociencia y Nanotecnología de Materiales Magnéticos
+        -   Ciencia de Materiales Avanzados y de Estructuras Artificiales
+
+-   **Grupo de Investigación de Nanotecnología Aplicada para Biorremediación Ambiental, Energía, Biomedicina y Agricultura** (NANOTECH)
+
+    -   **Responsable:** RAMOS GUIVAR JUAN ADRIAN (juan.ramos5@unmsm.edu.pe)
+    -   **Enlace al grupo:** [NANOTECH](https://vrip.unmsm.edu.pe/nanotech)
+    -   **Líneas de investigación:**
+        -   Aplicaciones de la Física en Nanociencia y NanotecNanociencia y Nanotecnología de Materiales Magnéticos
+        -   Biorremediación y Bioconversión
+        -   Propiedades Estructurales de las Nanopartículas
+        -   Remediación de agua, aire y suelo
