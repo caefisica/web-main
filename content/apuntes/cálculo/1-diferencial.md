@@ -111,8 +111,7 @@ Explayándonos un poco más en los temas mencionados anteriormente:
 
        4. Volviendo a aplicar integración por partes a la otra integral:
 
-          $$u=\ln{x} \quad \rightarrow \quad du=\dfrac{1}{x}dx $$
-                $$dv=x^2dx \quad \rightarrow \quad v=\dfrac{x^3}{3} $$
+          $$u=\ln{x} \quad \rightarrow \quad du=\dfrac{1}{x}dx $$ $$dv=x^2dx \quad \rightarrow \quad v=\dfrac{x^3}{3} $$
 
        5. Por lo que la integral nos queda:
 
