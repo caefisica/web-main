@@ -35,12 +35,6 @@
     {{ $slice = $slice | append $instantPage -}}
 {{ end -}}
 
-{{ if .Site.Params.options.darkMode -}}
-    {{ $darkMode := resources.Get "js/darkmode.js" -}}
-    {{ $darkMode := $darkMode | js.Build -}}
-    {{ $slice = $slice | append $darkMode -}}
-{{ end -}}
-
 {{ if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
     {{ $alert := resources.Get "js/alert.js" -}}
     {{ $alert := $alert | js.Build -}}
