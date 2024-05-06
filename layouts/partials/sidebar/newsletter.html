@@ -15,30 +15,26 @@
             method="post"
             netlify-honeypot="name"
             data-netlify="true"
-            action="/suscrito"
-        >
+            action="/suscrito">
             <input
                 name="name"
                 type="text"
                 class="form-control name"
                 placeholder="Tu nombre"
-                aria-label="Nombre"
-            />
+                aria-label="Nombre" />
             <input
                 name="email"
                 type="email"
                 class="form-control email m-0"
                 placeholder="Tu correo electrónico"
                 aria-label="Correo electrónico"
-                required
-            />
+                required />
             <input name="page" type="hidden" value="{{ .Page.Permalink }}" />
             <button
                 id="subscribeButton"
                 type="submit"
                 class="btn btn-primary w-100 button-email mt-0"
-                aria-label="Suscríbete"
-            >
+                aria-label="Suscríbete">
                 Suscríbete
             </button>
         </form>

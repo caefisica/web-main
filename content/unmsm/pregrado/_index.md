@@ -1,20 +1,20 @@
 ---
-title: 'Pregrado'
-description: 'Malla curricular y Plan de Estudios'
-lead: 'Malla curricular y Plan de Estudio: 2018'
-layout: 'single'
+title: "Pregrado"
+description: "Malla curricular y Plan de Estudios"
+lead: "Malla curricular y Plan de Estudio: 2018"
+layout: "single"
 date: 2020-10-06T00:00:45+00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: false
 weight: 10
 toc: false
 images: []
 pdf: true
-contributors: ['David']
+contributors: ["David"]
 ---
 
 <br>¡Bienvenido a nuestra serie de guías académicas para físicos en pregrado! Aquí encontrarás una descripción detallada de los recursos y materiales disponibles para optimizar tu experiencia educativa.
@@ -33,15 +33,15 @@ Una guía de estudio es un compendio de recursos diseñados para ayudarte a prof
 
 1. **Materiales de estudio**: Aquí encontrarás una lista detallada de los libros recomendados para cada semestre y curso. Utiliza el menú de navegación situado en la parte izquierda de tu pantalla para navegar entre los cursos y poder acceder a los materiales de estudio.
 
-    {{< vimeo "816274451?autoplay=1&loop=1&autopause=0?background=1" >}}
+   {{< vimeo "816274451?autoplay=1&loop=1&autopause=0?background=1" >}}
 
-    <br>
+   <br>
 
 2. **Tabla de contenido**: Cada curso cuenta con un menú de navegación situado en la parte derecha de cada artículo que ofrece un desglose detallado del contenido de cada página.
 
-    {{< vimeo "816287698?autoplay=1&loop=1&autopause=0?background=1" >}}
+   {{< vimeo "816287698?autoplay=1&loop=1&autopause=0?background=1" >}}
 
-    <br>
+   <br>
 
 Además, nuestras guías se complementan con una lista de bibliotecas donde es posible obtener los libros recomendados en la sección de materiales de estudio. Pst, recuerda que solo necesitas hacer un click para acceder a los libros desde las guías 😉. Las bibliotecas pueden encontrarse navegando en el menú superior.
 

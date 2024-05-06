@@ -1,50 +1,42 @@
 !(function (a, b) {
     "use strict";
-    "function" == typeof define && define.amd
-        ? define([], b)
-        : "object" == typeof module && module.exports
-          ? (module.exports = b())
-          : ((a.AnchorJS = b()), (a.anchors = new a.AnchorJS()));
+    "function" == typeof define && define.amd ? define([], b)
+    : "object" == typeof module && module.exports ? (module.exports = b())
+    : ((a.AnchorJS = b()), (a.anchors = new a.AnchorJS()));
 })(this, function () {
     "use strict";
     return function (c) {
         function a(a) {
-            (a.icon = Object.prototype.hasOwnProperty.call(a, "icon")
-                ? a.icon
-                : ""),
-                (a.visible = Object.prototype.hasOwnProperty.call(a, "visible")
-                    ? a.visible
-                    : "hover"),
-                (a.placement = Object.prototype.hasOwnProperty.call(
-                    a,
-                    "placement"
-                )
-                    ? a.placement
-                    : "right"),
-                (a.ariaLabel = Object.prototype.hasOwnProperty.call(
-                    a,
-                    "ariaLabel"
-                )
-                    ? a.ariaLabel
-                    : "Anchor"),
-                (a.class = Object.prototype.hasOwnProperty.call(a, "class")
-                    ? a.class
-                    : ""),
-                (a.base = Object.prototype.hasOwnProperty.call(a, "base")
-                    ? a.base
-                    : ""),
-                (a.truncate = Object.prototype.hasOwnProperty.call(
-                    a,
-                    "truncate"
-                )
-                    ? Math.floor(a.truncate)
-                    : 64),
-                (a.titleText = Object.prototype.hasOwnProperty.call(
-                    a,
-                    "titleText"
-                )
-                    ? a.titleText
-                    : "");
+            (a.icon =
+                Object.prototype.hasOwnProperty.call(a, "icon") ? a.icon : ""),
+                (a.visible =
+                    Object.prototype.hasOwnProperty.call(a, "visible") ?
+                        a.visible
+                    :   "hover"),
+                (a.placement =
+                    Object.prototype.hasOwnProperty.call(a, "placement") ?
+                        a.placement
+                    :   "right"),
+                (a.ariaLabel =
+                    Object.prototype.hasOwnProperty.call(a, "ariaLabel") ?
+                        a.ariaLabel
+                    :   "Anchor"),
+                (a.class =
+                    Object.prototype.hasOwnProperty.call(a, "class") ?
+                        a.class
+                    :   ""),
+                (a.base =
+                    Object.prototype.hasOwnProperty.call(a, "base") ?
+                        a.base
+                    :   ""),
+                (a.truncate =
+                    Object.prototype.hasOwnProperty.call(a, "truncate") ?
+                        Math.floor(a.truncate)
+                    :   64),
+                (a.titleText =
+                    Object.prototype.hasOwnProperty.call(a, "titleText") ?
+                        a.titleText
+                    :   "");
         }
 
         function b(a) {
@@ -97,12 +89,14 @@
                         (((f = document.createElement("style")).className =
                             "anchorjs"),
                         f.appendChild(document.createTextNode("")),
-                        void 0 ===
-                        (k = document.head.querySelector(
-                            '[rel="stylesheet"],style'
-                        ))
-                            ? document.head.appendChild(f)
-                            : document.head.insertBefore(f, k),
+                        (
+                            void 0 ===
+                            (k = document.head.querySelector(
+                                '[rel="stylesheet"],style'
+                            ))
+                        ) ?
+                            document.head.appendChild(f)
+                        :   document.head.insertBefore(f, k),
                         f.sheet.insertRule(
                             ".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",
                             f.sheet.cssRules.length
@@ -160,10 +154,11 @@
                             ),
                             this.options.titleText &&
                                 (d.title = this.options.titleText),
-                            (j = document.querySelector("base")
-                                ? window.location.pathname +
-                                  window.location.search
-                                : ""),
+                            (j =
+                                document.querySelector("base") ?
+                                    window.location.pathname +
+                                    window.location.search
+                                :   ""),
                             (j = this.options.base || j),
                             (d.href = j + "#" + h),
                             "always" === m && (d.style.opacity = "1"),
@@ -171,13 +166,13 @@
                                 ((d.style.font = "1em/1 anchorjs-icons"),
                                 "left" === this.options.placement &&
                                     (d.style.lineHeight = "inherit")),
-                            "left" === this.options.placement
-                                ? ((d.style.position = "absolute"),
-                                  (d.style.marginLeft = "-1em"),
-                                  (d.style.paddingRight = ".5em"),
-                                  e[c].insertBefore(d, e[c].firstChild))
-                                : ((d.style.paddingLeft = ".375em"),
-                                  e[c].appendChild(d));
+                            "left" === this.options.placement ?
+                                ((d.style.position = "absolute"),
+                                (d.style.marginLeft = "-1em"),
+                                (d.style.paddingRight = ".5em"),
+                                e[c].insertBefore(d, e[c].firstChild))
+                            :   ((d.style.paddingLeft = ".375em"),
+                                e[c].appendChild(d));
                     }
                 for (c = 0; c < l.length; c++) e.splice(l[c] - c, 1);
                 return (this.elements = this.elements.concat(e)), this;
@@ -230,13 +225,11 @@
     };
 }),
     !(function (b, a) {
-        "object" == typeof exports && "object" == typeof module
-            ? (module.exports = a())
-            : "function" == typeof define && define.amd
-              ? define([], a)
-              : "object" == typeof exports
-                ? (exports.ClipboardJS = a())
-                : (b.ClipboardJS = a());
+        "object" == typeof exports && "object" == typeof module ?
+            (module.exports = a())
+        : "function" == typeof define && define.amd ? define([], a)
+        : "object" == typeof exports ? (exports.ClipboardJS = a())
+        : (b.ClipboardJS = a());
     })(this, function () {
         return (
             (c = {
@@ -257,19 +250,23 @@
 
                     function j(a) {
                         return (j =
-                            "function" == typeof Symbol &&
-                            "symbol" == typeof Symbol.iterator
-                                ? function (a) {
-                                      return typeof a;
-                                  }
-                                : function (a) {
-                                      return a &&
-                                          "function" == typeof Symbol &&
-                                          a.constructor === Symbol &&
-                                          a !== Symbol.prototype
-                                          ? "symbol"
-                                          : typeof a;
-                                  })(a);
+                            (
+                                "function" == typeof Symbol &&
+                                "symbol" == typeof Symbol.iterator
+                            ) ?
+                                function (a) {
+                                    return typeof a;
+                                }
+                            :   function (a) {
+                                    return (
+                                            a &&
+                                                "function" == typeof Symbol &&
+                                                a.constructor === Symbol &&
+                                                a !== Symbol.prototype
+                                        ) ?
+                                            "symbol"
+                                        :   typeof a;
+                                })(a);
                     }
 
                     function h(d, c) {
@@ -299,10 +296,12 @@
                                     key: "resolveOptions",
                                     value: function () {
                                         var a =
-                                            0 < arguments.length &&
-                                            void 0 !== arguments[0]
-                                                ? arguments[0]
-                                                : {};
+                                            (
+                                                0 < arguments.length &&
+                                                void 0 !== arguments[0]
+                                            ) ?
+                                                arguments[0]
+                                            :   {};
                                         (this.action = a.action),
                                             (this.container = a.container),
                                             (this.emitter = a.emitter),
@@ -315,10 +314,9 @@
                                 {
                                     key: "initSelection",
                                     value: function () {
-                                        this.text
-                                            ? this.selectFake()
-                                            : this.target &&
-                                              this.selectTarget();
+                                        this.text ?
+                                            this.selectFake()
+                                        :   this.target && this.selectTarget();
                                     }
                                 },
                                 {
@@ -454,10 +452,12 @@
                                     key: "action",
                                     set: function () {
                                         var a =
-                                            0 < arguments.length &&
-                                            void 0 !== arguments[0]
-                                                ? arguments[0]
-                                                : "copy";
+                                            (
+                                                0 < arguments.length &&
+                                                void 0 !== arguments[0]
+                                            ) ?
+                                                arguments[0]
+                                            :   "copy";
                                         if (
                                             ((this._action = a),
                                             "copy" !== this._action &&
@@ -513,19 +513,23 @@
 
                     function c(a) {
                         return (c =
-                            "function" == typeof Symbol &&
-                            "symbol" == typeof Symbol.iterator
-                                ? function (a) {
-                                      return typeof a;
-                                  }
-                                : function (a) {
-                                      return a &&
-                                          "function" == typeof Symbol &&
-                                          a.constructor === Symbol &&
-                                          a !== Symbol.prototype
-                                          ? "symbol"
-                                          : typeof a;
-                                  })(a);
+                            (
+                                "function" == typeof Symbol &&
+                                "symbol" == typeof Symbol.iterator
+                            ) ?
+                                function (a) {
+                                    return typeof a;
+                                }
+                            :   function (a) {
+                                    return (
+                                            a &&
+                                                "function" == typeof Symbol &&
+                                                a.constructor === Symbol &&
+                                                a !== Symbol.prototype
+                                        ) ?
+                                            "symbol"
+                                        :   typeof a;
+                                })(a);
                     }
 
                     function k(d, c) {
@@ -573,32 +577,37 @@
                             var e,
                                 f = d(a);
                             return (
-                                (e = b
-                                    ? ((e = d(this).constructor),
-                                      Reflect.construct(f, arguments, e))
-                                    : f.apply(this, arguments)),
+                                (e =
+                                    b ?
+                                        ((e = d(this).constructor),
+                                        Reflect.construct(f, arguments, e))
+                                    :   f.apply(this, arguments)),
                                 (f = this),
-                                !(e = e) ||
-                                ("object" !== c(e) && "function" != typeof e)
-                                    ? (function (a) {
-                                          if (void 0 !== a) return a;
-                                          throw new ReferenceError(
-                                              "this hasn't been initialised - super() hasn't been called"
-                                          );
-                                      })(f)
-                                    : e
+                                (
+                                    !(e = e) ||
+                                    ("object" !== c(e) &&
+                                        "function" != typeof e)
+                                ) ?
+                                    (function (a) {
+                                        if (void 0 !== a) return a;
+                                        throw new ReferenceError(
+                                            "this hasn't been initialised - super() hasn't been called"
+                                        );
+                                    })(f)
+                                :   e
                             );
                         };
                     }
 
                     function d(a) {
-                        return (d = Object.setPrototypeOf
-                            ? Object.getPrototypeOf
-                            : function (a) {
-                                  return (
-                                      a.__proto__ || Object.getPrototypeOf(a)
-                                  );
-                              })(a);
+                        return (d =
+                            Object.setPrototypeOf ?
+                                Object.getPrototypeOf
+                            :   function (a) {
+                                    return (
+                                        a.__proto__ || Object.getPrototypeOf(a)
+                                    );
+                                })(a);
                     }
 
                     function e(a, b) {
@@ -649,10 +658,12 @@
                                     key: "isSupported",
                                     value: function () {
                                         var a =
-                                                0 < arguments.length &&
-                                                void 0 !== arguments[0]
-                                                    ? arguments[0]
-                                                    : ["copy", "cut"],
+                                                (
+                                                    0 < arguments.length &&
+                                                    void 0 !== arguments[0]
+                                                ) ?
+                                                    arguments[0]
+                                                :   ["copy", "cut"],
                                             a = "string" == typeof a ? [a] : a,
                                             b =
                                                 !!document.queryCommandSupported;
@@ -674,26 +685,28 @@
                                     key: "resolveOptions",
                                     value: function () {
                                         var a =
-                                            0 < arguments.length &&
-                                            void 0 !== arguments[0]
-                                                ? arguments[0]
-                                                : {};
+                                            (
+                                                0 < arguments.length &&
+                                                void 0 !== arguments[0]
+                                            ) ?
+                                                arguments[0]
+                                            :   {};
                                         (this.action =
-                                            "function" == typeof a.action
-                                                ? a.action
-                                                : this.defaultAction),
+                                            "function" == typeof a.action ?
+                                                a.action
+                                            :   this.defaultAction),
                                             (this.target =
-                                                "function" == typeof a.target
-                                                    ? a.target
-                                                    : this.defaultTarget),
+                                                "function" == typeof a.target ?
+                                                    a.target
+                                                :   this.defaultTarget),
                                             (this.text =
-                                                "function" == typeof a.text
-                                                    ? a.text
-                                                    : this.defaultText),
+                                                "function" == typeof a.text ?
+                                                    a.text
+                                                :   this.defaultText),
                                             (this.container =
-                                                "object" === c(a.container)
-                                                    ? a.container
-                                                    : document.body);
+                                                "object" === c(a.container) ?
+                                                    a.container
+                                                :   document.body);
                                     }
                                 },
                                 {
@@ -802,15 +815,17 @@
                         );
                     }
                     b.exports = function (b, d, c, e, f) {
-                        return "function" == typeof b.addEventListener
-                            ? a.apply(null, arguments)
-                            : "function" == typeof c
-                              ? a.bind(null, document).apply(null, arguments)
-                              : ("string" == typeof b &&
+                        return (
+                            "function" == typeof b.addEventListener ?
+                                a.apply(null, arguments)
+                            : "function" == typeof c ?
+                                a.bind(null, document).apply(null, arguments)
+                            :   ("string" == typeof b &&
                                     (b = document.querySelectorAll(b)),
                                 Array.prototype.map.call(b, function (b) {
                                     return a(b, d, c, e, f);
-                                }));
+                                }))
+                        );
                     };
                 },
                 879: function (b, a) {
@@ -902,26 +917,27 @@
                     a.exports = function (a) {
                         var c,
                             b =
-                                "SELECT" === a.nodeName
-                                    ? (a.focus(), a.value)
-                                    : "INPUT" === a.nodeName ||
-                                        "TEXTAREA" === a.nodeName
-                                      ? ((c = a.hasAttribute("readonly")) ||
-                                            a.setAttribute("readonly", ""),
-                                        a.select(),
-                                        a.setSelectionRange(0, a.value.length),
-                                        c || a.removeAttribute("readonly"),
-                                        a.value)
-                                      : (a.hasAttribute("contenteditable") &&
-                                            a.focus(),
-                                        (b = window.getSelection()),
-                                        (c =
-                                            document.createRange()).selectNodeContents(
-                                            a
-                                        ),
-                                        b.removeAllRanges(),
-                                        b.addRange(c),
-                                        b.toString());
+                                "SELECT" === a.nodeName ? (a.focus(), a.value)
+                                : (
+                                    "INPUT" === a.nodeName ||
+                                    "TEXTAREA" === a.nodeName
+                                ) ?
+                                    ((c = a.hasAttribute("readonly")) ||
+                                        a.setAttribute("readonly", ""),
+                                    a.select(),
+                                    a.setSelectionRange(0, a.value.length),
+                                    c || a.removeAttribute("readonly"),
+                                    a.value)
+                                :   (a.hasAttribute("contenteditable") &&
+                                        a.focus(),
+                                    (b = window.getSelection()),
+                                    (c =
+                                        document.createRange()).selectNodeContents(
+                                        a
+                                    ),
+                                    b.removeAllRanges(),
+                                    b.addRange(c),
+                                    b.toString());
                         return b;
                     };
                 },
@@ -981,13 +997,13 @@
             (b = {}),
             (a.n = function (b) {
                 var c =
-                    b && b.__esModule
-                        ? function () {
-                              return b.default;
-                          }
-                        : function () {
-                              return b;
-                          };
+                    b && b.__esModule ?
+                        function () {
+                            return b.default;
+                        }
+                    :   function () {
+                            return b;
+                        };
                 return (
                     a.d(c, {
                         a: c
@@ -1156,9 +1172,10 @@
                     return a.map(function (a) {
                         var b = "https://getbootstrap.com/";
                         return (
-                            (a.url = window.location.origin.startsWith(b)
-                                ? a.url
-                                : a.url.replace(b, "/")),
+                            (a.url =
+                                window.location.origin.startsWith(b) ?
+                                    a.url
+                                :   a.url.replace(b, "/")),
                             a.anchor === "content" &&
                                 ((a.url = a.url.replace(/#content$/, "")),
                                 (a.anchor = null)),

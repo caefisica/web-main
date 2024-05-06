@@ -1,15 +1,15 @@
 ---
-title: 'Ciclo I'
-lead: '¡Bienvenido a la universidad! Las asignaturas de Física del primer semestre te ofrecen la oportunidad de refrescar un poco la memoria, estudiarás estática y Dinámica en Física General I y cursos que a priori no parecen estar relacionados mucho con la carrera.'
-description: 'Primer semestre'
+title: "Ciclo I"
+lead: "¡Bienvenido a la universidad! Las asignaturas de Física del primer semestre te ofrecen la oportunidad de refrescar un poco la memoria, estudiarás estática y Dinámica en Física General I y cursos que a priori no parecen estar relacionados mucho con la carrera."
+description: "Primer semestre"
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
-layout: 'single'
+layout: "single"
 draft: false
 weight: 1
 images: []
 toc: false
-contributors: ['David']
+contributors: ["David"]
 ---
 
 ### Plan de Estudios 2018

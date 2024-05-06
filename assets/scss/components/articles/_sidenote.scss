@@ -44,7 +44,7 @@ body {
     }
 
     ~ .sidenote::before {
-        content: counter(sidenote-counter) ' ';
+        content: counter(sidenote-counter) " ";
         font-size: 0.7rem;
         top: 1.2rem;
         margin-left: -1rem;

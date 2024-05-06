@@ -1,20 +1,20 @@
 ---
-title: 'Johann Carl Friedrich Gauss'
-description: 'El niño prodigio que supo de todas las matemáticas'
-lead: 'Matemático, astrónomo, geodesta y físico alemán que contribuyó significativamente en muchos campos, incluida la teoría de los números, el análisis matemático, la geometría diferencial, la estadística, el álgebra, la geodesia, el magnetismo y la óptica. ¿Qué más se puede decir de él?'
+title: "Johann Carl Friedrich Gauss"
+description: "El niño prodigio que supo de todas las matemáticas"
+lead: "Matemático, astrónomo, geodesta y físico alemán que contribuyó significativamente en muchos campos, incluida la teoría de los números, el análisis matemático, la geometría diferencial, la estadística, el álgebra, la geodesia, el magnetismo y la óptica. ¿Qué más se puede decir de él?"
 date: 2022-03-25T03:42:03-05:00
 lastmod: 2022-03-25T03:42:03-05:00
 draft: true
-images: ['elpais.com.png']
-link: 'https://elpais.com/elpais/2018/04/30/ciencia/1525069233_387473.html'
+images: ["elpais.com.png"]
+link: "https://elpais.com/elpais/2018/04/30/ciencia/1525069233_387473.html"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 080
 toc: false
 pinned: false
-types: ['biografía']
-functionalities: ['artículo']
+types: ["biografía"]
+functionalities: ["artículo"]
 ---
 
 ```text

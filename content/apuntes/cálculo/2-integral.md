@@ -1,22 +1,22 @@
 ---
-title: 'Integral'
-description: 'CBO204 — 4 créditos'
-lead: 'CBO204 — 4 créditos'
+title: "Integral"
+description: "CBO204 — 4 créditos"
+lead: "CBO204 — 4 créditos"
 date: 2022-02-01T02:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: true
 menu:
-    cursos:
-        parent: 'cálculo'
+  cursos:
+    parent: "cálculo"
 weight: 20
 toc: true
-contributors: ['Richard']
+contributors: ["Richard"]
 math: true
-types: ['matemática']
+types: ["matemática"]
 ---
 
 {{< alert icon="📌" text="Los temas que se tocan en el curso Cálculo II está relacionado con el cálculo integral, donde se aprenderá distintas técnicas de integración." />}}
@@ -27,10 +27,10 @@ types: ['matemática']
 
 El curso de Cálculo II se puede dividir en los siguientes temas de forma general:
 
--   Integrales Indefinidas
--   Integrales Definidas
--   Aplicaciones de las Integrales definidas
--   Integración Numérica
--   Integrales impropias
+- Integrales Indefinidas
+- Integrales Definidas
+- Aplicaciones de las Integrales definidas
+- Integración Numérica
+- Integrales impropias
 
 {{< pdfjs file="Ap-C2.v1.pdf" >}}

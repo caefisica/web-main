@@ -1,5 +1,5 @@
 {{ if .Site.Params.options.darkMode -}}
-    {{ $darkModeInit := resources.Get "js/darkmode-init.js" | js.Build | minify | fingerprint "sha512" -}}
+    {{ $darkModeInit := resources.Get "js/color-mode.js" | js.Build | minify | fingerprint "sha512" -}}
   <script nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">{{ $darkModeInit.Content | safeJS }}</script>
 {{ end -}}
 {{- if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
@@ -12,6 +12,5 @@
 {{ if eq .Section "unmsm" "apuntes" "blog" "tags" -}}
     <script
         src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}"
-        type="text/javascript"
-    ></script>
+        type="text/javascript"></script>
 {{ end -}}

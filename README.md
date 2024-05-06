@@ -31,28 +31,28 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 
 **Nuestros principales resultados** a futuro son:
 
--   Mejorar significativamente la comunicación y accesibilidad del material de estudio disponible.
--   Lograr que todos puedan encontrar y utilizar la información necesaria para tomar decisiones informadas.
--   Establecer un sistema sostenible y acorde a las necesidades de nuestra comunidad.
+- Mejorar significativamente la comunicación y accesibilidad del material de estudio disponible.
+- Lograr que todos puedan encontrar y utilizar la información necesaria para tomar decisiones informadas.
+- Establecer un sistema sostenible y acorde a las necesidades de nuestra comunidad.
 
 **El público objetivo** a futuro es:
 
--   Dentro de la UNMSM - Estudiantes y docentes de la E.P. de Física.
--   Fuera de la UNMSM - Comunidad universitaria de habla castellana.
+- Dentro de la UNMSM - Estudiantes y docentes de la E.P. de Física.
+- Fuera de la UNMSM - Comunidad universitaria de habla castellana.
 
 ## Estrategia y plan 🤔
 
 ### Estrategia de priorización
 
--   Ahora:
-    -   [x] Construir una serie de canales de información en redes sociales ([Facebook](https://facebook.com/caefisica), [Instagram](https://www.instagram.com/caefisica), WhatsApp público).
-    -   [x] Prototipar y desarrollar la [versión inicial de la web](https://caefisica.com/) con documentación limitada al Plan de Estudios 2018.
-    -   [x] Compartir oportunidades y becas a través del grupo de WhatsApp público.
--   Siguiente:
-    -   [ ] Consolidar la información a través de grupos de WhatsApp divididos por categorías (oportunidades, artículos científicos, física de altas energías, etc).
-    -   [ ] Añadir apuntes de clase en formato LaTeX transcritas de notas publicadas por profesores de la facultad. Véase [caefisica/NotasTeX](https://github.com/caefisica/NotasTeX).
-    -   [ ] Implementar las partes necesarias para escalar la página web a otros planes de estudio dentro y fuera de la facultad.
--   Después - Añadir funcionalidades terciarias.
+- Ahora:
+  - [x] Construir una serie de canales de información en redes sociales ([Facebook](https://facebook.com/caefisica), [Instagram](https://www.instagram.com/caefisica), WhatsApp público).
+  - [x] Prototipar y desarrollar la [versión inicial de la web](https://caefisica.com/) con documentación limitada al Plan de Estudios 2018.
+  - [x] Compartir oportunidades y becas a través del grupo de WhatsApp público.
+- Siguiente:
+  - [ ] Consolidar la información a través de grupos de WhatsApp divididos por categorías (oportunidades, artículos científicos, física de altas energías, etc).
+  - [ ] Añadir apuntes de clase en formato LaTeX transcritas de notas publicadas por profesores de la facultad. Véase [caefisica/NotasTeX](https://github.com/caefisica/NotasTeX).
+  - [ ] Implementar las partes necesarias para escalar la página web a otros planes de estudio dentro y fuera de la facultad.
+- Después - Añadir funcionalidades terciarias.
 
 | Fase | Prioridades |
 | --- | --- |
@@ -65,19 +65,19 @@ Sabremos que estamos avanzando en este problema si logramos construir un reposit
 
 ### Tendremos éxito si: <!-- markdownlint-disable-line -->
 
--   trabajamos de buena fe con estudiantes de diversas bases para expandir el contenido disponible y comprender sus necesidades
--   los estudiantes toman decisiones informadas basadas en sus áreas de interés, aumentando la cantidad de estudiantes que realizan intercambios académicos (especialmente al extranjero) e incrementando las posibilidades de continuar con estudios de posgrado como maestría o doctorado
--   los estudiantes de nuestra facultad interactúan y comparten conocimientos con estudiantes de facultades de física de otras universidades
--   surgen nuevos grupos estudiantiles dedicados a informar y organizar eventos en áreas más específicas dentro de nuestra facultad
--   obtenemos _feedback_ continuo sobre el código en funcionamiento e ideas para nuevas funcionalidades, en lugar de quedar como simples propuestas.
+- trabajamos de buena fe con estudiantes de diversas bases para expandir el contenido disponible y comprender sus necesidades
+- los estudiantes toman decisiones informadas basadas en sus áreas de interés, aumentando la cantidad de estudiantes que realizan intercambios académicos (especialmente al extranjero) e incrementando las posibilidades de continuar con estudios de posgrado como maestría o doctorado
+- los estudiantes de nuestra facultad interactúan y comparten conocimientos con estudiantes de facultades de física de otras universidades
+- surgen nuevos grupos estudiantiles dedicados a informar y organizar eventos en áreas más específicas dentro de nuestra facultad
+- obtenemos _feedback_ continuo sobre el código en funcionamiento e ideas para nuevas funcionalidades, en lugar de quedar como simples propuestas.
 
 ### Fracasaremos si: <!-- markdownlint-disable-line -->
 
--   las visitas a nuestros canales son mínimas, en lugar de ser adoptados orgánicamente por los estudiantes
--   la cantidad de estudiantes realizando intercambios estudiantiles se mantiene sin incremento significativo
--   no se incrementa la cantidad de eventos organizados dentro de nuestra facultad y no surgen nuevos grupos estudiantiles
--   la página web no se actualiza continuamente con nuevo contenido y oportunidades relevantes
--   trabajamos de manera aislada, sin interactuar con otros grupos estudiantiles o facultades afines.
+- las visitas a nuestros canales son mínimas, en lugar de ser adoptados orgánicamente por los estudiantes
+- la cantidad de estudiantes realizando intercambios estudiantiles se mantiene sin incremento significativo
+- no se incrementa la cantidad de eventos organizados dentro de nuestra facultad y no surgen nuevos grupos estudiantiles
+- la página web no se actualiza continuamente con nuevo contenido y oportunidades relevantes
+- trabajamos de manera aislada, sin interactuar con otros grupos estudiantiles o facultades afines.
 
 ## Dominio público
 
@@ -112,8 +112,8 @@ Algunas formas en las que puedes colaborar son:
 
 1. **Guías de estudio**: Crea o actualiza guías para cursos que hayas aprobado. Incluye recomendaciones de libros, materiales útiles y explica los temas con un lenguaje claro y accesible. En general tratamos de:
 
-    - Recomendar libros de estudio.
-    - Recomendar canales de Youtube u otra plataforma que aborde temas similares a los sílabos.
+   - Recomendar libros de estudio.
+   - Recomendar canales de Youtube u otra plataforma que aborde temas similares a los sílabos.
 
 2. **Apuntes de clase**: Comparte tus apuntes. Tus notas pueden ser muy valiosas para otros estudiantes.
 

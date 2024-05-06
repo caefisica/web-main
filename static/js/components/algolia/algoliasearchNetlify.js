@@ -22,14 +22,14 @@ var e, t;
                         }
                         function u(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -47,34 +47,34 @@ var e, t;
                                             t++
                                         ) {
                                             var r =
-                                                null != arguments[t]
-                                                    ? arguments[t]
-                                                    : {};
-                                            t % 2
-                                                ? n(Object(r), !0).forEach(
-                                                      function (t) {
-                                                          u(e, t, r[t]);
-                                                      }
-                                                  )
-                                                : Object.getOwnPropertyDescriptors
-                                                  ? Object.defineProperties(
-                                                        e,
-                                                        Object.getOwnPropertyDescriptors(
-                                                            r
-                                                        )
+                                                null != arguments[t] ?
+                                                    arguments[t]
+                                                :   {};
+                                            t % 2 ?
+                                                n(Object(r), !0).forEach(
+                                                    function (t) {
+                                                        u(e, t, r[t]);
+                                                    }
+                                                )
+                                            : Object.getOwnPropertyDescriptors ?
+                                                Object.defineProperties(
+                                                    e,
+                                                    Object.getOwnPropertyDescriptors(
+                                                        r
                                                     )
-                                                  : n(Object(r)).forEach(
-                                                        function (t) {
-                                                            Object.defineProperty(
-                                                                e,
-                                                                t,
-                                                                Object.getOwnPropertyDescriptor(
-                                                                    r,
-                                                                    t
-                                                                )
-                                                            );
-                                                        }
-                                                    );
+                                                )
+                                            :   n(Object(r)).forEach(
+                                                    function (t) {
+                                                        Object.defineProperty(
+                                                            e,
+                                                            t,
+                                                            Object.getOwnPropertyDescriptor(
+                                                                r,
+                                                                t
+                                                            )
+                                                        );
+                                                    }
+                                                );
                                         }
                                         return e;
                                     })({}, o);
@@ -112,47 +112,47 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? a(Object(r), !0).forEach(function (t) {
-                                          l(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    a(Object(r), !0).forEach(function (t) {
+                                        l(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   a(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : a(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function l(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
                         function s(e) {
-                            return 0 === e.collections.length
-                                ? 0
-                                : e.collections.reduce(function (e, t) {
-                                      return e + t.items.length;
-                                  }, 0);
+                            return 0 === e.collections.length ?
+                                    0
+                                :   e.collections.reduce(function (e, t) {
+                                        return e + t.items.length;
+                                    }, 0);
                         }
                         r.r(t),
                             r.d(t, {
@@ -182,14 +182,14 @@ var e, t;
                         }
                         function v(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -224,45 +224,48 @@ var e, t;
                                                         t++
                                                     ) {
                                                         var r =
-                                                            null != arguments[t]
-                                                                ? arguments[t]
-                                                                : {};
-                                                        t % 2
-                                                            ? m(
-                                                                  Object(r),
-                                                                  !0
-                                                              ).forEach(
-                                                                  function (t) {
-                                                                      v(
-                                                                          e,
-                                                                          t,
-                                                                          r[t]
-                                                                      );
-                                                                  }
-                                                              )
-                                                            : Object.getOwnPropertyDescriptors
-                                                              ? Object.defineProperties(
-                                                                    e,
-                                                                    Object.getOwnPropertyDescriptors(
-                                                                        r
-                                                                    )
+                                                            (
+                                                                null !=
+                                                                arguments[t]
+                                                            ) ?
+                                                                arguments[t]
+                                                            :   {};
+                                                        t % 2 ?
+                                                            m(
+                                                                Object(r),
+                                                                !0
+                                                            ).forEach(
+                                                                function (t) {
+                                                                    v(
+                                                                        e,
+                                                                        t,
+                                                                        r[t]
+                                                                    );
+                                                                }
+                                                            )
+                                                        : (
+                                                            Object.getOwnPropertyDescriptors
+                                                        ) ?
+                                                            Object.defineProperties(
+                                                                e,
+                                                                Object.getOwnPropertyDescriptors(
+                                                                    r
                                                                 )
-                                                              : m(
-                                                                    Object(r)
-                                                                ).forEach(
-                                                                    function (
-                                                                        t
-                                                                    ) {
-                                                                        Object.defineProperty(
-                                                                            e,
-                                                                            t,
-                                                                            Object.getOwnPropertyDescriptor(
-                                                                                r,
-                                                                                t
-                                                                            )
-                                                                        );
-                                                                    }
-                                                                );
+                                                            )
+                                                        :   m(
+                                                                Object(r)
+                                                            ).forEach(
+                                                                function (t) {
+                                                                    Object.defineProperty(
+                                                                        e,
+                                                                        t,
+                                                                        Object.getOwnPropertyDescriptor(
+                                                                            r,
+                                                                            t
+                                                                        )
+                                                                    );
+                                                                }
+                                                            );
                                                     }
                                                     return e;
                                                 })(
@@ -313,14 +316,16 @@ var e, t;
                                             "Object" === r &&
                                                 e.constructor &&
                                                 (r = e.constructor.name),
-                                            "Map" === r || "Set" === r
-                                                ? Array.from(e)
-                                                : "Arguments" === r ||
-                                                    /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
-                                                        r
-                                                    )
-                                                  ? y(e, t)
-                                                  : void 0
+                                            "Map" === r || "Set" === r ?
+                                                Array.from(e)
+                                            : (
+                                                "Arguments" === r ||
+                                                /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
+                                                    r
+                                                )
+                                            ) ?
+                                                y(e, t)
+                                            :   void 0
                                         );
                                     }
                                 })(e) ||
@@ -356,38 +361,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? g(Object(r), !0).forEach(function (t) {
-                                          _(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    g(Object(r), !0).forEach(function (t) {
+                                        _(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   g(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : g(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function _(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -410,38 +415,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? O(Object(r), !0).forEach(function (t) {
-                                          E(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    O(Object(r), !0).forEach(function (t) {
+                                        E(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   O(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : O(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function E(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -464,38 +469,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? C(Object(r), !0).forEach(function (t) {
-                                          P(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    C(Object(r), !0).forEach(function (t) {
+                                        P(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   C(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : C(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function P(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -523,14 +528,16 @@ var e, t;
                                             "Object" === r &&
                                                 e.constructor &&
                                                 (r = e.constructor.name),
-                                            "Map" === r || "Set" === r
-                                                ? Array.from(e)
-                                                : "Arguments" === r ||
-                                                    /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
-                                                        r
-                                                    )
-                                                  ? w(e, t)
-                                                  : void 0
+                                            "Map" === r || "Set" === r ?
+                                                Array.from(e)
+                                            : (
+                                                "Arguments" === r ||
+                                                /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
+                                                    r
+                                                )
+                                            ) ?
+                                                w(e, t)
+                                            :   void 0
                                         );
                                     }
                                 })(e) ||
@@ -566,38 +573,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? S(Object(r), !0).forEach(function (t) {
-                                          I(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    S(Object(r), !0).forEach(function (t) {
+                                        I(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   S(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : S(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function I(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -607,24 +614,24 @@ var e, t;
                         function x(e, t) {
                             return (
                                 (r = e),
-                                Boolean(null == r ? void 0 : r.execute)
-                                    ? B(
-                                          B({}, e),
-                                          {},
-                                          {
-                                              requests: e.queries.map(
-                                                  function (r) {
-                                                      return {
-                                                          query: r,
-                                                          sourceId: t,
-                                                          transformResponse:
-                                                              e.transformResponse
-                                                      };
-                                                  }
-                                              )
-                                          }
-                                      )
-                                    : { items: e, sourceId: t }
+                                Boolean(null == r ? void 0 : r.execute) ?
+                                    B(
+                                        B({}, e),
+                                        {},
+                                        {
+                                            requests: e.queries.map(
+                                                function (r) {
+                                                    return {
+                                                        query: r,
+                                                        sourceId: t,
+                                                        transformResponse:
+                                                            e.transformResponse
+                                                    };
+                                                }
+                                            )
+                                        }
+                                    )
+                                :   { items: e, sourceId: t }
                             );
                             var r;
                         }
@@ -679,22 +686,26 @@ var e, t;
                                         return e.items;
                                     }),
                                     u = r[0].transformResponse,
-                                    o = u
-                                        ? u(
-                                              (function (e) {
-                                                  var t = e.map(function (e) {
-                                                      var t;
-                                                      return F(
-                                                          F({}, e),
-                                                          {},
-                                                          {
-                                                              hits:
-                                                                  null ===
-                                                                      (t =
-                                                                          e.hits) ||
-                                                                  void 0 === t
-                                                                      ? void 0
-                                                                      : t.map(
+                                    o =
+                                        u ?
+                                            u(
+                                                (function (e) {
+                                                    var t = e.map(function (e) {
+                                                        var t;
+                                                        return F(
+                                                            F({}, e),
+                                                            {},
+                                                            {
+                                                                hits:
+                                                                    (
+                                                                        null ===
+                                                                            (t =
+                                                                                e.hits) ||
+                                                                        void 0 ===
+                                                                            t
+                                                                    ) ?
+                                                                        void 0
+                                                                    :   t.map(
                                                                             function (
                                                                                 t
                                                                             ) {
@@ -713,46 +724,49 @@ var e, t;
                                                                                 );
                                                                             }
                                                                         )
-                                                          }
-                                                      );
-                                                  });
-                                                  return {
-                                                      results: t,
-                                                      hits: t
-                                                          .map(function (e) {
-                                                              return e.hits;
-                                                          })
-                                                          .filter(Boolean),
-                                                      facetHits: t
-                                                          .map(function (e) {
-                                                              var t;
-                                                              return null ===
-                                                                  (t =
-                                                                      e.facetHits) ||
-                                                                  void 0 === t
-                                                                  ? void 0
-                                                                  : t.map(
-                                                                        function (
-                                                                            e
-                                                                        ) {
-                                                                            return {
-                                                                                label: e.value,
-                                                                                count: e.count,
-                                                                                _highlightResult:
-                                                                                    {
-                                                                                        label: {
-                                                                                            value: e.highlighted
+                                                            }
+                                                        );
+                                                    });
+                                                    return {
+                                                        results: t,
+                                                        hits: t
+                                                            .map(function (e) {
+                                                                return e.hits;
+                                                            })
+                                                            .filter(Boolean),
+                                                        facetHits: t
+                                                            .map(function (e) {
+                                                                var t;
+                                                                return (
+                                                                        null ===
+                                                                            (t =
+                                                                                e.facetHits) ||
+                                                                            void 0 ===
+                                                                                t
+                                                                    ) ?
+                                                                        void 0
+                                                                    :   t.map(
+                                                                            function (
+                                                                                e
+                                                                            ) {
+                                                                                return {
+                                                                                    label: e.value,
+                                                                                    count: e.count,
+                                                                                    _highlightResult:
+                                                                                        {
+                                                                                            label: {
+                                                                                                value: e.highlighted
+                                                                                            }
                                                                                         }
-                                                                                    }
-                                                                            };
-                                                                        }
-                                                                    );
-                                                          })
-                                                          .filter(Boolean)
-                                                  };
-                                              })(n)
-                                          )
-                                        : n;
+                                                                                };
+                                                                            }
+                                                                        );
+                                                            })
+                                                            .filter(Boolean)
+                                                    };
+                                                })(n)
+                                            )
+                                        :   n;
                                 return (
                                     Array.isArray(o),
                                     o.every(Boolean),
@@ -845,38 +859,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? L(Object(r), !0).forEach(function (t) {
-                                          U(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    L(Object(r), !0).forEach(function (t) {
+                                        U(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   L(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : L(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function U(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -919,9 +933,9 @@ var e, t;
                                     var o = e;
                                     return Promise.resolve(u)
                                         .then(function (e) {
-                                            return r && o < t
-                                                ? r
-                                                : ((t = o), (r = e), e);
+                                            return r && o < t ?
+                                                    r
+                                                :   ((t = o), (r = e), e);
                                         })
                                         .finally(function () {
                                             return n--;
@@ -968,11 +982,14 @@ var e, t;
                                     m("idle"),
                                     s(h),
                                     p(
-                                        null !== (v = n.isOpen) && void 0 !== v
-                                            ? v
-                                            : u.shouldPanelOpen({
-                                                  state: c.getState()
-                                              })
+                                        (
+                                            null !== (v = n.isOpen) &&
+                                                void 0 !== v
+                                        ) ?
+                                            v
+                                        :   u.shouldPanelOpen({
+                                                state: c.getState()
+                                            })
                                     ),
                                     V(h).then(function () {
                                         return Promise.resolve();
@@ -1101,13 +1118,15 @@ var e, t;
                                                 state: c.getState()
                                             });
                                             p(
-                                                null !== (r = n.isOpen) &&
-                                                    void 0 !== r
-                                                    ? r
-                                                    : (u.openOnFocus &&
-                                                          !o &&
-                                                          i) ||
-                                                          i
+                                                (
+                                                    null !== (r = n.isOpen) &&
+                                                        void 0 !== r
+                                                ) ?
+                                                    r
+                                                :   (u.openOnFocus &&
+                                                        !o &&
+                                                        i) ||
+                                                        i
                                             );
                                             var f = q(c.getState());
                                             if (
@@ -1162,38 +1181,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? $(Object(r), !0).forEach(function (t) {
-                                          K(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    $(Object(r), !0).forEach(function (t) {
+                                        K(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   $(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : $(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function K(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -1249,38 +1268,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? re(Object(r), !0).forEach(function (t) {
-                                          ue(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    re(Object(r), !0).forEach(function (t) {
+                                        ue(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   re(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : re(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function ue(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -1371,9 +1390,10 @@ var e, t;
                                             "aria-expanded":
                                                 n.getState().isOpen,
                                             "aria-haspopup": "listbox",
-                                            "aria-owns": n.getState().isOpen
-                                                ? "".concat(t.id, "-list")
-                                                : void 0,
+                                            "aria-owns":
+                                                n.getState().isOpen ?
+                                                    "".concat(t.id, "-list")
+                                                :   void 0,
                                             "aria-labelledby": "".concat(
                                                 t.id,
                                                 "-label"
@@ -1481,22 +1501,23 @@ var e, t;
                                         {
                                             "aria-autocomplete": "both",
                                             "aria-activedescendant":
-                                                n.getState().isOpen &&
-                                                null !==
-                                                    n.getState().activeItemId
-                                                    ? ""
-                                                          .concat(
-                                                              t.id,
-                                                              "-item-"
-                                                          )
-                                                          .concat(
-                                                              n.getState()
-                                                                  .activeItemId
-                                                          )
-                                                    : void 0,
-                                            "aria-controls": n.getState().isOpen
-                                                ? "".concat(t.id, "-list")
-                                                : void 0,
+                                                (
+                                                    n.getState().isOpen &&
+                                                    null !==
+                                                        n.getState()
+                                                            .activeItemId
+                                                ) ?
+                                                    ""
+                                                        .concat(t.id, "-item-")
+                                                        .concat(
+                                                            n.getState()
+                                                                .activeItemId
+                                                        )
+                                                :   void 0,
+                                            "aria-controls":
+                                                n.getState().isOpen ?
+                                                    "".concat(t.id, "-list")
+                                                :   void 0,
                                             "aria-labelledby": "".concat(
                                                 t.id,
                                                 "-label"
@@ -1509,9 +1530,9 @@ var e, t;
                                             "autoCorrect": "off",
                                             "autoCapitalize": "off",
                                             "enterKeyHint":
-                                                null != p && p.itemUrl
-                                                    ? "go"
-                                                    : "search",
+                                                null != p && p.itemUrl ?
+                                                    "go"
+                                                :   "search",
                                             "spellCheck": "false",
                                             "autoFocus": t.autoFocus,
                                             "placeholder": t.placeholder,
@@ -1559,13 +1580,15 @@ var e, t;
                                                                             )
                                                                     );
                                                                 e &&
-                                                                    (e.scrollIntoViewIfNeeded
-                                                                        ? e.scrollIntoViewIfNeeded(
-                                                                              !1
-                                                                          )
-                                                                        : e.scrollIntoView(
-                                                                              !1
-                                                                          ));
+                                                                    ((
+                                                                        e.scrollIntoViewIfNeeded
+                                                                    ) ?
+                                                                        e.scrollIntoViewIfNeeded(
+                                                                            !1
+                                                                        )
+                                                                    :   e.scrollIntoView(
+                                                                            !1
+                                                                        ));
                                                             },
                                                             a = function () {
                                                                 var e = q(
@@ -1605,49 +1628,51 @@ var e, t;
                                                                 }
                                                             };
                                                         t.preventDefault(),
-                                                            !1 ===
-                                                                u.getState()
-                                                                    .isOpen &&
-                                                            (r.openOnFocus ||
-                                                                Boolean(
+                                                            (
+                                                                !1 ===
                                                                     u.getState()
-                                                                        .query
-                                                                ))
-                                                                ? J(
-                                                                      z(
-                                                                          {
-                                                                              event: t,
-                                                                              props: r,
-                                                                              query: u.getState()
-                                                                                  .query,
-                                                                              refresh:
-                                                                                  n,
-                                                                              store: u
-                                                                          },
-                                                                          o
-                                                                      )
-                                                                  ).then(
-                                                                      function () {
-                                                                          u.dispatch(
-                                                                              t.key,
-                                                                              {
-                                                                                  nextActiveItemId:
-                                                                                      r.defaultActiveItemId
-                                                                              }
-                                                                          ),
-                                                                              a(),
-                                                                              setTimeout(
-                                                                                  i,
-                                                                                  0
-                                                                              );
-                                                                      }
-                                                                  )
-                                                                : (u.dispatch(
-                                                                      t.key,
-                                                                      {}
-                                                                  ),
-                                                                  a(),
-                                                                  i());
+                                                                        .isOpen &&
+                                                                (r.openOnFocus ||
+                                                                    Boolean(
+                                                                        u.getState()
+                                                                            .query
+                                                                    ))
+                                                            ) ?
+                                                                J(
+                                                                    z(
+                                                                        {
+                                                                            event: t,
+                                                                            props: r,
+                                                                            query: u.getState()
+                                                                                .query,
+                                                                            refresh:
+                                                                                n,
+                                                                            store: u
+                                                                        },
+                                                                        o
+                                                                    )
+                                                                ).then(
+                                                                    function () {
+                                                                        u.dispatch(
+                                                                            t.key,
+                                                                            {
+                                                                                nextActiveItemId:
+                                                                                    r.defaultActiveItemId
+                                                                            }
+                                                                        ),
+                                                                            a(),
+                                                                            setTimeout(
+                                                                                i,
+                                                                                0
+                                                                            );
+                                                                    }
+                                                                )
+                                                            :   (u.dispatch(
+                                                                    t.key,
+                                                                    {}
+                                                                ),
+                                                                a(),
+                                                                i());
                                                     } else if (
                                                         "Escape" === t.key
                                                     )
@@ -1935,23 +1960,23 @@ var e, t;
                                                         item: o,
                                                         state: n.getState()
                                                     });
-                                                (c
-                                                    ? Promise.resolve()
-                                                    : J(
-                                                          ne(
-                                                              {
-                                                                  event: e,
-                                                                  nextState: {
-                                                                      isOpen: !1
-                                                                  },
-                                                                  props: t,
-                                                                  query: a,
-                                                                  refresh: r,
-                                                                  store: n
-                                                              },
-                                                              u
-                                                          )
-                                                      )
+                                                (c ?
+                                                    Promise.resolve()
+                                                :   J(
+                                                        ne(
+                                                            {
+                                                                event: e,
+                                                                nextState: {
+                                                                    isOpen: !1
+                                                                },
+                                                                props: t,
+                                                                query: a,
+                                                                refresh: r,
+                                                                store: n
+                                                            },
+                                                            u
+                                                        )
+                                                    )
                                                 ).then(function () {
                                                     i.onSelect(
                                                         ne(
@@ -1999,38 +2024,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? le(Object(r), !0).forEach(function (t) {
-                                          pe(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    le(Object(r), !0).forEach(function (t) {
+                                        pe(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   le(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : le(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function pe(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -2042,29 +2067,37 @@ var e, t;
                                 o = e.plugins,
                                 i = e.options,
                                 a =
-                                    null ===
-                                        (t = ((null ===
-                                            (r = i.__autocomplete_metadata) ||
-                                        void 0 === r
-                                            ? void 0
-                                            : r.userAgents) || [])[0]) ||
-                                    void 0 === t
-                                        ? void 0
-                                        : t.segment,
-                                c = a
-                                    ? pe(
-                                          {},
-                                          a,
-                                          Object.keys(
-                                              (null ===
-                                                  (n =
-                                                      i.__autocomplete_metadata) ||
-                                              void 0 === n
-                                                  ? void 0
-                                                  : n.options) || {}
-                                          )
-                                      )
-                                    : {};
+                                    (
+                                        null ===
+                                            (t = (((
+                                                null ===
+                                                    (r =
+                                                        i.__autocomplete_metadata) ||
+                                                void 0 === r
+                                            ) ?
+                                                void 0
+                                            :   r.userAgents) || [])[0]) ||
+                                        void 0 === t
+                                    ) ?
+                                        void 0
+                                    :   t.segment,
+                                c =
+                                    a ?
+                                        pe(
+                                            {},
+                                            a,
+                                            Object.keys(
+                                                ((
+                                                    null ===
+                                                        (n =
+                                                            i.__autocomplete_metadata) ||
+                                                    void 0 === n
+                                                ) ?
+                                                    void 0
+                                                :   n.options) || {}
+                                            )
+                                        )
+                                    :   {};
                             return {
                                 plugins: o.map(function (e) {
                                     return {
@@ -2079,21 +2112,24 @@ var e, t;
                                     c
                                 ),
                                 ua: ce.concat(
-                                    (null === (u = i.__autocomplete_metadata) ||
-                                    void 0 === u
-                                        ? void 0
-                                        : u.userAgents) || []
+                                    ((
+                                        null ===
+                                            (u = i.__autocomplete_metadata) ||
+                                        void 0 === u
+                                    ) ?
+                                        void 0
+                                    :   u.userAgents) || []
                                 )
                             };
                         }
                         function de(e) {
                             var t,
                                 r = e.state;
-                            return !1 === r.isOpen || null === r.activeItemId
-                                ? null
-                                : (null === (t = q(r)) || void 0 === t
-                                      ? void 0
-                                      : t.itemInputValue) || null;
+                            return !1 === r.isOpen || null === r.activeItemId ?
+                                    null
+                                :   (null === (t = q(r)) || void 0 === t ?
+                                        void 0
+                                    :   t.itemInputValue) || null;
                         }
                         function me(e, t, r, n) {
                             if (!r) return null;
@@ -2103,11 +2139,13 @@ var e, t;
                             )
                                 return r + e;
                             var u = (null === t ? -1 : t) + e;
-                            return u <= -1 || u >= r
-                                ? null === n
-                                    ? null
-                                    : 0
-                                : u;
+                            return (
+                                u <= -1 || u >= r ?
+                                    null === n ?
+                                        null
+                                    :   0
+                                :   u
+                            );
                         }
                         function ve(e, t) {
                             var r = Object.keys(e);
@@ -2128,38 +2166,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? ve(Object(r), !0).forEach(function (t) {
-                                          De(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    ve(Object(r), !0).forEach(function (t) {
+                                        De(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   ve(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : ve(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function De(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -2212,17 +2250,19 @@ var e, t;
                                         {},
                                         {
                                             activeItemId:
-                                                t.payload.hasOwnProperty(
-                                                    "nextActiveItemId"
-                                                )
-                                                    ? t.payload.nextActiveItemId
-                                                    : me(
-                                                          1,
-                                                          e.activeItemId,
-                                                          s(e),
-                                                          t.props
-                                                              .defaultActiveItemId
-                                                      )
+                                                (
+                                                    t.payload.hasOwnProperty(
+                                                        "nextActiveItemId"
+                                                    )
+                                                ) ?
+                                                    t.payload.nextActiveItemId
+                                                :   me(
+                                                        1,
+                                                        e.activeItemId,
+                                                        s(e),
+                                                        t.props
+                                                            .defaultActiveItemId
+                                                    )
                                         }
                                     );
                                     return he(
@@ -2249,26 +2289,26 @@ var e, t;
                                         { completion: de({ state: n }) }
                                     );
                                 case "Escape":
-                                    return e.isOpen
-                                        ? he(
-                                              he({}, e),
-                                              {},
-                                              {
-                                                  activeItemId: null,
-                                                  isOpen: !1,
-                                                  completion: null
-                                              }
-                                          )
-                                        : he(
-                                              he({}, e),
-                                              {},
-                                              {
-                                                  activeItemId: null,
-                                                  query: "",
-                                                  status: "idle",
-                                                  collections: []
-                                              }
-                                          );
+                                    return e.isOpen ?
+                                            he(
+                                                he({}, e),
+                                                {},
+                                                {
+                                                    activeItemId: null,
+                                                    isOpen: !1,
+                                                    completion: null
+                                                }
+                                            )
+                                        :   he(
+                                                he({}, e),
+                                                {},
+                                                {
+                                                    activeItemId: null,
+                                                    query: "",
+                                                    status: "idle",
+                                                    collections: []
+                                                }
+                                            );
                                 case "submit":
                                     return he(
                                         he({}, e),
@@ -2285,10 +2325,9 @@ var e, t;
                                         {},
                                         {
                                             activeItemId:
-                                                !0 === t.props.openOnFocus
-                                                    ? t.props
-                                                          .defaultActiveItemId
-                                                    : null,
+                                                !0 === t.props.openOnFocus ?
+                                                    t.props.defaultActiveItemId
+                                                :   null,
                                             status: "idle",
                                             query: ""
                                         }
@@ -2309,13 +2348,16 @@ var e, t;
                                         }
                                     );
                                 case "blur":
-                                    return t.props.debug
-                                        ? e
-                                        : he(
-                                              he({}, e),
-                                              {},
-                                              { isOpen: !1, activeItemId: null }
-                                          );
+                                    return t.props.debug ?
+                                            e
+                                        :   he(
+                                                he({}, e),
+                                                {},
+                                                {
+                                                    isOpen: !1,
+                                                    activeItemId: null
+                                                }
+                                            );
                                 case "mousemove":
                                     return he(
                                         he({}, e),
@@ -2360,38 +2402,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? ge(Object(r), !0).forEach(function (t) {
-                                          _e(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    ge(Object(r), !0).forEach(function (t) {
+                                        _e(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   ge(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : ge(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function _e(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -2400,9 +2442,9 @@ var e, t;
                                 r = (function (e, t) {
                                     var r,
                                         n =
-                                            "undefined" != typeof window
-                                                ? window
-                                                : {},
+                                            "undefined" != typeof window ?
+                                                window
+                                            :   {},
                                         u = e.plugins || [];
                                     return b(
                                         b(
@@ -2426,10 +2468,12 @@ var e, t;
                                         {},
                                         {
                                             id:
-                                                null !== (r = e.id) &&
-                                                void 0 !== r
-                                                    ? r
-                                                    : f(),
+                                                (
+                                                    null !== (r = e.id) &&
+                                                    void 0 !== r
+                                                ) ?
+                                                    r
+                                                :   f(),
                                             plugins: u,
                                             initialState: b(
                                                 {
@@ -2451,12 +2495,14 @@ var e, t;
                                                     r.call(e, t),
                                                     u.forEach(function (e) {
                                                         var r;
-                                                        return null ===
-                                                            (r =
-                                                                e.onStateChange) ||
-                                                            void 0 === r
-                                                            ? void 0
-                                                            : r.call(e, t);
+                                                        return (
+                                                                null ===
+                                                                    (r =
+                                                                        e.onStateChange) ||
+                                                                    void 0 === r
+                                                            ) ?
+                                                                void 0
+                                                            :   r.call(e, t);
                                                     });
                                             },
                                             onSubmit: function (t) {
@@ -2466,11 +2512,14 @@ var e, t;
                                                     r.call(e, t),
                                                     u.forEach(function (e) {
                                                         var r;
-                                                        return null ===
-                                                            (r = e.onSubmit) ||
-                                                            void 0 === r
-                                                            ? void 0
-                                                            : r.call(e, t);
+                                                        return (
+                                                                null ===
+                                                                    (r =
+                                                                        e.onSubmit) ||
+                                                                    void 0 === r
+                                                            ) ?
+                                                                void 0
+                                                            :   r.call(e, t);
                                                     });
                                             },
                                             onReset: function (t) {
@@ -2480,11 +2529,14 @@ var e, t;
                                                     r.call(e, t),
                                                     u.forEach(function (e) {
                                                         var r;
-                                                        return null ===
-                                                            (r = e.onReset) ||
-                                                            void 0 === r
-                                                            ? void 0
-                                                            : r.call(e, t);
+                                                        return (
+                                                                null ===
+                                                                    (r =
+                                                                        e.onReset) ||
+                                                                    void 0 === r
+                                                            ) ?
+                                                                void 0
+                                                            :   r.call(e, t);
                                                     });
                                             },
                                             getSources: function (r) {
@@ -2529,16 +2581,18 @@ var e, t;
                                                                                             e
                                                                                         ) {
                                                                                             var t;
-                                                                                            return null ===
-                                                                                                (t =
-                                                                                                    e.onSelect) ||
-                                                                                                void 0 ===
-                                                                                                    t
-                                                                                                ? void 0
-                                                                                                : t.call(
-                                                                                                      e,
-                                                                                                      r
-                                                                                                  );
+                                                                                            return (
+                                                                                                    null ===
+                                                                                                        (t =
+                                                                                                            e.onSelect) ||
+                                                                                                        void 0 ===
+                                                                                                            t
+                                                                                                ) ?
+                                                                                                    void 0
+                                                                                                :   t.call(
+                                                                                                        e,
+                                                                                                        r
+                                                                                                    );
                                                                                         }
                                                                                     );
                                                                             },
@@ -2554,16 +2608,18 @@ var e, t;
                                                                                             e
                                                                                         ) {
                                                                                             var t;
-                                                                                            return null ===
-                                                                                                (t =
-                                                                                                    e.onActive) ||
-                                                                                                void 0 ===
-                                                                                                    t
-                                                                                                ? void 0
-                                                                                                : t.call(
-                                                                                                      e,
-                                                                                                      r
-                                                                                                  );
+                                                                                            return (
+                                                                                                    null ===
+                                                                                                        (t =
+                                                                                                            e.onActive) ||
+                                                                                                        void 0 ===
+                                                                                                            t
+                                                                                                ) ?
+                                                                                                    void 0
+                                                                                                :   t.call(
+                                                                                                        e,
+                                                                                                        r
+                                                                                                    );
                                                                                         }
                                                                                     );
                                                                             }
@@ -2686,41 +2742,45 @@ var e, t;
                             return (
                                 r.plugins.forEach(function (e) {
                                     var r;
-                                    return null === (r = e.subscribe) ||
-                                        void 0 === r
-                                        ? void 0
-                                        : r.call(
-                                              e,
-                                              be(
-                                                  be({}, u),
-                                                  {},
-                                                  {
-                                                      refresh: l,
-                                                      onSelect: function (e) {
-                                                          t.push({
-                                                              onSelect: e
-                                                          });
-                                                      },
-                                                      onActive: function (e) {
-                                                          t.push({
-                                                              onActive: e
-                                                          });
-                                                      }
-                                                  }
-                                              )
-                                          );
+                                    return (
+                                            null === (r = e.subscribe) ||
+                                                void 0 === r
+                                        ) ?
+                                            void 0
+                                        :   r.call(
+                                                e,
+                                                be(
+                                                    be({}, u),
+                                                    {},
+                                                    {
+                                                        refresh: l,
+                                                        onSelect: function (e) {
+                                                            t.push({
+                                                                onSelect: e
+                                                            });
+                                                        },
+                                                        onActive: function (e) {
+                                                            t.push({
+                                                                onActive: e
+                                                            });
+                                                        }
+                                                    }
+                                                )
+                                            );
                                 }),
                                 (function (e) {
                                     var t,
                                         r = e.metadata,
                                         n = e.environment;
                                     if (
-                                        null === (t = n.navigator) ||
-                                        void 0 === t
-                                            ? void 0
-                                            : t.userAgent.includes(
-                                                  "Algolia Crawler"
-                                              )
+                                        (
+                                            null === (t = n.navigator) ||
+                                            void 0 === t
+                                        ) ?
+                                            void 0
+                                        :   t.userAgent.includes(
+                                                "Algolia Crawler"
+                                            )
                                     ) {
                                         var u =
                                                 n.document.createElement(
@@ -2831,11 +2891,9 @@ var e, t;
                             };
                         function je(e, t, r) {
                             e[t] =
-                                null === r
-                                    ? ""
-                                    : "number" != typeof r
-                                      ? r
-                                      : r + "px";
+                                null === r ? ""
+                                : "number" != typeof r ? r
+                                : r + "px";
                         }
                         function we(e) {
                             this._listeners[e.type](e);
@@ -2852,32 +2910,32 @@ var e, t;
                                         (o && r[t] === o[t]) ||
                                             je(e.style, t, r[t]);
                             else
-                                "o" === t[0] && "n" === t[1]
-                                    ? ((n =
-                                          t !==
-                                          (t = t.replace(/Capture$/, ""))),
-                                      (u = t.toLowerCase()) in e && (t = u),
-                                      (t = t.slice(2)),
-                                      e._listeners || (e._listeners = {}),
-                                      (e._listeners[t] = r),
-                                      r
-                                          ? o || e.addEventListener(t, we, n)
-                                          : e.removeEventListener(t, we, n))
-                                    : "list" !== t &&
-                                        "tagName" !== t &&
-                                        "form" !== t &&
-                                        "type" !== t &&
-                                        "size" !== t &&
-                                        "download" !== t &&
-                                        "href" !== t &&
-                                        t in e
-                                      ? (e[t] = null == r ? "" : r)
-                                      : "function" != typeof r &&
-                                        "dangerouslySetInnerHTML" !== t &&
-                                        (null == r ||
-                                        (!1 === r && !/^ar/.test(t))
-                                            ? e.removeAttribute(t)
-                                            : e.setAttribute(t, r));
+                                "o" === t[0] && "n" === t[1] ?
+                                    ((n =
+                                        t !== (t = t.replace(/Capture$/, ""))),
+                                    (u = t.toLowerCase()) in e && (t = u),
+                                    (t = t.slice(2)),
+                                    e._listeners || (e._listeners = {}),
+                                    (e._listeners[t] = r),
+                                    r ?
+                                        o || e.addEventListener(t, we, n)
+                                    :   e.removeEventListener(t, we, n))
+                                : (
+                                    "list" !== t &&
+                                    "tagName" !== t &&
+                                    "form" !== t &&
+                                    "type" !== t &&
+                                    "size" !== t &&
+                                    "download" !== t &&
+                                    "href" !== t &&
+                                    t in e
+                                ) ?
+                                    (e[t] = null == r ? "" : r)
+                                :   "function" != typeof r &&
+                                    "dangerouslySetInnerHTML" !== t &&
+                                    (null == r || (!1 === r && !/^ar/.test(t)) ?
+                                        e.removeAttribute(t)
+                                    :   e.setAttribute(t, r));
                         }
                         function Be(e) {
                             switch (e) {
@@ -2920,14 +2978,16 @@ var e, t;
                                             "Object" === r &&
                                                 e.constructor &&
                                                 (r = e.constructor.name),
-                                            "Map" === r || "Set" === r
-                                                ? Array.from(e)
-                                                : "Arguments" === r ||
-                                                    /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
-                                                        r
-                                                    )
-                                                  ? Te(e, t)
-                                                  : void 0
+                                            "Map" === r || "Set" === r ?
+                                                Array.from(e)
+                                            : (
+                                                "Arguments" === r ||
+                                                /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
+                                                    r
+                                                )
+                                            ) ?
+                                                Te(e, t)
+                                            :   void 0
                                         );
                                     }
                                 })(e) ||
@@ -3009,38 +3069,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? Me(Object(r), !0).forEach(function (t) {
-                                          He(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    Me(Object(r), !0).forEach(function (t) {
+                                        He(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   Me(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : Me(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function He(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -3091,38 +3151,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? Ve(Object(r), !0).forEach(function (t) {
-                                          Qe(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    Ve(Object(r), !0).forEach(function (t) {
+                                        Qe(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   Ve(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : Ve(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function Qe(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -3239,11 +3299,12 @@ var e, t;
                                     getInputProps: c.getInputProps,
                                     getInputPropsCore: t.getInputProps,
                                     autocompleteScopeApi: r,
-                                    onDetachedEscape: o
-                                        ? function () {
-                                              t.setIsOpen(!1), l(!1);
-                                          }
-                                        : void 0
+                                    onDetachedEscape:
+                                        o ?
+                                            function () {
+                                                t.setIsOpen(!1), l(!1);
+                                            }
+                                        :   void 0
                                 }),
                                 A = f("div", {
                                     class: n.inputWrapperPrefix,
@@ -3351,11 +3412,9 @@ var e, t;
                                 i = arguments,
                                 a = {};
                             for (o in t)
-                                "key" == o
-                                    ? (n = t[o])
-                                    : "ref" == o
-                                      ? (u = t[o])
-                                      : (a[o] = t[o]);
+                                "key" == o ? (n = t[o])
+                                : "ref" == o ? (u = t[o])
+                                : (a[o] = t[o]);
                             if (arguments.length > 3)
                                 for (r = [r], o = 3; o < arguments.length; o++)
                                     r.push(i[o]);
@@ -3395,9 +3454,9 @@ var e, t;
                         }
                         function at(e, t) {
                             if (null == t)
-                                return e.__
-                                    ? at(e.__, e.__.__k.indexOf(e) + 1)
-                                    : null;
+                                return e.__ ?
+                                        at(e.__, e.__.__k.indexOf(e) + 1)
+                                    :   null;
                             for (var r; t < e.__k.length; t++)
                                 if (null != (r = e.__k[t]) && null != r.__e)
                                     return r.__e;
@@ -3473,30 +3532,34 @@ var e, t;
                                 if (
                                     null !=
                                     (d = r.__k[s] =
-                                        null == (d = t[s]) ||
-                                        "boolean" == typeof d
-                                            ? null
-                                            : "string" == typeof d ||
+                                        (
+                                                null == (d = t[s]) ||
+                                                "boolean" == typeof d
+                                            ) ?
+                                                null
+                                            : (
+                                                "string" == typeof d ||
                                                 "number" == typeof d ||
                                                 "bigint" == typeof d
-                                              ? ut(null, d, null, null, d)
-                                              : Array.isArray(d)
-                                                ? ut(
-                                                      ot,
-                                                      { children: d },
-                                                      null,
-                                                      null,
-                                                      null
-                                                  )
-                                                : d.__b > 0
-                                                  ? ut(
-                                                        d.type,
-                                                        d.props,
-                                                        d.key,
-                                                        null,
-                                                        d.__v
-                                                    )
-                                                  : d)
+                                            ) ?
+                                                ut(null, d, null, null, d)
+                                            : Array.isArray(d) ?
+                                                ut(
+                                                    ot,
+                                                    { children: d },
+                                                    null,
+                                                    null,
+                                                    null
+                                                )
+                                            : d.__b > 0 ?
+                                                ut(
+                                                    d.type,
+                                                    d.props,
+                                                    d.key,
+                                                    null,
+                                                    d.__v
+                                                )
+                                            :   d)
                                 ) {
                                     if (
                                         ((d.__ = r),
@@ -3526,22 +3589,23 @@ var e, t;
                                             (h || (h = []),
                                             f.ref && h.push(f.ref, null, d),
                                             h.push(p, d.__c || m, d)),
-                                        null != m
-                                            ? (null == v && (v = m),
-                                              "function" == typeof d.type &&
-                                              null != d.__k &&
-                                              d.__k === f.__k
-                                                  ? (d.__d = c = ft(d, c, e))
-                                                  : (c = dt(e, d, f, D, m, c)),
-                                              l || "option" !== r.type
-                                                  ? "function" ==
-                                                        typeof r.type &&
-                                                    (r.__d = c)
-                                                  : (e.value = ""))
-                                            : c &&
-                                              f.__e == c &&
-                                              c.parentNode != e &&
-                                              (c = at(f));
+                                        null != m ?
+                                            (null == v && (v = m),
+                                            (
+                                                "function" == typeof d.type &&
+                                                null != d.__k &&
+                                                d.__k === f.__k
+                                            ) ?
+                                                (d.__d = c = ft(d, c, e))
+                                            :   (c = dt(e, d, f, D, m, c)),
+                                            l || "option" !== r.type ?
+                                                "function" == typeof r.type &&
+                                                (r.__d = c)
+                                            :   (e.value = ""))
+                                        :   c &&
+                                            f.__e == c &&
+                                            c.parentNode != e &&
+                                            (c = at(f));
                                 }
                             for (r.__e = v, s = y; s--; )
                                 null != D[s] &&
@@ -3560,9 +3624,9 @@ var e, t;
                                 (u = e.__k[n]) &&
                                     ((u.__ = e),
                                     (t =
-                                        "function" == typeof u.type
-                                            ? ft(u, t, r)
-                                            : dt(r, u, u, e.__k, u.__e, t)));
+                                        "function" == typeof u.type ?
+                                            ft(u, t, r)
+                                        :   dt(r, u, u, e.__k, u.__e, t)));
                             return t;
                         }
                         function dt(e, t, r, n, u, o) {
@@ -3587,14 +3651,12 @@ var e, t;
                             return void 0 !== i ? i : u.nextSibling;
                         }
                         function mt(e, t, r) {
-                            "-" === t[0]
-                                ? e.setProperty(t, r)
-                                : (e[t] =
-                                      null == r
-                                          ? ""
-                                          : "number" != typeof r || et.test(t)
-                                            ? r
-                                            : r + "px");
+                            "-" === t[0] ?
+                                e.setProperty(t, r)
+                            :   (e[t] =
+                                    null == r ? ""
+                                    : "number" != typeof r || et.test(t) ? r
+                                    : r + "px");
                         }
                         function vt(e, t, r, n, u) {
                             var o;
@@ -3616,19 +3678,19 @@ var e, t;
                             else if ("o" === t[0] && "n" === t[1])
                                 (o = t !== (t = t.replace(/Capture$/, ""))),
                                     (t =
-                                        t.toLowerCase() in e
-                                            ? t.toLowerCase().slice(2)
-                                            : t.slice(2)),
+                                        t.toLowerCase() in e ?
+                                            t.toLowerCase().slice(2)
+                                        :   t.slice(2)),
                                     e.l || (e.l = {}),
                                     (e.l[t + o] = r),
-                                    r
-                                        ? n ||
-                                          e.addEventListener(t, o ? Dt : ht, o)
-                                        : e.removeEventListener(
-                                              t,
-                                              o ? Dt : ht,
-                                              o
-                                          );
+                                    r ?
+                                        n ||
+                                        e.addEventListener(t, o ? Dt : ht, o)
+                                    :   e.removeEventListener(
+                                            t,
+                                            o ? Dt : ht,
+                                            o
+                                        );
                             else if ("dangerouslySetInnerHTML" !== t) {
                                 if (u)
                                     t = t
@@ -3647,10 +3709,13 @@ var e, t;
                                         break e;
                                     } catch (e) {}
                                 "function" == typeof r ||
-                                    (null != r &&
-                                    (!1 !== r || ("a" === t[0] && "r" === t[1]))
-                                        ? e.setAttribute(t, r)
-                                        : e.removeAttribute(t));
+                                    ((
+                                        null != r &&
+                                        (!1 !== r ||
+                                            ("a" === t[0] && "r" === t[1]))
+                                    ) ?
+                                        e.setAttribute(t, r)
+                                    :   e.removeAttribute(t));
                             }
                         }
                         function ht(e) {
@@ -3684,27 +3749,28 @@ var e, t;
                                     if (
                                         ((h = t.props),
                                         (D = (l = b.contextType) && n[l.__c]),
-                                        (y = l
-                                            ? D
-                                                ? D.props.value
-                                                : l.__
-                                            : n),
-                                        r.__c
-                                            ? (v = (s = t.__c = r.__c).__ =
-                                                  s.__E)
-                                            : ("prototype" in b &&
-                                              b.prototype.render
-                                                  ? (t.__c = s = new b(h, y))
-                                                  : ((t.__c = s = new it(h, y)),
-                                                    (s.constructor = b),
-                                                    (s.render = At)),
-                                              D && D.sub(s),
-                                              (s.props = h),
-                                              s.state || (s.state = {}),
-                                              (s.context = y),
-                                              (s.__n = n),
-                                              (p = s.__d = !0),
-                                              (s.__h = [])),
+                                        (y =
+                                            l ?
+                                                D ? D.props.value
+                                                :   l.__
+                                            :   n),
+                                        r.__c ?
+                                            (v = (s = t.__c = r.__c).__ = s.__E)
+                                        :   ((
+                                                "prototype" in b &&
+                                                b.prototype.render
+                                            ) ?
+                                                (t.__c = s = new b(h, y))
+                                            :   ((t.__c = s = new it(h, y)),
+                                                (s.constructor = b),
+                                                (s.render = At)),
+                                            D && D.sub(s),
+                                            (s.props = h),
+                                            s.state || (s.state = {}),
+                                            (s.context = y),
+                                            (s.__n = n),
+                                            (p = s.__d = !0),
+                                            (s.__h = [])),
                                         null == s.__s && (s.__s = s.state),
                                         null != b.getDerivedStateFromProps &&
                                             (s.__s == s.state &&
@@ -3795,11 +3861,13 @@ var e, t;
                                                 d
                                             )),
                                         (g =
-                                            null != l &&
-                                            l.type === ot &&
-                                            null == l.key
-                                                ? l.props.children
-                                                : l),
+                                            (
+                                                null != l &&
+                                                l.type === ot &&
+                                                null == l.key
+                                            ) ?
+                                                l.props.children
+                                            :   l),
                                         pt(
                                             e,
                                             Array.isArray(g) ? g : [g],
@@ -3818,18 +3886,18 @@ var e, t;
                                         v && (s.__E = s.__ = null),
                                         (s.__e = !1);
                                 } else
-                                    null == o && t.__v === r.__v
-                                        ? ((t.__k = r.__k), (t.__e = r.__e))
-                                        : (t.__e = bt(
-                                              r.__e,
-                                              t,
-                                              r,
-                                              n,
-                                              u,
-                                              o,
-                                              i,
-                                              c
-                                          ));
+                                    null == o && t.__v === r.__v ?
+                                        ((t.__k = r.__k), (t.__e = r.__e))
+                                    :   (t.__e = bt(
+                                            r.__e,
+                                            t,
+                                            r,
+                                            n,
+                                            u,
+                                            o,
+                                            i,
+                                            c
+                                        ));
                                 (l = ze.diffed) && l(t);
                             } catch (e) {
                                 (t.__v = null),
@@ -3868,9 +3936,9 @@ var e, t;
                                     if (
                                         (c = o[v]) &&
                                         (c === e ||
-                                            (m
-                                                ? c.localName == m
-                                                : 3 == c.nodeType))
+                                            (m ?
+                                                c.localName == m
+                                            :   3 == c.nodeType))
                                     ) {
                                         (e = c), (o[v] = null);
                                         break;
@@ -3878,12 +3946,13 @@ var e, t;
                             if (null == e) {
                                 if (null === m)
                                     return document.createTextNode(d);
-                                (e = u
-                                    ? document.createElementNS(
-                                          "http://www.w3.org/2000/svg",
-                                          m
-                                      )
-                                    : document.createElement(m, d.is && d)),
+                                (e =
+                                    u ?
+                                        document.createElementNS(
+                                            "http://www.w3.org/2000/svg",
+                                            m
+                                        )
+                                    :   document.createElement(m, d.is && d)),
                                     (o = null),
                                     (a = !1);
                             }
@@ -4002,9 +4071,10 @@ var e, t;
                         function Et(e, t, r) {
                             var n, u, o;
                             ze.__ && ze.__(e, t),
-                                (u = (n = "function" == typeof r)
-                                    ? null
-                                    : (r && r.__k) || t.__k),
+                                (u =
+                                    (n = "function" == typeof r) ?
+                                        null
+                                    :   (r && r.__k) || t.__k),
                                 (o = []),
                                 yt(
                                     t,
@@ -4013,15 +4083,14 @@ var e, t;
                                     u || Ye,
                                     Ye,
                                     void 0 !== t.ownerSVGElement,
-                                    !n && r
-                                        ? [r]
-                                        : u
-                                          ? null
-                                          : t.firstChild
-                                            ? Ze.slice.call(t.childNodes)
-                                            : null,
+                                    !n && r ? [r]
+                                    : u ? null
+                                    : t.firstChild ? Ze.slice.call(t.childNodes)
+                                    : null,
                                     o,
-                                    !n && r ? r : u ? u.__e : t.firstChild,
+                                    !n && r ? r
+                                    : u ? u.__e
+                                    : t.firstChild,
                                     n
                                 ),
                                 gt(o, e);
@@ -4062,9 +4131,12 @@ var e, t;
                             (it.prototype.setState = function (e, t) {
                                 var r;
                                 (r =
-                                    null != this.__s && this.__s !== this.state
-                                        ? this.__s
-                                        : (this.__s = tt({}, this.state))),
+                                    (
+                                        null != this.__s &&
+                                        this.__s !== this.state
+                                    ) ?
+                                        this.__s
+                                    :   (this.__s = tt({}, this.state))),
                                     "function" == typeof e &&
                                         (e = e(tt({}, r), this.props)),
                                     e && tt(r, e),
@@ -4081,11 +4153,11 @@ var e, t;
                             (it.prototype.render = ot),
                             (Ke = []),
                             (Ge =
-                                "function" == typeof Promise
-                                    ? Promise.prototype.then.bind(
-                                          Promise.resolve()
-                                      )
-                                    : setTimeout),
+                                "function" == typeof Promise ?
+                                    Promise.prototype.then.bind(
+                                        Promise.resolve()
+                                    )
+                                :   setTimeout),
                             (st.__r = 0);
                         var Ft = "__aa-highlight__",
                             Pt = "__/aa-highlight__";
@@ -4094,26 +4166,29 @@ var e, t;
                                 r = t.shift(),
                                 n = (function () {
                                     var e =
-                                        arguments.length > 0 &&
-                                        void 0 !== arguments[0]
-                                            ? arguments[0]
-                                            : [];
+                                        (
+                                            arguments.length > 0 &&
+                                            void 0 !== arguments[0]
+                                        ) ?
+                                            arguments[0]
+                                        :   [];
                                     return {
                                         get: function () {
                                             return e;
                                         },
                                         add: function (t) {
                                             var r = e[e.length - 1];
-                                            (null == r
-                                                ? void 0
-                                                : r.isHighlighted) ===
-                                            t.isHighlighted
-                                                ? (e[e.length - 1] = {
-                                                      value: r.value + t.value,
-                                                      isHighlighted:
-                                                          r.isHighlighted
-                                                  })
-                                                : e.push(t);
+                                            (
+                                                (null == r ? void 0 : (
+                                                    r.isHighlighted
+                                                )) === t.isHighlighted
+                                            ) ?
+                                                (e[e.length - 1] = {
+                                                    value: r.value + t.value,
+                                                    isHighlighted:
+                                                        r.isHighlighted
+                                                })
+                                            :   e.push(t);
                                         }
                                     };
                                 })(r ? [{ value: r, isHighlighted: !1 }] : []);
@@ -4154,14 +4229,16 @@ var e, t;
                                             "Object" === r &&
                                                 e.constructor &&
                                                 (r = e.constructor.name),
-                                            "Map" === r || "Set" === r
-                                                ? Array.from(e)
-                                                : "Arguments" === r ||
-                                                    /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
-                                                        r
-                                                    )
-                                                  ? St(e, t)
-                                                  : void 0
+                                            "Map" === r || "Set" === r ?
+                                                Array.from(e)
+                                            : (
+                                                "Arguments" === r ||
+                                                /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
+                                                    r
+                                                )
+                                            ) ?
+                                                St(e, t)
+                                            :   void 0
                                         );
                                     }
                                 })(e) ||
@@ -4209,22 +4286,24 @@ var e, t;
                                 u,
                                 o = e[t],
                                 i =
-                                    (null === (r = e[t + 1]) || void 0 === r
-                                        ? void 0
-                                        : r.isHighlighted) || !0,
+                                    (null === (r = e[t + 1]) || void 0 === r ?
+                                        void 0
+                                    :   r.isHighlighted) || !0,
                                 a =
-                                    (null === (n = e[t - 1]) || void 0 === n
-                                        ? void 0
-                                        : n.isHighlighted) || !0;
-                            return kt.test(
-                                (u = o.value) && Nt.test(u)
-                                    ? u.replace(xt, function (e) {
-                                          return It[e];
-                                      })
-                                    : u
-                            ) || a !== i
-                                ? o.isHighlighted
-                                : a;
+                                    (null === (n = e[t - 1]) || void 0 === n ?
+                                        void 0
+                                    :   n.isHighlighted) || !0;
+                            return (
+                                    kt.test(
+                                        (u = o.value) && Nt.test(u) ?
+                                            u.replace(xt, function (e) {
+                                                return It[e];
+                                            })
+                                        :   u
+                                    ) || a !== i
+                                ) ?
+                                    o.isHighlighted
+                                :   a;
                         }
                         function qt(e, t) {
                             var r = Object.keys(e);
@@ -4245,59 +4324,61 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? qt(Object(r), !0).forEach(function (t) {
-                                          Lt(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    qt(Object(r), !0).forEach(function (t) {
+                                        Lt(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   qt(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : qt(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function Lt(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
                         function Mt(e) {
-                            return e.some(function (e) {
-                                return e.isHighlighted;
-                            })
-                                ? e.map(function (t, r) {
-                                      return Rt(
-                                          Rt({}, t),
-                                          {},
-                                          { isHighlighted: !Tt(e, r) }
-                                      );
-                                  })
-                                : e.map(function (e) {
-                                      return Rt(
-                                          Rt({}, e),
-                                          {},
-                                          { isHighlighted: !1 }
-                                      );
-                                  });
+                            return (
+                                    e.some(function (e) {
+                                        return e.isHighlighted;
+                                    })
+                                ) ?
+                                    e.map(function (t, r) {
+                                        return Rt(
+                                            Rt({}, t),
+                                            {},
+                                            { isHighlighted: !Tt(e, r) }
+                                        );
+                                    })
+                                :   e.map(function (e) {
+                                        return Rt(
+                                            Rt({}, e),
+                                            {},
+                                            { isHighlighted: !1 }
+                                        );
+                                    });
                         }
                         function Ut(e) {
                             var t = e.createElement,
@@ -4313,9 +4394,9 @@ var e, t;
                                     {},
                                     ((n = { hit: u, attribute: o }),
                                     Mt(Bt(n))).map(function (e, r) {
-                                        return e.isHighlighted
-                                            ? t(a, { key: r }, e.value)
-                                            : e.value;
+                                        return e.isHighlighted ?
+                                                t(a, { key: r }, e.value)
+                                            :   e.value;
                                     })
                                 );
                             };
@@ -4344,14 +4425,16 @@ var e, t;
                                             "Object" === r &&
                                                 e.constructor &&
                                                 (r = e.constructor.name),
-                                            "Map" === r || "Set" === r
-                                                ? Array.from(e)
-                                                : "Arguments" === r ||
-                                                    /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
-                                                        r
-                                                    )
-                                                  ? Wt(e, t)
-                                                  : void 0
+                                            "Map" === r || "Set" === r ?
+                                                Array.from(e)
+                                            : (
+                                                "Arguments" === r ||
+                                                /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
+                                                    r
+                                                )
+                                            ) ?
+                                                Wt(e, t)
+                                            :   void 0
                                         );
                                     }
                                 })(e) ||
@@ -4395,9 +4478,9 @@ var e, t;
                                     {},
                                     ((n = { hit: u, attribute: o }),
                                     Mt(Vt(n))).map(function (e, r) {
-                                        return e.isHighlighted
-                                            ? t(a, { key: r }, e.value)
-                                            : e.value;
+                                        return e.isHighlighted ?
+                                                t(a, { key: r }, e.value)
+                                            :   e.value;
                                     })
                                 );
                             };
@@ -4415,9 +4498,9 @@ var e, t;
                                     {},
                                     Vt({ hit: n, attribute: u }).map(
                                         function (e, r) {
-                                            return e.isHighlighted
-                                                ? t(i, { key: r }, e.value)
-                                                : e.value;
+                                            return e.isHighlighted ?
+                                                    t(i, { key: r }, e.value)
+                                                :   e.value;
                                         }
                                     )
                                 );
@@ -4498,38 +4581,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? Gt(Object(r), !0).forEach(function (t) {
-                                          Yt(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    Gt(Object(r), !0).forEach(function (t) {
+                                        Yt(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   Gt(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : Gt(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function Yt(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -4683,38 +4766,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? or(Object(r), !0).forEach(function (t) {
-                                          ar(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    or(Object(r), !0).forEach(function (t) {
+                                        ar(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   or(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : or(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function ar(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -4743,14 +4826,16 @@ var e, t;
                                             "Object" === r &&
                                                 e.constructor &&
                                                 (r = e.constructor.name),
-                                            "Map" === r || "Set" === r
-                                                ? Array.from(e)
-                                                : "Arguments" === r ||
-                                                    /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
-                                                        r
-                                                    )
-                                                  ? sr(e, t)
-                                                  : void 0
+                                            "Map" === r || "Set" === r ?
+                                                Array.from(e)
+                                            : (
+                                                "Arguments" === r ||
+                                                /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
+                                                    r
+                                                )
+                                            ) ?
+                                                sr(e, t)
+                                            :   void 0
                                         );
                                     }
                                 })(e) ||
@@ -4769,19 +4854,24 @@ var e, t;
                         }
                         function pr(e) {
                             return (pr =
-                                "function" == typeof Symbol &&
-                                "symbol" == typeof Symbol.iterator
-                                    ? function (e) {
-                                          return typeof e;
-                                      }
-                                    : function (e) {
-                                          return e &&
-                                              "function" == typeof Symbol &&
-                                              e.constructor === Symbol &&
-                                              e !== Symbol.prototype
-                                              ? "symbol"
-                                              : typeof e;
-                                      })(e);
+                                (
+                                    "function" == typeof Symbol &&
+                                    "symbol" == typeof Symbol.iterator
+                                ) ?
+                                    function (e) {
+                                        return typeof e;
+                                    }
+                                :   function (e) {
+                                        return (
+                                                e &&
+                                                    "function" ==
+                                                        typeof Symbol &&
+                                                    e.constructor === Symbol &&
+                                                    e !== Symbol.prototype
+                                            ) ?
+                                                "symbol"
+                                            :   typeof e;
+                                    })(e);
                         }
                         var fr = function (e) {
                             return (
@@ -4805,11 +4895,10 @@ var e, t;
                                     Object.keys(t).forEach(function (r) {
                                         var n = e[r],
                                             u = t[r];
-                                        Array.isArray(n) && Array.isArray(u)
-                                            ? (e[r] = n.concat.apply(n, lr(u)))
-                                            : fr(n) && fr(u)
-                                              ? (e[r] = dr(n, u))
-                                              : (e[r] = u);
+                                        Array.isArray(n) && Array.isArray(u) ?
+                                            (e[r] = n.concat.apply(n, lr(u)))
+                                        : fr(n) && fr(u) ? (e[r] = dr(n, u))
+                                        : (e[r] = u);
                                     }),
                                     e
                                 );
@@ -4834,38 +4923,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? mr(Object(r), !0).forEach(function (t) {
-                                          hr(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    mr(Object(r), !0).forEach(function (t) {
+                                        hr(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   mr(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : mr(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function hr(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -4952,9 +5041,9 @@ var e, t;
                                             b = e.translations,
                                             _ = Zt(e, Kt),
                                             O =
-                                                "undefined" != typeof window
-                                                    ? window
-                                                    : {},
+                                                "undefined" != typeof window ?
+                                                    window
+                                                :   {},
                                             A = $t(O, n);
                                         A.tagName;
                                         var E,
@@ -4971,9 +5060,9 @@ var e, t;
                                                             r = e.attribute,
                                                             n = e.tagName,
                                                             u =
-                                                                void 0 === n
-                                                                    ? "mark"
-                                                                    : n;
+                                                                void 0 === n ?
+                                                                    "mark"
+                                                                :   n;
                                                         return C(
                                                             F,
                                                             {},
@@ -4985,15 +5074,17 @@ var e, t;
                                                                     e,
                                                                     t
                                                                 ) {
-                                                                    return e.isHighlighted
-                                                                        ? C(
-                                                                              u,
-                                                                              {
-                                                                                  key: t
-                                                                              },
-                                                                              e.value
-                                                                          )
-                                                                        : e.value;
+                                                                    return (
+                                                                            e.isHighlighted
+                                                                        ) ?
+                                                                            C(
+                                                                                u,
+                                                                                {
+                                                                                    key: t
+                                                                                },
+                                                                                e.value
+                                                                            )
+                                                                        :   e.value;
                                                                 }
                                                             )
                                                         );
@@ -5010,72 +5101,73 @@ var e, t;
                                                 ),
                                                 container: A,
                                                 getEnvironmentProps:
-                                                    null != u
-                                                        ? u
-                                                        : function (e) {
-                                                              return e.props;
-                                                          },
+                                                    null != u ? u : (
+                                                        function (e) {
+                                                            return e.props;
+                                                        }
+                                                    ),
                                                 getFormProps:
-                                                    null != o
-                                                        ? o
-                                                        : function (e) {
-                                                              return e.props;
-                                                          },
+                                                    null != o ? o : (
+                                                        function (e) {
+                                                            return e.props;
+                                                        }
+                                                    ),
                                                 getInputProps:
-                                                    null != i
-                                                        ? i
-                                                        : function (e) {
-                                                              return e.props;
-                                                          },
+                                                    null != i ? i : (
+                                                        function (e) {
+                                                            return e.props;
+                                                        }
+                                                    ),
                                                 getItemProps:
-                                                    null != a
-                                                        ? a
-                                                        : function (e) {
-                                                              return e.props;
-                                                          },
+                                                    null != a ? a : (
+                                                        function (e) {
+                                                            return e.props;
+                                                        }
+                                                    ),
                                                 getLabelProps:
-                                                    null != c
-                                                        ? c
-                                                        : function (e) {
-                                                              return e.props;
-                                                          },
+                                                    null != c ? c : (
+                                                        function (e) {
+                                                            return e.props;
+                                                        }
+                                                    ),
                                                 getListProps:
-                                                    null != l
-                                                        ? l
-                                                        : function (e) {
-                                                              return e.props;
-                                                          },
+                                                    null != l ? l : (
+                                                        function (e) {
+                                                            return e.props;
+                                                        }
+                                                    ),
                                                 getPanelProps:
-                                                    null != s
-                                                        ? s
-                                                        : function (e) {
-                                                              return e.props;
-                                                          },
+                                                    null != s ? s : (
+                                                        function (e) {
+                                                            return e.props;
+                                                        }
+                                                    ),
                                                 getRootProps:
-                                                    null != p
-                                                        ? p
-                                                        : function (e) {
-                                                              return e.props;
-                                                          },
-                                                panelContainer: d
-                                                    ? $t(O, d)
-                                                    : O.document.body,
+                                                    null != p ? p : (
+                                                        function (e) {
+                                                            return e.props;
+                                                        }
+                                                    ),
+                                                panelContainer:
+                                                    d ?
+                                                        $t(O, d)
+                                                    :   O.document.body,
                                                 panelPlacement:
-                                                    null != m
-                                                        ? m
-                                                        : "input-wrapper-width",
+                                                    null != m ? m : (
+                                                        "input-wrapper-width"
+                                                    ),
                                                 render: null != v ? v : tr,
                                                 renderNoResults: h,
                                                 renderer: P,
                                                 detachedMediaQuery:
-                                                    null != y
-                                                        ? y
-                                                        : getComputedStyle(
-                                                              O.document
-                                                                  .documentElement
-                                                          ).getPropertyValue(
-                                                              "--aa-detached-media-query"
-                                                          ),
+                                                    null != y ? y : (
+                                                        getComputedStyle(
+                                                            O.document
+                                                                .documentElement
+                                                        ).getPropertyValue(
+                                                            "--aa-detached-media-query"
+                                                        )
+                                                    ),
                                                 components: Xt(Xt({}, j), g),
                                                 translations: Xt(
                                                     Xt(
@@ -5097,10 +5189,13 @@ var e, t;
                                                 {},
                                                 {
                                                     id:
-                                                        null !== (t = _.id) &&
-                                                        void 0 !== t
-                                                            ? t
-                                                            : f(),
+                                                        (
+                                                            null !==
+                                                                (t = _.id) &&
+                                                            void 0 !== t
+                                                        ) ?
+                                                            t
+                                                        :   f(),
                                                     environment: O
                                                 }
                                             )
@@ -5220,17 +5315,18 @@ var e, t;
                                 });
                             function _() {
                                 Ie(b.value.panel, {
-                                    style: v.value
-                                        ? {}
-                                        : nr({
-                                              panelPlacement:
-                                                  m.value.renderer
-                                                      .panelPlacement,
-                                              container: b.value.root,
-                                              form: b.value.form,
-                                              environment:
-                                                  m.value.core.environment
-                                          })
+                                    style:
+                                        v.value ?
+                                            {}
+                                        :   nr({
+                                                panelPlacement:
+                                                    m.value.renderer
+                                                        .panelPlacement,
+                                                container: b.value.root,
+                                                form: b.value.form,
+                                                environment:
+                                                    m.value.core.environment
+                                            })
                                 });
                             }
                             function O(e) {
@@ -5247,9 +5343,10 @@ var e, t;
                                         dom: b.value,
                                         Fragment:
                                             m.value.renderer.renderer.Fragment,
-                                        panelContainer: v.value
-                                            ? b.value.detachedContainer
-                                            : m.value.renderer.panelContainer,
+                                        panelContainer:
+                                            v.value ?
+                                                b.value.detachedContainer
+                                            :   m.value.renderer.panelContainer,
                                         propGetters: y,
                                         state: D.current
                                     },
@@ -5363,92 +5460,95 @@ var e, t;
                                                                         }
                                                                     )
                                                                 ),
-                                                            i.templates
-                                                                .noResults &&
-                                                                0 === c.length
-                                                                ? o(
-                                                                      "div",
-                                                                      {
-                                                                          className:
-                                                                              u.sourceNoResults
-                                                                      },
-                                                                      i.templates.noResults(
-                                                                          {
-                                                                              components:
-                                                                                  p,
-                                                                              createElement:
-                                                                                  o,
-                                                                              Fragment:
-                                                                                  a,
-                                                                              source: i,
-                                                                              state: s
-                                                                          }
-                                                                      )
-                                                                  )
-                                                                : o(
-                                                                      "ul",
-                                                                      ur(
-                                                                          {
-                                                                              className:
-                                                                                  u.list
-                                                                          },
-                                                                          l.getListProps(
-                                                                              ir(
-                                                                                  {
-                                                                                      state: s,
-                                                                                      props: r.getListProps(
-                                                                                          {}
-                                                                                      )
-                                                                                  },
-                                                                                  n
-                                                                              )
-                                                                          )
-                                                                      ),
-                                                                      c.map(
-                                                                          function (
-                                                                              e
-                                                                          ) {
-                                                                              var t =
-                                                                                  r.getItemProps(
-                                                                                      {
-                                                                                          item: e,
-                                                                                          source: i
-                                                                                      }
-                                                                                  );
-                                                                              return o(
-                                                                                  "li",
-                                                                                  ur(
-                                                                                      {
-                                                                                          key: t.id,
-                                                                                          className:
-                                                                                              u.item
-                                                                                      },
-                                                                                      l.getItemProps(
-                                                                                          ir(
-                                                                                              {
-                                                                                                  state: s,
-                                                                                                  props: t
-                                                                                              },
-                                                                                              n
-                                                                                          )
-                                                                                      )
-                                                                                  ),
-                                                                                  i.templates.item(
-                                                                                      {
-                                                                                          components:
-                                                                                              p,
-                                                                                          createElement:
-                                                                                              o,
-                                                                                          Fragment:
-                                                                                              a,
-                                                                                          item: e,
-                                                                                          state: s
-                                                                                      }
-                                                                                  )
-                                                                              );
-                                                                          }
-                                                                      )
-                                                                  ),
+                                                            (
+                                                                i.templates
+                                                                    .noResults &&
+                                                                    0 ===
+                                                                        c.length
+                                                            ) ?
+                                                                o(
+                                                                    "div",
+                                                                    {
+                                                                        className:
+                                                                            u.sourceNoResults
+                                                                    },
+                                                                    i.templates.noResults(
+                                                                        {
+                                                                            components:
+                                                                                p,
+                                                                            createElement:
+                                                                                o,
+                                                                            Fragment:
+                                                                                a,
+                                                                            source: i,
+                                                                            state: s
+                                                                        }
+                                                                    )
+                                                                )
+                                                            :   o(
+                                                                    "ul",
+                                                                    ur(
+                                                                        {
+                                                                            className:
+                                                                                u.list
+                                                                        },
+                                                                        l.getListProps(
+                                                                            ir(
+                                                                                {
+                                                                                    state: s,
+                                                                                    props: r.getListProps(
+                                                                                        {}
+                                                                                    )
+                                                                                },
+                                                                                n
+                                                                            )
+                                                                        )
+                                                                    ),
+                                                                    c.map(
+                                                                        function (
+                                                                            e
+                                                                        ) {
+                                                                            var t =
+                                                                                r.getItemProps(
+                                                                                    {
+                                                                                        item: e,
+                                                                                        source: i
+                                                                                    }
+                                                                                );
+                                                                            return o(
+                                                                                "li",
+                                                                                ur(
+                                                                                    {
+                                                                                        key: t.id,
+                                                                                        className:
+                                                                                            u.item
+                                                                                    },
+                                                                                    l.getItemProps(
+                                                                                        ir(
+                                                                                            {
+                                                                                                state: s,
+                                                                                                props: t
+                                                                                            },
+                                                                                            n
+                                                                                        )
+                                                                                    )
+                                                                                ),
+                                                                                i.templates.item(
+                                                                                    {
+                                                                                        components:
+                                                                                            p,
+                                                                                        createElement:
+                                                                                            o,
+                                                                                        Fragment:
+                                                                                            a,
+                                                                                        item: e,
+                                                                                        state: s
+                                                                                    }
+                                                                                )
+                                                                            );
+                                                                        }
+                                                                    )
+                                                                ),
                                                             i.templates
                                                                 .footer &&
                                                                 o(
@@ -5521,10 +5621,12 @@ var e, t;
                             }
                             function A() {
                                 var e =
-                                    arguments.length > 0 &&
-                                    void 0 !== arguments[0]
-                                        ? arguments[0]
-                                        : {};
+                                    (
+                                        arguments.length > 0 &&
+                                        void 0 !== arguments[0]
+                                    ) ?
+                                        arguments[0]
+                                    :   {};
                                 u(),
                                     (p.current = dr(
                                         m.value.renderer,
@@ -5545,22 +5647,22 @@ var e, t;
                                             b.value.detachedOverlay
                                         );
                                     e !== t &&
-                                        (e
-                                            ? (m.value.core.environment.document.body.appendChild(
-                                                  b.value.detachedOverlay
-                                              ),
-                                              m.value.core.environment.document.body.classList.add(
-                                                  "aa-Detached"
-                                              ),
-                                              b.value.input.focus())
-                                            : (m.value.core.environment.document.body.removeChild(
-                                                  b.value.detachedOverlay
-                                              ),
-                                              m.value.core.environment.document.body.classList.remove(
-                                                  "aa-Detached"
-                                              ),
-                                              h.value.setQuery(""),
-                                              h.value.refresh()));
+                                        (e ?
+                                            (m.value.core.environment.document.body.appendChild(
+                                                b.value.detachedOverlay
+                                            ),
+                                            m.value.core.environment.document.body.classList.add(
+                                                "aa-Detached"
+                                            ),
+                                            b.value.input.focus())
+                                        :   (m.value.core.environment.document.body.removeChild(
+                                                b.value.detachedOverlay
+                                            ),
+                                            m.value.core.environment.document.body.classList.remove(
+                                                "aa-Detached"
+                                            ),
+                                            h.value.setQuery(""),
+                                            h.value.refresh()));
                                 });
                             }
                             return (
@@ -5590,13 +5692,15 @@ var e, t;
                                     );
                                 }),
                                 n(function () {
-                                    var e = v.value
-                                            ? m.value.core.environment.document
-                                                  .body
-                                            : m.value.renderer.panelContainer,
-                                        t = v.value
-                                            ? b.value.detachedOverlay
-                                            : b.value.panel;
+                                    var e =
+                                            v.value ?
+                                                m.value.core.environment
+                                                    .document.body
+                                            :   m.value.renderer.panelContainer,
+                                        t =
+                                            v.value ?
+                                                b.value.detachedOverlay
+                                            :   b.value.panel;
                                     return (
                                         v.value && D.current.isOpen && E(!0),
                                         O(D.current),
@@ -5653,9 +5757,9 @@ var e, t;
                                                 m.value.renderer
                                                     .detachedMediaQuery
                                             ).matches),
-                                            e !== v.value
-                                                ? A({})
-                                                : requestAnimationFrame(_);
+                                            e !== v.value ?
+                                                A({})
+                                            :   requestAnimationFrame(_);
                                     }, 20);
                                     return (
                                         m.value.core.environment.addEventListener(
@@ -5692,16 +5796,16 @@ var e, t;
                                     e(r.matches);
                                     var n = Boolean(r.addEventListener);
                                     return (
-                                        n
-                                            ? r.addEventListener("change", t)
-                                            : r.addListener(t),
+                                        n ?
+                                            r.addEventListener("change", t)
+                                        :   r.addListener(t),
                                         function () {
-                                            n
-                                                ? r.removeEventListener(
-                                                      "change",
-                                                      t
-                                                  )
-                                                : r.removeListener(t);
+                                            n ?
+                                                r.removeEventListener(
+                                                    "change",
+                                                    t
+                                                )
+                                            :   r.removeListener(t);
                                         }
                                     );
                                 }),
@@ -5741,38 +5845,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? yr(Object(r), !0).forEach(function (t) {
-                                          br(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    yr(Object(r), !0).forEach(function (t) {
+                                        br(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   yr(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : yr(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function br(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -5796,38 +5900,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? Or(Object(r), !0).forEach(function (t) {
-                                          Er(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    Or(Object(r), !0).forEach(function (t) {
+                                        Er(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   Or(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : Or(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function Er(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -5883,14 +5987,16 @@ var e, t;
                                             "Object" === r &&
                                                 e.constructor &&
                                                 (r = e.constructor.name),
-                                            "Map" === r || "Set" === r
-                                                ? Array.from(e)
-                                                : "Arguments" === r ||
-                                                    /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
-                                                        r
-                                                    )
-                                                  ? Pr(e, t)
-                                                  : void 0
+                                            "Map" === r || "Set" === r ?
+                                                Array.from(e)
+                                            : (
+                                                "Arguments" === r ||
+                                                /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
+                                                    r
+                                                )
+                                            ) ?
+                                                Pr(e, t)
+                                            :   void 0
                                         );
                                     }
                                 })(e) ||
@@ -5926,38 +6032,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? jr(Object(r), !0).forEach(function (t) {
-                                          Sr(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    jr(Object(r), !0).forEach(function (t) {
+                                        Sr(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   jr(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : jr(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function Sr(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -6047,38 +6153,38 @@ var e, t;
                             for (var t = 1; t < arguments.length; t++) {
                                 var r =
                                     null != arguments[t] ? arguments[t] : {};
-                                t % 2
-                                    ? Ir(Object(r), !0).forEach(function (t) {
-                                          xr(e, t, r[t]);
-                                      })
-                                    : Object.getOwnPropertyDescriptors
-                                      ? Object.defineProperties(
+                                t % 2 ?
+                                    Ir(Object(r), !0).forEach(function (t) {
+                                        xr(e, t, r[t]);
+                                    })
+                                : Object.getOwnPropertyDescriptors ?
+                                    Object.defineProperties(
+                                        e,
+                                        Object.getOwnPropertyDescriptors(r)
+                                    )
+                                :   Ir(Object(r)).forEach(function (t) {
+                                        Object.defineProperty(
                                             e,
-                                            Object.getOwnPropertyDescriptors(r)
-                                        )
-                                      : Ir(Object(r)).forEach(function (t) {
-                                            Object.defineProperty(
-                                                e,
-                                                t,
-                                                Object.getOwnPropertyDescriptor(
-                                                    r,
-                                                    t
-                                                )
-                                            );
-                                        });
+                                            t,
+                                            Object.getOwnPropertyDescriptor(
+                                                r,
+                                                t
+                                            )
+                                        );
+                                    });
                             }
                             return e;
                         }
                         function xr(e, t, r) {
                             return (
-                                t in e
-                                    ? Object.defineProperty(e, t, {
-                                          value: r,
-                                          enumerable: !0,
-                                          configurable: !0,
-                                          writable: !0
-                                      })
-                                    : (e[t] = r),
+                                t in e ?
+                                    Object.defineProperty(e, t, {
+                                        value: r,
+                                        enumerable: !0,
+                                        configurable: !0,
+                                        writable: !0
+                                    })
+                                :   (e[t] = r),
                                 e
                             );
                         }
@@ -6105,14 +6211,14 @@ var e, t;
                             "use strict";
                             function e(e, t, r) {
                                 return (
-                                    t in e
-                                        ? Object.defineProperty(e, t, {
-                                              value: r,
-                                              enumerable: !0,
-                                              configurable: !0,
-                                              writable: !0
-                                          })
-                                        : (e[t] = r),
+                                    t in e ?
+                                        Object.defineProperty(e, t, {
+                                            value: r,
+                                            enumerable: !0,
+                                            configurable: !0,
+                                            writable: !0
+                                        })
+                                    :   (e[t] = r),
                                     e
                                 );
                             }
@@ -6134,32 +6240,28 @@ var e, t;
                             function r(r) {
                                 for (var n = 1; n < arguments.length; n++) {
                                     var u =
-                                        null != arguments[n]
-                                            ? arguments[n]
-                                            : {};
-                                    n % 2
-                                        ? t(Object(u), !0).forEach(
-                                              function (t) {
-                                                  e(r, t, u[t]);
-                                              }
-                                          )
-                                        : Object.getOwnPropertyDescriptors
-                                          ? Object.defineProperties(
+                                        null != arguments[n] ?
+                                            arguments[n]
+                                        :   {};
+                                    n % 2 ?
+                                        t(Object(u), !0).forEach(function (t) {
+                                            e(r, t, u[t]);
+                                        })
+                                    : Object.getOwnPropertyDescriptors ?
+                                        Object.defineProperties(
+                                            r,
+                                            Object.getOwnPropertyDescriptors(u)
+                                        )
+                                    :   t(Object(u)).forEach(function (e) {
+                                            Object.defineProperty(
                                                 r,
-                                                Object.getOwnPropertyDescriptors(
-                                                    u
+                                                e,
+                                                Object.getOwnPropertyDescriptor(
+                                                    u,
+                                                    e
                                                 )
-                                            )
-                                          : t(Object(u)).forEach(function (e) {
-                                                Object.defineProperty(
-                                                    r,
-                                                    e,
-                                                    Object.getOwnPropertyDescriptor(
-                                                        u,
-                                                        e
-                                                    )
-                                                );
-                                            });
+                                            );
+                                        });
                                 }
                                 return r;
                             }
@@ -6296,14 +6398,16 @@ var e, t;
                                 return {
                                     get: function (e, t) {
                                         var r =
-                                            arguments.length > 2 &&
-                                            void 0 !== arguments[2]
-                                                ? arguments[2]
-                                                : {
-                                                      miss: function () {
-                                                          return Promise.resolve();
-                                                      }
-                                                  };
+                                            (
+                                                arguments.length > 2 &&
+                                                void 0 !== arguments[2]
+                                            ) ?
+                                                arguments[2]
+                                            :   {
+                                                    miss: function () {
+                                                        return Promise.resolve();
+                                                    }
+                                                };
                                         return Promise.resolve()
                                             .then(function () {
                                                 var r = JSON.stringify(e),
@@ -6365,111 +6469,119 @@ var e, t;
                             function a(e) {
                                 var t = o(e.caches),
                                     r = t.shift();
-                                return void 0 === r
-                                    ? {
-                                          get: function (e, t) {
-                                              var r =
-                                                  arguments.length > 2 &&
-                                                  void 0 !== arguments[2]
-                                                      ? arguments[2]
-                                                      : {
+                                return void 0 === r ?
+                                        {
+                                            get: function (e, t) {
+                                                var r =
+                                                    (
+                                                        arguments.length > 2 &&
+                                                        void 0 !== arguments[2]
+                                                    ) ?
+                                                        arguments[2]
+                                                    :   {
                                                             miss: function () {
                                                                 return Promise.resolve();
                                                             }
                                                         };
-                                              return t()
-                                                  .then(function (e) {
-                                                      return Promise.all([
-                                                          e,
-                                                          r.miss(e)
-                                                      ]);
-                                                  })
-                                                  .then(function (e) {
-                                                      return u(e, 1)[0];
-                                                  });
-                                          },
-                                          set: function (e, t) {
-                                              return Promise.resolve(t);
-                                          },
-                                          delete: function (e) {
-                                              return Promise.resolve();
-                                          },
-                                          clear: function () {
-                                              return Promise.resolve();
-                                          }
-                                      }
-                                    : {
-                                          get: function (e, n) {
-                                              var u =
-                                                  arguments.length > 2 &&
-                                                  void 0 !== arguments[2]
-                                                      ? arguments[2]
-                                                      : {
+                                                return t()
+                                                    .then(function (e) {
+                                                        return Promise.all([
+                                                            e,
+                                                            r.miss(e)
+                                                        ]);
+                                                    })
+                                                    .then(function (e) {
+                                                        return u(e, 1)[0];
+                                                    });
+                                            },
+                                            set: function (e, t) {
+                                                return Promise.resolve(t);
+                                            },
+                                            delete: function (e) {
+                                                return Promise.resolve();
+                                            },
+                                            clear: function () {
+                                                return Promise.resolve();
+                                            }
+                                        }
+                                    :   {
+                                            get: function (e, n) {
+                                                var u =
+                                                    (
+                                                        arguments.length > 2 &&
+                                                        void 0 !== arguments[2]
+                                                    ) ?
+                                                        arguments[2]
+                                                    :   {
                                                             miss: function () {
                                                                 return Promise.resolve();
                                                             }
                                                         };
-                                              return r
-                                                  .get(e, n, u)
-                                                  .catch(function () {
-                                                      return a({
-                                                          caches: t
-                                                      }).get(e, n, u);
-                                                  });
-                                          },
-                                          set: function (e, n) {
-                                              return r
-                                                  .set(e, n)
-                                                  .catch(function () {
-                                                      return a({
-                                                          caches: t
-                                                      }).set(e, n);
-                                                  });
-                                          },
-                                          delete: function (e) {
-                                              return r
-                                                  .delete(e)
-                                                  .catch(function () {
-                                                      return a({
-                                                          caches: t
-                                                      }).delete(e);
-                                                  });
-                                          },
-                                          clear: function () {
-                                              return r
-                                                  .clear()
-                                                  .catch(function () {
-                                                      return a({
-                                                          caches: t
-                                                      }).clear();
-                                                  });
-                                          }
-                                      };
+                                                return r
+                                                    .get(e, n, u)
+                                                    .catch(function () {
+                                                        return a({
+                                                            caches: t
+                                                        }).get(e, n, u);
+                                                    });
+                                            },
+                                            set: function (e, n) {
+                                                return r
+                                                    .set(e, n)
+                                                    .catch(function () {
+                                                        return a({
+                                                            caches: t
+                                                        }).set(e, n);
+                                                    });
+                                            },
+                                            delete: function (e) {
+                                                return r
+                                                    .delete(e)
+                                                    .catch(function () {
+                                                        return a({
+                                                            caches: t
+                                                        }).delete(e);
+                                                    });
+                                            },
+                                            clear: function () {
+                                                return r
+                                                    .clear()
+                                                    .catch(function () {
+                                                        return a({
+                                                            caches: t
+                                                        }).clear();
+                                                    });
+                                            }
+                                        };
                             }
                             function c() {
                                 var e =
-                                        arguments.length > 0 &&
-                                        void 0 !== arguments[0]
-                                            ? arguments[0]
-                                            : { serializable: !0 },
+                                        (
+                                            arguments.length > 0 &&
+                                            void 0 !== arguments[0]
+                                        ) ?
+                                            arguments[0]
+                                        :   { serializable: !0 },
                                     t = {};
                                 return {
                                     get: function (r, n) {
                                         var u =
-                                                arguments.length > 2 &&
-                                                void 0 !== arguments[2]
-                                                    ? arguments[2]
-                                                    : {
-                                                          miss: function () {
-                                                              return Promise.resolve();
-                                                          }
-                                                      },
+                                                (
+                                                    arguments.length > 2 &&
+                                                    void 0 !== arguments[2]
+                                                ) ?
+                                                    arguments[2]
+                                                :   {
+                                                        miss: function () {
+                                                            return Promise.resolve();
+                                                        }
+                                                    },
                                             o = JSON.stringify(r);
                                         if (o in t)
                                             return Promise.resolve(
-                                                e.serializable
-                                                    ? JSON.parse(t[o])
-                                                    : t[o]
+                                                e.serializable ?
+                                                    JSON.parse(t[o])
+                                                :   t[o]
                                             );
                                         var i = n(),
                                             a =
@@ -6488,9 +6600,9 @@ var e, t;
                                     set: function (r, n) {
                                         return (
                                             (t[JSON.stringify(r)] =
-                                                e.serializable
-                                                    ? JSON.stringify(n)
-                                                    : n),
+                                                e.serializable ?
+                                                    JSON.stringify(n)
+                                                :   n),
                                             Promise.resolve(n)
                                         );
                                     },
@@ -6514,12 +6626,12 @@ var e, t;
                                 return e;
                             }
                             function s(e, t) {
-                                return t
-                                    ? (Object.keys(t).forEach(function (r) {
-                                          e[r] = t[r](e);
-                                      }),
-                                      e)
-                                    : e;
+                                return t ?
+                                        (Object.keys(t).forEach(function (r) {
+                                            e[r] = t[r](e);
+                                        }),
+                                        e)
+                                    :   e;
                             }
                             function p(e) {
                                 for (
@@ -6555,9 +6667,9 @@ var e, t;
                                     }),
                                     {
                                         data:
-                                            Object.entries(n).length > 0
-                                                ? n
-                                                : void 0,
+                                            Object.entries(n).length > 0 ?
+                                                n
+                                            :   void 0,
                                         timeout: r.timeout || t,
                                         headers: r.headers || {},
                                         queryParameters:
@@ -6572,10 +6684,12 @@ var e, t;
                                 D = 3;
                             function y(e) {
                                 var t =
-                                    arguments.length > 1 &&
-                                    void 0 !== arguments[1]
-                                        ? arguments[1]
-                                        : v;
+                                    (
+                                        arguments.length > 1 &&
+                                        void 0 !== arguments[1]
+                                    ) ?
+                                        arguments[1]
+                                    :   v;
                                 return r(
                                     r({}, e),
                                     {},
@@ -6583,17 +6697,17 @@ var e, t;
                                 );
                             }
                             function g(e) {
-                                return "string" == typeof e
-                                    ? {
-                                          protocol: "https",
-                                          url: e,
-                                          accept: m.Any
-                                      }
-                                    : {
-                                          protocol: e.protocol || "https",
-                                          url: e.url,
-                                          accept: e.accept || m.Any
-                                      };
+                                return "string" == typeof e ?
+                                        {
+                                            protocol: "https",
+                                            url: e,
+                                            accept: m.Any
+                                        }
+                                    :   {
+                                            protocol: e.protocol || "https",
+                                            url: e.url,
+                                            accept: e.accept || m.Any
+                                        };
                             }
                             var b = "GET",
                                 _ = "POST";
@@ -6627,17 +6741,17 @@ var e, t;
                                     return {
                                         getTimeout: function (e, t) {
                                             return (
-                                                (0 === n.length && 0 === e
-                                                    ? 1
-                                                    : n.length + 3 + e) * t
+                                                (0 === n.length && 0 === e ?
+                                                    1
+                                                :   n.length + 3 + e) * t
                                             );
                                         },
                                         statelessHosts:
-                                            u.length > 0
-                                                ? u.map(function (e) {
-                                                      return g(e);
-                                                  })
-                                                : t
+                                            u.length > 0 ?
+                                                u.map(function (e) {
+                                                    return g(e);
+                                                })
+                                            :   t
                                     };
                                 });
                             }
@@ -6649,9 +6763,10 @@ var e, t;
                                             (void 0 !== e.data ||
                                                 void 0 !== t.data)
                                         ) {
-                                            var n = Array.isArray(e.data)
-                                                ? e.data
-                                                : r(r({}, e.data), t.data);
+                                            var n =
+                                                Array.isArray(e.data) ?
+                                                    e.data
+                                                :   r(r({}, e.data), t.data);
                                             return JSON.stringify(n);
                                         }
                                     })(n, u),
@@ -6670,9 +6785,9 @@ var e, t;
                                     })(e, u),
                                     l = n.method,
                                     s =
-                                        n.method !== b
-                                            ? {}
-                                            : r(r({}, n.data), u.data),
+                                        n.method !== b ?
+                                            {}
+                                        :   r(r({}, n.data), u.data),
                                     p = r(
                                         r(
                                             r(
@@ -6750,9 +6865,11 @@ var e, t;
                                                                 s,
                                                                 y(
                                                                     s,
-                                                                    n.isTimedOut
-                                                                        ? D
-                                                                        : h
+                                                                    (
+                                                                        n.isTimedOut
+                                                                    ) ?
+                                                                        D
+                                                                    :   h
                                                                 )
                                                             )
                                                         ]).then(function () {
@@ -6794,30 +6911,47 @@ var e, t;
                                             .send(d)
                                             .then(function (e) {
                                                 return (function (e, t) {
-                                                    return (function (e) {
-                                                        var t = e.status;
-                                                        return (
-                                                            e.isTimedOut ||
+                                                    return (
+                                                        (
                                                             (function (e) {
                                                                 var t =
-                                                                        e.isTimedOut,
-                                                                    r =
-                                                                        e.status;
+                                                                    e.status;
                                                                 return (
-                                                                    !t &&
-                                                                    0 == ~~r
+                                                                    e.isTimedOut ||
+                                                                    (function (
+                                                                        e
+                                                                    ) {
+                                                                        var t =
+                                                                                e.isTimedOut,
+                                                                            r =
+                                                                                e.status;
+                                                                        return (
+                                                                            !t &&
+                                                                            0 ==
+                                                                                ~~r
+                                                                        );
+                                                                    })(e) ||
+                                                                    (2 !=
+                                                                        ~~(
+                                                                            t /
+                                                                            100
+                                                                        ) &&
+                                                                        4 !=
+                                                                            ~~(
+                                                                                t /
+                                                                                100
+                                                                            ))
                                                                 );
-                                                            })(e) ||
-                                                            (2 != ~~(t / 100) &&
-                                                                4 !=
-                                                                    ~~(t / 100))
-                                                        );
-                                                    })(e)
-                                                        ? t.onRetry(e)
-                                                        : 2 ==
+                                                            })(e)
+                                                        ) ?
+                                                            t.onRetry(e)
+                                                        : (
+                                                            2 ==
                                                             ~~(e.status / 100)
-                                                          ? t.onSuccess(e)
-                                                          : t.onFail(e);
+                                                        ) ?
+                                                            t.onSuccess(e)
+                                                        :   t.onFail(e)
+                                                    );
                                                 })(e, v);
                                             });
                                     };
@@ -6838,12 +6972,9 @@ var e, t;
                                         var r = "; "
                                             .concat(e.segment)
                                             .concat(
-                                                void 0 !== e.version
-                                                    ? " (".concat(
-                                                          e.version,
-                                                          ")"
-                                                      )
-                                                    : ""
+                                                void 0 !== e.version ?
+                                                    " (".concat(e.version, ")")
+                                                :   ""
                                             );
                                         return (
                                             -1 === t.value.indexOf(r) &&
@@ -6862,9 +6993,9 @@ var e, t;
                                         .concat(e.protocol, "://")
                                         .concat(e.url, "/")
                                         .concat(
-                                            "/" === t.charAt(0)
-                                                ? t.substr(1)
-                                                : t
+                                            "/" === t.charAt(0) ?
+                                                t.substr(1)
+                                            :   t
                                         );
                                 return n.length && (u += "?".concat(n)), u;
                             }
@@ -6875,16 +7006,18 @@ var e, t;
                                             "%s=%s",
                                             t,
                                             ((r = e[t]),
-                                            "[object Object]" ===
-                                                Object.prototype.toString.call(
-                                                    r
-                                                ) ||
-                                            "[object Array]" ===
-                                                Object.prototype.toString.call(
-                                                    r
-                                                )
-                                                ? JSON.stringify(e[t])
-                                                : e[t])
+                                            (
+                                                "[object Object]" ===
+                                                    Object.prototype.toString.call(
+                                                        r
+                                                    ) ||
+                                                "[object Array]" ===
+                                                    Object.prototype.toString.call(
+                                                        r
+                                                    )
+                                            ) ?
+                                                JSON.stringify(e[t])
+                                            :   e[t])
                                         );
                                         var r;
                                     })
@@ -6896,9 +7029,10 @@ var e, t;
                                 });
                             }
                             function j(e) {
-                                var t = e.request.headers["x-algolia-api-key"]
-                                    ? { "x-algolia-api-key": "*****" }
-                                    : {};
+                                var t =
+                                    e.request.headers["x-algolia-api-key"] ?
+                                        { "x-algolia-api-key": "*****" }
+                                    :   {};
                                 return r(
                                     r({}, e),
                                     {},
@@ -6925,21 +7059,26 @@ var e, t;
                                             };
                                             return {
                                                 headers: function () {
-                                                    return e === f.WithinHeaders
-                                                        ? n
-                                                        : {};
+                                                    return (
+                                                            e ===
+                                                                f.WithinHeaders
+                                                        ) ?
+                                                            n
+                                                        :   {};
                                                 },
                                                 queryParameters: function () {
-                                                    return e ===
-                                                        f.WithinQueryParameters
-                                                        ? n
-                                                        : {};
+                                                    return (
+                                                            e ===
+                                                                f.WithinQueryParameters
+                                                        ) ?
+                                                            n
+                                                        :   {};
                                                 }
                                             };
                                         })(
-                                            void 0 !== e.authMode
-                                                ? e.authMode
-                                                : f.WithinHeaders,
+                                            void 0 !== e.authMode ?
+                                                e.authMode
+                                            :   f.WithinHeaders,
                                             t,
                                             e.apiKey
                                         ),
@@ -6991,10 +7130,12 @@ var e, t;
                                                             };
                                                         if (
                                                             !0 !==
-                                                            (void 0 !==
-                                                            r.cacheable
-                                                                ? r.cacheable
-                                                                : e.cacheable)
+                                                            ((
+                                                                void 0 !==
+                                                                r.cacheable
+                                                            ) ?
+                                                                r.cacheable
+                                                            :   e.cacheable)
                                                         )
                                                             return n();
                                                         var o = {
@@ -7183,18 +7324,20 @@ var e, t;
                                 },
                                 S = function (e) {
                                     return function (t, r) {
-                                        return t.method === b
-                                            ? e.transporter.read(t, r)
-                                            : e.transporter.write(t, r);
+                                        return t.method === b ?
+                                                e.transporter.read(t, r)
+                                            :   e.transporter.write(t, r);
                                     };
                                 },
                                 B = function (e) {
                                     return function (t) {
                                         var r =
-                                            arguments.length > 1 &&
-                                            void 0 !== arguments[1]
-                                                ? arguments[1]
-                                                : {};
+                                            (
+                                                arguments.length > 1 &&
+                                                void 0 !== arguments[1]
+                                            ) ?
+                                                arguments[1]
+                                            :   {};
                                         return s(
                                             {
                                                 transporter: e.transporter,
@@ -7494,14 +7637,16 @@ var e, t;
                                                 "Object" === r &&
                                                     e.constructor &&
                                                     (r = e.constructor.name),
-                                                "Map" === r || "Set" === r
-                                                    ? Array.from(e)
-                                                    : "Arguments" === r ||
-                                                        /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
-                                                            r
-                                                        )
-                                                      ? u(e, t)
-                                                      : void 0
+                                                "Map" === r || "Set" === r ?
+                                                    Array.from(e)
+                                                : (
+                                                    "Arguments" === r ||
+                                                    /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(
+                                                        r
+                                                    )
+                                                ) ?
+                                                    u(e, t)
+                                                :   void 0
                                             );
                                         }
                                     })(e)) ||
@@ -7513,9 +7658,9 @@ var e, t;
                                     return {
                                         s: o,
                                         n: function () {
-                                            return n >= e.length
-                                                ? { done: !0 }
-                                                : { done: !1, value: e[n++] };
+                                            return n >= e.length ?
+                                                    { done: !0 }
+                                                :   { done: !1, value: e[n++] };
                                         },
                                         e: function (e) {
                                             throw e;
@@ -7599,14 +7744,16 @@ var e, t;
                             var p = function () {
                                 s.render();
                             };
-                            ["complete", "interactive"].includes(
-                                document.readyState
-                            )
-                                ? p()
-                                : document.addEventListener(
-                                      "DOMContentLoaded",
-                                      p
-                                  );
+                            (
+                                ["complete", "interactive"].includes(
+                                    document.readyState
+                                )
+                            ) ?
+                                p()
+                            :   document.addEventListener(
+                                    "DOMContentLoaded",
+                                    p
+                                );
                         };
                     },
                     369: function (e, t, r) {
@@ -7661,17 +7808,21 @@ var e, t;
                                                     void 0 !==
                                                         this.options.detached &&
                                                         (r =
-                                                            !0 ===
-                                                            this.options
-                                                                .detached
-                                                                ? ""
-                                                                : !1 ===
-                                                                    this.options
-                                                                        .detached
-                                                                  ? "none"
-                                                                  : this.options
-                                                                        .detached
-                                                                        .mediaQuery);
+                                                            (
+                                                                !0 ===
+                                                                this.options
+                                                                    .detached
+                                                            ) ?
+                                                                ""
+                                                            : (
+                                                                !1 ===
+                                                                this.options
+                                                                    .detached
+                                                            ) ?
+                                                                "none"
+                                                            :   this.options
+                                                                    .detached
+                                                                    .mediaQuery);
                                                     var n = (0, o.autocomplete)(
                                                         {
                                                             container: t,
@@ -7794,16 +7945,16 @@ var e, t;
                                                             );
                                                         },
                                                         footer: function () {
-                                                            return t
-                                                                ? c.templates.poweredBy(
-                                                                      {
-                                                                          hostname:
-                                                                              window
-                                                                                  .location
-                                                                                  .host
-                                                                      }
-                                                                  )
-                                                                : "";
+                                                            return t ?
+                                                                    c.templates.poweredBy(
+                                                                        {
+                                                                            hostname:
+                                                                                window
+                                                                                    .location
+                                                                                    .host
+                                                                        }
+                                                                    )
+                                                                :   "";
                                                         }
                                                     }
                                                 };
@@ -7818,27 +7969,35 @@ var e, t;
                                                         (function (e) {
                                                             var t,
                                                                 r =
-                                                                    arguments.length >
-                                                                        1 &&
-                                                                    void 0 !==
+                                                                    (
+                                                                        arguments.length >
+                                                                            1 &&
+                                                                        void 0 !==
+                                                                            arguments[1]
+                                                                    ) ?
                                                                         arguments[1]
-                                                                        ? arguments[1]
-                                                                        : null,
+                                                                    :   null,
                                                                 n =
-                                                                    null !==
-                                                                        (t =
-                                                                            null !=
-                                                                            r
-                                                                                ? r
-                                                                                : document.querySelector(
-                                                                                      'link[rel=stylesheet][href*="algoliasearchNetlify"]'
-                                                                                  )) &&
-                                                                    void 0 !== t
-                                                                        ? t
-                                                                        : document.getElementsByTagName(
-                                                                              "head"
-                                                                          )[0]
-                                                                              .lastChild,
+                                                                    (
+                                                                        null !==
+                                                                            (t =
+
+                                                                                    (
+                                                                                        null !=
+                                                                                        r
+                                                                                    ) ?
+                                                                                        r
+                                                                                    :   document.querySelector(
+                                                                                            'link[rel=stylesheet][href*="algoliasearchNetlify"]'
+                                                                                        )) &&
+                                                                        void 0 !==
+                                                                            t
+                                                                    ) ?
+                                                                        t
+                                                                    :   document.getElementsByTagName(
+                                                                            "head"
+                                                                        )[0]
+                                                                            .lastChild,
                                                                 u =
                                                                     document.createElement(
                                                                         "style"
@@ -7950,40 +8109,46 @@ var e, t;
                             var r,
                                 u,
                                 o =
-                                    null === (r = e._snippetResult) ||
-                                    void 0 === r
-                                        ? void 0
-                                        : r.description,
+                                    (
+                                        null === (r = e._snippetResult) ||
+                                        void 0 === r
+                                    ) ?
+                                        void 0
+                                    :   r.description,
                                 i =
-                                    null === (u = e._snippetResult) ||
-                                    void 0 === u
-                                        ? void 0
-                                        : u.content;
-                            return o && "full" === o.matchLevel
-                                ? (0, n.jsx)(
-                                      t.Snippet,
-                                      { hit: e, attribute: "description" },
-                                      void 0
-                                  )
-                                : i && "full" === i.matchLevel
-                                  ? (0, n.jsx)(
+                                    (
+                                        null === (u = e._snippetResult) ||
+                                        void 0 === u
+                                    ) ?
+                                        void 0
+                                    :   u.content;
+                            return (
+                                o && "full" === o.matchLevel ?
+                                    (0, n.jsx)(
+                                        t.Snippet,
+                                        { hit: e, attribute: "description" },
+                                        void 0
+                                    )
+                                : i && "full" === i.matchLevel ?
+                                    (0, n.jsx)(
                                         t.Snippet,
                                         { hit: e, attribute: "content" },
                                         void 0
                                     )
-                                  : o && !i
-                                    ? (0, n.jsx)(
-                                          t.Snippet,
-                                          { hit: e, attribute: "description" },
-                                          void 0
-                                      )
-                                    : i
-                                      ? (0, n.jsx)(
-                                            t.Snippet,
-                                            { hit: e, attribute: "content" },
-                                            void 0
-                                        )
-                                      : e.description || e.content || "";
+                                : o && !i ?
+                                    (0, n.jsx)(
+                                        t.Snippet,
+                                        { hit: e, attribute: "description" },
+                                        void 0
+                                    )
+                                : i ?
+                                    (0, n.jsx)(
+                                        t.Snippet,
+                                        { hit: e, attribute: "content" },
+                                        void 0
+                                    )
+                                :   e.description || e.content || ""
+                            );
                         }
                         t.templates = {
                             poweredBy: function (e) {
@@ -8089,28 +8254,34 @@ var e, t;
                                                                                 },
                                                                                 {
                                                                                     children:
-                                                                                        null !==
-                                                                                            (i =
-                                                                                                null ===
-                                                                                                    (r =
-                                                                                                        e.hierarchy) ||
-                                                                                                void 0 ===
-                                                                                                    r
-                                                                                                    ? void 0
-                                                                                                    : r.lvl0) &&
-                                                                                        void 0 !==
-                                                                                            i
-                                                                                            ? i
-                                                                                            : (0,
-                                                                                              n.jsx)(
-                                                                                                  t.Highlight,
-                                                                                                  {
-                                                                                                      hit: e,
-                                                                                                      attribute:
-                                                                                                          "title"
-                                                                                                  },
-                                                                                                  void 0
-                                                                                              )
+
+                                                                                            (
+                                                                                                null !==
+                                                                                                    (i =
+
+                                                                                                            (
+                                                                                                                null ===
+                                                                                                                    (r =
+                                                                                                                        e.hierarchy) ||
+                                                                                                                void 0 ===
+                                                                                                                    r
+                                                                                                            ) ?
+                                                                                                                void 0
+                                                                                                            :   r.lvl0) &&
+                                                                                                void 0 !==
+                                                                                                    i
+                                                                                            ) ?
+                                                                                                i
+                                                                                            :   (0,
+                                                                                                n.jsx)(
+                                                                                                    t.Highlight,
+                                                                                                    {
+                                                                                                        hit: e,
+                                                                                                        attribute:
+                                                                                                            "title"
+                                                                                                    },
+                                                                                                    void 0
+                                                                                                )
                                                                                 }
                                                                             ),
                                                                             void 0
@@ -8224,9 +8395,9 @@ var e, t;
                         }
                         function D(e, t) {
                             if (null == t)
-                                return e.__
-                                    ? D(e.__, e.__.__k.indexOf(e) + 1)
-                                    : null;
+                                return e.__ ?
+                                        D(e.__, e.__.__k.indexOf(e) + 1)
+                                    :   null;
                             for (var r; t < e.__k.length; t++)
                                 if (null != (r = e.__k[t]) && null != r.__e)
                                     return r.__e;
@@ -8302,30 +8473,34 @@ var e, t;
                                 if (
                                     null !=
                                     (y = r.__k[f] =
-                                        null == (y = t[f]) ||
-                                        "boolean" == typeof y
-                                            ? null
-                                            : "string" == typeof y ||
+                                        (
+                                                null == (y = t[f]) ||
+                                                "boolean" == typeof y
+                                            ) ?
+                                                null
+                                            : (
+                                                "string" == typeof y ||
                                                 "number" == typeof y ||
                                                 "bigint" == typeof y
-                                              ? m(null, y, null, null, y)
-                                              : Array.isArray(y)
-                                                ? m(
-                                                      v,
-                                                      { children: y },
-                                                      null,
-                                                      null,
-                                                      null
-                                                  )
-                                                : y.__b > 0
-                                                  ? m(
-                                                        y.type,
-                                                        y.props,
-                                                        y.key,
-                                                        null,
-                                                        y.__v
-                                                    )
-                                                  : y)
+                                            ) ?
+                                                m(null, y, null, null, y)
+                                            : Array.isArray(y) ?
+                                                m(
+                                                    v,
+                                                    { children: y },
+                                                    null,
+                                                    null,
+                                                    null
+                                                )
+                                            : y.__b > 0 ?
+                                                m(
+                                                    y.type,
+                                                    y.props,
+                                                    y.key,
+                                                    null,
+                                                    y.__v
+                                                )
+                                            :   y)
                                 ) {
                                     if (
                                         ((y.__ = r),
@@ -8355,18 +8530,20 @@ var e, t;
                                             (_ || (_ = []),
                                             h.ref && _.push(h.ref, null, y),
                                             _.push(d, y.__c || g, y)),
-                                        null != g
-                                            ? (null == b && (b = g),
-                                              "function" == typeof y.type &&
-                                              y.__k === h.__k
-                                                  ? (y.__d = c = O(y, c, e))
-                                                  : (c = A(e, y, h, E, g, c)),
-                                              "function" == typeof r.type &&
-                                                  (r.__d = c))
-                                            : c &&
-                                              h.__e == c &&
-                                              c.parentNode != e &&
-                                              (c = D(h));
+                                        null != g ?
+                                            (null == b && (b = g),
+                                            (
+                                                "function" == typeof y.type &&
+                                                y.__k === h.__k
+                                            ) ?
+                                                (y.__d = c = O(y, c, e))
+                                            :   (c = A(e, y, h, E, g, c)),
+                                            "function" == typeof r.type &&
+                                                (r.__d = c))
+                                        :   c &&
+                                            h.__e == c &&
+                                            c.parentNode != e &&
+                                            (c = D(h));
                                 }
                             for (r.__e = b, f = C; f--; )
                                 null != E[f] &&
@@ -8388,9 +8565,9 @@ var e, t;
                                 (n = u[o]) &&
                                     ((n.__ = e),
                                     (t =
-                                        "function" == typeof n.type
-                                            ? O(n, t, r)
-                                            : A(r, n, n, u, n.__e, t)));
+                                        "function" == typeof n.type ?
+                                            O(n, t, r)
+                                        :   A(r, n, n, u, n.__e, t)));
                             return t;
                         }
                         function A(e, t, r, n, u, o) {
@@ -8415,14 +8592,12 @@ var e, t;
                             return void 0 !== i ? i : u.nextSibling;
                         }
                         function E(e, t, r) {
-                            "-" === t[0]
-                                ? e.setProperty(t, r)
-                                : (e[t] =
-                                      null == r
-                                          ? ""
-                                          : "number" != typeof r || p.test(t)
-                                            ? r
-                                            : r + "px");
+                            "-" === t[0] ?
+                                e.setProperty(t, r)
+                            :   (e[t] =
+                                    null == r ? ""
+                                    : "number" != typeof r || p.test(t) ? r
+                                    : r + "px");
                         }
                         function C(e, t, r, n, u) {
                             var o;
@@ -8444,19 +8619,14 @@ var e, t;
                             else if ("o" === t[0] && "n" === t[1])
                                 (o = t !== (t = t.replace(/Capture$/, ""))),
                                     (t =
-                                        t.toLowerCase() in e
-                                            ? t.toLowerCase().slice(2)
-                                            : t.slice(2)),
+                                        t.toLowerCase() in e ?
+                                            t.toLowerCase().slice(2)
+                                        :   t.slice(2)),
                                     e.l || (e.l = {}),
                                     (e.l[t + o] = r),
-                                    r
-                                        ? n ||
-                                          e.addEventListener(t, o ? P : F, o)
-                                        : e.removeEventListener(
-                                              t,
-                                              o ? P : F,
-                                              o
-                                          );
+                                    r ?
+                                        n || e.addEventListener(t, o ? P : F, o)
+                                    :   e.removeEventListener(t, o ? P : F, o);
                             else if ("dangerouslySetInnerHTML" !== t) {
                                 if (u)
                                     t = t
@@ -8475,10 +8645,13 @@ var e, t;
                                         break e;
                                     } catch (e) {}
                                 "function" == typeof r ||
-                                    (null != r &&
-                                    (!1 !== r || ("a" === t[0] && "r" === t[1]))
-                                        ? e.setAttribute(t, r)
-                                        : e.removeAttribute(t));
+                                    ((
+                                        null != r &&
+                                        (!1 !== r ||
+                                            ("a" === t[0] && "r" === t[1]))
+                                    ) ?
+                                        e.setAttribute(t, r)
+                                    :   e.removeAttribute(t));
                             }
                         }
                         function F(e) {
@@ -8512,27 +8685,28 @@ var e, t;
                                     if (
                                         ((b = t.props),
                                         (O = (s = C.contextType) && n[s.__c]),
-                                        (A = s
-                                            ? O
-                                                ? O.props.value
-                                                : s.__
-                                            : n),
-                                        r.__c
-                                            ? (g = (p = t.__c = r.__c).__ =
-                                                  p.__E)
-                                            : ("prototype" in C &&
-                                              C.prototype.render
-                                                  ? (t.__c = p = new C(b, A))
-                                                  : ((t.__c = p = new h(b, A)),
-                                                    (p.constructor = C),
-                                                    (p.render = k)),
-                                              O && O.sub(p),
-                                              (p.props = b),
-                                              p.state || (p.state = {}),
-                                              (p.context = A),
-                                              (p.__n = n),
-                                              (d = p.__d = !0),
-                                              (p.__h = [])),
+                                        (A =
+                                            s ?
+                                                O ? O.props.value
+                                                :   s.__
+                                            :   n),
+                                        r.__c ?
+                                            (g = (p = t.__c = r.__c).__ = p.__E)
+                                        :   ((
+                                                "prototype" in C &&
+                                                C.prototype.render
+                                            ) ?
+                                                (t.__c = p = new C(b, A))
+                                            :   ((t.__c = p = new h(b, A)),
+                                                (p.constructor = C),
+                                                (p.render = k)),
+                                            O && O.sub(p),
+                                            (p.props = b),
+                                            p.state || (p.state = {}),
+                                            (p.context = A),
+                                            (p.__n = n),
+                                            (d = p.__d = !0),
+                                            (p.__h = [])),
                                         null == p.__s && (p.__s = p.state),
                                         null != C.getDerivedStateFromProps &&
                                             (p.__s == p.state &&
@@ -8623,11 +8797,13 @@ var e, t;
                                                 D
                                             )),
                                         (E =
-                                            null != s &&
-                                            s.type === v &&
-                                            null == s.key
-                                                ? s.props.children
-                                                : s),
+                                            (
+                                                null != s &&
+                                                s.type === v &&
+                                                null == s.key
+                                            ) ?
+                                                s.props.children
+                                            :   s),
                                         _(
                                             e,
                                             Array.isArray(E) ? E : [E],
@@ -8646,18 +8822,9 @@ var e, t;
                                         g && (p.__E = p.__ = null),
                                         (p.__e = !1);
                                 } else
-                                    null == i && t.__v === r.__v
-                                        ? ((t.__k = r.__k), (t.__e = r.__e))
-                                        : (t.__e = S(
-                                              r.__e,
-                                              t,
-                                              r,
-                                              n,
-                                              o,
-                                              i,
-                                              a,
-                                              l
-                                          ));
+                                    null == i && t.__v === r.__v ?
+                                        ((t.__k = r.__k), (t.__e = r.__e))
+                                    :   (t.__e = S(r.__e, t, r, n, o, i, a, l));
                                 (s = u.diffed) && s(t);
                             } catch (e) {
                                 (t.__v = null),
@@ -8695,9 +8862,9 @@ var e, t;
                                     if (
                                         (s = i[y]) &&
                                         "setAttribute" in s == !!h &&
-                                        (h
-                                            ? s.localName === h
-                                            : 3 === s.nodeType)
+                                        (h ?
+                                            s.localName === h
+                                        :   3 === s.nodeType)
                                     ) {
                                         (e = s), (i[y] = null);
                                         break;
@@ -8705,12 +8872,13 @@ var e, t;
                             if (null == e) {
                                 if (null === h)
                                     return document.createTextNode(v);
-                                (e = o
-                                    ? document.createElementNS(
-                                          "http://www.w3.org/2000/svg",
-                                          h
-                                      )
-                                    : document.createElement(h, v.is && v)),
+                                (e =
+                                    o ?
+                                        document.createElementNS(
+                                            "http://www.w3.org/2000/svg",
+                                            h
+                                        )
+                                    :   document.createElement(h, v.is && v)),
                                     (i = null),
                                     (c = !1);
                             }
@@ -8858,9 +9026,12 @@ var e, t;
                             (h.prototype.setState = function (e, t) {
                                 var r;
                                 (r =
-                                    null != this.__s && this.__s !== this.state
-                                        ? this.__s
-                                        : (this.__s = f({}, this.state))),
+                                    (
+                                        null != this.__s &&
+                                        this.__s !== this.state
+                                    ) ?
+                                        this.__s
+                                    :   (this.__s = f({}, this.state))),
                                     "function" == typeof e &&
                                         (e = e(f({}, r), this.props)),
                                     e && f(r, e),
@@ -8877,11 +9048,11 @@ var e, t;
                             (h.prototype.render = v),
                             (i = []),
                             (a =
-                                "function" == typeof Promise
-                                    ? Promise.prototype.then.bind(
-                                          Promise.resolve()
-                                      )
-                                    : setTimeout),
+                                "function" == typeof Promise ?
+                                    Promise.prototype.then.bind(
+                                        Promise.resolve()
+                                    )
+                                :   setTimeout),
                             (b.__r = 0);
                         var x = 0;
                         function N(e, t, r, n, o) {
@@ -8950,10 +9121,8 @@ var e, t;
             );
         })();
     }),
-    "object" == typeof exports && "object" == typeof module
-        ? (module.exports = t())
-        : "function" == typeof define && define.amd
-          ? define([], t)
-          : "object" == typeof exports
-            ? (exports.algoliasearchNetlify = t())
-            : (e.algoliasearchNetlify = t());
+    "object" == typeof exports && "object" == typeof module ?
+        (module.exports = t())
+    : "function" == typeof define && define.amd ? define([], t)
+    : "object" == typeof exports ? (exports.algoliasearchNetlify = t())
+    : (e.algoliasearchNetlify = t());

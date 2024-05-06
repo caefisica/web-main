@@ -8,13 +8,11 @@
 <header class="navbar navbar-expand-md navbar-light doks-navbar">
     <nav
         class="container-xxl flex-wrap flex-md-nowrap"
-        aria-label="Navegación principal"
-    >
+        aria-label="Navegación principal">
         <a
             class="navbar-brand p-0 me-auto"
             href="{{ "/" | relURL }}"
-            aria-label="{{ .Site.Params.Title }}"
-        >
+            aria-label="{{ .Site.Params.Title }}">
             {{ .Site.Params.Title }} <span class="text-muted">-</span>
             <span class="subtitle-brand">{{ .Site.Params.Subtitle }} </span>
         </a>
@@ -25,8 +23,7 @@
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasDoks"
             aria-controls="offcanvasDoks"
-            aria-label="Abrir menú principal"
-        >
+            aria-label="Abrir menú principal">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -37,8 +34,7 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="feather feather-menu"
-            >
+                class="feather feather-menu">
                 <line x1="3" y1="12" x2="21" y2="12"></line>
                 <line x1="3" y1="6" x2="21" y2="6"></line>
                 <line x1="3" y1="18" x2="21" y2="18"></line>
@@ -50,8 +46,7 @@
             tabindex="-1"
             id="offcanvasDoks"
             data-bs-backdrop="true"
-            aria-labelledby="offcanvasDoksLabel"
-        >
+            aria-labelledby="offcanvasDoksLabel">
             <div class="header-bar d-md-none"></div>
             <div class="offcanvas-header d-md-none">
                 <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel">
@@ -66,8 +61,7 @@
                     type="button"
                     class="btn-close text-reset me-2"
                     data-bs-dismiss="offcanvas"
-                    aria-label="Cerrar menú principal"
-                ></button>
+                    aria-label="Cerrar menú principal"></button>
             </div>
             <div class="offcanvas-body px-4">
                 <h3 class="h6 text-uppercase mb-3 d-md-none">Categorías</h3>
@@ -90,8 +84,7 @@
                                     id="navbarDropdownMenuLink-{{ $counter }}"
                                     role="button"
                                     data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
+                                    aria-expanded="false">
                                     {{ .Name }}
                                     <span class="dropdown-caret"
                                         ><svg
@@ -104,17 +97,14 @@
                                             stroke-width="2"
                                             stroke-linecap="round"
                                             stroke-linejoin="round"
-                                            class="feather feather-chevron-down"
-                                        >
+                                            class="feather feather-chevron-down">
                                             <polyline
-                                                points="6 9 12 15 18 9"
-                                            ></polyline></svg
+                                                points="6 9 12 15 18 9"></polyline></svg
                                     ></span>
                                 </a>
                                 <ul
                                     class="dropdown-menu dropdown-menu-main shadow rounded border-0"
-                                    aria-labelledby="navbarDropdownMenuLink"
-                                >
+                                    aria-labelledby="navbarDropdownMenuLink">
                                     {{ range .Children -}}
                                         {{- $active = eq .Name $current.Title -}}
                                         <li>
@@ -148,8 +138,7 @@
                 <hr class="text-black-50 my-4 d-md-none" />
                 <h3 class="h6 text-uppercase mb-3 d-md-none">Redes sociales</h3>
                 <ul
-                    class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2"
-                >
+                    class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
                     {{ range .Site.Menus.social -}}
                         <li class="nav-item">
                             <a
@@ -172,8 +161,7 @@
                 id="mode"
                 class="btn btn-link order-md-1"
                 type="button"
-                aria-label="Alternar el modo de interfaz de usuario"
-            >
+                aria-label="Alternar el modo de interfaz de usuario">
                 <span class="toggle-dark"
                     ><svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -185,11 +173,9 @@
                         stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        class="feather feather-moon"
-                    >
+                        class="feather feather-moon">
                         <path
-                            d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
-                        ></path></svg
+                            d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg
                 ></span>
                 <span class="toggle-light"
                     ><svg
@@ -202,8 +188,7 @@
                         stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        class="feather feather-sun"
-                    >
+                        class="feather feather-sun">
                         <circle cx="12" cy="12" r="5"></circle>
                         <line x1="12" y1="1" x2="12" y2="3"></line>
                         <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -212,8 +197,7 @@
                             x1="18.36"
                             y1="18.36"
                             x2="19.78"
-                            y2="19.78"
-                        ></line>
+                            y2="19.78"></line>
                         <line x1="1" y1="12" x2="3" y2="12"></line>
                         <line x1="21" y1="12" x2="23" y2="12"></line>
                         <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
@@ -221,8 +205,7 @@
                             x1="18.36"
                             y1="5.64"
                             x2="19.78"
-                            y2="4.22"
-                        ></line></svg
+                            y2="4.22"></line></svg
                 ></span>
             </button>
         {{ end -}}
@@ -232,16 +215,14 @@
 {{ if eq .Section "unmsm" "apuntes" -}}
     <nav
         class="doks-subnavbar py-2 sticky-lg-top"
-        aria-label="Secondary navigation"
-    >
+        aria-label="Secondary navigation">
         <div class="container-xxl d-flex align-items-md-center">
             <div class="d-inline-flex me-auto placeholder-glow">
                 <div id="search-placeholder" aria-hidden="true">
                     <a
                         href="#"
                         tabindex="-1"
-                        class="btn btn-light disabled placeholder"
-                    ></a>
+                        class="btn btn-light disabled placeholder"></a>
                 </div>
                 <div id="docsearch"></div>
             </div>
@@ -254,14 +235,12 @@
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                         data-bs-display="static"
-                        aria-label="Toggle version menu"
-                    >
+                        aria-label="Toggle version menu">
                         <span class="d-none d-lg-inline">UNMSM</span>
                     </button>
                     <ul
                         class="dropdown-menu dropdown-menu-end"
-                        aria-labelledby="doks-versions"
-                    >
+                        aria-labelledby="doks-versions">
                         <li>
                             <a
                                 class="dropdown-item current"
@@ -294,8 +273,7 @@
                 data-bs-target="#doks-docs-nav"
                 aria-controls="doks-docs-nav"
                 aria-expanded="false"
-                aria-label="Toggle documentation navigation"
-            >
+                aria-label="Toggle documentation navigation">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -306,8 +284,7 @@
                     stroke="currentColor"
                     stroke-width="2"
                     stroke-linecap="round"
-                    stroke-linejoin="round"
-                >
+                    stroke-linejoin="round">
                     <title>Expand</title>
                     <polyline points="7 13 12 18 17 13"></polyline>
                     <polyline points="7 6 12 11 17 6"></polyline>
@@ -322,8 +299,7 @@
                     stroke="currentColor"
                     stroke-width="2"
                     stroke-linecap="round"
-                    stroke-linejoin="round"
-                >
+                    stroke-linejoin="round">
                     <title>Collapse</title>
                     <polyline points="17 11 12 6 7 11"></polyline>
                     <polyline points="17 18 12 13 7 18"></polyline>
@@ -337,8 +313,7 @@
             <nav
                 id="doks-docs-nav"
                 class="collapse d-lg-none"
-                aria-label="Tertiary navigation"
-            >
+                aria-label="Tertiary navigation">
                 {{ partial "sidebar/docs-menu.html" . }}
             </nav>
         </aside>
@@ -348,8 +323,7 @@
 {{ if eq .Section "tutorial" -}}
     <nav
         class="doks-subnavbar py-2 sticky-lg-top"
-        aria-label="Secondary navigation"
-    >
+        aria-label="Secondary navigation">
         <div class="container-xxl d-flex align-items-md-center">
             <nav class="nav">
                 {{ range .Site.Menus.secondary -}}
@@ -366,8 +340,7 @@
                 data-bs-target="#doks-docs-nav"
                 aria-controls="doks-docs-nav"
                 aria-expanded="false"
-                aria-label="Toggle tutorial navigation"
-            >
+                aria-label="Toggle tutorial navigation">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -378,8 +351,7 @@
                     stroke="currentColor"
                     stroke-width="2"
                     stroke-linecap="round"
-                    stroke-linejoin="round"
-                >
+                    stroke-linejoin="round">
                     <title>Expand</title>
                     <polyline points="7 13 12 18 17 13"></polyline>
                     <polyline points="7 6 12 11 17 6"></polyline>
@@ -394,8 +366,7 @@
                     stroke="currentColor"
                     stroke-width="2"
                     stroke-linecap="round"
-                    stroke-linejoin="round"
-                >
+                    stroke-linejoin="round">
                     <title>Collapse</title>
                     <polyline points="17 11 12 6 7 11"></polyline>
                     <polyline points="17 18 12 13 7 18"></polyline>
@@ -409,8 +380,7 @@
             <nav
                 id="doks-docs-nav"
                 class="collapse d-lg-none"
-                aria-label="Navegación terciaria"
-            >
+                aria-label="Navegación terciaria">
                 {{ partial "sidebar/tutorial-menu.html" . }}
             </nav>
         </aside>
@@ -420,8 +390,7 @@
 {{ if or (eq .Section "experimental") (eq .Data.Singular .Kind "type") (eq .Data.Singular .Kind "functionality") -}}
     <nav
         class="doks-subnavbar py-2 sticky-lg-top"
-        aria-label="Navegación terciaria"
-    >
+        aria-label="Navegación terciaria">
         <div class="container-xxl d-flex align-items-md-center">
             <nav class="nav">
                 {{ range .Site.Menus.tertiary -}}
@@ -442,8 +411,7 @@
                 data-bs-target="#doks-docs-nav"
                 aria-controls="doks-docs-nav"
                 aria-expanded="false"
-                aria-label="Consultar las categorías de la sección Experimental"
-            >
+                aria-label="Consultar las categorías de la sección Experimental">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -454,8 +422,7 @@
                     stroke="currentColor"
                     stroke-width="2"
                     stroke-linecap="round"
-                    stroke-linejoin="round"
-                >
+                    stroke-linejoin="round">
                     <title>Expand</title>
                     <polyline points="7 13 12 18 17 13"></polyline>
                     <polyline points="7 6 12 11 17 6"></polyline>
@@ -470,8 +437,7 @@
                     stroke="currentColor"
                     stroke-width="2"
                     stroke-linecap="round"
-                    stroke-linejoin="round"
-                >
+                    stroke-linejoin="round">
                     <title>Collapse</title>
                     <polyline points="17 11 12 6 7 11"></polyline>
                     <polyline points="17 18 12 13 7 18"></polyline>
@@ -485,8 +451,7 @@
             <nav
                 id="doks-docs-nav"
                 class="collapse d-lg-none"
-                aria-label="Navegación terciaria"
-            >
+                aria-label="Navegación terciaria">
                 {{ partial "sidebar/showcase-menu.html" . }}
             </nav>
         </aside>

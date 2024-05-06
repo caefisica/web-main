@@ -2,11 +2,11 @@
 
 **Índices**:
 
--   [Instalación](instalaci%C3%B3n.md)
--   [Convenciones](convenciones.md)
--   [CSS](#css)
--   [Plantillas](#plantillas)
--   [Listas](#listas)
+- [Instalación](instalaci%C3%B3n.md)
+- [Convenciones](convenciones.md)
+- [CSS](#css)
+- [Plantillas](#plantillas)
+- [Listas](#listas)
 
 ---
 
@@ -16,11 +16,11 @@ Con el motivo de simplificar el código. A continuación una lista de clases per
 
 1. Background cover:
 
-    ```css
-    .bg-cover {
-        background-repeat: no-repeat;
-    }
-    ```
+   ```css
+   .bg-cover {
+     background-repeat: no-repeat;
+   }
+   ```
 
 ## Plantillas
 
@@ -34,19 +34,19 @@ Con el motivo de simplificar el código. A continuación una lista de clases per
 
 1. Tablas:
 
-    ```markdown
-    {{< content_table type="book" >}} {{< book_row title="" author="" editorial="" year="" edition="" url="" >}} {{< book_row_multiple title="" author="" editorial="" urls="" editions="" years="" >}} {{< playlist_row title="" channel="" lecturer="" videos="" url="" >}} {{< /content_table >}}
-    ```
+   ```markdown
+   {{< content_table type="book" >}} {{< book_row title="" author="" editorial="" year="" edition="" url="" >}} {{< book_row_multiple title="" author="" editorial="" urls="" editions="" years="" >}} {{< playlist_row title="" channel="" lecturer="" videos="" url="" >}} {{< /content_table >}}
+   ```
 
 ## Listas
 
 1. Profesores:
 
-    ```yaml
-    - name: ''
-      title: ''
-      courses:
-          - code: ''
-            semesters:
-                - ''
-    ```
+   ```yaml
+   - name: ""
+     title: ""
+     courses:
+       - code: ""
+         semesters:
+           - ""
+   ```

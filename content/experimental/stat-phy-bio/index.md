@@ -1,20 +1,20 @@
 ---
-title: 'Física estadística y biología'
-description: 'En este artículo, Giorgio Parisi intenta unir la física y la biología. Quiere cambiar la perspectiva tanto del físico —que se preocupa más por los principios generales— como del biólogo —que sigue interesado en lo que realmente es—.'
-lead: 'En este artículo, Giorgio Parisi intenta unir la física y la biología. Quiere cambiar la perspectiva tanto del físico —que se preocupa más por los principios generales— como del biólogo —que sigue interesado en lo que realmente es—.'
+title: "Física estadística y biología"
+description: "En este artículo, Giorgio Parisi intenta unir la física y la biología. Quiere cambiar la perspectiva tanto del físico —que se preocupa más por los principios generales— como del biólogo —que sigue interesado en lo que realmente es—."
+lead: "En este artículo, Giorgio Parisi intenta unir la física y la biología. Quiere cambiar la perspectiva tanto del físico —que se preocupa más por los principios generales— como del biólogo —que sigue interesado en lo que realmente es—."
 date: 2021-03-04T08:02:23+01:00
 lastmod: 2021-03-04T08:02:23+01:00
 draft: true
-images: ['stat-phy-bio.png']
-link: 'https://doi.org/10.1088/2058-7058/6/9/35'
+images: ["stat-phy-bio.png"]
+link: "https://doi.org/10.1088/2058-7058/6/9/35"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 060
 toc: false
 pinned: false
-types: ['academia', 'biología']
-functionalities: ['revisado por pares']
+types: ["academia", "biología"]
+functionalities: ["revisado por pares"]
 ---
 
 ```text

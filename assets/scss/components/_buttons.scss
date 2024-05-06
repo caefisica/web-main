@@ -110,20 +110,20 @@ pre {
 }
 
 .btn-copy::after {
-    content: 'Copiar';
+    content: "Copiar";
     display: block;
     color: $color-btn-text;
 }
 
 .btn-copy:hover::after {
-    content: '¿Copiar?';
+    content: "¿Copiar?";
     display: block;
     color: $color-btn-text;
 }
 
 .btn-copy:focus::after,
 .btn-copy:active::after {
-    content: 'Copiado';
+    content: "Copiado";
     display: block;
     color: $color-btn-text;
 }
@@ -161,11 +161,11 @@ pre {
     margin-bottom: 0.125rem;
 }
 
-.btn-toggle[aria-expanded='true'] {
+.btn-toggle[aria-expanded="true"] {
     color: $body-color;
 }
 
-.btn-toggle[aria-expanded='true']::before {
+.btn-toggle[aria-expanded="true"]::before {
     transform: rotate(90deg);
 }
 

@@ -1,22 +1,22 @@
 ---
-title: 'Tensorial'
-description: 'CFO305 — 4 créditos'
-lead: 'CFO305 — 4 créditos'
+title: "Tensorial"
+description: "CFO305 — 4 créditos"
+lead: "CFO305 — 4 créditos"
 date: 2022-02-01T02:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: true
 menu:
-    cursos:
-        parent: 'cálculo'
+  cursos:
+    parent: "cálculo"
 weight: 50
 toc: true
-contributors: ['Richard']
+contributors: ["Richard"]
 math: true
-types: ['matemática']
+types: ["matemática"]
 ---
 
 {{< alert icon="📌" text="Los temas que se tocan en el curso Cálculo III está relacionado con el Cálculo de varias variables, es decir en este curso se desarrollara lo visto en el Cálculo diferencial e integral pero aplicado a funciones reales y vectoriales con una o más variables." />}}
@@ -41,11 +41,11 @@ $$\vec{u}=(x,y,z)$$
 
 Y de manera general para un vector en $\mathbb{R}^n$ primero se define el espacio vectorial $\mathbb{R}^n$ el cual se denota como el conjunto de las n-tuplas ordenadas de números reales, así $\mathbb{R}^n:(x_1,x_2,x_3,\ldots ,x_n)$ donde $x_i \in \mathbb{R}$, $1\leq i \leq n$. Los elementos de $\mathbb{R}^n$ también se suelen denominar vectores de orden $n$.
 
--   Ejemplo de vector en $\mathbb{R}^n$:
+- Ejemplo de vector en $\mathbb{R}^n$:
 
-    $$
-    \vec{u}=(u_1,u_2,u_3,\ldots,u_n)
-    $$
+  $$
+  \vec{u}=(u_1,u_2,u_3,\ldots,u_n)
+  $$
 
 #### Norma de un vector
 
@@ -139,67 +139,67 @@ Entonces $\mathbf{r}(t)$ es el vector de posición del punto $P(x_1(t),x_2(t),x_
 
 1. Derivadas: La derivada $\mathbf{r}^{\prime}$ de una función vectorial $\mathbf{r}$ se define casi de la misma manera que las funciones con valores reales:
 
-    $$
-    \dfrac{d\mathbf{r}}{dt}=\mathbf{r}^{\prime}(t)=\lim_{h\rightarrow 0} \dfrac{\mathbf{r}(t+h)-\mathbf{r}(t)}{h}
-    $$
+   $$
+   \dfrac{d\mathbf{r}}{dt}=\mathbf{r}^{\prime}(t)=\lim_{h\rightarrow 0} \dfrac{\mathbf{r}(t+h)-\mathbf{r}(t)}{h}
+   $$
 
-    De aqui se tiene que cuando $h \rightarrow 0$, parece que este vector se aproxima a un vector que está en la recta tangente. Por esta razón, el vector $\mathbf{r}^{\prime}(t)$ se llama vector tangente a la curva definida por $\mathbf{r}$ en el punto $P$, siempre y cuando $\mathbf{r}^{\prime}(t)$ exista y $\mathbf{r}^{\prime}(t)\neq 0$. La recta tangente a $\mathbb{C}$ en $P$ se define como la recta que pasa por $P$ paralela al vector tangente $\mathbf{r}^{\prime}(t)$. Mencionando el vector tangente unitario, el cual es:
+   De aqui se tiene que cuando $h \rightarrow 0$, parece que este vector se aproxima a un vector que está en la recta tangente. Por esta razón, el vector $\mathbf{r}^{\prime}(t)$ se llama vector tangente a la curva definida por $\mathbf{r}$ en el punto $P$, siempre y cuando $\mathbf{r}^{\prime}(t)$ exista y $\mathbf{r}^{\prime}(t)\neq 0$. La recta tangente a $\mathbb{C}$ en $P$ se define como la recta que pasa por $P$ paralela al vector tangente $\mathbf{r}^{\prime}(t)$. Mencionando el vector tangente unitario, el cual es:
 
-    $$
-    \mathbf{T}(t)=\dfrac{\mathbf{r}^{\prime}(t)}{|\mathbf{r}^{\prime}(t)|}
-    $$
+   $$
+   \mathbf{T}(t)=\dfrac{\mathbf{r}^{\prime}(t)}{|\mathbf{r}^{\prime}(t)|}
+   $$
 
-    Teorema: Si $\mathbf{r}(t)=\langle x_1(t),x_2(t),x_3(t) \rangle=x_1(t)\hat{i}+x_2(t)\hat{j}+x_3(t)\hat{k}$, donde $x_1$,$x_2$ y $x_3$ son funciones derivables, entonces:
+   Teorema: Si $\mathbf{r}(t)=\langle x_1(t),x_2(t),x_3(t) \rangle=x_1(t)\hat{i}+x_2(t)\hat{j}+x_3(t)\hat{k}$, donde $x_1$,$x_2$ y $x_3$ son funciones derivables, entonces:
 
-    $$
-    \mathbf{r}^{\prime}=\langle x_1^{\prime}(t),x_2^{\prime}(t),x_3^{\prime}(t) \rangle=x_1^{\prime}(t)\hat{i}+x_2^{\prime}(t)\hat{j}+x_3^{\prime}(t)\hat{k}
-    $$
+   $$
+   \mathbf{r}^{\prime}=\langle x_1^{\prime}(t),x_2^{\prime}(t),x_3^{\prime}(t) \rangle=x_1^{\prime}(t)\hat{i}+x_2^{\prime}(t)\hat{j}+x_3^{\prime}(t)\hat{k}
+   $$
 
 2. Integrales: La integral definida de una función vectorial continua $\mathbf{r}(t)$ puede definirse casi de igual forma que las funciones con valoresm salvo que la integral es un vector. Y se puede expresar la integral de $\mathbf{r}$ en términos de las integrales de sus funciones componentes $x_1$,$x_2$ y $x_3$ como sigue:
 
-    $$
-    \begin{aligned}
-    \int_a^b \mathbf{r}(t)dt & = \lim_{n \rightarrow \infty} \sum_{i=1}^n \mathbf{r}(t_i^{*})\Delta t \\\\
-    & = \lim_{n\rightarrow \infty} \left[ \left( \sum_{i=1}^n x_1(t_i^{\*})\Delta t \right)\hat{i}+\left( \sum_{i=1}^n x_2(t_i^{\*})\Delta t \right)\hat{j}+\left( \sum_{i=1}^n x_3(t_i^{\*})\Delta t \right)\hat{k} \right]
-    \end{aligned}
-    $$
+   $$
+   \begin{aligned}
+   \int_a^b \mathbf{r}(t)dt & = \lim_{n \rightarrow \infty} \sum_{i=1}^n \mathbf{r}(t_i^{*})\Delta t \\\\
+   & = \lim_{n\rightarrow \infty} \left[ \left( \sum_{i=1}^n x_1(t_i^{\*})\Delta t \right)\hat{i}+\left( \sum_{i=1}^n x_2(t_i^{\*})\Delta t \right)\hat{j}+\left( \sum_{i=1}^n x_3(t_i^{\*})\Delta t \right)\hat{k} \right]
+   \end{aligned}
+   $$
 
-    Quedando así:
+   Quedando así:
 
-    $$
-    \int_a^b \mathbf{r}(t)dt=\left( \int_a^b x_1(t)dt \right)\hat{i}+\left( \int_a^b x_2(t)dt \right)\hat{j}+\left( \int_a^b x_3(t)dt \right)\hat{k}
-    $$
+   $$
+   \int_a^b \mathbf{r}(t)dt=\left( \int_a^b x_1(t)dt \right)\hat{i}+\left( \int_a^b x_2(t)dt \right)\hat{j}+\left( \int_a^b x_3(t)dt \right)\hat{k}
+   $$
 
-    Extendiendo el teorema fundamental del cálculo a las funciones vectoriales continuas como sigue:
+   Extendiendo el teorema fundamental del cálculo a las funciones vectoriales continuas como sigue:
 
-    $$
-    \int_a^b \mathbf{r}(t)dt=\mathbf{R}(t)]\_{a}^b =\mathbf{R}(b)-\mathbf{R}(a)
-    $$
+   $$
+   \int_a^b \mathbf{r}(t)dt=\mathbf{R}(t)]\_{a}^b =\mathbf{R}(b)-\mathbf{R}(a)
+   $$
 
-    donde $\mathbf{R}$ es una antiderivada de $\mathbf{r}$, es decir $\mathbf{R}^{\prime}(t)=\mathbf{r}(t)$.
+   donde $\mathbf{R}$ es una antiderivada de $\mathbf{r}$, es decir $\mathbf{R}^{\prime}(t)=\mathbf{r}(t)$.
 
 #### Longitud de arco y curvatura
 
 1. Longitud de arco: Supóngase que la curva tiene la ecuación vectorial $\mathbf{r}(t)=\langle x_1(t),x_2(t),x_3(t) \rangle$, $a\leq t \leq b$ o de igual manera las ecuaciones paramétricas $x=x_1(t)$, $y=x_2(t)$ y $z=x_3(t)$, donde $x_1^{\prime}$,$x_2^{\prime}$ y $x_3^{\prime}$ son continuas. Si la curva es recorrida exactamente una vez cuando $t$ se incrementa de $a$ a $b$, es posible demostrar que su longitud es:
 
-    $$
-    \begin{aligned}
-    L&=\int_a^b \sqrt{\[x_1^{\prime}]^2+\[x_2^{\prime}]^2+\[x_3^{\prime}]^2} dt \\\\
-    &=\int_a^b \sqrt{\left(\dfrac{dx}{dt} \right)^2+\left(\dfrac{dy}{dt} \right)^2+\left(\dfrac{dz}{dt} \right)^2} dt
-    \end{aligned}
-    $$
+   $$
+   \begin{aligned}
+   L&=\int_a^b \sqrt{\[x_1^{\prime}]^2+\[x_2^{\prime}]^2+\[x_3^{\prime}]^2} dt \\\\
+   &=\int_a^b \sqrt{\left(\dfrac{dx}{dt} \right)^2+\left(\dfrac{dy}{dt} \right)^2+\left(\dfrac{dz}{dt} \right)^2} dt
+   \end{aligned}
+   $$
 
-    De forma más compacta:
+   De forma más compacta:
 
-    $$
-    L=\int_a^b |\mathbf{r}^{\prime}(t)|dt
-    $$
+   $$
+   L=\int_a^b |\mathbf{r}^{\prime}(t)|dt
+   $$
 
 2. Curvatura: La curvatura de $\mathbb{C}$ en un punto dado es una medida de lo rápido que la curva cambia de dirección en ese punto. Más especificamente se define como la magnitud de la razón de cambio del vector tangente unitario con respecto a la longitud de arco.
 
-    Definición: La curvatura de una curva es: $\kappa=\left | \dfrac{d\mathbf{T}}{ds} \right |=\dfrac{|\mathbf{T}^{\prime}(t)|}{\mathbf{r}^{\prime}(t)|}$
+   Definición: La curvatura de una curva es: $\kappa=\left | \dfrac{d\mathbf{T}}{ds} \right |=\dfrac{|\mathbf{T}^{\prime}(t)|}{\mathbf{r}^{\prime}(t)|}$
 
-    Teorema: La curvatura de la curva dada por la función vectorial $\mathbf{r}$ es: $$\kappa=\dfrac{|\mathbf{r}^{\prime}(t)\times \mathbf{r}^{''}(t)|}{|\mathbf{r}^{'}(t)|^3}$$
+   Teorema: La curvatura de la curva dada por la función vectorial $\mathbf{r}$ es: $$\kappa=\dfrac{|\mathbf{r}^{\prime}(t)\times \mathbf{r}^{''}(t)|}{|\mathbf{r}^{'}(t)|^3}$$
 
 ### Función Real de Variable Vectorial
 
@@ -229,9 +229,9 @@ $$
 
 La desigualdad $x+y+1\geq 0$ describe los puntos que se encuentran en o sobre la recta $y=-x-1$, mientras que $x\neq 1$ significa que los puntos sobre la recta $x=1$ deben excluirse del dominio.
 
--   Curvas de Nivel: Una curva de nivel $f(x,y)=k$ es el conjunto de todos los puntos en el dominio de $f$ en los que $f$ adopta un valor $k$ dado. Es decir que esto nos muestra en que parte de la gráfica de $f$ esta tiene una altura $k$.
+- Curvas de Nivel: Una curva de nivel $f(x,y)=k$ es el conjunto de todos los puntos en el dominio de $f$ en los que $f$ adopta un valor $k$ dado. Es decir que esto nos muestra en que parte de la gráfica de $f$ esta tiene una altura $k$.
 
--   Definición: Las **curvas de nivel** de una función $f$ de dos variables son las curvas con las ecuaciones $f(x,y)=k$, donde $k$ es una constante.
+- Definición: Las **curvas de nivel** de una función $f$ de dos variables son las curvas con las ecuaciones $f(x,y)=k$, donde $k$ es una constante.
 
 #### Límites y continuidad de una función real de variable vectorial
 

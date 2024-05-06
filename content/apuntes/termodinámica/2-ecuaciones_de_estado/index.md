@@ -1,22 +1,22 @@
 ---
-title: 'Ecuaciones de estado'
-description: 'Explicación de las ecuaciones de estado en termodinámica, su relación con diferentes procesos termodinámicos'
-lead: 'Un análisis detallado de las ecuaciones de estado en termodinámica y su papel en el modelado del comportamiento de sustancias en procesos isotérmicos, isobáricos e isocóricos'
+title: "Ecuaciones de estado"
+description: "Explicación de las ecuaciones de estado en termodinámica, su relación con diferentes procesos termodinámicos"
+lead: "Un análisis detallado de las ecuaciones de estado en termodinámica y su papel en el modelado del comportamiento de sustancias en procesos isotérmicos, isobáricos e isocóricos"
 date: 2022-02-01T02:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: false
 menu:
-    cursos:
-        parent: 'termodinámica'
+  cursos:
+    parent: "termodinámica"
 weight: 20
 toc: true
-contributors: ['Richard']
+contributors: ["Richard"]
 math: true
-types: ['matemática']
+types: ["matemática"]
 ---
 
 Las ecuaciones de estado modelan el comportamiento de una sustancia y se pueden representar de la siguiente manera:
@@ -29,9 +29,9 @@ $$
 
 donde:
 
--   $p$ es la presión.
--   $V$ es el volumen.
--   $T$ es la temperatura.
+- $p$ es la presión.
+- $V$ es el volumen.
+- $T$ es la temperatura.
 
 ## Ecuación de estado térmica
 
@@ -71,16 +71,16 @@ $$
 
 esta ecuación se demostrará mas adelante.
 
--   $U$ es la energía interna.
--   $C_v$ es la capacidad calorífica a $V=cte$.
+- $U$ es la energía interna.
+- $C_v$ es la capacidad calorífica a $V=cte$.
 
 ## Procesos Termodinámicos
 
--   Isotérmico ($T=cte$).
--   Isobárico ($p=cte$).
--   Isocórico ($V=cte$).
--   Politrópico ($C=cte$).
--   Adiabático $\left(C=\dfrac{\delta Q}{dT}=0\right)$.
+- Isotérmico ($T=cte$).
+- Isobárico ($p=cte$).
+- Isocórico ($V=cte$).
+- Politrópico ($C=cte$).
+- Adiabático $\left(C=\dfrac{\delta Q}{dT}=0\right)$.
 
 ## Proceso Isotérmico (T=cte)
 

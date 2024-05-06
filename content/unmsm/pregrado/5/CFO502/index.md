@@ -1,12 +1,12 @@
 ---
-title: 'Física Computacional II'
-lead: ''
-description: ''
-id: 'CFO502'
+title: "Física Computacional II"
+lead: ""
+description: ""
+id: "CFO502"
 credits: 4
-prerrequisites: ['Física Computacional I']
+prerrequisites: ["Física Computacional I"]
 semester: 5
-contributors: ['David', 'Alvaro']
+contributors: ["David", "Alvaro"]
 featured: false
 pdf: false
 math: false
@@ -16,25 +16,25 @@ images: []
 toc: true
 date: 2022-02-01T12:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 menu:
-    guias:
-        parent: 'pregrado'
+  guias:
+    parent: "pregrado"
 ---
 
 {{< infobox-alert text="En el curso de Física Computacional II, aprenderás a resolver problemas físicos utilizando métodos numéricos, como ecuaciones no lineales, ecuaciones diferenciales y análisis de muchos cuerpos, empleando Fortran 90 o Fortran 95." />}}
 
 🔎 El plan de estudios incluye los siguientes temas:
 
--   Errores de cálculo
--   Simulación del movimiento planetario
--   Introducción a la dinámica molecular
--   Métodos de Euler, Verlet, Runge-Kutta
--   Método de Montecarlo
--   Modelo de Ising
+- Errores de cálculo
+- Simulación del movimiento planetario
+- Introducción a la dinámica molecular
+- Métodos de Euler, Verlet, Runge-Kutta
+- Método de Montecarlo
+- Modelo de Ising
 
 ## Libros recomendados
 

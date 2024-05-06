@@ -1,12 +1,17 @@
 CHANGELOG.md
+LICENSE
+.gitkeep
 node_modules
 package-lock.json
 pnpm-lock.yaml
+
+# File types
 *.ico
 *.png
 *.jp*g
 *.*ignore
 *.svg
-LICENSE
-.gitkeep
 *.woff*
+
+# Special files
+layouts\partials\footer\esbuild.html

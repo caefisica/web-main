@@ -1,20 +1,20 @@
 ---
-title: 'Procesos de Matricula'
-description: ''
-lead: ''
+title: "Procesos de Matricula"
+description: ""
+lead: ""
 date: 2023-01-08T08:00:45+00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: false
 images: []
 menu:
-    guias:
-        parent: 'Facultad'
+  guias:
+    parent: "Facultad"
 weight: 1010
-contributors: ['Nelson']
+contributors: ["Nelson"]
 ---
 
 ## Matrícula

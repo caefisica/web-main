@@ -14,17 +14,14 @@
                         true
                     {{ else }}
                         false
-                    {{ end }}"
-                >
+                    {{ end }}">
                     {{ .Title }}
                 </button>
                 <div
                     class="collapse{{ if $active }}show{{ end }}"
-                    id="section-{{ md5 .Title }}"
-                >
+                    id="section-{{ md5 .Title }}">
                     <ul
-                        class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
-                    >
+                        class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                         {{ range .Pages }}
                             {{ if .IsNode }}
                                 {{ $active := in $currentPage.RelPermalink .RelPermalink }}
@@ -37,19 +34,16 @@
                                             true
                                         {{ else }}
                                             false
-                                        {{ end }}"
-                                    >
+                                        {{ end }}">
                                         {{ .Title }}
                                     </button>
                                     <div
                                         class="collapse{{ if $active }}
                                             show
                                         {{ end }}"
-                                        id="section-{{ md5 .Title }}"
-                                    >
+                                        id="section-{{ md5 .Title }}">
                                         <ul
-                                            class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
-                                        >
+                                            class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                             {{ range .Pages }}
                                                 {{ if .IsNode }}
                                                     {{ $active := in $currentPage.RelPermalink .RelPermalink }}
@@ -62,19 +56,16 @@
                                                                 true
                                                             {{ else }}
                                                                 false
-                                                            {{ end }}"
-                                                        >
+                                                            {{ end }}">
                                                             {{ .Title }}
                                                         </button>
                                                         <div
                                                             class="collapse{{ if $active }}
                                                                 show
                                                             {{ end }}"
-                                                            id="section-{{ md5 .Title }}"
-                                                        >
+                                                            id="section-{{ md5 .Title }}">
                                                             <ul
-                                                                class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
-                                                            >
+                                                                class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                                                 {{ range .Pages }}
                                                                     {{ $active := in $currentPage.RelPermalink .RelPermalink }}
                                                                     <li>

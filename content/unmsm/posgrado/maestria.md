@@ -1,17 +1,17 @@
 ---
-title: 'Maestría'
-description: ''
-lead: ''
+title: "Maestría"
+description: ""
+lead: ""
 date: 2021-07-01T11:40:11-03:00
 lastmod: 2021-07-01T11:40:11-03:00
 draft: false
 images: []
 menu:
-    guias:
-        parent: 'posgrado'
+  guias:
+    parent: "posgrado"
 weight: 1010
 toc: true
-contributors: ['David', 'Renzo']
+contributors: ["David", "Renzo"]
 ---
 
 ## Local
@@ -99,23 +99,23 @@ La duración es de 2 años (4 semestres).
 
 ### Materiales cuánticos
 
--   [Zientzia eta Teknologia Kuantikoak Masterra - master - UPV/EHU](https://www.ehu.eus/es/web/master/master-ciencia-tecnologia-cuanticas)
--   [Luis Foa Torres' home page](https://www.foatorres.com/)
--   [Puc Física - Departamento de Física - PUC RJ](https://www.fis.puc-rio.br/en/)
--   [Master of Science Physics - Physical Sciences in Mainz, Germany: Bachelor, Master, PHD in Physics](https://physics.uni-mainz.de/en/degrees/master-of-science-in-physics/)
--   [School of Physics and Astronomy](https://cse.umn.edu/physics)
--   [Master of Science](https://www.physik.fu-berlin.de/en/studium/master/index.html)
--   [Second-cycle Degree Overview](https://physics.dfa.unipd.it/index.php?id=143)
--   [Master of Science](https://physik.uni-koeln.de/index.php?id=171)
--   [Masternanobio](https://www.masternanobio.es/)
+- [Zientzia eta Teknologia Kuantikoak Masterra - master - UPV/EHU](https://www.ehu.eus/es/web/master/master-ciencia-tecnologia-cuanticas)
+- [Luis Foa Torres' home page](https://www.foatorres.com/)
+- [Puc Física - Departamento de Física - PUC RJ](https://www.fis.puc-rio.br/en/)
+- [Master of Science Physics - Physical Sciences in Mainz, Germany: Bachelor, Master, PHD in Physics](https://physics.uni-mainz.de/en/degrees/master-of-science-in-physics/)
+- [School of Physics and Astronomy](https://cse.umn.edu/physics)
+- [Master of Science](https://www.physik.fu-berlin.de/en/studium/master/index.html)
+- [Second-cycle Degree Overview](https://physics.dfa.unipd.it/index.php?id=143)
+- [Master of Science](https://physik.uni-koeln.de/index.php?id=171)
+- [Masternanobio](https://www.masternanobio.es/)
 
 ### Historia de la Física
 
--   [Breno Arsioli Moura - UFABC](https://web.archive.org/web/20230316141039/https://www.brenoam.com/)
--   [Ana Paula Bispo da Silva](https://www.ghtc.usp.br/apbs-cur.htm)
--   [History and Philosophy of Science](https://www.uu.nl/masters/en/history-and-philosophy-science)
+- [Breno Arsioli Moura - UFABC](https://web.archive.org/web/20230316141039/https://www.brenoam.com/)
+- [Ana Paula Bispo da Silva](https://www.ghtc.usp.br/apbs-cur.htm)
+- [History and Philosophy of Science](https://www.uu.nl/masters/en/history-and-philosophy-science)
 
 ## Escuelas
 
--   [Topological Matter School](https://tms-dipc.org/)
--   [Workshop "Correlations in Novel Quantum Materials" 2022](https://www.fkf.mpg.de/cnqm2022)
+- [Topological Matter School](https://tms-dipc.org/)
+- [Workshop "Correlations in Novel Quantum Materials" 2022](https://www.fkf.mpg.de/cnqm2022)

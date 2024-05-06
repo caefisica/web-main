@@ -31,8 +31,7 @@
                 data-srcset="{{ $imgSrcSet }}"
                 width="{{ $image.Width }}"
                 height="{{ $image.Height }}"
-                alt="{{ $.Text }}"
-            />
+                alt="{{ $.Text }}" />
             <noscript
                 ><img
                     class="figure-img img-fluid"
@@ -56,8 +55,7 @@
             data-src="{{ $image.Permalink }}"
             width="{{ $image.Width }}"
             height="{{ $image.Height }}"
-            alt="{{ $.Text }}"
-        />
+            alt="{{ $.Text }}" />
     {{ end -}}
 {{ else -}}
     {{ erroridf "image-not-found" "Image not found" -}}

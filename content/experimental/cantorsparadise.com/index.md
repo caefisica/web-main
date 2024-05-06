@@ -1,20 +1,20 @@
 ---
-title: 'The Unparalleled Genius of John von Neumann'
-description: 'La mayoría de los matemáticos demuestran lo que pueden, von Neumann demuestra lo que quiere.'
-lead: 'La mayoría de los matemáticos demuestran lo que pueden, von Neumann demuestra lo que quiere.'
+title: "The Unparalleled Genius of John von Neumann"
+description: "La mayoría de los matemáticos demuestran lo que pueden, von Neumann demuestra lo que quiere."
+lead: "La mayoría de los matemáticos demuestran lo que pueden, von Neumann demuestra lo que quiere."
 date: 2022-03-25T03:49:16-05:00
 lastmod: 2022-03-25T03:49:16-05:00
 draft: true
-images: ['cantorsparadise.com.png']
-link: 'https://www.cantorsparadise.com/the-unparalleled-genius-of-john-von-neumann-791bb9f42a2d'
+images: ["cantorsparadise.com.png"]
+link: "https://www.cantorsparadise.com/the-unparalleled-genius-of-john-von-neumann-791bb9f42a2d"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 100
 toc: false
 pinned: false
-types: ['biografía']
-functionalities: ['artículo']
+types: ["biografía"]
+functionalities: ["artículo"]
 ---
 
 ```text

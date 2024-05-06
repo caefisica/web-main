@@ -171,7 +171,7 @@ button#doks-versions {
     padding-left: 0.3125rem;
     font-size: $font-size-base * 0.75;
     color: $gray-700;
-    content: 'Ctrl + /';
+    content: "Ctrl + /";
     border: 1px solid $gray-300;
     border-radius: 0.25rem;
 }
@@ -201,7 +201,7 @@ button#doks-versions {
     .algolia-autocomplete
         .algolia-docsearch-suggestion
         .algolia-docsearch-suggestion--subcategory-column::after {
-        content: '/';
+        content: "/";
         margin-right: 0.25rem;
     }
 }
@@ -257,7 +257,7 @@ button#doks-versions {
 .navbar .menu-icon .navicon::before,
 .navbar .menu-icon .navicon::after {
     background: $navbar-light-color;
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     position: absolute;

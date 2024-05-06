@@ -1,20 +1,20 @@
 ---
-title: 'Reconocimiento de grados y títulos en Reino Unido'
-description: 'Establece las equivalencias entre el Perú y el Reino Unido'
-lead: 'Desde el 18 de octubre de 2021, Perú y el Reino Unido implementan el Tratado de Reconocimiento Mutuo de Grados y Títulos Universitarios. '
+title: "Reconocimiento de grados y títulos en Reino Unido"
+description: "Establece las equivalencias entre el Perú y el Reino Unido"
+lead: "Desde el 18 de octubre de 2021, Perú y el Reino Unido implementan el Tratado de Reconocimiento Mutuo de Grados y Títulos Universitarios. "
 date: 2022-03-25T13:30:21-05:00
 lastmod: 2022-03-25T13:30:21-05:00
 draft: false
-images: ['britishcouncil.pe']
-link: 'https://www.britishcouncil.pe/programas/educacion/educacion-superior/tratado-peru-uk'
+images: ["britishcouncil.pe"]
+link: "https://www.britishcouncil.pe/programas/educacion/educacion-superior/tratado-peru-uk"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 300
 toc: false
 pinned: false
-types: ['extranjero', 'universidad']
-functionalities: ['artículo']
+types: ["extranjero", "universidad"]
+functionalities: ["artículo"]
 ---
 
 ```text

@@ -58,7 +58,7 @@
    */
 
     /* font-family */
-    --ff-poppins: 'Jost';
+    --ff-poppins: "Jost";
 
     /* font-size */
     --fs-1: 38px;
@@ -195,7 +195,7 @@ article {
     z-index: 1;
 
     &::before {
-        content: '';
+        content: "";
         position: absolute;
         inset: 1px;
         background: #fff;
@@ -266,7 +266,7 @@ article {
     padding-bottom: 7px;
 
     &::after {
-        content: '';
+        content: "";
         position: absolute;
         bottom: 0;
         left: 0;
@@ -313,7 +313,7 @@ article {
     z-index: 1;
 
     &::before {
-        content: '';
+        content: "";
         position: absolute;
         inset: 1px;
         background: var(--bg-gradient-jet);
@@ -395,7 +395,7 @@ main {
     z-index: 1;
 
     &::before {
-        content: '';
+        content: "";
         position: absolute;
         inset: 1px;
         border-radius: inherit;
@@ -568,7 +568,7 @@ main {
     z-index: 1;
 
     &::before {
-        content: '';
+        content: "";
         position: absolute;
         inset: 1px;
         background: var(--bg-gradient-jet);
@@ -865,7 +865,7 @@ main {
     }
 
     &:not(:last-child)::before {
-        content: '';
+        content: "";
         position: absolute;
         top: -25px;
         left: -30px;
@@ -875,7 +875,7 @@ main {
     }
 
     &::after {
-        content: '';
+        content: "";
         position: absolute;
         top: 5px;
         left: -33px;
@@ -1063,7 +1063,7 @@ main {
     margin-bottom: 15px;
 
     &::before {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         left: 0;
@@ -1153,7 +1153,7 @@ main {
     z-index: 1;
 
     &::before {
-        content: '';
+        content: "";
         position: absolute;
         inset: 1px;
         border-radius: inherit;
@@ -1300,7 +1300,7 @@ textarea.form-input {
     transition: var(--transition-1);
 
     &::before {
-        content: '';
+        content: "";
         position: absolute;
         inset: 1px;
         background: var(--bg-gradient-jet);

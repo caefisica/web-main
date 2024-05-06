@@ -1,20 +1,20 @@
 ---
-title: 'Reconocimiento de grados y títulos'
-description: 'En caso vayas al extranjero y quieras validar tus grados y/o títulos'
-lead: 'En caso vayas al extranjero y quieras validar tus grados y/o títulos'
+title: "Reconocimiento de grados y títulos"
+description: "En caso vayas al extranjero y quieras validar tus grados y/o títulos"
+lead: "En caso vayas al extranjero y quieras validar tus grados y/o títulos"
 date: 2022-03-25T13:01:45-05:00
 lastmod: 2022-03-25T13:01:45-05:00
 draft: true
-images: ['sunedu.gob.pe-1']
-link: 'https://www.sunedu.gob.pe/procedimiento-de-reconocimiento-de-grados-y-titulos-extranjeros/'
+images: ["sunedu.gob.pe-1"]
+link: "https://www.sunedu.gob.pe/procedimiento-de-reconocimiento-de-grados-y-titulos-extranjeros/"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 220
 toc: false
 pinned: false
-types: ['extranjero']
-functionalities: ['artículo']
+types: ["extranjero"]
+functionalities: ["artículo"]
 ---
 
 ```text

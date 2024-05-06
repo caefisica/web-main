@@ -1,20 +1,20 @@
 ---
-title: 'Astrophysics Data System'
-description: 'Base de datos de más de 15 millones de publicaciones en astronomía, astrofísica, física y ciencia en general'
-lead: 'Base de datos de más de 15 millones de publicaciones en astronomía, astrofísica, física y ciencia en general'
+title: "Astrophysics Data System"
+description: "Base de datos de más de 15 millones de publicaciones en astronomía, astrofísica, física y ciencia en general"
+lead: "Base de datos de más de 15 millones de publicaciones en astronomía, astrofísica, física y ciencia en general"
 date: 2022-03-25T15:30:34-05:00
 lastmod: 2022-03-25T15:30:34-05:00
 draft: false
-images: ['adsabs_harvard_edu']
-link: 'https://ui.adsabs.harvard.edu/'
+images: ["adsabs_harvard_edu"]
+link: "https://ui.adsabs.harvard.edu/"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 310
 toc: false
 pinned: false
-types: ['astronomía']
-functionalities: ['web']
+types: ["astronomía"]
+functionalities: ["web"]
 ---
 
 ```text

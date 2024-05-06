@@ -8,18 +8,18 @@ Así que, hemos creado este Código de Conducta para establecer algunas pautas b
 
 Aquí hay algunos ejemplos de comportamientos que contribuyen a crear un entorno positivo:
 
--   Ser respetuoso de los diferentes puntos de vista y experiencias
--   Aceptar las críticas constructivas
--   Enfocarse en lo que es mejor para la comunidad
--   Mostrar empatía hacia otros miembros de la comunidad
+- Ser respetuoso de los diferentes puntos de vista y experiencias
+- Aceptar las críticas constructivas
+- Enfocarse en lo que es mejor para la comunidad
+- Mostrar empatía hacia otros miembros de la comunidad
 
 Y aquí hay algunos comportamientos que no toleramos:
 
--   El uso de lenguaje o imágenes sexualizadas y atención o avances sexuales no deseados
--   _Trolling_, comentarios insultantes/despectivos y ataques personales o políticos
--   Acoso público o privado
--   Publicar información privada de otros, como una dirección física o electrónica, sin permiso explícito
--   Cualquier otra conducta que razonablemente podría considerarse inapropiada en un entorno profesional
+- El uso de lenguaje o imágenes sexualizadas y atención o avances sexuales no deseados
+- _Trolling_, comentarios insultantes/despectivos y ataques personales o políticos
+- Acoso público o privado
+- Publicar información privada de otros, como una dirección física o electrónica, sin permiso explícito
+- Cualquier otra conducta que razonablemente podría considerarse inapropiada en un entorno profesional
 
 ## Nuestras Responsabilidades
 
@@ -41,9 +41,9 @@ Los mantenedores del proyecto que no sigan o hagan cumplir el Código de Conduct
 
 El actual Comité de Ética consiste de:
 
--   David Duran ([david@caefisica.com](mailto:david@caefisica.com))
--   Andrea Palacios
--   Liuba Ramos
+- David Duran ([david@caefisica.com](mailto:david@caefisica.com))
+- Andrea Palacios
+- Liuba Ramos
 
 Puedes contactar a los miembros del Comité de Ética de forma individual o colectiva. Ten en cuenta que si contactas a los miembros individualmente, otros miembros aún pueden involucrarse en la resolución del problema.
 

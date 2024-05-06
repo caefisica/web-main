@@ -1,5 +1,5 @@
 ---
-title: 'Teoría General de la Relatividad'
+title: "Teoría General de la Relatividad"
 draft: true
 ---
 

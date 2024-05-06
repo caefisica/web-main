@@ -1,18 +1,18 @@
 ---
-title: 'Biblioteca digital'
-description: ''
-lead: ''
+title: "Biblioteca digital"
+description: ""
+lead: ""
 date: 2022-02-01T12:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: true
 images: []
 menu:
-    pregrado:
-        parent: 'cursos'
+  pregrado:
+    parent: "cursos"
 toc: true
 weight: 900
 ---
@@ -42,8 +42,8 @@ weight: 900
 
 [Academic Torrents](https://academictorrents.com/) `torrent`:
 
--   Artículos científicos, cursos y sets de datos
--   Tamaño: grande
+- Artículos científicos, cursos y sets de datos
+- Tamaño: grande
 
 | Nombre | Idioma | Contenido | Tamaño |
 | --- | --- | --- | --- |

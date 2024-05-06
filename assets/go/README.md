@@ -4,11 +4,11 @@ Esta carpeta contiene scripts escritos en Go utilizados para automatizar tareas 
 
 1. Photographer Momo
 
-    - Markdown Link Extractor: una herramienta que extrae y guarda todos los enlaces de los archivos Markdown.
-    - Website Screenshot Generator: Generador de capturas de pantalla de sitios web.
+   - Markdown Link Extractor: una herramienta que extrae y guarda todos los enlaces de los archivos Markdown.
+   - Website Screenshot Generator: Generador de capturas de pantalla de sitios web.
 
 2. Formato de las tablas
-    - Table Formatter: Generador de capturas de pantalla de sitios web.
+   - Table Formatter: Generador de capturas de pantalla de sitios web.
 
 ## Instalación
 

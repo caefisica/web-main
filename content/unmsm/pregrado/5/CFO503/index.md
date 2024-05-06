@@ -1,12 +1,12 @@
 ---
-title: 'Mecánica Clásica II'
-lead: ''
-description: ''
-id: 'CFO503'
+title: "Mecánica Clásica II"
+lead: ""
+description: ""
+id: "CFO503"
 credits: 4
-prerrequisites: ['Mecánica Clásica I']
+prerrequisites: ["Mecánica Clásica I"]
 semester: 5
-contributors: ['Alvaro', 'Sergio']
+contributors: ["Alvaro", "Sergio"]
 featured: false
 pdf: false
 math: false
@@ -15,13 +15,13 @@ images: []
 toc: true
 date: 2022-02-01T13:00:00.000+00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 menu:
-    guias:
-        parent: 'pregrado'
+  guias:
+    parent: "pregrado"
 ---
 
 El curso se enfoca en el estudio de las formulaciones lagrangiana y hamiltoniana de la mecánica clásica. Estas formulaciones son fundamentales para comprender la física moderna y proporcionan una base sólida para el estudio de la mecánica cuántica y la física teórica avanzada.
@@ -30,13 +30,13 @@ El curso se enfoca en el estudio de las formulaciones lagrangiana y hamiltoniana
 
 El plan de estudios incluye los siguientes temas:
 
--   Principio de mínima acción
--   Ecuaciones de Euler-Lagrange
--   Transformaciones de coordenadas generalizadas
--   Funciones generadoras de transformaciones canónicas
--   Ecuaciones de Hamilton
--   Teoremas de conservación y simetrías
--   Mecánica Hamilton-Jacobi
+- Principio de mínima acción
+- Ecuaciones de Euler-Lagrange
+- Transformaciones de coordenadas generalizadas
+- Funciones generadoras de transformaciones canónicas
+- Ecuaciones de Hamilton
+- Teoremas de conservación y simetrías
+- Mecánica Hamilton-Jacobi
 
 ## Libros recomendados
 

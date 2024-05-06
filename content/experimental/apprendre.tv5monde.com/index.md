@@ -1,20 +1,20 @@
 ---
-title: 'Apprendre Le Français'
-description: 'Cursos de francés en español'
-lead: 'Cursos de francés en español de varios niveles hasta avanzado.'
+title: "Apprendre Le Français"
+description: "Cursos de francés en español"
+lead: "Cursos de francés en español de varios niveles hasta avanzado."
 date: 2022-03-25T20:10:44-05:00
 lastmod: 2022-03-25T20:10:44-05:00
 draft: false
-images: ['apprendre.tv5monde.com.png']
-link: 'https://apprendre.tv5monde.com/es'
+images: ["apprendre.tv5monde.com.png"]
+link: "https://apprendre.tv5monde.com/es"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 490
 toc: false
 pinned: false
-types: ['curso', 'extranjero']
-functionalities: ['web']
+types: ["curso", "extranjero"]
+functionalities: ["web"]
 ---
 
 ```text
