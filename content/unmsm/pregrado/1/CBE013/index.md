@@ -1,12 +1,12 @@
 ---
-title: 'Física I'
+title: "Física I"
 lead: "Este curso, anteriormente conocido como 'Física General I', cubre los principios fundamentales de la Mecánica Newtoniana"
 description: "Este curso, anteriormente conocido como 'Física General I', cubre los principios fundamentales de la Mecánica Newtoniana"
-id: 'CBE013'
+id: "CBE013"
 credits: 2
-prerrequisites: ['No aplica']
+prerrequisites: ["No aplica"]
 semester: 1
-contributors: ['Sergio', 'David']
+contributors: ["Sergio", "David"]
 featured: true
 pdf: true
 math: false
@@ -16,13 +16,13 @@ images: []
 toc: true
 date: 2022-05-02T00:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 menu:
-    guias:
-        parent: 'pregrado'
+  guias:
+    parent: "pregrado"
 ---
 
 {{< infobox-alert text="En este curso verás de forma rápida los conceptos básicos de la mecánica newtoniana. Puede que ya estés familiarizado con varios de estos temas." />}}
@@ -31,12 +31,12 @@ Este curso, que solía llevar el nombre de "Física General I", es actualmente c
 
 En cuanto al plan de estudios, se cubren los siguientes temas generalmente:
 
--   **Fundamentos de cálculo**: Se estudian funciones escalares y vectoriales, límites, derivadas e integrales, y su aplicación en la física.
--   **Álgebra vectorial y sistemas de coordenadas**: Se aborda el manejo de vectores, operaciones con ellos y distintos sistemas de coordenadas (cartesianas, polares, cilíndricas y esféricas).
--   **Cinemática y dinámica**: Se estudian conceptos fundamentales como la posición, desplazamiento, velocidad, aceleración, y las leyes de Newton.
--   **Trabajo y energía**: Se abordan conceptos de trabajo, potencia, energía cinética y potencial, y los principios de conservación de la energía. Verás esto con mayor profundidad en Mecánica Clásica I y II.
--   **Mecánica rotacional y equilibrio**: Se examinan conceptos como el centro de masa y gravedad, torque, momento angular y las condiciones para el equilibrio mecánico. Verás esto con mayor profundidad en Mecánica Clásica I (ciclo IV) y II (ciclo V).
--   **Ondas y acústica**: Se estudian las propiedades y comportamiento de las ondas, el sonido y la luz, incluyendo la reflexión, refracción y dispersión de la luz. Verás esto con mayor profundidad en Física Moderna y Óptica (ciclo V).
+- **Fundamentos de cálculo**: Se estudian funciones escalares y vectoriales, límites, derivadas e integrales, y su aplicación en la física.
+- **Álgebra vectorial y sistemas de coordenadas**: Se aborda el manejo de vectores, operaciones con ellos y distintos sistemas de coordenadas (cartesianas, polares, cilíndricas y esféricas).
+- **Cinemática y dinámica**: Se estudian conceptos fundamentales como la posición, desplazamiento, velocidad, aceleración, y las leyes de Newton.
+- **Trabajo y energía**: Se abordan conceptos de trabajo, potencia, energía cinética y potencial, y los principios de conservación de la energía. Verás esto con mayor profundidad en Mecánica Clásica I y II.
+- **Mecánica rotacional y equilibrio**: Se examinan conceptos como el centro de masa y gravedad, torque, momento angular y las condiciones para el equilibrio mecánico. Verás esto con mayor profundidad en Mecánica Clásica I (ciclo IV) y II (ciclo V).
+- **Ondas y acústica**: Se estudian las propiedades y comportamiento de las ondas, el sonido y la luz, incluyendo la reflexión, refracción y dispersión de la luz. Verás esto con mayor profundidad en Física Moderna y Óptica (ciclo V).
 
 ## Libros recomendados
 

@@ -1,12 +1,12 @@
 ---
-title: 'Mecánica Cuantica I'
-lead: 'Explora los fundamentos de la mecánica cuántica'
-description: 'Con temas como superposición, mecánica matricial y ondulatoria, este curso te ofrece una introducción exhaustiva a la mecánica cuántica para estudiantes con conocimientos previos en física moderna y álgebra lineal'
-id: 'CFO603'
+title: "Mecánica Cuantica I"
+lead: "Explora los fundamentos de la mecánica cuántica"
+description: "Con temas como superposición, mecánica matricial y ondulatoria, este curso te ofrece una introducción exhaustiva a la mecánica cuántica para estudiantes con conocimientos previos en física moderna y álgebra lineal"
+id: "CFO603"
 credits: 5
-prerrequisites: ['Física Moderna I', 'Álgebra Lineal']
+prerrequisites: ["Física Moderna I", "Álgebra Lineal"]
 semester: 6
-contributors: ['David', 'Richard']
+contributors: ["David", "Richard"]
 featured: false
 pdf: false
 math: false
@@ -16,13 +16,13 @@ images: []
 toc: true
 date: 2022-02-01T16:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 menu:
-    guias:
-        parent: 'pregrado'
+  guias:
+    parent: "pregrado"
 ---
 
 {{< infobox-alert text="Aunque los conceptos básicos de este curso no son extremadamente complicados, desarrollar una intuición sólida sobre los fenómenos cuánticos requiere de esfuerzo y dedicación constantes." />}}
@@ -31,11 +31,11 @@ A principios del siglo XX, diversos experimentos sorprendentes dejaron a los fí
 
 El plan de estudios incluye los siguientes temas:
 
--   Superposición
--   Mecánica matricial
--   Mecánica ondulatoria
--   Oscilador armónico unidimensional
--   Integrales de camino de Feynmann
+- Superposición
+- Mecánica matricial
+- Mecánica ondulatoria
+- Oscilador armónico unidimensional
+- Integrales de camino de Feynmann
 
 ## Libros recomendados
 

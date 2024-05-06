@@ -1,20 +1,20 @@
 ---
-title: 'Recurso de Termodinámica'
-description: 'CFO604 — 4 créditos'
-lead: 'CFO604 — 4 créditos'
+title: "Recurso de Termodinámica"
+description: "CFO604 — 4 créditos"
+lead: "CFO604 — 4 créditos"
 date: 2022-02-01T02:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: false
 menu:
-    cursos:
-        parent: 'termodinámica'
+  cursos:
+    parent: "termodinámica"
 weight: 10
 toc: true
-contributors: ['Richard']
+contributors: ["Richard"]
 math: true
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: 'Cálculo II'
-lead: 'Domina el cálculo integral y sus aplicaciones en problemas físicos y geométricos'
-description: 'Una guía de estudio completa para el curso de Cálculo II, que incluye recursos de aprendizaje, libros recomendados, listas de reproducción y más'
-id: 'CBO204'
+title: "Cálculo II"
+lead: "Domina el cálculo integral y sus aplicaciones en problemas físicos y geométricos"
+description: "Una guía de estudio completa para el curso de Cálculo II, que incluye recursos de aprendizaje, libros recomendados, listas de reproducción y más"
+id: "CBO204"
 credits: 4
-prerrequisites: ['Cálculo I']
+prerrequisites: ["Cálculo I"]
 semester: 2
-contributors: ['Richard', 'Sergio']
+contributors: ["Richard", "Sergio"]
 featured: false
 pdf: true
 math: true
@@ -15,24 +15,24 @@ images: []
 toc: true
 date: 2022-02-01T02:00:00.000+00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 menu:
-    guias:
-        parent: 'pregrado'
+  guias:
+    parent: "pregrado"
 ---
 
 {{< infobox-alert text="Este curso aborda el cálculo integral, la operación inversa al cálculo diferencial de una función. Aprenderás distintas técnicas de integración y cómo aplicarlas en problemas físicos y geométricos." />}}
 
 El plan de estudios incluye los siguientes temas:
 
--   Integrales Indefinidas
--   Integrales Definidas
--   Aplicaciones de las Integrales definidas
--   Integración Numérica
--   Integrales impropias
+- Integrales Indefinidas
+- Integrales Definidas
+- Aplicaciones de las Integrales definidas
+- Integración Numérica
+- Integrales impropias
 
 ## Libros recomendados
 

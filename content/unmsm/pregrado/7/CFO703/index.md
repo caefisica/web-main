@@ -1,12 +1,12 @@
 ---
-title: 'Mecánica Cuántica II'
-lead: 'Profundiza en la mecánica cuántica aplicada a sistemas de dos cuerpos, muchos cuerpos, interacción radiación-materia y cuantización del campo electromagnético'
-description: 'Este curso aborda temas avanzados de la mecánica cuántica, incluyendo el problema de dos cuerpos, teoría de perturbaciones, problema de muchos cuerpos, matriz de densidad, scattering, fotones y átomos, operadores fermiónicos e información cuántica. Está diseñado para estudiantes que hayan completado la primera parte del curso (Mecánica Cuántica I) y cuenten con sólidos conocimientos en física moderna y álgebra lineal'
-id: 'CFO703'
+title: "Mecánica Cuántica II"
+lead: "Profundiza en la mecánica cuántica aplicada a sistemas de dos cuerpos, muchos cuerpos, interacción radiación-materia y cuantización del campo electromagnético"
+description: "Este curso aborda temas avanzados de la mecánica cuántica, incluyendo el problema de dos cuerpos, teoría de perturbaciones, problema de muchos cuerpos, matriz de densidad, scattering, fotones y átomos, operadores fermiónicos e información cuántica. Está diseñado para estudiantes que hayan completado la primera parte del curso (Mecánica Cuántica I) y cuenten con sólidos conocimientos en física moderna y álgebra lineal"
+id: "CFO703"
 credits: 5
-prerrequisites: ['Mecánica Cuántica I']
+prerrequisites: ["Mecánica Cuántica I"]
 semester: 7
-contributors: ['David']
+contributors: ["David"]
 featured: false
 pdf: false
 math: false
@@ -16,13 +16,13 @@ images: []
 toc: true
 date: 2023-04-11T16:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 menu:
-    guias:
-        parent: 'pregrado'
+  guias:
+    parent: "pregrado"
 ---
 
 {{< infobox-alert text="Se recomienda contar con una base sólida en mecánica cuántica y estar dispuesto a dedicar tiempo y esfuerzo para comprender los conceptos y aplicaciones de los temas avanzados que se abordarán en este curso." />}}

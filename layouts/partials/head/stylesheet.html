@@ -20,8 +20,7 @@
         rel="stylesheet"
         href="{{ $secureCSS.Permalink | relURL }}"
         integrity="{{ $secureCSS.Data.Integrity }}"
-        crossorigin="anonymous"
-    />
+        crossorigin="anonymous" />
 {{ end -}}
 
 {{ $noscript := resources.Get "scss/components/_noscript.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}

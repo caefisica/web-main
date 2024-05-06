@@ -1,22 +1,22 @@
 ---
-title: 'Simetría rotacional'
-description: 'Código — X créditos'
-lead: 'Código — X créditos'
+title: "Simetría rotacional"
+description: "Código — X créditos"
+lead: "Código — X créditos"
 date: 2023-03-25T02:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: false
 menu:
-    cursos:
-        parent: 'cuántica'
+  cursos:
+    parent: "cuántica"
 weight: 10
 toc: true
-contributors: ['David']
+contributors: ["David"]
 math: true
-types: ['física']
+types: ["física"]
 ---
 
 Objetivo: Establecer las herramientas para el análisis de la dinámica de un sistema de dos cuerpos.

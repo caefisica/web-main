@@ -1,20 +1,20 @@
 ---
-title: 'Physical Review Letters'
-description: 'Revista de física publicada por la American Physical Society.'
-lead: 'Revista de física publicada por la American Physical Society.'
+title: "Physical Review Letters"
+description: "Revista de física publicada por la American Physical Society."
+lead: "Revista de física publicada por la American Physical Society."
 date: 2022-03-25T15:34:15-05:00
 lastmod: 2022-03-25T15:34:15-05:00
 draft: false
-images: ['journals.aps.org']
-link: 'https://journals.aps.org/prl/'
+images: ["journals.aps.org"]
+link: "https://journals.aps.org/prl/"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 320
 toc: false
 pinned: false
-types: ['academia', 'investigación']
-functionalities: ['revisado por pares']
+types: ["academia", "investigación"]
+functionalities: ["revisado por pares"]
 ---
 
 ```text

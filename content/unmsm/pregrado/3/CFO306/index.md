@@ -1,12 +1,12 @@
 ---
-title: 'Física Computacional I'
-lead: 'Introducción a métodos numéricos y programación en Fortran aplicados a problemas físicos'
-description: 'Este curso ofrece una visión general de los métodos numéricos y la programación en Fortran, con el objetivo de enseñar a diseñar programas para resolver problemas y analizar los resultados obtenidos mediante métodos computacionales en diversos problemas físicos'
-id: 'CFO306'
+title: "Física Computacional I"
+lead: "Introducción a métodos numéricos y programación en Fortran aplicados a problemas físicos"
+description: "Este curso ofrece una visión general de los métodos numéricos y la programación en Fortran, con el objetivo de enseñar a diseñar programas para resolver problemas y analizar los resultados obtenidos mediante métodos computacionales en diversos problemas físicos"
+id: "CFO306"
 credits: 4
-prerrequisites: ['Cálculo I']
+prerrequisites: ["Cálculo I"]
 semester: 3
-contributors: ['Richard', 'David']
+contributors: ["Richard", "David"]
 featured: false
 pdf: false
 math: true
@@ -16,36 +16,36 @@ images: []
 toc: true
 date: 2022-02-01T00:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 menu:
-    guias:
-        parent: 'pregrado'
+  guias:
+    parent: "pregrado"
 ---
 
 {{< infobox-alert text="Este curso brinda una introducción a los métodos numéricos y la programación en Fortran, con el propósito de enseñar cómo diseñar programas para resolver problemas y analizar resultados mediante métodos computacionales aplicados a diversos problemas físicos." />}}
 
 El plan de estudios incluye los siguientes temas:
 
--   Definición de variables
--   Método de interpolación y extrapolación
-    -   Programación modular
-    -   Método de Bisección
-    -   Método de falsa posición
-    -   Método de Newton-Raphson
-    -   Método de secante
-    -   Interpolación de Lagrange
-    -   Interpolación de Newton
--   Integración numérica
-    -   Regla del trapecio
-    -   Regla de Simpson: $1/3$ y $3/8$
-    -   Método de Romberg
-    -   Método de Euler
--   Ecuaciones diferenciales
-    -   Método de Runge-Kutta
-    -   Método de Runge-Kutta para sistemas con múltiples variables dependientes
+- Definición de variables
+- Método de interpolación y extrapolación
+  - Programación modular
+  - Método de Bisección
+  - Método de falsa posición
+  - Método de Newton-Raphson
+  - Método de secante
+  - Interpolación de Lagrange
+  - Interpolación de Newton
+- Integración numérica
+  - Regla del trapecio
+  - Regla de Simpson: $1/3$ y $3/8$
+  - Método de Romberg
+  - Método de Euler
+- Ecuaciones diferenciales
+  - Método de Runge-Kutta
+  - Método de Runge-Kutta para sistemas con múltiples variables dependientes
 
 ## Libros recomendados
 

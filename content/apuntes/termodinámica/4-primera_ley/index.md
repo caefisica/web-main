@@ -1,22 +1,22 @@
 ---
-title: 'Primera ley'
-description: 'Explicación de la Primera Ley de la Termodinámica, su aplicación en sistemas cerrados y abiertos, y cómo se relaciona con funciones termodinámicas y capacidades caloríficas a volumen y presión constantes.'
-lead: 'Estudio de la Primera Ley de la Termodinámica, que establece la conservación de la energía calorífica, y su aplicación en distintos sistemas y condiciones termodinámicas, incluyendo el cálculo de capacidades caloríficas y funciones de estado.'
+title: "Primera ley"
+description: "Explicación de la Primera Ley de la Termodinámica, su aplicación en sistemas cerrados y abiertos, y cómo se relaciona con funciones termodinámicas y capacidades caloríficas a volumen y presión constantes."
+lead: "Estudio de la Primera Ley de la Termodinámica, que establece la conservación de la energía calorífica, y su aplicación en distintos sistemas y condiciones termodinámicas, incluyendo el cálculo de capacidades caloríficas y funciones de estado."
 date: 2022-02-01T02:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: false
 menu:
-    cursos:
-        parent: 'termodinámica'
+  cursos:
+    parent: "termodinámica"
 weight: 20
 toc: true
-contributors: ['Richard']
+contributors: ["Richard"]
 math: true
-types: ['matemática']
+types: ["matemática"]
 ---
 
 Conservación de la energía calorífica:
@@ -78,145 +78,145 @@ Si $V=\text{cte}$: $C_v=[C]_v$
 
 Si $p=\text{cte}$: $C_p=[C]_p$
 
--   Para $C=C_v$, donde el volumen es constante y $dV=0$:
+- Para $C=C_v$, donde el volumen es constante y $dV=0$:
 
-    Si $U=U(T,V)$:
+  Si $U=U(T,V)$:
 
-    $$
-    \begin{align}
-      \delta Q&=\left(\frac{\partial U}{\partial T}\right)_V dT+\left( \frac{\partial U}{\partial V}\right)_T dV+pdV \\\\
-      \delta Q&=\left(\frac{\partial U}{\partial T}\right)_V dT+\left[\left( \frac{\partial U}{\partial V}\right)_T+p\right]dV
-      \label{ecuación 8}
-    \end{align}
-    $$
+  $$
+  \begin{align}
+    \delta Q&=\left(\frac{\partial U}{\partial T}\right)_V dT+\left( \frac{\partial U}{\partial V}\right)_T dV+pdV \\\\
+    \delta Q&=\left(\frac{\partial U}{\partial T}\right)_V dT+\left[\left( \frac{\partial U}{\partial V}\right)_T+p\right]dV
+    \label{ecuación 8}
+  \end{align}
+  $$
 
-    Si $C=C_v$, donde el volumen es constante. Sabemos que la capacidad calorífica esta definida de forma general como:
+  Si $C=C_v$, donde el volumen es constante. Sabemos que la capacidad calorífica esta definida de forma general como:
 
-    $$
-    \begin{align}
-      C=\dfrac{dQ}{dT}
-      \label{ecuación 9}
-    \end{align}
-    $$
+  $$
+  \begin{align}
+    C=\dfrac{dQ}{dT}
+    \label{ecuación 9}
+  \end{align}
+  $$
 
-    Y para el volumen constante reemplazamos $\eqref{ecuación 8}$ en $\eqref{ecuación 9}$:
+  Y para el volumen constante reemplazamos $\eqref{ecuación 8}$ en $\eqref{ecuación 9}$:
 
-    $$
-    \begin{align}
-      C_v&= \left[\frac{\left(\frac{\partial U}{\partial T}\right)_V dT+\left[\left( \frac{\partial U}{\partial V}\right)_T+p\right]dV}{dT}\right]_V \\\\
-      C_v&= \left(\frac{\partial U}{\partial T}\right)_V \frac{dT}{dT}+\left[ \left(\frac{\partial U}{\partial V}\right)_T+p\right] \underbrace{\frac{dV}{dT}}\_{0} \\\\
-      C_v&=\left(\frac{\partial U}{\partial T}\right)_V \dfrac{dT}{dT}=\left(\frac{\partial U}{\partial T}\right)_V
-    \end{align}
-    $$
+  $$
+  \begin{align}
+    C_v&= \left[\frac{\left(\frac{\partial U}{\partial T}\right)_V dT+\left[\left( \frac{\partial U}{\partial V}\right)_T+p\right]dV}{dT}\right]_V \\\\
+    C_v&= \left(\frac{\partial U}{\partial T}\right)_V \frac{dT}{dT}+\left[ \left(\frac{\partial U}{\partial V}\right)_T+p\right] \underbrace{\frac{dV}{dT}}\_{0} \\\\
+    C_v&=\left(\frac{\partial U}{\partial T}\right)_V \dfrac{dT}{dT}=\left(\frac{\partial U}{\partial T}\right)_V
+  \end{align}
+  $$
 
--   Calcular $U$ si se tiene $C_v$ donde $dV=0$:
+- Calcular $U$ si se tiene $C_v$ donde $dV=0$:
 
-    Si obtenemos la derivada total de la energía interna donde $U=U(T,V)$, obtenemos:
+  Si obtenemos la derivada total de la energía interna donde $U=U(T,V)$, obtenemos:
 
-    $$
-    \begin{align}
-      dU=\left( \frac{\partial U}{\partial T} \right)_V dT+\left( \frac{\partial U}{\partial V} \right)_T dV
-    \end{align}
-    $$
+  $$
+  \begin{align}
+    dU=\left( \frac{\partial U}{\partial T} \right)_V dT+\left( \frac{\partial U}{\partial V} \right)_T dV
+  \end{align}
+  $$
 
-    Como el volumen es constante, entonces $dV=0$, quedándonos así:
+  Como el volumen es constante, entonces $dV=0$, quedándonos así:
 
-    $$
-    \begin{align}
-        dU=\left( \frac{\partial U}{\partial T} \right)_V dT
-    \end{align}
-    $$
+  $$
+  \begin{align}
+      dU=\left( \frac{\partial U}{\partial T} \right)_V dT
+  \end{align}
+  $$
 
-    Pero sabemos que la capacidad calorífica a volumen constante esta definida como:
+  Pero sabemos que la capacidad calorífica a volumen constante esta definida como:
 
-    $$
-    \begin{align}
-        C_v=\left( \frac{\partial U}{\partial T} \right)_V dT
-    \end{align}
-    $$
+  $$
+  \begin{align}
+      C_v=\left( \frac{\partial U}{\partial T} \right)_V dT
+  \end{align}
+  $$
 
-    Reemplazamos e integramos:
+  Reemplazamos e integramos:
 
-    $$
-    \begin{align*}
-        dU&=C_v dT \\\\
-        \int_{U_0}^{U} dU&=\int_{T_0}^T C_v dT \\\\
-        U-U_0&=\int_{T_0}^T C_v dT \\\\
-        U&=U_0+\int_{T_0}^T C_v dT
-    \end{align*}
-    $$
+  $$
+  \begin{align*}
+      dU&=C_v dT \\\\
+      \int_{U_0}^{U} dU&=\int_{T_0}^T C_v dT \\\\
+      U-U_0&=\int_{T_0}^T C_v dT \\\\
+      U&=U_0+\int_{T_0}^T C_v dT
+  \end{align*}
+  $$
 
--   Calcular $C=C_p$ donde la presión es constante y $dp=0$:
+- Calcular $C=C_p$ donde la presión es constante y $dp=0$:
 
-    Si $U=U(T,V)$:
+  Si $U=U(T,V)$:
 
-    $$
-    \begin{align}
-      \delta Q&=\left(\frac{\partial U}{\partial T}\right)_V dT+\left( \frac{\partial U}{\partial V}\right)_T dV+pdV \\\\
-      \delta Q&=\left(\frac{\partial U}{\partial T}\right)_V dT+\left[\left( \frac{\partial U}{\partial V}\right)_T+p\right]dV
-      \label{ec36}
-    \end{align}
-    $$
+  $$
+  \begin{align}
+    \delta Q&=\left(\frac{\partial U}{\partial T}\right)_V dT+\left( \frac{\partial U}{\partial V}\right)_T dV+pdV \\\\
+    \delta Q&=\left(\frac{\partial U}{\partial T}\right)_V dT+\left[\left( \frac{\partial U}{\partial V}\right)_T+p\right]dV
+    \label{ec36}
+  \end{align}
+  $$
 
-    Si $C_p$ esta definido como:
+  Si $C_p$ esta definido como:
 
-    $$
-    \begin{align}
-        C_p=\left[ \dfrac{\delta Q}{dT}\right]_p
-        \label{ec37}
-    \end{align}
-    $$
+  $$
+  \begin{align}
+      C_p=\left[ \dfrac{\delta Q}{dT}\right]_p
+      \label{ec37}
+  \end{align}
+  $$
 
-    Reemplazamos $\eqref{ec36}$ en $\eqref{ec37}$:
+  Reemplazamos $\eqref{ec36}$ en $\eqref{ec37}$:
 
-    $$
-    \begin{align}
-      C_p&=\left[ \dfrac{ \displaystyle \left(\frac{\partial U}{\partial T}\right)_V dT+\left[\left( \frac{\partial U}{\partial V}\right)_T+p\right]dV}{dT}\right]_p \\\\
-      C_p&=\left[ \left(\frac{\partial U}{\partial T}\right)_V+\left[\left(\frac{\partial U}{\partial V}\right)_T+p\right]\dfrac{dV}{dT}\right]_p
-    \end{align}
-    $$
+  $$
+  \begin{align}
+    C_p&=\left[ \dfrac{ \displaystyle \left(\frac{\partial U}{\partial T}\right)_V dT+\left[\left( \frac{\partial U}{\partial V}\right)_T+p\right]dV}{dT}\right]_p \\\\
+    C_p&=\left[ \left(\frac{\partial U}{\partial T}\right)_V+\left[\left(\frac{\partial U}{\partial V}\right)_T+p\right]\dfrac{dV}{dT}\right]_p
+  \end{align}
+  $$
 
-    Si $\displaystyle C_v=\left( \frac{\partial U}{\partial T}\right)_V$:
+  Si $\displaystyle C_v=\left( \frac{\partial U}{\partial T}\right)_V$:
 
-    $$
-    \begin{align}
-        C_p&=C_v\left[ \left[\left(\frac{\partial U}{\partial V}\right)_T+p\right]\dfrac{dV}{dT}\right]_p
-        \label{ec40}
-    \end{align}
-    $$
+  $$
+  \begin{align}
+      C_p&=C_v\left[ \left[\left(\frac{\partial U}{\partial V}\right)_T+p\right]\dfrac{dV}{dT}\right]_p
+      \label{ec40}
+  \end{align}
+  $$
 
-    Si consideramos al volumen como una función que depende de $T$ y $p$:
+  Si consideramos al volumen como una función que depende de $T$ y $p$:
 
-    $$
-    \begin{align}
-        V=V(T,p)
-    \end{align}
-    $$
+  $$
+  \begin{align}
+      V=V(T,p)
+  \end{align}
+  $$
 
-    hallamos su diferencial total:
+  hallamos su diferencial total:
 
-    $$
-    \begin{align}
-      dV=\left(\frac{\partial V}{\partial T}\right)_p+\left(\frac{\partial V}{\partial p}\right)_T dp
-    \end{align}
-    $$
+  $$
+  \begin{align}
+    dV=\left(\frac{\partial V}{\partial T}\right)_p+\left(\frac{\partial V}{\partial p}\right)_T dp
+  \end{align}
+  $$
 
-    en el caso cuando la presión es constante queda:
+  en el caso cuando la presión es constante queda:
 
-    $$
-    \begin{align}
-        dV=\left( \frac{\partial V}{\partial T}\right)_p
-        \label{ec43}
-    \end{align}
-    $$
+  $$
+  \begin{align}
+      dV=\left( \frac{\partial V}{\partial T}\right)_p
+      \label{ec43}
+  \end{align}
+  $$
 
-    Reemplazamos $\eqref{ec40}$ en $\eqref{ec43}$:
+  Reemplazamos $\eqref{ec40}$ en $\eqref{ec43}$:
 
-    $$
-    \begin{align}
-        C_p=C_v+\left[ \left[\left(\frac{\partial U}{\partial V}\right)_T+p\right]\dfrac{\partial V}{dT}\right]_p
-    \end{align}
-    $$
+  $$
+  \begin{align}
+      C_p=C_v+\left[ \left[\left(\frac{\partial U}{\partial V}\right)_T+p\right]\dfrac{\partial V}{dT}\right]_p
+  \end{align}
+  $$
 
 ## Primera ley para un sistema abierto
 

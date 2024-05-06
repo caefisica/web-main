@@ -1,15 +1,15 @@
 ---
-title: 'Física Médica'
-emoji: ''
-description: ''
-lead: ''
+title: "Física Médica"
+emoji: ""
+description: ""
+lead: ""
 date: 2022-10-20T14:44:30-05:00
 lastmod: 2022-10-20T14:44:30-05:00
 images: []
-thumbnail: ''
-contributors: ['David']
-author_id: 'david'
-tags: ['especialización']
+thumbnail: ""
+contributors: ["David"]
+author_id: "david"
+tags: ["especialización"]
 toc: true
 weight: 100
 pinned: false

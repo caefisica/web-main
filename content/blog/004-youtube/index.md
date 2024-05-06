@@ -1,14 +1,14 @@
 ---
-title: 'Youtube'
-description: 'Porque a veces uno no sabe en dónde buscar.'
+title: "Youtube"
+description: "Porque a veces uno no sabe en dónde buscar."
 lead: Porque a veces uno no sabe en dónde buscar. Esta lista no es necesariamente académica, para ello véase la sección dentro de cada curso."
 date: 2022-01-30T03:19:42-05:00
 lastmod: 2022-02-03T09:19:42.000+01:00
-images: ['https://i.imgur.com/GgoqSI0.png']
-thumbnail: ['https://i.imgur.com/GgoqSI0.png']
-contributors: ['David']
-author_id: 'david'
-tags: ['lista']
+images: ["https://i.imgur.com/GgoqSI0.png"]
+thumbnail: ["https://i.imgur.com/GgoqSI0.png"]
+contributors: ["David"]
+author_id: "david"
+tags: ["lista"]
 toc: true
 weight: 40
 ---
@@ -71,78 +71,78 @@ weight: 40
 
 ### Inglés
 
--   [Kathy Loves Physics & History](https://www.youtube.com/c/KathyLovesPhysicsHistory/): eventos históricos alrededor de la física.
--   [moderndaymath](https://www.youtube.com/c/moderndaymath/): historia de matemáticos.
--   [OverSimplified](https://www.youtube.com/user/Webzwithaz): historia general.
--   [UsefulCharts](https://www.youtube.com/c/UsefulCharts/): historia general.
--   [SmartHistory](https://www.youtube.com/user/smarthistoryvideos): historia universal.
+- [Kathy Loves Physics & History](https://www.youtube.com/c/KathyLovesPhysicsHistory/): eventos históricos alrededor de la física.
+- [moderndaymath](https://www.youtube.com/c/moderndaymath/): historia de matemáticos.
+- [OverSimplified](https://www.youtube.com/user/Webzwithaz): historia general.
+- [UsefulCharts](https://www.youtube.com/c/UsefulCharts/): historia general.
+- [SmartHistory](https://www.youtube.com/user/smarthistoryvideos): historia universal.
 
 ### Español
 
--   [Pero esa es otra historia](https://www.youtube.com/c/PeroesoesotraHistoria/): Historia universal
+- [Pero esa es otra historia](https://www.youtube.com/c/PeroesoesotraHistoria/): Historia universal
 
 ## Modelado 3D
 
 ### Inglés
 
--   [Blender Guru](https://www.youtube.com/user/AndrewPPrice)
+- [Blender Guru](https://www.youtube.com/user/AndrewPPrice)
 
 ## Neurociencia
 
 ### Español
 
--   [Antroporama](https://www.youtube.com/c/AntroporamaDivulgacion/)
+- [Antroporama](https://www.youtube.com/c/AntroporamaDivulgacion/)
 
 ## Biología
 
 ### Español
 
--   [FlipYourLearning](https://www.youtube.com/c/FlipYourLearning/)
+- [FlipYourLearning](https://www.youtube.com/c/FlipYourLearning/)
 
 ## Programación
 
 ### Inglés
 
--   [freeCodeCamp.org](https://www.youtube.com/c/Freecodecamp/videos): múltiples lenguajes, especialmente enfocado en desarrollo web.
--   [NetworkChuck](https://www.youtube.com/user/NetworkChuck): hacking ético.
--   [LiveOverflow](https://www.youtube.com/c/LiveOverflow/): Exploits.
+- [freeCodeCamp.org](https://www.youtube.com/c/Freecodecamp/videos): múltiples lenguajes, especialmente enfocado en desarrollo web.
+- [NetworkChuck](https://www.youtube.com/user/NetworkChuck): hacking ético.
+- [LiveOverflow](https://www.youtube.com/c/LiveOverflow/): Exploits.
 
 ### Español
 
--   [Python Club for Physicists](https://www.youtube.com/channel/UCze8vzQLcplutz0nWDNjFCA/): Python enfocado a física.
--   [Pelado Nerd](https://www.youtube.com/c/PeladoNerd/)
+- [Python Club for Physicists](https://www.youtube.com/channel/UCze8vzQLcplutz0nWDNjFCA/): Python enfocado a física.
+- [Pelado Nerd](https://www.youtube.com/c/PeladoNerd/)
 
 ## Filosofía
 
 ### Español
 
--   [Darin McNabb](https://www.youtube.com/user/darinmex)
--   [Ernesto Castro](https://www.youtube.com/user/holamellamololillo)
+- [Darin McNabb](https://www.youtube.com/user/darinmex)
+- [Ernesto Castro](https://www.youtube.com/user/holamellamololillo)
 
 ## Entrevistas
 
 ### Inglés
 
--   [Web of Stories](https://www.youtube.com/user/webofstories): científicos.
--   [Lex Fridman](https://www.youtube.com/c/lexfridman): matemáticas, inteligencia artificial.
--   [Machine Learning Street Talk](https://www.youtube.com/c/MachineLearningStreetTalk/): Machine learning.
+- [Web of Stories](https://www.youtube.com/user/webofstories): científicos.
+- [Lex Fridman](https://www.youtube.com/c/lexfridman): matemáticas, inteligencia artificial.
+- [Machine Learning Street Talk](https://www.youtube.com/c/MachineLearningStreetTalk/): Machine learning.
 
 ## Entretenimiento
 
 ### Inglés
 
--   [LEMMiNO](https://www.youtube.com/user/Top10Memes): Documentales bien hechos.
--   [Internet Historian](https://www.youtube.com/c/InternetHistorian/)
--   [Captain Disillusion](https://www.youtube.com/user/CaptainDisillusion): VFX y escepticismo.
--   [VFX](https://www.youtube.com/c/mrdodobird/)
--   [Dogen](https://www.youtube.com/user/Dogen): Lenguaje japonés.
--   [Mattias Pilhede](https://www.youtube.com/user/MattPilh): animaciones cortas.
--   [Joma Tech](https://www.youtube.com/c/JomaOppa/): Alrededor de programación.
+- [LEMMiNO](https://www.youtube.com/user/Top10Memes): Documentales bien hechos.
+- [Internet Historian](https://www.youtube.com/c/InternetHistorian/)
+- [Captain Disillusion](https://www.youtube.com/user/CaptainDisillusion): VFX y escepticismo.
+- [VFX](https://www.youtube.com/c/mrdodobird/)
+- [Dogen](https://www.youtube.com/user/Dogen): Lenguaje japonés.
+- [Mattias Pilhede](https://www.youtube.com/user/MattPilh): animaciones cortas.
+- [Joma Tech](https://www.youtube.com/c/JomaOppa/): Alrededor de programación.
 
 ## Tecnología
 
 ### Inglés
 
--   [Y Combinator](https://www.youtube.com/c/ycombinator/): startups
--   [TechAltar](https://www.youtube.com/c/TechAltar/): Desde una perspectiva económica.
--   [Wendover Productions](https://www.youtube.com/c/Wendoverproductions/): Desde una perspectiva económica.
+- [Y Combinator](https://www.youtube.com/c/ycombinator/): startups
+- [TechAltar](https://www.youtube.com/c/TechAltar/): Desde una perspectiva económica.
+- [Wendover Productions](https://www.youtube.com/c/Wendoverproductions/): Desde una perspectiva económica.

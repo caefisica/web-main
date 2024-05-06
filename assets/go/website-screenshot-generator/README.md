@@ -25,7 +25,7 @@ Para utilizar este script, sigue estos pasos:
 2. Abra una ventana de terminal y navegue hasta el directorio que contiene el script y el archivo lists.txt.
 3. Ejecute el script ejecutando el siguiente comando:
 
-    `go ejecutar screenshot.go`
+   `go ejecutar screenshot.go`
 
 El script abrirá un navegador Chrome _headless_ y navegará a cada sitio web en el archivo lists.txt, tomará una captura de pantalla del sitio web, y guardará la captura de pantalla en una carpeta llamada _results_.
 

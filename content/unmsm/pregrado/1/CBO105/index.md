@@ -1,12 +1,12 @@
 ---
-title: 'Matemática Básica'
-lead: ''
-description: ''
-id: 'CBO105'
+title: "Matemática Básica"
+lead: ""
+description: ""
+id: "CBO105"
 credits: 4
-prerrequisites: ['No aplica']
+prerrequisites: ["No aplica"]
 semester: 1
-contributors: ['Sergio', 'David']
+contributors: ["Sergio", "David"]
 featured: false
 pdf: true
 math: false
@@ -16,24 +16,24 @@ images: []
 toc: true
 date: 2022-05-02T15:15:48+02:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 menu:
-    guias:
-        parent: 'pregrado'
+  guias:
+    parent: "pregrado"
 ---
 
 {{< infobox-alert text="Este curso se adentra en los conceptos de Álgebra superior, por lo que es esencial tener un dominio sólido de los fundamentos del Álgebra básica antes de empezar. Te recomendamos repasar estos temas como preparación para este curso." />}}
 
 El plan de estudios incluye generalmente los siguientes temas:
 
--   **Conceptos matemáticos fundamentales**: Lógica proposicional, operaciones de conjuntos, inducción, divisibilidad y números primos.
--   **Números reales y complejos**: Axiomas de números reales, ecuaciones, valor absoluto, teoría de números complejos.
--   **Funciones reales y complejas**: Interpretación de funciones, exponenciales y logaritmos complejos.
--   **Polinomios, matrices, sistemas lineales**: Operaciones con polinomios, matrices, solución de sistemas lineales.
--   **Estadística y probabilidad**: Recopilación de datos, distribuciones de frecuencias, medidas de dispersión.
+- **Conceptos matemáticos fundamentales**: Lógica proposicional, operaciones de conjuntos, inducción, divisibilidad y números primos.
+- **Números reales y complejos**: Axiomas de números reales, ecuaciones, valor absoluto, teoría de números complejos.
+- **Funciones reales y complejas**: Interpretación de funciones, exponenciales y logaritmos complejos.
+- **Polinomios, matrices, sistemas lineales**: Operaciones con polinomios, matrices, solución de sistemas lineales.
+- **Estadística y probabilidad**: Recopilación de datos, distribuciones de frecuencias, medidas de dispersión.
 
 ## Libros recomendados
 

@@ -1,8 +1,8 @@
 ---
-title: 'Biblioteca'
-lead: ''
-description: ''
-contributors: ['David']
+title: "Biblioteca"
+lead: ""
+description: ""
+contributors: ["David"]
 featured: false
 pdf: false
 math: false
@@ -12,13 +12,13 @@ toc: false
 images: []
 date: 2022-09-14T02:11:03-05:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 menu:
-    guias:
-        parent: 'pregrado'
+  guias:
+    parent: "pregrado"
 ---
 
 | Fecha    | Horario          |

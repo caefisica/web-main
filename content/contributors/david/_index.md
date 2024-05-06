@@ -1,10 +1,10 @@
 ---
-title: 'David'
-description: 'Desarrollador'
+title: "David"
+description: "Desarrollador"
 date: 2020-10-06T08:50:45+00:00
 lastmod: 2020-10-06T08:50:45+00:00
 draft: false
-images: ['/images/member/david.webp']
+images: ["/images/member/david.webp"]
 ---
 
 Estudiante de ciencias físicas interesado en la física de la materia condensada y computacional. Actualmente me encuentro desarrollando mis habilidades en Python y análisis de datos para investigar las propiedades y el comportamiento de la materia a nanoescala.

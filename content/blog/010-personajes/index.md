@@ -1,15 +1,15 @@
 ---
-title: 'Personajes destacados'
-emoji: ''
-description: ''
-lead: ''
+title: "Personajes destacados"
+emoji: ""
+description: ""
+lead: ""
 date: 2022-10-20T14:44:30-05:00
 lastmod: 2022-10-20T14:44:30-05:00
 images: []
-thumbnail: ''
-contributors: ['David']
-author_id: 'david'
-tags: ['biografía']
+thumbnail: ""
+contributors: ["David"]
+author_id: "david"
+tags: ["biografía"]
 toc: true
 weight: 100
 pinned: false

@@ -1,20 +1,20 @@
 ---
-title: 'Immersive Linear Algebra'
-description: 'Una imagen dice más que mil palabras'
-lead: 'Una imagen dice más que mil palabras, en este caso, múltiples imágenes'
+title: "Immersive Linear Algebra"
+description: "Una imagen dice más que mil palabras"
+lead: "Una imagen dice más que mil palabras, en este caso, múltiples imágenes"
 date: 2022-03-25T20:10:44-05:00
 lastmod: 2022-03-25T20:10:44-05:00
 draft: false
-images: ['immersivemath.com.png']
-link: 'http://immersivemath.com/ila/learnmore.html'
+images: ["immersivemath.com.png"]
+link: "http://immersivemath.com/ila/learnmore.html"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 450
 toc: false
 pinned: false
-types: ['matemática', 'álgebra', 'curso']
-functionalities: ['web']
+types: ["matemática", "álgebra", "curso"]
+functionalities: ["web"]
 ---
 
 ```text

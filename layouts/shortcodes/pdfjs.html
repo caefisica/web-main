@@ -4,8 +4,7 @@
     rel="stylesheet"
     href="{{ $pdfjs.Permalink }}"
     integrity="{{ $pdfjs.Data.Integrity }}"
-    media="screen"
-/>
+    media="screen" />
 
 {{/* JS Modules */}}
 {{ $pdfjs_dist := resources.Get "js/vendor/pdfjs/build/pdf.min.mjs" | resources.Fingerprint -}}
@@ -99,8 +98,7 @@ window.addEventListener("load", function() {
 <div class="mt-auto mb-4">
     <div
         class="pdf-paginator d-flex justify-content-center pdf-head"
-        id="paginator_{{- $pdf_id -}}"
-    >
+        id="paginator_{{- $pdf_id -}}">
         <button class="btn btn-primary" id="prev_{{- $pdf_id -}}">
             Anterior
         </button>
@@ -116,8 +114,7 @@ window.addEventListener("load", function() {
         <a href="{{ $pdf_url }}" target="_blank" rel="noopener noreferrer">
             <button
                 class="btn btn-secondary h-100 d-none d-sm-block"
-                id="download_{{- $pdf_id -}}"
-            >
+                id="download_{{- $pdf_id -}}">
                 Descargar
             </button>
         </a>
@@ -126,8 +123,7 @@ window.addEventListener("load", function() {
         <div class="row justify-content-md-center">
             <canvas
                 class="pdf-canvas pdf-cae col-md-auto"
-                id="the-canvas_{{- $pdf_id -}}"
-            ></canvas>
+                id="the-canvas_{{- $pdf_id -}}"></canvas>
         </div>
     </div>
 </div>

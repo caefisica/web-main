@@ -1,20 +1,20 @@
 ---
-title: 'Relatividad General'
-description: 'Código — X créditos'
-lead: 'Código — X créditos'
+title: "Relatividad General"
+description: "Código — X créditos"
+lead: "Código — X créditos"
 date: 2022-06-25T02:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: true
 menu:
-    cursos:
-        parent: 'electromagnetismo'
+  cursos:
+    parent: "electromagnetismo"
 weight: 40
 toc: true
-contributors: ['nombre']
+contributors: ["nombre"]
 math: true
-types: ['física']
+types: ["física"]
 ---

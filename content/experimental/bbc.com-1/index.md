@@ -1,20 +1,20 @@
 ---
-title: 'La aventura de Marie Curie'
-description: 'La aventura amorosa de la pionera de la física y química Marie Curie que escandalizó al comité del Nobel'
-lead: 'La aventura amorosa de la pionera de la física y química Marie Curie que escandalizó al comité del Nobel'
+title: "La aventura de Marie Curie"
+description: "La aventura amorosa de la pionera de la física y química Marie Curie que escandalizó al comité del Nobel"
+lead: "La aventura amorosa de la pionera de la física y química Marie Curie que escandalizó al comité del Nobel"
 date: 2022-03-25T04:27:56-05:00
 lastmod: 2022-03-25T04:27:56-05:00
 draft: true
-images: ['bbc.com-1.png']
-link: 'https://www.bbc.com/mundo/noticias-39281395'
+images: ["bbc.com-1.png"]
+link: "https://www.bbc.com/mundo/noticias-39281395"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 150
 toc: false
 pinned: false
-types: ['biografía']
-functionalities: ['artículo']
+types: ["biografía"]
+functionalities: ["artículo"]
 ---
 
 ```text

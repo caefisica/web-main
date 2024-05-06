@@ -27,8 +27,7 @@
         data-srcset="{{ $imgSrcSet }}"
         width="{{ $image.Width }}"
         height="{{ $image.Height }}"
-        {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
-    />
+        {{ with .Get "alt" }}alt="{{ . }}"{{ end }} />
     <noscript
         ><img
             class="img-fluid{{ with .Get "class" }}{{ . | safeHTML }}{{ end }}"

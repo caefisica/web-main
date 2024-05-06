@@ -1,20 +1,20 @@
 ---
-title: 'Aprenda LaTeX en línea'
-description: 'Un lenguaje necesario para escribir textos académicos.'
-lead: 'Un lenguaje necesario para escribir textos académicos.'
+title: "Aprenda LaTeX en línea"
+description: "Un lenguaje necesario para escribir textos académicos."
+lead: "Un lenguaje necesario para escribir textos académicos."
 date: 2022-03-25T20:10:44-05:00
 lastmod: 2022-03-25T20:10:44-05:00
 draft: false
-images: ['learnlatex.org.png']
-link: 'https://www.learnlatex.org/es/'
+images: ["learnlatex.org.png"]
+link: "https://www.learnlatex.org/es/"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 460
 toc: false
 pinned: true
-types: ['curso', 'programación']
-functionalities: ['web']
+types: ["curso", "programación"]
+functionalities: ["web"]
 ---
 
 ```text

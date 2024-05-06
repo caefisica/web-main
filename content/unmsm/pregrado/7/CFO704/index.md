@@ -1,12 +1,12 @@
 ---
-title: 'Física Estadística I'
-lead: 'La física estadística conecta los mundos microscópico y macroscópico, mediante la extracción de propiedades macroscópicas a partir de interacciones microscópicas fundamentales.'
-description: 'El curso de Física Estadística ofrece una introducción sólida a conceptos clave como variables aleatorias discretas, cadenas de Markov y formalismo de Gibbs, proporcionando una base sólida en mecánica estadística, una teoría con aplicaciones en diversas áreas de la ciencia, desde cosmología y física de partículas hasta biología y economía.'
-id: 'CFO704'
+title: "Física Estadística I"
+lead: "La física estadística conecta los mundos microscópico y macroscópico, mediante la extracción de propiedades macroscópicas a partir de interacciones microscópicas fundamentales."
+description: "El curso de Física Estadística ofrece una introducción sólida a conceptos clave como variables aleatorias discretas, cadenas de Markov y formalismo de Gibbs, proporcionando una base sólida en mecánica estadística, una teoría con aplicaciones en diversas áreas de la ciencia, desde cosmología y física de partículas hasta biología y economía."
+id: "CFO704"
 credits: 5
-prerrequisites: ['Estadística y Probabilidad I']
+prerrequisites: ["Estadística y Probabilidad I"]
 semester: 7
-contributors: ['David']
+contributors: ["David"]
 featured: false
 pdf: true
 math: false
@@ -16,26 +16,26 @@ images: []
 toc: true
 date: 2022-09-09T16:00:00
 lastmod:
-    - :git
-    - lastmod
-    - date
-    - publishDate
+  - :git
+  - lastmod
+  - date
+  - publishDate
 menu:
-    guias:
-        parent: 'pregrado'
+  guias:
+    parent: "pregrado"
 ---
 
 {{< infobox-alert text="Comenzarás con una introducción dinámica a la teoría de probabilidad. Luego, profundizarás en las propiedades de sistemas en equilibrio térmico, explorando aplicaciones en gases, paramagnetismo y radiación de cuerpo negro." />}}
 
 El plan de estudios incluye los siguientes temas:
 
--   Introducción a los métodos estadísticos
--   Descripción estadística de sistemas de partículas (ensamble)
--   Termodinámica estadística (sistemas en equilibrio)
--   Gas ideal monoatómico
--   Teorema de equipartición
--   Estadísticas de Maxwell-Boltzmann, Bose-Einstein y Fermi-Dirac
--   Radiación de cuerpo negro
+- Introducción a los métodos estadísticos
+- Descripción estadística de sistemas de partículas (ensamble)
+- Termodinámica estadística (sistemas en equilibrio)
+- Gas ideal monoatómico
+- Teorema de equipartición
+- Estadísticas de Maxwell-Boltzmann, Bose-Einstein y Fermi-Dirac
+- Radiación de cuerpo negro
 
 ## Libros recomendados
 

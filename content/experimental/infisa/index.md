@@ -1,20 +1,20 @@
 ---
-title: 'Infisa'
-description: 'Instrumentación física y aplicaciones'
-lead: 'Instrumentación física y aplicaciones'
+title: "Infisa"
+description: "Instrumentación física y aplicaciones"
+lead: "Instrumentación física y aplicaciones"
 date: 2022-03-25T16:00:01-05:00
 lastmod: 2022-03-25T16:00:01-05:00
 draft: false
-images: ['infisa.png']
-link: 'https://vrip.unmsm.edu.pe/infisa/'
+images: ["infisa.png"]
+link: "https://vrip.unmsm.edu.pe/infisa/"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 250
 toc: false
 pinned: false
-types: ['investigación', 'universidad', 'UNMSM']
-functionalities: ['web']
+types: ["investigación", "universidad", "UNMSM"]
+functionalities: ["web"]
 ---
 
 ```text
@@ -25,17 +25,17 @@ Grupo multidisciplinario que cuenta con recursos y experiencia en la investigaci
 
 #### Coordinador
 
--   Galo Patiño Camargo
+- Galo Patiño Camargo
 
 #### Titulares
 
--   Galo Patiño Camargo
--   Jose Fernando Marquez Pachas
--   Rolando Wilder Adriano Peña
--   Maximo Hilario Poma Torres
--   Eduardo Custodio Chung
--   Oscar Rolando Baltuano Elias
--   Alexander Jesus Cardenas Solano
--   Jose Hermenegildo Galarreta Diaz
--   Eduardo Becquer Carrasco Solis
--   Roxani Marisa Yaringaño Limache
+- Galo Patiño Camargo
+- Jose Fernando Marquez Pachas
+- Rolando Wilder Adriano Peña
+- Maximo Hilario Poma Torres
+- Eduardo Custodio Chung
+- Oscar Rolando Baltuano Elias
+- Alexander Jesus Cardenas Solano
+- Jose Hermenegildo Galarreta Diaz
+- Eduardo Becquer Carrasco Solis
+- Roxani Marisa Yaringaño Limache

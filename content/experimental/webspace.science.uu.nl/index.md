@@ -1,20 +1,20 @@
 ---
-title: 'How to become a BAD Theoretical Physicist'
-description: 'Es mucho más fácil convertirse en un mal físico teórico que en uno bueno.'
-lead: 'Es mucho más fácil convertirse en un mal físico teórico que en uno bueno.'
+title: "How to become a BAD Theoretical Physicist"
+description: "Es mucho más fácil convertirse en un mal físico teórico que en uno bueno."
+lead: "Es mucho más fácil convertirse en un mal físico teórico que en uno bueno."
 date: 2022-03-25T04:46:19-05:00
 lastmod: 2022-03-25T04:46:19-05:00
 draft: true
-images: ['webspace.science.uu.nl.png']
-link: 'https://webspace.science.uu.nl/~hooft101/theoristbad.html'
+images: ["webspace.science.uu.nl.png"]
+link: "https://webspace.science.uu.nl/~hooft101/theoristbad.html"
 menu:
-    experimental:
-        parent: 'general'
+  experimental:
+    parent: "general"
 weight: 200
 toc: false
 pinned: false
-types: ['consejo']
-functionalities: ['blog']
+types: ["consejo"]
+functionalities: ["blog"]
 ---
 
 ```text

@@ -2,8 +2,7 @@
     <small
         >Publicado el {{ .Lastmod.Day }} de
         {{ index $.Site.Data.fixes.months (printf "%d" .Lastmod.Month) }}<span
-            class="special_display"
-        >
+            class="special_display">
             por
             {{ $authors := .Params.contributors }}
             {{ $authors := apply $authors "partial" "components/urlize" "." }}
