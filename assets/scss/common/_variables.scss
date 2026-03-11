@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // Color system
 
 $white: #fff;
@@ -38,7 +40,7 @@ $pink-500: #d32e9d;
 $primary: $indigo-800;
 
 $color-btn-bg: $pink-500;
-$color-btn-border: darken($pink-500, 5%);
+$color-btn-border: color.adjust($pink-500, $lightness: -5%);
 $color-btn-text: $white;
 
 // Options
