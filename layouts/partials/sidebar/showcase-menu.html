@@ -45,7 +45,7 @@
         <li>
             <a
                 class="docs-link d-flex{{ if $active }}active{{ end }}"
-                href="{{ .Page.Permalink }}"
+                href="{{ .Page.RelPermalink }}"
                 ><span>{{ .Page.Title | title }}</span
                 ><span
                     class="badge bg-light text-dark fw-normal ms-auto me-lg-4"
@@ -63,7 +63,7 @@
         <li>
             <a
                 class="docs-link d-flex{{ if $active }}active{{ end }}"
-                href="{{ .Page.Permalink }}"
+                href="{{ .Page.RelPermalink }}"
                 ><span>{{ .Page.Title | title }}</span
                 ><span
                     class="badge bg-light text-dark fw-normal ms-auto me-lg-4"
