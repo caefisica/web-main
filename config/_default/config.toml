@@ -6,9 +6,11 @@ enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
 languageCode = "es-ES"
-paginate = 7
 rssLimit = 10
 disablePathToLower = false
+
+[pagination]
+pagerSize = 7
 
 # add redirects/headers
 [outputs]
