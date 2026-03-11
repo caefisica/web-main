@@ -1,6 +1,5 @@
 name = "caefisica"
 compatibility_date = "2025-07-31"
-pages_build_output_dir = "public"
 
 [build]
 command = "chmod a+x build.sh && ./build.sh"
