@@ -30,9 +30,19 @@
                 <div class="title">{{ .title }}</div>
               </td>
               <td class="align-middle">
-                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-                  {{ with .edition }}{{ . }},{{ end }}{{ .year }}
-                </a>
+                {{- with .links -}}
+                  {{- $links := . -}}
+                  {{- range $index, $link := $links -}}
+                    <a href="{{ $link.url }}" target="_blank" rel="noopener noreferrer">
+                      {{ with $link.edition }}{{ . }},{{ end }}{{ $link.year }}
+                    </a>
+                    {{ if lt $index (sub (len $links) 1) }}<br />{{ end }}
+                  {{- end -}}
+                {{- else -}}
+                  <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                    {{ with .edition }}{{ . }},{{ end }}{{ .year }}
+                  </a>
+                {{- end -}}
               </td>
             {{- else if eq $type "playlist" -}}
               <td class="align-middle">
