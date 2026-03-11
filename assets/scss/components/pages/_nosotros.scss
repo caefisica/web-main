@@ -19,18 +19,18 @@
     --bg-gradient-yellow-1: linear-gradient(
         to bottom right,
         hsl(216, 83%, 45%),
-        hsla(220, 100%, 69%, 0) 50%
+        hsl(220, 100%, 69%, 0) 50%
     );
     --bg-gradient-yellow-2: linear-gradient(
             135deg,
-            hsla(226, 100%, 71%, 0.251) 0%,
-            hsla(216, 100%, 68%, 0) 59.86%
+            hsl(226, 100%, 71%, 0.251) 0%,
+            hsl(216, 100%, 68%, 0) 59.86%
         ),
         hsl(240, 2%, 13%);
     --border-gradient-onyx: linear-gradient(
         to bottom right,
         hsl(0, 0%, 25%) 0%,
-        hsla(0, 0%, 25%, 0) 50%
+        hsl(0, 0%, 25%, 0) 50%
     );
     --text-gradient-yellow: linear-gradient(
         to right,
@@ -50,7 +50,7 @@
     --orange-yellow-crayola: #89dad5;
     --vegas-gold: hsl(216, 83%, 45%);
     --light-gray: hsl(0, 0%, 84%);
-    --light-gray-70: hsla(0, 0%, 84%, 0.7);
+    --light-gray-70: hsl(0, 0%, 84%, 0.7);
     --bittersweet-shimmer: hsl(0, 43%, 51%);
 
     /**
@@ -80,11 +80,11 @@
    * shadow
    */
 
-    --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
-    --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
-    --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
-    --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
-    --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
+    --shadow-1: -4px 8px 24px hsl(0, 0%, 0%, 0.25);
+    --shadow-2: 0 16px 30px hsl(0, 0%, 0%, 0.25);
+    --shadow-3: 0 16px 40px hsl(0, 0%, 0%, 0.25);
+    --shadow-4: 0 25px 50px hsl(0, 0%, 0%, 0.15);
+    --shadow-5: 0 24px 80px hsl(0, 0%, 0%, 0.25);
 
     /**
    * transition
@@ -491,7 +491,7 @@ main {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: hsla(240, 1%, 17%, 0.75);
+    background: hsl(240, 1%, 17%, 0.75);
     backdrop-filter: blur(10px);
     border: 1px solid var(--jet);
     border-radius: 12px 12px 0 0;
@@ -791,7 +791,6 @@ main {
     gap: 15px;
     margin: 0 -15px;
     padding: 25px;
-    padding-bottom: 25px;
     overflow-x: auto;
     scroll-behavior: smooth;
     overscroll-behavior-inline: contain;
@@ -1076,7 +1075,7 @@ main {
 }
 
 .project-item > a:hover .project-img::before {
-    background: hsla(0, 0%, 0%, 0.5);
+    background: hsl(0, 0%, 0%, 0.5);
 }
 
 .project-item-icon-box {
@@ -1786,9 +1785,9 @@ textarea.form-input {
     * shadow
     */
 
-        --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
-        --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
-        --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
+        --shadow-1: -4px 8px 24px hsl(0, 0%, 0%, 0.125);
+        --shadow-2: 0 16px 30px hsl(0, 0%, 0%, 0.125);
+        --shadow-3: 0 16px 40px hsl(0, 0%, 0%, 0.125);
     }
 
     /**
@@ -1897,14 +1896,14 @@ textarea.form-input {
 
         &::-webkit-scrollbar-thumb {
             border: 5px solid var(--smoky-black);
-            background: hsla(0, 0%, 100%, 0.1);
+            background: hsl(0, 0%, 100%, 0.1);
             border-radius: 20px;
             box-shadow:
-                inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
-                inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+                inset 1px 1px 0 hsl(0, 0%, 100%, 0.11),
+                inset -1px -1px 0 hsl(0, 0%, 100%, 0.11);
 
             &:hover {
-                background: hsla(0, 0%, 100%, 0.15);
+                background: hsl(0, 0%, 100%, 0.15);
             }
         }
 

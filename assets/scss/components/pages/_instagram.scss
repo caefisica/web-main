@@ -5,7 +5,7 @@ a[data-fancybox] img {
 .instafeeds {
     margin-top: 2.25rem;
     display: grid;
-    grid-gap: 10px;
+    gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(30%, 1fr));
 

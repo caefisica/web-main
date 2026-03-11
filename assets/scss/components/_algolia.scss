@@ -15,8 +15,8 @@
     align-items: center;
     background: none;
     border: 0;
-    color: rgba(128, 126, 163, 0.6);
-    color: rgba(var(--aa-muted-color-rgb), var(--aa-muted-color-alpha));
+    color: rgb(128, 126, 163, 0.6);
+    color: rgb(var(--aa-muted-color-rgb), var(--aa-muted-color-alpha));
     cursor: pointer;
     display: flex;
     height: 100%;
@@ -27,7 +27,7 @@
     &:focus,
     &:hover {
         color: #262627;
-        color: rgba(var(--aa-text-color-rgb), var(--aa-text-color-alpha));
+        color: rgb(var(--aa-text-color-rgb), var(--aa-text-color-alpha));
     }
 
     &[hidden] {
@@ -47,7 +47,7 @@
     stroke-width: 1.6;
     stroke-width: var(--aa-icon-stroke-width);
     color: #3e34d3;
-    color: rgba(var(--aa-primary-color-rgb), 1);
+    color: rgb(var(--aa-primary-color-rgb), 1);
     height: auto;
     max-height: 20px;
     max-height: var(--aa-input-icon-size);
@@ -121,8 +121,8 @@
     --aa-detached-modal-max-height: 500px;
     --aa-overlay-color-rgb: 115, 114, 129;
     --aa-overlay-color-alpha: 0.4;
-    --aa-panel-shadow: 0 0 0 1px rgba(35, 38, 59, 0.1),
-        0 6px 16px -4px rgba(35, 38, 59, 0.15);
+    --aa-panel-shadow: 0 0 0 1px rgb(35, 38, 59, 0.1),
+        0 6px 16px -4px rgb(35, 38, 59, 0.15);
     --aa-scrollbar-width: 13px;
     --aa-scrollbar-track-background-color-rgb: 234, 234, 234;
     --aa-scrollbar-track-background-color-alpha: 1;
@@ -287,8 +287,8 @@
         box-shadow 0.15s ease-in-out;
 
     &::placeholder {
-        color: rgba(128, 126, 163, 0.6);
-        color: rgba(var(--aa-muted-color-rgb), var(--aa-muted-color-alpha));
+        color: rgb(128, 126, 163, 0.6);
+        color: rgb(var(--aa-muted-color-rgb), var(--aa-muted-color-alpha));
         opacity: 1;
     }
 
@@ -363,11 +363,11 @@
 
     --bs-bg-opacity: 1;
 
-    background-color: rgba(
+    background-color: rgb(
         var(--bs-white-rgb),
         var(--bs-bg-opacity)
     ) !important;
-    box-shadow: 0 0.5rem 1rem rgba(29, 45, 53, 0.15) !important;
+    box-shadow: 0 0.5rem 1rem rgb(29, 45, 53, 0.15) !important;
 
     button {
         -webkit-appearance: none;
@@ -396,11 +396,11 @@
 
     --bs-bg-opacity: 1;
 
-    background-color: rgba(
+    background-color: rgb(
         var(--bs-white-rgb),
         var(--bs-bg-opacity)
     ) !important;
-    box-shadow: 0 0.5rem 1rem rgba(29, 45, 53, 0.15) !important;
+    box-shadow: 0 0.5rem 1rem rgb(29, 45, 53, 0.15) !important;
 
     span {
         display: flex;
@@ -440,7 +440,7 @@
 
     &::-webkit-scrollbar-track {
         background-color: #eaeaea;
-        background-color: rgba(
+        background-color: rgb(
             var(--aa-scrollbar-track-background-color-rgb),
             var(--aa-scrollbar-track-background-color-alpha)
         );
@@ -448,18 +448,18 @@
 
     &::-webkit-scrollbar-thumb {
         background-color: #fff;
-        background-color: rgba(
+        background-color: rgb(
             var(--aa-scrollbar-thumb-background-color-rgb),
             var(--aa-scrollbar-thumb-background-color-alpha)
         );
         border: 3px solid #eaeaea;
-        border-color: rgba(
+        border-color: rgb(
             var(--aa-scrollbar-track-background-color-rgb),
             var(--aa-scrollbar-track-background-color-alpha)
         );
         border-radius: 9999px;
         border-right: 2px solid
-            rgba(
+            rgb(
                 var(--aa-scrollbar-track-background-color-rgb),
                 var(--aa-scrollbar-track-background-color-alpha)
             );
@@ -547,5 +547,5 @@
 
 mark {
     padding: 0 !important;
-    background: rgba(212, 53, 159, 0.2);
+    background: rgb(212, 53, 159, 0.2);
 }

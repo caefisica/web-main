@@ -36,8 +36,8 @@
 
     --tw-ring-offset-shadow: 0 0 #0000;
     --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-        0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    --tw-shadow: 0 10px 15px -3px rgb(0, 0, 0, 0.1),
+        0 4px 6px -4px rgb(0, 0, 0, 0.1);
 
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
         var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -158,12 +158,12 @@
 }
 
 .group-data .text-data:hover {
-    background-color: rgba(33, 37, 41, 0.025);
+    background-color: rgb(33, 37, 41, 0.025);
     transition: background-color 0.3s ease;
 }
 
 [data-dark-mode] .group-data .text-data:hover {
-    background-color: rgba(255, 255, 255, 0.025);
+    background-color: rgb(255, 255, 255, 0.025);
 }
 
 [data-dark-mode] .group-data a p {
@@ -181,7 +181,7 @@
     margin-top: 2.5rem;
 
     .group {
-        background-color: rgba(33, 37, 41, 0.04);
+        background-color: rgb(33, 37, 41, 0.04);
         padding: 1.5rem 2rem;
 
         p {
@@ -209,7 +209,7 @@
 }
 
 [data-dark-mode] .second-section .section-table .group {
-    background-color: rgba(255, 255, 255, 0.04);
+    background-color: rgb(255, 255, 255, 0.04);
 }
 
 [data-dark-mode] .second-section .section-table .group li a {
@@ -217,12 +217,12 @@
 }
 
 .second-section .section-table .group li a:hover {
-    background-color: rgba(33, 37, 41, 0.1);
+    background-color: rgb(33, 37, 41, 0.1);
     transition: background-color 0.25s ease;
 }
 
 [data-dark-mode] .second-section .section-table .group li a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgb(255, 255, 255, 0.1);
 }
 
 .second-section .section-table .group li a svg {
