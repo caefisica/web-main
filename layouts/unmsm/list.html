@@ -9,7 +9,10 @@
     <div class="row align-items-start">
         <div class="col-auto docs-sidebar d-none d-xl-block">
             <nav class="docs-links" aria-label="Tertiary navigation">
-                {{ partial "sidebar/auto-default-menu.html" . -}}
+                {{ partial "sidebar/render-auto-nav.html" (dict
+                    "currentPage" .
+                    "mode" "default"
+                ) -}}
             </nav>
         </div>
         <div
