@@ -33,23 +33,23 @@ El plan de estudios incluye los siguientes temas:
 
 El libro base de teoría usado por el Lic. Yactayo es:
 
-{{< content_table type="book" >}} {{< book_row title="Electrónica: teoría de circuitos y dispositivos electrónicos" author="Robert Boylestad & Louis Nashelsk" editorial="Pearson Educación" year="2009" edition="10ma ed." url="https://drive.google.com/file/d/1hnFPXYlH_8y7i35I6cefpydVvMz-0UFq/view?usp=sharing" >}} {{< book_row title="Electronics for Physicists" author="Bryan H. Suits" editorial="Springer Nature Switzerland" year="2020" edition="1ra ed." url="https://drive.google.com/file/d/1RqNdQwTj7P14WVoy_J1bDHZVCGqIQqc6/view?usp=share_link" >}} {{< /content_table >}}
+{{< resource-table resource="books-theoretical.yaml" type="book" >}}
 
 ### Prácticos
 
 Para complementar tus ideas, te recomendamos este libro:
 
-{{< content_table type="book" >}} {{< book_row title="Mis Proyectos con Arduino" author="José Miguel Castillo Castillo" editorial="Independiente" year="2017" edition="" url="https://drive.google.com/file/d/1Gjx9EOu9Z4PkKacLYfaR71l2hdUp0hJ-/view" >}} {{< /content_table >}}
+{{< resource-table resource="books-practical.yaml" type="book" >}}
 
 ## Listas de reproducción
 
 Hemos seleccionado dos listas de reproducción con videos educativos sobre el uso de Proteus:
 
-{{< content_table type="playlist" >}} {{< playlist_row title="Curso Proteus PCB" channel="" lecturer="ARDUINOLOVER" videos="20" url="https://www.youtube.com/playlist?list=PL6Y9w9klwszGPDYZA0u0T3SBx86datIY4" >}} {{< playlist_row title="Proteus for begginners" channel="" lecturer="Nova Technologies" videos="10" url="https://www.youtube.com/playlist?list=PLHD-Q7DS0lI1pOAEhqOgwJvIWe8qQNAd8" >}} {{< /content_table >}}
+{{< resource-table resource="playlists-proteus.yaml" type="playlist" >}}
 
 Para la parte teórica, puedes recurrir a las siguiente listas de reproducción:
 
-{{< content_table type="playlist" >}} {{< playlist_row title="Temas de la carrera de Ingeniería Electrónica" channel="El Traductor de Ingeniería" lecturer="Damián Pedraza" videos="93" url="https://www.youtube.com/playlist?list=PLTIdiuUvwYCHQe19DgjiingeKulmq5drf" >}} {{< playlist_row title="2020HS ETH Electronics for Physicists Analogue" channel="Lectures Zurich" lecturer="G. Bison, W. Erdman" videos="93" url="https://www.youtube.com/playlist?list=PLq30g0MkaC27MdhhfbxFiADDzYdsS89m3" >}} {{< /content_table >}}
+{{< resource-table resource="playlists-theory.yaml" type="playlist" >}}
 
 ## Sílabos
 
