@@ -4,13 +4,8 @@ description: "Explicación de la Primera Ley de la Termodinámica, su aplicació
 lead: "Estudio de la Primera Ley de la Termodinámica, que establece la conservación de la energía calorífica, y su aplicación en distintos sistemas y condiciones termodinámicas, incluyendo el cálculo de capacidades caloríficas y funciones de estado."
 date: 2022-02-01T02:00:00
 draft: false
-menu:
-  cursos:
-    parent: "termodinámica"
 weight: 20
-toc: true
 contributors: ["Richard"]
-math: true
 types: ["matemática"]
 ---
 

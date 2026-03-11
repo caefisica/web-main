@@ -4,13 +4,8 @@ description: "CFO305 — 4 créditos"
 lead: "CFO305 — 4 créditos"
 date: 2022-02-01T02:00:00
 draft: true
-menu:
-  cursos:
-    parent: "termodinámica"
 weight: 40
-toc: true
 contributors: ["Richard"]
-math: true
 types: ["matemática"]
 ---
 

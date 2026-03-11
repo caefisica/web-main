@@ -2,6 +2,16 @@
 title: "Mecánica Cuántica"
 description: "Research"
 lead: "Research"
+cascade:
+  - params:
+      math: true
+      toc: true
+      menu:
+        cursos:
+          parent: "cuántica"
+    target:
+      kind: page
+      path: /apuntes/cuántica/**
 date: 2023-04-06T08:48:45+00:00
 lastmod: 2023-04-06T08:48:45+00:00
 draft: false

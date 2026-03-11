@@ -4,13 +4,8 @@ description: "Código — X créditos"
 lead: "Código — X créditos"
 date: 2023-03-25T02:00:00
 draft: false
-menu:
-  cursos:
-    parent: "cuántica"
 weight: 10
-toc: true
 contributors: ["David"]
-math: true
 types: ["física"]
 ---
 

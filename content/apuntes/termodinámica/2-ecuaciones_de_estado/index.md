@@ -4,13 +4,8 @@ description: "Explicación de las ecuaciones de estado en termodinámica, su rel
 lead: "Un análisis detallado de las ecuaciones de estado en termodinámica y su papel en el modelado del comportamiento de sustancias en procesos isotérmicos, isobáricos e isocóricos"
 date: 2022-02-01T02:00:00
 draft: false
-menu:
-  cursos:
-    parent: "termodinámica"
 weight: 20
-toc: true
 contributors: ["Richard"]
-math: true
 types: ["matemática"]
 ---
 

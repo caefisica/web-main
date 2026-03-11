@@ -4,13 +4,8 @@ description: "Descripción de la función de estado energía interna, su depende
 lead: "Análisis de la función de estado energía interna en termodinámica, su relación con la temperatura y el volumen, y su relevancia en el cálculo del trabajo calorífico elemental en procesos termodinámicos"
 date: 2022-02-01T02:00:00
 draft: false
-menu:
-  cursos:
-    parent: "termodinámica"
 weight: 20
-toc: true
 contributors: ["Richard"]
-math: true
 types: ["matemática"]
 ---
 
