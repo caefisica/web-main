@@ -18,9 +18,9 @@ jobs:
 
         steps:
             - name: Inicializar Github Action
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
 
             - name: 'atalent-labs-404-links'
-              uses: atalent-labs/404-links@3.1.4
+              uses: atalent-labs/404-links@3.1.6
               env:
                   GITHUB_TOKEN: ${{ secrets.LINK_CHECK_404 }}

@@ -16,10 +16,10 @@ jobs:
 
         steps:
             - name: Inicializar Github Action
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
 
             - name: Auditar usando Lighthouse
-              uses: treosh/lighthouse-ci-action@v9
+              uses: treosh/lighthouse-ci-action@v12
               with:
                   urls: |
                       https://caefisica.com/

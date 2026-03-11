@@ -32,15 +32,15 @@ jobs:
 
         steps:
             - name: Inicializar Github Action
-              uses: actions/checkout@v3
+              uses: actions/checkout@v6
 
             - name: Inicializar CodeQL
-              uses: github/codeql-action/init@v2
+              uses: github/codeql-action/init@v4
               with:
                   languages: ${{ matrix.language }}
 
             - name: Autoconstruir
-              uses: github/codeql-action/autobuild@v2
+              uses: github/codeql-action/autobuild@v4
 
             - name: Análisis CodeQL
-              uses: github/codeql-action/analyze@v2
+              uses: github/codeql-action/analyze@v4

@@ -22,7 +22,7 @@ jobs:
 
         steps:
             - name: Checkout
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
 
             - name: Administración de Issues
               uses: totallynotdavid/Issue-Manager-Action@v3.7.3

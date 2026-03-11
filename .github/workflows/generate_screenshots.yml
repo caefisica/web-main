@@ -10,10 +10,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Inicializar Github Action
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
 
             - name: Instalar Golang
-              uses: actions/setup-go@v4
+              uses: actions/setup-go@v6
               with:
                   go-version: 'stable'
 
