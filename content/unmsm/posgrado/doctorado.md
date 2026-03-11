@@ -10,7 +10,7 @@ menu:
     parent: "posgrado"
 weight: 1020
 toc: true
-contributors: ["David"]
+contributors: ["david"]
 ---
 
 Duración: 3 años (6 semestres).

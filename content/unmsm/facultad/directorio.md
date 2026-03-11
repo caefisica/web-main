@@ -2,7 +2,7 @@
 title: "Directorio telefónico"
 lead: ""
 description: ""
-contributors: ["David"]
+contributors: ["david"]
 featured: false
 pdf: false
 math: false

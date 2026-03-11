@@ -1,0 +1,30 @@
+- author: Mark Newman
+  title: Computational Physics With Python
+  editorial: CreateSpace
+  year: "2013"
+  edition: 1ra ed.
+  url: http://www-personal.umich.edu/~mejn/computational-physics/
+- author: Luis Felipe Llano
+  title: Computational Physics Solutions
+  editorial: Independiente (GitHub)
+  year: "2020"
+  edition: 1ra ed.
+  url: https://github.com/Nesador95/Computational-Physics-Solutions
+- author: Sudhanva Lalit
+  title: Koonin Problems
+  editorial: Independiente (GitHub)
+  year: "2021"
+  edition: 1ra ed.
+  url: https://github.com/sudhanvalalit/Koonin-Problems
+- author: Ty Sterling
+  title: "Solutions to Thijssen's 'Computational Physics'"
+  editorial: Independiente (GitHub)
+  year: "2019"
+  edition: 1ra ed.
+  url: https://github.com/silentforest89/CompFizz/tree/master/Thijssen
+- author: Shichao Wu
+  title: "Exercises to accompany Giordano's 'Computational Physics'"
+  editorial: Independiente (GitHub)
+  year: "2016"
+  edition: 1ra ed.
+  url: https://github.com/WuShichao/computational-physics

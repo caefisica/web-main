@@ -61,9 +61,14 @@
                         class="mai-grid podcast-list entries entries-grid study-guides-list">
                         <div class="entries-wrap has-columns recent-guides">
                             {{ range where (sort .Site.RegularPages "Lastmod" "desc") "Type" "unmsm" | first 5 }}
+                                {{ $contributors := partial "components/resolve-contributors.html" (dict "contributors" .Params.contributors "site" .Site) }}
+                                {{ $contributorNames := slice }}
+                                {{ range $contributors }}
+                                    {{ $contributorNames = $contributorNames | append .name }}
+                                {{ end }}
                                 <article
                                     class="entry entry-grid is-column has-entry-link podcast type-podcast"
-                                    aria-label="{{ delimit .Params.contributors ", " }} han editado en el {{ .Parent.Name | safeHTML }}">
+                                    aria-label="{{ delimit $contributorNames ", " }} han editado en el {{ .Parent.Name | safeHTML }}">
                                     <div class="entry-wrap entry-wrap-grid">
                                         <div
                                             class="entry-meta entry-meta-before-content fw-semibold">

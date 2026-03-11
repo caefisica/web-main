@@ -5,7 +5,7 @@ lead: "CFO604 — 4 créditos"
 date: 2022-02-01T02:00:00
 draft: false
 weight: 10
-contributors: ["Richard"]
+contributors: ["richard"]
 ---
 
 ## Apuntes

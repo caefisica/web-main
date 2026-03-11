@@ -5,7 +5,7 @@ lead: "Código — X créditos"
 date: 2023-03-25T02:00:00
 draft: false
 weight: 10
-contributors: ["David"]
+contributors: ["david"]
 types: ["física"]
 ---
 

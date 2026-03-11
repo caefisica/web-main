@@ -1,15 +1,18 @@
 <p class="published_data mt-1">
+    {{- $contributors := partial "components/resolve-contributors.html" (dict "contributors" .Params.contributors "site" .Site) -}}
     <small
         >Publicado el {{ .Lastmod.Day }} de
         {{ index $.Site.Data.fixes.months (printf "%d" .Lastmod.Month) }}<span
             class="special_display">
             por
-            {{ $authors := .Params.contributors }}
-            {{ $authors := apply $authors "partial" "components/urlize" "." }}
-            {{ if eq ( len $authors ) 2 -}}
-                {{ delimit $authors " y " | safeHTML }}
+            {{ $authorLinks := slice }}
+            {{ range $contributors -}}
+                {{ $authorLinks = $authorLinks | append (printf "<a class=\"stretched-link position-relative\" href=\"%s\">%s</a>" .page.RelPermalink .name) }}
+            {{ end -}}
+            {{ if eq ( len $authorLinks ) 2 -}}
+                {{ delimit $authorLinks " y " | safeHTML }}
             {{ else }}
-                {{ delimit $authors ", " " y " | safeHTML }}
+                {{ delimit $authorLinks ", " " y " | safeHTML }}
             {{ end -}} </span
         >&nbsp;&hyphen;&nbsp;<strong
             >{{ .ReadingTime -}}&nbsp;min. de lectura</strong

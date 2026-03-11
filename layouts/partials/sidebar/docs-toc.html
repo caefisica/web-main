@@ -4,24 +4,22 @@
             Escrito por:
         {{- end -}}
     </h2>
-    {{- $member_list := .Site.Data.authors.authors -}}
     {{- if isset .Params "contributors" -}}
+        {{- $contributors := partial "components/resolve-contributors.html" (dict "contributors" .Params.contributors "site" .Site) -}}
         <ul class="ms-4 list-unstyled">
-            {{- range .Params.contributors -}}
+            {{- range $contributors -}}
                 {{- $contributor := . -}}
-                {{ range $member_list -}}
-                    {{- if eq $contributor .first_name -}}
-                        <li class="m-0 ">
-                            <a href="/contributors/{{ .first_name | urlize }}">
-                                <img
-                                    src="{{ .image }}"
-                                    alt="{{ .name }}"
-                                    class="avatar rounded-circle" />
-                                <span class="name ms-2">{{ .name }}</span>
-                            </a>
-                        </li>
-                    {{- end -}}
-                {{- end -}}
+                <li class="m-0 ">
+                    <a href="{{ $contributor.page.RelPermalink }}">
+                        {{- with $contributor.image -}}
+                            <img
+                                src="{{ . }}"
+                                alt="{{ $contributor.name }}"
+                                class="avatar rounded-circle" />
+                        {{- end -}}
+                        <span class="name ms-2">{{ $contributor.name }}</span>
+                    </a>
+                </li>
             {{- end -}}
         </ul>
     {{- end -}}
