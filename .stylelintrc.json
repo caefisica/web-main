@@ -36,6 +36,7 @@
           "content",
           "return",
           "function",
+          "use",
           "tailwind",
           "apply",
           "responsive",
