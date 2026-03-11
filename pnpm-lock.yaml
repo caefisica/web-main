@@ -11,9 +11,9 @@ importers:
       '@fullhuman/postcss-purgecss':
         specifier: ^8.0.0
         version: 8.0.0(postcss@8.5.8)
-      '@hyas/images':
-        specifier: ^3.2.0
-        version: 3.2.0
+      '@thulite/images':
+        specifier: ^3.3.4
+        version: 3.3.4
       auto-changelog:
         specifier: ^2.5.0
         version: 2.5.0(encoding@0.1.13)
@@ -220,11 +220,6 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@hyas/images@3.2.0':
-    resolution: {integrity: sha512-z5l7NK9dmeCzhicx57DPBxznqm6vTmo9GzwxG0Zqg1GYEu2UzEEQ187GWvLZrh5AAOAhpC+xydNR8SYvccen2w==}
-    engines: {node: '>=20.11.0'}
-    deprecated: Package no longer supported. Use https://www.npmjs.com/package/@thulite/images instead.
-
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
 
@@ -344,6 +339,10 @@ packages:
   '@szmarczak/http-timer@5.0.1':
     resolution: {integrity: sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==}
     engines: {node: '>=14.16'}
+
+  '@thulite/images@3.3.4':
+    resolution: {integrity: sha512-l7fYyBFiiZWgFkaBLkINDrzDZ+KXTxWnvhTVPPEysL+TexzEubTY7b5s00iQoFZsUg4m+6flbYxZSupydFrEHg==}
+    engines: {node: '>=20.11.0'}
 
   '@types/cacheable-request@6.0.3':
     resolution: {integrity: sha512-IQ3EbTzGxIigb1I3qPZc1rWJnH0BmSKv5QYTalEwweFvyBDLSAe24zP0le/hyi7ecGfZVlIVAg4BZqb8WBwKqw==}
@@ -2638,8 +2637,6 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@hyas/images@3.2.0': {}
-
   '@iconify/types@2.0.0': {}
 
   '@iconify/utils@3.1.0':
@@ -2729,6 +2726,8 @@ snapshots:
   '@szmarczak/http-timer@5.0.1':
     dependencies:
       defer-to-connect: 2.0.1
+
+  '@thulite/images@3.3.4': {}
 
   '@types/cacheable-request@6.0.3':
     dependencies:

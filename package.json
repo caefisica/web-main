@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^8.0.0",
-    "@hyas/images": "^3.2.0",
+    "@thulite/images": "^3.3.4",
     "auto-changelog": "^2.5.0",
     "autoprefixer": "^10.4.27",
     "bootstrap": "^5.3.8",
