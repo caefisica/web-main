@@ -456,7 +456,7 @@ h2 {
     }
 
     h2 {
-        word-break: var(--heading-word-break, break-word);
+        overflow-wrap: var(--heading-word-break, break-word);
     }
 }
 
