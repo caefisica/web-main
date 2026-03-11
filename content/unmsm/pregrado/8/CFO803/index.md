@@ -28,7 +28,7 @@ Según el plan de estudios, se cubren los siguientes temas generalmente:
 
 Estos son algunos de los libros que abordan de manera extensa la teoría y conceptos del curso:
 
-{{< content_table type="book" >}} {{< book_row title="Física nuclear y de partículas" author="Antonio Ferrer" editorial="Universitat de València" url="https://drive.google.com/file/d/1nJNgwBflC-BkrZwhYhGGPw-hDZqMqUEu/view?usp=sharing" editions="2da ed." year="2006" >}} {{< book_row title="Nuclei and particles" author="Emilio Segrè" editorial="W. A. Benjamin" url="https://drive.google.com/file/d/1nJNgwBflC-BkrZwhYhGGPw-hDZqMqUEu/view?usp=sharing" editions="2nd ed." year="1977" >}} {{< book_row title="Handbook of Radioactivity Analysis. Volume 1: Radiation Physics and Detectors" author="L' Annunziata" editorial="Academic Press" url="https://drive.google.com/file/d/1nJNgwBflC-BkrZwhYhGGPw-hDZqMqUEu/view?usp=sharing" editions="4th ed." year="2020" >}} {{< /content_table >}}
+{{< resource-table resource="books-theoretical.yaml" type="book" >}}
 
 <!--
 ## Listas de reproducción
