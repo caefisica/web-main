@@ -16,12 +16,12 @@ weight: 2
 
 | Código | Curso | Créditos | Requisito | Obligatorio\* |
 | --- | --- | --- | --- | --- |
-| CBO201 | Fundamentos de Investigación Científica | 3 |  | Sí |
+| CBO201 | Fundamentos de Investigación Científica | 3 | | Sí |
 | CBO202 | Medio Ambiente y Desarrollo Sostenible | 4 | Biología | Sí |
-| CBO203 | Realidad Nacional y Mundial | 3 |  | Sí |
+| CBO203 | Realidad Nacional y Mundial | 3 | | Sí |
 | CBO204 | Cálculo II | 4 | Cálculo I | Sí |
-| CBO205 | Química Inorgánica y Orgánica | 4 |  | Sí |
-| CBE014 | Fisica General II\*\* | 4 |  | Sí |
+| CBO205 | Química Inorgánica y Orgánica | 4 | | Sí |
+| CBE014 | Fisica General II\*\* | 4 | | Sí |
 
 [*] Todos los cursos que llevarás durante tus primeros años de carrera son de carácter obligatorio (a pesar de que algunos te aparezcan en el Sistema Único de Matrícula como electivos). Sin embargo, existen algunos cursos electivos que no llevarás porque no pertenecen a la carrera de física.
 

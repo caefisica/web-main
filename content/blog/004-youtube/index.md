@@ -19,7 +19,7 @@ weight: 40
 | --- | --- | --- | --- |
 | Cursos del MIT desde cursos introductorios hasta avanzados | MIT | [Enlace](https://www.youtube.com/user/MIT) | Ingles |
 | Física (desde Física General hasta relatividad y mecánica cuántica), Astronomía, química, matemática (desde álgebra hasta Cálculo III) e ingeniería. | Michael Van Biezen | [Enlace](https://www.youtube.com/c/MichelvanBiezen/) | Ingles |
-|  | YALE | [Enlace](https://www.youtube.com/user/YaleCourses/) | Ingles |
+| | YALE | [Enlace](https://www.youtube.com/user/YaleCourses/) | Ingles |
 | Medio pesadito, pero tiene temas avanzados o específicos. | Nptel | [Enlace](https://www.youtube.com/c/iit/playlists) | Ingles |
 
 ## Matemática
@@ -28,13 +28,13 @@ weight: 40
 | --- | --- | --- | --- |
 | Cálculo I, II y quizá III. | Blackpenredpen | [Enlace](https://www.youtube.com/user/blackpenredpen) | Ingles |
 | Precálculo (álgebra, trigonometría), Cálculo I, II, III, ecuaciones diferenciales, estadística. | Professor Leonard | [Enlace](https://www.youtube.com/user/professorleonard57) | Ingles |
-|  | Aleph 0 | [Enlace](https://www.youtube.com/c/Aleph0/) | Ingles |
-|  | 3blue1brown | [Enlace](https://www.youtube.com/c/3blue1brown/) | Ingles |
+| | Aleph 0 | [Enlace](https://www.youtube.com/c/Aleph0/) | Ingles |
+| | 3blue1brown | [Enlace](https://www.youtube.com/c/3blue1brown/) | Ingles |
 | Cálculo I, II, III. | Dr Peyam | [Enlace](https://www.youtube.com/c/DrPeyam) | Ingles |
 | Álgebra, Álgebra Lineal, Precálculo, Cálculo I, II, III, Topología. | Linda Green | [Enlace](https://www.youtube.com/channel/UCkyLJh6hQS1TlhUZxOMjTFw/) | Ingles |
 | Análisis real, álgebra abstracta, ecuaciones diferenciales, álgebra lineal, cálculo multivariable, uso de Mathematica. | Bill Kinney | [Enlace](https://www.youtube.com/c/billkinneymath/) | Ingles |
 | Teoría de grupos, transformada de Laplace, aritmética modula, relatividad especial, ecuaciones diferenciales, cálculo y álgebra lineal. | Mu Prime Math | [Enlace](https://www.youtube.com/c/MuPrimeMath/) | Ingles |
-|  | 1a con Berni | [Enlace](https://www.youtube.com/c/1aconBerni) | Español |
+| | 1a con Berni | [Enlace](https://www.youtube.com/c/1aconBerni) | Español |
 | Aritmética, Álgebra elemental, geometría analítica, Cálculo I. | El traductor de ingeniería | [Enlace](https://www.youtube.com/c/ElTraductordeIngenier%C3%ADa/) | Español |
 | Matemática Básica, Álgebra Lineal, Ecuaciones diferenciales parciales y ordinarias, análisis vectorial, teoría de grupos, espacios topológicos, cálculo tensorial. | DalpMaths | [Enlace](https://www.youtube.com/c/DalpMaths/playlists) | Español |
 | Números imaginarios. | Welch Labs | [Enlace](https://www.youtube.com/c/WelchLabsVideo/) | Español |
@@ -48,24 +48,24 @@ weight: 40
 | --- | --- | --- | --- |
 | Mecánica Clásica | Physics with Elliot | [Enlace](https://www.youtube.com/c/PhysicswithElliot) | Ingles |
 | Física General,Termodinámica, física moderna I y II, ciencia de materiales. | Tonya Coffey | [Enlace](https://www.youtube.com/channel/UC8D8ZAJvULlIVI3kYowlfhw/) | Ingles |
-|  | Adam Beatty | [Enlace](https://www.youtube.com/user/youspinmerightrounds) | Ingles |
-|  | Classical Mechanics Videos | [Enlace](https://www.youtube.com/channel/UC3WVcp5UG2YDybF6lKW9Yog/videos) | Ingles |
+| | Adam Beatty | [Enlace](https://www.youtube.com/user/youspinmerightrounds) | Ingles |
+| | Classical Mechanics Videos | [Enlace](https://www.youtube.com/channel/UC3WVcp5UG2YDybF6lKW9Yog/videos) | Ingles |
 | Electrodinámica, Termodinámica, Python. | Real Physics | [Enlace](https://www.youtube.com/user/jg394) | Ingles |
 | Relatividad General, Tensores, Cosmología. | Eigenchris | [Enlace](https://www.youtube.com/c/eigenchris) | Ingles |
-|  | Sabine Hossenfelder | [Enlace](https://www.youtube.com/c/SabineHossenfelder/featured) | Ingles |
-|  | Domain of Science | [Enlace](https://www.youtube.com/c/DomainofScience/featured) | Ingles |
+| | Sabine Hossenfelder | [Enlace](https://www.youtube.com/c/SabineHossenfelder/featured) | Ingles |
+| | Domain of Science | [Enlace](https://www.youtube.com/c/DomainofScience/featured) | Ingles |
 | Videos acerca de tópicos de física de manera divulgativa. | Veritasium | [Enlace](https://www.youtube.com/c/veritasium) | Ingles |
-|  | Física Exactas UBA | [Enlace](https://www.youtube.com/c/F%C3%ADsicaExactasUBA/) | Español |
+| | Física Exactas UBA | [Enlace](https://www.youtube.com/c/F%C3%ADsicaExactasUBA/) | Español |
 | Física General, Electricidad y Magnetismo. | Cesar Antonio Izquierdo Merlo | [Enlace](https://www.youtube.com/user/IzquierdoCesar/videos) | Español |
 | Álgebra Lineal, Óptica, Mecánica Clásica I, Mecánica Cuántica, Física Matemática II y III, Física de Altas Energías, Métodos matemáticos para físicos II. | Rentov | [Enlace](https://www.youtube.com/c/rentov/) | Español |
 | Mecánica teórica, teoría cuántica de campos, relatividad general, mecánica cuántica. | Javier García | [Enlace](https://www.youtube.com/c/JavierGarcia110/) | Español |
 | Métodos matemáticos, Relatividad general, física de partículas y relatividad general. | Alex Flournoy | [Enlace](https://www.youtube.com/c/AlexFlournoyTeacher/) | Español |
 | Electromagnetismo, Relatividad especial, introducción al cálculo, a la mecánica clásica, cuántica. | MathArg | [Enlace](https://www.youtube.com/c/MathArg/) | Español |
 | Astrofísica, Filosofía Científica, Relatividad General, Agujeros negros. | Gustavo Esteban Romero | [Enlace](https://www.youtube.com/channel/UCcYC3_rytAKkVoTF69JsFMw/featured) | Español |
-|  | Instituto de Ciencias Físicas, UNAM | [Enlace](https://www.youtube.com/channel/UCFqVGAnbQNrBAGTgI-ItNXA/featured) | Español |
-|  | Instituto de Física Teórica IFT | [Enlace](https://www.youtube.com/c/IFTMadrid/featured) | Español |
-|  | QuantumFracture | [Enlace](https://www.youtube.com/user/QuantumFracture) | Español |
-|  | astrovlog | [Enlace](https://www.youtube.com/c/AstroblogCl/channels) | Español |
+| | Instituto de Ciencias Físicas, UNAM | [Enlace](https://www.youtube.com/channel/UCFqVGAnbQNrBAGTgI-ItNXA/featured) | Español |
+| | Instituto de Física Teórica IFT | [Enlace](https://www.youtube.com/c/IFTMadrid/featured) | Español |
+| | QuantumFracture | [Enlace](https://www.youtube.com/user/QuantumFracture) | Español |
+| | astrovlog | [Enlace](https://www.youtube.com/c/AstroblogCl/channels) | Español |
 
 ## Historia
 

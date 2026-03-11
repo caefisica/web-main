@@ -14,7 +14,7 @@ draft: false
 
 | Código | Curso | Créditos | Requisitos | Obligatorio\* |
 | --- | --- | --- | --- | --- |
-| CFO801 | Metodología de la Enseñanza en Física | 3.0 |  | Sí |
+| CFO801 | Metodología de la Enseñanza en Física | 3.0 | | Sí |
 | CFO802 | Física del Estado Sólido I | 5.0 | Mecánica Cuántica I, Física Estadística I | Sí |
 | CFO803 | Física Nuclear I | 5.0 | Mecánica Cuántica I | Sí |
 | CFO804 | Geofísica General | 4.0 | Mecánica Clásica I, Electromagnetismo I | Sí |

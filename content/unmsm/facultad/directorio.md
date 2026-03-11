@@ -38,7 +38,7 @@ La siguiente lista fue recuperada de la página web de la Facultad de Ciencias F
 | Vicedecanato de Investigación y Posgrado | Vicedecano | Justo Rojas Tapia | 3810 | vicedecanatoinvestigacion.fcf@unmsm.edu.pe |
 | Vicedecanato de Investigación y Postgrado | Secretaria | Carmen Cano Gonzales | 3810 | vicedecanatoinvestigacion.fcf@unmsm.edu.pe |
 | Instituto de Investigación de Física | Director | Julio Fabián Salvador | 3810 | iifis@unmsm.edu.pe<br>jfabians@unmsm.edu.pe |
-| Instituto de Investigación de Física | Secretaria |  | 3810 | iifis@unmsm.edu.pe |
+| Instituto de Investigación de Física | Secretaria | | 3810 | iifis@unmsm.edu.pe |
 | Unidad de Matricula, Registros Académicos Grados y Títulos | Jefa | Sandra Zavaleta Domínguez | 3804 | matriculafis@unmsm.edu.pe<br>szavaletad@unmsm.edu.pe |
 | CERSEU | Director | Luis Bolarte Canals | 3809 | cerseu.fisica@unmsm.edu.pe<br>lbolartec@unmsm.edu.pe |
 | CERSEU | Secretaria | Nedda Escobar Ramos | 3809 | cerseu.fisica@unmsm.edu.pe |

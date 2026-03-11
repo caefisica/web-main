@@ -82,20 +82,20 @@ La duración es de 2 años (4 semestres).
 
 | Universidad | País | Tipo | Fechas | Idioma |
 | --- | --- | --- | --- | --- |
-| [Aachen](https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4516/) | Alemania | Maestría |  |  |
-| [Bologna](https://corsi.unibo.it/2cycle/Physics) | Italia | Maestría |  |  |
+| [Aachen](https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4516/) | Alemania | Maestría | | |
+| [Bologna](https://corsi.unibo.it/2cycle/Physics) | Italia | Maestría | | |
 | Free University Berlin | Alemania | Maestría | `1-12-21`-`15-01-2022` | Sí |
-| ICTP | Italia | Diploma |  | No |
-| IFGW-UNICAMP | Brasil | Maestría |  |  |
-| [IFT-UNESP](https://www.ift.unesp.br/#!/en/post-graduate/enroll/) | Brasil | Maestría |  | No |
-| [IFTUSP](https://portal.if.usp.br/pg/pt-br/node/1304) | Brasil | Maestría | `8-11-2021`-`30-11-2021` |  |
-| Padua | Italia | Maestría |  |  |
-| [Pontificia Universidad Católica de Chile](https://fisica.uc.cl/item-3/magister-en-fisica#sobre-el-mag%C3%ADster) | Chile | Maestría |  | No |
-| [PUCP](https://bit.ly/3GCzVj2) `350` | Perú | Maestría |  |  |
-| Universidad Federal de Río de Janeiro |  |  |  |  |
-| [USM](https://doctoradofisica.usm.cl/) `0` | Chile | Doctorado directo |  | Sí |
-| Universitat de Valencia | España | Maestría |  |  |
-| [University of Warsaw](https://www.fuw.edu.pl/faculty-of-physics-home.html) [1](https://nawa.gov.pl/en/students/foreign-students/the-ignacy-lukasiewicz-scholarship-programme) | Polonia | Maestría |  |  |
+| ICTP | Italia | Diploma | | No |
+| IFGW-UNICAMP | Brasil | Maestría | | |
+| [IFT-UNESP](https://www.ift.unesp.br/#!/en/post-graduate/enroll/) | Brasil | Maestría | | No |
+| [IFTUSP](https://portal.if.usp.br/pg/pt-br/node/1304) | Brasil | Maestría | `8-11-2021`-`30-11-2021` | |
+| Padua | Italia | Maestría | | |
+| [Pontificia Universidad Católica de Chile](https://fisica.uc.cl/item-3/magister-en-fisica#sobre-el-mag%C3%ADster) | Chile | Maestría | | No |
+| [PUCP](https://bit.ly/3GCzVj2) `350` | Perú | Maestría | | |
+| Universidad Federal de Río de Janeiro | | | | |
+| [USM](https://doctoradofisica.usm.cl/) `0` | Chile | Doctorado directo | | Sí |
+| Universitat de Valencia | España | Maestría | | |
+| [University of Warsaw](https://www.fuw.edu.pl/faculty-of-physics-home.html) [1](https://nawa.gov.pl/en/students/foreign-students/the-ignacy-lukasiewicz-scholarship-programme) | Polonia | Maestría | | |
 
 ### Materiales cuánticos
 

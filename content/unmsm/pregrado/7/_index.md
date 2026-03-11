@@ -18,6 +18,6 @@ draft: false
 | CFO702 | Física Electrónica II | 4.0 | Física Electrónica I | Sí |
 | CFO703 | Mecánica Cuántica II | 5.0 | Mecánica Cuántica I | Sí |
 | CFO704 | Física Estadística I | 4.0 | Estadística y Probabilidad, Termodinámica | Sí |
-| CFO705 | Redacción y Metodología Científica | 3.0 |  | Sí |
+| CFO705 | Redacción y Metodología Científica | 3.0 | | Sí |
 
 [*] Encontrarás cursos electivos en tu último año de carrera.
