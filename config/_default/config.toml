@@ -43,11 +43,6 @@ isPlainText = true
 noUgly = true
 rel  = "sitemap"
 
-[caches]
-  [caches.getjson]
-    dir = ":cacheDir/:project"
-    maxAge = "10s"
-
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
