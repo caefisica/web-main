@@ -11,9 +11,6 @@ pdf: true
 math: true
 weight: 204
 date: 2022-02-01T02:00:00.000+00:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 {{< infobox-alert text="Este curso aborda el cálculo integral, la operación inversa al cálculo diferencial de una función. Aprenderás distintas técnicas de integración y cómo aplicarlas en problemas físicos y geométricos." />}}

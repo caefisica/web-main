@@ -12,9 +12,6 @@ pdf: true
 draft: false
 weight: 103
 date: 2022-05-02T00:00:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 {{< infobox-alert text="En este curso verás de forma rápida los conceptos básicos de la mecánica newtoniana. Puede que ya estés familiarizado con varios de estos temas." />}}

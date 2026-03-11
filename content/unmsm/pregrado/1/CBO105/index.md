@@ -11,9 +11,6 @@ pdf: true
 draft: false
 weight: 105
 date: 2022-05-02T15:15:48+02:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 {{< infobox-alert text="Este curso se adentra en los conceptos de Álgebra superior, por lo que es esencial tener un dominio sólido de los fundamentos del Álgebra básica antes de empezar. Te recomendamos repasar estos temas como preparación para este curso." />}}

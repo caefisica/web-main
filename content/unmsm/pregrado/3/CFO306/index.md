@@ -12,9 +12,6 @@ math: true
 draft: false
 weight: 306
 date: 2022-02-01T00:00:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 {{< infobox-alert text="Este curso brinda una introducción a los métodos numéricos y la programación en Fortran, con el propósito de enseñar cómo diseñar programas para resolver problemas y analizar resultados mediante métodos computacionales aplicados a diversos problemas físicos." />}}

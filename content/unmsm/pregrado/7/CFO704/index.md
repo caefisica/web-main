@@ -11,9 +11,6 @@ pdf: true
 draft: false
 weight: 704
 date: 2022-09-09T16:00:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 {{< infobox-alert text="Comenzarás con una introducción dinámica a la teoría de probabilidad. Luego, profundizarás en las propiedades de sistemas en equilibrio térmico, explorando aplicaciones en gases, paramagnetismo y radiación de cuerpo negro." />}}

@@ -11,9 +11,6 @@ pdf: false
 draft: false
 weight: 502
 date: 2022-02-01T12:00:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 {{< infobox-alert text="En el curso de Física Computacional II, aprenderás a resolver problemas físicos utilizando métodos numéricos, como ecuaciones no lineales, ecuaciones diferenciales y análisis de muchos cuerpos, empleando Fortran 90 o Fortran 95." />}}

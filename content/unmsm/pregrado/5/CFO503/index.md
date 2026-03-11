@@ -10,9 +10,6 @@ contributors: ["Alvaro", "Sergio"]
 pdf: false
 weight: 503
 date: 2022-02-01T13:00:00.000+00:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 El curso se enfoca en el estudio de las formulaciones lagrangiana y hamiltoniana de la mecánica clásica. Estas formulaciones son fundamentales para comprender la física moderna y proporcionan una base sólida para el estudio de la mecánica cuántica y la física teórica avanzada.

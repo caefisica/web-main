@@ -11,9 +11,6 @@ pdf: true
 draft: false
 weight: 104
 date: 2022-02-01T00:00:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 Los temas que se tocarán son los correspondientes al estudio del cálculo diferencial de una sola variable.

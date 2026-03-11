@@ -11,9 +11,6 @@ pdf: false
 draft: false
 weight: 603
 date: 2022-02-01T16:00:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 {{< infobox-alert text="Aunque los conceptos básicos de este curso no son extremadamente complicados, desarrollar una intuición sólida sobre los fenómenos cuánticos requiere de esfuerzo y dedicación constantes." />}}

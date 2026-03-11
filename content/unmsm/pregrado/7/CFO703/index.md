@@ -11,9 +11,6 @@ pdf: false
 draft: false
 weight: 703
 date: 2023-04-11T16:00:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 {{< infobox-alert text="Se recomienda contar con una base sólida en mecánica cuántica y estar dispuesto a dedicar tiempo y esfuerzo para comprender los conceptos y aplicaciones de los temas avanzados que se abordarán en este curso." />}}
