@@ -16,6 +16,8 @@
 {{ $app := resources.Get "js/app.js" -}}
 
 {{ $slice := slice $app -}}
+{{ $usesAlgolia := eq .Site.Params.search.provider "algolia" -}}
+{{ $searchEnabled := and $usesAlgolia (or (eq .Kind "home") (eq .Section "unmsm" "apuntes" "blog" "tags")) -}}
 
 {{ if .Site.Params.options.lazySizes -}}
     {{ $lazySizes := resources.Get "js/lazysizes.js" -}}
@@ -60,10 +62,7 @@
     {{ with .Params.mermaid -}}
         <script src="{{ $mermaid.RelPermalink }}" defer></script>
     {{ end -}}
-    {{ if eq .Kind "home" }}
-        <script src="{{ $docSearch.RelPermalink }}" defer></script>
-    {{ end -}}
-    {{ if eq .Section "unmsm" "apuntes" "blog" "tags" -}}
+    {{ if $searchEnabled -}}
         <script src="{{ $docSearch.RelPermalink }}" defer></script>
     {{ end -}}
     <script src="{{ $js.RelPermalink }}" defer></script>
@@ -108,14 +107,7 @@
             crossorigin="anonymous"
             defer></script>
     {{ end -}}
-    {{ if eq .Kind "home" }}
-        <script
-            src="{{ $docSearch.RelPermalink }}"
-            integrity="{{ $docSearch.Data.Integrity }}"
-            crossorigin="anonymous"
-            defer></script>
-    {{ end }}
-    {{ if eq .Section "unmsm" "apuntes" "blog" "tags" -}}
+    {{ if $searchEnabled -}}
         <script
             src="{{ $docSearch.RelPermalink }}"
             integrity="{{ $docSearch.Data.Integrity }}"
@@ -130,9 +122,11 @@
 {{ end -}}
 
 {{ if eq .Kind "home" -}}
-    <script
-        src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}"
-        type="text/javascript"></script>
+    {{ if $usesAlgolia -}}
+        <script
+            src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}"
+            type="text/javascript"></script>
+    {{ end -}}
     {{ $player := resources.Get "js/player.js" | js.Build -}}
     <script src="{{ $player.RelPermalink }}" defer></script>
     <script src="https://www.youtube.com/iframe_api" defer></script>

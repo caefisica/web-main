@@ -94,6 +94,10 @@ giscus = false
 # Professors
 professors = true
 
+# Search
+[search]
+  provider = "algolia"
+
 [options]
   lazySizes = true
   clipBoard = true
