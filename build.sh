@@ -1,15 +1,25 @@
-#!/bin/bash
-URL="https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-FILE_NAME="dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-PATH_DIR="/opt/build/repo/dart-sass"
+#!/usr/bin/env bash
 
-curl -LJO $URL
-tar -xf $FILE_NAME
-rm $FILE_NAME
-export PATH=$PATH_DIR:$PATH
+main() {
+  HUGO_VERSION=0.157.0
 
-if [ "$1" == "deploy-preview" ] || [ "$1" == "branch-deploy" ]; then
-  npm run build -- -b $DEPLOY_PRIME_URL
-else
-  npm run build
-fi
+  echo "Installing Hugo ${HUGO_VERSION}..."
+  curl -sLJO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+  mkdir -p "${HOME}/.local/hugo"
+  tar -C "${HOME}/.local/hugo" -xf "hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+  rm "hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+  export PATH="${HOME}/.local/hugo:${PATH}"
+
+  echo "Hugo: $(hugo version)"
+
+  git config core.quotepath false
+  if [ "$(git rev-parse --is-shallow-repository)" = "true" ]; then
+    git fetch --unshallow
+  fi
+
+  pnpm install
+  pnpm run build
+}
+
+set -euo pipefail
+main "$@"
