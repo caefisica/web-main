@@ -4,12 +4,8 @@ lead: "¡Bienvenido a la universidad! Las asignaturas de Física del primer seme
 description: "Primer semestre"
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
-layout: "single"
 draft: false
 weight: 1
-images: []
-toc: false
-contributors: ["David"]
 ---
 
 ### Plan de Estudios 2018

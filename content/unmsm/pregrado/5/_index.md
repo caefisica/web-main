@@ -4,12 +4,8 @@ lead: "En mi opinión, en este ciclo es en el que realmente comienzas a entrar u
 description: "Quinto semestre"
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
-layout: "single"
 draft: false
 weight: 5
-images: []
-toc: false
-contributors: ["David"]
 ---
 
 {{< alert icon="🚨" text="Este semestre está a cargo de la Facultad de Ciencias Físicas (FCF)." />}}

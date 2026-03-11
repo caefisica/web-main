@@ -4,12 +4,8 @@ lead: "Las asignaturas de Física del cuarto semestre comienzan a verse más esp
 description: "Cuarto semestre"
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
-layout: "single"
 draft: false
 weight: 4
-images: []
-toc: false
-contributors: ["David"]
 ---
 
 {{< alert icon="🚨" text="Este semestre está a cargo de la Facultad de Ciencias Físicas (FCF)." />}}

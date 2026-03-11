@@ -19,6 +19,14 @@ cascade:
     target:
       kind: page
       path: "{/unmsm/pregrado/1/**,/unmsm/pregrado/2/**,/unmsm/pregrado/3/**,/unmsm/pregrado/4/**,/unmsm/pregrado/5/**,/unmsm/pregrado/6/**,/unmsm/pregrado/7/**,/unmsm/pregrado/8/**}"
+  - params:
+      contributors: ["David"]
+      images: []
+      layout: "single"
+      toc: false
+    target:
+      kind: section
+      path: "{/unmsm/pregrado/1,/unmsm/pregrado/2,/unmsm/pregrado/3,/unmsm/pregrado/4,/unmsm/pregrado/5,/unmsm/pregrado/6,/unmsm/pregrado/7,/unmsm/pregrado/8}"
 date: 2020-10-06T00:00:45+00:00
 draft: false
 weight: 10
