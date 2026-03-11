@@ -156,7 +156,7 @@
                     <h3 class="h3 testimonials-title">Miembros actuales</h3>
 
                     <ul class="testimonials-list has-scrollbar">
-                        {{ $json := getJSON "data/authors/members.json" }}
+                        {{ $json := .Site.Data.authors.members }}
                         {{ range sort $json "data" "asc" }}
                             <li class="testimonials-item">
                                 <div
@@ -246,7 +246,7 @@
                     <h3 class="h3 testimonials-title">Miembros anteriores</h3>
 
                     <ul class="testimonials-list has-scrollbar">
-                        {{ $json := getJSON "data/authors/members_legacy.json" }}
+                        {{ $json := .Site.Data.authors.members_legacy }}
                         {{ range sort $json "data" "asc" }}
                             <li class="testimonials-item">
                                 <div
