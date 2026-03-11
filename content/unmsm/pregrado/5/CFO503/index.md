@@ -7,12 +7,8 @@ credits: 4
 prerrequisites: ["Mecánica Clásica I"]
 semester: 5
 contributors: ["Alvaro", "Sergio"]
-featured: false
 pdf: false
-math: false
 weight: 503
-images: []
-toc: true
 date: 2022-02-01T13:00:00.000+00:00
 menu:
   guias:

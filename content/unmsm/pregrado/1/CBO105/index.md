@@ -7,13 +7,9 @@ credits: 4
 prerrequisites: ["No aplica"]
 semester: 1
 contributors: ["Sergio", "David"]
-featured: false
 pdf: true
-math: false
 draft: false
 weight: 105
-images: []
-toc: true
 date: 2022-05-02T15:15:48+02:00
 menu:
   guias:

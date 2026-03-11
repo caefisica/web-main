@@ -7,13 +7,9 @@ credits: 5
 prerrequisites: ["Mecánica Cuántica I"]
 semester: 7
 contributors: ["David"]
-featured: false
 pdf: false
-math: false
 draft: false
 weight: 703
-images: []
-toc: true
 date: 2023-04-11T16:00:00
 menu:
   guias:

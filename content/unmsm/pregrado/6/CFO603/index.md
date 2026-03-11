@@ -7,13 +7,9 @@ credits: 5
 prerrequisites: ["Física Moderna I", "Álgebra Lineal"]
 semester: 6
 contributors: ["David", "Richard"]
-featured: false
 pdf: false
-math: false
 draft: false
 weight: 603
-images: []
-toc: true
 date: 2022-02-01T16:00:00
 menu:
   guias:

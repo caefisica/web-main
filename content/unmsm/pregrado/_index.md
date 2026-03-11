@@ -3,6 +3,15 @@ title: "Pregrado"
 description: "Malla curricular y Plan de Estudios"
 lead: "Malla curricular y Plan de Estudio: 2018"
 layout: "single"
+cascade:
+  - params:
+      featured: false
+      images: []
+      math: false
+      toc: true
+    target:
+      kind: page
+      path: /unmsm/pregrado/**
 date: 2020-10-06T00:00:45+00:00
 draft: false
 weight: 10

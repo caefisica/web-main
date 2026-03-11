@@ -7,13 +7,9 @@ credits: 4
 prerrequisites: ["Física Computacional I"]
 semester: 5
 contributors: ["David", "Alvaro"]
-featured: false
 pdf: false
-math: false
 draft: false
 weight: 502
-images: []
-toc: true
 date: 2022-02-01T12:00:00
 menu:
   guias:

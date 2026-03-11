@@ -7,13 +7,10 @@ credits: 4
 prerrequisites: ["Cálculo I"]
 semester: 3
 contributors: ["Richard", "David"]
-featured: false
 pdf: false
 math: true
 draft: false
 weight: 306
-images: []
-toc: true
 date: 2022-02-01T00:00:00
 menu:
   guias:

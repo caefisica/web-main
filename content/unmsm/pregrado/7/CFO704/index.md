@@ -7,13 +7,9 @@ credits: 5
 prerrequisites: ["Estadística y Probabilidad I"]
 semester: 7
 contributors: ["David"]
-featured: false
 pdf: true
-math: false
 draft: false
 weight: 704
-images: []
-toc: true
 date: 2022-09-09T16:00:00
 menu:
   guias:

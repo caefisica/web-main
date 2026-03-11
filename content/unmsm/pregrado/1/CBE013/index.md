@@ -9,11 +9,8 @@ semester: 1
 contributors: ["Sergio", "David"]
 featured: true
 pdf: true
-math: false
 draft: false
 weight: 103
-images: []
-toc: true
 date: 2022-05-02T00:00:00
 menu:
   guias:

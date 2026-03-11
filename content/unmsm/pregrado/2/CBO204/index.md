@@ -7,12 +7,9 @@ credits: 4
 prerrequisites: ["Cálculo I"]
 semester: 2
 contributors: ["Richard", "Sergio"]
-featured: false
 pdf: true
 math: true
 weight: 204
-images: []
-toc: true
 date: 2022-02-01T02:00:00.000+00:00
 menu:
   guias:

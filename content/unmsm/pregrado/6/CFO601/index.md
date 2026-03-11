@@ -7,13 +7,9 @@ credits: 5
 prerrequisites: ["Electricidad y Magnetismo", "Física Matemática II"]
 semester: 6
 contributors: ["David"]
-featured: false
 pdf: true
-math: false
 draft: false
 weight: 601
-images: []
-toc: true
 date: 2023-06-14T16:00:00
 menu:
   guias:
