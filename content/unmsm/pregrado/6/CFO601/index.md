@@ -15,11 +15,6 @@ weight: 601
 images: []
 toc: true
 date: 2023-06-14T16:00:00
-lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
 menu:
   guias:
     parent: "pregrado"

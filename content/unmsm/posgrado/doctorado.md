@@ -3,11 +3,6 @@ title: "Doctorado"
 description: ""
 lead: "El Doctorado en Física es un programa académico cuyo plan de estudios se estructura en un esquema semestral y se organiza en tres áreas con asignaturas comunes obligatorias y asignaturas electivas. Las áreas permiten investigar y documentar fenómenos naturales a escalas espaciales global, regional y local, y a escalas variables de tiempo. Se programa un intenso uso de laboratorios virtuales por medio del modelaje matemático-numérico y la utilización intensiva de datos digitales de sensoramiento."
 date: 2022-02-01T17:28:27
-lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
 draft: false
 images: []
 menu:

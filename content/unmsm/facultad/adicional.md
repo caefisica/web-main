@@ -3,11 +3,6 @@ title: "Biblioteca digital"
 description: ""
 lead: ""
 date: 2022-02-01T12:00:00
-lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
 draft: true
 images: []
 menu:

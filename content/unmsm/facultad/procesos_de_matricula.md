@@ -3,11 +3,6 @@ title: "Procesos de Matricula"
 description: ""
 lead: ""
 date: 2023-01-08T08:00:45+00:00
-lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
 draft: false
 images: []
 menu:

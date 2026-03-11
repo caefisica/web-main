@@ -3,11 +3,6 @@ title: "Simetría rotacional"
 description: "Código — X créditos"
 lead: "Código — X créditos"
 date: 2023-03-25T02:00:00
-lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
 draft: false
 menu:
   cursos:

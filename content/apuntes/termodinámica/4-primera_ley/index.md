@@ -3,11 +3,6 @@ title: "Primera ley"
 description: "Explicación de la Primera Ley de la Termodinámica, su aplicación en sistemas cerrados y abiertos, y cómo se relaciona con funciones termodinámicas y capacidades caloríficas a volumen y presión constantes."
 lead: "Estudio de la Primera Ley de la Termodinámica, que establece la conservación de la energía calorífica, y su aplicación en distintos sistemas y condiciones termodinámicas, incluyendo el cálculo de capacidades caloríficas y funciones de estado."
 date: 2022-02-01T02:00:00
-lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
 draft: false
 menu:
   cursos:

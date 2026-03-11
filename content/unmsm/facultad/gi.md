@@ -3,11 +3,6 @@ title: "Grupos de Investigación"
 description: "Las líneas de investigación en la UPG-FCF son desarrolladas por los GI-FCF"
 lead: "Las líneas de investigación que se desarrollan en la UPG-FCF son las que desarrollan los GI-FCF, las cuales sean establecido por el Instituto de Investigación y los GI-FCF."
 date: 2022-10-08T08:09:45+00:00
-lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
 draft: false
 weight: 2040
 images: []

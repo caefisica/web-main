@@ -3,11 +3,6 @@ title: "Ecuaciones de estado"
 description: "Explicación de las ecuaciones de estado en termodinámica, su relación con diferentes procesos termodinámicos"
 lead: "Un análisis detallado de las ecuaciones de estado en termodinámica y su papel en el modelado del comportamiento de sustancias en procesos isotérmicos, isobáricos e isocóricos"
 date: 2022-02-01T02:00:00
-lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
 draft: false
 menu:
   cursos:
