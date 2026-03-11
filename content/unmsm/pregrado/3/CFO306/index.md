@@ -44,19 +44,19 @@ Para complementar tu aprendizaje hemos seleccionado una lista de libros que prop
 
 Puedes consultar los siguientes libros, que incluyen información teórica detallada y ejemplos de programas escritos en C, Python u otros lenguajes (ten en cuenta que Fortran no es comúnmente utilizado en cursos similares en otros países):
 
-{{< content_table type="book" >}} {{< book_row title="Métodos numéricos aplicados con software" author="Shoichiro Nakamura" editorial="Prentice-Hall Hispanoamericana" year="1992" edition="1ra ed." url="https://drive.google.com/file/d/1K8xuRqu_pqSj0iPL6s0RJtiza4Jj4m6C/view?usp=sharing" >}} {{< book_row title="Métodos numéricos y computación" author="Ward Chene & David Kincaid" editorial="Cengage Learning" year="2010" edition="6ta ed." url="https://drive.google.com/file/d/1nU1KXcONN0TAKUzv4NPDd29cD-GjC_bY/view?usp=sharing" >}} {{< book_row title="Computational Physics-Fortran Version" author="Steven E. Koonin & Dawn Meredith" editorial="Westview Press" year="1990" edition="1ra ed." url="https://drive.google.com/file/d/1crbnbw0ndKnaj_Pp1M5l-obdzCUwP3eq/view?usp=sharing" >}} {{< book_row title="An Introduction to Computational Physics" author="Tao Pang" editorial="Cambride University Press" year="2006" edition="2da ed." url="https://drive.google.com/file/d/1hLow99N95A2BWNDTbL635LJFZYUwOdDz/view?usp=share_link" >}} {{< book_row title="Numerical Methods for Scientists and Engineers" author="H. M. Antia" editorial="Hindustan Book Agency" year="2012" edition="3ra ed." url="https://drive.google.com/file/d/1eAHhtZAHGLncF7TvKMG6yTX0c9b9s7ps/view?usp=share_link" >}} {{< book_row title="Numerical Methods of Mathematics Implemented in Fortran" author="Sujit Kumar Bose" editorial="Springer Nature Singapore" year="2019" edition="1ra ed." url="https://drive.google.com/file/d/1EBg-Ay8QQPa69BLYdblvkAbYUEG2glcL/view?usp=share_link" >}} {{< /content_table >}}
+{{< resource-table resource="books-theoretical.yaml" type="book" >}}
 
 ### Teórico-prácticos
 
-{{< content_table type="book" >}} {{< book_row title="Introduction to Programming with Fortran" author="Ian Chivers y Jane Sleightholme" editorial="Springer International Publishing AG" year="2018" edition="4ta ed." url="https://drive.google.com/file/d/1qKxqT4IcyfFROFiFrwhqfX5bhfOU5Ynm/view?usp=share_link" >}} {{< book_row title="A First Course in Computational Physics" author="Paul DeVries" editorial="John Wiley & Sons" year="1994" edition="1ra ed." url="https://drive.google.com/file/d/1YsPZJ0fCP4-gYKNO2X4kCoiOxEIIldco/view?usp=share_link" >}} {{< book_row title="How to learn Applied Mathematics through Modern Fortran" author="Juan Hernández y Javier Escoto" editorial="Independiente" year="2022" edition="3ra ed." url="https://drive.google.com/file/d/1iFw449C5q8AQoVEYNqtf-uJ-1gxTO611/view?usp=share_link" >}} {{< /content_table >}}
+{{< resource-table resource="books-theoretical-practical.yaml" type="book" >}}
 
 ### Prácticos
 
-{{< content_table type="book" >}} {{< book_row title="Computational Physics: A practical introduction to Computational Physics and Scientific Computing" author="Konstantinos Anagnostopoulos" editorial="National Technical University of Athens" year="2014" edition="1ra ed." url="http://www.physics.ntua.gr/~konstant/ComputationalPhysics/Book/ComputationalPhysicsKNA_nocover.pdf" >}} {{< book_row title="Computational Physics" author="Michael Bestehorn" editorial="Walter de Gruyter GmbH" year="2018" edition="1ra ed." url="https://drive.google.com/file/d/1ulFB8q0K45EIsIjwOVsI069Kia6ThyVk/view?usp=share_link" >}} {{< book_row title="Introduction to Fortran 90" author="Daniel Brown" editorial="University of Wales Aberystwyth" year="2009" edition="1ra ed." url="https://drive.google.com/file/d/1xKWosC94wpXKEcGl5o-3VHXjS9L5bca6/view?usp=share_link" >}} {{< /content_table >}}
+{{< resource-table resource="books-practical.yaml" type="book" >}}
 
 ### Solucionarios
 
-{{< content_table type="book" >}} {{< book_row title="An Introduction to Computational Physics" author="Tao Pang" editorial="Cambridge University Press" year="1997" edition="1ra ed." url="https://www.physics.unlv.edu/~pang/cp_f90.html" >}} {{< /content_table >}}
+{{< resource-table resource="books-solutions.yaml" type="book" >}}
 
 ## Documentos
 
@@ -75,7 +75,7 @@ Aquí encontrarás una lista de documentos relacionados con el lenguaje de progr
 
 ## Listas de reproducción
 
-{{< content_table type="playlist" >}} {{< playlist_row title="Curso de programación científica usando Fortran" channel="" lecturer="Fernando Garzón" videos="20" url="https://www.youtube.com/playlist?list=PLrzzpUO1QeKqG-wbR1aEb9mkEFl6UyNji" >}} {{< playlist_row title="Fortran Video Tutorials" channel="" lecturer="Cyprien Rusu" videos="11" url="https://www.youtube.com/playlist?list=PLvkU6i2iQ2fprrVmmkNP_V36mh0BMnS5L" >}} {{< playlist_row title="Fortran ejercicios" channel="Eletorres" lecturer="Luis Torres" videos="20" url="https://www.youtube.com/playlist?list=PLJCOP7K8-ts3GaYeAw-ynfoZxqdFqA797" >}} {{< playlist_row title="Metodos númericos en Fortran" channel="" lecturer="Claudio Canales D." videos="6" url="https://youtube.com/playlist?list=PLppzU9a2axuRXD4idiiicGb3dSS_F8adN" >}} {{< playlist_row title="Física Computacional I" channel="" lecturer="Prof. Francisco Moura" videos="40" url="https://www.youtube.com/playlist?list=PLCWOBtltrHovcMBoapQp7NfmsUyu0YRwc" >}} {{< playlist_row title="Métodos númericos en Fortran" channel="" lecturer="TheMarcosVerissimo" videos="71" url="https://youtube.com/playlist?list=PLPKxl5s4bNYxgeedSZy_5V_eB2NssC-7u" >}} {{< /content_table >}}
+{{< resource-table resource="playlists.yaml" type="playlist" >}}
 
 ## Páginas web
 
