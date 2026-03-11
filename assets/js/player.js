@@ -25,7 +25,7 @@ function playVideo() {
 
     player = new YT.Player("player", {
         videoId: videoId,
-        origin: "https://caefisica.com/",
+        origin: window.location.origin,
         width: 900,
         height: 506,
         events: {
