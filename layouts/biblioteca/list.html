@@ -8,7 +8,7 @@
         <div class="wrap" role="document">
             <div class="content">
                 {{ $sass := resources.Get "scss/components/_iframe.scss" }}
-                {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+                {{ $style := $sass | toCSS (dict "transpiler" "dartsass") | fingerprint }}
                 <link
                     rel="stylesheet"
                     href="{{ $style.Permalink }}"

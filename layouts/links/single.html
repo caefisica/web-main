@@ -5,7 +5,7 @@
 
     {{- $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" -}}
     {{- $linktree := resources.Get "scss/components/pages/_linktree.scss" -}}
-    {{- $style := $linktree | resources.ToCSS $opts | resources.Fingerprint -}}
+    {{- $style := $linktree | toCSS $opts | fingerprint -}}
     <link
         rel="stylesheet"
         href="{{ $style.Permalink -}}"

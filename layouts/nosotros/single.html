@@ -1,7 +1,7 @@
 {{ define "main" }}
     {{- $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" -}}
     {{- $sass := resources.Get "scss/components/pages/_nosotros.scss" -}}
-    {{- $style := $sass | resources.ToCSS $opts | resources.Fingerprint -}}
+    {{- $style := $sass | toCSS $opts | fingerprint -}}
     <link
         rel="stylesheet"
         href="{{ $style.Permalink }}"

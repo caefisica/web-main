@@ -1,5 +1,5 @@
 {{ define "main" }}
-    {{ $styles := resources.Get "scss/components/_message.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    {{ $styles := resources.Get "scss/components/_message.scss" | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
     <link
         rel="stylesheet"
         href="{{ $styles.Permalink }}"

@@ -1,5 +1,5 @@
 {{/* SCSS */}}
-{{- $pdfjs := resources.Get "scss/components/pages/_pdfjs.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
+{{- $pdfjs := resources.Get "scss/components/pages/_pdfjs.scss" | toCSS (dict "transpiler" "dartsass") | minify | fingerprint -}}
 <link
     rel="stylesheet"
     href="{{ $pdfjs.Permalink }}"
@@ -7,8 +7,8 @@
     media="screen" />
 
 {{/* JS Modules */}}
-{{ $pdfjs_dist := resources.Get "js/vendor/pdfjs/build/pdf.min.mjs" | resources.Fingerprint -}}
-{{ $pdfjs_worker_dist := resources.Get "js/vendor/pdfjs/build/pdf.worker.min.mjs" | resources.Fingerprint -}}
+{{ $pdfjs_dist := resources.Get "js/vendor/pdfjs/build/pdf.min.mjs" | fingerprint -}}
+{{ $pdfjs_worker_dist := resources.Get "js/vendor/pdfjs/build/pdf.worker.min.mjs" | fingerprint -}}
 
 <script type="module">
 import * as pdfjsLib from '{{ $pdfjs_dist.RelPermalink }}';
