@@ -4,8 +4,8 @@
     class="img-simple img-fluid lazyload blur-up{{ with .Get "class" }}
         {{ . }}
     {{ end }}"
-    src="{{ $lqip.Permalink }}"
-    data-src="{{ $image.Permalink }}"
+    src="{{ $lqip.RelPermalink }}"
+    data-src="{{ $image.RelPermalink }}"
     width="{{ $image.Width }}"
     height="{{ $image.Height }}"
     {{ with .Get "alt" }}alt="{{ . }}"{{ end }} />

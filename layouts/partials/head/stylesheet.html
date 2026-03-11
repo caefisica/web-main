@@ -27,6 +27,6 @@
 
 {{ with resources.Get "scss/components/_noscript.scss" }}
   {{ with . | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
-    <noscript><link rel="stylesheet" href="{{ .Permalink }}" /></noscript>
+    <noscript><link rel="stylesheet" href="{{ .RelPermalink }}" /></noscript>
   {{ end }}
 {{ end }}

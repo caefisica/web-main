@@ -2,7 +2,7 @@
 {{- $pdfjs := resources.Get "scss/components/pages/_pdfjs.scss" | toCSS (dict "transpiler" "dartsass") | minify | fingerprint -}}
 <link
     rel="stylesheet"
-    href="{{ $pdfjs.Permalink }}"
+    href="{{ $pdfjs.RelPermalink }}"
     integrity="{{ $pdfjs.Data.Integrity }}"
     media="screen" />
 
