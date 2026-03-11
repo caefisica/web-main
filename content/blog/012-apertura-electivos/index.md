@@ -2,7 +2,7 @@
 title: "¿En noveno ciclo? Cómo llevar tus cursos electivos"
 lead: "Entrando al noveno ciclo, es hora de elegir tus cursos electivos en física. Encuentra aquí todo lo que necesitas para seleccionar tu área y enviar tu solicitud."
 description: "Guía para seleccionar y solicitar tu área de física en la escuela"
-contributors: ["Alvaro", "David"]
+contributors: ["alvaro", "david"]
 featured: false
 pdf: false
 math: false

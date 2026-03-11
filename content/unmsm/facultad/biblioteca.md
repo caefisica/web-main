@@ -2,7 +2,7 @@
 title: "Biblioteca"
 lead: ""
 description: ""
-contributors: ["David"]
+contributors: ["david"]
 featured: false
 pdf: false
 math: false

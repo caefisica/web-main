@@ -6,7 +6,7 @@ id: "CBO204"
 credits: 4
 prerrequisites: ["Cálculo I"]
 semester: 2
-contributors: ["Richard", "Sergio"]
+contributors: ["richard", "sergio"]
 pdf: true
 math: true
 weight: 204

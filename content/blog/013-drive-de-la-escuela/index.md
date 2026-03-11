@@ -2,7 +2,7 @@
 title: "La historia detrás del nuevo Drive de la E.P. de Física"
 lead: "Descubre el porqué de los cambios y cómo, con el apoyo de la comunidad, se ha logrado preservar y mantener accesibles importantes recursos académicos"
 description: "La historia detrás de la creación de la unidad compartida de la Escuela Profesional de Física de la UNMSM y cómo se ha logrado mantener accesibles los recursos académicos a pesar de los cambios en Google Workspace for Education"
-contributors: ["David"]
+contributors: ["david"]
 featured: false
 pdf: false
 math: true

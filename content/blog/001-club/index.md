@@ -6,7 +6,7 @@ date: 2022-01-30T09:19:42+01:00
 lastmod: 2022-02-10T09:19:42+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 thumbnail: "https://i.imgur.com/GNvaW6k.png"
-contributors: ["David"]
+contributors: ["david"]
 author_id: "david"
 tags: ["evento"]
 draft: true

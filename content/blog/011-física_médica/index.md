@@ -7,7 +7,7 @@ date: 2022-10-20T14:44:30-05:00
 lastmod: 2022-10-20T14:44:30-05:00
 images: []
 thumbnail: ""
-contributors: ["David"]
+contributors: ["david"]
 author_id: "david"
 tags: ["especialización"]
 toc: true

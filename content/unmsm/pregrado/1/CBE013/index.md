@@ -6,7 +6,7 @@ id: "CBE013"
 credits: 2
 prerrequisites: ["No aplica"]
 semester: 1
-contributors: ["Sergio", "David"]
+contributors: ["sergio", "david"]
 featured: true
 pdf: true
 draft: false

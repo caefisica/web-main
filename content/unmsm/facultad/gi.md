@@ -8,7 +8,7 @@ weight: 2040
 images: []
 toc: false
 type: extend
-contributors: ["David"]
+contributors: ["david"]
 ---
 
 ---

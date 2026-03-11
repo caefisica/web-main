@@ -20,7 +20,7 @@ cascade:
       kind: page
       path: "{/unmsm/pregrado/1/**,/unmsm/pregrado/2/**,/unmsm/pregrado/3/**,/unmsm/pregrado/4/**,/unmsm/pregrado/5/**,/unmsm/pregrado/6/**,/unmsm/pregrado/7/**,/unmsm/pregrado/8/**}"
   - params:
-      contributors: ["David"]
+      contributors: ["david"]
       images: []
       layout: "single"
       toc: false
@@ -33,7 +33,7 @@ weight: 10
 toc: false
 images: []
 pdf: true
-contributors: ["David"]
+contributors: ["david"]
 ---
 
 <br>¡Bienvenido a nuestra serie de guías académicas para físicos en pregrado! Aquí encontrarás una descripción detallada de los recursos y materiales disponibles para optimizar tu experiencia educativa.

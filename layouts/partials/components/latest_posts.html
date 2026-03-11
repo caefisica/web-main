@@ -64,7 +64,7 @@
                                 {{ $contributors := partial "components/resolve-contributors.html" (dict "contributors" .Params.contributors "site" .Site) }}
                                 {{ $contributorNames := slice }}
                                 {{ range $contributors }}
-                                    {{ $contributorNames = $contributorNames | append .profileName }}
+                                    {{ $contributorNames = $contributorNames | append .name }}
                                 {{ end }}
                                 <article
                                     class="entry entry-grid is-column has-entry-link podcast type-podcast"

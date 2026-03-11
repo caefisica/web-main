@@ -6,7 +6,7 @@ id: "CFO503"
 credits: 4
 prerrequisites: ["Mecánica Clásica I"]
 semester: 5
-contributors: ["Alvaro", "Sergio"]
+contributors: ["alvaro", "sergio"]
 pdf: false
 weight: 503
 date: 2022-02-01T13:00:00.000+00:00

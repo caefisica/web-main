@@ -6,7 +6,7 @@ id: "CFO602"
 credits: 4
 prerrequisites: ["Cálculo III", "Física Molecular"]
 semester: 6
-contributors: ["Liuba", "David"]
+contributors: ["liuba", "david"]
 pdf: true
 draft: false
 weight: 602

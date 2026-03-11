@@ -6,7 +6,7 @@ id: "CFO601"
 credits: 5
 prerrequisites: ["Electricidad y Magnetismo", "Física Matemática II"]
 semester: 6
-contributors: ["David"]
+contributors: ["david"]
 pdf: true
 draft: false
 weight: 601

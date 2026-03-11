@@ -6,7 +6,7 @@ date: 2022-02-25T00:00:00+01:00
 lastmod: 2022-02-25T00:00:00+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 thumbnail: "https://i.imgur.com/0yarGgB.png"
-contributors: ["David"]
+contributors: ["david"]
 author_id: "david"
 tags: ["tips"]
 toc: false

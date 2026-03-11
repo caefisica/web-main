@@ -11,7 +11,7 @@ menu:
     parent: "posgrado"
 weight: 1010
 toc: true
-contributors: ["David", "Renzo"]
+contributors: ["david", "renzo"]
 ---
 
 ## Local

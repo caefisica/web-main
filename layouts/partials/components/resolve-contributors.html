@@ -2,42 +2,21 @@
 
 {{ range .contributors -}}
     {{ $id := . -}}
-    {{ $slug := $id | urlize -}}
-    {{ $page := $.site.GetPage (printf "/contributors/%s" $slug) -}}
-    {{ $dataAuthor := dict -}}
-
-    {{ range $.site.Data.authors.authors -}}
-        {{ if eq $id .first_name -}}
-            {{ $dataAuthor = . -}}
-        {{ end -}}
-    {{ end -}}
-
-    {{ $profileName := $id -}}
-    {{ with $dataAuthor.name -}}
-        {{ $profileName = . -}}
-    {{ end -}}
-
-    {{ if and (eq $profileName $id) $page -}}
-        {{ $profileName = $page.Title -}}
+    {{ $page := $.site.GetPage (printf "/contributors/%s" $id) -}}
+    {{ if not $page -}}
+        {{ errorf "Unable to resolve contributor %q" $id }}
     {{ end -}}
 
     {{ $image := "" -}}
-    {{ with $dataAuthor.image -}}
-        {{ $image = . -}}
-    {{ end -}}
-
-    {{ with $page -}}
-        {{ with .Params.images -}}
-            {{ $image = index . 0 -}}
-        {{ end -}}
+    {{ with $page.Params.images -}}
+        {{ $image = index . 0 -}}
     {{ end -}}
 
     {{ $contributors = $contributors | append (dict
         "id" $id
         "image" $image
         "page" $page
-        "profileName" $profileName
-        "slug" $slug
+        "name" $page.Title
     ) -}}
 {{ end -}}
 

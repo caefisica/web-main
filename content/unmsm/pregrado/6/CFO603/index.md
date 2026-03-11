@@ -6,7 +6,7 @@ id: "CFO603"
 credits: 5
 prerrequisites: ["Física Moderna I", "Álgebra Lineal"]
 semester: 6
-contributors: ["David", "Richard"]
+contributors: ["david", "richard"]
 pdf: false
 draft: false
 weight: 603

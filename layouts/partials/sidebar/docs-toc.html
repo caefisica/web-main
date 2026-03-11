@@ -10,25 +10,15 @@
             {{- range $contributors -}}
                 {{- $contributor := . -}}
                 <li class="m-0 ">
-                    {{- if $contributor.page -}}
-                        <a href="{{ $contributor.page.RelPermalink }}">
-                            {{- with $contributor.image -}}
-                                <img
-                                    src="{{ . }}"
-                                    alt="{{ $contributor.profileName }}"
-                                    class="avatar rounded-circle" />
-                            {{- end -}}
-                            <span class="name ms-2">{{ $contributor.profileName }}</span>
-                        </a>
-                    {{- else -}}
+                    <a href="{{ $contributor.page.RelPermalink }}">
                         {{- with $contributor.image -}}
                             <img
                                 src="{{ . }}"
-                                alt="{{ $contributor.profileName }}"
+                                alt="{{ $contributor.name }}"
                                 class="avatar rounded-circle" />
                         {{- end -}}
-                        <span class="name ms-2">{{ $contributor.profileName }}</span>
-                    {{- end -}}
+                        <span class="name ms-2">{{ $contributor.name }}</span>
+                    </a>
                 </li>
             {{- end -}}
         </ul>

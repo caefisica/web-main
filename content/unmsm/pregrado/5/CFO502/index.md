@@ -6,7 +6,7 @@ id: "CFO502"
 credits: 4
 prerrequisites: ["Física Computacional I"]
 semester: 5
-contributors: ["David", "Alvaro"]
+contributors: ["david", "alvaro"]
 pdf: false
 draft: false
 weight: 502

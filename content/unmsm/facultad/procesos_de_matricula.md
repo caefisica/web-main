@@ -9,7 +9,7 @@ menu:
   guias:
     parent: "Facultad"
 weight: 1010
-contributors: ["Nelson"]
+contributors: ["nelson"]
 ---
 
 ## Matrícula

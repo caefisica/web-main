@@ -6,7 +6,7 @@ id: "CFO302"
 credits: 4
 prerrequisites: ["Cálculo II"]
 semester: 3
-contributors: ["David", "Richard", "Sergio"]
+contributors: ["david", "richard", "sergio"]
 featured: true
 pdf: true
 draft: false

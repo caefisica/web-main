@@ -6,7 +6,7 @@ id: "CBO105"
 credits: 4
 prerrequisites: ["No aplica"]
 semester: 1
-contributors: ["Sergio", "David"]
+contributors: ["sergio", "david"]
 pdf: true
 draft: false
 weight: 105

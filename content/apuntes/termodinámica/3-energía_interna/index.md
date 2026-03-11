@@ -5,7 +5,7 @@ lead: "Análisis de la función de estado energía interna en termodinámica, su
 date: 2022-02-01T02:00:00
 draft: false
 weight: 20
-contributors: ["Richard"]
+contributors: ["richard"]
 types: ["matemática"]
 ---
 

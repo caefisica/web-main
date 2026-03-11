@@ -6,7 +6,7 @@ id: "CFO303"
 credits: 6
 prerrequisites: ["No aplica"]
 semester: 3
-contributors: ["David", "Richard"]
+contributors: ["david", "richard"]
 pdf: false
 draft: false
 weight: 303

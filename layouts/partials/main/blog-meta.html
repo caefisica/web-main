@@ -7,11 +7,7 @@
             por
             {{ $authorLinks := slice }}
             {{ range $contributors -}}
-                {{ if .page -}}
-                    {{ $authorLinks = $authorLinks | append (printf "<a class=\"stretched-link position-relative\" href=\"%s\">%s</a>" .page.RelPermalink .id) }}
-                {{ else }}
-                    {{ $authorLinks = $authorLinks | append .id }}
-                {{ end }}
+                {{ $authorLinks = $authorLinks | append (printf "<a class=\"stretched-link position-relative\" href=\"%s\">%s</a>" .page.RelPermalink .name) }}
             {{ end -}}
             {{ if eq ( len $authorLinks ) 2 -}}
                 {{ delimit $authorLinks " y " | safeHTML }}

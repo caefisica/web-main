@@ -6,7 +6,7 @@ id: "CFO604"
 credits: 4
 prerrequisites: ["Cálculo III", "Física Molecular"]
 semester: 6
-contributors: ["David"]
+contributors: ["david"]
 pdf: false
 draft: false
 weight: 604
