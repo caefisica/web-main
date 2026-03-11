@@ -1,4 +1,7 @@
 {{ $courseCode := .Params.id }}
+{{ if not $courseCode }}
+    {{ errorf "Professor lookup requires Params.id in %s" .File.Path }}
+{{ end }}
 {{ $professorsFound := false }}
 <table>
     <tr>

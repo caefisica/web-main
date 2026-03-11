@@ -217,7 +217,7 @@
 - name: "Cesar Omar Jimenez Tintaya"
   title: "Lic."
   courses:
-    - code: "705"
+    - code: "CFO705"
       semesters:
         - "2023-0"
 - name: "Mauro Quiroga Agurto"

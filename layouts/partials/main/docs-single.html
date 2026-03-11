@@ -43,7 +43,7 @@
             {{ partial "components/alert.html" $page -}}
         {{- end -}}
         {{- partial "main/headline-hash.html" $page.Content -}}
-        {{- if and $showProfessors $page.Site.Params.professors $page.Params.prerrequisites -}}
+        {{- if and $showProfessors $page.Site.Params.professors $page.Params.id -}}
             {{- partial "components/professors.html" $page -}}
         {{- end -}}
         <div class="metadata-article">
