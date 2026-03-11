@@ -5,7 +5,13 @@
   {{ $targetPath = "home.css" }}
 {{ end }}
 
-{{ $opts := dict "transpiler" "dartsass" "targetPath" $targetPath "includePaths" (slice "node_modules") }}
+{{ $opts := dict
+  "transpiler" "dartsass"
+  "targetPath" $targetPath
+  "includePaths" (slice "node_modules")
+  "quietDeps" true
+  "silenceDeprecations" (slice "import" "if-function" "global-builtin" "color-functions")
+}}
 
 {{ with resources.Get $scssPath }}
   {{ if hugo.IsDevelopment }}
