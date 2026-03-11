@@ -16,8 +16,7 @@
 {{ $app := resources.Get "js/app.js" -}}
 
 {{ $slice := slice $app -}}
-{{ $usesAlgolia := eq .Site.Params.search.provider "algolia" -}}
-{{ $searchEnabled := and $usesAlgolia (or (eq .Kind "home") (eq .Section "unmsm" "apuntes" "blog" "tags")) -}}
+{{ $searchEnabled := partial "components/is-search-enabled.html" . -}}
 
 {{ if .Site.Params.options.lazySizes -}}
     {{ $lazySizes := resources.Get "js/lazysizes.js" -}}
@@ -122,7 +121,7 @@
 {{ end -}}
 
 {{ if eq .Kind "home" -}}
-    {{ if $usesAlgolia -}}
+    {{ if $searchEnabled -}}
         <script
             src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}"
             type="text/javascript"></script>

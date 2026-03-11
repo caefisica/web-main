@@ -14,9 +14,11 @@
       <div class="col-lg-7 text-center text-lg-start">
         <h1>Una guía para el estudio de las Ciencias Físicas</h1>
         <p class="lead mb-4 fs-5">{{ .Params.Lead | safeHTML -}}</p>
-        <form class="search-wrapper home-search" action="{{ `search` | relLangURL }}">
-          <div id="docsearch"></div>
-        </form>
+        {{ if partial "components/is-search-enabled.html" . -}}
+          <form class="search-wrapper home-search" action="{{ `search` | relLangURL }}">
+            <div id="docsearch"></div>
+          </form>
+        {{ end -}}
         <p class="meta mt-3">Un proyecto del {{ .Site.Params.titleAddition }}</a></p>
       </div>
       <div class="col-lg-7 d-none d-lg-block">

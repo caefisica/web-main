@@ -7,8 +7,7 @@
 {{ if eq (hugo.Environment) "production" -}}
     <script async src="https://hive.caefisica.com/sb.js"></script>
 {{ end -}}
-{{ $usesAlgolia := eq .Site.Params.search.provider "algolia" -}}
-{{ if and $usesAlgolia (eq .Section "unmsm" "apuntes" "blog" "tags") -}}
+{{ if and (partial "components/is-search-enabled.html" .) (ne .Kind "home") -}}
     <script
         src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}"
         type="text/javascript"></script>
