@@ -9,6 +9,9 @@ toc: false
 images: []
 pdf: true
 contributors: ["david"]
+aliases:
+  - /unmsm/pregrado/EAP_10-02-2020.pdf
+  - /unmsm/pregrado/plan2018.pdf
 cascade:
   - params:
       university: "unmsm"
@@ -30,22 +33,40 @@ cascade:
       path: /unmsm/pregrado/plan-2018/**
 ---
 
-<br>¡Bienvenido a nuestra serie de guías académicas para físicos en pregrado! Aquí encontrarás una descripción detallada de los recursos y materiales disponibles para optimizar tu experiencia educativa.
+<br>¡Bienvenido a nuestra serie de guías académicas para físicos en pregrado!
+Aquí encontrarás una descripción detallada de los recursos y materiales
+disponibles para optimizar tu experiencia educativa.
 
 ## Plan de Estudios
 
-Te invitamos a revisar los planes de estudios actualizados, disponibles en archivos PDF:
+Te invitamos a revisar los planes de estudios actualizados, disponibles en
+archivos PDF:
 
-{{< details "Febrero de 2020" >}} {{< pdfjs file="EAP_10-02-2020.pdf" >}} {{< /details >}}
+{{< details "Febrero de 2020" >}} {{< pdfjs file="EAP_10-02-2020.pdf" >}}
+{{< /details >}}
 
-{{< details "Julio de 2021" >}} {{< pdfjs file="plan2018.pdf" >}} {{< /details >}}
+{{< details "Julio de 2021" >}} {{< pdfjs file="plan2018.pdf" >}}
+{{< /details >}}
 
 ## Contenido
 
-Una guía de estudio es un compendio de recursos diseñados para ayudarte a profundizar en el conocimiento de una materia. Esta guía incluye recomendaciones de libros (teóricos, teórico-prácticos, prácticos y solucionarios), documentos, listas de reproducción, sílabos y una lista de docentes que enseñaron anteriormente el curso. Para facilitar el acceso y aprovechamiento del contenido, hemos organizado la información en las siguientes secciones:
+Una guía de estudio es un compendio de recursos diseñados para ayudarte a
+profundizar en el conocimiento de una materia. Esta guía incluye recomendaciones
+de libros (teóricos, teórico-prácticos, prácticos y solucionarios), documentos,
+listas de reproducción, sílabos y una lista de docentes que enseñaron
+anteriormente el curso. Para facilitar el acceso y aprovechamiento del
+contenido, hemos organizado la información en las siguientes secciones:
 
-1. **Materiales de estudio**: Aquí encontrarás una lista detallada de los libros recomendados para cada semestre y curso. Utiliza el menú de navegación situado en la parte izquierda de tu pantalla para navegar entre los cursos y poder acceder a los materiales de estudio.
+1. **Materiales de estudio**: Aquí encontrarás una lista detallada de los libros
+   recomendados para cada semestre y curso. Utiliza el menú de navegación
+   situado en la parte izquierda de tu pantalla para navegar entre los cursos y
+   poder acceder a los materiales de estudio.
 
-2. **Tabla de contenido**: Cada curso cuenta con un menú de navegación situado en la parte derecha de cada artículo que ofrece un desglose detallado del contenido de cada página.
+2. **Tabla de contenido**: Cada curso cuenta con un menú de navegación situado
+   en la parte derecha de cada artículo que ofrece un desglose detallado del
+   contenido de cada página.
 
-Cada guía de estudio sigue un formato que incluye una breve descripción del curso, créditos, prerrequisitos, semestre y una lista de recursos y materiales recomendados. Estas guías se actualizan periódicamente para proporcionar información relevante y actualizada.
+Cada guía de estudio sigue un formato que incluye una breve descripción del
+curso, créditos, prerrequisitos, semestre y una lista de recursos y materiales
+recomendados. Estas guías se actualizan periódicamente para proporcionar
+información relevante y actualizada.
