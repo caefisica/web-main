@@ -3,10 +3,14 @@ Builds a JS/TS asset with esbuild. Minifies and adds SRI fingerprint in producti
 
 Usage: partial "footer/render-script" (dict "src" "js/foo.ts" "load" "defer")
 Pass load "none" to omit the defer/async attribute (e.g. for blocking head scripts).
+Pass params (a dict) to read it in the script with `import params from "@params"`.
 */ -}}
 
 {{- $isProd := hugo.IsProduction -}}
 {{- $opts := dict "target" "es2020" "minify" $isProd "sourceMap" (cond $isProd "none" "inline") -}}
+{{- with .params -}}
+	{{- $opts = merge $opts (dict "params" .) -}}
+{{- end -}}
 {{- $rawLoad := .load | default "defer" -}}
 {{- $load := cond (eq $rawLoad "none") "" $rawLoad -}}
 {{- with resources.Get .src -}}

@@ -3,7 +3,7 @@
 
 {{- /* Feature scripts: conditional, loaded individually */ -}}
 {{- if $searchEnabled -}}
-	{{ partial "footer/render-script" (dict "src" "js/docsearch.ts" "load" "defer") }}
+	{{ partial "footer/render-script" (dict "src" "js/docsearch.ts" "load" "defer" "params" (dict "appId" .Site.Params.search.appId)) }}
 {{- end -}}
 {{- if .Site.Params.options.bootStrapJs -}}
 	{{ partial "footer/render-script" (dict "src" "js/bootstrap.ts" "load" "defer") }}

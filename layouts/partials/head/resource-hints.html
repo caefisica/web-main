@@ -11,7 +11,10 @@
 	type="font/woff2"
 	crossorigin />
 {{ if partial "components/is-search-enabled.html" . -}}
-	<link rel="preconnect" href="https://B36UGT1YWJ-dsn.algolia.net" crossorigin />
+	<link
+		rel="preconnect"
+		href="https://{{ .Site.Params.search.appId }}-dsn.algolia.net"
+		crossorigin />
 {{ end -}}
 {{ if .Site.Params.options.kaTex -}}
 	<link

@@ -99,8 +99,9 @@ Los shortcodes están en `layouts/shortcodes/` y se describen en
   de teclado y Netlify Identity, más lazysizes, clipboard e instant.page cuando
   `params.toml` los activa. Bootstrap y highlight.js se cargan aparte, según
   `params.toml`. KaTeX se carga con `math: true` en el front matter y Mermaid
-  con `mermaid: true`. El buscador solo se carga en la portada y en `unmsm`,
-  `apuntes` y `blog` (`components/is-search-enabled.html`).
+  con `mermaid: true`. El buscador solo se carga en la portada y en `unmsm` y
+  `apuntes`, las páginas que tienen su caja de búsqueda
+  (`components/is-search-enabled.html`).
 - `assets/js/vendor/` se llena con los montajes de `module.toml`; no se edita.
 
 ## Boletín
