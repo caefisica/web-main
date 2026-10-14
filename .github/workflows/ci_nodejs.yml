@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     env:
-      HUGO_VERSION: "0.166.0"
-      DART_SASS_VERSION: 1.105.0
+      HUGO_VERSION: "0.168.0"
+      DART_SASS_VERSION: 1.105.1
 
     steps:
       - run: |
@@ -22,13 +22,13 @@ jobs:
         with:
           lfs: true
 
-      - uses: jdx/mise-action@v5.1.1
+      - uses: jdx/mise-action@v5.1.2
         with:
           install_args: node
 
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: "1.4.2"
+          bun-version: "1.4.3"
 
       - name: Install Dart Sass
         run: |
