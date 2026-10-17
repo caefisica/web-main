@@ -1,6 +1,8 @@
 const getPreferredTheme = (): string =>
   localStorage.getItem("theme") ??
-  (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  (window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light");
 
 const setTheme = (theme: string): void => {
   if (theme === "dark") {
@@ -12,7 +14,9 @@ const setTheme = (theme: string): void => {
 };
 
 const toggleTheme = (): void => {
-  const current = document.documentElement.hasAttribute("data-dark-mode") ? "dark" : "light";
+  const current = document.documentElement.hasAttribute("data-dark-mode")
+    ? "dark"
+    : "light";
   setTheme(current === "dark" ? "light" : "dark");
 };
 

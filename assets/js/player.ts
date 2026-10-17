@@ -4,7 +4,8 @@ let player: YT.Player | null = null;
 
 function init(): void {
   const playButton = document.querySelector<HTMLButtonElement>("#play-video");
-  const closeButton = document.querySelector<HTMLButtonElement>("#close-button");
+  const closeButton =
+    document.querySelector<HTMLButtonElement>("#close-button");
   if (!playButton || !closeButton) return;
 
   playButton.addEventListener("click", playVideo);

@@ -37,7 +37,9 @@ async function resolveImageFile(
   imageToken: string,
 ): Promise<string | undefined> {
   const entries = await readdir(bundleDir);
-  return entries.find((entry) => entry !== "index.md" && entry.includes(imageToken));
+  return entries.find(
+    (entry) => entry !== "index.md" && entry.includes(imageToken),
+  );
 }
 
 async function loadBundles(filterNames?: string[]): Promise<Bundle[]> {
@@ -57,13 +59,18 @@ async function loadBundles(filterNames?: string[]): Promise<Bundle[]> {
 
     const resolvedFile = await resolveImageFile(bundleDir, image);
     if (!resolvedFile) {
-      console.error(`Skipping ${entry.name}: no file in the bundle matches images[0]="${image}"`);
+      console.error(
+        `Skipping ${entry.name}: no file in the bundle matches images[0]="${image}"`,
+      );
       continue;
     }
 
-    const screenshotType = SCREENSHOT_TYPES[extname(resolvedFile).toLowerCase()];
+    const screenshotType =
+      SCREENSHOT_TYPES[extname(resolvedFile).toLowerCase()];
     if (!screenshotType) {
-      console.error(`Skipping ${entry.name}: unsupported image format "${resolvedFile}"`);
+      console.error(
+        `Skipping ${entry.name}: unsupported image format "${resolvedFile}"`,
+      );
       continue;
     }
 
@@ -80,7 +87,9 @@ async function loadBundles(filterNames?: string[]): Promise<Bundle[]> {
 
 async function main() {
   const requestedBundles = process.argv.slice(2);
-  const bundles = await loadBundles(requestedBundles.length > 0 ? requestedBundles : undefined);
+  const bundles = await loadBundles(
+    requestedBundles.length > 0 ? requestedBundles : undefined,
+  );
 
   if (bundles.length === 0) {
     console.error("No bundles with both a link and an image were found.");
@@ -110,13 +119,20 @@ async function main() {
             "kept the existing image";
           deadLinks.push(message);
           console.warn(
-            process.env.GITHUB_ACTIONS ? `::warning title=Link not captured::${message}` : message,
+            process.env.GITHUB_ACTIONS
+              ? `::warning title=Link not captured::${message}`
+              : message,
           );
           continue;
         }
-        await page.screenshot({ path: bundle.imagePath, type: bundle.screenshotType });
+        await page.screenshot({
+          path: bundle.imagePath,
+          type: bundle.screenshotType,
+        });
         successCount++;
-        console.log(`Saved screenshot of ${bundle.link} to ${bundle.imagePath}`);
+        console.log(
+          `Saved screenshot of ${bundle.link} to ${bundle.imagePath}`,
+        );
       } catch (error) {
         console.error(
           `Failed to screenshot ${bundle.name} (${bundle.link}): ${(error as Error).message}`,

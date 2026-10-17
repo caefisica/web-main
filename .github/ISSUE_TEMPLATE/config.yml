@@ -7,4 +7,6 @@ contact_links:
 
   - name: ❓ Preguntas y Discusiones
     url: https://github.com/caefisica/web/discussions
-    about: Utiliza las discusiones de GitHub para las preguntas y discusiones de tipo tablón de anuncios
+    about:
+      Utiliza las discusiones de GitHub para las preguntas y discusiones de tipo
+      tablón de anuncios

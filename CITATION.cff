@@ -1,5 +1,7 @@
 cff-version: 1.2.0
-message: "Si utilizas este software o su contenido, cítalo como se indica a continuación"
+message:
+  "Si utilizas este software o su contenido, cítalo como se indica a
+  continuación"
 title: "Documentación del Centro de Apoyo al Estudiante de Física"
 authors:
   - family-names: "Duran"

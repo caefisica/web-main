@@ -27,7 +27,9 @@ body:
         - label: Páginas web (mínimo 3)
         - label: Sílabos
         - label: Docentes
-        - label: Agrupar docentes y sílabos en secciones desplegables (opciones para mostrar y ocultar información)
+        - label:
+            Agrupar docentes y sílabos en secciones desplegables (opciones para
+            mostrar y ocultar información)
 
   - type: input
     id: curso

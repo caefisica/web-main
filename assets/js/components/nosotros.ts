@@ -1,16 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
   const sidebar = document.querySelector<HTMLElement>("[data-sidebar]");
-  const sidebarBtn = document.querySelector<HTMLButtonElement>("[data-sidebar-btn]");
-  const modalContainer = document.querySelector<HTMLElement>("[data-modal-container]");
-  const modalCloseBtn = document.querySelector<HTMLButtonElement>("[data-modal-close-btn]");
+  const sidebarBtn =
+    document.querySelector<HTMLButtonElement>("[data-sidebar-btn]");
+  const modalContainer = document.querySelector<HTMLElement>(
+    "[data-modal-container]",
+  );
+  const modalCloseBtn = document.querySelector<HTMLButtonElement>(
+    "[data-modal-close-btn]",
+  );
   const overlay = document.querySelector<HTMLElement>("[data-overlay]");
   const modalImg = document.querySelector<HTMLImageElement>("[data-modal-img]");
   const modalTitle = document.querySelector<HTMLElement>("[data-modal-title]");
   const modalText = document.querySelector<HTMLElement>("[data-modal-text]");
 
-  if (!sidebar || !sidebarBtn || !modalContainer || !modalCloseBtn || !overlay) return;
+  if (!sidebar || !sidebarBtn || !modalContainer || !modalCloseBtn || !overlay)
+    return;
 
-  sidebarBtn.addEventListener("click", () => sidebar.classList.toggle("active"));
+  sidebarBtn.addEventListener("click", () =>
+    sidebar.classList.toggle("active"),
+  );
 
   const toggleModal = (): void => {
     modalContainer.classList.toggle("active");
@@ -19,8 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll("[data-testimonials-item]").forEach((item) => {
     item.addEventListener("click", () => {
-      const avatar = item.querySelector<HTMLImageElement>("[data-testimonials-avatar]");
-      const title = item.querySelector<HTMLElement>("[data-testimonials-title]");
+      const avatar = item.querySelector<HTMLImageElement>(
+        "[data-testimonials-avatar]",
+      );
+      const title = item.querySelector<HTMLElement>(
+        "[data-testimonials-title]",
+      );
       const text = item.querySelector<HTMLElement>("[data-testimonials-text]");
 
       if (modalImg && avatar) {
@@ -39,10 +51,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Filter / select
   const select = document.querySelector<HTMLButtonElement>("[data-select]");
-  const selectItems = document.querySelectorAll<HTMLButtonElement>("[data-select-item]");
-  const selectValue = document.querySelector<HTMLElement>("[data-select-value]");
-  const filterBtns = document.querySelectorAll<HTMLButtonElement>("[data-filter-btn]");
-  const filterItems = document.querySelectorAll<HTMLElement>("[data-filter-item]");
+  const selectItems =
+    document.querySelectorAll<HTMLButtonElement>("[data-select-item]");
+  const selectValue = document.querySelector<HTMLElement>(
+    "[data-select-value]",
+  );
+  const filterBtns =
+    document.querySelectorAll<HTMLButtonElement>("[data-filter-btn]");
+  const filterItems =
+    document.querySelectorAll<HTMLElement>("[data-filter-item]");
 
   const filterFunc = (selected: string): void => {
     filterItems.forEach((item) => {
@@ -78,15 +95,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector<HTMLFormElement>("[data-form]");
   const formBtn = document.querySelector<HTMLButtonElement>("[data-form-btn]");
   if (form && formBtn) {
-    document.querySelectorAll<HTMLInputElement>("[data-form-input]").forEach((input) => {
-      input.addEventListener("input", () => {
-        formBtn.disabled = !form.checkValidity();
+    document
+      .querySelectorAll<HTMLInputElement>("[data-form-input]")
+      .forEach((input) => {
+        input.addEventListener("input", () => {
+          formBtn.disabled = !form.checkValidity();
+        });
       });
-    });
   }
 
   // Page navigation
-  const navLinks = document.querySelectorAll<HTMLButtonElement>("[data-nav-link]");
+  const navLinks =
+    document.querySelectorAll<HTMLButtonElement>("[data-nav-link]");
   const pages = document.querySelectorAll<HTMLElement>("[data-page]");
 
   navLinks.forEach((link, i) => {

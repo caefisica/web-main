@@ -10,7 +10,10 @@ interface NetlifyRecord {
   content?: string;
 }
 
-const searchClient = liteClient(params.appId, "212b4289f18eff69818f91465a98e85d");
+const searchClient = liteClient(
+  params.appId,
+  "212b4289f18eff69818f91465a98e85d",
+);
 
 const placeholder = document.getElementById("search-placeholder");
 if (placeholder) {
@@ -32,7 +35,8 @@ if (container) {
               searchClient,
               queries: [
                 {
-                  indexName: "netlify_abc167f5-8dee-48db-a7da-3c97c18849be_master_all",
+                  indexName:
+                    "netlify_abc167f5-8dee-48db-a7da-3c97c18849be_master_all",
                   params: {
                     query,
                     hitsPerPage: 5,
