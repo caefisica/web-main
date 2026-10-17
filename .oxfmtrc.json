@@ -1,4 +1,18 @@
 {
   "$schema": "./node_modules/oxfmt/configuration_schema.json",
-  "ignorePatterns": ["assets/js/vendor/**"]
+  "printWidth": 80,
+  "proseWrap": "always",
+  "ignorePatterns": [
+    // Third-party code, kept as published.
+    "assets/js/vendor/**",
+    "static/css/vendor/**",
+    // stylelint formats the SCSS; gotmplfmt formats the Go templates.
+    "assets/scss/**",
+    "layouts/**",
+    // oxfmt rewrites the Hugo action in the front matter: `date: {{ .Date }}`
+    // becomes `date: { { .Date } }`; in tutorial.md it also wraps a shortcode.
+    "archetypes/offering.md",
+    "archetypes/professor.md",
+    "archetypes/tutorial.md"
+  ]
 }
