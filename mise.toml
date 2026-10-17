@@ -4,3 +4,96 @@ bun = "1.4.3"
 go = "1.27.2"
 hugo-extended = "0.168.0"
 node = "26.12.0"
+"go:github.com/gohugoio/gotmplfmt" = "0.5.0"
+
+[env]
+_.path = ["{{config_root}}/node_modules/.bin"]
+
+[tasks.install]
+description = "Install dependencies from bun.lock"
+run = "bun install --frozen-lockfile"
+
+[tasks."install:browser"]
+description = "Install the Chromium that the screenshots task drives"
+run = "bunx playwright install --with-deps chromium"
+
+[tasks.lint]
+description = "Check scripts, styles, templates, Markdown and formatting"
+depends = ["lint:*"]
+
+[tasks."lint:scripts"]
+description = "Lint the JavaScript and TypeScript"
+run = "oxlint --deny-warnings assets/js config functions scripts"
+
+[tasks."lint:styles"]
+description = "Lint the SCSS"
+run = "stylelint 'assets/scss/**/*.{css,sass,scss,sss,less}'"
+
+[tasks."lint:markdown"]
+description = "Lint the Markdown"
+run = "markdownlint-cli2 '**/*.md' '!node_modules/**'"
+
+[tasks."lint:templates"]
+description = "Check the Hugo templates are formatted"
+run = "test -z \"$(gotmplfmt -l layouts data)\""
+
+[tasks."lint:format"]
+description = "Check the formatting of scripts, Markdown, YAML and JSON"
+run = "oxfmt --check ."
+
+[tasks.fix]
+description = "Apply safe fixes and format every file"
+run = [
+  "gotmplfmt -w layouts data",
+  "oxfmt .",
+  "markdownlint-cli2 --fix '**/*.md' '!node_modules/**'",
+]
+
+[tasks.typecheck]
+description = "Type-check the TypeScript"
+run = "tsc --noEmit"
+
+[tasks."copy:fonts"]
+description = "Copy the KaTeX fonts to static/fonts"
+run = "shx cp 'node_modules/katex/dist/fonts/*' static/fonts/"
+
+[tasks.build]
+description = "Build the site into public/"
+depends = ["copy:fonts"]
+run = "hugo --gc --minify"
+
+[tasks."build:lan"]
+description = "Build the site for the local network"
+depends = ["copy:fonts"]
+run = "hugo --gc --minify --baseURL=http://192.168.18.218"
+
+[tasks."build:preview"]
+description = "Build the site with drafts and future-dated pages"
+depends = ["copy:fonts"]
+run = "hugo --gc --minify -D -F"
+
+[tasks.check]
+description = "Run every check that CI runs"
+depends = ["lint", "typecheck", "build"]
+
+[tasks.dev]
+description = "Serve the site on port 1313"
+depends = ["copy:fonts"]
+run = "hugo server --disableFastRender"
+
+[tasks."dev:lan"]
+description = "Serve the site on the local network"
+depends = ["copy:fonts"]
+run = "hugo server --bind=0.0.0.0 --baseURL=http://192.168.18.218 --port=1313"
+
+[tasks.new]
+description = "Create a content file with hugo new"
+run = "hugo new"
+
+[tasks.screenshots]
+description = "Regenerate the screenshots in content/experimental"
+run = "bun scripts/screenshots.ts"
+
+[tasks.clean]
+description = "Remove build output and node_modules"
+run = "shx rm -rf public resources node_modules"

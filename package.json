@@ -11,32 +11,6 @@
     "type": "individual",
     "url": "https://github.com/sponsors/totallynotdavid"
   },
-  "scripts": {
-    "init": "shx rm -rf .git && git init -b master",
-    "clean": "bun run clean:build && bun run clean:packages",
-    "clean:build": "shx rm -rf public resources",
-    "clean:packages": "shx rm -rf node_modules bun-lock.yaml",
-    "format:templates": "gotmplfmt -w layouts data",
-    "hugo:create": "hugo new",
-    "hugo:start": "hugo server --disableFastRender",
-    "hugo:start:lan": "hugo server --bind=0.0.0.0 --baseURL=http://192.168.18.218 --port=1313",
-    "build": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/ && hugo --gc --minify",
-    "build:lan": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/ && hugo --gc --minify --baseURL=http://192.168.18.218",
-    "build:preview": "bun run build -D -F",
-    "typecheck": "tsc --noEmit",
-    "check": "bun run lint && bun run format:check && bun run typecheck && bun run build",
-    "hugo:version": "hugo version",
-    "lint": "bun run lint:scripts && bun run lint:styles && bun run lint:markdown",
-    "lint:scripts": "oxlint --deny-warnings assets/js config functions scripts",
-    "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
-    "lint:markdown": "markdownlint-cli2 \"**/*.md\" \"!node_modules/**\"",
-    "format": "oxfmt assets/js config functions scripts",
-    "format:check": "oxfmt --check assets/js config functions scripts",
-    "test": "bun run lint",
-    "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
-    "serve": "netlify functions:serve",
-    "screenshots": "bun scripts/screenshots.ts"
-  },
   "dependencies": {
     "@algolia/autocomplete-js": "^1.19.12",
     "algoliasearch": "^5.60.0"
