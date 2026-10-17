@@ -36,17 +36,6 @@
   color: $black;
 }
 
-/*
-.alert-light {
-  color: #215888;
-  background: linear-gradient(-45deg, rgb(212, 245, 255), rgb(234, 250, 255), rgb(234, 250, 255), #d3f6ef);
-}
-
-.alert-light .alert-link {
-  color: #215888;
-}
-*/
-
 .alert-white {
   background-color: rgb(255, 255, 255, 0.95);
 }
@@ -67,11 +56,6 @@
 
 .alert-dismissible .btn-close {
   position: absolute;
-
-  /*
-  top: 50%;
-  transform: translateY(-50%);
-  */
   top: 0.75rem;
   right: 1rem;
   z-index: 2;

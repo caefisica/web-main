@@ -36,7 +36,6 @@
 }
 
 .docs-links h3 {
-  /* text-transform: uppercase; */
   font-size: $font-size-base;
   margin: 1.25rem 0 0.5rem;
   padding: 1.5rem 0 0;
@@ -82,7 +81,6 @@
 }
 
 .page-links h3 {
-  /* text-transform: uppercase; */
   font-size: $font-size-base;
   margin: 2rem 0 0.5rem;
   padding: 0;
@@ -110,12 +108,6 @@ a.docs-link {
   padding: 0.125rem 0;
   font-size: $font-size-base;
 }
-
-/*
-.list.unmsm a.docs-link {
-  padding: 0.2rem 0;
-}
-*/
 
 .page-links li {
   margin-top: 0.375rem;

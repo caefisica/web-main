@@ -6,14 +6,6 @@ details {
   margin: 0.5rem 0;
 }
 
-/*
-details summary {
-  &::marker {
-    content: "";
-  }
-}
-*/
-
 summary {
   list-style: none;
   display: inline-block;
@@ -41,12 +33,6 @@ details summary::before {
 details[open] > summary::before {
   transform: rotate(90deg);
 }
-
-/*
-details summary > * {
-  display: inline-block;
-}
-*/
 
 details[open] {
   padding: 0.5rem 1rem;

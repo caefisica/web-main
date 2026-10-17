@@ -4,7 +4,6 @@
 {{- if $resource -}}
 	{{- $url = $resource.RelPermalink -}}
 {{- else -}}
-	{{- /* Fallback for non-bundle pages: construct URL from file path */ -}}
 	{{- $url = path.Join (.Page.File.Dir | lower) $file | relURL -}}
 {{- end -}}
 {{ partial "components/pdfjs-viewer.html" (dict "url" $url "id" $file "hidePaginator" (.Get "hidePaginator")) }}

@@ -35,7 +35,6 @@ function init(): void {
       },
     } as YT.PlayerOptions);
 
-    // Apply sandbox to the iframe after creation
     const iframe = document.querySelector<HTMLIFrameElement>("#player iframe");
     if (iframe) {
       iframe.setAttribute(

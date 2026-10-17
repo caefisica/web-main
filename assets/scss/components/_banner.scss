@@ -8,7 +8,6 @@ $transition-duration: 0.3s;
   }
 }
 
-/* Temporary */
 .mai-icon svg {
   max-width: 0.75rem;
   max-height: 0.75rem;
@@ -154,8 +153,6 @@ $transition-duration: 0.3s;
   }
 }
 
-// Youtube player
-
 .player_container {
   z-index: 1043;
   place-items: flex-end;
@@ -178,7 +175,6 @@ $transition-duration: 0.3s;
   opacity: 0.8;
 }
 
-// Lista de miembros del CAE
 .lista_miembros {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -193,7 +189,6 @@ $transition-duration: 0.3s;
   }
 }
 
-/* Features */
 .wp-block-buttons > .wp-block-button {
   display: inline-block;
   margin: 0;
@@ -249,7 +244,6 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
-/* mai-column is only there to make sure it only applies to this section */
 .mai-columns a {
   background-color: transparent;
   color: var(--link-color, var(--color-link));
@@ -441,8 +435,7 @@ h2 {
 
   .has-columns,
   .is-column {
-    /* --flex: var(--flex-lg, var(--flex-default)); */
-    --columns: var(--columns-lg, 1); /* Don't touch this */
+    --columns: var(--columns-lg, 1);
   }
 }
 
@@ -723,8 +716,6 @@ h3 {
 .wp-block-button:last-child > .button-link {
   padding-right: 0;
 }
-
-// Last edited articles Section
 
 @media only screen and (width >= 600px) and (width <= 799px) {
   .has-columns,

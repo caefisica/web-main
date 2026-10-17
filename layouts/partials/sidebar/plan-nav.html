@@ -4,7 +4,6 @@
 	{{- $planSection = .CurrentSection.Parent -}}
 {{- end -}}
 
-{{- /* Collect and sort unique semester numbers */ -}}
 {{- $semesters := slice -}}
 {{- range $planSection.Pages -}}
 	{{- $sem := .Params.semester -}}

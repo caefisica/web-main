@@ -119,10 +119,6 @@ body.docs {
 @include media-breakpoint-up(md) {
   body {
     font-size: $font-size-md;
-
-    /*
-    padding-top: 4rem !important;
-    */
   }
 
   h1,
@@ -168,21 +164,6 @@ a.btn:hover,
 a.btn:focus {
   text-decoration: none;
 }
-
-/*
-.content .section svg {
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  vertical-align: text-top;
-}
-*/
-
-/*
-body {
-  padding-top: 3.5625rem;
-}
-*/
 
 .banner-img {
   position: relative;
@@ -264,8 +245,6 @@ body {
   order: 2;
   border-left: 1px dashed $gray-200;
   border-right: 1px dashed $gray-200;
-
-  /* width: 14%; */
 }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
@@ -361,7 +340,6 @@ main ul:has(li) {
   margin-top: -12rem;
 }
 
-// https://fossheim.io/writing/posts/css-text-gradient/
 .gradient-text {
   background-color: $primary;
   background-image: linear-gradient(90deg, $primary, $blue-300 50%, $pink-500);
@@ -377,14 +355,6 @@ main ul:has(li) {
 .katex {
   font-size: $font-size-md;
 }
-
-/*
-.card-bar {
-  border-top: 4px solid;
-  border-image-source: linear-gradient(90deg, $primary, #a9ead6 50%, #3ebdc6);
-  border-image-slice: 1;
-}
-*/
 
 .top-newsletter {
   border-top: double 4px transparent;

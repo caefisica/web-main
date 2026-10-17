@@ -19,10 +19,6 @@
   background-color: rgb(255, 255, 255, 0.95);
   border-bottom: 1px solid $gray-200;
   border-bottom-style: dashed;
-
-  /*
-  margin-top: 4px;
-  */
 }
 
 @include media-breakpoint-up(lg) {
@@ -82,7 +78,6 @@ button#doks-versions {
 }
 
 .doks-subnavbar {
-  /* background-color: rgba(255, 255, 255, 0.95); */
   -webkit-backdrop-filter: saturate(50%) blur(8px);
   backdrop-filter: saturate(50%) blur(8px);
   border-bottom: 1px solid $gray-200;
@@ -220,22 +215,10 @@ button#doks-versions {
 
 /*! purgecss end ignore */
 
-/*
- * Source: https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99
-*/
-
-/* Style the menu icon for the dropdown */
-
 .navbar .menu-icon {
   cursor: pointer;
-
-  /* display: inline-block; */
-
-  /* float: right; */
   padding: 1.125rem 0.625rem;
   margin: 0 0 0 -0.625rem;
-
-  /* position: relative; */
   user-select: none;
 }
 
@@ -266,8 +249,6 @@ button#doks-versions {
 .navbar .menu-icon .navicon::after {
   top: -5px;
 }
-
-/* Add the icon and menu animations when the checkbox is clicked */
 
 .navbar .menu-btn {
   display: none;

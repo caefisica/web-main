@@ -1,21 +1,10 @@
-# Este archivo sirve de configuración para la acción de GitHub '404-links',
-# que verifica los enlaces en la web principal del @caefisica.
-
-# Escaneamos únicamente los archivos en la carpeta 'content/',
-# ya que es donde se encuentran los archivos markdown
-# y tenemos que priorizar el tiempo de ejecución.
 folder: content/
 
-# Muchos enlaces a sitios web de profesores de universidades
-# suelen usar el protocolo http, por lo que deshabilitamos
-# la verificación de enlaces seguros.
+# Muchos sitios de profesores solo sirven http.
 httpsOnly: false
 
-# Habilitamos la revisión de pull requests.
 pullRequestReview: true
 
-# Lista de URLs que serán ignoradas por la acción,
-# ya que suelen presentar problemas de conexión o de bloqueo.
 ignore:
   urls:
     # Dominios de Sci-Hub suelen estar bloqueados.
@@ -28,10 +17,7 @@ ignore:
 
     - https://b-ok.cc/
 
-    # Ignoramos todas las URLs del VRIP usando un comodín.
-    # Esto se debe a que existen múltiples enlaces hacia distintos
-    # grupos de investigación dentro de este dominio, y frecuentemente
-    # se encuentran problemas como errores de conexión o enlaces desactualizados.
+    # Muchos grupos de investigación del VRIP fallan con errores de conexión.
     - https://vrip.unmsm.edu.pe/*
 
     - https://www.ilectureonline.com/*
@@ -51,7 +37,6 @@ ignore:
     # CERT_HAS_EXPIRED
     - https://www.fis.puc-rio.br/en/
 
-# Configuración de retrasos para ciertos dominios.
 delay:
   "https://gitlab.com": 500
   "https://facebook.com": 1000
