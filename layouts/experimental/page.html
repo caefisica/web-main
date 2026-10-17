@@ -42,7 +42,13 @@
 	</div>
 	{{ $image := index .Params.images 0 -}}
 	<div class="card my-3">
-		{{ partial "main/img.html" (dict "page" . "src" $image "alt" .Title "class" "card-img-top m-0 p-0") }}
+		{{ partial "main/img.html" (dict
+			"page" .
+			"src" $image
+			"alt" .Title
+			"class" "card-img-top m-0 p-0"
+		)
+		}}
 	</div>
 	<h1>{{ .Title }}</h1>
 	<p class="lead">{{ .Params.lead | safeHTML }}</p>
