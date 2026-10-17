@@ -1,6 +1,5 @@
 {{- /*
-Renders a page resource image as a lazy-loaded figure.
-Usage: partial "main/img.html" (dict "page" . "src" "cover" "alt" .Title "class" "card-img-top")
+Recibe `page`, `src`, `alt` y `class` en un `dict` y muestra la imagen solicitada.
 */ -}}
 {{- $image := .page.Resources.GetMatch (printf "*%s*" .src) -}}
 {{- $img := partial "components/image-srcset.html" (dict "image" $image) -}}
