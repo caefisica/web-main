@@ -5,7 +5,6 @@
   "ignorePatterns": [
     // Conserva los archivos de terceros en su formato publicado.
     "assets/js/vendor/**",
-    "static/css/vendor/**",
     // Cada formateador se encarga de su tipo de archivo.
     "assets/scss/**",
     "layouts/**",
