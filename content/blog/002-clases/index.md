@@ -1,7 +1,11 @@
 ---
 title: "Clases en línea"
-description: "Lista de clases grabadas en formato de video, incluye listas de reproducción de Youtube."
-lead: "Lista de clases grabadas en formato de video, incluye listas de reproducción de Youtube."
+description:
+  "Lista de clases grabadas en formato de video, incluye listas de reproducción
+  de Youtube."
+lead:
+  "Lista de clases grabadas en formato de video, incluye listas de reproducción
+  de Youtube."
 date: 2022-01-30T09:19:42+01:00
 lastmod: 2022-02-03T09:19:42+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
@@ -15,9 +19,12 @@ weight: 20
 
 ## Álgebra
 
-- [AP Physics 1](https://www.edx.org/course/ap-physics-1-ricex-advphy1x#!): Rice University en EDX
-- [AP® Physics 2 - Part 2: Electricity and Magnetism](https://www.edx.org/course/apr-physics-2-part-2-electricity-ricex-advphy2-2x-0): Rice University en EDX
-- [AP® Physics 2 - Part 3: Optics and Modern Physics](https://www.edx.org/course/apr-physics-2-part-3-optics-modern-ricex-advphy2-3x-0): Rice University en EDX
+- [AP Physics 1](https://www.edx.org/course/ap-physics-1-ricex-advphy1x#!): Rice
+  University en EDX
+- [AP® Physics 2 - Part 2: Electricity and Magnetism](https://www.edx.org/course/apr-physics-2-part-2-electricity-ricex-advphy2-2x-0):
+  Rice University en EDX
+- [AP® Physics 2 - Part 3: Optics and Modern Physics](https://www.edx.org/course/apr-physics-2-part-3-optics-modern-ricex-advphy2-3x-0):
+  Rice University en EDX
 
 ## Electromagnestismo
 
@@ -25,7 +32,8 @@ weight: 20
 
 #### Electroestática
 
-- Carga por inducción: [DEMO: Charging by Induction](https://www.youtube.com/watch?v=N-Wofq4Jz2M)
+- Carga por inducción:
+  [DEMO: Charging by Induction](https://www.youtube.com/watch?v=N-Wofq4Jz2M)
 
 ## Materia Cuántica
 
@@ -33,8 +41,10 @@ weight: 20
 
 ## Mecánica Clásica
 
-- [Mecánica Clásica 1](https://youtube.com/playlist?list=PLK_B1a9wXn7cGxUYiYntVakSMAx6VwhDH) de la UNMSM. Prof. Renato Tovar.
-- [MIT 2.003SC Engineering Dynamics, Fall 2011](https://youtube.com/playlist?list=PLUl4u3cNGP62esZEwffjMAsEMW_YArxYC) del MIT.
+- [Mecánica Clásica 1](https://youtube.com/playlist?list=PLK_B1a9wXn7cGxUYiYntVakSMAx6VwhDH)
+  de la UNMSM. Prof. Renato Tovar.
+- [MIT 2.003SC Engineering Dynamics, Fall 2011](https://youtube.com/playlist?list=PLUl4u3cNGP62esZEwffjMAsEMW_YArxYC)
+  del MIT.
 
 ## Mecánica cuántica
 

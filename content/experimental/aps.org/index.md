@@ -21,4 +21,12 @@ functionalities: ["artículo"]
 Extracto traducido automáticamente de "APS News"
 ```
 
-Cecilia Payne recorrió un largo y solitario camino desde su infancia en Inglaterra hasta alcanzar la prominencia en una comunidad científica que negaba un lugar a las mujeres. Comenzó su carrera científica con una beca en la Universidad de Cambridge, donde cursó estudios de física. Tras conocer a Harlow Shapley, de Harvard, se trasladó a Massachusetts y se doctoró en astronomía. Su tesis de 1925, titulada Atmósferas estelares, fue descrita por el astrónomo Otto Struve como "la tesis doctoral más brillante jamás escrita en astronomía". Al calcular la abundancia de los elementos químicos a partir de los espectros estelares, su trabajo inició una revolución en la astrofísica.
+Cecilia Payne recorrió un largo y solitario camino desde su infancia en
+Inglaterra hasta alcanzar la prominencia en una comunidad científica que negaba
+un lugar a las mujeres. Comenzó su carrera científica con una beca en la
+Universidad de Cambridge, donde cursó estudios de física. Tras conocer a Harlow
+Shapley, de Harvard, se trasladó a Massachusetts y se doctoró en astronomía. Su
+tesis de 1925, titulada Atmósferas estelares, fue descrita por el astrónomo Otto
+Struve como "la tesis doctoral más brillante jamás escrita en astronomía". Al
+calcular la abundancia de los elementos químicos a partir de los espectros
+estelares, su trabajo inició una revolución en la astrofísica.

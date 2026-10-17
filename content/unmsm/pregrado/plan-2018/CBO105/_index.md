@@ -17,17 +17,23 @@ date: 2022-05-02T15:15:48+02:00
 
 El plan de estudios incluye generalmente los siguientes temas:
 
-- **Conceptos matemáticos fundamentales**: Lógica proposicional, operaciones de conjuntos, inducción, divisibilidad y números primos.
-- **Números reales y complejos**: Axiomas de números reales, ecuaciones, valor absoluto, teoría de números complejos.
-- **Funciones reales y complejas**: Interpretación de funciones, exponenciales y logaritmos complejos.
-- **Polinomios, matrices, sistemas lineales**: Operaciones con polinomios, matrices, solución de sistemas lineales.
-- **Estadística y probabilidad**: Recopilación de datos, distribuciones de frecuencias, medidas de dispersión.
+- **Conceptos matemáticos fundamentales**: Lógica proposicional, operaciones de
+  conjuntos, inducción, divisibilidad y números primos.
+- **Números reales y complejos**: Axiomas de números reales, ecuaciones, valor
+  absoluto, teoría de números complejos.
+- **Funciones reales y complejas**: Interpretación de funciones, exponenciales y
+  logaritmos complejos.
+- **Polinomios, matrices, sistemas lineales**: Operaciones con polinomios,
+  matrices, solución de sistemas lineales.
+- **Estadística y probabilidad**: Recopilación de datos, distribuciones de
+  frecuencias, medidas de dispersión.
 
 ## Libros recomendados
 
 ### Teóricos
 
-A continuación, presentamos una lista de libros con un enfoque riguroso en los contenidos teóricos y una sección dedicada a problemas prácticos.
+A continuación, presentamos una lista de libros con un enfoque riguroso en los
+contenidos teóricos y una sección dedicada a problemas prácticos.
 
 {{< resource-table resource="books-theoretical.yaml" type="book" >}}
 
@@ -49,12 +55,12 @@ Libros con ejercicios o problemas planteados, tienen muy poco contenido teórico
 
 ## Páginas web
 
-| Nombre | Autor | Enlace | Idioma |
-| --- | --- | --- | --- |
-| Álgebra Superior 1 | Prof. Esteban Rubén Hurtado (UNAM) | [HTML](https://sistemas.fciencias.unam.mx/~erhc/algebra_superior_1/inicio2.html) | Español |
-| Algebra Superior II | Christof Geiss (UNAM-IMATE) | [HTML](https://www.matem.unam.mx/~christof/cursos/05_AS2/curso.html) | Español |
-| Álgebra Superior II | El blog de Leo (UNAM) | [blog](https://blog.nekomath.com/as2/) | Español |
-| Matemáticas | Yony Raul | [Google sites](https://sites.google.com/view/yonyraul/matematicabasica?authuser=0) | Español |
+| Nombre              | Autor                              | Enlace                                                                             | Idioma  |
+| ------------------- | ---------------------------------- | ---------------------------------------------------------------------------------- | ------- |
+| Álgebra Superior 1  | Prof. Esteban Rubén Hurtado (UNAM) | [HTML](https://sistemas.fciencias.unam.mx/~erhc/algebra_superior_1/inicio2.html)   | Español |
+| Algebra Superior II | Christof Geiss (UNAM-IMATE)        | [HTML](https://www.matem.unam.mx/~christof/cursos/05_AS2/curso.html)               | Español |
+| Álgebra Superior II | El blog de Leo (UNAM)              | [blog](https://blog.nekomath.com/as2/)                                             | Español |
+| Matemáticas         | Yony Raul                          | [Google sites](https://sites.google.com/view/yonyraul/matematicabasica?authuser=0) | Español |
 
 ## Material de referencia
 

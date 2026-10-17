@@ -21,6 +21,10 @@ functionalities: ["web"]
 Extracto traducido automáticamente de "Github"
 ```
 
-Los temas incluyen espacios vectoriales, bases ortogonales, teorema de la proyección, mínimos cuadrados, factorizaciones matriciales, filtro de Kalman y conceptos probabilísticos subyacentes, normas, secuencias convergentes, mapeos de contracción, algoritmo de Newton Raphson, convergencia local vs global en optimización no lineal, convexidad, programas lineales y cuadráticos.
+Los temas incluyen espacios vectoriales, bases ortogonales, teorema de la
+proyección, mínimos cuadrados, factorizaciones matriciales, filtro de Kalman y
+conceptos probabilísticos subyacentes, normas, secuencias convergentes, mapeos
+de contracción, algoritmo de Newton Raphson, convergencia local vs global en
+optimización no lineal, convexidad, programas lineales y cuadráticos.
 
 El curso fue dictado en otoño de 2018.

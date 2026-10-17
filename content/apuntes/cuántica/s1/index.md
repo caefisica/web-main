@@ -9,13 +9,15 @@ contributors: ["david"]
 types: ["física"]
 ---
 
-Objetivo: Establecer las herramientas para el análisis de la dinámica de un sistema de dos cuerpos.
+Objetivo: Establecer las herramientas para el análisis de la dinámica de un
+sistema de dos cuerpos.
 
 ## Los elementos de la mecánica ondulatoria en tres dimensiones
 
 ### El operador de posición 3D
 
-El operador de posición en tres dimensiones se define mediante la ecuación de autovalor de espectro continuo dado por
+El operador de posición en tres dimensiones se define mediante la ecuación de
+autovalor de espectro continuo dado por
 
 $$
 \hat{\boldsymbol{r}}|\boldsymbol{r}\rangle=\boldsymbol{r}|\boldsymbol{r}\rangle \Longleftrightarrow(\hat{x}, \hat{y}, \hat{z})|x, y, z\rangle=(x, y, z)|x, y, z\rangle
@@ -30,7 +32,8 @@ $$
 \end{gathered}
 $$
 
-La ecuación de autovalor para el operador de posición y las condiciones de ortogonalidad y completez, en coordenadas esféricas, se describen como
+La ecuación de autovalor para el operador de posición y las condiciones de
+ortogonalidad y completez, en coordenadas esféricas, se describen como
 
 $$
 \begin{aligned}
@@ -40,15 +43,23 @@ $$
 \end{aligned}
 $$
 
-Hemos definido un sistema cuántico a través del vector de estado cuántico definido por el ket $|\alpha\rangle$, el operador de energía que mide el espectro discreto de energía posee un grado finito de autoestados de energía sobre el cual el vector de estado $|\alpha\rangle$ es expresado cuantitativamente como
+Hemos definido un sistema cuántico a través del vector de estado cuántico
+definido por el ket $|\alpha\rangle$, el operador de energía que mide el
+espectro discreto de energía posee un grado finito de autoestados de energía
+sobre el cual el vector de estado $|\alpha\rangle$ es expresado
+cuantitativamente como
 
 $$
 |\alpha\rangle=\hat{1}|\alpha\rangle=\sum_{i}\left|E_{i}\right\rangle\left\langle E_{i} \mid \alpha\right\rangle=\sum_{i} c_{i}\left|E_{i}\right\rangle
 $$
 
-Aquí el vector de estado está descrito, cuantitativamente, como una combinación lineal de los autoestados de energía y esto proviene, estrictamente, de la condición de completez del espacio de Hilbert en que se define el operador de energía $\hat{H}$.
+Aquí el vector de estado está descrito, cuantitativamente, como una combinación
+lineal de los autoestados de energía y esto proviene, estrictamente, de la
+condición de completez del espacio de Hilbert en que se define el operador de
+energía $\hat{H}$.
 
-Si proyectamos el vector de estado sobre el espacio de posición obtenemos la función de onda
+Si proyectamos el vector de estado sobre el espacio de posición obtenemos la
+función de onda
 
 $$
 \begin{aligned}
@@ -57,11 +68,17 @@ $$
 \end{aligned}
 $$
 
-esto implica que la función de onda es igual a una combinación lineal de autofunciones de energía del sistema cuántico donde los coeficientes son las amplitudes de probabilidad.
+esto implica que la función de onda es igual a una combinación lineal de
+autofunciones de energía del sistema cuántico donde los coeficientes son las
+amplitudes de probabilidad.
 
-Las autofunciones de energía son los volúmenes (3D), áreas (2D) o longitudes (1D) que ocupan las partículas cuánticas al estar en un autoestado de energía $i$, y $c_{i}$ es la amplitud de probabilidad de que el sistema cuántico esté ocupando el autoestado $i$.
+Las autofunciones de energía son los volúmenes (3D), áreas (2D) o longitudes
+(1D) que ocupan las partículas cuánticas al estar en un autoestado de energía
+$i$, y $c_{i}$ es la amplitud de probabilidad de que el sistema cuántico esté
+ocupando el autoestado $i$.
 
-Por otro lado, la métrica del espacio de Hilbert para la mecánica cuántica afirma que
+Por otro lado, la métrica del espacio de Hilbert para la mecánica cuántica
+afirma que
 
 $$
 \begin{aligned}
@@ -74,9 +91,12 @@ $$
 
 donde,
 
-$\Psi(\boldsymbol{r})=\langle\boldsymbol{r} \mid \alpha\rangle=\sum_{i} c_{i} \Phi_{i}(\boldsymbol{r}) \quad$ y $\quad \Psi^{\*}(\boldsymbol{r})=\langle\alpha \mid \boldsymbol{r}\rangle=\sum_{i} c_{i}^{\*} \Phi_{i}^{\*}(\boldsymbol{r})$
+$\Psi(\boldsymbol{r})=\langle\boldsymbol{r} \mid \alpha\rangle=\sum_{i} c_{i}
+\Phi_{i}(\boldsymbol{r}) \quad$ y $\quad \Psi^{\*}(\boldsymbol{r})=\langle\alpha
+\mid \boldsymbol{r}\rangle=\sum_{i} c_{i}^{\*} \Phi_{i}^{\*}(\boldsymbol{r})$
 
-Para analizar la dinámica espacial de un sistema cuántico definimos el ope- rador de traslación en las tres dimensiones, en coordenadas cartesianas, como
+Para analizar la dinámica espacial de un sistema cuántico definimos el ope-
+rador de traslación en las tres dimensiones, en coordenadas cartesianas, como
 
 $$
 \begin{aligned}
@@ -92,7 +112,8 @@ $$
 \hat{T}(\boldsymbol{a})|\boldsymbol{r}\rangle=|\boldsymbol{r}+\boldsymbol{a}\rangle
 $$
 
-Los operadores que generan a los operadores de traslación son los operadores de momento lineal, que se expresan, analíticamente, de la forma siguiente
+Los operadores que generan a los operadores de traslación son los operadores de
+momento lineal, que se expresan, analíticamente, de la forma siguiente
 
 $$
 \begin{array}{r}
@@ -102,7 +123,9 @@ $$
 \end{array}
 $$
 
-A diferencia de los operadores de rotación, los cuales no conmutan cuando rotan en ángulos diferentes, los operadores de traslación sí conmutan cuando las traslaciones se realizan sobre direcciones diferentes,
+A diferencia de los operadores de rotación, los cuales no conmutan cuando rotan
+en ángulos diferentes, los operadores de traslación sí conmutan cuando las
+traslaciones se realizan sobre direcciones diferentes,
 
 $$
 \hat{T}\left(a_{y} \mathbf{j}\right) \hat{T}\left(a_{x} \mathbf{i}\right)=\hat{T}\left(a_{x} \mathbf{i}\right) \hat{T}\left(a_{y} \mathbf{j}\right) .
@@ -140,7 +163,9 @@ $$
 \hat{p}\_{x} \hat{p}\_{y}-\hat{p}\_{y} \hat{p}\_{x}=0 \Longleftrightarrow\left[\hat{p}\_{x}, \hat{p}\_{y}\right]=0
 $$
 
-**Conclusión**: El hecho de que los operadores de traslación conmutan cuando van en direcciones diferentes implica que los operadores generadores de la traslación en las diferentes direcciones, también conmutan.
+**Conclusión**: El hecho de que los operadores de traslación conmutan cuando van
+en direcciones diferentes implica que los operadores generadores de la
+traslación en las diferentes direcciones, también conmutan.
 
 El operador de traslación en forma vectorial está dado por
 
@@ -148,13 +173,15 @@ $$
 \hat{T}(\boldsymbol{a})=\exp \left[-i \frac{\hat{\boldsymbol{p}} \cdot \boldsymbol{a}}{\hbar}\right]
 $$
 
-El operador de momento lineal no conmuta con el operador de posición en las mismas direcciones
+El operador de momento lineal no conmuta con el operador de posición en las
+mismas direcciones
 
 $$
 \left[\hat{x}, \hat{p}\_{x}\right]=i \hbar, \quad\left[\hat{y}, \hat{p}\_{y}\right]=i \hbar, \quad\left[\hat{z}, \hat{p}_{z}\right]=i \hbar
 $$
 
-pero el operador de traslación conmutan con el operador de posición en direcciones diferentes, veamos
+pero el operador de traslación conmutan con el operador de posición en
+direcciones diferentes, veamos
 
 $$
 \begin{aligned}
@@ -174,7 +201,8 @@ $$
 \left[\hat{y}, \hat{T}\left(a_{x} \mathbf{i}\right)\right]=0 \Longleftrightarrow\left[\hat{y}, \hat{p}_{x}\right]=0
 $$
 
-De aquí deducimos que los operadores de posición y momento en las diferentes direcciones cumple
+De aquí deducimos que los operadores de posición y momento en las diferentes
+direcciones cumple
 
 $$
 \left[\hat{x}\_{i}, \hat{p}\_{j}\right]=i \hbar \delta\_{i j}
@@ -182,7 +210,8 @@ $$
 
 ### El operador de momento lineal 3D
 
-El operador de momento lineal es otro operador de espectro continuo que se define mediante la ecuación de autovalor de la siguiente forma
+El operador de momento lineal es otro operador de espectro continuo que se
+define mediante la ecuación de autovalor de la siguiente forma
 
 $$
 \hat{\boldsymbol{p}}|\boldsymbol{p}\rangle=\boldsymbol{p}|\boldsymbol{p}\rangle \Longleftrightarrow\left(\hat{p}\_{x}, \hat{p}\_{y}, \hat{p}\_{z}\right)\left|p_{x}, p_{y}, p_{z}\right\rangle=\left(p_{x}, p_{y}, p_{z}\right)\left|p_{x}, p_{y}, p_{z}\right\rangle
@@ -200,7 +229,8 @@ $$
 \hat{1}=\int d \boldsymbol{p}|\boldsymbol{p}\rangle\left\langle\boldsymbol{p}\left|\Longleftrightarrow \hat{1}=\iiint d p_{x} d p_{y} d p_{z}\right| p_{x}, p_{y}, p_{z}\right\rangle\left\langle p_{x}, p_{y}, p_{z}\right|
 $$
 
-La ecuación de autovalor del operador de momento lineal y las condiciones de ortogonalidad y completez, en coordenadas esféricas, se expresan como
+La ecuación de autovalor del operador de momento lineal y las condiciones de
+ortogonalidad y completez, en coordenadas esféricas, se expresan como
 
 $$
 \begin{aligned}
@@ -210,7 +240,8 @@ $$
 \end{aligned}
 $$
 
-El vector de estado que se describe en función de los grados de libertad del hamiltoniano se proyecta en el espacio de momento de la siguiente forma
+El vector de estado que se describe en función de los grados de libertad del
+hamiltoniano se proyecta en el espacio de momento de la siguiente forma
 
 $$
 \begin{aligned}
@@ -220,7 +251,10 @@ $$
 \end{aligned}
 $$
 
-donde $\Psi(\boldsymbol{p})=\langle\boldsymbol{p} \mid \alpha\rangle$ es la función de onda en el espacio de momento y $\Phi(\boldsymbol{p})=$ $\left\langle\boldsymbol{p} \mid E_{i}\right\rangle$ son las autofunciones de onda y $c_{i}$ son las amplitudes de probabilidad.
+donde $\Psi(\boldsymbol{p})=\langle\boldsymbol{p} \mid \alpha\rangle$ es la
+función de onda en el espacio de momento y $\Phi(\boldsymbol{p})=$
+$\left\langle\boldsymbol{p} \mid E_{i}\right\rangle$ son las autofunciones de
+onda y $c_{i}$ son las amplitudes de probabilidad.
 
 El operador de momento se ha definido de la forma
 
@@ -234,7 +268,8 @@ $$
 \hat{x}=i \hbar \frac{\partial}{\partial \hat{p}\_{x}} \quad \hat{y}=i \hbar \frac{\partial}{\partial \hat{p}\_{y}} \quad \hat{z}=i \hbar \frac{\partial}{\partial \hat{p}\_{z}} \Longrightarrow \hat{\boldsymbol{r}}=i \hbar \hat{\nabla}_{\hat{\boldsymbol{p}}}
 $$
 
-De las ecuaciones, Ec. (37), encontramos la relación entre los autoestados de posición y los autoestados de momento,
+De las ecuaciones, Ec. (37), encontramos la relación entre los autoestados de
+posición y los autoestados de momento,
 
 $$
 \begin{aligned}
@@ -249,7 +284,8 @@ $$
 \Psi(\boldsymbol{r})=\sum_{i} c_{i} \Phi_{i}(\boldsymbol{r}) \quad \wedge \quad \Psi(\boldsymbol{p})=\sum_{i} c_{i} \Phi(\boldsymbol{r})
 $$
 
-Por otro lado, la función de onda $\Psi(\boldsymbol{r})$ definida en el espacio de posición y de momento se desarrolla de la manera siguiente:
+Por otro lado, la función de onda $\Psi(\boldsymbol{r})$ definida en el espacio
+de posición y de momento se desarrolla de la manera siguiente:
 
 $$
 \begin{aligned}
@@ -260,4 +296,5 @@ $$
 \end{aligned}
 $$
 
-A estas relaciones se les denomina las **transformaciones de Fourier de las funciones de onda**.
+A estas relaciones se les denomina las **transformaciones de Fourier de las
+funciones de onda**.

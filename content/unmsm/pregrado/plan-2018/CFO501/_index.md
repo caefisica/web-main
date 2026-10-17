@@ -18,7 +18,8 @@ date: 2022-02-01T11:00:00.000+00:00
 
 ### Introducción
 
-✨[Video](https://www.youtube.com/watch?v=a7ZHi2kDndo) introductorio de la historia de la Óptica
+✨[Video](https://www.youtube.com/watch?v=a7ZHi2kDndo) introductorio de la
+historia de la Óptica
 
 El plan de estudios incluye los siguientes temas:
 
@@ -41,23 +42,32 @@ El plan de estudios incluye los siguientes temas:
 
 ### Teóricos
 
-La siguiente lista consiste de libros con bastante contenido teórico y una sección de problemas:
+La siguiente lista consiste de libros con bastante contenido teórico y una
+sección de problemas:
 
 {{< resource-table resource="books.yaml" type="book" >}}
 
 ### Solucionarios
 
-1. [Hecht, Coffey y Dolan](https://drive.google.com/file/d/1UfQB1DE0wIF52QDRDht4JVXn1PNEGrD9/view?usp=sharing). (2002). _Hecht Optics Solution Manual_(4a ed.). Addison Wesley.
+1. [Hecht, Coffey y Dolan](https://drive.google.com/file/d/1UfQB1DE0wIF52QDRDht4JVXn1PNEGrD9/view?usp=sharing).
+   (2002). _Hecht Optics Solution Manual_(4a ed.). Addison Wesley.
 
 ## Listas de reproducción
 
-| Nombre | Autor | Enlace |
-| --- | --- | --- |
-| `30` Curso de Óptica y Física moderna | Isaias Rojas | [spa](https://youtube.com/playlist?list=PL1Ztlverqb4rVFJQK_3ysBllIeW9iNqnx) |
-| `23` Ondas y Óptica | Entropía Negativa | [spa](https://www.youtube.com/playlist?list=PLBMRQ0GOZVeUBIv9Zr5auFnVcDXn3yDHh) |
-| `9` Curso de Óptica Geométrica | Topos Uranos | [spa](https://youtube.com/playlist?list=PL_C8rbeFjqAWf4vOMzs7reXie5fNKcGb0) |
-| `6` Óptica - Física [Curso básico] | Unicoos | [spa](https://youtube.com/playlist?list=PLOa7j0qx0jgN25SjjO0CJ-NG0czFF_s4O) |
-| `22` Optics Course | Abel Abdelshafik | [eng](https://youtube.com/playlist?list=PL8OVtyCOyQr-hkzGW07wZHQg5KGcZDe8N) |
-| `29` MIT 2.71 Optics, Spring 2009 | MIT OpenCourseWare | [eng](https://youtube.com/playlist?list=PLEA084AC2DD3CEC09) |
+| Nombre                                | Autor              | Enlace                                                                          |
+| ------------------------------------- | ------------------ | ------------------------------------------------------------------------------- |
+| `30` Curso de Óptica y Física moderna | Isaias Rojas       | [spa](https://youtube.com/playlist?list=PL1Ztlverqb4rVFJQK_3ysBllIeW9iNqnx)     |
+| `23` Ondas y Óptica                   | Entropía Negativa  | [spa](https://www.youtube.com/playlist?list=PLBMRQ0GOZVeUBIv9Zr5auFnVcDXn3yDHh) |
+| `9` Curso de Óptica Geométrica        | Topos Uranos       | [spa](https://youtube.com/playlist?list=PL_C8rbeFjqAWf4vOMzs7reXie5fNKcGb0)     |
+| `6` Óptica - Física [Curso básico]    | Unicoos            | [spa](https://youtube.com/playlist?list=PLOa7j0qx0jgN25SjjO0CJ-NG0czFF_s4O)     |
+| `22` Optics Course                    | Abel Abdelshafik   | [eng](https://youtube.com/playlist?list=PL8OVtyCOyQr-hkzGW07wZHQg5KGcZDe8N)     |
+| `29` MIT 2.71 Optics, Spring 2009     | MIT OpenCourseWare | [eng](https://youtube.com/playlist?list=PLEA084AC2DD3CEC09)                     |
 
-Para una introducción más conceptual y dinámica a los temas de Óptica puedes ver una serie de videos que forman parte de la serie "[Crash Course Physics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtN0ge7yDk_UA0ldZJdhwkoV)". Los videos son producidos por Crash Course, un canal de habla inglesa, pero podrás encontrar subtítulos en español en casi todos sus videos. Esta lista de reproducción abarca múltiples temas, pero entre los episodios 38 y 41, tocan temas de [Óptica](https://www.youtube.com/playlist?list=PLtmYHzw6fOYQ4vvlP7liJMpsIM-dvs9xG).
+Para una introducción más conceptual y dinámica a los temas de Óptica puedes ver
+una serie de videos que forman parte de la serie
+"[Crash Course Physics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtN0ge7yDk_UA0ldZJdhwkoV)".
+Los videos son producidos por Crash Course, un canal de habla inglesa, pero
+podrás encontrar subtítulos en español en casi todos sus videos. Esta lista de
+reproducción abarca múltiples temas, pero entre los episodios 38 y 41, tocan
+temas de
+[Óptica](https://www.youtube.com/playlist?list=PLtmYHzw6fOYQ4vvlP7liJMpsIM-dvs9xG).

@@ -41,7 +41,9 @@
   edition: 3ra ed.
   url: https://drive.google.com/file/d/1sOfqzjeFne8HDKgK--iXyvH7Q--pGPHa/view?usp=share_link
 - author: Bernd Berg
-  title: "Markov Chain Monte Carlo Simulations And Their Statistical Analysis: With Web-based Fortran Code"
+  title:
+    "Markov Chain Monte Carlo Simulations And Their Statistical Analysis: With
+    Web-based Fortran Code"
   editorial: World Scientific
   year: "2004"
   edition: 1ra ed.

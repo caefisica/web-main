@@ -21,4 +21,5 @@ functionalities: ["artículo"]
 DETALLES
 ```
 
-Habitualmente las postulaciones se abren en setiembre y se cierran en diciembre. Es de más decir que necesitas saber inglés. El costo de 75 dólares para aplicar.
+Habitualmente las postulaciones se abren en setiembre y se cierran en diciembre.
+Es de más decir que necesitas saber inglés. El costo de 75 dólares para aplicar.

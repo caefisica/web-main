@@ -1,7 +1,13 @@
 ---
 title: "Energía interna"
-description: "Descripción de la función de estado energía interna, su dependencia de la temperatura y el volumen en sistemas cerrados y abiertos, y cómo calcular su evolución energética"
-lead: "Análisis de la función de estado energía interna en termodinámica, su relación con la temperatura y el volumen, y su relevancia en el cálculo del trabajo calorífico elemental en procesos termodinámicos"
+description:
+  "Descripción de la función de estado energía interna, su dependencia de la
+  temperatura y el volumen en sistemas cerrados y abiertos, y cómo calcular su
+  evolución energética"
+lead:
+  "Análisis de la función de estado energía interna en termodinámica, su
+  relación con la temperatura y el volumen, y su relevancia en el cálculo del
+  trabajo calorífico elemental en procesos termodinámicos"
 date: 2022-02-01T02:00:00
 draft: false
 weight: 20
@@ -9,7 +15,8 @@ contributors: ["richard"]
 types: ["matemática"]
 ---
 
-Vamos a definir la función de estado llamada energía interna la cual va a depender de la temperatura y el volumen(para un sistema cerrado):
+Vamos a definir la función de estado llamada energía interna la cual va a
+depender de la temperatura y el volumen(para un sistema cerrado):
 
 $$
 \begin{align}
@@ -17,7 +24,8 @@ $$
 \end{align}
 $$
 
-Para un sistema abierto la energía interna dependerá también de $N$ la cual significa el número de componentes del sistema:
+Para un sistema abierto la energía interna dependerá también de $N$ la cual
+significa el número de componentes del sistema:
 
 $$
 \begin{align}

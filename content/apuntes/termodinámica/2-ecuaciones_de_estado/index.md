@@ -1,7 +1,12 @@
 ---
 title: "Ecuaciones de estado"
-description: "Explicación de las ecuaciones de estado en termodinámica, su relación con diferentes procesos termodinámicos"
-lead: "Un análisis detallado de las ecuaciones de estado en termodinámica y su papel en el modelado del comportamiento de sustancias en procesos isotérmicos, isobáricos e isocóricos"
+description:
+  "Explicación de las ecuaciones de estado en termodinámica, su relación con
+  diferentes procesos termodinámicos"
+lead:
+  "Un análisis detallado de las ecuaciones de estado en termodinámica y su papel
+  en el modelado del comportamiento de sustancias en procesos isotérmicos,
+  isobáricos e isocóricos"
 date: 2022-02-01T02:00:00
 draft: false
 weight: 20
@@ -9,7 +14,8 @@ contributors: ["richard"]
 types: ["matemática"]
 ---
 
-Las ecuaciones de estado modelan el comportamiento de una sustancia y se pueden representar de la siguiente manera:
+Las ecuaciones de estado modelan el comportamiento de una sustancia y se pueden
+representar de la siguiente manera:
 
 $$
 \begin{align}
@@ -76,7 +82,8 @@ esta ecuación se demostrará mas adelante.
 
 {{< img-simple src="isotermico.png" alt="Proceso isotérmico" class="d-block mx-auto shadow my-5 w-50" >}}
 
-Partiendo de la ecuación de Clapeyron-Mendeleiev, como $T=cte$ entonces $nRT=c_1$
+Partiendo de la ecuación de Clapeyron-Mendeleiev, como $T=cte$ entonces
+$nRT=c_1$
 
 $$
 \begin{align}

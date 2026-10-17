@@ -15,7 +15,8 @@ types: ["matemática"]
 
 ## ¿Qué temas se ven en Cálculo II?
 
-El curso de Cálculo II se puede dividir en los siguientes temas de forma general:
+El curso de Cálculo II se puede dividir en los siguientes temas de forma
+general:
 
 - Integrales Indefinidas
 - Integrales Definidas
@@ -25,19 +26,32 @@ El curso de Cálculo II se puede dividir en los siguientes temas de forma genera
 
 Explayándonos un poco más en los temas mencionados anteriormente:
 
-1. **Integrales Indefinidas**: En este apartado se ven los primeros conceptos del Cálculo integral, como vendrían a ser el _concepto en si mismo de integral_, a su vez se ven tanto las _integrales inmediatas_ como los _métodos de integración_.
+1. **Integrales Indefinidas**: En este apartado se ven los primeros conceptos
+   del Cálculo integral, como vendrían a ser el _concepto en si mismo de
+   integral_, a su vez se ven tanto las _integrales inmediatas_ como los
+   _métodos de integración_.
 
    - _Concepto de Integral_:
 
-     - El concepto matemático que se le suele atribuir a la definición de integral es el siguiente: Una integral se trata de una _generalización de la suma de infinitos sumandos extremadamente pequeños_.
-     - Y si lo vemos desde un punto de vista geométrico se suele mencionar a la integral como el área bajo la curva de una función $f(x)$ que esta acotada en el intervalo $[a,b]$.
+     - El concepto matemático que se le suele atribuir a la definición de
+       integral es el siguiente: Una integral se trata de una _generalización de
+       la suma de infinitos sumandos extremadamente pequeños_.
+     - Y si lo vemos desde un punto de vista geométrico se suele mencionar a la
+       integral como el área bajo la curva de una función $f(x)$ que esta
+       acotada en el intervalo $[a,b]$.
 
      $$
      \int_a^b f(x)dx=\text{Área bajo la curva}
      $$
 
-   - _Integrales Inmediatas_: Las integrales inmediatas o directas están referidas a aquellas integrales las cuales no se necesitan emplear ningún método de integración para poder obtener su resultado.
-   - _Métodos de Integración_: Se entiende por métodos de integración a aquellas técnicas para obtener la antiderivada o integral indefinida de una función, de la cual ya mencionamos la integración directa y también se encuentran los métodos de _cambio de variable_, _integración por partes_, desarrollo en _fracciones parciales_ e integración por _sustitución trigonométrica_.
+   - _Integrales Inmediatas_: Las integrales inmediatas o directas están
+     referidas a aquellas integrales las cuales no se necesitan emplear ningún
+     método de integración para poder obtener su resultado.
+   - _Métodos de Integración_: Se entiende por métodos de integración a aquellas
+     técnicas para obtener la antiderivada o integral indefinida de una función,
+     de la cual ya mencionamos la integración directa y también se encuentran
+     los métodos de _cambio de variable_, _integración por partes_, desarrollo
+     en _fracciones parciales_ e integración por _sustitución trigonométrica_.
 
      - Ejemplo de integración por _cambio de variable_:
 
@@ -209,7 +223,12 @@ Explayándonos un poco más en los temas mencionados anteriormente:
           \int \dfrac{\sqrt{x^2-8}}{x^4}dx=\dfrac{1}{24} \left(\dfrac{\sqrt{x^2-8}}{x} \right)^3+C
           $$
 
-2. **Integrales Definidas:** En el apartado anterior habíamos mencionado la definición de integral, la cual esta relacionada con el área que se encuentra debajo de una curva de una función $f(x)$, y si esta función esta acotada en un intervalo $[a,b]$ entonces esta área esta denotada por una integral definida y la cual puede ser representada por una sumatoria denominada **Suma de Riemman**:
+2. **Integrales Definidas:** En el apartado anterior habíamos mencionado la
+   definición de integral, la cual esta relacionada con el área que se encuentra
+   debajo de una curva de una función $f(x)$, y si esta función esta acotada en
+   un intervalo $[a,b]$ entonces esta área esta denotada por una integral
+   definida y la cual puede ser representada por una sumatoria denominada **Suma
+   de Riemman**:
 
    $$
    \int_a^b f(x)=\lim_{n\rightarrow \infty}\sum_{i=1}^n \Delta x \cdot f(x_i)
@@ -217,9 +236,13 @@ Explayándonos un poco más en los temas mencionados anteriormente:
 
    donde: $\Delta x=\dfrac{b-a}{n}$ y $x_i=a+\Delta x \cdot i$
 
-   Para la resolución de las integrales definidas existen ciertos teoremas los cuales son muy importantes a la hora de tratar con las integrales.
+   Para la resolución de las integrales definidas existen ciertos teoremas los
+   cuales son muy importantes a la hora de tratar con las integrales.
 
-   - Primer Teorema Fundamental del Cálculo: Este primer teorema nos expresa que tanto la derivación como la integración son operaciones inversas, es decir que si una función acotada es integrable esto también significa que la derivada de su integral será la misma función:
+   - Primer Teorema Fundamental del Cálculo: Este primer teorema nos expresa que
+     tanto la derivación como la integración son operaciones inversas, es decir
+     que si una función acotada es integrable esto también significa que la
+     derivada de su integral será la misma función:
 
    $$
    F(x)=\int_a^x f(t) dt
@@ -227,9 +250,13 @@ Explayándonos un poco más en los temas mencionados anteriormente:
 
    donde $\dfrac{dF(x)}{dx}=f(x)$, para todo $x \in [a,b]$.
 
-   - _Segundo Teorema Fundamental del Cálculo_: Este teorema nos indica una propiedad que tienen las funciones continuas con la cual se pueden calcular las integrales definidas a partir de las antiderivadas de nuestra función, esto se expresa de la forma:
+   - _Segundo Teorema Fundamental del Cálculo_: Este teorema nos indica una
+     propiedad que tienen las funciones continuas con la cual se pueden calcular
+     las integrales definidas a partir de las antiderivadas de nuestra función,
+     esto se expresa de la forma:
 
-     Sea $f(x)$ una función integrable en el intervalo $[a,b]$ y sea $\dfrac{dF(x)}{dx}=f(x)$ entonces:
+     Sea $f(x)$ una función integrable en el intervalo $[a,b]$ y sea
+     $\dfrac{dF(x)}{dx}=f(x)$ entonces:
 
    $$
    \int_a^b f(x)dx=F(b)-F(a)
@@ -240,7 +267,9 @@ Explayándonos un poco más en los temas mencionados anteriormente:
    tambien se aplican para las integrales definidas.
    ```
 
-3. **Aplicaciones de las Integrales definidas:** Las integrales tienen diversas aplicaciones tanto en el ámbito de las ciencias como en la ingeniería, siendo unos cuantos ejemplos:
+3. **Aplicaciones de las Integrales definidas:** Las integrales tienen diversas
+   aplicaciones tanto en el ámbito de las ciencias como en la ingeniería, siendo
+   unos cuantos ejemplos:
 
    - Cálculo de Áreas y Volúmenes
    - Cálculo de la longitud del arco de una curva
@@ -248,7 +277,11 @@ Explayándonos un poco más en los temas mencionados anteriormente:
 
 <p>
 
-4. **Integración Numérica**: La integración numérica esta conformada por algoritmos para calcular el valor aproximado de una integral definida y estos son utilizados cuando no se puede hallar la antiderivada de la función que esta dentro de la integral, hay distintos métodos para calcular estas integrales siendo los mas conocidos:
+4. **Integración Numérica**: La integración numérica esta conformada por
+   algoritmos para calcular el valor aproximado de una integral definida y estos
+   son utilizados cuando no se puede hallar la antiderivada de la función que
+   esta dentro de la integral, hay distintos métodos para calcular estas
+   integrales siendo los mas conocidos:
 
    - Método del Trapecio
    - Método de Simpson
@@ -256,17 +289,23 @@ Explayándonos un poco más en los temas mencionados anteriormente:
 
 <p>
 
-5. **Integrales impropias**: Las integrales impropias son aquellas integrales definidas donde los limites de la integral cubren un área que no esta acotada. La integral impropia se puede denotar dependiendo de los limites de la integral:
+5. **Integrales impropias**: Las integrales impropias son aquellas integrales
+   definidas donde los limites de la integral cubren un área que no esta
+   acotada. La integral impropia se puede denotar dependiendo de los limites de
+   la integral:
 
-   - _Primer caso_: La integral impropia de $f$ de $a$ hasta $+\infty$ se denota y define como:
+   - _Primer caso_: La integral impropia de $f$ de $a$ hasta $+\infty$ se denota
+     y define como:
 
      $$\int_a^{+\infty} f(x)dx=\lim_{t\rightarrow +\infty} \int_a^t f(x)dx$$
 
-   - _Segundo caso_: La integral impropia de $f$ de $-\infty$ hasta $b$ se denota y define como:
+   - _Segundo caso_: La integral impropia de $f$ de $-\infty$ hasta $b$ se
+     denota y define como:
 
      $$\int_{-\infty} ^b f(x)dx=\lim_{t\rightarrow -\infty} \int_t^bf(x)dx $$
 
-   - _Tercer caso_: La integral impropia de $f$ de $-\infty$ hasta $+\infty$ se denota y define como:
+   - _Tercer caso_: La integral impropia de $f$ de $-\infty$ hasta $+\infty$ se
+     denota y define como:
 
      $$
      \begin{aligned}
@@ -275,4 +314,6 @@ Explayándonos un poco más en los temas mencionados anteriormente:
      \end{aligned}
      $$
 
-     Y en cada caso se va a estudiar la convergencia de la integral, la integral impropia será convergente cuando los limites existan y será divergente si el limite no existe o es infinito.
+     Y en cada caso se va a estudiar la convergencia de la integral, la integral
+     impropia será convergente cuando los limites existan y será divergente si
+     el limite no existe o es infinito.

@@ -1,7 +1,13 @@
 ---
 title: "Física Electrónica I"
-lead: "El curso de Física Electrónica I combina teoría y práctica, enfocándose en la teoría electrónica moderna y sus aplicaciones en el campo de la instrumentación física."
-description: "El curso de Física Electrónica I combina teoría y práctica, enfocándose en la teoría electrónica moderna y sus aplicaciones en el campo de la instrumentación física."
+lead:
+  "El curso de Física Electrónica I combina teoría y práctica, enfocándose en la
+  teoría electrónica moderna y sus aplicaciones en el campo de la
+  instrumentación física."
+description:
+  "El curso de Física Electrónica I combina teoría y práctica, enfocándose en la
+  teoría electrónica moderna y sus aplicaciones en el campo de la
+  instrumentación física."
 id: "CFO602"
 credits: 4
 prerequisites: ["Cálculo III", "Física Molecular"]
@@ -13,7 +19,9 @@ weight: 602
 date: 2022-02-01T16:00:00
 ---
 
-El curso de Física Electrónica I combina teoría y práctica, enfocándose en la teoría electrónica moderna y sus aplicaciones en el campo de la instrumentación física.
+El curso de Física Electrónica I combina teoría y práctica, enfocándose en la
+teoría electrónica moderna y sus aplicaciones en el campo de la instrumentación
+física.
 
 {{< infobox-alert text="La parte práctica se realiza mediante simulaciones en Proteus o Tinkercad, incluyendo (dependiendo del profesor) el desarrollo de un proyecto final." />}}
 
@@ -43,7 +51,8 @@ Para complementar tus ideas, te recomendamos este libro:
 
 ## Listas de reproducción
 
-Hemos seleccionado dos listas de reproducción con videos educativos sobre el uso de Proteus:
+Hemos seleccionado dos listas de reproducción con videos educativos sobre el uso
+de Proteus:
 
 {{< resource-table resource="playlists-proteus.yaml" type="playlist" >}}
 

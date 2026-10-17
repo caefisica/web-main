@@ -1,7 +1,13 @@
 ---
 title: "Física Computacional I"
-lead: "Introducción a métodos numéricos y programación en Fortran aplicados a problemas físicos"
-description: "Este curso ofrece una visión general de los métodos numéricos y la programación en Fortran, con el objetivo de enseñar a diseñar programas para resolver problemas y analizar los resultados obtenidos mediante métodos computacionales en diversos problemas físicos"
+lead:
+  "Introducción a métodos numéricos y programación en Fortran aplicados a
+  problemas físicos"
+description:
+  "Este curso ofrece una visión general de los métodos numéricos y la
+  programación en Fortran, con el objetivo de enseñar a diseñar programas para
+  resolver problemas y analizar los resultados obtenidos mediante métodos
+  computacionales en diversos problemas físicos"
 id: "CFO306"
 credits: 4
 prerequisites: ["Cálculo I"]
@@ -38,11 +44,17 @@ El plan de estudios incluye los siguientes temas:
 
 ## Libros recomendados
 
-Para complementar tu aprendizaje hemos seleccionado una lista de libros que proporcionan una combinación de conocimientos teóricos y prácticos sobre los temas del curso. Estos libros se encuentran agrupados en las siguientes categorías:
+Para complementar tu aprendizaje hemos seleccionado una lista de libros que
+proporcionan una combinación de conocimientos teóricos y prácticos sobre los
+temas del curso. Estos libros se encuentran agrupados en las siguientes
+categorías:
 
 ### Teóricos
 
-Puedes consultar los siguientes libros, que incluyen información teórica detallada y ejemplos de programas escritos en C, Python u otros lenguajes (ten en cuenta que Fortran no es comúnmente utilizado en cursos similares en otros países):
+Puedes consultar los siguientes libros, que incluyen información teórica
+detallada y ejemplos de programas escritos en C, Python u otros lenguajes (ten
+en cuenta que Fortran no es comúnmente utilizado en cursos similares en otros
+países):
 
 {{< resource-table resource="books-theoretical.yaml" type="book" >}}
 
@@ -62,16 +74,18 @@ Puedes consultar los siguientes libros, que incluyen información teórica detal
 
 ### Fortran
 
-Aquí encontrarás una lista de documentos relacionados con el lenguaje de programación Fortran, que pueden servir como recursos adicionales para aprender y practicar:
+Aquí encontrarás una lista de documentos relacionados con el lenguaje de
+programación Fortran, que pueden servir como recursos adicionales para aprender
+y practicar:
 
-| Nombre | Autor | Enlace |
-| --- | --- | --- |
-| Fortran 90 Tutorial | C. K. Shene | [eng](https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/fortran.html) |
-| Computational Physics | Morten Hjorth-Jensen | [eng](https://www.uio.no/studier/emner/matnat/fys/FYS4411/v14/lectures2013.pdf) |
+| Nombre                       | Autor                             | Enlace                                                                                       |
+| ---------------------------- | --------------------------------- | -------------------------------------------------------------------------------------------- |
+| Fortran 90 Tutorial          | C. K. Shene                       | [eng](https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/fortran.html)                         |
+| Computational Physics        | Morten Hjorth-Jensen              | [eng](https://www.uio.no/studier/emner/matnat/fys/FYS4411/v14/lectures2013.pdf)              |
 | Guía de estudio de Fortran95 | Rachael Padman de la U. de Oxford | [eng](https://drive.google.com/file/d/1JQmKvYLoviuUZG4QCmyycvVKu1WYloQ9/view?usp=share_link) |
-| Fortran | David Apsley | [eng](https://web.pa.msu.edu/people/duxbury/courses/phy201_f06/Fortran90NotesI.pdf) |
-| Introducción a Fortran | Miguel Alcubierre | [spa](https://drive.google.com/file/d/1Z7hPykoWdDJU1Pz2h1o4lQIRn4hUjc2K/view?usp=drive_link) |
-| Computational Physics | Martin Siegert | [eng](https://drive.google.com/file/d/155RnnWIAPyASs3RBuI_KvQTI3so9_fAI/view?usp=drive_link) |
+| Fortran                      | David Apsley                      | [eng](https://web.pa.msu.edu/people/duxbury/courses/phy201_f06/Fortran90NotesI.pdf)          |
+| Introducción a Fortran       | Miguel Alcubierre                 | [spa](https://drive.google.com/file/d/1Z7hPykoWdDJU1Pz2h1o4lQIRn4hUjc2K/view?usp=drive_link) |
+| Computational Physics        | Martin Siegert                    | [eng](https://drive.google.com/file/d/155RnnWIAPyASs3RBuI_KvQTI3so9_fAI/view?usp=drive_link) |
 
 ## Listas de reproducción
 
@@ -79,10 +93,11 @@ Aquí encontrarás una lista de documentos relacionados con el lenguaje de progr
 
 ## Páginas web
 
-A continuación, se presentan algunas páginas web que brindan información adicional y recursos sobre métodos numéricos y programación en Fortran:
+A continuación, se presentan algunas páginas web que brindan información
+adicional y recursos sobre métodos numéricos y programación en Fortran:
 
-| Nombre | Autor | Enlace |
-| --- | --- | --- |
-| Numerical Methods for Scientists | H. M. Anthia | [eng](https://web.archive.org/web/20230609023514/https://www.tifr.res.in/~antia/nmse3.html) |
-| Fortran 90 for the Fortran 77 Programmer | Bo Einarsson & Yurij Shokin | [eng](https://ergodic.ugr.es/cphys/index.php?id=lec_fortran_html2) |
-| Learning Fortran | Alvaro Siesquen | [spa](https://sites.google.com/unmsm.edu.pe/learningfortran/inicio) |
+| Nombre                                   | Autor                       | Enlace                                                                                      |
+| ---------------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------- |
+| Numerical Methods for Scientists         | H. M. Anthia                | [eng](https://web.archive.org/web/20230609023514/https://www.tifr.res.in/~antia/nmse3.html) |
+| Fortran 90 for the Fortran 77 Programmer | Bo Einarsson & Yurij Shokin | [eng](https://ergodic.ugr.es/cphys/index.php?id=lec_fortran_html2)                          |
+| Learning Fortran                         | Alvaro Siesquen             | [spa](https://sites.google.com/unmsm.edu.pe/learningfortran/inicio)                         |

@@ -21,4 +21,5 @@ functionalities: ["web"]
 DETALLES
 ```
 
-Este es un grupo de estudiantes de ciencias básicas de diferentes universidades del Perú. Entre sus objetivos se encuentra difundir la ciencia en el Perú.
+Este es un grupo de estudiantes de ciencias básicas de diferentes universidades
+del Perú. Entre sus objetivos se encuentra difundir la ciencia en el Perú.

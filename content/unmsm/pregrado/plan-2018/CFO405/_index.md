@@ -34,9 +34,11 @@ date: 2022-02-01T09:00:00
 
 ### Listas de reproducción
 
-| Nombre | Autor | Enlace |
-| --- | --- | --- |
-| `87` Curso de Mecánica Clásica | Ramon Carrillo Bastos | [spa](https://www.youtube.com/playlist?list=PL4i6Jlnz3GWWl3COKcFzjwU5fMC1hzcV2) |
-| `52` Introducción a la Mecánica Clásica | MathArg | [spa](https://www.youtube.com/playlist?list=PLTef2OIG6VtKTehR7qHuNK5_9uWZic23Q) |
+| Nombre                                  | Autor                 | Enlace                                                                          |
+| --------------------------------------- | --------------------- | ------------------------------------------------------------------------------- |
+| `87` Curso de Mecánica Clásica          | Ramon Carrillo Bastos | [spa](https://www.youtube.com/playlist?list=PL4i6Jlnz3GWWl3COKcFzjwU5fMC1hzcV2) |
+| `52` Introducción a la Mecánica Clásica | MathArg               | [spa](https://www.youtube.com/playlist?list=PLTef2OIG6VtKTehR7qHuNK5_9uWZic23Q) |
 
-También podrías ver a modo de introducción el siguiente video: "[Primeros ejemplos en el Cálculo de Variaciones](https://www.youtube.com/watch?v=VTL54y_2-BY)" dictado por Omar Antolín en la Facultad de Ciencias de la UNAM el 2018.
+También podrías ver a modo de introducción el siguiente video:
+"[Primeros ejemplos en el Cálculo de Variaciones](https://www.youtube.com/watch?v=VTL54y_2-BY)"
+dictado por Omar Antolín en la Facultad de Ciencias de la UNAM el 2018.

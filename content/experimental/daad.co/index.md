@@ -1,7 +1,11 @@
 ---
 title: "DAAD Colombia"
-description: "El DAAD ofrece más de 200 programas de becas para estudios, investigación y docencia en Alemania"
-lead: "El DAAD ofrece más de 200 programas de becas para estudios, investigación y docencia en Alemania"
+description:
+  "El DAAD ofrece más de 200 programas de becas para estudios, investigación y
+  docencia en Alemania"
+lead:
+  "El DAAD ofrece más de 200 programas de becas para estudios, investigación y
+  docencia en Alemania"
 date: 2022-03-25T13:20:36-05:00
 lastmod: 2022-03-25T13:20:36-05:00
 draft: false
@@ -21,6 +25,8 @@ functionalities: ["artículo"]
 Detalles
 ```
 
-La información es relevante para Colombia, Ecuador, Perú y Venezuela. Las convocatorias actualmente abiertas se encuentran listadas en la página enlazada.
+La información es relevante para Colombia, Ecuador, Perú y Venezuela. Las
+convocatorias actualmente abiertas se encuentran listadas en la página enlazada.
 
-La sede del DAAD está en Colombia, pero la información es para Colombia, Ecuador, Perú y Venezuela.
+La sede del DAAD está en Colombia, pero la información es para Colombia,
+Ecuador, Perú y Venezuela.

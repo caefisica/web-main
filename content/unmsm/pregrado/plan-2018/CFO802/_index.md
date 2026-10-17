@@ -15,16 +15,16 @@ date: 2022-11-11T16:00:00
 
 ### Libros
 
-| Nombre | Autor | Editorial | Año |
-| --- | --- | --- | --- |
-| Introducción a la Física del Estado Sólido | Charles Kittel | Reverté | 1995 |
+| Nombre                                     | Autor          | Editorial | Año  |
+| ------------------------------------------ | -------------- | --------- | ---- |
+| Introducción a la Física del Estado Sólido | Charles Kittel | Reverté   | 1995 |
 
 ### Listas de reproducción
 
-| Autor | Nombre | Año |
-| --- | --- | --- |
+| Autor                | Nombre                                                | Año                                                                                  |
+| -------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | `54` Pablo Cornaglia | Curso abreviado de Física del Estado Sólido (IB 2021) | [2022, es](https://www.youtube.com/playlist?list=PLt0p9VyP1dONpYkXDhDlE9wY5X9nyxwST) |
-| `21` María Varela | Física del Estado Sólido [UCM 20/21] | [2021, es](https://www.youtube.com/playlist?list=PLppzU9a2axuTsADX5nfh7rsk0htwdxuZe) |
+| `21` María Varela    | Física del Estado Sólido [UCM 20/21]                  | [2021, es](https://www.youtube.com/playlist?list=PLppzU9a2axuTsADX5nfh7rsk0htwdxuZe) |
 
 ### Software
 

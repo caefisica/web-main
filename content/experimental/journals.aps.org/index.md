@@ -21,4 +21,10 @@ functionalities: ["revisado por pares"]
 Extracto traducido automáticamente de "APS Physics"
 ```
 
-La PRL publica informes breves y de alta calidad sobre los avances más influyentes y las ideas más transformadoras en todo el arco de la investigación física fundamental e interdisciplinaria. Se distingue por la profundidad y amplitud de su cobertura de los amplios subcampos de la física. La PRL agradece los manuscritos que informen sobre avances fundamentales que influyan en la investigación de otros. Todas las Cartas publicadas cumplen al menos uno de sus estrictos criterios de aceptación.
+La PRL publica informes breves y de alta calidad sobre los avances más
+influyentes y las ideas más transformadoras en todo el arco de la investigación
+física fundamental e interdisciplinaria. Se distingue por la profundidad y
+amplitud de su cobertura de los amplios subcampos de la física. La PRL agradece
+los manuscritos que informen sobre avances fundamentales que influyan en la
+investigación de otros. Todas las Cartas publicadas cumplen al menos uno de sus
+estrictos criterios de aceptación.

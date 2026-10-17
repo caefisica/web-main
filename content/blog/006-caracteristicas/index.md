@@ -1,8 +1,12 @@
 ---
 title: "¡Nueva versión! 0.8.9"
 emoji: ":tada:"
-description: "Se han añadido varias funciones desde el lanzamiento inicial de esta página, aquí una lista de ellos y los que tengo planeados añadir."
-lead: "Se han añadido varias funciones desde el lanzamiento inicial de esta página, aquí una lista de ellos y también de los que tengo planeados añadir."
+description:
+  "Se han añadido varias funciones desde el lanzamiento inicial de esta página,
+  aquí una lista de ellos y los que tengo planeados añadir."
+lead:
+  "Se han añadido varias funciones desde el lanzamiento inicial de esta página,
+  aquí una lista de ellos y también de los que tengo planeados añadir."
 date: 2022-04-03T00:09:00+01:00
 lastmod: 2022-04-03T00:09:00+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
@@ -17,7 +21,9 @@ sidenote: true
 weight: 60
 ---
 
-El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de Sites de Google, sin embargo, este es un servicio muy limitado. Motivo por el cual optamos por diseñar una página propia.
+El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de
+Sites de Google, sin embargo, este es un servicio muy limitado. Motivo por el
+cual optamos por diseñar una página propia.
 
 1. **Lanzamiento**
 

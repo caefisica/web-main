@@ -26,6 +26,7 @@ Según el plan de estudios, se cubren los siguientes temas generalmente:
 
 ### Teóricos
 
-Estos son algunos de los libros que abordan de manera extensa la teoría y conceptos del curso:
+Estos son algunos de los libros que abordan de manera extensa la teoría y
+conceptos del curso:
 
 {{< resource-table resource="books-theoretical.yaml" type="book" >}}

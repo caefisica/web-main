@@ -15,7 +15,8 @@ types: ["matemática"]
 
 ## ¿Qué temas se ven en Cálculo II?
 
-El curso de Cálculo II se puede dividir en los siguientes temas de forma general:
+El curso de Cálculo II se puede dividir en los siguientes temas de forma
+general:
 
 - Integrales Indefinidas
 - Integrales Definidas

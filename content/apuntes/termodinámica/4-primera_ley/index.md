@@ -1,7 +1,14 @@
 ---
 title: "Primera ley"
-description: "Explicación de la Primera Ley de la Termodinámica, su aplicación en sistemas cerrados y abiertos, y cómo se relaciona con funciones termodinámicas y capacidades caloríficas a volumen y presión constantes."
-lead: "Estudio de la Primera Ley de la Termodinámica, que establece la conservación de la energía calorífica, y su aplicación en distintos sistemas y condiciones termodinámicas, incluyendo el cálculo de capacidades caloríficas y funciones de estado."
+description:
+  "Explicación de la Primera Ley de la Termodinámica, su aplicación en sistemas
+  cerrados y abiertos, y cómo se relaciona con funciones termodinámicas y
+  capacidades caloríficas a volumen y presión constantes."
+lead:
+  "Estudio de la Primera Ley de la Termodinámica, que establece la conservación
+  de la energía calorífica, y su aplicación en distintos sistemas y condiciones
+  termodinámicas, incluyendo el cálculo de capacidades caloríficas y funciones
+  de estado."
 date: 2022-02-01T02:00:00
 draft: false
 weight: 20
@@ -52,7 +59,8 @@ $$
 \end{align}
 $$
 
-**Función de estado:** Dependen del estado inicial y final. (Entropía, Entalpía,etc)
+**Función de estado:** Dependen del estado inicial y final. (Entropía,
+Entalpía,etc)
 
 $$
 \begin{align}
@@ -80,7 +88,8 @@ Si $p=\text{cte}$: $C_p=[C]_p$
   \end{align}
   $$
 
-  Si $C=C_v$, donde el volumen es constante. Sabemos que la capacidad calorífica esta definida de forma general como:
+  Si $C=C_v$, donde el volumen es constante. Sabemos que la capacidad calorífica
+  esta definida de forma general como:
 
   $$
   \begin{align}
@@ -89,7 +98,8 @@ Si $p=\text{cte}$: $C_p=[C]_p$
   \end{align}
   $$
 
-  Y para el volumen constante reemplazamos $\eqref{ecuación 8}$ en $\eqref{ecuación 9}$:
+  Y para el volumen constante reemplazamos $\eqref{ecuación 8}$ en
+  $\eqref{ecuación 9}$:
 
   $$
   \begin{align}
@@ -101,7 +111,8 @@ Si $p=\text{cte}$: $C_p=[C]_p$
 
 - Calcular $U$ si se tiene $C_v$ donde $dV=0$:
 
-  Si obtenemos la derivada total de la energía interna donde $U=U(T,V)$, obtenemos:
+  Si obtenemos la derivada total de la energía interna donde $U=U(T,V)$,
+  obtenemos:
 
   $$
   \begin{align}
@@ -117,7 +128,8 @@ Si $p=\text{cte}$: $C_p=[C]_p$
   \end{align}
   $$
 
-  Pero sabemos que la capacidad calorífica a volumen constante esta definida como:
+  Pero sabemos que la capacidad calorífica a volumen constante esta definida
+  como:
 
   $$
   \begin{align}
@@ -218,7 +230,8 @@ $$
 \end{align}
 $$
 
-donde $d \varepsilon= \mu dN$ (sistema monocomponente)\footnote{$\mu$ es conocido como el potencial quimico.}, $d \varepsilon \approx dN$.
+donde $d \varepsilon= \mu dN$ (sistema monocomponente)\footnote{$\mu$ es
+conocido como el potencial quimico.}, $d \varepsilon \approx dN$.
 
 De forma general tenemos:
 

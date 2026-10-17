@@ -13,7 +13,10 @@ weight: 705
 date: 2022-09-09T16:00:00
 ---
 
-{{< details "Acerca de los libros" >}} Para el curso se ven los temas del magnetismo en el vacío y en materiales. Siguen las ecuaciones de Maxwell en forma integral y diferencial. Finalmente, la ecuación de la onda electromagética. {{< /details >}}
+{{< details "Acerca de los libros" >}} Para el curso se ven los temas del
+magnetismo en el vacío y en materiales. Siguen las ecuaciones de Maxwell en
+forma integral y diferencial. Finalmente, la ecuación de la onda
+electromagética. {{< /details >}}
 
 El plan de estudios incluye los siguientes temas:
 
@@ -28,9 +31,9 @@ El plan de estudios incluye los siguientes temas:
 
 ### Teóricos
 
-| Nombre | Autor | Editorial | Año |
-| --- | --- | --- | --- |
-| Introduction to Electrodynamics | David J. Griffiths | Prentice Hall | 1999 |
+| Nombre                                    | Autor                 | Editorial     | Año  |
+| ----------------------------------------- | --------------------- | ------------- | ---- |
+| Introduction to Electrodynamics           | David J. Griffiths    | Prentice Hall | 1999 |
 | Fundamentos de la teoría electromagnética | Frederick J. Mildford | Prentice Hall | 1999 |
 
 ## Listas de reproducción

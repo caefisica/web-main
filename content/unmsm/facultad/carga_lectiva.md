@@ -1,7 +1,11 @@
 ---
 title: "Carga lectiva"
-description: "En esta sección se detallan los procedimiento administrativos de la Facultad de Ciencias Físicas."
-lead: "En esta sección se detallan los procedimiento administrativos de la Facultad de Ciencias Físicas."
+description:
+  "En esta sección se detallan los procedimiento administrativos de la Facultad
+  de Ciencias Físicas."
+lead:
+  "En esta sección se detallan los procedimiento administrativos de la Facultad
+  de Ciencias Físicas."
 contributors: ["david"]
 date: 2022-09-09T08:48:45+00:00
 draft: false

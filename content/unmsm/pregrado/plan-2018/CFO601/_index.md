@@ -13,7 +13,9 @@ weight: 601
 date: 2023-06-14T16:00:00
 ---
 
-Desde los experimentos pioneros de Faraday y Maxwell en el siglo XIX, la teoría del electromagnetismo ha demostrado ser fundamental en nuestra comprensión del universo.
+Desde los experimentos pioneros de Faraday y Maxwell en el siglo XIX, la teoría
+del electromagnetismo ha demostrado ser fundamental en nuestra comprensión del
+universo.
 
 El plan de estudios incluye los siguientes temas:
 

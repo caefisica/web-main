@@ -21,4 +21,7 @@ functionalities: ["web"]
 Detalles
 ```
 
-Puedes encontrar los servicios en línea brindados por la Superintendencia Nacional de Educación Superior Universitaria (SUNEDU), entre las más relevantas quizá sea el estado de tu carné, pero también puedes solicitar el reconocimiento de grados y títulos extranjeros, entre otros.
+Puedes encontrar los servicios en línea brindados por la Superintendencia
+Nacional de Educación Superior Universitaria (SUNEDU), entre las más relevantas
+quizá sea el estado de tu carné, pero también puedes solicitar el reconocimiento
+de grados y títulos extranjeros, entre otros.

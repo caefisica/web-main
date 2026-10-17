@@ -21,6 +21,8 @@ functionalities: ["web"]
 Detalles
 ```
 
-La página es publicada por la Oficina de Estadísticas Laborales de los Estados Unidos de América.
+La página es publicada por la Oficina de Estadísticas Laborales de los Estados
+Unidos de América.
 
-Contiene datos como el nivel de empleabilidad, sueldo por hora, mes y año. Incluye mapas visuales sobre la empleabilidad por estado.
+Contiene datos como el nivel de empleabilidad, sueldo por hora, mes y año.
+Incluye mapas visuales sobre la empleabilidad por estado.

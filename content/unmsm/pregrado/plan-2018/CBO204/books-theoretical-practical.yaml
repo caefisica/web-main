@@ -29,7 +29,8 @@
   edition: 1ra ed.
   url: https://web.archive.org/web/20220419202918/http://ciencias.bogota.unal.edu.co/fileadmin/Facultad_de_Ciencias/Publicaciones/Imagenes/Portadas_Libros/Matematicas/Calculo_Integral/CalculoIntegral.pdf
 - author: Bayod, José.
-  title: Cálculo Integral para primer curso de los Grados en Matemáticas y en Física
+  title:
+    Cálculo Integral para primer curso de los Grados en Matemáticas y en Física
   editorial: "España: Universidad de Cantabria"
   year: "2017"
   edition: ""

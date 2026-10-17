@@ -21,4 +21,6 @@ functionalities: ["web"]
 Extracto de "GEFT UNI"
 ```
 
-**Objetivo**: Incentivar la investigación científica en alumnos de pregrado y buscamos que a través de esta plataforma puedan estar enterados sobre nuestras actividades y sobre qué hacemos.
+**Objetivo**: Incentivar la investigación científica en alumnos de pregrado y
+buscamos que a través de esta plataforma puedan estar enterados sobre nuestras
+actividades y sobre qué hacemos.
