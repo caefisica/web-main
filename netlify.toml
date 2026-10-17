@@ -1,21 +1,16 @@
 [build]
 publish = "public"
 functions = "functions"
-command = "git config core.quotepath false && bun install && bun run build"
-
-[build.environment]
-HUGO_VERSION = "0.168.0"
-NODE_VERSION = "26"
-BUN_VERSION = "1.4.3"
+command = "bash build.sh"
 
 [context.deploy-preview]
-command = "git config core.quotepath false && bun install && bun run build -- -b $DEPLOY_PRIME_URL"
+command = "bash build.sh -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-command = "git config core.quotepath false && bun install && bun run build -- -b $DEPLOY_PRIME_URL"
+command = "bash build.sh -b $DEPLOY_PRIME_URL"
 
 [context.next]
-command = "git config core.quotepath false && bun install && bun run build"
+command = "bash build.sh"
 
 [context.next.environment]
 HUGO_ENV = "next"
@@ -26,7 +21,7 @@ node_bundler = "esbuild"
 
 [dev]
 framework = "#custom"
-command = "bun run hugo:start"
+command = "mise run dev"
 targetPort = 1313
 port = 8888
 publish = "public"
