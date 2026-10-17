@@ -1,28 +1,17 @@
 @use "sass:color";
 
-/** Theme variables */
-
-// Source: https://material.io/design/color/dark-theme.html
-
 $body-bg-dark: $gray-900;
 $body-overlay-dark: color.adjust($body-bg-dark, $lightness: -2.5%);
-
-/*
-$border-dark: darken($body-bg-dark, 2.5%);
-*/
 $border-dark: $gray-800;
 $body-color-dark: $gray-300;
 $dots-dark: color.adjust($body-color-dark, $lightness: -50%);
 
 $link-color-dark: $indigo-300;
 $button-color-dark: $link-color-dark;
-$focus-color-dark: lighten($link-color-dark, 2.5%);
 
 $navbar-dark-color: $body-color-dark;
 $navbar-dark-hover-color: $link-color-dark;
 $navbar-dark-active-color: $link-color-dark;
-
-/** Theme styles */
 
 [data-dark-mode] {
   body {
@@ -37,7 +26,6 @@ $navbar-dark-active-color: $link-color-dark;
       }
     }
 
-    // Fix for text and h3 from Newsletter
     p,
     h3 {
       color: $body-color-dark;
@@ -308,13 +296,6 @@ $navbar-dark-active-color: $link-color-dark;
   background: $body-overlay-dark;
   border: 1px solid transparent;
   color: $gray-300;
-
-  /*
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%236c757d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-search'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right calc(0.375em + 0.1875rem) center;
-  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
-  */
 }
 
 [data-dark-mode] body .form-control.is-search:focus {
@@ -329,13 +310,6 @@ $navbar-dark-active-color: $link-color-dark;
 [data-dark-mode] body .text-dark {
   color: $body-color-dark !important;
 }
-
-/*
-[data-dark-mode] body .navbar-form::after {
-  color: $gray-600;
-  border: 1px solid $gray-800;
-}
-*/
 
 [data-dark-mode] body .form-control {
   color: $gray-300;
@@ -508,13 +482,6 @@ $navbar-dark-active-color: $link-color-dark;
   color: $link-color-dark;
 }
 
-/*
-[data-dark-mode] body .dropdown-toggle:focus,
-[data-dark-mode] body .doks-sidebar-toggle:focus {
-  box-shadow: 0 0 0 0.2rem $focus-color-dark;
-}
-*/
-
 [data-dark-mode] body .offcanvas {
   background-color: $body-bg-dark;
 }
@@ -529,12 +496,6 @@ $navbar-dark-active-color: $link-color-dark;
     background-size: 1.25rem;
   }
 }
-
-/*
-[data-dark-mode] body .btn-close:focus {
-  box-shadow: 0 0 0 0.2rem $focus-color-dark;
-}
-*/
 
 [data-dark-mode] .dropdown-item {
   color: $body-bg-dark;
