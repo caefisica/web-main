@@ -95,8 +95,8 @@ Los shortcodes están en `layouts/shortcodes/` y se describen en
   fingerprinta. PurgeCSS lee `layouts/**/*.html` y `content/**/*.md`: una clase
   que solo aparece en otro lugar se elimina salvo que esté en su `safelist`.
 - `layouts/partials/footer/script-footer.html` compila los `.ts` de `assets/js/`
-  con esbuild (`js.Build`). El paquete base (`main.js`) reúne newsletter, atajos
-  de teclado y Netlify Identity, más lazysizes, clipboard e instant.page cuando
+  con esbuild (`js.Build`). El paquete base (`main.js`) reúne newsletter y
+  atajos de teclado, más lazysizes, clipboard e instant.page cuando
   `params.toml` los activa. Bootstrap y highlight.js se cargan aparte, según
   `params.toml`. KaTeX se carga con `math: true` en el front matter y Mermaid
   con `mermaid: true`. El buscador solo se carga en la portada y en `unmsm` y
