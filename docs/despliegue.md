@@ -51,12 +51,17 @@ rastreador actualiza en cada despliegue de `master`. Dónde se carga el buscador
 - `assets.directory = "./public"` sirve el sitio; las rutas inexistentes
   devuelven `404.html` (`not_found_handling = "404-page"`).
 
-`build.sh` instala mise si falta, instala las herramientas de `mise.toml` (sin
-`wrangler`, `go` ni `gotmplfmt`), completa el historial de git si el clon es
-superficial y ejecuta `mise run install` y `mise run build`. Los argumentos de
-`build.sh` pasan a `hugo`. Hugo necesita el historial completo porque
-`enableGitInfo` calcula la fecha de última modificación de cada página desde
-git.
+`build.sh` instala su propia copia de mise en `~/.local/bin` e ignora el mise y
+las variables `MISE_*` de la imagen de compilación. Después instala las
+herramientas de `mise.toml` (sin `wrangler`, `go` ni `gotmplfmt`), completa el
+historial de git si el clon es superficial y ejecuta `mise run install` y
+`mise run build`. Los argumentos de `build.sh` pasan a `hugo`. Hugo necesita el
+historial completo porque `enableGitInfo` calcula la fecha de última
+modificación de cada página desde git.
+
+El paso de compilación de Workers Builds es el campo **Build command** de
+_Settings > Build_ del Worker `web` en el panel de Cloudflare. Debe ser
+`bash build.sh`. El campo **Deploy command** se queda en `npx wrangler deploy`.
 
 ## Cabeceras y redirecciones
 
