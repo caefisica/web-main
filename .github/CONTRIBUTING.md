@@ -34,7 +34,8 @@ Si no sabes en qué carpeta va un archivo nuevo, mira las
 3. Crea una rama, haz tus cambios y comprueba que pasan las verificaciones:
 
    ```bash
-   bun run check
+   mise run fix
+   mise run check
    ```
 
 4. Envía un pull request a `master` con un título y una descripción claros.

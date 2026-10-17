@@ -7,12 +7,11 @@ destinos con su propia configuración: Netlify y Cloudflare.
 
 [`netlify.toml`](../netlify.toml):
 
-- Compila con `git config core.quotepath false && bun install && bun run build`
-  y publica `public/`.
-- `HUGO_VERSION`, `NODE_VERSION` y `BUN_VERSION` fijan las herramientas.
+- Compila con `bash build.sh` y publica `public/`. Ver [Cloudflare](#cloudflare)
+  para lo que hace `build.sh`.
 - Las vistas previas de pull requests y los despliegues de rama compilan con
-  `-b $DEPLOY_PRIME_URL` para que los enlaces apunten a la URL de la vista
-  previa.
+  `bash build.sh -b $DEPLOY_PRIME_URL` para que los enlaces apunten a la URL de
+  la vista previa.
 - El contexto `next` define `HUGO_ENV=next`, que activa `config/next/`.
 - El plugin `@algolia/netlify-plugin-crawler` rastrea el sitio en los
   despliegues de la rama `master`. `netlify-plugin-cloudinary` se ejecuta en
@@ -52,10 +51,12 @@ rastreador actualiza en cada despliegue de `master`. Dónde se carga el buscador
 - `assets.directory = "./public"` sirve el sitio; las rutas inexistentes
   devuelven `404.html` (`not_found_handling = "404-page"`).
 
-`build.sh` descarga Hugo extendido, completa el historial de git si el clon es
-superficial, ejecuta `bun install` y `bun run build`. Hugo necesita el historial
-completo porque `enableGitInfo` calcula la fecha de última modificación de cada
-página desde git.
+`build.sh` instala mise si falta, instala las herramientas de `mise.toml` (sin
+`wrangler`, `go` ni `gotmplfmt`), completa el historial de git si el clon es
+superficial y ejecuta `mise run install` y `mise run build`. Los argumentos de
+`build.sh` pasan a `hugo`. Hugo necesita el historial completo porque
+`enableGitInfo` calcula la fecha de última modificación de cada página desde
+git.
 
 ## Cabeceras y redirecciones
 
@@ -72,12 +73,10 @@ un recurso externo, agrega su dominio a la lista que corresponda: `scriptsrc`,
 
 ## Versiones de herramientas
 
-La versión de Hugo está en [`mise.toml`](../mise.toml),
-[`netlify.toml`](../netlify.toml), [`build.sh`](../build.sh) y
-[`ci_nodejs.yml`](../.github/workflows/ci_nodejs.yml). La de Bun está en
-`mise.toml`, `netlify.toml`, `ci_nodejs.yml` y
-[`generate_screenshots.yml`](../.github/workflows/generate_screenshots.yml).
-Cámbiala en todos a la vez.
+[`mise.toml`](../mise.toml) fija la versión de cada herramienta: Hugo, Bun,
+Node, Go, Wrangler y `gotmplfmt`. Los flujos de GitHub y
+[`build.sh`](../build.sh) las leen de ahí. Cambia una versión solo en
+`mise.toml`.
 
 ## Flujos de GitHub
 
@@ -85,7 +84,7 @@ Todos los flujos se pueden lanzar a mano.
 
 | Flujo                      | Cuándo                                                                                          | Qué hace                                                                                                             |
 | -------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `ci_nodejs.yml`            | Pull request y push a `master`                                                                  | `gotmplfmt -l layouts data` y `bun run check`.                                                                       |
+| `ci.yml`                   | Pull request y push a `master`                                                                  | `mise run install` y `mise run check`.                                                                               |
 | `check_broken_links.yml`   | Pull request y push a `master` con cambios en `content/`; los lunes                             | Revisa los enlaces de `content/` con [`.404-links.yml`](../.404-links.yml).                                          |
 | `generate_screenshots.yml` | El día 1 de cada mes                                                                            | Abre un pull request con capturas nuevas.                                                                            |
 | `analyze_codeql.yml`       | Pull request y push a `master` con cambios en `layouts/`, `assets/` o `functions/`; los viernes | Análisis CodeQL de JavaScript.                                                                                       |

@@ -19,7 +19,7 @@ content/unmsm/pregrado/plan-2018/CFO601/
 Crea el archivo con el molde `pregrado`:
 
 ```bash
-bun run hugo:create content --kind pregrado unmsm/pregrado/plan-2018/CFO601/_index.md
+mise run new content --kind pregrado unmsm/pregrado/plan-2018/CFO601/_index.md
 ```
 
 Campos del front matter que usan las plantillas:
@@ -110,7 +110,7 @@ Un sílabo es una carpeta de semestre dentro del curso
 cuyo nombre empiece por `silabo`:
 
 ```bash
-bun run hugo:create content --kind offering unmsm/pregrado/plan-2018/CFO601/2024-I/index.md
+mise run new content --kind offering unmsm/pregrado/plan-2018/CFO601/2024-I/index.md
 ```
 
 ```yaml
@@ -135,7 +135,7 @@ en un visor. Sin PDF muestra «No hay sílabo disponible para este semestre».
 Un docente es `content/professors/<slug>/index.md`:
 
 ```bash
-bun run hugo:create content --kind professor professors/fulgencio-villegas-silva/index.md
+mise run new content --kind professor professors/fulgencio-villegas-silva/index.md
 ```
 
 ```yaml

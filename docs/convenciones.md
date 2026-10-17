@@ -53,7 +53,7 @@ y escribe LaTeX con KaTeX.
 
 ## Crear un archivo
 
-`bun run hugo:create content` (`hugo new content`) copia un molde de
+`mise run new content` (`hugo new content`) copia un molde de
 [`archetypes/`](../archetypes). Hugo elige el molde por la carpeta; para otros,
 indícalo con `--kind`:
 
@@ -67,7 +67,7 @@ indícalo con `--kind`:
 | `default.md`      | Cualquier otra carpeta.                 |
 
 ```bash
-bun run hugo:create content --kind pregrado unmsm/pregrado/plan-2018/CFO999/_index.md
+mise run new content --kind pregrado unmsm/pregrado/plan-2018/CFO999/_index.md
 ```
 
 Los moldes `blog`, `experimental`, `pregrado` y `default` crean la página con
