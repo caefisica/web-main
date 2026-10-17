@@ -41,11 +41,8 @@
 		</span>
 	</div>
 	{{ $image := index .Params.images 0 -}}
-	{{ .Store.Set "src" $image -}}
-	{{ .Store.Set "alt" .Title -}}
-	{{ .Store.Set "class" "card-img-top m-0 p-0" -}}
 	<div class="card my-3">
-		{{ partial "main/img.html" . }}
+		{{ partial "main/img.html" (dict "page" . "src" $image "alt" .Title "class" "card-img-top m-0 p-0") }}
 	</div>
 	<h1>{{ .Title }}</h1>
 	<p class="lead">{{ .Params.lead | safeHTML }}</p>

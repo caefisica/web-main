@@ -1,10 +1,7 @@
 <div class="card h-100">
 	{{ $page := . -}}
 	{{ with .Params.images -}}
-		{{ $page.Store.Set "src" (index . 0) -}}
-		{{ $page.Store.Set "alt" $page.Title -}}
-		{{ $page.Store.Set "class" "card-img-top" -}}
-		{{ partial "main/img.html" $page }}
+		{{ partial "main/img.html" (dict "page" $page "src" (index . 0) "alt" $page.Title "class" "card-img-top") }}
 	{{ end -}}
 	<div class="card-body">
 		<h5 class="card-title mt-2">

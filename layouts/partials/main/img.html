@@ -1,7 +1,11 @@
-{{- $image := .Page.Resources.GetMatch (printf "*%s*" (.Store.Get "src")) -}}
+{{- /*
+Renders a page resource image as a lazy-loaded figure.
+Usage: partial "main/img.html" (dict "page" . "src" "cover" "alt" .Title "class" "card-img-top")
+*/ -}}
+{{- $image := .page.Resources.GetMatch (printf "*%s*" .src) -}}
 {{- $img := partial "components/image-srcset.html" (dict "image" $image) -}}
 
-<figure{{ with .Store.Get "class" }} class="{{ . }}"{{ end }}>
+<figure{{ with .class }} class="{{ . }}"{{ end }}>
 	<img
 		class="img-fluid lazyload blur-up"
 		data-sizes="auto"
@@ -9,7 +13,7 @@
 		data-srcset="{{ $img.srcset }}"
 		width="{{ $image.Width }}"
 		height="{{ $image.Height }}"
-		{{ with .Store.Get "alt" }}alt="{{ . }}"{{ end }}
+		{{ with .alt }}alt="{{ . }}"{{ end }}
 	>
 	<noscript><img
 			class="img-fluid"
@@ -18,10 +22,7 @@
 			src="{{ $img.src }}"
 			width="{{ $image.Width }}"
 			height="{{ $image.Height }}"
-			{{ with .Store.Get "alt" }}alt="{{ . }}"{{ end }}
+			{{ with .alt }}alt="{{ . }}"{{ end }}
 		>
 	</noscript>
-	{{- with .Store.Get "caption" -}}
-		<figcaption class="figure-caption">{{ . | safeHTML }}</figcaption>
-	{{- end -}}
 </figure>
