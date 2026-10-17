@@ -5,11 +5,8 @@ connectsrc:
   - https://*.algolia.net
   - https://*.algolianet.com
   - https://*.algolia.io
-  - https://cdn.splitbee.io/
   - https://*.cloudinary.com
-  - https://unpkg.com
   - https://*.workers.dev
-  - https://player.vimeo.com/
 
 fontsrc:
   - "'self'"
@@ -21,7 +18,6 @@ framesrc:
   - https://*.netlify.com
   - https://d.cae.workers.dev
   - https://www.youtube.com
-  - https://player.vimeo.com
 
 imgsrc:
   - "'self'"
@@ -29,7 +25,6 @@ imgsrc:
   - https://*.netlify.app
   - https://*.cloudinary.com
   - https://i.imgur.com
-  - https://i.ytimg.com
   - "data:"
   - "blob:"
 
@@ -37,10 +32,6 @@ manifestsrc:
   - "'self'"
   - https://caefisica.com
   - https://*.netlify.app
-
-prefetchsrc:
-  - "'self'"
-  - https://res.cloudinary.com/dubu/
 
 stylesrc:
   - "'self'"
@@ -53,11 +44,7 @@ scriptsrc:
   - https://caefisica.com
   - https://*.netlify.com
   - https://*.netlify.app
-  - https://unpkg.com
-  - https://cdn.splitbee.io
-  - https://hive.caefisica.com
   - https://www.youtube.com
-  - https://player.vimeo.com
   - "'unsafe-inline'"
 
 workersrc:
