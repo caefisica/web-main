@@ -53,11 +53,13 @@ rastreador actualiza en cada despliegue de `master`. Dónde se carga el buscador
 
 `build.sh` instala su propia copia de mise en `~/.local/bin` e ignora el mise y
 las variables `MISE_*` de la imagen de compilación. Después instala las
-herramientas de `mise.toml` (sin `wrangler`, `go` ni `gotmplfmt`), completa el
-historial de git si el clon es superficial y ejecuta `mise run install` y
-`mise run build`. Los argumentos de `build.sh` pasan a `hugo`. Hugo necesita el
-historial completo porque `enableGitInfo` calcula la fecha de última
-modificación de cada página desde git.
+herramientas de `mise.toml` (sin `wrangler`, `go` ni `gotmplfmt`), antepone al
+`PATH` el `node` de mise, porque Hugo ejecuta `postcss` con el primer `node` que
+encuentra y la imagen de Netlify trae uno más antiguo (Node 16, de nvm),
+completa el historial de git si el clon es superficial y ejecuta
+`mise run install` y `mise run build`. Los argumentos de `build.sh` pasan a
+`hugo`. Hugo necesita el historial completo porque `enableGitInfo` calcula la
+fecha de última modificación de cada página desde git.
 
 El paso de compilación de Workers Builds es el campo **Build command** de
 _Settings > Build_ del Worker `web` en el panel de Cloudflare. Debe ser

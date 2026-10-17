@@ -2,8 +2,8 @@
 set -euo pipefail
 
 main() {
-  # Netlify and Cloudflare images ship their own mise, often older, and may set
-  # MISE_* variables. Build with a mise of our own and the repository's config.
+  # Netlify y Cloudflare pueden proporcionar una versión distinta de mise y
+  # variables MISE_*. Usa la versión instalada aquí y la configuración del repo.
   # shellcheck disable=SC2046
   unset $(compgen -v MISE_ || true)
   local mise_bin="${HOME}/.local/bin/mise"
@@ -12,12 +12,20 @@ main() {
   curl -fsSL https://mise.run | MISE_INSTALL_PATH="${mise_bin}" sh
   "${mise_bin}" --version
 
-  # The deploy only needs Hugo. Skip developer-only tools.
+  # El despliegue solo necesita Hugo. Omite las herramientas de desarrollo.
   export MISE_DISABLE_TOOLS="wrangler,go,go:github.com/gohugoio/gotmplfmt"
 
   echo "==> Installing tools"
   "${mise_bin}" trust
   "${mise_bin}" install
+
+  # Hugo ejecuta postcss con el primer node del PATH, y la imagen de Netlify
+  # pone el suyo (nvm, v16) antes. mise respeta las entradas que ya encabezan el
+  # PATH, así que se antepone una carpeta con el node de mise.
+  local node_dir
+  node_dir="$(mktemp -d)"
+  ln -s "$("${mise_bin}" which node)" "${node_dir}/node"
+  export PATH="${node_dir}:${PATH}"
 
   git config core.quotepath false
   if [ "$(git rev-parse --is-shallow-repository)" = "true" ]; then
