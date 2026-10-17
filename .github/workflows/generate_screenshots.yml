@@ -11,17 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: "1.4.3"
+      - uses: jdx/mise-action@v5
 
-      - run: bun install --frozen-lockfile
+      - run: mise run install
 
-      - name: Install Playwright Chromium
-        run: bunx playwright install --with-deps chromium
+      - run: mise run install:browser
 
-      - name: Generate screenshots
-        run: bun run screenshots
+      - run: mise run screenshots
 
       - id: vars
         run: echo "SHA_SHORT=$(git rev-parse --short HEAD)" >> "$GITHUB_ENV"
